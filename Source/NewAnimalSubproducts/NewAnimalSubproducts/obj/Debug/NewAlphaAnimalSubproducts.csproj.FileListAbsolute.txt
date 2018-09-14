@@ -2,3 +2,6 @@ E:\SteamLibrary\steamapps\common\RimWorld\Mods\AlphaAnimals-B19\Assemblies\NewAl
 E:\SteamLibrary\steamapps\common\RimWorld\Mods\AlphaAnimals-B19\Source\NewAnimalSubproducts\NewAnimalSubproducts\obj\Debug\NewAlphaAnimalSubproducts.csproj.CoreCompileInputs.cache
 E:\SteamLibrary\steamapps\common\RimWorld\Mods\AlphaAnimals-B19\Source\NewAnimalSubproducts\NewAnimalSubproducts\obj\Debug\NewAlphaAnimalSubproducts.dll
 E:\SteamLibrary\steamapps\common\RimWorld\Mods\AlphaAnimals-B19\Source\NewAnimalSubproducts\NewAnimalSubproducts\obj\Debug\NewAlphaAnimalSubproducts.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlphaAnimals B19\Assemblies\NewAlphaAnimalSubproducts.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlphaAnimals B19\Source\NewAnimalSubproducts\NewAnimalSubproducts\obj\Debug\NewAlphaAnimalSubproducts.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlphaAnimals B19\Source\NewAnimalSubproducts\NewAnimalSubproducts\obj\Debug\NewAlphaAnimalSubproducts.dll

@@ -11,6 +11,9 @@
     </comps>
 	<statBases>
       <Nutrition>0.05</Nutrition>
+	  <Flammability>0.5</Flammability>
+      <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+
 	</statBases>
     <ingestible>
       <foodType>Meat</foodType>
@@ -33,8 +36,9 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
-	  <Mass>1</Mass>
-      <MarketValue>0.5</MarketValue>
+	  <Mass>0.03</Mass>
+	  
+      <MarketValue>2</MarketValue>
     </statBases>
     <ingestible>
       <specialThoughtDirect>AteRawFood</specialThoughtDirect>

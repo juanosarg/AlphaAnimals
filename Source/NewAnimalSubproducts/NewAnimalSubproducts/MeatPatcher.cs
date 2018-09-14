@@ -30,24 +30,28 @@ namespace NewAlphaAnimalSubproducts
     public static class Thing_ButcherProducts_Patch
     {
         [HarmonyPostfix]
-        static void ChangeMeatAmountByAge(Thing __instance, float efficiency, IEnumerable<Thing> __result)
+        static void ChangeMeatAmountByAge(Thing __instance, float efficiency, ref IEnumerable<Thing> __result)
         {
+            var thingies = __result.ToList();
+            var pawn = (Pawn)__instance;
 
             if ((__instance.def.butcherProducts != null)&& (__instance.def.defName == "AA_Aerofleet"))
             {
-                Log.Message("Beginning meat search", false);
+                Log.Message("Adding meat butcher products", false);
 
-                for (int i = 0; i < __instance.def.butcherProducts.Count; i++)
-                {
-                    ThingDefCountClass ta = __instance.def.butcherProducts[i];
-                    int count = GenMath.RoundRandom((float)ta.count * efficiency);
+                
+                    ThingDefCountClass ta = __instance.def.butcherProducts[0];
+                     float num = pawn.health.hediffSet.GetCoverageOfNotMissingNaturalParts(pawn.RaceProps.body.corePart);
+                     int count = GenMath.RoundRandom((pawn.BodySize*90* efficiency*num));
                     if (count > 0)
                     {
                         Thing t = ThingMaker.MakeThing(ta.thingDef, null);
                         t.stackCount = count;
-                        __result =  t;
+                        thingies.Insert(1, t);
+
+                    __result = thingies;
                     }
-                }
+                
 
             }
 
@@ -57,23 +61,6 @@ namespace NewAlphaAnimalSubproducts
     }
     
 
-   /* [HarmonyPatch(typeof(Pawn))]
-    [HarmonyPatch("GetGizmos")]
-    public static class ThingDefGenerator_Meat_ImpliedMeatDefs_Patch2
-    {
-        [HarmonyPrefix]
-        static void ChangeMeatGraphic2()
-        {
-            Log.Message("Beginning meat search", false);
-
-          
-
-
-
-        }
-    }
-
-    */
 
 
 

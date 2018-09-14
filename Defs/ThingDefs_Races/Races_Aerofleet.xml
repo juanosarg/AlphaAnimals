@@ -10,6 +10,7 @@
       <MoveSpeed>2.84</MoveSpeed>
       <ComfyTemperatureMin>-25</ComfyTemperatureMin>
       <MarketValue>120</MarketValue>
+	  <MeatAmount>0</MeatAmount>
     </statBases>
     <tools>
       <li>
@@ -74,7 +75,7 @@
       </wildBiomes>
     </race>
 	<butcherProducts>
-      <AA_AerofleetMeat>24</AA_AerofleetMeat>
+      <AA_AerofleetMeat>2</AA_AerofleetMeat>
     </butcherProducts>
     <tradeTags>
       <li>StandardAnimal</li>
