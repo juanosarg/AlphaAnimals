@@ -73,7 +73,9 @@
         <AridShrubland>0.02</AridShrubland>
       </wildBiomes>
     </race>
-
+	<butcherProducts>
+      <AA_AerofleetMeat>24</AA_AerofleetMeat>
+    </butcherProducts>
     <tradeTags>
       <li>StandardAnimal</li>
     </tradeTags>

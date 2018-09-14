@@ -25,34 +25,40 @@ namespace NewAlphaAnimalSubproducts
 
     }
   
-    [HarmonyPatch(typeof(ThingDefGenerator_Meat))]
-    [HarmonyPatch("ImpliedMeatDefs")]
-    public static class ThingDefGenerator_Meat_ImpliedMeatDefs_Patch
+    [HarmonyPatch(typeof(Thing))]
+    [HarmonyPatch("ButcherProducts")]
+    public static class Thing_ButcherProducts_Patch
     {
         [HarmonyPostfix]
-        static void ChangeMeatGraphic(ref IEnumerable<ThingDef> __result)
+        static void ChangeMeatAmountByAge(Thing __instance, float efficiency, IEnumerable<Thing> __result)
         {
-            Log.Message("Beginning meat search", false);
 
-            IEnumerable<ThingDef> meatsList = __result; 
-            foreach (ThingDef sourceDef in meatsList)
+            if ((__instance.def.butcherProducts != null)&& (__instance.def.defName == "AA_Aerofleet"))
             {
-                if (sourceDef.defName == "Meat_AA_Aerofleet") {
-                    Log.Message("Found the correct meat", false);
-                    sourceDef.graphicData.texPath = "Things/Item/Resource/MeatFoodRaw/Meat_Human";
+                Log.Message("Beginning meat search", false);
 
+                for (int i = 0; i < __instance.def.butcherProducts.Count; i++)
+                {
+                    ThingDefCountClass ta = __instance.def.butcherProducts[i];
+                    int count = GenMath.RoundRandom((float)ta.count * efficiency);
+                    if (count > 0)
+                    {
+                        Thing t = ThingMaker.MakeThing(ta.thingDef, null);
+                        t.stackCount = count;
+                        __result =  t;
+                    }
                 }
-            }
 
-            __result = meatsList;
+            }
 
 
 
         }
     }
+    
 
-    [HarmonyPatch(typeof(ThingDefGenerator_Meat))]
-    [HarmonyPatch("ImpliedMeatDefs")]
+   /* [HarmonyPatch(typeof(Pawn))]
+    [HarmonyPatch("GetGizmos")]
     public static class ThingDefGenerator_Meat_ImpliedMeatDefs_Patch2
     {
         [HarmonyPrefix]
@@ -67,7 +73,7 @@ namespace NewAlphaAnimalSubproducts
         }
     }
 
-
+    */
 
 
 
