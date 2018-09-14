@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+
+  <!--========== AA leathers ============-->
+
+  <ThingDef ParentName="LeatherBase">
+    <defName>AA_Leather_Aerofleet</defName>
+    <label>aerofleet fur</label>
+    <description>A fuzzy, soft layer of pliable material. Not as tough as other types of leather, but a decent insulator.</description>
+    <graphicData>
+      <color>(108,157,177)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>3.0</MarketValue>
+      <StuffPower_Armor_Sharp>0.54</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.14</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>18</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>18</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(108,157,177)</color>
+      <commonality>0.025</commonality>
+      <statFactors>
+        <MaxHitPoints>1.5</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+ 
+
+</Defs>
