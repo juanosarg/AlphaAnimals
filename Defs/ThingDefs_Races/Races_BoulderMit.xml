@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ============================================================ -->
+
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>Bouldermit</defName>
+    <label>bouldermit</label>
+    <description>
+      A large genetically-engineered crab which uses a boulder for a shell. It is alternatively known as the Atlas Crab throughout various colonized planets. These massive creatures sport incredible strength and are commonly seen carrying giant boulders that would normally crush living things and machinery alike. Legends tell of one such creature that has grown so large and so powerful that it had entire mountains for a home.
+      Despite first impressions, it is quite peaceful. Preferring to ignore any form of assault it may receive. Its predators are more likely to die of old age than to take down such an armored creature.
+    </description>
+    <statBases>
+      <MoveSpeed>1.00</MoveSpeed>
+      <ComfyTemperatureMin>-65</ComfyTemperatureMin>
+      <MarketValue>2500</MarketValue>
+      <ArmorRating_Blunt>0.7</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.7</ArmorRating_Sharp>
+    </statBases>
+    <tools>
+      <!-- <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>28</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>28</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li> -->
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>32</power>
+        <cooldownTime>2.1</cooldownTime>
+        <linkedBodyPartsGroup>TurtleBeakAttackTool</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <commonality>0.2</commonality>
+      </li>
+    </tools>
+    <race>
+      <wildBiomes>
+        <BorealForest>0.03</BorealForest>
+        <Tundra>0.03</Tundra>
+        <ColdBog>0.03</ColdBog>
+        <TemperateForest>0.05</TemperateForest>
+        <TemperateSwamp>0.05</TemperateSwamp>
+        <TropicalRainforest>0.05</TropicalRainforest>
+        <TropicalSwamp>0.04</TropicalSwamp>
+        <AridShrubland>0.04</AridShrubland>
+        <Desert>0.03</Desert>
+        <ExtremeDesert>0.02</ExtremeDesert>      
+      </wildBiomes>
+      <herdAnimal>false</herdAnimal>
+      <predator>false</predator>
+      <body>TurtleLike</body>
+      <baseBodySize>4.00</baseBodySize>
+      <baseHungerRate>2.0</baseHungerRate>
+      <baseHealthScale>9.0</baseHealthScale>
+      <foodType>VegetarianRoughAnimal</foodType>
+      <leatherColor>(127,129,154)</leatherColor>
+      <leatherLabel>bouldermit carapace</leatherLabel>
+      <leatherInsulation>1.1</leatherInsulation>
+      <wildness>0.9</wildness>
+      <manhunterOnDamageChance>1.0</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0.2</manhunterOnTameFailChance>
+      <trainableIntelligence>Simple</trainableIntelligence>
+      <gestationPeriodDays>120</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(0.99, 0)</li>
+          <li>(1, 1)</li>
+          <li>(1.01, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeExpectancy>120</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>1</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>2.50</minAge>
+          <!--<soundWounded>Pawn_ArcticLion_Wounded</soundWounded>
+          <soundDeath>Pawn_ArcticLion_Death</soundDeath>
+          <soundCall>Pawn_ArcticLion_Call</soundCall>
+          <soundAngry>Pawn_ArcticLion_Angry</soundAngry>-->
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>Bouldermit</defName>
+    <label>bouldermit</label>
+    <race>Bouldermit</race>
+    <combatPower>350</combatPower>
+    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
+    <wildSpawn_EcoSystemWeight>0.2</wildSpawn_EcoSystemWeight>
+    <lifeStages>
+      <li>
+        <label>bouldermit</label>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/BoulderMit</texPath>
+          <drawSize>1.5</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
+          <drawSize>1.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <label>bouldermit</label>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/BoulderMit</texPath>
+          <drawSize>2.7</drawSize>
+          <shadowData>
+            <volume>(0.6, 0.45, 0.45)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
+          <drawSize>2.7</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/BoulderMit</texPath>
+          <drawSize>3.5</drawSize>
+          <shadowData>
+            <volume>(0.8, 0.6, 0.6)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
+          <drawSize>3.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+</Defs>

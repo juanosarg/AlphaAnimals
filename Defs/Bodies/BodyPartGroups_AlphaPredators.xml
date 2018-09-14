@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<BodyPartGroupDef>
+		<defName>Body</defName>
+		<label>body</label>
+	</BodyPartGroupDef>
+
+	<BodyPartGroupDef>
+		<defName>Mouth</defName>
+		<label>mouth</label>
+	</BodyPartGroupDef>
+
+	<BodyPartGroupDef>
+		<defName>Sting</defName>
+		<label>stinger</label>
+	</BodyPartGroupDef>
+
+	<BodyPartGroupDef>
+		<defName>PincerAttackTool</defName>
+		<label>pincer</label>
+	</BodyPartGroupDef>
+
+	<BodyPartGroupDef>
+		<defName>BladeAttackTool</defName>
+		<label>blade</label>
+	</BodyPartGroupDef>
+
+	<BodyPartGroupDef>
+		<defName>LegAttackTool</defName>
+		<label>leg</label>
+	</BodyPartGroupDef>
+
+	<BodyPartGroupDef>
+		<defName>TuskAttackTool</defName>
+		<label>tusk</label>
+	</BodyPartGroupDef>
+
+</Defs>

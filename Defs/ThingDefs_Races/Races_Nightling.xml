@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>Nightling</defName>
+    <label>nightling</label>
+    <description>
+      A large deformed beast with rows of quills on its back.
+      But during these past few decades, disturbing reports of ravaged corpses peppered with black javelins started to increase in alarming numbers. With entire caravans slaughtered in ways worse than any pirate group could possibly accomplish. People started to fear the dark and the cackling horrors waiting within them.
+    </description>
+    <statBases>
+      <MoveSpeed>5.00</MoveSpeed>
+      <ComfyTemperatureMin>-35</ComfyTemperatureMin>
+      <MarketValue>750</MarketValue>
+    </statBases>
+    <tools>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <capacities>
+          <li>ToxicBite</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>2.0</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <commonality>0.2</commonality>
+      </li>
+    </tools>
+    <comps>
+      <li Class="CompProperties_EggLayer">
+        <eggFertilizedDef>EggNightlingFertilized</eggFertilizedDef>
+        <eggFertilizationCountMax>1</eggFertilizationCountMax>
+        <eggLayIntervalDays>10.5</eggLayIntervalDays>
+        <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+        <eggCountRange>
+          <min>1</min>
+          <max>2</max>
+        </eggCountRange>
+      </li>
+    </comps>
+    <race>
+      <body>QuadrupedAnimalWithPawsAndTail</body>
+      <predator>true</predator>
+      <petness>0.5</petness>
+      <baseBodySize>1.0</baseBodySize>
+      <baseHungerRate>0.25</baseHungerRate>
+      <baseHealthScale>1.15</baseHealthScale>
+      <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+      <leatherColor>(24,24,31)</leatherColor>
+      <leatherLabel>nightling fur</leatherLabel>
+      <leatherInsulation>1.5</leatherInsulation>
+      <trainableIntelligence>Advanced</trainableIntelligence>
+      <gestationPeriodDays>22.5</gestationPeriodDays>
+      <nameOnTameChance>1</nameOnTameChance>
+      <wildness>0.90</wildness>
+      <manhunterOnDamageChance>1</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0.018</manhunterOnTameFailChance>
+      <nuzzleMtbHours>30</nuzzleMtbHours>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(2, 1.7)</li>
+          <li>(3, 0.7)</li>
+          <li>(3.5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeExpectancy>15</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.2</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.45</minAge>
+          <soundWounded>Pawn_Warg_Wounded</soundWounded>
+          <soundDeath>Pawn_Warg_Death</soundDeath>
+          <soundCall>Pawn_Warg_Call</soundCall>
+          <soundAngry>Pawn_Warg_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+      <wildBiomes>
+        <BorealForest>0.03</BorealForest>
+        <Tundra>0.03</Tundra>
+        <ColdBog>0.03</ColdBog>
+        <TemperateForest>0.05</TemperateForest>
+        <TemperateSwamp>0.05</TemperateSwamp>
+        <TropicalRainforest>0.05</TropicalRainforest>
+        <TropicalSwamp>0.04</TropicalSwamp>
+        <AridShrubland>0.04</AridShrubland>
+        <Desert>0.03</Desert>
+        <ExtremeDesert>0.02</ExtremeDesert>      
+      </wildBiomes>
+    </race>
+    <tradeTags>
+      <li>BadassAnimal</li>
+    </tradeTags>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>Nightling</defName>
+    <label>nightling</label>
+    <race>Nightling</race>
+    <combatPower>125</combatPower>
+    <lifeStages>
+      <li>
+        <label>nightling cub</label>
+        <labelPlural>nightling puppies</labelPlural>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Nightling/NightlingPuppy</texPath>
+          <drawSize>1.05</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Nightling/NightlingPuppy</texPath>
+          <drawSize>1.7</drawSize>
+          <shadowData>
+            <volume>(0.25, 0.3, 0.25)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1.4</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Nightling/Nightling</texPath>
+          <drawSize>2.05</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.4, 0.3)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1.7</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
+    <wildSpawn_EcoSystemWeight>0.9</wildSpawn_EcoSystemWeight>
+    <wildSpawn_GroupSizeRange>
+      <min>2</min>
+      <max>5</max>
+    </wildSpawn_GroupSizeRange>
+  </PawnKindDef>
+
+</Defs>

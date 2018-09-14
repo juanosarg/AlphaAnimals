@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- ============================================================ -->
+
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>ArcticLion</defName>
+    <label>arctic lion</label>
+    <description>These large descendants of the now extinct lion were specifically engineered as ambush units by the navy for extreme low temp environments. Its fur is prized throughout the black market for its unique light reflecting ability and its tough leather provides surprisingly high thermal insulation.
+
+    Even though its danger and capabilities are common knowledge; many still attempt to bag its head. Those who try usually end up losing theirs.</description>
+    <statBases>
+      <MoveSpeed>6</MoveSpeed>
+      <ComfyTemperatureMin>-70</ComfyTemperatureMin>
+      <MarketValue>3500</MarketValue>
+    </statBases>
+    <tools>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>25</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>25</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>1.85</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.75</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <commonality>0.2</commonality>
+      </li>
+    </tools>
+    <comps>
+      <li Class="CompProperties_Shearable">
+        <woolDef>ArcticLionWool</woolDef>
+        <shearIntervalDays>30</shearIntervalDays>
+        <woolAmount>20</woolAmount>
+      </li>
+    </comps>
+    <race>
+      <body>QuadrupedAnimalWithPawsAndTail</body>
+      <herdAnimal>false</herdAnimal>
+      <wildBiomes>
+        <IceSheet>0.01</IceSheet>
+        <Tundra>0.02</Tundra>
+        <SeaIce>0.01</SeaIce>
+        <ColdBog>0.02</ColdBog>
+        <BorealForest>0.02</BorealForest>
+      </wildBiomes>
+      <baseBodySize>2</baseBodySize>
+      <baseHungerRate>0.8</baseHungerRate>
+      <baseHealthScale>2.5</baseHealthScale>
+      <leatherLabel>arctic lion fur</leatherLabel>
+      <leatherColor>(127,129,154)</leatherColor>
+      <leatherInsulation>1.5</leatherInsulation>
+      <wildness>0.90</wildness>
+      <manhunterOnTameFailChance>0.2</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>1</manhunterOnDamageChance>
+      <gestationPeriodDays>30</gestationPeriodDays>
+      <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+      <lifeExpectancy>18</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.5</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>1.5</minAge>
+          <soundWounded>Pawn_Cougar_Injured</soundWounded>
+          <soundDeath>Pawn_Cougar_Death</soundDeath>
+          <soundAngry>Pawn_Cougar_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>BadassAnimal</li>
+    </tradeTags>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>ArcticLion</defName>
+    <label>arctic lion</label>
+    <labelPlural>arctic lion</labelPlural>
+    <race>ArcticLion</race>
+    <combatPower>300</combatPower>
+    <wildSpawn_EcoSystemWeight>0.5</wildSpawn_EcoSystemWeight>
+    <lifeStages>
+      <li>
+        <label>arctic lion cub</label>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/ArcticLion</texPath>
+          <drawSize>1.2</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1.2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <label>arctic lion juvenile</label>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/ArcticLion</texPath>
+          <drawSize>1.85</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1.85</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/ArcticLion</texPath>
+          <drawSize>2.5</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.4, 0.4)</volume>
+            <offset>(0,0,-0.1)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>2.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+
+
+</Defs>

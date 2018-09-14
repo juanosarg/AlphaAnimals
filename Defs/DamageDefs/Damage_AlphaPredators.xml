@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<DamageDef Name="Sting" ParentName="LocalInjuryBase">
+		<defName>ToxicSting</defName>
+		<label>toxic sting</label>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been stung to death.</deathMessage>
+		<hediff>Stab</hediff>
+		<hediffSolid>Crack</hediffSolid>
+		<additionalHediffs>
+			<li>
+				<hediff>ToxicBuildup</hediff>
+				<severityPerDamageDealt>0.004</severityPerDamageDealt>
+			</li>
+		</additionalHediffs>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Slice</impactSoundType>
+		<armorCategory>Sharp</armorCategory>
+	</DamageDef>
+
+	<ToolCapacityDef>
+		<defName>ToxicSting</defName>
+		<label>toxic stinging</label>
+	</ToolCapacityDef>
+
+	<DamageDef ParentName="LocalInjuryBase">
+		<defName>Pierce</defName>
+		<label>pierce</label>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been gored to death.</deathMessage>
+		<hediff>Stab</hediff>
+		<hediffSolid>Crack</hediffSolid>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Slice</impactSoundType>
+		<armorCategory>Sharp</armorCategory>
+	</DamageDef>
+
+	<ToolCapacityDef>
+		<defName>Pierce</defName>
+		<label>piercing</label>
+	</ToolCapacityDef>
+
+	<DamageDef ParentName="LocalInjuryBase">
+		<defName>BodyCrush</defName>
+		<label>crush</label>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been crushed to death.</deathMessage>
+		<hediff>Crush</hediff>
+		<hediffSkin>Shredded</hediffSkin>
+		<hediffSolid>Crack</hediffSolid>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Blunt</impactSoundType>
+		<armorCategory>Blunt</armorCategory>
+	</DamageDef>
+
+  <ToolCapacityDef>
+    <defName>BodyCrush</defName>
+    <label>crushing</label>
+  </ToolCapacityDef>
+
+</Defs>

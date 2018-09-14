@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ============================================================ -->
+
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>TetraSlug</defName>
+    <label>tetra slug</label>
+    <description>
+     These massive slugs are a common sight among Glitterworld controlled territories; Lumbering about as glorified power plants. Outside of it, they are deployed as a mobile power source for Glitterworld research expeditions.
+     It is rare to see one without the iconic power cores that protrude from their backs. As their unique bodily chemical composition are capable of outputting power that far surpasses any known natural sources. Thus they are widely valued by every technologically developing civilization throughout the galaxy.
+     While a gentle giant that would prefer to run away instead of fight, modified slugs come armored with plasteel shells, quad cores that can act as Tesla cannons, and a Tactical AI inserted within the brain that takes over and makes no hesitation to use all of its armament to obliterate any perceived threat within vicinity.
+    </description>
+    <statBases>
+      <MoveSpeed>0.6</MoveSpeed>
+      <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+      <MarketValue>4000</MarketValue>
+    </statBases>
+    <tools>
+      <li>
+        <label>left paw</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>2.0</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>21</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right paw</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>2.0</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>21</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>21</power>
+        <cooldownTime>1.8</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>41</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <commonality>0.2</commonality>
+      </li>
+    </tools>
+    <race>
+      <wildBiomes>
+        <BorealForest>0.001</BorealForest>
+        <IceSheet>0.001</IceSheet>
+        <Tundra>0.001</Tundra>
+        <ColdBog>0.001</ColdBog>
+        <SeaIce>0.001</SeaIce>
+        <TemperateSwamp>0.001</TemperateSwamp>
+        <TropicalSwamp>0.001</TropicalSwamp>
+        <TemperateForest>0.001</TemperateForest>
+        <TropicalRainforest>0.001</TropicalRainforest>
+        <AridShrubland>0.001</AridShrubland>
+        <Desert>0.001</Desert>
+        <ExtremeDesert>0.001</ExtremeDesert>
+      </wildBiomes>
+      <herdAnimal>false</herdAnimal>
+      <predator>false</predator>
+      <body>QuadrupedAnimalWithPaws</body>
+      <baseBodySize>5.00</baseBodySize>
+      <baseHungerRate>3.0</baseHungerRate>
+      <baseHealthScale>4.0</baseHealthScale>
+      <foodType>OmnivoreRoughAnimal</foodType>
+      <meatColor>(160,150,140)</meatColor>
+      <leatherColor>(127,129,154)</leatherColor>
+      <leatherLabel>tetra slug leather</leatherLabel>
+      <leatherInsulation>1.2</leatherInsulation>
+      <wildness>0.9</wildness>
+      <manhunterOnDamageChance>1.0</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0.2</manhunterOnTameFailChance>
+      <trainableIntelligence>Advanced</trainableIntelligence>
+      <gestationPeriodDays>150</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(0.99, 0)</li>
+          <li>(1, 1)</li>
+          <li>(1.01, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeExpectancy>30</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.30</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>1.50</minAge>
+          <!--<soundWounded>Pawn_ArcticLion_Wounded</soundWounded>
+          <soundDeath>Pawn_ArcticLion_Death</soundDeath>
+          <soundCall>Pawn_ArcticLion_Call</soundCall>
+          <soundAngry>Pawn_ArcticLion_Angry</soundAngry>-->
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>TetraSlug</defName>
+    <label>tetra slug</label>
+    <race>TetraSlug</race>
+    <combatPower>650</combatPower>
+    <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
+    <lifeStages>
+      <li>
+        <label>tetra slug</label>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/TetraSlug</texPath>
+          <drawSize>2.5</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
+          <drawSize>2.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <label>tetra slug</label>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/TetraSlug</texPath>
+          <drawSize>3.2</drawSize>
+          <shadowData>
+            <volume>(0.6, 0.45, 0.45)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
+          <drawSize>3.2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/TetraSlug</texPath>
+          <drawSize>4.1</drawSize>
+          <shadowData>
+            <volume>(0.8, 0.6, 0.6)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
+          <drawSize>4.1</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+</Defs>

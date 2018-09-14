@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_Barb</defName>
+    <label>rock</label>
+    <graphicData>
+      <texPath>Things/Projectiles/Barb</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>ToxicSting</damageDef>
+      <damageAmountBase>5</damageAmountBase>
+      <speed>64</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- ============================================================ -->
+
+  <ThingDef ParentName="BaseInsect">
+    <defName>Barbslinger</defName>
+    <label>barbslinger</label>
+    <description>A large genetically-modified scorpion. No one really knows where they came from. But judging by its ability to rip apart living things within reach and shish kebab those outside of it; it’s a monster made for war.</description>
+    <statBases>
+      <MoveSpeed>4.00</MoveSpeed>
+      <ComfyTemperatureMin>-2</ComfyTemperatureMin>
+      <MarketValue>3500</MarketValue>
+      <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+    </statBases>
+    <tools>
+      <li>
+        <label>left pincer</label>
+        <cooldownTime>1.5</cooldownTime>
+        <power>20</power>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <linkedBodyPartsGroup>PincerAttackTool</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right pincer</label>
+        <cooldownTime>1.5</cooldownTime>
+        <power>20</power>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <linkedBodyPartsGroup>PincerAttackTool</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <capacities>
+          <li>ToxicBite</li>
+        </capacities>
+        <cooldownTime>2</cooldownTime>
+        <power>15</power>
+        <linkedBodyPartsGroup>Sting</linkedBodyPartsGroup>
+      </li>
+      <!-- <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_Barb</projectileDef>
+        <warmupTicks>200</warmupTicks>
+        <range>24</range>
+      </li> -->
+    </tools>
+    <race>
+      <wildBiomes>
+        <Desert>0.03</Desert>
+        <ExtremeDesert>0.03</ExtremeDesert>
+        <AridShrubland>0.03</AridShrubland>
+      </wildBiomes>
+      <body>ScorpionLike</body>
+      <herdAnimal>false</herdAnimal>
+      <predator>true</predator>
+      <baseBodySize>2.50</baseBodySize>
+      <baseHungerRate>1.0</baseHungerRate>
+      <baseHealthScale>2.0</baseHealthScale>
+      <fleshType>Insectoid</fleshType>
+      <bloodDef>FilthBloodInsect</bloodDef>
+      <meatColor>(160,150,140)</meatColor>
+      <foodType>OmnivoreAnimal, AnimalProduct</foodType>
+      <leatherColor>(169,156,23)</leatherColor>
+      <leatherLabel>barbslinger chitin</leatherLabel>
+      <leatherInsulation>0.7</leatherInsulation>
+      <wildness>0.9</wildness>
+      <trainableIntelligence>Intermediate</trainableIntelligence>
+      <gestationPeriodDays>20</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(2, 1.7)</li>
+          <li>(3, 0.7)</li>
+          <li>(3.5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeExpectancy>7</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.14</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.70</minAge>
+          <!--					<soundWounded>Pawn_Muffalo_Wounded</soundWounded>
+					<soundDeath>Pawn_Muffalo_Death</soundDeath>
+					<soundCall>Pawn_Muffalo_Call</soundCall>
+					<soundAngry>Pawn_Muffalo_Angry</soundAngry> -->
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>Barbslinger</defName>
+    <race>Barbslinger</race>
+    <label>barbslinger</label>
+    <combatPower>500</combatPower>
+    <wildSpawn_EcoSystemWeight>0.2</wildSpawn_EcoSystemWeight>
+    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
+    <wildSpawn_GroupSizeRange>
+      <min>1</min>
+      <max>3</max>
+    </wildSpawn_GroupSizeRange>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/BarbSlinger</texPath>
+          <drawSize>0.5</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <drawSize>0.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/BarbSlinger</texPath>
+          <drawSize>0.9</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <drawSize>0.9</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/BarbSlinger</texPath>
+          <drawSize>1.2</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <drawSize>1.2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+</Defs>

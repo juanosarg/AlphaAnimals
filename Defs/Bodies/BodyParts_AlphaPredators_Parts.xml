@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<BodyPartDef>
+		<defName>Thorax</defName>
+		<label>thorax</label>
+		<hitPoints>60</hitPoints>
+		<frostbiteVulnerability>0.8</frostbiteVulnerability>
+		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<skinCovered>false</skinCovered>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>InsectTail</defName>
+		<label>tail</label>
+		<hitPoints>10</hitPoints>
+		<frostbiteVulnerability>0.8</frostbiteVulnerability>
+		<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+		<skinCovered>false</skinCovered>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>InsectMouth</defName>
+		<label>mouth</label>
+		<hitPoints>10</hitPoints>
+		<frostbiteVulnerability>0.8</frostbiteVulnerability>
+		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<skinCovered>false</skinCovered>
+		<tags>
+			<li>EatingSource</li>
+		</tags>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>InsectSting</defName>
+		<label>stinger</label>
+		<hitPoints>3</hitPoints>
+		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<skinCovered>false</skinCovered>
+		<isSolid>true</isSolid>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>LeftPincer</defName>
+		<label>left pincer</label>
+		<hitPoints>5</hitPoints>
+		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<skinCovered>false</skinCovered>
+		<isSolid>true</isSolid>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>RightPincer</defName>
+		<label>right pincer</label>
+		<hitPoints>5</hitPoints>
+		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<skinCovered>false</skinCovered>
+		<isSolid>true</isSolid>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>SentientPlantBody</defName>
+		<label>sentient plant body</label>
+		<hitPoints>40</hitPoints>
+		<frostbiteVulnerability>1</frostbiteVulnerability>
+		<oldInjuryBaseChance>0.7</oldInjuryBaseChance>
+		<skinCovered>true</skinCovered>
+		<useDestroyedOutLabel>true</useDestroyedOutLabel>
+		<tags>
+			<li>MovingLimbCore</li>
+		</tags>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>SentientPlantHead</defName>
+		<label>sentient plant head</label>
+		<hitPoints>30</hitPoints>
+		<frostbiteVulnerability>1</frostbiteVulnerability>
+		<oldInjuryBaseChance>0.3</oldInjuryBaseChance>
+		<skinCovered>true</skinCovered>
+		<useDestroyedOutLabel>true</useDestroyedOutLabel>
+		<tags>
+			<li>HearingSource</li>
+		</tags>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>SentientPlantMouth</defName>
+		<label>sentient plant mouth</label>
+		<hitPoints>10</hitPoints>
+		<frostbiteVulnerability>0.8</frostbiteVulnerability>
+		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<skinCovered>true</skinCovered>
+		<useDestroyedOutLabel>true</useDestroyedOutLabel>
+		<tags>
+			<li>EatingSource</li>
+			<li>TalkingSource</li>
+		</tags>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>LeftFirstEye</defName>
+		<label>left first eye</label>
+		<hitPoints>8</hitPoints>
+		<frostbiteVulnerability>1</frostbiteVulnerability>
+		<oldInjuryBaseChance>0.7</oldInjuryBaseChance>
+		<skinCovered>false</skinCovered>
+		<useDestroyedOutLabel>true</useDestroyedOutLabel>
+		<tags>
+			<li>SightSource</li>
+		</tags>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>LeftSecondEye</defName>
+		<label>left second eye</label>
+		<hitPoints>8</hitPoints>
+		<frostbiteVulnerability>1</frostbiteVulnerability>
+		<oldInjuryBaseChance>0.7</oldInjuryBaseChance>
+		<skinCovered>false</skinCovered>
+		<useDestroyedOutLabel>true</useDestroyedOutLabel>
+		<tags>
+			<li>SightSource</li>
+		</tags>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>LeftThirdEye</defName>
+		<label>left third eye</label>
+		<hitPoints>8</hitPoints>
+		<frostbiteVulnerability>1</frostbiteVulnerability>
+		<oldInjuryBaseChance>0.7</oldInjuryBaseChance>
+		<skinCovered>false</skinCovered>
+		<useDestroyedOutLabel>true</useDestroyedOutLabel>
+		<tags>
+			<li>SightSource</li>
+		</tags>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>LeftFourthEye</defName>
+		<label>left first eye</label>
+		<hitPoints>8</hitPoints>
+		<frostbiteVulnerability>1</frostbiteVulnerability>
+		<oldInjuryBaseChance>0.7</oldInjuryBaseChance>
+		<skinCovered>false</skinCovered>
+		<useDestroyedOutLabel>true</useDestroyedOutLabel>
+		<tags>
+			<li>SightSource</li>
+		</tags>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>RightFirstEye</defName>
+		<label>right first eye</label>
+		<hitPoints>8</hitPoints>
+		<frostbiteVulnerability>1</frostbiteVulnerability>
+		<oldInjuryBaseChance>0.7</oldInjuryBaseChance>
+		<skinCovered>false</skinCovered>
+		<useDestroyedOutLabel>true</useDestroyedOutLabel>
+		<tags>
+			<li>SightSource</li>
+		</tags>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>RightSecondEye</defName>
+		<label>right second eye</label>
+		<hitPoints>8</hitPoints>
+		<frostbiteVulnerability>1</frostbiteVulnerability>
+		<oldInjuryBaseChance>0.7</oldInjuryBaseChance>
+		<skinCovered>false</skinCovered>
+		<useDestroyedOutLabel>true</useDestroyedOutLabel>
+		<tags>
+			<li>SightSource</li>
+		</tags>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>RightThirdEye</defName>
+		<label>right third eye</label>
+		<hitPoints>8</hitPoints>
+		<frostbiteVulnerability>1</frostbiteVulnerability>
+		<oldInjuryBaseChance>0.7</oldInjuryBaseChance>
+		<skinCovered>false</skinCovered>
+		<useDestroyedOutLabel>true</useDestroyedOutLabel>
+		<tags>
+			<li>SightSource</li>
+		</tags>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>RightFourthEye</defName>
+		<label>right first eye</label>
+		<hitPoints>8</hitPoints>
+		<frostbiteVulnerability>1</frostbiteVulnerability>
+		<oldInjuryBaseChance>0.7</oldInjuryBaseChance>
+		<skinCovered>false</skinCovered>
+		<useDestroyedOutLabel>true</useDestroyedOutLabel>
+		<tags>
+			<li>SightSource</li>
+		</tags>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>LeftFirstLeg</defName>
+		<label>left first leg</label>
+		<hitPoints>30</hitPoints>
+		<frostbiteVulnerability>0.8</frostbiteVulnerability>
+		<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+		<skinCovered>true</skinCovered>
+		<tags>
+			<li>MovingLimbCore</li>
+		</tags>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>LeftSecondLeg</defName>
+		<label>left second leg</label>
+		<hitPoints>30</hitPoints>
+		<frostbiteVulnerability>0.8</frostbiteVulnerability>
+		<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+		<skinCovered>true</skinCovered>
+		<tags>
+			<li>MovingLimbCore</li>
+		</tags>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>LeftThirdLeg</defName>
+		<label>left third leg</label>
+		<hitPoints>30</hitPoints>
+		<frostbiteVulnerability>0.8</frostbiteVulnerability>
+		<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+		<skinCovered>true</skinCovered>
+		<tags>
+			<li>MovingLimbCore</li>
+		</tags>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>LeftFourthLeg</defName>
+		<label>left fourth leg</label>
+		<hitPoints>30</hitPoints>
+		<frostbiteVulnerability>0.8</frostbiteVulnerability>
+		<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+		<skinCovered>true</skinCovered>
+		<tags>
+			<li>MovingLimbCore</li>
+		</tags>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>RightFirstLeg</defName>
+		<label>right first leg</label>
+		<hitPoints>30</hitPoints>
+		<frostbiteVulnerability>0.8</frostbiteVulnerability>
+		<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+		<skinCovered>true</skinCovered>
+		<tags>
+			<li>MovingLimbCore</li>
+		</tags>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>RightSecondLeg</defName>
+		<label>right second leg</label>
+		<hitPoints>30</hitPoints>
+		<frostbiteVulnerability>0.8</frostbiteVulnerability>
+		<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+		<skinCovered>true</skinCovered>
+		<tags>
+			<li>MovingLimbCore</li>
+		</tags>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>RightThirdLeg</defName>
+		<label>right third leg</label>
+		<hitPoints>30</hitPoints>
+		<frostbiteVulnerability>0.8</frostbiteVulnerability>
+		<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+		<skinCovered>true</skinCovered>
+		<tags>
+			<li>MovingLimbCore</li>
+		</tags>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>RightFourthLeg</defName>
+		<label>right fourth leg</label>
+		<hitPoints>30</hitPoints>
+		<frostbiteVulnerability>0.8</frostbiteVulnerability>
+		<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+		<skinCovered>true</skinCovered>
+		<tags>
+			<li>MovingLimbCore</li>
+		</tags>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>LeftCreatureLimb</defName>
+		<label>left limb</label>
+		<hitPoints>30</hitPoints>
+		<oldInjuryBaseChance>0.7</oldInjuryBaseChance>
+		<frostbiteVulnerability>1</frostbiteVulnerability>
+		<skinCovered>true</skinCovered>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>RightCreatureLimb</defName>
+		<label>right limb</label>
+		<hitPoints>30</hitPoints>
+		<oldInjuryBaseChance>0.7</oldInjuryBaseChance>
+		<frostbiteVulnerability>1</frostbiteVulnerability>
+		<skinCovered>true</skinCovered>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>LeftCreatureBlade</defName>
+		<label>left blade</label>
+		<hitPoints>15</hitPoints>
+		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<skinCovered>false</skinCovered>
+		<isSolid>true</isSolid>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>RightCreatureBlade</defName>
+		<label>right blade</label>
+		<hitPoints>15</hitPoints>
+		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<skinCovered>false</skinCovered>
+		<isSolid>true</isSolid>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>FirstWormSegment</defName>
+		<label>first body segment</label>
+		<hitPoints>25</hitPoints>
+		<oldInjuryBaseChance>0.7</oldInjuryBaseChance>
+		<skinCovered>true</skinCovered>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>SecondWormSegment</defName>
+		<label>second body segment</label>
+		<hitPoints>25</hitPoints>
+		<oldInjuryBaseChance>0.7</oldInjuryBaseChance>
+		<skinCovered>true</skinCovered>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>ThirdWormSegment</defName>
+		<label>third body segment</label>
+		<hitPoints>25</hitPoints>
+		<oldInjuryBaseChance>0.7</oldInjuryBaseChance>
+		<skinCovered>true</skinCovered>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>FourthWormSegment</defName>
+		<label>fourth body segment</label>
+		<hitPoints>25</hitPoints>
+		<oldInjuryBaseChance>0.7</oldInjuryBaseChance>
+		<skinCovered>true</skinCovered>
+	</BodyPartDef>
+
+</Defs>

@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>MammothWorm</defName>
+		<label>Mammoth Worm</label>
+		<description>An extremely large, genetically-engineered worm. Despite its incredibly intimidating size and arsenal, these huge creatures are rather quite peaceful. It was once part of the worker caste of an artificial ecosystem of insectoids designed to fight mechanoid invasions. It carried and moved things that its little cousins cannot.
+		While generally peaceful, if provoked, it becomes a terrifying force that can rival those of mechanoid Centipedes.</description>
+		<statBases>
+			<MoveSpeed>2.0</MoveSpeed>
+			<ComfyTemperatureMin>0</ComfyTemperatureMin>
+			<MarketValue>1400</MarketValue>
+			<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+		</statBases>
+		<tools>
+			<li>
+				<label>body</label>
+				<capacities>
+					<li>BodyCrush</li>
+				</capacities>
+				<power>30</power>
+				<cooldownTime>1.9</cooldownTime>
+				<linkedBodyPartsGroup>Body</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>21</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1.9</cooldownTime>
+				<linkedBodyPartsGroup>TuskAttackTool</linkedBodyPartsGroup>
+			</li>
+		</tools>
+		<race>
+			<wildBiomes>
+				<AridShrubland>0.03</AridShrubland>
+				<Desert>0.03</Desert>
+				<ExtremeDesert>0.03</ExtremeDesert>
+			</wildBiomes>
+			<herdAnimal>false</herdAnimal>
+			<body>WormWithArmorAndTusks</body>
+			<baseBodySize>3.00</baseBodySize>
+			<baseHungerRate>1.2</baseHungerRate>
+			<baseHealthScale>3.0</baseHealthScale>
+			<fleshType>Insectoid</fleshType>
+			<bloodDef>FilthBloodInsect</bloodDef>
+			<meatColor>(160,150,140)</meatColor>
+			<foodType>OmnivoreAnimal, AnimalProduct</foodType>
+			<leatherColor>(102,93,93)</leatherColor>
+			<leatherLabel>terramorph worm plate</leatherLabel> <!-- *** Convert to Plate later *** -->
+			<leatherInsulation>1.0</leatherInsulation>
+			<wildness>0.9</wildness>
+			<trainableIntelligence>Intermediate</trainableIntelligence>
+			<gestationPeriodDays>90</gestationPeriodDays>
+			<litterSizeCurve>
+				<points>
+					<li>(0.99, 0)</li>
+					<li>(1, 1)</li>
+					<li>(1.01, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>45</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.90</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>4.50</minAge>
+					<soundWounded>Pawn_Terramorph_Wounded</soundWounded>
+					<soundDeath>Pawn_Terramorph_Death</soundDeath>
+					<soundCall>Pawn_Terramorph_Call</soundCall>
+					<soundAngry>Pawn_Terramorph_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+		</race>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>MammothWorm</defName>
+		<race>MammothWorm</race>
+		<label>mammoth worm</label>
+		<combatPower>200</combatPower>
+		<wildSpawn_EcoSystemWeight>0.2</wildSpawn_EcoSystemWeight>
+		<wildSpawn_spawnWild>true</wildSpawn_spawnWild>
+		<wildSpawn_GroupSizeRange>
+			<min>3</min>
+			<max>5</max>
+		</wildSpawn_GroupSizeRange>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/TerramorphWorm</texPath>
+					<drawSize>1.8</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+					<drawSize>1.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/TerramorphWorm</texPath>
+					<drawSize>3.2</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+					<drawSize>3.2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/TerramorphWorm</texPath>
+					<drawSize>4.1</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+					<drawSize>3.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+</Defs>
