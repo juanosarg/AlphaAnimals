@@ -15,6 +15,20 @@
     <minRefireDays>13</minRefireDays>
   </IncidentDef>
   
+  <IncidentDef>
+    <defName>AA_IncidentStalkingArcticLion</defName>
+    <label>stalking arctic lion</label>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>AlphaBehavioursAndEvents.IncidentWorker_StalkingArcticLion</workerClass>
+    <baseChance>0.5</baseChance>
+    <category>ThreatBig</category>
+    <minRefireDays>8</minRefireDays>
+    <pointsScaleable>true</pointsScaleable>
+   
+  </IncidentDef>
+  
   
 
 </Defs>

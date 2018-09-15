@@ -1,6 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
+
+<!-- ======================== Barbslinger ======================== -->
+
+	<SoundDef>
+		<defName>AA_DartSound</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>AA_DartSound</clipFolderPath>
+					</li>
+				</grains>
+				
+				<pitchRange>
+					<min>0.9770588</min>
+					<max>1.137647</max>
+				</pitchRange>
+				<distRange>
+					<min>0</min>
+					<max>50.40025</max>
+				</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+
 	<!-- ======================== Feralisk ======================== -->
 
 	<SoundDef>

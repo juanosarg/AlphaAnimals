@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ <HediffDef>
+    <defName>AA_InvisibleArcticLion</defName>
+    <hediffClass>AlphaBehavioursAndEvents.Hediff_Stalking</hediffClass>
+    <label>stalking</label>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>
+          <min>60000</min>
+          <max>60000</max>
+        </disappearsAfterTicks>
+      </li>
+    </comps>
+      <stages>
+        <li>
+		  
+		</li>
+      </stages>
+  </HediffDef>
+
+</Defs>

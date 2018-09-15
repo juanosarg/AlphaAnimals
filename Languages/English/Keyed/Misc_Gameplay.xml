@@ -11,5 +11,8 @@
   <LetterLabelColossalAerofleetPasses>Colossal Aerofleet</LetterLabelColossalAerofleetPasses>
   <LetterColossalAerofleetPasses>A strange floating creature bounces around in the distance, blundering around the landscape.\n\nA small horde of smaller specimens seem to be attracted to it, and follow it at a short distance.\n\nThey seem to be mostly harmless, and will probably leave the area when they have fed.</LetterColossalAerofleetPasses>
   
+  <LetterLabelManhuntingArcticLion>Stalking Arctic Lion</LetterLabelManhuntingArcticLion>
+  <ManhuntingArcticLion>An arctic lion is stalking one of your colonists from the shadows.\n\nIt will be almost invisible until it decides to attack and is damaged by your colonists, so you should prepare quickly!\n\nArctic lions are fearsome, genetically engineered creatures bred for combat in cold climates.</ManhuntingArcticLion>
+  
 
 </LanguageData>

@@ -7,17 +7,17 @@
 	</BodyPartGroupDef>
 
 	<BodyPartGroupDef>
-		<defName>Mouth</defName>
+		<defName>AA_Mouth</defName>
 		<label>mouth</label>
 	</BodyPartGroupDef>
 
 	<BodyPartGroupDef>
-		<defName>Sting</defName>
+		<defName>AA_Sting</defName>
 		<label>stinger</label>
 	</BodyPartGroupDef>
 
 	<BodyPartGroupDef>
-		<defName>PincerAttackTool</defName>
+		<defName>AA_PincerAttackTool</defName>
 		<label>pincer</label>
 	</BodyPartGroupDef>
 

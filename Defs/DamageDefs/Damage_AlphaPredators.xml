@@ -2,7 +2,7 @@
 <Defs>
 
 	<DamageDef Name="Sting">
-		<defName>ToxicSting</defName>
+		<defName>AA_ToxicSting</defName>
 		<label>toxic sting</label>
 		<workerClass>DamageWorker_Stab</workerClass>
 		<externalViolence>true</externalViolence>

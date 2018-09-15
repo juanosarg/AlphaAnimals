@@ -134,7 +134,7 @@
     <labelPlural>arctic lion</labelPlural>
     <race>AA_ArcticLion</race>
     <combatPower>300</combatPower>
-    <wildSpawn_EcoSystemWeight>0.5</wildSpawn_EcoSystemWeight>
+    <ecoSystemWeight>0.5</ecoSystemWeight>
     <lifeStages>
       <li>
         <label>arctic lion cub</label>
