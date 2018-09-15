@@ -4,14 +4,13 @@
 <!-- ============================================================ -->
 
   <ThingDef ParentName="AnimalThingBase">
-    <defName>ArcticLion</defName>
+    <defName>AA_ArcticLion</defName>
     <label>arctic lion</label>
-    <description>These large descendants of the now extinct lion were specifically engineered as ambush units by the navy for extreme low temp environments. Its fur is prized throughout the black market for its unique light reflecting ability and its tough leather provides surprisingly high thermal insulation.
-
-    Even though its danger and capabilities are common knowledge; many still attempt to bag its head. Those who try usually end up losing theirs.</description>
+    <description>These large descendants of the now extinct lion were specifically engineered as ambush units by the navy for extreme low temp environments. Its fur is prized throughout the black market for its unique light reflecting ability and its tough leather provides surprisingly high thermal insulation.\n\nEven though its danger and capabilities are common knowledge; many still attempt to bag its head. Those who try usually end up losing theirs.</description>
     <statBases>
       <MoveSpeed>6</MoveSpeed>
       <ComfyTemperatureMin>-70</ComfyTemperatureMin>
+	  <ComfyTemperatureMax>20</ComfyTemperatureMax>
       <MarketValue>3500</MarketValue>
     </statBases>
     <tools>
@@ -73,12 +72,12 @@
         <power>9</power>
         <cooldownTime>1.75</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <comps>
       <li Class="CompProperties_Shearable">
-        <woolDef>ArcticLionWool</woolDef>
+        <woolDef>AA_ArcticLion_Leather</woolDef>
         <shearIntervalDays>30</shearIntervalDays>
         <woolAmount>20</woolAmount>
       </li>
@@ -96,9 +95,7 @@
       <baseBodySize>2</baseBodySize>
       <baseHungerRate>0.8</baseHungerRate>
       <baseHealthScale>2.5</baseHealthScale>
-      <leatherLabel>arctic lion fur</leatherLabel>
-      <leatherColor>(127,129,154)</leatherColor>
-      <leatherInsulation>1.5</leatherInsulation>
+      <leatherDef>AA_ArcticLion_Leather</leatherDef>   
       <wildness>0.90</wildness>
       <manhunterOnTameFailChance>0.2</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1</manhunterOnDamageChance>
@@ -132,28 +129,28 @@
   </ThingDef>
 
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>ArcticLion</defName>
+    <defName>AA_ArcticLion</defName>
     <label>arctic lion</label>
     <labelPlural>arctic lion</labelPlural>
-    <race>ArcticLion</race>
+    <race>AA_ArcticLion</race>
     <combatPower>300</combatPower>
     <wildSpawn_EcoSystemWeight>0.5</wildSpawn_EcoSystemWeight>
     <lifeStages>
       <li>
         <label>arctic lion cub</label>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/ArcticLion</texPath>
+          <texPath>Things/Pawn/Animal/AA_ArcticLion/AA_ArcticLion</texPath>
           <drawSize>1.2</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/AA_ArcticLion/AA_Dessicated_ArcticLion</texPath>
           <drawSize>1.2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <label>arctic lion juvenile</label>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/ArcticLion</texPath>
+          <texPath>Things/Pawn/Animal/AA_ArcticLion/AA_ArcticLion</texPath>
           <drawSize>1.85</drawSize>
           <shadowData>
             <volume>(0.3, 0.3, 0.3)</volume>
@@ -161,13 +158,13 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/AA_ArcticLion/AA_Dessicated_ArcticLion</texPath>
           <drawSize>1.85</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/ArcticLion</texPath>
+          <texPath>Things/Pawn/Animal/AA_ArcticLion/AA_ArcticLion</texPath>
           <drawSize>2.5</drawSize>
           <shadowData>
             <volume>(0.4, 0.4, 0.4)</volume>
@@ -175,7 +172,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/AA_ArcticLion/AA_Dessicated_ArcticLion</texPath>
           <drawSize>2.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>

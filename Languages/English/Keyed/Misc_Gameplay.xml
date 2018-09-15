@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+ 
+  
+  <!-- Misc -->
+
+  <AA_AsexualHatched>{0} has reproduced asexually.</AA_AsexualHatched>
+  
+    <!-- Incidents -->
+  <LetterLabelColossalAerofleetPasses>Colossal Aerofleet</LetterLabelColossalAerofleetPasses>
+  <LetterColossalAerofleetPasses>A strange floating creature bounces around in the distance, blundering around the landscape.\n\nA small horde of smaller specimens seem to be attracted to it, and follow it at a short distance.\n\nThey seem to be mostly harmless, and will probably leave the area when they have fed.</LetterColossalAerofleetPasses>
+  
+
+</LanguageData>
