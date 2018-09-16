@@ -17,6 +17,24 @@
       <speed>64</speed>
     </projectile>
   </ThingDef>
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>AA_FrostWeb</defName>
+    <label>web</label>
+		<thingClass>AnimalRangeAttack.AnimalProjectile</thingClass>
+
+    <graphicData>
+      <texPath>Things/Projectiles/AA_Web</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>2</drawSize>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Stun</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+      <speed>15</speed>
+    </projectile>
+  </ThingDef>
 
   
   
