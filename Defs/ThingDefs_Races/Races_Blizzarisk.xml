@@ -2,12 +2,13 @@
 <Defs>
 
   <ThingDef ParentName="BaseInsect">
-    <defName>Blizzarisk</defName>
+    <defName>AA_Blizzarisk</defName>
     <label>blizzarisk</label>
     <description>Someone once thought that creating supersized spiders for hyperweave-webs production was a good idea. Their home planet is now reduced to a Marble World; a world completely purged by atomic fire.</description>
     <statBases>
       <MoveSpeed>5.20</MoveSpeed>
       <ComfyTemperatureMin>-70</ComfyTemperatureMin>
+	  <ComfyTemperatureMax>10</ComfyTemperatureMax>
       <MarketValue>3100</MarketValue>
       <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
       <ArmorRating_Heat>0.4</ArmorRating_Heat>
@@ -33,7 +34,7 @@
       </li>
       <li>
         <capacities>
-          <li>ToxicBite</li>
+          <li>AA_ToxicSting</li>
         </capacities>
         <power>15</power>
         <cooldownTime>1.65</cooldownTime>
@@ -55,23 +56,27 @@
         <power>10</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
-    <comps>
-      <li Class="CompProperties_Shearable">
-        <woolDef>Hyperweave</woolDef>
-        <shearIntervalDays>30</shearIntervalDays>
-        <woolAmount>30</woolAmount>
-      </li>
-    </comps>
+   
+	   <comps>
+			<li Class="NewAlphaAnimalSubproducts.CompProperties_AnimalProduct">
+				<resourceDef>Hyperweave</resourceDef>
+				<gatheringIntervalDays>30</gatheringIntervalDays>
+				<resourceAmount>30</resourceAmount>
+				<customResourceString>HyperweaveDesc</customResourceString>
+
+			</li>
+		
+		</comps>
     <race>
       <wildBiomes>
         <SeaIce>0.03</SeaIce>
         <IceSheet>0.03</IceSheet>
         <Tundra>0.03</Tundra>
       </wildBiomes>
-      <body>Arachnid</body>
+      <body>AA_Arachnid</body>
       <baseBodySize>2.00</baseBodySize>
       <baseHungerRate>0.7</baseHungerRate>
       <baseHealthScale>1.9</baseHealthScale>
@@ -79,14 +84,11 @@
       <lifeExpectancy>18</lifeExpectancy>
       <herdAnimal>false</herdAnimal>
       <predator>true</predator>
-      <fleshType>Insectoid</fleshType>
-      <bloodDef>FilthBloodInsect</bloodDef>
+      <bloodDef>Filth_BloodInsect</bloodDef>
       <meatColor>(160,150,140)</meatColor>
       <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
-      <leatherColor>(93,74,68)</leatherColor>
-      <leatherLabel>blizzarisk skin</leatherLabel>
-      <leatherInsulation>1.3</leatherInsulation>
-      <trainableIntelligence>Advanced</trainableIntelligence>
+	  <leatherDef>Leather_Chitin</leatherDef>
+      <trainability>Advanced</trainability>
       <gestationPeriodDays>30</gestationPeriodDays>
       <manhunterOnTameFailChance>0.1</manhunterOnTameFailChance>
       <litterSizeCurve>
@@ -98,7 +100,6 @@
           <li>(3.5, 0)</li>
         </points>
       </litterSizeCurve>
-      <lifeExpectancy>12</lifeExpectancy>
       <lifeStageAges>
         <li>
           <def>AnimalBaby</def>
@@ -124,45 +125,45 @@
   </ThingDef>
 
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>Blizzarisk</defName>
-    <race>Blizzarisk</race>
+    <defName>AA_Blizzarisk</defName>
+    <race>AA_Blizzarisk</race>
     <label>blizzarisk</label>
     <combatPower>300</combatPower>
-    <wildSpawn_EcoSystemWeight>0.2</wildSpawn_EcoSystemWeight>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_GroupSizeRange>
+    <ecoSystemWeight>0.2</ecoSystemWeight>
+   
+    <wildGroupSize>
       <min>2</min>
       <max>4</max>
-    </wildSpawn_GroupSizeRange>
+    </wildGroupSize>
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Blizzarisk</texPath>
+          <texPath>Things/Pawn/Animal/AA_Blizzarisk/AA_Blizzarisk</texPath>
           <drawSize>0.7</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/AA_Blizzarisk/AA_Dessicated_Blizzarisk</texPath>
           <drawSize>0.7</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Blizzarisk</texPath>
-          <drawSize>1.3</drawSize>
+          <texPath>Things/Pawn/Animal/AA_Blizzarisk/AA_Blizzarisk</texPath>
+          <drawSize>1.8</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.3</drawSize>
+          <texPath>Things/Pawn/Animal/AA_Blizzarisk/AA_Dessicated_Blizzarisk</texPath>
+          <drawSize>1.8</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Blizzarisk</texPath>
-          <drawSize>1.9</drawSize>
+          <texPath>Things/Pawn/Animal/AA_Blizzarisk/AA_Blizzarisk</texPath>
+          <drawSize>2.5</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.9</drawSize>
+          <texPath>Things/Pawn/Animal/AA_Blizzarisk/AA_Dessicated_Blizzarisk</texPath>
+          <drawSize>2.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

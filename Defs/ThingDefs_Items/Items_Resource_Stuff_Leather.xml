@@ -50,6 +50,30 @@
       </statFactors>
     </stuffProps>
   </ThingDef>
+  
+  <ThingDef ParentName="LeatherBase">
+    <defName>Leather_Chitin</defName>
+    <label>insect chitin</label>
+    <description>Hard overlapping scales of insectoid chitin. It is exceptionally durable in combat, but provides little protection from weather.</description>
+    <graphicData>
+		<texPath>Things/Item/Resource/AA_Chitin</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(126,112,116)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>4.2</MarketValue>
+      <StuffPower_Armor_Sharp>1.8</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Cold>14</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>14</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(126,112,116)</color>
+      <commonality>0.025</commonality>
+      <statFactors>
+        <MaxHitPoints>1.5</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
 
  
 

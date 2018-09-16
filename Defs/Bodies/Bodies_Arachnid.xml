@@ -4,7 +4,7 @@
 	<!-- ======================== Feralisk ======================== -->
 
 	<BodyDef>
-		<defName>Arachnid</defName>
+		<defName>AA_Arachnid</defName>
 		<label>arachnid body</label>
 		<corePart>
 			<def>Body</def>
@@ -12,7 +12,7 @@
 			<depth>Outside</depth>
 			<parts>
 				<li>
-					<def>Thorax</def>
+					<def>AA_Thorax</def>
 					<coverage>0.10</coverage>
 				</li>
 				<li>
@@ -43,35 +43,43 @@
 									<depth>Inside</depth>
 								</li>
 								<li>
-									<def>LeftFirstEye</def>
+									<def>Eye</def>
+									<customLabel>left first eye</customLabel>
 									<coverage>0.05</coverage>
 								</li>
 								<li>
-									<def>LeftSecondEye</def>
+									<def>Eye</def>
+									<customLabel>left second eye</customLabel>
 									<coverage>0.05</coverage>
 								</li>
 								<li>
-									<def>LeftThirdEye</def>
+									<def>Eye</def>
+									<customLabel>left third eye</customLabel>
 									<coverage>0.05</coverage>
 								</li>
 								<li>
-									<def>LeftFourthEye</def>
+									<def>Eye</def>
+									<customLabel>left fourth eye</customLabel>
 									<coverage>0.05</coverage>
 								</li>
 								<li>
-									<def>RightFirstEye</def>
+									<def>Eye</def>
+									<customLabel>right first eye</customLabel>
 									<coverage>0.05</coverage>
 								</li>
 								<li>
-									<def>RightSecondEye</def>
+									<def>Eye</def>
+									<customLabel>right second eye</customLabel>
 									<coverage>0.05</coverage>
 								</li>
 								<li>
-									<def>RightThirdEye</def>
+									<def>Eye</def>
+									<customLabel>right third eye</customLabel>
 									<coverage>0.05</coverage>
 								</li>
 								<li>
-									<def>RightFourthEye</def>
+									<def>Eye</def>
+									<customLabel>right fourth eye</customLabel>
 									<coverage>0.05</coverage>
 								</li>
 								<li>
@@ -79,7 +87,7 @@
 									<coverage>0.1</coverage>
 								</li>
 								<li>
-									<def>InsectMouth</def>
+									<def>AA_InsectMouth</def>
 									<coverage>0.05</coverage>
 									<groups>
 										<li>Mouth</li>
@@ -90,7 +98,8 @@
 					</parts>
 				</li>
 				<li>
-					<def>LeftFirstLeg</def>
+					<def>InsectLeg</def>
+					<customLabel>left first leg</customLabel>
 					<coverage>0.06</coverage>
 					<height>Bottom</height>
 					<groups>
@@ -98,7 +107,8 @@
 					</groups>
 				</li>
 				<li>
-					<def>RightFirstLeg</def>
+					<def>InsectLeg</def>
+					<customLabel>right first leg</customLabel>
 					<coverage>0.06</coverage>
 					<height>Bottom</height>
 					<groups>
@@ -106,32 +116,38 @@
 					</groups>
 				</li>
 				<li>
-					<def>LeftSecondLeg</def>
+					<def>InsectLeg</def>
+					<customLabel>left second leg</customLabel>
 					<coverage>0.06</coverage>
 					<height>Bottom</height>
 				</li>
 				<li>
-					<def>RightSecondLeg</def>
+					<def>InsectLeg</def>
+					<customLabel>right second leg</customLabel>
 					<coverage>0.06</coverage>
 					<height>Bottom</height>
 				</li>
 				<li>
-					<def>LeftThirdLeg</def>
+					<def>InsectLeg</def>
+					<customLabel>left third leg</customLabel>
 					<coverage>0.06</coverage>
 					<height>Bottom</height>
 				</li>
 				<li>
-					<def>RightThirdLeg</def>
+					<def>InsectLeg</def>
+					<customLabel>right third leg</customLabel>
 					<coverage>0.06</coverage>
 					<height>Bottom</height>
 				</li>
 				<li>
-					<def>LeftFourthLeg</def>
+					<def>InsectLeg</def>
+					<customLabel>left fourth leg</customLabel>
 					<coverage>0.06</coverage>
 					<height>Bottom</height>
 				</li>
 				<li>
-					<def>RightFourthLeg</def>
+					<def>InsectLeg</def>
+					<customLabel>right fourth leg</customLabel>
 					<coverage>0.06</coverage>
 					<height>Bottom</height>
 				</li>

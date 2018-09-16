@@ -27,7 +27,7 @@
   </ThingDef>
   
 
-  <ThingDef ParentName="AA_RawMeatBase">
+ <ThingDef ParentName="AA_RawMeatBase">
     <defName>AA_AerofleetMeat</defName>
     <label>aerofleet meat</label>
     <description>Raw meat from an aerofleet.\n\nChewy, gelatinous and insipid. Similar in texture to a jellyfish.</description>

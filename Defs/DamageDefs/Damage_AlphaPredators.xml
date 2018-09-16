@@ -21,7 +21,7 @@
 	</DamageDef>
 
 	<ToolCapacityDef>
-		<defName>ToxicSting</defName>
+		<defName>AA_ToxicSting</defName>
 		<label>toxic stinging</label>
 	</ToolCapacityDef>
 

@@ -2,7 +2,7 @@
 <Defs>
 
 	<BodyPartGroupDef>
-		<defName>Body</defName>
+		<defName>AA_Body</defName>
 		<label>body</label>
 	</BodyPartGroupDef>
 

@@ -15,8 +15,6 @@
       <MarketValue>3500</MarketValue>
       <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
-	        <LeatherAmount>0</LeatherAmount>
-
     </statBases>
     <tools>
       <li>
@@ -39,7 +37,7 @@
       </li>
       <li>
         <capacities>
-          <li>ToxicBite</li>
+          <li>AA_ToxicSting</li>
         </capacities>
         <cooldownTime>2</cooldownTime>
         <power>15</power>
@@ -82,6 +80,7 @@
       <baseHungerRate>1.0</baseHungerRate>
       <baseHealthScale>2.0</baseHealthScale>
       <fleshType>Insectoid</fleshType>
+	  <leatherDef>Leather_Chitin</leatherDef>
       <bloodDef>Filth_BloodInsect</bloodDef>
       <meatColor>(160,150,140)</meatColor>
       <foodType>OmnivoreAnimal, AnimalProduct</foodType>
