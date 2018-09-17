@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+
+	<ThingDef ParentName="UnfinishedBase">
+	<defName>AA_RandomStones</defName>
+		<label>random stone</label>
+		<description>This should never appear ingame. If it does, it's a bug</description>
+		<graphicData>
+		  <texPath>Things/Item/Chunk/ChunkStone</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <flipExtraRotation>80</flipExtraRotation>
+		</graphicData>
+
+		
+
+	</ThingDef>
+
+	
+
+
+</Defs>

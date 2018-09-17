@@ -2,11 +2,15 @@
 using RimWorld.Planet;
 using UnityEngine;
 using Verse;
+using System;
 
 namespace NewAlphaAnimalSubproducts
 {
     public class CompAnimalProduct : CompHasGatherableBodyResource
     {
+
+        System.Random rand = new System.Random();
+
         protected override int GatherResourcesIntervalDays
         {
             get
@@ -29,7 +33,30 @@ namespace NewAlphaAnimalSubproducts
         {
             get
             {
-                return this.Props.resourceDef;
+                if (this.Props.resourceDef.defName== "AA_RandomStones")
+                {
+                    int randomNumber = rand.Next(1, 7);
+                    switch (randomNumber)
+                    {
+                        case 1:
+                            return ThingDef.Named("ChunkSandstone");
+                        case 2:
+                            return ThingDef.Named("ChunkGranite");
+                        case 3:
+                            return ThingDef.Named("ChunkLimestone");
+                        case 4:
+                            return ThingDef.Named("ChunkSlate");
+                        case 5:
+                            return ThingDef.Named("ChunkMarble");
+
+                        default:
+                            return ThingDef.Named("ChunkSandstone");
+
+                    }
+
+
+                }
+                else return this.Props.resourceDef;
             }
         }
 
@@ -74,15 +101,7 @@ namespace NewAlphaAnimalSubproducts
                 return Translator.Translate(this.Props.customResourceString) + ": " + base.Fullness.ToStringPercent();
             }
 
-            else if (ResourceDef.ToString() == "GR_EldritchInsectJelly")
-            {
-                return Translator.Translate("JellyGrowth2") + ": " + base.Fullness.ToStringPercent();
-            }
-            else if (ResourceDef.ToString() == "GR_DarkYoungWoodLog")
-            {
-                return Translator.Translate("TentacleGrowth") + ": " + base.Fullness.ToStringPercent();
-            }
-          
+           
 
             else  return Translator.Translate("ResourceGrowth") + ": " + base.Fullness.ToStringPercent();
         }

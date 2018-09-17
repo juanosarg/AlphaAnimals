@@ -7,7 +7,7 @@ using Verse.AI;
 
 
 //This is for testing purposes
-namespace AnimalRangeAttack
+namespace AlphaAnimalRangeAttack
 {
 	public static class ARA_AttackTargetFinder
 	{

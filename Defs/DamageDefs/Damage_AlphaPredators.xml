@@ -24,6 +24,8 @@
 		<defName>AA_ToxicSting</defName>
 		<label>toxic stinging</label>
 	</ToolCapacityDef>
+	
+
 
 	<DamageDef>
 		<defName>Pierce</defName>

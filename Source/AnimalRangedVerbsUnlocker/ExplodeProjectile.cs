@@ -3,7 +3,7 @@ using RimWorld;
 using UnityEngine;
 using Verse;
 
-namespace AnimalRangeAttack
+namespace AlphaAnimalRangeAttack
 {
 	//Create explosion but no fire.
 	public class Projectile_Explode : Projectile

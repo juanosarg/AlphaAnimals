@@ -25,6 +25,19 @@
     <baseChance>0.5</baseChance>
     <category>ThreatBig</category>
     <minRefireDays>8</minRefireDays>
+    <pointsScaleable>true</pointsScaleable> 
+  </IncidentDef>
+  
+  <IncidentDef>
+    <defName>AA_IncidentBlizzariskClutchMother</defName>
+    <label>blizzarisk clutch mother</label>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>AlphaBehavioursAndEvents.IncidentWorker_BlizzariskClutchMother</workerClass>
+    <baseChance>0.2</baseChance>
+    <category>ThreatBig</category>
+    <minRefireDays>12</minRefireDays>
     <pointsScaleable>true</pointsScaleable>
    
   </IncidentDef>

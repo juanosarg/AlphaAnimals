@@ -6,7 +6,7 @@ using Verse.AI;
 using Harmony;
 using System.Reflection;
 
-namespace AnimalRangeAttack
+namespace AlphaAnimalRangeAttack
 {
 
 	[StaticConstructorOnStartup]
@@ -14,9 +14,9 @@ namespace AnimalRangeAttack
 	{
 		static AnimalRangeAttack_Init()
 		{
-			HarmonyInstance harmony = HarmonyInstance.Create("com.github.rimworld.mod.AnimalRangeAttack");
+			HarmonyInstance harmony = HarmonyInstance.Create("com.github.rimworld.mod.AlphaAnimalRangeAttack");
 			harmony.PatchAll(Assembly.GetExecutingAssembly());
-		}
+		} 
 	}
 
 

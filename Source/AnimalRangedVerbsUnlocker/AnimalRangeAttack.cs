@@ -2,7 +2,7 @@
 using Verse;
 using Verse.AI;
 
-namespace AnimalRangeAttack
+namespace AlphaAnimalRangeAttack
 {
 	class JobDriver_AnimalRangeAttack : JobDriver
 	{

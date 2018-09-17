@@ -14,9 +14,14 @@
   <LetterLabelManhuntingArcticLion>Stalking Arctic Lion</LetterLabelManhuntingArcticLion>
   <ManhuntingArcticLion>An arctic lion is stalking one of your colonists from the shadows.\n\nIt will be almost invisible until it decides to attack and is damaged by your colonists. Colonists that are drafted and alert and automatic defenses will be able to detect it, so you should prepare quickly! \n\nArctic lions are fearsome, genetically engineered creatures bred for combat in cold climates.</ManhuntingArcticLion>
   
+  <LetterLabelBlizzariskClutchMother>Blizzarisk clutch mother</LetterLabelBlizzariskClutchMother>
+  <BlizzariskClutchMother>A huge spider like creature called a Blizzarisk, adapted to cold climates, wanders through this territory.\n\nThis Blizzarisk seems to be of much bigger size than usual, and is carrying a clutch of eggs on its back. This sounds like a recipe for disaster if not dealt with quickly</BlizzariskClutchMother>
+  
+  
   <!-- Animal Products -->
   
   <HyperweaveDesc>Hyperweave production:</HyperweaveDesc>
-  
+  <StoneChunkDesc>Random stone chunk loosening:</StoneChunkDesc>
+
 
 </LanguageData>

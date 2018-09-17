@@ -50,6 +50,7 @@
     <Compile Include="IncidentWorker_Aerofleets.cs" />
     <Compile Include="CompProperties_AsexualReproduction.cs" />
     <Compile Include="CompAsexualReproduction.cs" />
+    <Compile Include="IncidentWorker_BlizzariskClutchMother.cs" />
     <Compile Include="IncidentWorker_StalkingArcticLion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

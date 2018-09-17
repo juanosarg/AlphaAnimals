@@ -2,7 +2,7 @@
 <Defs>
 
   <JobDef>
-    <defName>GR_AnimalResource</defName>
+    <defName>AA_AnimalResource</defName>
     <driverClass>NewAlphaAnimalSubproducts.JobDriver_AnimalResource</driverClass>
     <reportString>gathering animal resource from TargetA.</reportString>
   </JobDef>

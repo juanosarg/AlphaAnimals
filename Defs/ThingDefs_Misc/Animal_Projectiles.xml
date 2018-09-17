@@ -4,7 +4,7 @@
   <ThingDef ParentName="BaseBullet">
     <defName>AA_Bullet_Barb</defName>
     <label>barb</label>
-		<thingClass>AnimalRangeAttack.AnimalProjectile</thingClass>
+		<thingClass>AlphaAnimalRangeAttack.AnimalProjectile</thingClass>
 
     <graphicData>
       <texPath>Things/Projectiles/AA_Barb</texPath>
@@ -21,7 +21,7 @@
   <ThingDef ParentName="BaseBullet">
     <defName>AA_FrostWeb</defName>
     <label>web</label>
-		<thingClass>AnimalRangeAttack.AnimalProjectile</thingClass>
+		<thingClass>AlphaAnimalRangeAttack.AnimalProjectile</thingClass>
 
     <graphicData>
       <texPath>Things/Projectiles/AA_Web</texPath>

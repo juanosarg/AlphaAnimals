@@ -55,6 +55,35 @@
 			</li>
 		</subSounds>
 	</SoundDef>
+	
+		<!-- ======================== Bouldermit ======================== -->
+
+	<SoundDef>
+		<defName>AA_BouldermitSound</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		    <maxSimultaneous>1</maxSimultaneous>
+
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>AA_Bouldermit</clipFolderPath>
+					</li>
+				</grains>
+				
+				<pitchRange>
+					<min>0.9770588</min>
+					<max>1.137647</max>
+				</pitchRange>
+				<distRange>
+					<min>0</min>
+					<max>50.40025</max>
+				</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
 
 	<!-- ======================== Feralisk ======================== -->
 

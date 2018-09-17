@@ -3,9 +3,36 @@
 	<name>AlphaAnimals B19</name>
 	<author>AFriend, milon, Skullywag, kaptain_kavern and Sarg</author>
 	<targetVersion>0.19.2009</targetVersion>
-	<description>Adds multiple new animals to Rimworld.
+	<description>Adds multiple unique new animals to Rimworld.
 	
-	Credit
-	Some sounds by Stephan Schutze at http://soundbible.com
+	&lt;size=24&gt;Features&lt;/size&gt;
+
+
+
+&lt;size=24&gt;Issues&lt;/size&gt;
+
+
+&lt;size=24&gt;Notes&lt;/size&gt;
+
+
+&lt;size=24&gt;Plans for the future&lt;/size&gt;
+
+
+&lt;size=24&gt;Compatibility&lt;/size&gt;
+Uses Harmony (no need to download)
+
+&lt;size=24&gt;Credit&lt;/size&gt;
+Original creature graphics: A_Friend, aka SentientLine
+Original implementation and programming: milon, Skullywag and kaptain_kavern 
+Some sounds by Mike Koenig at http://soundbible.com
+Some sounds by Stephan Schutze at http://soundbible.com
+
+
+&lt;size=24&gt;Changelog&lt;/size&gt;
+
+v0.1: Prerrelease
+
+	
+
 	</description>
 </ModMetaData>

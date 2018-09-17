@@ -5,7 +5,7 @@
 
   <JobDef>
 		<defName>AnimalRangeAttack</defName>
-		<driverClass>AnimalRangeAttack.JobDriver_AnimalRangeAttack</driverClass>
+		<driverClass>AlphaAnimalRangeAttack.JobDriver_AnimalRangeAttack</driverClass>
 		<reportString>Attacking.</reportString>
 	</JobDef>
 </Defs>

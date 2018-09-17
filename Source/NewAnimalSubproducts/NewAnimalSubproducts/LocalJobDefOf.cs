@@ -8,7 +8,7 @@ namespace NewAlphaAnimalSubproducts
     [DefOf]
     public static class LocalJobDefOf
     {
-        public static JobDef GR_AnimalResource;
+        public static JobDef AA_AnimalResource;
 
     }
 

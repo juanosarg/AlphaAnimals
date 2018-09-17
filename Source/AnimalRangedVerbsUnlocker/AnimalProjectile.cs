@@ -4,7 +4,7 @@ using Verse;
 using Verse.Sound;
 using RimWorld;
 
-namespace AnimalRangeAttack
+namespace AlphaAnimalRangeAttack
 {
     public class AnimalProjectile : Projectile
     {
@@ -28,6 +28,15 @@ namespace AnimalRangeAttack
                 if (pawn != null && pawn.stances != null && pawn.BodySize <= this.def.projectile.StoppingPower + 0.001f)
                 {
                     pawn.stances.StaggerFor(95);
+                }
+
+                if (this.def.defName== "AA_FrostWeb")
+                {
+                    DamageInfo dinfo2 = new DamageInfo(DamageDefOf.Frostbite, amount/2, armorPenetration, y, launcher, null, null, DamageInfo.SourceCategory.ThingOrUnknown, this.intendedTarget.Thing);
+                    hitThing.TakeDamage(dinfo2).AssociateWithLog(battleLogEntry_RangedImpact);
+
+
+
                 }
             }
             else
