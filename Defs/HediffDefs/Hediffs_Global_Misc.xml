@@ -22,5 +22,20 @@
 		</li>
       </stages>
   </HediffDef>
+  
+   <HediffDef>
+    <defName>AA_CrushingEverything</defName>
+    <hediffClass>AlphaBehavioursAndEvents.Hediff_Crushing</hediffClass>
+    <label>crushing everything on its path</label>
+    <defaultLabelColor>(.8,0,0)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    
+      <stages>
+        <li>
+		  
+		</li>
+      </stages>
+  </HediffDef>
 
 </Defs>

@@ -171,5 +171,145 @@
       </li>
     </lifeStages>
   </PawnKindDef>
+  
+    <ThingDef ParentName="AnimalThingBase">
+    <defName>AA_SummitCrab</defName>
+    <label>summit crab</label>
+    <description>Legends tell of a legendary bouldermit that has grown so large and so powerful that it had entire mountains for a home.\n\nThis one isn't probably the sole originator of such tales, but it is a fine example of a creature whose path you certainly don't want to cross.</description>
+    <statBases>
+      <MoveSpeed>1.00</MoveSpeed>
+      <ComfyTemperatureMin>-65</ComfyTemperatureMin>
+      <MarketValue>2500</MarketValue>
+      <ArmorRating_Blunt>1.5</ArmorRating_Blunt>
+      <ArmorRating_Sharp>1.5</ArmorRating_Sharp>
+	  <LeatherAmount>0</LeatherAmount>
+	  <MeatAmount>10</MeatAmount>
+
+    </statBases>
+    <tools>
+      
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>40</power>
+        <cooldownTime>2.1</cooldownTime>
+        <linkedBodyPartsGroup>TurtleBeakAttackTool</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>35</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+	
+		
+    <race>
+     
+      <herdAnimal>false</herdAnimal>
+      <predator>false</predator>
+      <body>TurtleLike</body>
+      <baseBodySize>15</baseBodySize>
+      <baseHungerRate>0.01</baseHungerRate>
+      <baseHealthScale>4</baseHealthScale>
+      <foodType>VegetarianRoughAnimal</foodType>
+      <wildness>1</wildness>
+      <manhunterOnDamageChance>0.01</manhunterOnDamageChance>
+      <trainability>Simple</trainability>
+      <gestationPeriodDays>120</gestationPeriodDays>
+
+      <lifeExpectancy>1200</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>1</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>2.50</minAge>
+          <soundWounded>AA_BouldermitSound</soundWounded>
+          <soundDeath>Pawn_Megascarab_Death</soundDeath>
+          <soundCall>Pawn_Megascarab_Call</soundCall>
+          <soundAngry>AA_BouldermitSound</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+	<butcherProducts>
+		<ChunkSandstone>6</ChunkSandstone>
+		<ChunkGranite>6</ChunkGranite>
+		<ChunkLimestone>6</ChunkLimestone>
+		<ChunkSlate>6</ChunkSlate>
+		<ChunkMarble>6</ChunkMarble>
+	</butcherProducts>
+	<tradeTags>
+      <li>ExoticAnimal</li>
+    </tradeTags>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>AA_SummitCrab</defName>
+    <label>summit crab</label>
+    <race>AA_SummitCrab</race>
+    <combatPower>800</combatPower>
+   
+    <lifeStages>
+      <li>
+        <label>summit crab</label>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/AA_BoulderMit/AA_BoulderMit</texPath>
+          <drawSize>5</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/AA_BoulderMit/AA_Dessicated_BoulderMit</texPath>
+          <drawSize>5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <label>summit crab</label>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/AA_BoulderMit/AA_BoulderMit</texPath>
+          <drawSize>5</drawSize>
+          <shadowData>
+            <volume>(0.6, 0.45, 0.45)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/AA_BoulderMit/AA_Dessicated_BoulderMit</texPath>
+          <drawSize>5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/AA_BoulderMit/AA_BoulderMit</texPath>
+          <drawSize>5</drawSize>
+          <shadowData>
+            <volume>(0.8, 0.6, 0.6)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/AA_BoulderMit/AA_Dessicated_BoulderMit</texPath>
+          <drawSize>5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
 
 </Defs>

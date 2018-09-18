@@ -46,12 +46,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Hediff_Crushing.cs" />
     <Compile Include="Hediff_Stalking.cs" />
     <Compile Include="IncidentWorker_Aerofleets.cs" />
     <Compile Include="CompProperties_AsexualReproduction.cs" />
     <Compile Include="CompAsexualReproduction.cs" />
     <Compile Include="IncidentWorker_BlizzariskClutchMother.cs" />
     <Compile Include="IncidentWorker_StalkingArcticLion.cs" />
+    <Compile Include="IncidentWorker_SummitCrab.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

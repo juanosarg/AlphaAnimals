@@ -42,6 +42,20 @@
    
   </IncidentDef>
   
+    <IncidentDef>
+    <defName>AA_IncidentSummitCrab</defName>
+    <label>summit crab</label>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>AlphaBehavioursAndEvents.IncidentWorker_SummitCrab</workerClass>
+    <baseChance>0.2</baseChance>
+    <category>ThreatBig</category>
+    <minRefireDays>12</minRefireDays>
+    <pointsScaleable>true</pointsScaleable>
+   
+  </IncidentDef>
+  
   
 
 </Defs>

@@ -32,28 +32,33 @@ namespace NewAlphaAnimalSubproducts
         [HarmonyPostfix]
         static void ChangeMeatAmountByAge(Thing __instance, float efficiency, ref IEnumerable<Thing> __result)
         {
-            var thingies = __result.ToList();
-            var pawn = (Pawn)__instance;
 
-            if ((__instance.def.butcherProducts != null)&& ((__instance.def.defName == "AA_Aerofleet")|| (__instance.def.defName == "AA_ColossalAerofleet")))
-            {
-                Log.Message("Adding meat butcher products", false);
+            if (__instance.GetType()==typeof(Pawn)) {
 
-                
+                var thingies = __result.ToList();
+                var pawn = (Pawn)__instance;
+
+                if ((__instance.def.butcherProducts != null) && ((__instance.def.defName == "AA_Aerofleet") || (__instance.def.defName == "AA_ColossalAerofleet")))
+                {
+                    Log.Message("Adding meat butcher products", false);
+
+
                     ThingDefCountClass ta = __instance.def.butcherProducts[0];
-                     float num = pawn.health.hediffSet.GetCoverageOfNotMissingNaturalParts(pawn.RaceProps.body.corePart);
-                     int count = GenMath.RoundRandom((pawn.BodySize*90* efficiency*num));
+                    float num = pawn.health.hediffSet.GetCoverageOfNotMissingNaturalParts(pawn.RaceProps.body.corePart);
+                    int count = GenMath.RoundRandom((pawn.BodySize * 90 * efficiency * num));
                     if (count > 0)
                     {
                         Thing t = ThingMaker.MakeThing(ta.thingDef, null);
                         t.stackCount = count;
                         thingies.Insert(1, t);
 
-                    __result = thingies;
+                        __result = thingies;
                     }
-                
 
+
+                }
             }
+           
 
 
 

@@ -25,6 +25,20 @@
 		<label>toxic stinging</label>
 	</ToolCapacityDef>
 	
+	  <DamageDef>
+    <defName>AA_BoulderScratch</defName>
+    <label>scratch</label>
+    <workerClass>DamageWorker_AddInjury</workerClass>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has been killed by crushing.</deathMessage>
+    <hediff>Scratch</hediff>
+    <hediffSolid>Crack</hediffSolid>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Tornado</impactSoundType>
+    <armorCategory>Sharp</armorCategory>
+    <overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
+  </DamageDef>
+	
 
 
 	<DamageDef>
