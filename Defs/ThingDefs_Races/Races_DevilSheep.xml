@@ -4,11 +4,9 @@
   <!-- ============================================================ -->
 
   <ThingDef ParentName="AnimalThingBase">
-    <defName>DevilSheep</defName>
+    <defName>AA_DevilSheep</defName>
     <label>devil sheep</label>
-    <description>
-      A genetically engineered sheep capable of producing extremely strong and valuable red wool. Some see a simple livestock; others, a demonic entity of corruption. Don’t listen to its whispers.
-    </description>
+    <description>A genetically engineered sheep capable of producing extremely strong and valuable red wool. Some see a simple livestock; others, a demonic entity of corruption. Don’t listen to its whispers.</description>
     <statBases>
       <MoveSpeed>3.00</MoveSpeed>
       <ComfyTemperatureMin>-70</ComfyTemperatureMin>
@@ -51,16 +49,21 @@
         <power>3</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
-    <comps>
-      <li Class="CompProperties_Shearable">
-        <woolDef>DevilstrandCloth</woolDef>
-        <shearIntervalDays>30</shearIntervalDays>
-        <woolAmount>30</woolAmount>
-      </li>
-    </comps>
+
+	<comps>
+			<li Class="NewAlphaAnimalSubproducts.CompProperties_AnimalProduct">
+				<resourceDef>DevilstrandCloth</resourceDef>
+				<gatheringIntervalDays>30</gatheringIntervalDays>
+				<resourceAmount>30</resourceAmount>
+				<customResourceString>DevilstrandDesc</customResourceString>
+
+			</li>
+			
+
+		</comps>
     <race>
       <herdAnimal>true</herdAnimal>
       <predator>false</predator>
@@ -69,14 +72,12 @@
       <baseHungerRate>0.5</baseHungerRate>
       <baseHealthScale>1.0</baseHealthScale>
       <foodType>VegetarianRoughAnimal</foodType>
-      <leatherColor>(10,10,10)</leatherColor>
-      <leatherLabel>devilsheep leather</leatherLabel>
-      <leatherInsulation>1.6</leatherInsulation>
+      <leatherDef>Leather_Plain</leatherDef>
       <wildness>0.3</wildness>
       <manhunterOnDamageChance>1.0</manhunterOnDamageChance>
       <manhunterOnTameFailChance>0.3</manhunterOnTameFailChance>
-      <trainableIntelligence>Intermediate</trainableIntelligence>
-      <gestationPeriodDays>90</gestationPeriodDays>
+      <trainability>Intermediate</trainability>
+      <gestationPeriodDays>30</gestationPeriodDays>
       <litterSizeCurve>
         <points>
           <li>(0.5, 0)</li>
@@ -110,19 +111,18 @@
   </ThingDef>
 
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>DevilSheep</defName>
+    <defName>AA_DevilSheep</defName>
     <label>devilSheep</label>
-    <race>DevilSheep</race>
+    <race>AA_DevilSheep</race>
     <combatPower>30</combatPower>
-    <canArriveManhunter>false</canArriveManhunter>
-    <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
+   
     <labelMale>ram</labelMale>
     <labelFemale>ewe</labelFemale>
     <lifeStages>
       <li>
         <label>devilsheep lamb</label>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/DevilSheepMale</texPath>
+          <texPath>Things/Pawn/Animal/AA_DevilSheep/AA_DevilSheepMale</texPath>
           <drawSize>0.7</drawSize>
           <shadowData>
             <volume>(0.4, 0.3, 0.3)</volume>
@@ -130,7 +130,7 @@
           </shadowData>
         </bodyGraphicData>
         <femaleGraphicData>
-          <texPath>Things/Pawn/Animal/DevilSheepFemale</texPath>
+          <texPath>Things/Pawn/Animal/AA_DevilSheep/AA_DevilSheepFemale</texPath>
           <drawSize>0.6</drawSize>
           <color>(200,200,200)</color>
           <shadowData>
@@ -139,14 +139,14 @@
           </shadowData>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/AA_DevilSheep/AA_Dessicated_DevilSheep</texPath>
           <drawSize>0.7</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <label>devil sheep</label>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/DevilSheepMale</texPath>
+          <texPath>Things/Pawn/Animal/AA_DevilSheep/AA_DevilSheepMale</texPath>
           <drawSize>0.9</drawSize>
           <shadowData>
             <volume>(0.6, 0.45, 0.45)</volume>
@@ -154,7 +154,7 @@
           </shadowData>
         </bodyGraphicData>
         <femaleGraphicData>
-          <texPath>Things/Pawn/Animal/DevilSheepFemale</texPath>
+          <texPath>Things/Pawn/Animal/AA_DevilSheep/AA_DevilSheepFemale</texPath>
           <drawSize>0.8</drawSize>
           <color>(200,200,200)</color>
           <shadowData>
@@ -163,13 +163,13 @@
           </shadowData>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/AA_DevilSheep/AA_Dessicated_DevilSheep</texPath>
           <drawSize>0.9</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/DevilSheepMale</texPath>
+          <texPath>Things/Pawn/Animal/AA_DevilSheep/AA_DevilSheepMale</texPath>
           <drawSize>1.2</drawSize>
           <shadowData>
             <volume>(0.8, 0.6, 0.6)</volume>
@@ -177,7 +177,7 @@
           </shadowData>
         </bodyGraphicData>
         <femaleGraphicData>
-          <texPath>Things/Pawn/Animal/DevilSheepFemale</texPath>
+          <texPath>Things/Pawn/Animal/AA_DevilSheep/AA_DevilSheepFemale</texPath>
           <drawSize>1.0</drawSize>
           <color>(200,200,200)</color>
           <shadowData>
@@ -186,7 +186,7 @@
           </shadowData>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/AA_DevilSheep/AA_Dessicated_DevilSheep</texPath>
           <drawSize>1.1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
