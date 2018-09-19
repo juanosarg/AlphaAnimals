@@ -22,7 +22,7 @@
     </statBases>
     <stuffProps>
       <color>(108,157,177)</color>
-      <commonality>0.025</commonality>
+      <commonality>0.001</commonality>
       <statFactors>
         <MaxHitPoints>1.5</MaxHitPoints>
       </statFactors>
@@ -44,7 +44,7 @@
     </statBases>
     <stuffProps>
       <color>(127,129,154)</color>
-      <commonality>0.025</commonality>
+      <commonality>0.001</commonality>
       <statFactors>
         <MaxHitPoints>1.5</MaxHitPoints>
       </statFactors>
@@ -68,7 +68,30 @@
     </statBases>
     <stuffProps>
       <color>(126,112,116)</color>
-      <commonality>0.025</commonality>
+      <commonality>0.001</commonality>
+      <statFactors>
+        <MaxHitPoints>1.5</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  
+    <ThingDef ParentName="LeatherBase">
+    <defName>Leather_Cactus</defName>
+    <label>living cactus skin</label>
+    <description>This strange material seems to be part animal hide, part living plant tissue. It traps cold water inside, acting as an incredibly good thermal insulator for hot climates.</description>
+    <graphicData>
+		
+      <color>(162,175,90)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>3.8</MarketValue>
+      <StuffPower_Armor_Sharp>1</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Cold>0</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>40</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(162,175,90)</color>
+      <commonality>0.001</commonality>
       <statFactors>
         <MaxHitPoints>1.5</MaxHitPoints>
       </statFactors>

@@ -1,50 +1,94 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef Name="AA_RawMeatBase" Abstract="True" ParentName="OrganicProductBase">
-    <label>Base meat properties</label>
-    <comps>
-      <li Class="CompProperties_Rottable">
-        <daysToRotStart>2</daysToRotStart>
-        <rotDestroys>True</rotDestroys>
-      </li>
-    </comps>
-	<statBases>
-      <Nutrition>0.05</Nutrition>
-	  <Flammability>0.5</Flammability>
-      <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+	<!--  Bases  -->
+	<ThingDef Name="AA_RawMeatBase" Abstract="True" ParentName="OrganicProductBase">
+		<label>Base meat properties</label>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>2</daysToRotStart>
+				<rotDestroys>True</rotDestroys>
+			</li>
+		</comps>
+		<statBases>
+			<Nutrition>0.05</Nutrition>
+			<Flammability>0.5</Flammability>
+			<FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
 
-	</statBases>
-    <ingestible>
-      <foodType>Meat</foodType>
-      <preferability>DesperateOnly</preferability>
-      <ingestEffect>EatMeat</ingestEffect>
-      <ingestSound>RawMeat_Eat</ingestSound>		
-    </ingestible>
-    <thingCategories>
-      <li>MeatRaw</li>
-    </thingCategories>
-  </ThingDef>
-  
+		</statBases>
+		<ingestible>
+			<foodType>Meat</foodType>
+			<preferability>DesperateOnly</preferability>
+			<ingestEffect>EatMeat</ingestEffect>
+			<ingestSound>RawMeat_Eat</ingestSound>		
+		</ingestible>
+		<thingCategories>
+			<li>MeatRaw</li>
+		</thingCategories>
+	</ThingDef>
 
- <ThingDef ParentName="AA_RawMeatBase">
-    <defName>AA_AerofleetMeat</defName>
-    <label>aerofleet meat</label>
-    <description>Raw meat from an aerofleet.\n\nChewy, gelatinous and insipid. Similar in texture to a jellyfish.</description>
-    <graphicData>
-      <texPath>Things/Item/Resource/AA_AerofleetMeat</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <statBases>
-	  <Mass>0.03</Mass>
-	  
-      <MarketValue>2</MarketValue>
-    </statBases>
-    <ingestible>
-      <specialThoughtDirect>AteRawFood</specialThoughtDirect>
-    </ingestible>
-  </ThingDef>
+	<ThingDef Abstract="True" Name="AA_PlantFoodRawBase" ParentName="OrganicProductBase">
+		<ingestible>
+			<preferability>RawBad</preferability>
+			<tasteThought>AteRawFood</tasteThought>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>RawVegetable_Eat</ingestSound>
+		</ingestible>
+		<statBases>
+			<Nutrition>0.05</Nutrition>
+			<FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+		</statBases>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<thingCategories>
+			<li>PlantFoodRaw</li>
+		</thingCategories>
+	</ThingDef>
 
- 
+	<!--  Aerofleet  -->
+
+	<ThingDef ParentName="AA_RawMeatBase">
+		<defName>AA_AerofleetMeat</defName>
+		<label>aerofleet meat</label>
+		<description>Raw meat from an aerofleet.\n\nChewy, gelatinous and insipid. Similar in texture to a jellyfish.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AA_AerofleetMeat</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<Mass>0.03</Mass>
+
+			<MarketValue>2</MarketValue>
+		</statBases>
+		<ingestible>
+			<specialThoughtDirect>AteRawFood</specialThoughtDirect>
+		</ingestible>
+	</ThingDef>
+
+	<!--  Cactipine  -->
+
+	<ThingDef ParentName="AA_PlantFoodRawBase">
+		<defName>AA_CactusMeat</defName>
+		<label>cactus meat</label>
+		<description>This strange meat is part vegetable, part animal. Confusing, to say the least.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AA_Cactipine_Meat</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.1</MarketValue>
+		</statBases>
+		<ingestible>
+			<foodType>VegetableOrFruit</foodType>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>30</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+
+
+
+
 
 </Defs>

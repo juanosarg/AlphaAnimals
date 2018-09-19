@@ -56,6 +56,21 @@
    
   </IncidentDef>
   
+      <IncidentDef>
+    <defName>AA_CactipineDropPod</defName>
+    <label>strange drop pod</label>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>AlphaBehavioursAndEvents.IncidentWorker_CactipineDropPod</workerClass>
+    <baseChance>0.2</baseChance>
+	    <category>ThreatBig</category>
+
+    <minRefireDays>12</minRefireDays>
+    <pointsScaleable>true</pointsScaleable>
+   
+  </IncidentDef>
+  
   
 
 </Defs>

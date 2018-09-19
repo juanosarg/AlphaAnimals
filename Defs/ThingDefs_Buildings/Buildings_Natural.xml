@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+  <ThingDef ParentName="BuildingNaturalBase">
+    <defName>AA_Overgrown_DropPod</defName>
+    <label>overgrown drop pod</label>
+    <description>This standard isue drop pod seems to have been modified to host a small self contained ecosystem. As soon as it impacted, strange creeping vines and weird creatures emerged from it. It seems to be some kind of terraforming machine.</description>
+    <thingClass>AlphaBehavioursAndEvents.Building_Overgrown_DropPod</thingClass>
+    <graphicData>
+      <texPath>Things/Building/AA_Overgrown_DropPod</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>2</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <rotatable>false</rotatable>
+    <fillPercent>0.5</fillPercent>
+    <statBases>
+      <MaxHitPoints>130</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <pathCost>50</pathCost>
+    <blockWind>true</blockWind>
+    <tickerType>Normal</tickerType>
+    <passability>PassThroughOnly</passability>
+   
+    <comps>
+      
+      <li Class="CompProperties_Spawner">
+        <thingToSpawn>InsectJelly</thingToSpawn>
+        <spawnCount>20</spawnCount>
+        <spawnIntervalRange>
+          <min>26000</min>
+          <max>30000</max>
+        </spawnIntervalRange>
+        <spawnMaxAdjacent>40</spawnMaxAdjacent>
+        <spawnForbidden>true</spawnForbidden>
+        <saveKeysPrefix>jelly</saveKeysPrefix>
+      </li>
+     
+      
+     
+    </comps>
+  </ThingDef>
+
+  
+
+</Defs>
