@@ -31,14 +31,19 @@ namespace AlphaBehavioursAndEvents
         {
             Map map = (Map)parms.target;
             IntVec3 intVec = DropCellFinder.RandomDropSpot(map);
+            Building_Overgrown_DropPod overgrown_DropPod = (Building_Overgrown_DropPod)ThingMaker.MakeThing(DefDatabase<ThingDef>.GetNamed("AA_Overgrown_DropPod", true));
 
             ActiveDropPodInfo activeDropPodInfo = new ActiveDropPodInfo();
+            List<Thing> things = new List<Thing>();
+            things.Add(overgrown_DropPod);
+            activeDropPodInfo.innerContainer.TryAddRangeOrTransfer(things, true, false);
+            activeDropPodInfo.openDelay = 180;
             activeDropPodInfo.leaveSlag = true;
             DropPodUtility.MakeDropPodAt(intVec, map, activeDropPodInfo);
-            Building overgrown_DropPod = (Building)ThingMaker.MakeThing(DefDatabase<ThingDef>.GetNamed("AA_Overgrown_DropPod", true));
-            GenSpawn.Spawn(overgrown_DropPod, intVec, map);
-            Find.LetterStack.ReceiveLetter("LetterLabelCactipinePod".Translate(), "CactipineDropPod".Translate(), LetterDefOf.NeutralEvent, overgrown_DropPod, null, null);
-
+            LookTargets lookie = new LookTargets(intVec,map);
+            
+            Find.LetterStack.ReceiveLetter("LetterLabelCactipinePod".Translate(), "CactipineDropPod".Translate(), LetterDefOf.NeutralEvent, lookie, null, null);
+            //GenSpawn.Spawn(overgrown_DropPod, intVec, map);
             return true;
         }
     }
