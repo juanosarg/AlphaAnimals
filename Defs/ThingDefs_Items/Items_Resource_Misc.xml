@@ -39,6 +39,33 @@
 			</li>
     </comps>
   </ThingDef>
+  
+ <!-- <ThingDef>
+    <defName>AA_Corpse</defName>
+    <label>unnamed corpse</label>
+    <description>Testity test.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/AA_Corpse</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+
+    </graphicData>
+		<techLevel>Neolithic</techLevel>
+		<statBases>
+      <MarketValue>10</MarketValue>
+      <Mass>0.35</Mass>
+      <Flammability>1.3</Flammability>
+      <MedicalPotency>0.75</MedicalPotency>
+      <MedicalQualityMax>0.8</MedicalQualityMax>
+      <DeteriorationRate>6</DeteriorationRate>
+    </statBases>
+    <tickerType>Rare</tickerType>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>150</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+    </comps>
+  </ThingDef>-->
 
 	
 
