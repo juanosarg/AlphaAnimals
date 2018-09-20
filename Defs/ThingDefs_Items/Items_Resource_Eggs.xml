@@ -21,7 +21,7 @@
 
 	</ThingDef>
 
-	<ThingDef Abstract="True" Name="AA_EggFertBase" ParentName="AA_EggBase" >
+	<ThingDef Abstract="True" Name="AA_EggFertBaseCold" ParentName="AA_EggBase" >
 		<tickerType>Normal</tickerType>
 
 		<thingCategories>
@@ -30,8 +30,102 @@
 		<comps>
 			<li Class="CompProperties_TemperatureRuinable">
 				<minSafeTemperature>-50</minSafeTemperature>
-				<maxSafeTemperature>50</maxSafeTemperature>
+				<maxSafeTemperature>15</maxSafeTemperature>
 				<progressPerDegreePerTick>0.00003</progressPerDegreePerTick>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef Abstract="True" Name="AA_EggFertBaseHot" ParentName="AA_EggBase" >
+		<tickerType>Normal</tickerType>
+
+		<thingCategories>
+			<li>EggsFertilized</li>
+		</thingCategories>
+		<comps>
+			<li Class="CompProperties_TemperatureRuinable">
+				<minSafeTemperature>10</minSafeTemperature>
+				<maxSafeTemperature>100</maxSafeTemperature>
+				<progressPerDegreePerTick>0.00003</progressPerDegreePerTick>
+			</li>
+		</comps>
+	</ThingDef>
+	
+		<!-- Feralisk Egg -->
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>AA_FeraliskEggUnfertilized</defName>
+		<label>feralisk egg (unfert.)</label>
+		<description>Unfertilized feralisk egg. It can be eaten raw, but it's much, much better cooked. Actually, it's a spider egg, it is disgusting either way...</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
+			<color>(79,67,61)</color>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MarketValue>9.0</MarketValue>
+
+		</statBases>
+
+	</ThingDef>
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>AA_FeraliskEggFertilized</defName>
+		<label>feralisk egg (fert.)</label>
+		<description>Fertilized feralisk egg. It can be eaten raw, but it's much, much better cooked. Actually, it's a spider egg, it is disgusting either way... If all goes well, it should hatch into a feralisk.</description>
+		<tradeability>None</tradeability>
+		<statBases>
+			<MarketValue>9.0</MarketValue>
+
+		</statBases>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
+			<color>(79,67,61)</color>
+		</graphicData>
+
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>18</hatcherDaystoHatch>
+				<hatcherPawn>AA_Feralisk</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	
+	<!-- Dunealisk Egg -->
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>AA_DunealiskEggUnfertilized</defName>
+		<label>dunealisk egg (unfert.)</label>
+		<description>Unfertilized dunealisk egg. It can be eaten raw, but it's much, much better cooked. Actually, it's a spider egg, it is disgusting either way...</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
+			<color>(186,170,112)</color>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MarketValue>9.0</MarketValue>
+
+		</statBases>
+
+	</ThingDef>
+
+	<ThingDef ParentName="AA_EggFertBaseHot">
+		<defName>AA_DunealiskEggFertilized</defName>
+		<label>dunealisk egg (fert.)</label>
+		<description>Fertilized dunealisk egg. It can be eaten raw, but it's much, much better cooked. Actually, it's a spider egg, it is disgusting either way... If all goes well, it should hatch into a dunealisk.</description>
+		<tradeability>None</tradeability>
+		<statBases>
+			<MarketValue>9.0</MarketValue>
+
+		</statBases>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
+			<color>(186,170,112)</color>
+		</graphicData>
+
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>18</hatcherDaystoHatch>
+				<hatcherPawn>AA_Dunealisk</hatcherPawn>
 			</li>
 		</comps>
 	</ThingDef>
@@ -53,7 +147,7 @@
 
 	</ThingDef>
 
-	<ThingDef ParentName="AA_EggFertBase">
+	<ThingDef ParentName="AA_EggFertBaseCold">
 		<defName>AA_BlizzariskEggFertilized</defName>
 		<label>blizzarisk egg (fert.)</label>
 		<description>Fertilized blizzarisk egg. It can be eaten raw, but it's much, much better cooked. Actually, it's a spider egg, it is disgusting either way... If all goes well, it should hatch into a blizzarisk.</description>
@@ -75,7 +169,7 @@
 		</comps>
 	</ThingDef>
 
-	<ThingDef ParentName="AA_EggFertBase">
+	<ThingDef ParentName="AA_EggFertBaseCold">
 		<defName>AA_BlizzariskSuperEggFertilized</defName>
 		<label>charged blizzarisk egg (fert.)</label>
 		<description>Fertilized blizzarisk egg. It can be eaten raw, but it's much, much better cooked. Actually, it's a spider egg, it is disgusting either way... If all goes well, it should hatch into a blizzarisk. This egg seems to be developing at an alarmingly accelerated rate!</description>

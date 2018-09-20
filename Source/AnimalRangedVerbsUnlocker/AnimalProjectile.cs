@@ -38,6 +38,14 @@ namespace AlphaAnimalRangeAttack
 
 
                 }
+                if (this.def.defName == "AA_FireWeb")
+                {
+                    DamageInfo dinfo2 = new DamageInfo(DamageDefOf.Burn, amount / 2, armorPenetration, y, launcher, null, null, DamageInfo.SourceCategory.ThingOrUnknown, this.intendedTarget.Thing);
+                    hitThing.TakeDamage(dinfo2).AssociateWithLog(battleLogEntry_RangedImpact);
+
+
+
+                }
             }
             else
             {

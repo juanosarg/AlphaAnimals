@@ -20,8 +20,44 @@
   
   <ThingDef ParentName="BaseBullet">
     <defName>AA_FrostWeb</defName>
+    <label>frost web</label>
+	<thingClass>AlphaAnimalRangeAttack.AnimalProjectile</thingClass>
+
+    <graphicData>
+      <texPath>Things/Projectiles/AA_Web</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>2</drawSize>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Stun</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+      <speed>15</speed>
+    </projectile>
+  </ThingDef>
+  
+    <ThingDef ParentName="BaseBullet">
+    <defName>AA_FireWeb</defName>
+    <label>fire web</label>
+	<thingClass>AlphaAnimalRangeAttack.AnimalProjectile</thingClass>
+
+    <graphicData>
+      <texPath>Things/Projectiles/AA_Web</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>2</drawSize>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>Stun</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+      <speed>15</speed>
+    </projectile>
+  </ThingDef>
+  
+    <ThingDef ParentName="BaseBullet">
+    <defName>AA_Web</defName>
     <label>web</label>
-		<thingClass>AlphaAnimalRangeAttack.AnimalProjectile</thingClass>
+	<thingClass>AlphaAnimalRangeAttack.AnimalProjectile</thingClass>
 
     <graphicData>
       <texPath>Things/Projectiles/AA_Web</texPath>
