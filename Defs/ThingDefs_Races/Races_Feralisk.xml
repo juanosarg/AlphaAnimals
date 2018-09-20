@@ -116,9 +116,10 @@
       <meatColor>(160,150,140)</meatColor>
       <foodType>OmnivoreAnimal, AnimalProduct</foodType>
       <wildness>0.985</wildness>
-      <lifeExpectancy>12</lifeExpectancy>
 	  <trainability>Advanced</trainability>
       <manhunterOnTameFailChance>0.1</manhunterOnTameFailChance>
+	        <manhunterOnDamageChance>1</manhunterOnDamageChance>
+
       <litterSizeCurve>
         <points>
           <li>(0.5, 0)</li>

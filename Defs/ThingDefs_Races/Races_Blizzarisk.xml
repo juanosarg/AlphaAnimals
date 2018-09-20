@@ -120,6 +120,7 @@
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_Chitin</leatherDef>
 			<trainability>Advanced</trainability>
+	        <manhunterOnDamageChance>1</manhunterOnDamageChance>
 
 			<manhunterOnTameFailChance>0.1</manhunterOnTameFailChance>
 			<litterSizeCurve>
@@ -320,6 +321,7 @@
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_Chitin</leatherDef>
 			<trainability>Advanced</trainability>
+	        <manhunterOnDamageChance>1</manhunterOnDamageChance>
 
 			<manhunterOnTameFailChance>0.8</manhunterOnTameFailChance>
 			<litterSizeCurve>
