@@ -3,71 +3,75 @@
 
 
 	<ThingDef ParentName="UnfinishedBase">
-	<defName>AA_RandomStones</defName>
+		<defName>AA_RandomStones</defName>
 		<label>random stone</label>
 		<description>This should never appear ingame. If it does, it's a bug</description>
 		<graphicData>
-		  <texPath>Things/Item/Chunk/ChunkStone</texPath>
-      <graphicClass>Graphic_Random</graphicClass>
-      <flipExtraRotation>80</flipExtraRotation>
+			<texPath>Things/Item/Chunk/ChunkStone</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<flipExtraRotation>80</flipExtraRotation>
 		</graphicData>
 	</ThingDef>
-	
-<ThingDef ParentName="MedicineBase">
-    <defName>AA_CactipineQuill</defName>
-    <label>medicinal cactipine quill</label>
-    <description>These quills are coated with a powerful anesthetic, and can be used as an alternative to herbal medicines. Not as powerful as industrial medicine, but useful in an emergency situation.</description>
-    <graphicData>
-      <texPath>Things/Item/Resource/AA_CactipineQuill</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>0.85</drawSize>
-    </graphicData>
+
+	<ThingDef ParentName="MedicineBase">
+		<defName>AA_CactipineQuill</defName>
+		<label>medicinal cactipine quill</label>
+		<description>These quills are coated with a powerful anesthetic, and can be used as an alternative to herbal medicines. Not as powerful as industrial medicine, but useful in an emergency situation.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AA_CactipineQuill</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.85</drawSize>
+		</graphicData>
 		<techLevel>Neolithic</techLevel>
 		<statBases>
-      <MarketValue>10</MarketValue>
-      <Mass>0.35</Mass>
-      <Flammability>1.3</Flammability>
-      <MedicalPotency>0.75</MedicalPotency>
-      <MedicalQualityMax>0.8</MedicalQualityMax>
-      <DeteriorationRate>6</DeteriorationRate>
-    </statBases>
-    <tickerType>Rare</tickerType>
-    <comps>
-      <li Class="CompProperties_Rottable">
-        <daysToRotStart>150</daysToRotStart>
+			<MarketValue>10</MarketValue>
+			<Mass>0.35</Mass>
+			<Flammability>1.3</Flammability>
+			<MedicalPotency>0.75</MedicalPotency>
+			<MedicalQualityMax>0.8</MedicalQualityMax>
+			<DeteriorationRate>6</DeteriorationRate>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>150</daysToRotStart>
 				<rotDestroys>true</rotDestroys>
 			</li>
-    </comps>
-  </ThingDef>
-  
- <!-- <ThingDef>
-    <defName>AA_Corpse</defName>
-    <label>unnamed corpse</label>
-    <description>Testity test.</description>
-    <graphicData>
-      <texPath>Things/Item/Resource/AA_Corpse</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+		</comps>
+	</ThingDef>
 
-    </graphicData>
+	<ThingDef ParentName="ResourceBase">
+		<defName>AA_Corpse</defName>
+		<label>unnamed corpse</label>
+		<description>Testity test.</description>
+		<thingClass>Corpse</thingClass>
+		<graphicData>
+			<texPath>Things/Item/Resource/AA_Corpse</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+
+		</graphicData>
 		<techLevel>Neolithic</techLevel>
 		<statBases>
-      <MarketValue>10</MarketValue>
-      <Mass>0.35</Mass>
-      <Flammability>1.3</Flammability>
-      <MedicalPotency>0.75</MedicalPotency>
-      <MedicalQualityMax>0.8</MedicalQualityMax>
-      <DeteriorationRate>6</DeteriorationRate>
-    </statBases>
-    <tickerType>Rare</tickerType>
-    <comps>
-      <li Class="CompProperties_Rottable">
-        <daysToRotStart>150</daysToRotStart>
+			<MarketValue>10</MarketValue>
+			<Mass>0.35</Mass>
+			<Flammability>1.3</Flammability>
+			<DeteriorationRate>1</DeteriorationRate>
+			<Nutrition>5.2</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+		</statBases>
+		<ingestible>
+			<foodType>Corpse</foodType>
+		</ingestible>
+		<tickerType>Rare</tickerType>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>150</daysToRotStart>
 				<rotDestroys>true</rotDestroys>
 			</li>
-    </comps>
-  </ThingDef>-->
+		</comps>
+	</ThingDef>
 
-	
+
 
 
 </Defs>

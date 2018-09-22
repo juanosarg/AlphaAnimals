@@ -47,6 +47,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Building_Overgrown_DropPod.cs" />
+    <Compile Include="CompDigWhenHungry.cs" />
+    <Compile Include="CompProperties_DigWhenHungry.cs" />
     <Compile Include="Hediff_Crushing.cs" />
     <Compile Include="Hediff_Stalking.cs" />
     <Compile Include="IncidentWorker_Aerofleets.cs" />

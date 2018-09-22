@@ -4,13 +4,13 @@
   <!-- ============================================================ -->
 
   <ThingDef ParentName="AnimalThingBase">
-    <defName>Frostmite</defName>
+    <defName>AA_Frostmite</defName>
     <label>frostmite</label>
-    <description>A large parasite usually found in cold places. They sweep the cold barren lands in search of corpses buried in the snow. Eating the preserved flesh and leaving a ravaged skeleton in its place; devoid of their former identity.</description>
+    <description>A large parasite usually found in cold places. They sweep the cold barren lands in search of corpses buried in the snow, eating the preserved flesh and leaving a ravaged skeleton in its place; devoid of their former identity.</description>
     <statBases>
       <MoveSpeed>6.00</MoveSpeed>
       <ComfyTemperatureMin>-80</ComfyTemperatureMin>
-      <ComfyTemperatureMax>35</ComfyTemperatureMax>
+      <ComfyTemperatureMax>15</ComfyTemperatureMax>
       <MarketValue>560</MarketValue>
     </statBases>
     <tools>
@@ -39,9 +39,18 @@
         <power>2</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
+			<comps>
+
+			<li Class="AlphaBehavioursAndEvents.CompProperties_DigWhenHungry">
+
+				<customThingToDig>AA_Corpse</customThingToDig>
+
+			</li>
+
+		</comps>
     <race>
       <wildBiomes>
         <IceSheet>0.05</IceSheet>
@@ -53,19 +62,16 @@
       <herdAnimal>true</herdAnimal>
       <predator>false</predator>
       <body>BeetleLikeWithClaw</body>
-      <herdAnimal>true</herdAnimal>
       <baseBodySize>0.50</baseBodySize>
       <baseHungerRate>1.3</baseHungerRate>
       <baseHealthScale>0.8</baseHealthScale>
       <fleshType>Insectoid</fleshType>
-      <bloodDef>FilthBloodInsect</bloodDef>
+      <bloodDef>Filth_BloodInsect</bloodDef>
       <meatColor>(160,150,140)</meatColor>
-      <foodType>OmnivoreAnimal, AnimalProduct</foodType>
-      <leatherColor>(207,209,234)</leatherColor>
-      <leatherLabel>frostmite skin</leatherLabel>
-      <leatherInsulation>2.2</leatherInsulation>
+      <foodType>Corpse</foodType>
+      <leatherDef>Leather_Chitin</leatherDef>
       <wildness>0.9</wildness>
-      <trainableIntelligence>None</trainableIntelligence>
+      <trainability>None</trainability>
       <gestationPeriodDays>30</gestationPeriodDays>
       <litterSizeCurve>
        <points>
@@ -102,44 +108,44 @@
   </ThingDef>
 
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>Frostmite</defName>
-    <race>Frostmite</race>
+    <defName>AA_Frostmite</defName>
+    <race>AA_Frostmite</race>
     <label>frostmite</label>
     <combatPower>80</combatPower>
-    <wildSpawn_EcoSystemWeight>0.2</wildSpawn_EcoSystemWeight>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_GroupSizeRange>
+    <ecoSystemWeight>0.2</ecoSystemWeight>
+    
+    <wildGroupSize>
       <min>5</min>
       <max>25</max>
-    </wildSpawn_GroupSizeRange>
+    </wildGroupSize>
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/FrostMite</texPath>
+          <texPath>Things/Pawn/Animal/AA_FrostMite/AA_FrostMite</texPath>
           <drawSize>0.7</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <texPath>Things/Pawn/Animal/AA_FrostMite/AA_Dessicated_FrostMite</texPath>
           <drawSize>0.7</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/FrostMite</texPath>
+          <texPath>Things/Pawn/Animal/AA_FrostMite/AA_FrostMite</texPath>
           <drawSize>1.3</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <texPath>Things/Pawn/Animal/AA_FrostMite/AA_Dessicated_FrostMite</texPath>
           <drawSize>1.3</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/FrostMite</texPath>
+          <texPath>Things/Pawn/Animal/AA_FrostMite/AA_FrostMite</texPath>
           <drawSize>1.6</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <texPath>Things/Pawn/Animal/AA_FrostMite/AA_Dessicated_FrostMite</texPath>
           <drawSize>1.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
