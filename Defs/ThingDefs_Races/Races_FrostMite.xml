@@ -105,6 +105,9 @@
       <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
     </race>
+	<tradeTags>
+			<li>StandardAnimal</li>
+		</tradeTags>
   </ThingDef>
 
   <PawnKindDef ParentName="AnimalKindBase">
