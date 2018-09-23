@@ -51,6 +51,46 @@
 		</comps>
 	</ThingDef>
 	
+	
+		<!-- Ironhusk Beetle Egg -->
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>AA_IronhuskEggUnfertilized</defName>
+		<label>ironhusk beetle egg (unfert.)</label>
+		<description>Unfertilized ironhusk beetle egg. It can be eaten raw, but it's much, much better cooked. Actually, it's a beetle egg, it is disgusting either way...</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AA_EggBeetle</texPath>
+			<color>(183,95,71)</color>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MarketValue>9.0</MarketValue>
+
+		</statBases>
+
+	</ThingDef>
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>AA_IronhuskEggFertilized</defName>
+		<label>ironhusk beetle egg (fert.)</label>
+		<description>Fertilized ironhusk beetle egg. It can be eaten raw, but it's much, much better cooked. Actually, it's a beetle egg, it is disgusting either way... If all goes well, it should hatch into an ironhusk beetle.</description>
+		<tradeability>None</tradeability>
+		<statBases>
+			<MarketValue>9.0</MarketValue>
+
+		</statBases>
+		<graphicData>
+			<texPath>Things/Item/Resource/AA_EggBeetle</texPath>
+			<color>(183,95,71)</color>
+		</graphicData>
+
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>25</hatcherDaystoHatch>
+				<hatcherPawn>AA_IronhuskBeetle</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+	
 		<!-- Feralisk Egg -->
 	<ThingDef ParentName="EggUnfertBase">
 		<defName>AA_FeraliskEggUnfertilized</defName>

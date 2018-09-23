@@ -106,7 +106,7 @@
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
     </race>
 	<tradeTags>
-			<li>StandardAnimal</li>
+			<li>AnimalCommon</li>
 		</tradeTags>
   </ThingDef>
 

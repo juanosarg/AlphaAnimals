@@ -1,11 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<ThingDef ParentName="AnimalThingBase">
-		<defName>Groundrunner</defName>
+		<defName>AA_Groundrunner</defName>
 		<label>groundrunner</label>
-		<description>A hybrid between a bear and mole, Groundrunners originally came from Cave Worlds. They were used as walking heavy tools by the locals when they hit parts that plasteel can’t break, and for hauling large boulders that their owners can’t lift.
-
-Due to their domesticated origins, they are surprisingly docile and easy to tame. Their incredible strength and sharp claws allows them to break rocks with relative ease. But out here in the Rim, those claws are usually reserved for ripping power armors apart along with their wearers.</description>
+		<description>A hybrid between a bear and mole, Groundrunners originally came from Cave Worlds. They were used as walking heavy tools by the locals when they hit parts that plasteel can’t break, and for hauling large boulders that their owners can’t lift.\n\nDue to their domesticated origins, they are surprisingly docile and easy to tame. Their incredible strength and sharp claws allows them to break rocks with relative ease. But out here in the Rim, those claws are usually reserved for ripping power armors apart along with their wearers.</description>
 		<statBases>
 			<MoveSpeed>3.00</MoveSpeed>
 			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
@@ -71,7 +69,7 @@ Due to their domesticated origins, they are surprisingly docile and easy to tame
 				<power>4</power>
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-				<commonality>0.2</commonality>
+				<chanceFactor>0.2</chanceFactor>
 			</li>
 		</tools>
 		<race>
@@ -83,16 +81,13 @@ Due to their domesticated origins, they are surprisingly docile and easy to tame
 			<herdAnimal>true</herdAnimal>
 			<predator>false</predator>
 			<body>QuadrupedAnimalWithPawsAndTail</body>
-			<herdAnimal>true</herdAnimal>
 			<baseBodySize>2</baseBodySize>
 			<baseHungerRate>1</baseHungerRate>
 			<baseHealthScale>3</baseHealthScale>
 			<foodType>OmnivoreRoughAnimal</foodType>
-			<leatherColor>(156,102,31)</leatherColor>
-			<leatherLabel>groundrunner skin</leatherLabel>
-			<leatherInsulation>1.2</leatherInsulation>
+			<leatherDef>Leather_Plain</leatherDef>
 			<wildness>0.3</wildness>
-			<trainableIntelligence>Advanced</trainableIntelligence>
+			<trainability>Advanced</trainability>
 			<gestationPeriodDays>90</gestationPeriodDays>
 			<litterSizeCurve>
 				<points>
@@ -126,47 +121,50 @@ Due to their domesticated origins, they are surprisingly docile and easy to tame
 			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
+			<tradeTags>
+      <li>AnimalCommon</li>
+    </tradeTags>
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">
-		<defName>Groundrunner</defName>
-		<race>Groundrunner</race>
+		<defName>AA_Groundrunner</defName>
+		<race>AA_Groundrunner</race>
 		<label>groundrunner</label>
 		<combatPower>350</combatPower>
-		<wildSpawn_EcoSystemWeight>0.2</wildSpawn_EcoSystemWeight>
-		<wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-		<wildSpawn_GroupSizeRange>
+		<ecoSystemWeight>0.2</ecoSystemWeight>
+		
+		<wildGroupSize>
 			<min>2</min>
 			<max>3</max>
-		</wildSpawn_GroupSizeRange>
+		</wildGroupSize>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/GroundRunner</texPath>
+					<texPath>Things/Pawn/Animal/AA_GroundRunner/AA_GroundRunner</texPath>
 					<drawSize>1.0</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+					<texPath>Things/Pawn/Animal/AA_GroundRunner/AA_Dessicated_GroundRunner</texPath>
 					<drawSize>1.0</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/GroundRunner</texPath>
+					<texPath>Things/Pawn/Animal/AA_GroundRunner/AA_GroundRunner</texPath>
 					<drawSize>1.8</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+					<texPath>Things/Pawn/Animal/AA_GroundRunner/AA_Dessicated_GroundRunner</texPath>
 					<drawSize>1.8</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/GroundRunner</texPath>
+					<texPath>Things/Pawn/Animal/AA_GroundRunner/AA_GroundRunner</texPath>
 					<drawSize>2.5</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+					<texPath>Things/Pawn/Animal/AA_GroundRunner/AA_Dessicated_GroundRunner</texPath>
 					<drawSize>2.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>

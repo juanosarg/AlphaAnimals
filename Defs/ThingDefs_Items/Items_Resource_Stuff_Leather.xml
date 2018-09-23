@@ -97,6 +97,29 @@
       </statFactors>
     </stuffProps>
   </ThingDef>
+  
+   <ThingDef ParentName="LeatherBase">
+    <defName>Leather_Gallatross</defName>
+    <label>gallatross leather</label>
+    <description>This furry hide is of exceptional quality. Probably one of the best possible leathers on the Rim.</description>
+    <graphicData>
+      <color>(151,146,169)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>16.0</MarketValue>
+      <StuffPower_Armor_Sharp>2.5</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.45</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>36</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>26</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(151,146,169)</color>
+      <commonality>0.0005</commonality>
+      <statFactors>
+        <MaxHitPoints>2.2</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
 
  
 

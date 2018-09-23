@@ -40,7 +40,7 @@
 		</comps>
 	</ThingDef>
 
-	<ThingDef ParentName="ResourceBase">
+	<!--<ThingDef ParentName="ResourceBase">
 		<defName>AA_Corpse</defName>
 		<label>unnamed corpse</label>
 		<description>Testity test.</description>
@@ -60,6 +60,7 @@
       <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
 		</statBases>
 		<ingestible>
+		<preferability>DesperateOnly</preferability>
 			<foodType>Corpse</foodType>
 		</ingestible>
 		<tickerType>Rare</tickerType>
@@ -69,7 +70,7 @@
 				<rotDestroys>true</rotDestroys>
 			</li>
 		</comps>
-	</ThingDef>
+	</ThingDef>-->
 
 
 

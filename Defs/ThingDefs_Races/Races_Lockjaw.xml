@@ -4,38 +4,28 @@
   <!-- ====================================================== -->
 
   <ThingDef ParentName="AnimalThingBase">
-    <defName>Lockjaw</defName>
+    <defName>AA_Lockjaw</defName>
     <label>lockjaw</label>
-    <description>A very large animal native to this planet’s tropical regions. Nicknamed Lockjaws for their incredibly strong bite force, the giants can separate limb from body with little effort.
-    But despite having a guillotine for a mouth, it does not seem to be an aggressive creature; Preferring to prey on the local wildlife rather than the local populace.</description>
+    <description>A very large animal native to this planet’s tropical regions. Nicknamed Lockjaws both for their incredibly strong bite force and for the disease they transmit, which afflicts its victims with a moderate facial paralysis that makes eating extremely uncomfortable.\n\nDespite having a guillotine for a mouth, the Lockjaw does not seem to be an overly aggressive creature; Preferring to prey on the local wildlife rather than the local populace.</description>
     <statBases>
       <MoveSpeed>3.00</MoveSpeed>
       <ComfyTemperatureMin>-10</ComfyTemperatureMin>
       <MarketValue>2500</MarketValue>
     </statBases>
     <tools>
-      <li>
-        <label>tusk</label>
-        <capacities>
-          <li>Scratch</li>
-          <li>Stab</li>
-        </capacities>
-        <power>23</power>
-        <cooldownTime>2.1</cooldownTime>
-        <linkedBodyPartsGroup>TuskAttackTool</linkedBodyPartsGroup>
-      </li>
+     
       <li>
         <capacities>
-          <li>Bite</li>
+          <li>AA_LockJawDamage</li>
         </capacities>
-        <power>35</power>
+        <power>38</power>
         <cooldownTime>1.85</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>21</amount>
+              <amount>25</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
@@ -48,7 +38,7 @@
         <power>12</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -56,19 +46,18 @@
         <TropicalRainforest>0.04</TropicalRainforest>
         <TropicalSwamp>0.05</TropicalSwamp>
       </wildBiomes>
-      <body>QuadrupedAnimalWithHoovesAndTusks</body>
+      <body>AA_Crocodile</body>
       <baseBodySize>2.5</baseBodySize>
       <baseHealthScale>2.7</baseHealthScale>
-			<baseHungerRate>1.5</baseHungerRate>
-			<foodType>CarnivoreAnimal</foodType>
+	  <baseHungerRate>1.5</baseHungerRate>
+	  <foodType>CarnivoreAnimal</foodType>
       <predator>true</predator>
       <maxPreyBodySize>0.95</maxPreyBodySize>
       <wildness>0.80</wildness>
-      <trainableIntelligence>Intermediate</trainableIntelligence>
+      <trainability>Intermediate</trainability>
       <manhunterOnTameFailChance>0.2</manhunterOnTameFailChance>
       <manhunterOnDamageChance>0.5</manhunterOnDamageChance>
-      <useMeatFrom>Rhinoceros</useMeatFrom>
-      <useLeatherFrom>Rhinoceros</useLeatherFrom>
+      <leatherDef>Leather_Lizard</leatherDef>
       <gestationPeriodDays>45</gestationPeriodDays>
       <lifeExpectancy>45</lifeExpectancy>
       <lifeStageAges>
@@ -94,51 +83,52 @@
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
     </race>
     <tradeTags>
-      <li>BadassAnimal</li>
-    </tradeTags>
+		<li>AnimalUncommon</li>
+      <li>AnimalFighter</li>
+	  </tradeTags>
   </ThingDef>
   
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>Lockjaw</defName>
+    <defName>AA_Lockjaw</defName>
     <label>lockjaw</label>
-    <race>Lockjaw</race>
+    <race>AA_Lockjaw</race>
     <combatPower>300</combatPower>
-    <wildSpawn_EcoSystemWeight>0.9</wildSpawn_EcoSystemWeight>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_GroupSizeRange>
+    <ecoSystemWeight>0.9</ecoSystemWeight>
+   
+    <wildGroupSize>
       <min>1</min>
       <max>3</max>
-    </wildSpawn_GroupSizeRange>
+    </wildGroupSize>
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Lockjaw</texPath>
+          <texPath>Things/Pawn/Animal/AA_Lockjaw/AA_Lockjaw</texPath>
           <drawSize>2.5</drawSize>
           <shadowData>
             <volume>(0.30, 0.25, 0.20)</volume>
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/AA_Lockjaw/AA_Dessicated_Lockjaw</texPath>
           <drawSize>1.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Lockjaw</texPath>
+          <texPath>Things/Pawn/Animal/AA_Lockjaw/AA_Lockjaw</texPath>
           <drawSize>2.25</drawSize>
           <shadowData>
             <volume>(0.375, 0.375, 0.375)</volume>
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/AA_Lockjaw/AA_Dessicated_Lockjaw</texPath>
           <drawSize>1.8</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Lockjaw</texPath>
+          <texPath>Things/Pawn/Animal/AA_Lockjaw/AA_Lockjaw</texPath>
           <drawSize>4.8</drawSize>
           <shadowData>
             <volume>(0.5, 0.5, 0.4)</volume>
@@ -146,7 +136,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/AA_Lockjaw/AA_Dessicated_Lockjaw</texPath>
           <drawSize>2.2</drawSize>
         </dessicatedBodyGraphicData>
       </li>

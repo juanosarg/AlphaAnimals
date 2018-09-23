@@ -312,7 +312,7 @@
 			<baseBodySize>3.00</baseBodySize>
 			<baseHungerRate>1.8</baseHungerRate>
 			<baseHealthScale>3</baseHealthScale>
-			<wildness>0.985</wildness>
+			<wildness>1</wildness>
 			<lifeExpectancy>30</lifeExpectancy>
 			<herdAnimal>false</herdAnimal>
 			<predator>true</predator>

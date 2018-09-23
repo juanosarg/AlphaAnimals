@@ -38,6 +38,18 @@
     <armorCategory>Sharp</armorCategory>
     <overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
   </DamageDef>
+  
+    
+  <DamageDef ParentName="Bite">
+    <defName>AA_LockJawDamage</defName>
+    <label>lockjaw bite</label>
+    <additionalHediffs>
+      <li>
+        <hediff>AA_LockJawDisease</hediff>
+        <severityPerDamageDealt>0.01</severityPerDamageDealt>
+      </li>
+    </additionalHediffs>
+  </DamageDef>
 	
 
 

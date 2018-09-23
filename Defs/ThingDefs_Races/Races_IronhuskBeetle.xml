@@ -2,9 +2,9 @@
 <Defs>
 
   <ThingDef ParentName="AnimalThingBase">
-    <defName>IronhuskBeetle</defName>
-    <label>IronhuskBeetle</label>
-    <description>Peaceful and bulky "farm" animal that occasionally sheds metallic husks that you can smelt into steel. Only eats tree.</description>
+    <defName>AA_IronhuskBeetle</defName>
+    <label>ironhusk beetle</label>
+    <description>Ironhusk beetles were genetically engineered by one of the miriad mining companies operating on the Rim. It's a peaceful farm animal that occasionally sheds metallic husks that can be smelt into steel, thus negating the need for heavy machinery in mining operations. As a downside, the beetle consumes a huge amount of wood from live trees.\n\nSadly, the mining company that created the Ironhusk beetles didn't account for this, and several planets on the Rim are now a barren ecological disaster.</description>
     <statBases>
       <MoveSpeed>2.8</MoveSpeed>
       <ComfyTemperatureMin>-8</ComfyTemperatureMin>
@@ -35,28 +35,36 @@
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
-        <commonality>0.5</commonality>
+        <chanceFactor>0.5</chanceFactor>
       </li>
     </tools>
     <comps>
-      <li Class="CompProperties_Shearable">
-        <woolDef>ChunkSlagSteel</woolDef>
-        <shearIntervalDays>5</shearIntervalDays>
-        <woolAmount>3</woolAmount>
-      </li>
+		  <li Class="NewAlphaAnimalSubproducts.CompProperties_AnimalProduct">
+				<resourceDef>ChunkSlagSteel</resourceDef>
+				<gatheringIntervalDays>3</gatheringIntervalDays>
+				<resourceAmount>3</resourceAmount>
+				<customResourceString>ChunkSlagSteelDesc</customResourceString>
+
+			</li>
+					<li Class="CompProperties_EggLayer">
+				<eggUnfertilizedDef>AA_IronhuskEggUnfertilized</eggUnfertilizedDef>
+				<eggFertilizedDef>AA_IronhuskEggFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>25</eggLayIntervalDays>
+				
+			</li>
+     
     </comps>
     <race>
       <body>BeetleLike</body>
       <baseBodySize>2.5</baseBodySize>
       <baseHealthScale>1.5</baseHealthScale>
       <baseHungerRate>0.95</baseHungerRate>
-      <foodType>VegetarianRoughAnimal</foodType>
-      <leatherColor>(184,109,73)</leatherColor>
-      <leatherLabel>alpacahide</leatherLabel>
-      <leatherInsulation>1.1</leatherInsulation>
+      <foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
+      <leatherDef>Leather_Chitin</leatherDef>
+     
       <wildness>0.2</wildness>
-      <trainableIntelligence>Intermediate</trainableIntelligence>
-      <gestationPeriodDays>50</gestationPeriodDays>
+      <trainability>Intermediate</trainability>
       <lifeExpectancy>10</lifeExpectancy>
       <lifeStageAges>
         <li>
@@ -81,31 +89,31 @@
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
     </race>
     <tradeTags>
-      <li>BadassAnimal</li>
+      <li>AnimalCommon</li>
+      <li>AnimalFarm</li>
     </tradeTags>
   </ThingDef>
 
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>IronhuskBeetle</defName>
-    <label>iron-husk beetle</label>
-    <race>IronhuskBeetle</race>
+    <defName>AA_IronhuskBeetle</defName>
+    <label>ironhusk beetle</label>
+    <race>AA_IronhuskBeetle</race>
     <combatPower>200</combatPower>
-    <canArriveManhunter>false</canArriveManhunter>
-    <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
+   
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/IronhuskBeetle</texPath>
+          <texPath>Things/Pawn/Animal/AA_IronhuskBeetle/AA_IronhuskBeetle</texPath>
           <drawSize>2</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/AA_IronhuskBeetle/AA_Dessicated_IronhuskBeetle</texPath>
           <drawSize>1.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/IronhuskBeetle</texPath>
+          <texPath>Things/Pawn/Animal/AA_IronhuskBeetle/AA_IronhuskBeetle</texPath>
           <drawSize>1.95</drawSize>
           <shadowData>
             <volume>(0.3, 0.3, 0.3)</volume>
@@ -113,13 +121,13 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/AA_IronhuskBeetle/AA_Dessicated_IronhuskBeetle</texPath>
           <drawSize>1.9</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/IronhuskBeetle</texPath>
+          <texPath>Things/Pawn/Animal/AA_IronhuskBeetle/AA_IronhuskBeetle</texPath>
           <drawSize>2.5</drawSize>
           <shadowData>
             <volume>(0.4, 0.4, 0.4)</volume>
@@ -127,7 +135,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/AA_IronhuskBeetle/AA_Dessicated_IronhuskBeetle</texPath>
           <drawSize>2.2</drawSize>
         </dessicatedBodyGraphicData>
       </li>

@@ -91,7 +91,7 @@
 			<AA_AerofleetMeat>2</AA_AerofleetMeat>
 		</butcherProducts>
 		<tradeTags>
-			<li>StandardAnimal</li>
+			<li>AnimalCommon</li>
 		</tradeTags>
 	</ThingDef>
 

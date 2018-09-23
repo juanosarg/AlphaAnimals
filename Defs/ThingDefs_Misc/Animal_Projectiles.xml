@@ -4,8 +4,7 @@
   <ThingDef ParentName="BaseBullet">
     <defName>AA_Bullet_Barb</defName>
     <label>barb</label>
-		<thingClass>AlphaAnimalRangeAttack.AnimalProjectile</thingClass>
-
+	<thingClass>AlphaAnimalRangeAttack.AnimalProjectile</thingClass>
     <graphicData>
       <texPath>Things/Projectiles/AA_Barb</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -15,6 +14,24 @@
       <damageDef>AA_ToxicSting</damageDef>
       <damageAmountBase>5</damageAmountBase>
       <speed>64</speed>
+    </projectile>
+  </ThingDef>
+  
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>AA_Bullet_Rock</defName>
+    <label>rock</label>
+	<thingClass>AlphaAnimalRangeAttack.AnimalProjectile</thingClass>
+    <graphicData>
+      <texPath>Things/Projectiles/AA_Boulder</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>true</flyOverhead>
+      <explosionRadius >1.9</explosionRadius >
+      <damageDef>Bomb</damageDef>
+      <damageAmountBase>9</damageAmountBase>
+      <speed>20</speed>
     </projectile>
   </ThingDef>
   

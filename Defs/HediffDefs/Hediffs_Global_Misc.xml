@@ -37,5 +37,35 @@
 		</li>
       </stages>
   </HediffDef>
+  
+ <HediffDef ParentName="InfectionBase">
+    <defName>AA_LockJawDisease</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>lockjaw disease</label>
+    <makesSickThought>true</makesSickThought>
+    <tendable>true</tendable>
+    <stages>
+      <li>
+        <painOffset>0.2</painOffset>
+        <restFallFactorOffset>1</restFallFactorOffset>
+        <capMods>
+          <li>
+            <capacity>Talking</capacity>
+            <offset>-0.5</offset>
+          </li>
+          <li>
+            <capacity>Eating</capacity>
+            <offset>-0.5</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_TendDuration">
+        <baseTendDurationHours>48</baseTendDurationHours>
+        <disappearsAtTotalTendQuality>3</disappearsAtTotalTendQuality>
+      </li>
+    </comps>
+  </HediffDef>
 
 </Defs>

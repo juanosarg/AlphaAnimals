@@ -102,6 +102,19 @@
 
 	</BodyPartDef>
 	
-
+	  <!-- Crocodile parts -->
+	
+  <BodyPartDef>
+    <defName>AA_CrocodileJaw</defName>
+    <label>huge jaws</label>
+    <hitPoints>20</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>EatingSource</li>
+      <li>TalkingSource</li>
+      <li>ManipulationLimbCore</li>
+    </tags>
+  </BodyPartDef>
 
 </Defs>

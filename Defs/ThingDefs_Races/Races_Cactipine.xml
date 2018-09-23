@@ -125,7 +125,7 @@
 			<AA_CactusMeat>2</AA_CactusMeat>
 		</butcherProducts>
 		<tradeTags>
-			<li>StandardAnimal</li>
+			<li>AnimalCommon</li>
 		</tradeTags>
   </ThingDef>
 
