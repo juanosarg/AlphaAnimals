@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<ThingDef ParentName="AnimalThingBase">
-		<defName>MammothWorm</defName>
+		<defName>AA_MammothWorm</defName>
 		<label>Mammoth Worm</label>
 		<description>An extremely large, genetically-engineered worm. Despite its incredibly intimidating size and arsenal, these huge creatures are rather quite peaceful. It was once part of the worker caste of an artificial ecosystem of insectoids designed to fight mechanoid invasions. It carried and moved things that its little cousins cannot.
-		While generally peaceful, if provoked, it becomes a terrifying force that can rival those of mechanoid Centipedes.</description>
+		While generally peaceful, if provoked, it becomes a terrifying force that can rival those of mechanoid Centipedes.\n\nOriginally, the Mammoth Worm was specifically bred as a living siege engine to destroy mechanoid structures, and as such it can be extremely effective.</description>
 		<statBases>
 			<MoveSpeed>2.0</MoveSpeed>
 			<ComfyTemperatureMin>0</ComfyTemperatureMin>
@@ -46,19 +46,18 @@
 				<ExtremeDesert>0.03</ExtremeDesert>
 			</wildBiomes>
 			<herdAnimal>false</herdAnimal>
-			<body>WormWithArmorAndTusks</body>
+			<body>AA_WormWithArmorAndTusks</body>
 			<baseBodySize>3.00</baseBodySize>
 			<baseHungerRate>1.2</baseHungerRate>
 			<baseHealthScale>3.0</baseHealthScale>
 			<fleshType>Insectoid</fleshType>
-			<bloodDef>FilthBloodInsect</bloodDef>
+			<bloodDef>Filth_BloodInsect</bloodDef>
 			<meatColor>(160,150,140)</meatColor>
 			<foodType>OmnivoreAnimal, AnimalProduct</foodType>
-			<leatherColor>(102,93,93)</leatherColor>
-			<leatherLabel>terramorph worm plate</leatherLabel> <!-- *** Convert to Plate later *** -->
-			<leatherInsulation>1.0</leatherInsulation>
+			<leatherDef>Leather_Chitin</leatherDef>
+			
 			<wildness>0.9</wildness>
-			<trainableIntelligence>Intermediate</trainableIntelligence>
+			<trainability>Intermediate</trainability>
 			<gestationPeriodDays>90</gestationPeriodDays>
 			<litterSizeCurve>
 				<points>
@@ -79,7 +78,7 @@
 				</li>
 				<li>
 					<def>AnimalAdult</def>
-					<minAge>4.50</minAge>
+					<minAge>1.5</minAge>
 					<soundWounded>Pawn_Terramorph_Wounded</soundWounded>
 					<soundDeath>Pawn_Terramorph_Death</soundDeath>
 					<soundCall>Pawn_Terramorph_Call</soundCall>
@@ -90,47 +89,51 @@
 			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
+		    <tradeTags>
+		<li>AnimalUncommon</li>
+      <li>AnimalFighter</li>
+	  </tradeTags>
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">
-		<defName>MammothWorm</defName>
-		<race>MammothWorm</race>
+		<defName>AA_MammothWorm</defName>
+		<race>AA_MammothWorm</race>
 		<label>mammoth worm</label>
 		<combatPower>200</combatPower>
-		<wildSpawn_EcoSystemWeight>0.2</wildSpawn_EcoSystemWeight>
-		<wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-		<wildSpawn_GroupSizeRange>
+		<ecoSystemWeight>0.2</ecoSystemWeight>
+		
+		<wildGroupSize>
 			<min>3</min>
 			<max>5</max>
-		</wildSpawn_GroupSizeRange>
+		</wildGroupSize>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/TerramorphWorm</texPath>
+					<texPath>Things/Pawn/Animal/AA_MammothWorm/AA_MammothWorm</texPath>
 					<drawSize>1.8</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+					<texPath>Things/Pawn/Animal/AA_MammothWorm/AA_Dessicated_MammothWorm</texPath>
 					<drawSize>1.8</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/TerramorphWorm</texPath>
+					<texPath>Things/Pawn/Animal/AA_MammothWorm/AA_MammothWorm</texPath>
 					<drawSize>3.2</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+					<texPath>Things/Pawn/Animal/AA_MammothWorm/AA_Dessicated_MammothWorm</texPath>
 					<drawSize>3.2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/TerramorphWorm</texPath>
+					<texPath>Things/Pawn/Animal/AA_MammothWorm/AA_MammothWorm</texPath>
 					<drawSize>4.1</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+					<texPath>Things/Pawn/Animal/AA_MammothWorm/AA_Dessicated_MammothWorm</texPath>
 					<drawSize>3.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>

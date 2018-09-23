@@ -102,7 +102,7 @@
 
 	</BodyPartDef>
 	
-	  <!-- Crocodile parts -->
+	  <!-- Lockjaw parts -->
 	
   <BodyPartDef>
     <defName>AA_CrocodileJaw</defName>
@@ -116,5 +116,8 @@
       <li>ManipulationLimbCore</li>
     </tags>
   </BodyPartDef>
+  
+   
+	
 
 </Defs>

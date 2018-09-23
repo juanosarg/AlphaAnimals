@@ -4,8 +4,8 @@
 	<!-- ======================== TerramorphWorm ======================== -->
 
 	<BodyDef>
-		<defName>WormWithArmorAndTusks</defName>
-		<label>WormWithArmorAndTusks</label>
+		<defName>AA_WormWithArmorAndTusks</defName>
+		<label>worm with armor and tusks</label>
 		<corePart>
 			<def>SnakeBody</def>
 			<coverage>0.10</coverage>
@@ -35,12 +35,16 @@
 					<depth>Outside</depth>
 					<parts>
 						<li>
-							<def>LeftLung</def>
+							<def>Lung</def>
+												<customLabel>left lung</customLabel>
+
 							<coverage>0.05</coverage>
 							<depth>Inside</depth>
 						</li>
 						<li>
-							<def>RightLung</def>
+							<def>Lung</def>
+												<customLabel>right lung</customLabel>
+
 							<coverage>0.05</coverage>
 							<depth>Inside</depth>
 						</li>
@@ -71,12 +75,16 @@
 					<depth>Outside</depth>
 					<parts>
 						<li>
-							<def>LeftKidney</def>
+							<def>Kidney</def>
+												<customLabel>left kidney</customLabel>
+
 							<coverage>0.05</coverage>
 							<depth>Inside</depth>
 						</li>
 						<li>
-							<def>RightKidney</def>
+							<def>Kidney</def>
+												<customLabel>right kidney</customLabel>
+
 							<coverage>0.05</coverage>
 							<depth>Inside</depth>
 						</li>
@@ -99,11 +107,15 @@
 						</parts>
 						</li>
 						<li>
-							<def>LeftEye</def>
+							<def>Eye</def>
+																			<customLabel>left eye</customLabel>
+
 							<coverage>0.15</coverage>
 						</li>
 						<li>
-							<def>RightEye</def>
+							<def>Eye</def>
+																										<customLabel>right eye</customLabel>
+
 							<coverage>0.15</coverage>
 						</li>
 						<li>
@@ -115,7 +127,9 @@
 							<coverage>0.1</coverage>
 							<parts>
 								<li>
-									<def>LeftTusk</def>
+									<def>Tusk</def>
+																												<customLabel>left tusk</customLabel>
+
 									<coverage>0.1</coverage>
 									<depth>Outside</depth>
 									<groups>
@@ -123,7 +137,9 @@
 									</groups>
 								</li>
 								<li>
-									<def>RightTusk</def>
+									<def>Tusk</def>
+																												<customLabel>right tusk</customLabel>
+
 									<coverage>0.1</coverage>
 									<depth>Outside</depth>
 									<groups>
