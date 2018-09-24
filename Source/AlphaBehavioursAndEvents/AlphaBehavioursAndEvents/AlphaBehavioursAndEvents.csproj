@@ -51,6 +51,7 @@
     <Compile Include="CompProperties_DigWhenHungry.cs" />
     <Compile Include="Hediff_Crushing.cs" />
     <Compile Include="Hediff_Stalking.cs" />
+    <Compile Include="IncidentWorker_Gallatross.cs" />
     <Compile Include="IncidentWorker_Aerofleets.cs" />
     <Compile Include="CompProperties_AsexualReproduction.cs" />
     <Compile Include="CompAsexualReproduction.cs" />

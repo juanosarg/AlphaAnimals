@@ -87,6 +87,18 @@
    
   </IncidentDef>
   
+    <IncidentDef>
+    <defName>AA_Incident_Gallatross</defName>
+    <label>gallatross wanders</label>
+		<category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>AlphaBehavioursAndEvents.IncidentWorker_Gallatross</workerClass>
+    <baseChance>0.7</baseChance>
+    <minRefireDays>13</minRefireDays>
+  </IncidentDef>
+  
   
 
 </Defs>
