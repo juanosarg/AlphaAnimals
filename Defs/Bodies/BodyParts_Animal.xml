@@ -117,6 +117,37 @@
     </tags>
   </BodyPartDef>
   
+  <!-- Mammoth Worm parts -->
+  
+  <BodyPartDef>
+		<defName>AA_FirstWormSegment</defName>
+		<label>first body segment</label>
+		<hitPoints>25</hitPoints>
+		<skinCovered>true</skinCovered>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>AA_SecondWormSegment</defName>
+		<label>second body segment</label>
+		<hitPoints>25</hitPoints>
+		<skinCovered>true</skinCovered>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>AA_ThirdWormSegment</defName>
+		<label>third body segment</label>
+		<hitPoints>25</hitPoints>
+		<skinCovered>true</skinCovered>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>AA_FourthWormSegment</defName>
+		<label>fourth body segment</label>
+		<hitPoints>25</hitPoints>
+		<skinCovered>true</skinCovered>
+	</BodyPartDef>
+
+  
    
 	
 

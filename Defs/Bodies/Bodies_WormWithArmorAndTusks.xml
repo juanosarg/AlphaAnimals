@@ -11,12 +11,10 @@
 			<coverage>0.10</coverage>
 			<height>Middle</height>
 			<depth>Outside</depth>
-			<groups>
-				<li>Body</li>
-			</groups>
+			
 			<parts>
 				<li>
-					<def>FirstWormSegment</def>
+					<def>AA_FirstWormSegment</def>
 					<coverage>0.20</coverage>
 					<height>Middle</height>
 					<depth>Outside</depth>
@@ -29,7 +27,7 @@
 					</parts>
 				</li>
 				<li>
-					<def>SecondWormSegment</def>
+					<def>AA_SecondWormSegment</def>
 					<coverage>0.20</coverage>
 					<height>Middle</height>
 					<depth>Outside</depth>
@@ -51,7 +49,7 @@
 					</parts>
 				</li>
 				<li>
-					<def>ThirdWormSegment</def>
+					<def>AA_ThirdWormSegment</def>
 					<coverage>0.20</coverage>
 					<height>Middle</height>
 					<depth>Outside</depth>
@@ -69,7 +67,7 @@
 					</parts>
 				</li>
 				<li>
-					<def>FourthWormSegment</def>
+					<def>AA_FourthWormSegment</def>
 					<coverage>0.20</coverage>
 					<height>Middle</height>
 					<depth>Outside</depth>

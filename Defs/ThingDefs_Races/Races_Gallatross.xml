@@ -17,7 +17,7 @@
       Beware, beware would-be foes
       Beware, the wrath of the Gallatross.</description>
     <statBases>
-      <MoveSpeed>1.00</MoveSpeed>
+      <MoveSpeed>5.7</MoveSpeed>
       <ComfyTemperatureMin>-100</ComfyTemperatureMin>
       
     </statBases>
@@ -28,7 +28,7 @@
           <li>Scratch</li>
         </capacities>
         <power>35</power>
-        <cooldownTime>1.85</cooldownTime>
+        <cooldownTime>0.85</cooldownTime>
         <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
       </li>
       <li>
@@ -72,12 +72,14 @@
 				<defaultProjectile>AA_Bullet_Rock</defaultProjectile>
 				<warmupTime>0.66</warmupTime>
 				<burstShotCount>1</burstShotCount>
+								<forcedMissRadius>2</forcedMissRadius>
+
 				<minRange>2</minRange>
-				<range>20</range>
+				<range>30</range>
 				<soundCast>AA_DartSound</soundCast>
 				<muzzleFlashScale>2</muzzleFlashScale>
 				<!--Commanility determines how frequent this range verb is chosen.-->
-				<commonality>.8</commonality>
+				<commonality>1</commonality>
 			</li>
 
 
@@ -89,11 +91,11 @@
       <body>QuadrupedAnimalWithHoovesAndHorn</body>
       <baseBodySize>6.00</baseBodySize>
       <baseHungerRate>5.0</baseHungerRate>
-      <baseHealthScale>20</baseHealthScale>
+      <baseHealthScale>40</baseHealthScale>
       <foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
       <leatherDef>Leather_Gallatross</leatherDef>
 
-      <wildness>0.95</wildness>
+      <wildness>0.99</wildness>
       <manhunterOnDamageChance>1.0</manhunterOnDamageChance>
       <manhunterOnTameFailChance>0.3</manhunterOnTameFailChance>
       <trainability>Advanced</trainability>

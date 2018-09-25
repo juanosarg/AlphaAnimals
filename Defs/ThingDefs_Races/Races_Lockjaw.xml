@@ -18,24 +18,17 @@
         <capacities>
           <li>AA_LockJawDamage</li>
         </capacities>
-        <power>38</power>
+        <power>13</power>
         <cooldownTime>1.85</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-        <surpriseAttack>
-          <extraMeleeDamages>
-            <li>
-              <def>Stun</def>
-              <amount>25</amount>
-            </li>
-          </extraMeleeDamages>
-        </surpriseAttack>
+      
       </li>
       <li>
         <label>head</label>
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>12</power>
+        <power>10</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <chanceFactor>0.2</chanceFactor>

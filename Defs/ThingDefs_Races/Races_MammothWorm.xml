@@ -20,7 +20,7 @@
 				</capacities>
 				<power>30</power>
 				<cooldownTime>1.9</cooldownTime>
-				<linkedBodyPartsGroup>Body</linkedBodyPartsGroup>
+				
 				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>

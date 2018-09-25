@@ -46,7 +46,7 @@
     <additionalHediffs>
       <li>
         <hediff>AA_LockJawDisease</hediff>
-        <severityPerDamageDealt>0.01</severityPerDamageDealt>
+        <severityPerDamageDealt>0.1</severityPerDamageDealt>
       </li>
     </additionalHediffs>
   </DamageDef>
