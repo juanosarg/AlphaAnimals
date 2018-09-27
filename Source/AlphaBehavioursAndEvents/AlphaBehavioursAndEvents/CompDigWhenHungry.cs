@@ -32,14 +32,16 @@ namespace AlphaBehavioursAndEvents
         {
             base.CompTick();
             Pawn pawn = this.parent as Pawn;
-            if ((pawn.Map != null)&&(pawn.needs.food.CurLevelPercentage < pawn.needs.food.PercentageThreshHungry))
+            if ((pawn.Map != null)&&(pawn.needs.food.CurLevelPercentage < pawn.needs.food.PercentageThreshHungry)&&(pawn.Awake()))
             {
                
                 if (stopdiggingcounter <= 0) {
-                    Thing thing = ThingMaker.MakeThing(ThingDef.Named(customThingToDig), null);
-                    thing.stackCount = 1;
-                    Thing t;
-                    GenPlace.TryPlaceThing(thing, pawn.Position, this.parent.Map, ThingPlaceMode.Direct, out t, null, null);
+
+                    PawnKindDef wildman = PawnKindDef.Named("WildMan");
+                    Faction faction = FactionUtility.DefaultFactionFrom(wildman.defaultFactionType);
+                    Pawn newPawn = PawnGenerator.GeneratePawn(wildman, faction);
+                    newPawn.health.SetDead();
+                    GenSpawn.Spawn(newPawn, pawn.Position, pawn.Map, WipeMode.Vanish);
                     stopdiggingcounter = 2000;
                 }
                 stopdiggingcounter--;

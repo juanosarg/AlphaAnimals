@@ -114,7 +114,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/AA_IronhuskBeetle/AA_IronhuskBeetle</texPath>
-          <drawSize>1.95</drawSize>
+          <drawSize>2.5</drawSize>
           <shadowData>
             <volume>(0.3, 0.3, 0.3)</volume>
             <offset>(0,0,-0.3)</offset>
@@ -122,13 +122,13 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/AA_IronhuskBeetle/AA_Dessicated_IronhuskBeetle</texPath>
-          <drawSize>1.9</drawSize>
+          <drawSize>2.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/AA_IronhuskBeetle/AA_IronhuskBeetle</texPath>
-          <drawSize>2.5</drawSize>
+          <drawSize>3.5</drawSize>
           <shadowData>
             <volume>(0.4, 0.4, 0.4)</volume>
             <offset>(0,0,-0.2)</offset>
@@ -136,7 +136,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/AA_IronhuskBeetle/AA_Dessicated_IronhuskBeetle</texPath>
-          <drawSize>2.2</drawSize>
+          <drawSize>3.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
