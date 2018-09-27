@@ -91,6 +91,84 @@
 		</comps>
 	</ThingDef>
 	
+			<!-- Mammoth Worm Egg -->
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>AA_MammothWormEggUnfertilized</defName>
+		<label>mammoth worm egg (unfert.)</label>
+		<description>Unfertilized mammoth worm egg. It can be eaten raw, but it's much, much better cooked. Actually, it's a worm egg, it is disgusting either way...</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AA_EggBeetle</texPath>
+			<color>(126,113,117)</color>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MarketValue>9.0</MarketValue>
+
+		</statBases>
+
+	</ThingDef>
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>AA_MammothWormEggFertilized</defName>
+		<label>mammoth worm egg (fert.)</label>
+		<description>Fertilized mammoth worm egg. It can be eaten raw, but it's much, much better cooked. Actually, it's a worm egg, it is disgusting either way... If all goes well, it should hatch into a mammoth worm.</description>
+		<tradeability>None</tradeability>
+		<statBases>
+			<MarketValue>9.0</MarketValue>
+
+		</statBases>
+		<graphicData>
+			<texPath>Things/Item/Resource/AA_EggBeetle</texPath>
+			<color>(126,113,117)</color>
+		</graphicData>
+
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>45</hatcherDaystoHatch>
+				<hatcherPawn>AA_MammothWorm</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+	
+				<!-- Megalouse Egg -->
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>AA_MegalouseEggUnfertilized</defName>
+		<label>megalouse egg (unfert.)</label>
+		<description>Unfertilized megalouse egg. It can be eaten raw, but it's much, much better cooked. Actually, it's a worm egg, it is disgusting either way...</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AA_EggBeetle</texPath>
+			<color>(126,113,117)</color>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MarketValue>9.0</MarketValue>
+
+		</statBases>
+
+	</ThingDef>
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>AA_MegalouseEggFertilized</defName>
+		<label>megalouse egg (fert.)</label>
+		<description>Fertilized megalouse egg. It can be eaten raw, but it's much, much better cooked. Actually, it's a worm egg, it is disgusting either way... If all goes well, it should hatch into a megalouse.</description>
+		<tradeability>None</tradeability>
+		<statBases>
+			<MarketValue>9.0</MarketValue>
+
+		</statBases>
+		<graphicData>
+			<texPath>Things/Item/Resource/AA_EggBeetle</texPath>
+			<color>(126,113,117)</color>
+		</graphicData>
+
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>15</hatcherDaystoHatch>
+				<hatcherPawn>AA_MegaLouse</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+	
 		<!-- Feralisk Egg -->
 	<ThingDef ParentName="EggUnfertBase">
 		<defName>AA_FeraliskEggUnfertilized</defName>

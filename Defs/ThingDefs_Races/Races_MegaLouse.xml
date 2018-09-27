@@ -4,26 +4,23 @@
   <!-- ============================================================ -->
 
   <ThingDef ParentName="AnimalThingBase">
-    <defName>MegaLouse</defName>
+    <defName>AA_MegaLouse</defName>
     <label>megalouse</label>
-    <description>
-      A large genetically engineered pillbug. These creatures once served as the frontline skirmishers of an insectoid hive; A collection of genetically modified insects made as a weapon against Mechanoid invasions. Their job consisted of reducing lone Mechanoid infantry to swiss cheese; And they were good at it. Even the mighty Centipede was no match against the swarm of spikes.
-      Nowadays, they can be found roaming in packs that’s a joke compared to their former numbers and with killer instincts that waits to be reawakened once more.
-    </description>
+    <description>A large genetically engineered pillbug. These creatures once served as the frontline skirmishers of an insectoid hive; A collection of genetically modified insects made as a weapon against Mechanoid invasions. Their job consisted of reducing lone Mechanoid infantry to swiss cheese; And they were good at it. Even the mighty Centipede was no match against the swarm of spikes.\n\nNowadays, they can be found roaming in packs that are a joke compared to their former numbers and with killer instincts that yearn to be reawakened once more.</description>
     <statBases>
       <MoveSpeed>3.00</MoveSpeed>
       <ComfyTemperatureMin>-70</ComfyTemperatureMin>
-      <MarketValue>2200</MarketValue>
+      <MarketValue>400</MarketValue>
     </statBases>
     <tools>
       <li>
-        <label>headclaw</label>
+        <label>tusk</label>
         <capacities>
-          <li>Cut</li>
+          <li>Stab</li>
         </capacities>
-        <power>12</power>
+        <power>16</power>
         <cooldownTime>1.5</cooldownTime>
-        <linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
+        <linkedBodyPartsGroup>TuskAttackTool</linkedBodyPartsGroup>
       </li>
       <li>
         <label>head</label>
@@ -32,19 +29,24 @@
         </capacities>
         <power>5</power>
         <cooldownTime>1.65</cooldownTime>
-        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
-      <li>
-        <label>mouth</label>
-        <capacities>
-          <li>Bite</li>
-        </capacities>
-        <power>12</power>
-        <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
-      </li>
+     
     </tools>
+	    <comps>
+   
+	
+			<li Class="CompProperties_EggLayer">
+				<eggUnfertilizedDef>AA_MegalouseEggUnfertilized</eggUnfertilizedDef>
+				<eggFertilizedDef>AA_MegalouseEggFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>15</eggLayIntervalDays>
+				<eggCountRange>
+					<min>1</min>
+					<max>3</max>
+				</eggCountRange>
+			</li>
+    </comps>
     <race>
       <wildBiomes>
         <BorealForest>0.03</BorealForest>
@@ -53,21 +55,18 @@
       </wildBiomes>
       <herdAnimal>true</herdAnimal>
       <predator>false</predator>
-      <body>BeetleLikeWithClaw</body>
+      <body>AA_WormWithArmorAndTusks</body>
       <baseBodySize>0.5</baseBodySize>
       <baseHungerRate>0.7</baseHungerRate>
       <baseHealthScale>1.0</baseHealthScale>
       <fleshType>Insectoid</fleshType>
-      <bloodDef>FilthBloodInsect</bloodDef>
+      <bloodDef>Filth_BloodInsect</bloodDef>
       <meatColor>(160,150,140)</meatColor>
       <foodType>OmnivoreAnimal, AnimalProduct</foodType>
-      <leatherColor>(210,210,210)</leatherColor>
-      <leatherLabel>megalouse carapace</leatherLabel>
-      <leatherInsulation>1.1</leatherInsulation>
+      <leatherDef>Leather_Chitin</leatherDef>
       <wildness>0.9</wildness>
       <manhunterOnDamageChance>1.0</manhunterOnDamageChance>
       <manhunterOnTameFailChance>0.2</manhunterOnTameFailChance>
-      <gestationPeriodDays>30</gestationPeriodDays>
       <litterSizeCurve>
        <points>
           <li>(0.5, 0)</li>
@@ -90,55 +89,58 @@
         <li>
           <def>AnimalAdult</def>
           <minAge>1.50</minAge>
-          <!--<soundWounded>Pawn_ArcticLion_Wounded</soundWounded>
-          <soundDeath>Pawn_ArcticLion_Death</soundDeath>
-          <soundCall>Pawn_ArcticLion_Call</soundCall>
-          <soundAngry>Pawn_ArcticLion_Angry</soundAngry>-->
+               <soundWounded>Pawn_Megascarab_Wounded</soundWounded>
+          <soundDeath>Pawn_Megascarab_Death</soundDeath>
+          <soundCall>Pawn_Megascarab_Call</soundCall>
+          <soundAngry>Pawn_Megascarab_Angry</soundAngry>
         </li>
       </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
     </race>
+	    <tradeTags>
+		<li>AnimalUncommon</li>
+      <li>AnimalFighter</li>
+	  </tradeTags>
   </ThingDef>
 
   <PawnKindDef ParentName="AnimalKindBase">
-  	<defName>MegaLouse</defName>
+  	<defName>AA_MegaLouse</defName>
     <label>megalouse</label>
-    <race>MegaLouse</race>
+    <race>AA_MegaLouse</race>
     <combatPower>150</combatPower>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_EcoSystemWeight>0.2</wildSpawn_EcoSystemWeight>
-    <wildSpawn_GroupSizeRange>
+    <ecoSystemWeight>0.2</ecoSystemWeight>
+    <wildGroupSize>
       <min>5</min>
       <max>15</max>
-    </wildSpawn_GroupSizeRange>
+    </wildGroupSize>
     <lifeStages>
     	<li>
     		<label>megalouse</label>
     		<bodyGraphicData>
-    			<texPath>Things/Pawn/Animal/MegaLouse</texPath>
+    			<texPath>Things/Pawn/Animal/AA_MegaLouse/AA_MegaLouse</texPath>
     			<drawSize>0.8</drawSize>
     		</bodyGraphicData>
     		<dessicatedBodyGraphicData>
-    			<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+    			<texPath>Things/Pawn/Animal/AA_MegaLouse/AA_Dessicated_MegaLouse</texPath>
     			<drawSize>0.8</drawSize>
     		</dessicatedBodyGraphicData>
     	</li>
     	<li>
     		<label>megalouse</label>
     		<bodyGraphicData>
-    			<texPath>Things/Pawn/Animal/MegaLouse</texPath>
+    			<texPath>Things/Pawn/Animal/AA_MegaLouse/AA_MegaLouse</texPath>
     			<drawSize>1</drawSize>
     		</bodyGraphicData>
     		<dessicatedBodyGraphicData>
-    			<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+    			<texPath>Things/Pawn/Animal/AA_MegaLouse/AA_Dessicated_MegaLouse</texPath>
     			<drawSize>1</drawSize>
     		</dessicatedBodyGraphicData>
     	</li>
     	<li>
     		<bodyGraphicData>
-    			<texPath>Things/Pawn/Animal/MegaLouse</texPath>
+    			<texPath>Things/Pawn/Animal/AA_MegaLouse/AA_MegaLouse</texPath>
     			<drawSize>1.4</drawSize>
     			<shadowData>
     				<volume>(0.2, 0.3, 0.2)</volume>
@@ -146,7 +148,7 @@
     			</shadowData>
     		</bodyGraphicData>
     		<dessicatedBodyGraphicData>
-    			<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+    			<texPath>Things/Pawn/Animal/AA_MegaLouse/AA_Dessicated_MegaLouse</texPath>
     			<drawSize>1.4</drawSize>
     		</dessicatedBodyGraphicData>
     	</li>

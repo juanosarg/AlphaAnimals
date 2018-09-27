@@ -39,6 +39,17 @@
 				<linkedBodyPartsGroup>TuskAttackTool</linkedBodyPartsGroup>
 			</li>
 		</tools>
+		  <comps>
+   
+	 
+			<li Class="CompProperties_EggLayer">
+				<eggUnfertilizedDef>AA_MammothWormEggUnfertilized</eggUnfertilizedDef>
+				<eggFertilizedDef>AA_MammothWormEggFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>45</eggLayIntervalDays>
+				
+			</li>
+    </comps>
 		<race>
 			<wildBiomes>
 				<AridShrubland>0.03</AridShrubland>
@@ -58,7 +69,6 @@
 			
 			<wildness>0.9</wildness>
 			<trainability>Intermediate</trainability>
-			<gestationPeriodDays>90</gestationPeriodDays>
 			<litterSizeCurve>
 				<points>
 					<li>(0.99, 0)</li>
