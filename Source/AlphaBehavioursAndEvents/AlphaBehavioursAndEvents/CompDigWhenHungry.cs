@@ -9,7 +9,8 @@ namespace AlphaBehavioursAndEvents
     public class CompDigWhenHungry : ThingComp
     {
         public int stopdiggingcounter = 0;
-       
+        private Effecter effecter;
+
 
         public CompProperties_DigWhenHungry Props
         {
@@ -42,7 +43,12 @@ namespace AlphaBehavioursAndEvents
                     Pawn newPawn = PawnGenerator.GeneratePawn(wildman, faction);
                     newPawn.health.SetDead();
                     GenSpawn.Spawn(newPawn, pawn.Position, pawn.Map, WipeMode.Vanish);
-                    stopdiggingcounter = 2000;
+                    if (this.effecter == null)
+					{
+                        this.effecter = EffecterDefOf.Mine.Spawn();
+                    }
+                    this.effecter.Trigger(pawn, newPawn);
+                    stopdiggingcounter = 10000;
                 }
                 stopdiggingcounter--;
 
