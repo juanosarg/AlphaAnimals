@@ -42,6 +42,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="SiegeProjectile.cs" />
     <Compile Include="AnimalProjectile.cs" />
     <Compile Include="Harmony.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -17,6 +17,23 @@
     </projectile>
   </ThingDef>
   
+    <ThingDef ParentName="BaseBullet">
+    <defName>AA_Bullet_VenomBarb</defName>
+    <label>venomous barb</label>
+	<thingClass>AlphaAnimalRangeAttack.AnimalProjectile</thingClass>
+    <graphicData>
+      <texPath>Things/Projectiles/AA_Barb</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  			<color>(174,188,98)</color>
+
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>AA_ToxicSting</damageDef>
+      <damageAmountBase>1</damageAmountBase>
+      <speed>35</speed>
+    </projectile>
+  </ThingDef>
   
   <ThingDef ParentName="BaseBullet">
     <defName>AA_Bullet_Rock</defName>
@@ -32,6 +49,22 @@
       <damageDef>Bomb</damageDef>
       <damageAmountBase>20</damageAmountBase>
       <speed>20</speed>
+    </projectile>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>AA_Siege_Rock</defName>
+    <label>rock</label>
+	<thingClass>AlphaAnimalRangeAttack.SiegeProjectile</thingClass>
+    <graphicData>
+      <texPath>Things/Projectiles/AA_Boulder</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>true</flyOverhead>
+      <damageDef>Blunt</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+      <speed>100</speed>
     </projectile>
   </ThingDef>
   

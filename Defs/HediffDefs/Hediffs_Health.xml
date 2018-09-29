@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Implants -->
+
+
+  
+  
+  <HediffDef>
+    <defName>GR_LightSustenance</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+    <label>level of sunlight</label>
+	<lethalSeverity>0.80</lethalSeverity>
+    <makesSickThought>true</makesSickThought>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <comps>
+      <li Class="HediffCompProperties_Immunizable">
+        <severityPerDayNotImmune>-0.08</severityPerDayNotImmune>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <label>initial-hidden</label>
+      </li>
+      <li>
+        <label>adequate light</label>
+        <minSeverity>0.04</minSeverity>
+
+      </li>
+      <li>
+        <label>reasonable light levels</label>
+        <minSeverity>0.2</minSeverity>
+
+      </li>
+      <li>
+        <label>poor light conditions</label>
+        <minSeverity>0.40</minSeverity>
+
+        
+      </li>
+      <li>
+        <label>lack of sunlight</label>
+        <minSeverity>0.60</minSeverity>
+
+       
+      </li>
+      <li>
+        <label>extreme lack of sustenance</label>
+        <minSeverity>0.80</minSeverity>
+
+       
+      </li>
+    </stages>
+  </HediffDef>
+
+</Defs>
