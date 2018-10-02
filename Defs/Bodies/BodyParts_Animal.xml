@@ -147,8 +147,97 @@
 		<skinCovered>true</skinCovered>
 	</BodyPartDef>
 
-  
-   
+    <!-- NeedlePost parts -->
+
+   	<BodyPartDef>
+		<defName>AA_SentientPlantBody</defName>
+		<label>sentient plant body</label>
+		<hitPoints>40</hitPoints>
+		<frostbiteVulnerability>1</frostbiteVulnerability>
+		<skinCovered>true</skinCovered>
+		<tags>
+			<li>MovingLimbCore</li>
+		</tags>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>AA_SentientPlantHead</defName>
+		<label>sentient plant head</label>
+		<hitPoints>30</hitPoints>
+		<frostbiteVulnerability>1</frostbiteVulnerability>
+		<skinCovered>true</skinCovered>
+		<tags>
+			<li>HearingSource</li>
+		</tags>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>AA_SentientPlantMouth</defName>
+		<label>sentient plant mouth</label>
+		<hitPoints>10</hitPoints>
+		<frostbiteVulnerability>0.8</frostbiteVulnerability>
+		<skinCovered>true</skinCovered>
+		<tags>
+			<li>EatingSource</li>
+			<li>TalkingSource</li>
+		</tags>
+	</BodyPartDef>
 	
+	    <!-- Raptor Shrimp parts -->
+
+	
+		<BodyPartDef>
+		<defName>AA_LeftCreatureLimb</defName>
+		<label>left limb</label>
+		<hitPoints>30</hitPoints>
+		<frostbiteVulnerability>1</frostbiteVulnerability>
+		<skinCovered>true</skinCovered>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>AA_RightCreatureLimb</defName>
+		<label>right limb</label>
+		<hitPoints>30</hitPoints>
+		<frostbiteVulnerability>1</frostbiteVulnerability>
+		<skinCovered>true</skinCovered>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>AA_LeftCreatureBlade</defName>
+		<label>left blade</label>
+		<hitPoints>15</hitPoints>
+		<skinCovered>false</skinCovered>
+		    <bleedRate>0</bleedRate>
+
+		<solid>true</solid>
+	</BodyPartDef>
+
+	<BodyPartDef>
+		<defName>AA_RightCreatureBlade</defName>
+		<label>right blade</label>
+		<hitPoints>15</hitPoints>
+		<skinCovered>false</skinCovered>
+		<solid>true</solid>
+		    <bleedRate>0</bleedRate>
+
+	</BodyPartDef>
+	
+		    <!-- TetraSlug parts -->
+
+	<BodyPartDef>
+		<defName>AA_Carapace</defName>
+		<label>metallic carapace</label>
+		<hitPoints>100</hitPoints>
+		<skinCovered>false</skinCovered>
+		<solid>true</solid>
+		    <alive>false</alive>
+    <bleedRate>0</bleedRate>
+	</BodyPartDef>			
+	  <BodyPartDef>
+		<defName>AA_SlugBody</defName>
+		<label>slug body</label>
+		<hitPoints>25</hitPoints>
+		<skinCovered>true</skinCovered>
+	</BodyPartDef>
 
 </Defs>

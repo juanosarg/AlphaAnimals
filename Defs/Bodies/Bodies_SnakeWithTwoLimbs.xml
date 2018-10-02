@@ -4,7 +4,7 @@
 	<!-- ======================== RaptorShrimp ======================== -->
 
 	<BodyDef>
-		<defName>SnakeWithTwoLimbs</defName>
+		<defName>AA_SnakeWithTwoLimbs</defName>
 		<label>SnakeWithTwoLimbs</label>
 		<corePart>
 			<def>SnakeBody</def>
@@ -12,31 +12,31 @@
 			<depth>Outside</depth>
 			<parts>
 				<li>
-					<def>LeftCreatureLimb</def>
+					<def>AA_LeftCreatureLimb</def>
 					<coverage>0.08</coverage>
 					<depth>Outside</depth>
 					<parts>
 						<li>
-							<def>LeftCreatureBlade</def>
+							<def>AA_LeftCreatureBlade</def>
 							<coverage>0.2</coverage>
 							<depth>Outside</depth>
 							<groups>
-								<li>BladeAttackTool</li>
+								<li>AA_BladeAttackTool</li>
 							</groups>
 						</li>
 					</parts>
 				</li>
 				<li>
-					<def>RightCreatureLimb</def>
+					<def>AA_RightCreatureLimb</def>
 					<coverage>0.08</coverage>
 					<depth>Outside</depth>
 					<parts>
 						<li>
-							<def>RightCreatureBlade</def>
+							<def>AA_RightCreatureBlade</def>
 							<coverage>0.2</coverage>
 							<depth>Outside</depth>
 							<groups>
-								<li>BladeAttackTool</li>
+								<li>AA_BladeAttackTool</li>
 							</groups>
 						</li>
 					</parts>
@@ -52,22 +52,26 @@
 					<depth>Inside</depth>
 				</li>
 				<li>
-					<def>LeftLung</def>
+					<def>Lung</def>
+					<customLabel>left lung</customLabel>
 					<coverage>0.03</coverage>
 					<depth>Inside</depth>
 				</li>
 				<li>
-					<def>RightLung</def>
+					<def>Lung</def>
+					<customLabel>right lung</customLabel>
 					<coverage>0.03</coverage>
 					<depth>Inside</depth>
 				</li>
 				<li>
-					<def>LeftKidney</def>
+					<def>Kidney</def>
+					<customLabel>left kidney</customLabel>
 					<coverage>0.03</coverage>
 					<depth>Inside</depth>
 				</li>
 				<li>
-					<def>RightKidney</def>
+					<def>Kidney</def>
+					<customLabel>right kidney</customLabel>
 					<coverage>0.03</coverage>
 					<depth>Inside</depth>
 				</li>
@@ -101,19 +105,25 @@
 									</parts>
 								</li>
 								<li>
-									<def>LeftEye</def>
+									<def>Eye</def>
+									<customLabel>left eye</customLabel>
 									<coverage>0.12</coverage>
 								</li>
 								<li>
-									<def>RightEye</def>
+									<def>Eye</def>
+									<customLabel>right eye</customLabel>
 									<coverage>0.12</coverage>
 								</li>
 								<li>
-									<def>LeftEar</def>
+									<def>Ear</def>
+																		<customLabel>left ear</customLabel>
+
 									<coverage>0.08</coverage>
 								</li>
 								<li>
-									<def>RightEar</def>
+									<def>Ear</def>
+																		<customLabel>right ear</customLabel>
+
 									<coverage>0.08</coverage>
 								</li>
 								<li>
@@ -124,7 +134,7 @@
 									<def>SnakeMouth</def>
 									<coverage>0.1</coverage>
 									<groups>
-										<li>Mouth</li>
+										<li>AA_Mouth</li>
 									</groups>
 								</li>
 							</parts>

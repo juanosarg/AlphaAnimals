@@ -22,7 +22,7 @@
 	</BodyPartGroupDef>
 
 	<BodyPartGroupDef>
-		<defName>BladeAttackTool</defName>
+		<defName>AA_BladeAttackTool</defName>
 		<label>blade</label>
 	</BodyPartGroupDef>
 

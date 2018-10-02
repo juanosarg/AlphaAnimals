@@ -38,6 +38,21 @@
       </stages>
   </HediffDef>
   
+     <HediffDef>
+    <defName>AA_Nocturnal</defName>
+    <hediffClass>AlphaBehavioursAndEvents.Hediff_NocturnalAnimal</hediffClass>
+    <label>nocturnal animal</label>
+    <defaultLabelColor>(.8,0,0)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    
+      <stages>
+        <li>
+		  
+		</li>
+      </stages>
+  </HediffDef>
+  
  <HediffDef ParentName="InfectionBase">
     <defName>AA_LockJawDisease</defName>
     <hediffClass>HediffWithComps</hediffClass>

@@ -6,19 +6,23 @@
 <ThingDef ParentName="AnimalThingBase">
 		<defName>AA_Needlepost</defName>
 		<label>needlepost</label>
-		<description>A cactus genetically modified to give it sentience. The first iteration of this creature was supposed to be a stationary tactical deterrent (the Whip Cactus), but having no intelligence or mobility crippled its effectiveness. With a little genetic engineering, it was given a mobile body, an infantile intelligence, and toxic barbs for good measure. The result backfired as commands proved ineffective. The facility was promptly overrun by the experiments; and a horde of angry cactuses escaped into the wilderness.</description>
+		<description>A cactus genetically modified to give it sentience. The first iteration of this creature was supposed to be a stationary tactical deterrent (the Whip Cactus), but having no intelligence or mobility crippled its effectiveness. With a little genetic engineering, it was given a mobile body, an infantile intelligence, and toxic barbs for good measure. The result backfired as commands proved ineffective. The facility was promptly overrun by the experiments; and a horde of angry cactuses escaped into the wilderness.\n\nNeedleposts can derive nutrition from very small amounts of rotting vegetables, but they need a huge amount of sunlight (or equivalent) over anything else. Nights won't affect them, but a solar eclipse is usually fatal to them.</description>
 		<statBases>
 			<MoveSpeed>3.00</MoveSpeed>
 			<ComfyTemperatureMin>10</ComfyTemperatureMin>
 			<ComfyTemperatureMax>70</ComfyTemperatureMax>
 			<MarketValue>630</MarketValue>
 			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+				  			<MeatAmount>0</MeatAmount>
+
 		</statBases>
+			<tickerType>Normal</tickerType>
+
 		<tools>
 			<li>
 				<label>stings</label>
 				<capacities>
-					<li>ToxicSting</li>
+					<li>AA_ToxicSting</li>
 				</capacities>
 				<power>6</power>
 				<cooldownTime>1.35</cooldownTime>
@@ -29,8 +33,19 @@
 				</capacities>
 				<power>8</power>
 				<cooldownTime>1.35</cooldownTime>
-				<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+				<linkedBodyPartsGroup>AA_Mouth</linkedBodyPartsGroup>
 			</li>
+			 <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.1</chanceFactor>
+      </li>
 		</tools>
 			<verbs>
 			<li>
@@ -53,19 +68,24 @@
 
 
 		</verbs>
+		<comps>		
+		<li Class="AlphaBehavioursAndEvents.CompProperties_LightSustenance">
+			
+        </li>
+    </comps>
 		<race>
       <wildBiomes>
         <Desert>0.04</Desert>
         <ExtremeDesert>0.04</ExtremeDesert>
         <AridShrubland>0.03</AridShrubland>
       </wildBiomes>
-      <predator>true</predator>
+      <predator>false</predator>
 			<body>AA_SentientPlant</body>
 			<herdAnimal>true</herdAnimal>
 			<baseBodySize>1.80</baseBodySize>
-			<baseHungerRate>0.3</baseHungerRate>
+			<baseHungerRate>0.05</baseHungerRate>
 			<baseHealthScale>0.9</baseHealthScale>
-      		<foodType>OmnivoreAnimal, AnimalProduct</foodType>
+      		<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>Leather_Cactus</leatherDef>
 			<wildness>0.8</wildness>
 			<trainability>Intermediate</trainability>
@@ -100,6 +120,9 @@
 			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
+		<butcherProducts>
+			<AA_CactusMeat>2</AA_CactusMeat>
+		</butcherProducts>
 				<tradeTags>
 			<li>ExoticAnimal</li>
 		</tradeTags>

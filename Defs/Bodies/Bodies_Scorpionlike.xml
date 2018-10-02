@@ -30,6 +30,9 @@
 					<parts>
 						<li>
 							<def>InsectHead</def>
+							<groups>
+								<li>HeadAttackTool</li>
+							</groups>
 							<coverage>0.65</coverage>
 							<parts>
 								<li>

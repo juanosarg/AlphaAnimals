@@ -23,14 +23,17 @@ namespace AlphaBehavioursAndEvents
         }
 
 
-        public override void CompTickRare()
+        public override void CompTick()
         {
             Pawn pawn = this.parent as Pawn;
-            if (addHediffOnce)
+
+            if (pawn.Spawned)
             {
-                pawn.health.AddHediff(HediffDef.Named("GR_LightSustenance"));
-                Hediff hediff = pawn.health.hediffSet.GetFirstHediffOfDef(HediffDef.Named("GR_LightSustenance"), false);
-                hediff.Severity = 0.0f;
+                if (addHediffOnce)
+            {
+                pawn.health.AddHediff(HediffDef.Named("AA_LightSustenance"));
+                Hediff hediff = pawn.health.hediffSet.GetFirstHediffOfDef(HediffDef.Named("AA_LightSustenance"), false);
+                hediff.Severity = 0.2f;
                 addHediffOnce = false;
             }
             float num = this.parent.Map.glowGrid.GameGlowAt(this.parent.Position, false);
@@ -39,24 +42,25 @@ namespace AlphaBehavioursAndEvents
             if (num >= growOptimalGlow)
             {
 
-                Hediff hediff = pawn.health.hediffSet.GetFirstHediffOfDef(HediffDef.Named("GR_LightSustenance"), false);
+                Hediff hediff = pawn.health.hediffSet.GetFirstHediffOfDef(HediffDef.Named("AA_LightSustenance"), false);
 
                 if ((hediff != null) && hediff.Severity > 0f)
                 {
-                    hediff.Severity -= 0.005f;
-                    //Log.Warning("Severity " + hediff.Severity.ToString());
+                    hediff.Severity -= 0.000025f;
+                   // Log.Warning("Severity " + hediff.Severity.ToString());
                 }
             }
             else
             {
-                Hediff hediff = pawn.health.hediffSet.GetFirstHediffOfDef(HediffDef.Named("GR_LightSustenance"), false);
+                Hediff hediff = pawn.health.hediffSet.GetFirstHediffOfDef(HediffDef.Named("AA_LightSustenance"), false);
 
                 if ((hediff != null) && hediff.Severity < 1f)
                 {
 
-                    hediff.Severity += 0.005f;
+                    hediff.Severity += 0.000025f;
                     // Log.Warning("Severity " + hediff.Severity.ToString());
 
+                }
                 }
             }
         }

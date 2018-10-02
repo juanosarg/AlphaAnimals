@@ -2,7 +2,7 @@
 <Defs>
 
   <ThingDef ParentName="AnimalThingBase">
-    <defName>Wildpod</defName>
+    <defName>AA_Wildpod</defName>
     <label>wildpod</label>
     <description>Giant mushroom cyclops that's highly resistant to bullets but dies "quickly" to fire damage.</description>
     <statBases>

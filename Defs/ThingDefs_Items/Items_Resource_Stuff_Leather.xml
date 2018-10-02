@@ -76,6 +76,30 @@
   </ThingDef>
   
     <ThingDef ParentName="LeatherBase">
+    <defName>Leather_RaptorPlates</defName>
+    <label>raptor shrimp plates</label>
+    <description>Overlapping plates of hardened chitin. Really durable in combat, but provides little protection from weather.</description>
+    <graphicData>
+		<texPath>Things/Item/Resource/AA_Chitin</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(86,94,74)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>4.2</MarketValue>
+      <StuffPower_Armor_Sharp>2.7</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Cold>6</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>6</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(86,94,74)</color>
+      <commonality>0.001</commonality>
+      <statFactors>
+        <MaxHitPoints>2</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  
+    <ThingDef ParentName="LeatherBase">
     <defName>Leather_Cactus</defName>
     <label>living cactus skin</label>
     <description>This strange material seems to be part animal hide, part living plant tissue. It traps cold water inside, acting as an incredibly good thermal insulator for hot climates.</description>

@@ -307,6 +307,29 @@
 			</li>
 		</comps>
 	</ThingDef>
+	
+	<!-- =============== Nightling Egg =============== -->
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>AA_EggNightlingFertilized</defName>
+		<label>nightling egg (fert.)</label>
+		<description>Fertilized nightling egg. If all goes well, it should hatch into a baby nightling. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/AA_EggNightling</texPath>
+			<drawSize>1.8</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>100</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>15</hatcherDaystoHatch>
+				<hatcherPawn>AA_Nightling</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+
+	
 
 
 </Defs>
