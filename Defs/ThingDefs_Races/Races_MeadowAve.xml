@@ -1,36 +1,79 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="BigBirdThingBase">
-    <defName>MeadowAve</defName>
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>AA_MeadowAve</defName>
     <label>meadow ave</label>
     <description>A large flightless bird with colorful feathers. Mostly found in the plains eating fruits and berries, Meadow Aves naturally attract the eyes and hands of those who wander by. Many forget that underneath the majestic feathery coat is a wild animal with a razor sharp beak and claws to match.</description>
     <statBases>
-      <MoveSpeed>6.0</MoveSpeed>
-      <ComfyTemperatureMin>-14</ComfyTemperatureMin>
+      <MoveSpeed>9.0</MoveSpeed>
+      <ComfyTemperatureMin>-15</ComfyTemperatureMin>
       <MarketValue>400</MarketValue>
     </statBases>
     <race>
-      <herdAnimal>false</herdAnimal>
+	
+	<wildBiomes>
+        <BorealForest>0.03</BorealForest>
+        <Tundra>0.03</Tundra>
+        <ColdBog>0.03</ColdBog>
+        <TemperateForest>0.05</TemperateForest>
+        <TemperateSwamp>0.05</TemperateSwamp>
+        <TropicalRainforest>0.05</TropicalRainforest>
+        <TropicalSwamp>0.04</TropicalSwamp>
+        <AridShrubland>0.04</AridShrubland>
+        <Desert>0.03</Desert>
+        <ExtremeDesert>0.02</ExtremeDesert>      
+      </wildBiomes>
+      <herdAnimal>true</herdAnimal>
+      <predator>false</predator>
+      <body>Bird</body>
       <baseBodySize>1.2</baseBodySize>
       <baseHealthScale>1.0</baseHealthScale>
-			<baseHungerRate>0.55</baseHungerRate>
-			<foodType>VegetarianRoughAnimal</foodType>
-      <wildness>0.95</wildness>
-      <lifeExpectancy>45</lifeExpectancy>
-      <leatherColor>(76,83,99)</leatherColor>
-      <useMeatFrom>Cassowary</useMeatFrom>
-      <useLeatherFrom>Cassowary</useLeatherFrom>
-      <manhunterOnTameFailChance>0.022</manhunterOnTameFailChance>
-      <wildBiomes>
-        <BorealForest>0.03</BorealForest>
-        <TemperateForest>0.03</TemperateForest>
-        <TropicalRainforest>0.03</TropicalRainforest>
-      </wildBiomes>
+	  <baseHungerRate>0.55</baseHungerRate>
+      <foodType>VegetarianRoughAnimal</foodType>
+      <wildness>0.6</wildness>
+      <manhunterOnDamageChance>0.05</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0.02</manhunterOnTameFailChance>
+      <trainability>Intermediate</trainability>
+	  <leatherDef>Leather_Bird</leatherDef>
+      <gestationPeriodDays>24</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(0.99, 0)</li>
+          <li>(1, 1)</li>
+          <li>(1.01, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeExpectancy>40</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.2</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.5</minAge>
+     
+        </li>
+      </lifeStageAges>
+            <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+	
+	
+	
+     
     </race>
+	    <tradeTags>
+      <li>AnimalUncommon</li>
+    </tradeTags>
     <comps>
       <li Class="CompProperties_EggLayer">
-        <eggFertilizedDef>EggMeadowAveFertilized</eggFertilizedDef>
+        <eggFertilizedDef>AA_EggMeadowAveFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
         <eggLayIntervalDays>23</eggLayIntervalDays>
         <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -79,31 +122,37 @@
         <power>4</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
   </ThingDef>
 
-  <PawnKindDef ParentName="BigBirdKindBase">
-    <defName>MeadowAve</defName>
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>AA_MeadowAve</defName>
     <label>meadow ave</label>
     <labelPlural>meadow aves</labelPlural>
-    <race>MeadowAve</race>
+    <race>AA_MeadowAve</race>
+	<ecoSystemWeight>0.9</ecoSystemWeight>
+   
+    <wildGroupSize>
+      <min>3</min>
+      <max>7</max>
+    </wildGroupSize>
     <lifeStages>
       <li>
         <label>meadow ave chick</label>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/MeadowAve/ChickMeadowAve</texPath>
+          <texPath>Things/Pawn/Animal/AA_MeadowAve/AA_MeadowAve_Blue</texPath>
           <drawSize>0.85</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <texPath>Things/Pawn/Animal/AA_MeadowAve/AA_Dessicated_MeadowAve</texPath>
           <drawSize>0.85</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/MeadowAve/YoungMeadowAve</texPath>
+          <texPath>Things/Pawn/Animal/AA_MeadowAve/AA_MeadowAve_Blue</texPath>
           <drawSize>1.4</drawSize>
           <shadowData>
             <volume>(0.3, 0.3, 0.3)</volume>
@@ -111,38 +160,27 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/AA_MeadowAve/AA_Dessicated_MeadowAve</texPath>
           <drawSize>1.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/MeadowAve/MaleMeadowAve</texPath>
+          <texPath>Things/Pawn/Animal/AA_MeadowAve/AA_MeadowAve_Blue</texPath>
           <drawSize>2.4</drawSize>
           <shadowData>
             <volume>(0.4, 0.4, 0.4)</volume>
             <offset>(0,0,-0.2)</offset>
           </shadowData>
         </bodyGraphicData>
-        <femaleGraphicData>
-          <texPath>Things/Pawn/Animal/MeadowAve/FemaleMeadowAve</texPath>
-          <drawSize>2</drawSize>
-          <shadowData>
-            <volume>(0.4, 0.4, 0.4)</volume>
-            <offset>(0,0,-0.2)</offset>
-          </shadowData>
-        </femaleGraphicData>
+       
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>2</drawSize>
+          <texPath>Things/Pawn/Animal/AA_MeadowAve/AA_Dessicated_MeadowAve</texPath>
+          <drawSize>2.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
-    <wildSpawn_EcoSystemWeight>0.32</wildSpawn_EcoSystemWeight>
-    <wildSpawn_GroupSizeRange>
-      <min>3</min>
-      <max>7</max>
-    </wildSpawn_GroupSizeRange>
+   
   </PawnKindDef>
 
 </Defs>

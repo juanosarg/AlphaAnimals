@@ -328,6 +328,28 @@
 			</li>
 		</comps>
 	</ThingDef>
+	
+		<!-- =============== Meadow Ave Egg =============== -->
+
+	
+	<ThingDef ParentName="EggFertBase">
+		<defName>AA_EggMeadowAveFertilized</defName>
+		<label>meadow ave egg (fert.)</label>
+		<description>Fertilized meadow ave egg. If all goes well, it should hatch into a baby meadow ave. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<color>(125,138,97)</color>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>19.0</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>7</hatcherDaystoHatch>
+				<hatcherPawn>AA_MeadowAve</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
 
 	
 

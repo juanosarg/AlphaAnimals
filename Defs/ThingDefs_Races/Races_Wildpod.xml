@@ -62,7 +62,7 @@
         <power>6</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -74,7 +74,7 @@
       <gestationPeriodDays>60</gestationPeriodDays>
       <wildness>0.95</wildness>
       <manhunterOnTameFailChance>0.018</manhunterOnTameFailChance>
-      <trainableIntelligence>Intermediate</trainableIntelligence>
+      <trainability>Intermediate</trainability>
       <lifeExpectancy>70</lifeExpectancy>
       <lifeStageAges>
         <li>
@@ -107,25 +107,25 @@
         <AridShrubland>0.002</AridShrubland>
       </wildBiomes>
     </race>
-    <tradeTags>
-      <li>BadassAnimal</li>
-    </tradeTags>
+		<tradeTags>
+			<li>ExoticAnimal</li>
+		</tradeTags>
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>Wildpod</defName>
+    <defName>AA_Wildpod</defName>
     <label>wildpod</label>
-    <race>Wildpod</race>
+    <race>AA_Wildpod</race>
     <combatPower>250</combatPower>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_EcoSystemWeight>1</wildSpawn_EcoSystemWeight>
-    <wildSpawn_GroupSizeRange>
+    
+    <ecoSystemWeight>1</ecoSystemWeight>
+    <wildGroupSize>
       <min>1</min>
       <max>3</max>
-    </wildSpawn_GroupSizeRange>
+    </wildGroupSize>
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Wildpod</texPath>
+          <texPath>Things/Pawn/Animal/AA_Wildpod/AA_Wildpod</texPath>
           <drawSize>1.8</drawSize>
           <shadowData>
             <volume>(0.4, 0.3, 0.3)</volume>
@@ -133,13 +133,13 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
+          <texPath>Things/Pawn/Animal/AA_Wildpod/AA_Dessicated_Wildpod</texPath>
           <drawSize>1.8</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Wildpod</texPath>
+          <texPath>Things/Pawn/Animal/AA_Wildpod/AA_Wildpod</texPath>
           <drawSize>2.6</drawSize>
           <shadowData>
             <volume>(0.6, 0.45, 0.45)</volume>
@@ -147,13 +147,13 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
+          <texPath>Things/Pawn/Animal/AA_Wildpod/AA_Dessicated_Wildpod</texPath>
           <drawSize>2.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Wildpod</texPath>
+          <texPath>Things/Pawn/Animal/AA_Wildpod/AA_Wildpod</texPath>
           <drawSize>3.8</drawSize>
           <shadowData>
             <volume>(0.8, 0.6, 0.6)</volume>
@@ -161,7 +161,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
+          <texPath>Things/Pawn/Animal/AA_Wildpod/AA_Dessicated_Wildpod</texPath>
           <drawSize>3.8</drawSize>
         </dessicatedBodyGraphicData>
       </li>
