@@ -10,6 +10,9 @@
       <ComfyTemperatureMin>-15</ComfyTemperatureMin>
       <MarketValue>2100</MarketValue>
       <LeatherAmount>0</LeatherAmount>
+	  <ArmorRating_Blunt>2</ArmorRating_Blunt>
+	  <ArmorRating_Heat>-100</ArmorRating_Heat>
+	  <ArmorRating_Sharp>2</ArmorRating_Sharp>
     </statBases>
     <tools>
       <li>

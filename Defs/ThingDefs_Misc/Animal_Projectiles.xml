@@ -64,7 +64,7 @@
       <flyOverhead>true</flyOverhead>
       <explosionRadius >1.9</explosionRadius >
       <damageDef>Bomb</damageDef>
-      <damageAmountBase>20</damageAmountBase>
+      <damageAmountBase>40</damageAmountBase>
       <speed>20</speed>
     </projectile>
   </ThingDef>

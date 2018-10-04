@@ -10,6 +10,7 @@
       <ComfyTemperatureMin>-15</ComfyTemperatureMin>
       <MarketValue>400</MarketValue>
     </statBases>
+	
     <race>
 	
 	<wildBiomes>
@@ -79,6 +80,12 @@
         <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
         <eggCountRange>1</eggCountRange>
       </li>
+	  <li Class="AlphaBehavioursAndEvents.CompProperties_Skins">
+
+				<numberOfSkins>9</numberOfSkins>
+				<skinBaseString>Things/Pawn/Animal/AA_MeadowAve/AA_MeadowAve</skinBaseString>
+
+			</li>
     </comps>
     <tools>
       <li>
@@ -133,7 +140,8 @@
     <labelPlural>meadow aves</labelPlural>
     <race>AA_MeadowAve</race>
 	<ecoSystemWeight>0.9</ecoSystemWeight>
-   
+       <combatPower>70</combatPower>
+
     <wildGroupSize>
       <min>3</min>
       <max>7</max>
@@ -142,7 +150,7 @@
       <li>
         <label>meadow ave chick</label>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/AA_MeadowAve/AA_MeadowAve_Blue</texPath>
+          <texPath>Things/Pawn/Animal/AA_MeadowAve/AA_MeadowAve_1</texPath>
           <drawSize>0.85</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
@@ -152,7 +160,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/AA_MeadowAve/AA_MeadowAve_Blue</texPath>
+          <texPath>Things/Pawn/Animal/AA_MeadowAve/AA_MeadowAve_1</texPath>
           <drawSize>1.4</drawSize>
           <shadowData>
             <volume>(0.3, 0.3, 0.3)</volume>
@@ -166,7 +174,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/AA_MeadowAve/AA_MeadowAve_Blue</texPath>
+          <texPath>Things/Pawn/Animal/AA_MeadowAve/AA_MeadowAve_1</texPath>
           <drawSize>2.4</drawSize>
           <shadowData>
             <volume>(0.4, 0.4, 0.4)</volume>

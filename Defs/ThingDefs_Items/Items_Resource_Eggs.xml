@@ -208,6 +208,27 @@
 		</comps>
 	</ThingDef>
 	
+			<ThingDef ParentName="EggFertBase">
+		<defName>AA_FeraliskSuperEggFertilized</defName>
+		<label>charged feralisk egg (fert.)</label>
+		<description>Fertilized feralisk egg. It can be eaten raw, but it's much, much better cooked. Actually, it's a spider egg, it is disgusting either way... If all goes well, it should hatch into a feralisk. This egg seems to be developing at an alarmingly accelerated rate!</description>
+		<tradeability>None</tradeability>
+		<statBases>
+			<MarketValue>9.0</MarketValue>
+
+		</statBases>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
+			<color>(79,67,61)</color>
+		</graphicData>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>1</hatcherDaystoHatch>
+				<hatcherPawn>AA_Feralisk</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+	
 	
 	<!-- Dunealisk Egg -->
 	<ThingDef ParentName="EggUnfertBase">
@@ -243,6 +264,27 @@
 		<comps>
 			<li Class="CompProperties_Hatcher">
 				<hatcherDaystoHatch>18</hatcherDaystoHatch>
+				<hatcherPawn>AA_Dunealisk</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+	
+		<ThingDef ParentName="AA_EggFertBaseHot">
+		<defName>AA_DunealiskSuperEggFertilized</defName>
+		<label>charged dunealisk egg (fert.)</label>
+		<description>Fertilized dunealisk egg. It can be eaten raw, but it's much, much better cooked. Actually, it's a spider egg, it is disgusting either way... If all goes well, it should hatch into a dunealisk. This egg seems to be developing at an alarmingly accelerated rate!</description>
+		<tradeability>None</tradeability>
+		<statBases>
+			<MarketValue>9.0</MarketValue>
+
+		</statBases>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
+			<color>(186,170,112)</color>
+		</graphicData>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>1</hatcherDaystoHatch>
 				<hatcherPawn>AA_Dunealisk</hatcherPawn>
 			</li>
 		</comps>

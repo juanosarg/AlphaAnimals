@@ -1,18 +1,23 @@
-﻿using RimWorld;
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
+﻿using UnityEngine;
 using Verse;
+using RimWorld;
 
 namespace AlphaBehavioursAndEvents
 {
     public class CompSkins : ThingComp
     {
-      
+
+        private System.Random rand = new System.Random();
+        private int storeGraphic = 0;
+        private bool hasAsigned = false;
+
+
+
         public override void PostExposeData()
         {
             base.PostExposeData();
-           // Scribe_Values.Look<int>(ref this.asexualFissionCounter, "asexualFissionCounter", 0, false);
+            Scribe_Values.Look<bool>(ref this.hasAsigned, "hasAsigned", true, false);
+            Scribe_Values.Look<int>(ref this.storeGraphic, "storeGraphic", 0, false);
         }
 
 
@@ -42,25 +47,31 @@ namespace AlphaBehavioursAndEvents
             }
         }
 
-        public override void CompTick()
+        public override void PostDraw()
         {
-           /* base.CompTick();
-            Pawn pawn = this.parent as Pawn;
-            if ((pawn.Faction == Faction.OfPlayer)&&(pawn.ageTracker.CurLifeStage.reproductive))
+            base.PostDraw();
+            if (!hasAsigned) {
+                int randomNumber = rand.Next(1, numberOfSkins + 1);
+                string skinString = skinBaseString + "_" + randomNumber.ToString();
+                Pawn pawn = this.parent as Pawn;
+                Graphic newGraphic = GraphicDatabase.Get<Graphic_Multi>(skinString, ShaderDatabase.Cutout, pawn.Drawer.renderer.graphics.nakedGraphic.drawSize, Color.white);
+                pawn.Drawer.renderer.graphics.nakedGraphic = newGraphic;
+                storeGraphic = randomNumber;
+                hasAsigned = true;
+            } else
             {
-                asexualFissionCounter++;
-                if (asexualFissionCounter >= ticksInday * reproductionIntervalDays)
-                {
-                    Hediff_Pregnant.DoBirthSpawn(pawn, pawn);
-                    Messages.Message("AA_AsexualHatched".Translate(new object[]
-                    {
-                       pawn.LabelIndefinite()
-                    }).CapitalizeFirst(), pawn, MessageTypeDefOf.PositiveEvent, true);
-                    asexualFissionCounter = 0;
-                }
-            }*/
+                string skinString = skinBaseString + "_" + storeGraphic.ToString();
+                Pawn pawn = this.parent as Pawn;
+                Graphic newGraphic2 = GraphicDatabase.Get<Graphic_Multi>(skinString, ShaderDatabase.Cutout, pawn.Drawer.renderer.graphics.nakedGraphic.drawSize, Color.white);
+                pawn.Drawer.renderer.graphics.nakedGraphic = newGraphic2;
+
+            }
+
         }
 
-       
+      
+
+
+
     }
 }

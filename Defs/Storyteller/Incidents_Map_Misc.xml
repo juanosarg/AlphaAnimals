@@ -42,7 +42,33 @@
    
   </IncidentDef>
   
+  <IncidentDef>
+    <defName>AA_IncidentDunealiskClutchMother</defName>
+    <label>dunealisk clutch mother</label>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>AlphaBehavioursAndEvents.IncidentWorker_DunealiskClutchMother</workerClass>
+    <baseChance>0.2</baseChance>
+    <category>ThreatBig</category>
+    <minRefireDays>12</minRefireDays>
+    <pointsScaleable>true</pointsScaleable>
    
+  </IncidentDef>
+  
+  <IncidentDef>
+    <defName>AA_IncidentFeraliskClutchMother</defName>
+    <label>feralisk clutch mother</label>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>AlphaBehavioursAndEvents.IncidentWorker_FeraliskClutchMother</workerClass>
+    <baseChance>0.2</baseChance>
+    <category>ThreatBig</category>
+    <minRefireDays>12</minRefireDays>
+    <pointsScaleable>true</pointsScaleable>
+   
+  </IncidentDef>   
   
     <IncidentDef>
     <defName>AA_IncidentBlizzariskClutchMother</defName>

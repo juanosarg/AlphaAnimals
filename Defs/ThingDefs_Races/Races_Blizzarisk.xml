@@ -11,6 +11,7 @@
 			<ComfyTemperatureMax>10</ComfyTemperatureMax>
 			<MarketValue>2100</MarketValue>
 			<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.4</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.4</ArmorRating_Heat>
 		</statBases>
 		<tools>
@@ -215,6 +216,8 @@
 			<MarketValue>4000</MarketValue>
 			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.6</ArmorRating_Heat>
+			<ArmorRating_Sharp>0.6</ArmorRating_Sharp>
+
 		</statBases>
 		<tools>
 			<li>
@@ -355,6 +358,9 @@
 			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
+		<tradeTags>
+      <li>ExoticAnimal</li>
+    </tradeTags>
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">
