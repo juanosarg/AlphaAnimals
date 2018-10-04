@@ -47,9 +47,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Building_Overgrown_DropPod.cs" />
+    <Compile Include="CompSkins.cs" />
     <Compile Include="CompDigWhenHungry.cs" />
     <Compile Include="CompNocturnal.cs" />
     <Compile Include="CompLightSustenance.cs" />
+    <Compile Include="CompProperties_Skins.cs" />
     <Compile Include="CompProperties_DigWhenHungry.cs" />
     <Compile Include="CompProperties_Nocturnal.cs" />
     <Compile Include="CompProperties_LightSustenance.cs" />
