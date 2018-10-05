@@ -78,6 +78,8 @@
 				<BorealForest>0.07</BorealForest>
 				<TropicalRainforest>0.07</TropicalRainforest>
 			</wildBiomes>
+			      <thinkTreeMain>AA_AnimalDigger</thinkTreeMain>
+
 			<herdAnimal>true</herdAnimal>
 			<predator>false</predator>
 			<body>QuadrupedAnimalWithPawsAndTail</body>
