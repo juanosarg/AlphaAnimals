@@ -2,6 +2,27 @@
 <Defs>
   <!-- Implants -->
 
+ <HediffDef ParentName="InjuryBase">
+    <defName>AA_PermanentBurn</defName>
+    <label>permanent burn</label>
+    <labelNoun>a permanent burn</labelNoun>
+    <comps>
+     
+      <li Class="HediffCompProperties_Infecter">
+        <infectionChance>0.30</infectionChance>
+      </li>
+      <li Class="HediffCompProperties_GetsPermanent">
+        <permanentLabel>permanent burn</permanentLabel>
+      </li>
+    </comps>
+    <injuryProps>
+      <painPerSeverity>0.01875</painPerSeverity>
+      <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
+      <canMerge>true</canMerge>
+      <destroyedLabel>Burned off</destroyedLabel>
+      <destroyedOutLabel>Burned out</destroyedOutLabel>
+    </injuryProps>
+  </HediffDef>
 
   
   

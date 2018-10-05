@@ -26,6 +26,23 @@
 	</ToolCapacityDef>
 	
 	  <DamageDef>
+    <defName>AA_PermanentBurn</defName>
+    <label>permanent burn</label>
+    <workerClass>DamageWorker_AddInjury</workerClass>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has been killed by burning.</deathMessage>
+    <hediff>AA_PermanentBurn</hediff>
+    <hediffSolid>AA_PermanentBurn</hediffSolid>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+       <minDamageToFragment>15</minDamageToFragment>
+   <defaultDamage>10</defaultDamage>
+    <defaultArmorPenetration>0</defaultArmorPenetration>
+    <armorCategory>Heat</armorCategory>
+      <combatLogRules>Damage_Flame</combatLogRules>
+
+  </DamageDef>
+  
+  	  <DamageDef>
     <defName>AA_BoulderScratch</defName>
     <label>scratch</label>
     <workerClass>DamageWorker_AddInjury</workerClass>
