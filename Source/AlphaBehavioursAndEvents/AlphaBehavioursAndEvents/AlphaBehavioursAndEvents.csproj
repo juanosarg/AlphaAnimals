@@ -70,6 +70,7 @@
     <Compile Include="IncidentWorker_StalkingArcticLion.cs" />
     <Compile Include="IncidentWorker_CactipineDropPod.cs" />
     <Compile Include="IncidentWorker_SummitCrab.cs" />
+    <Compile Include="JobGiver_Mine.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

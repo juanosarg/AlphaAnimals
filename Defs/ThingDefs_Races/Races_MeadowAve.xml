@@ -161,7 +161,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/AA_MeadowAve/AA_MeadowAve_1</texPath>
-          <drawSize>1.4</drawSize>
+          <drawSize>2.1</drawSize>
           <shadowData>
             <volume>(0.3, 0.3, 0.3)</volume>
             <offset>(0,0,-0.3)</offset>
@@ -169,13 +169,13 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/AA_MeadowAve/AA_Dessicated_MeadowAve</texPath>
-          <drawSize>1.4</drawSize>
+          <drawSize>2.1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/AA_MeadowAve/AA_MeadowAve_1</texPath>
-          <drawSize>2.4</drawSize>
+          <drawSize>3</drawSize>
           <shadowData>
             <volume>(0.4, 0.4, 0.4)</volume>
             <offset>(0,0,-0.2)</offset>
@@ -184,7 +184,7 @@
        
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/AA_MeadowAve/AA_Dessicated_MeadowAve</texPath>
-          <drawSize>2.4</drawSize>
+          <drawSize>3</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

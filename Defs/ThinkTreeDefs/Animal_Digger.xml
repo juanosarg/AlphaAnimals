@@ -220,15 +220,24 @@
               </subNodes>
             </li>
 			
-			<li Class="ThinkNode_ConditionalTrainableCompleted">
-						<trainable>Haul</trainable>
-							<subNodes>
-							<li Class="JobGiver_Work">					  
-								
-							</li>					  
-							</subNodes>
-						</li>
-
+			
+			<!-- Trained behavior: Mine-->
+            <li Class="ThinkNode_ChancePerHour_Constant">
+              <mtbHours>0.2</mtbHours>
+              <subNodes>
+                <li Class="ThinkNode_ConditionalTrainableCompleted">
+                  <trainable>Obedience</trainable>
+                  <subNodes>
+                    <li Class="ThinkNode_Tagger">
+                      <tagToGive>TrainedAnimalBehavior</tagToGive>
+                      <subNodes>
+                        <li Class="AlphaBehavioursAndEvents.JobGiver_Mine" />
+                      </subNodes>
+                    </li>
+                  </subNodes>
+                </li>
+              </subNodes>
+            </li>
             <!-- Trained behavior: Haul-->
             <li Class="ThinkNode_ChancePerHour_Constant">
               <mtbHours>1.5</mtbHours>
@@ -339,7 +348,7 @@
 	</ThinkTreeDef>
 
 	<ThinkTreeDef>
-		<defName>AnimalConstant</defName>
+		<defName>AA_AnimalDiggerConstant</defName>
 		<thinkRoot Class="ThinkNode_Priority">
 			<subNodes>
         <li Class="ThinkNode_ConditionalCanDoConstantThinkTreeJobNow">
