@@ -38,14 +38,18 @@ namespace NewAlphaAnimalSubproducts
                 var thingies = __result.ToList();
                 var pawn = (Pawn)__instance;
 
-                if ((__instance.def.butcherProducts != null) && ((__instance.def.defName == "AA_Aerofleet") || (__instance.def.defName == "AA_ColossalAerofleet") || (__instance.def.defName == "AA_Cactipine") || (__instance.def.defName == "AA_Needlepost")))
+                if ((__instance.def.butcherProducts != null) && ((__instance.def.defName == "AA_Aerofleet") || (__instance.def.defName == "AA_ColossalAerofleet") || (__instance.def.defName == "AA_Cactipine") || (__instance.def.defName == "AA_Needlepost") || (__instance.def.defName == "AA_Wildpod")))
                 {
-                    Log.Message("Adding meat butcher products", false);
+                    //Log.Message("Adding meat butcher products", false);
 
+                    int baseCalculation = 90;
+                    if (__instance.def.defName == "AA_Wildpod") {
+                        baseCalculation = 30;
+                    }
 
                     ThingDefCountClass ta = __instance.def.butcherProducts[0];
                     float num = pawn.health.hediffSet.GetCoverageOfNotMissingNaturalParts(pawn.RaceProps.body.corePart);
-                    int count = GenMath.RoundRandom((pawn.BodySize * 90 * efficiency * num));
+                    int count = GenMath.RoundRandom((pawn.BodySize * baseCalculation * efficiency * num));
                     if (count > 0)
                     {
                         Thing t = ThingMaker.MakeThing(ta.thingDef, null);

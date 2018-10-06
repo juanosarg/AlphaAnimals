@@ -35,6 +35,16 @@
        
       </li>
     </tools>
+	<comps>
+
+			<li Class="AlphaBehavioursAndEvents.CompProperties_Electrified">
+				<electroRate>50</electroRate>
+				<electroRadius>5</electroRadius>
+
+				
+			</li>
+
+		</comps>
     <race>
       <wildBiomes>
         <BorealForest>0.001</BorealForest>
