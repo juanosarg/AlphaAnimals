@@ -1,7 +1,7 @@
 ﻿
 using UnityEngine;
 using Verse;
-using System.Linq;
+using System.Collections.Generic;
 using RimWorld;
 
 
@@ -9,6 +9,8 @@ namespace AlphaBehavioursAndEvents
 {
     public class CompElectrified : ThingComp
     {
+
+        public int tickCounter = 0;
 
         public CompProperties_Electrified Props
         {
@@ -37,28 +39,43 @@ namespace AlphaBehavioursAndEvents
 
         public override void CompTick()
         {
+            tickCounter++;
 
-            Pawn pawn = this.parent as Pawn;
+            if (tickCounter>= electroRate) {
+                Pawn pawn = this.parent as Pawn;
 
-            CellRect rect = GenAdj.OccupiedRect(pawn.Position, pawn.Rotation, IntVec2.One);
-            rect = rect.ExpandedBy(electroRadius);
-            
-            foreach (IntVec3 current in rect.Cells)
-            {
-                Building edifice = current.GetEdifice(pawn.Map);
-                if (edifice != null && ((edifice.def.defName == "Battery")))
+                CellRect rect = GenAdj.OccupiedRect(pawn.Position, pawn.Rotation, IntVec2.One);
+                rect = rect.ExpandedBy(electroRadius);
+
+                List<Building> batteriesInRange = new List<Building>();
+
+                foreach (IntVec3 current in rect.Cells)
                 {
-                    MoteMaker.ThrowMicroSparks(edifice.Position.ToVector3(), edifice.Map);
-                    foreach (CompPowerBattery current2 in edifice.GetComps<CompPowerBattery>())
+                    Building edifice = current.GetEdifice(pawn.Map);
+                    if (edifice != null && ((edifice.def.defName == "Battery")))
                     {
-                        current2.AddEnergy(1/(float)electroRate);
-                        break;
-                        
+                        batteriesInRange.Add(edifice);
                     }
-                    break;
-
                 }
+
+                if (batteriesInRange.Count > 0)
+                {
+                    Building batteryToAffect = batteriesInRange.RandomElement();
+                    MoteMaker.ThrowMicroSparks(batteryToAffect.Position.ToVector3(), batteryToAffect.Map);
+                    foreach (CompPowerBattery current2 in batteryToAffect.GetComps<CompPowerBattery>())
+                    {
+                        current2.AddEnergy((float)1);
+                        break;
+
+                    }
+                }
+                tickCounter = 0;
             }
+
+            
+
+            
+
         }
         
 

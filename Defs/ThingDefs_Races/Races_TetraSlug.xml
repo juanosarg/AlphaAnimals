@@ -6,7 +6,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>AA_TetraSlug</defName>
     <label>tetra slug</label>
-    <description>These massive slugs are a common sight among Glitterworld controlled territories; Lumbering about as glorified power plants. Outside of it, they are deployed as a mobile power source for Glitterworld research expeditions. It is rare to see one without the iconic power cores that protrude from their backs, as their unique bodily chemical composition is capable of outputting power that far surpasses any known natural sources. Thus they are widely valued by every technologically developing civilization throughout the galaxy.\n\nWhile a gentle giant that would prefer to run away instead of fight, modified slugs come armored with plasteel shells, quad cores that can act as Tesla cannons, and a Tactical AI inserted within the brain that takes over and makes no hesitation to use all of its armament to obliterate any perceived threat within vicinity.</description>
+    <description>These massive slugs are a common sight among Glitterworld controlled territories; Lumbering about as glorified power plants. Outside of it, they are deployed as a mobile power source for Glitterworld research expeditions. It is rare to see one without the iconic power cores that protrude from their backs, as their unique bodily chemical composition is capable of outputting power that far surpasses any known natural sources. Thus they are widely valued by every technologically developing civilization throughout the galaxy.\n\nWhile a gentle giant that would prefer to run away instead of fight, modified slugs come armored with plasteel shells, quad cores that can act as Tesla cannons, and a Tactical AI inserted within the brain that takes over and makes no hesitation to use all of its armament to obliterate any perceived threat within vicinity.\n\nProperly outfitted Tetraslugs will slowly recharge batteries on their vicinity.</description>
     <statBases>
       <MoveSpeed>0.6</MoveSpeed>
       <ComfyTemperatureMin>-10</ComfyTemperatureMin>
@@ -35,10 +35,32 @@
        
       </li>
     </tools>
+	
+				<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<accuracyTouch>1</accuracyTouch>
+				<accuracyShort>1</accuracyShort>
+				<accuracyMedium>1</accuracyMedium>
+				<accuracyLong>1</accuracyLong>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AA_Plasma</defaultProjectile>
+				<warmupTime>7</warmupTime>
+				<burstShotCount>4</burstShotCount>
+				<minRange>2</minRange>
+				<range>20</range>
+				<soundCast>AA_DartSound</soundCast>
+				<muzzleFlashScale>10</muzzleFlashScale>
+				<!--Commanility determines how frequent this range verb is chosen.-->
+				<commonality>1</commonality>
+			</li>
+
+
+		</verbs>
 	<comps>
 
 			<li Class="AlphaBehavioursAndEvents.CompProperties_Electrified">
-				<electroRate>50</electroRate>
+				<electroRate>40</electroRate>
 				<electroRadius>5</electroRadius>
 
 				
