@@ -28,8 +28,8 @@
     <projectile>
       <flyOverhead>false</flyOverhead>
       <damageDef>Flame</damageDef>
-      <damageAmountBase>15</damageAmountBase>
-      <speed>75</speed>
+      <damageAmountBase>20</damageAmountBase>
+      <speed>25</speed>
     </projectile>
   </ThingDef>
   

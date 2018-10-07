@@ -46,6 +46,22 @@ namespace AlphaBehavioursAndEvents
             }
         }
 
+        protected bool produceEggs
+        {
+            get
+            {
+                return this.Props.produceEggs;
+            }
+        }
+
+        protected string eggDef
+        {
+            get
+            {
+                return this.Props.eggDef;
+            }
+        }
+
         public override void CompTick()
         {
             base.CompTick();

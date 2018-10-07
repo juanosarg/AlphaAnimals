@@ -49,7 +49,7 @@
 				<burstShotCount>4</burstShotCount>
 				<minRange>2</minRange>
 				<range>20</range>
-				<soundCast>AA_DartSound</soundCast>
+				<soundCast>AA_Plasma</soundCast>
 				<muzzleFlashScale>10</muzzleFlashScale>
 				<!--Commanility determines how frequent this range verb is chosen.-->
 				<commonality>1</commonality>
