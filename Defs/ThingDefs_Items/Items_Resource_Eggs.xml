@@ -51,6 +51,31 @@
 		</comps>
 	</ThingDef>
 	
+		<!-- Wildpod Egg -->
+
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>AA_WildpodSpores</defName>
+		<label>wildpod spore clump (fert.)</label>
+		<description>Fertilized wildpod spores. I... I wouldn't eat this. Yuck. If all goes well, it should hatch into a wildpod.</description>
+		<tradeability>None</tradeability>
+		<statBases>
+			<MarketValue>9.0</MarketValue>
+
+		</statBases>
+		<graphicData>
+			<texPath>Things/Item/Resource/AA_SporeClump</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+
+		</graphicData>
+
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>5</hatcherDaystoHatch>
+				<hatcherPawn>AA_Wildpod</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
 	
 		<!-- Ironhusk Beetle Egg -->
 	<ThingDef ParentName="EggUnfertBase">

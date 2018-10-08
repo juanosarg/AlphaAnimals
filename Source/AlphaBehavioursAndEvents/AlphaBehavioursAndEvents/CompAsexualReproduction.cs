@@ -71,12 +71,22 @@ namespace AlphaBehavioursAndEvents
                 asexualFissionCounter++;
                 if (asexualFissionCounter >= ticksInday * reproductionIntervalDays)
                 {
-                    Hediff_Pregnant.DoBirthSpawn(pawn, pawn);
-                    Messages.Message("AA_AsexualHatched".Translate(new object[]
-                    {
-                       pawn.LabelIndefinite()
-                    }).CapitalizeFirst(), pawn, MessageTypeDefOf.PositiveEvent, true);
-                    asexualFissionCounter = 0;
+                    if (produceEggs) {
+                        GenSpawn.Spawn(ThingDef.Named(eggDef), pawn.Position, pawn.Map);
+                        Messages.Message("AA_AsexualHatchedEgg".Translate(new object[]
+                      {
+                           pawn.LabelIndefinite()
+                      }).CapitalizeFirst(), pawn, MessageTypeDefOf.PositiveEvent, true);
+                        asexualFissionCounter = 0;
+                    } else {
+                        Hediff_Pregnant.DoBirthSpawn(pawn, pawn);
+                        Messages.Message("AA_AsexualHatched".Translate(new object[]
+                        {
+                           pawn.LabelIndefinite()
+                        }).CapitalizeFirst(), pawn, MessageTypeDefOf.PositiveEvent, true);
+                        asexualFissionCounter = 0;
+                    }
+                    
                 }
             }
         }

@@ -6,6 +6,8 @@
   <!-- Misc -->
 
   <AA_AsexualHatched>{0} has reproduced asexually.</AA_AsexualHatched>
+    <AA_AsexualHatchedEgg>{0} has sporulated.</AA_AsexualHatchedEgg>
+
   
     <!-- Incidents -->
   <LetterLabelColossalAerofleetPasses>Colossal Aerofleet</LetterLabelColossalAerofleetPasses>
@@ -41,6 +43,12 @@
   <DevilstrandDesc>Devilstrand production:</DevilstrandDesc>
   <SynthreadDesc>Synthread production:</SynthreadDesc>
   <ChunkSlagSteelDesc>Steel chunk loosening:</ChunkSlagSteelDesc>
+  
+  <!-- Mod Settings -->
+  
+  <allowBlackHive>Allow Black Hive raids</allowBlackHive>
+
+
 
 
 

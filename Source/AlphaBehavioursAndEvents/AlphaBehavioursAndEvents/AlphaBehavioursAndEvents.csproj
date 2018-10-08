@@ -46,6 +46,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlphaAnimals_Settings.cs" />
     <Compile Include="Building_Overgrown_DropPod.cs" />
     <Compile Include="CompProperties_Electrified.cs" />
     <Compile Include="CompElectrified.cs" />
