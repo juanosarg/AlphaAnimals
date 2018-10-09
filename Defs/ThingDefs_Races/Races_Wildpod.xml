@@ -79,16 +79,13 @@
 				<eggDef>AA_WildpodSpores</eggDef>
 
 			</li>
-
-		</comps>
-	<comps>
-
 			<li Class="AlphaBehavioursAndEvents.CompProperties_HighlyFlammable">
 
 				
 			</li>
 
 		</comps>
+	
     <race>
       <herdAnimal>false</herdAnimal>
       <body>QuadrupedAnimalWithPaws</body>
