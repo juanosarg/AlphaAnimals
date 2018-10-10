@@ -65,6 +65,7 @@
     <Compile Include="Hediff_Crushing.cs" />
     <Compile Include="Hediff_NocturnalAnimal.cs" />
     <Compile Include="Hediff_Stalking.cs" />
+    <Compile Include="IncidentWorker_BlackHive.cs" />
     <Compile Include="IncidentWorker_FeraliskClutchMother.cs" />
     <Compile Include="IncidentWorker_DunealiskClutchMother.cs" />
     <Compile Include="IncidentWorker_Gallatross.cs" />
