@@ -48,13 +48,12 @@
     <defName>AA_BlackHiveMound</defName>
     <label>black hive mound</label>
     <description>A hive of giant insects. This mound was used by the Black Hive to tunnel to this territory, and is now inert. It will erode in a few days.</description>
-    <!--<thingClass>AlphaBehavioursAndEvents.Building_BlackHiveMound</thingClass>-->
-	    <thingClass>Hive</thingClass>
+    <thingClass>AlphaBehavioursAndEvents.Building_BlackHiveMound</thingClass>
 
     <graphicData>
       <texPath>Things/Building/AA_BlackHive</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>1.6</drawSize>
+      <drawSize>2.6</drawSize>
     </graphicData>
     <altitudeLayer>Building</altitudeLayer>
     <rotatable>false</rotatable>
@@ -71,7 +70,6 @@
       <AA_BlackInsectJelly>30</AA_BlackInsectJelly>
     </killedLeavings>
     <comps>
-     <li Class="CompProperties_SpawnerHives" />
       <li Class="CompProperties_Spawner">
         <thingToSpawn>AA_BlackInsectJelly</thingToSpawn>
         <spawnCount>10</spawnCount>

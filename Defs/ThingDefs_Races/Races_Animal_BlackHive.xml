@@ -100,7 +100,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/AA_BlackScarab/AA_BlackScarab</texPath>
           <drawSize>1</drawSize>
-          <color>(114,107,84)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Megascarab/Dessicated_Megascarab</texPath>
@@ -111,7 +110,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/AA_BlackScarab/AA_BlackScarab</texPath>
           <drawSize>1.25</drawSize>
-          <color>(114,107,84)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Megascarab/Dessicated_Megascarab</texPath>
@@ -122,7 +120,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/AA_BlackScarab/AA_BlackScarab</texPath>
           <drawSize>1.5</drawSize>
-          <color>(114,107,84)</color>
           <shadowData>
             <volume>(0.2, 0.3, 0.2)</volume>
             <offset>(0,0,0)</offset>
@@ -220,7 +217,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/AA_BlackSpelopede/AA_BlackSpelopede</texPath>
           <drawSize>1</drawSize>
-          <color>(156,148,125)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Spelopede/Dessicated_Spelopede</texPath>
@@ -231,7 +227,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/AA_BlackSpelopede/AA_BlackSpelopede</texPath>
           <drawSize>1.25</drawSize>
-          <color>(156,148,125)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Spelopede/Dessicated_Spelopede</texPath>
@@ -242,7 +237,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/AA_BlackSpelopede/AA_BlackSpelopede</texPath>
           <drawSize>1.65</drawSize>
-          <color>(156,148,125)</color>
           <shadowData>
             <volume>(0.4, 0.5, 0.37)</volume>
             <offset>(0,0,-0.15)</offset>
@@ -341,7 +335,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/AA_BlackSpider/AA_BlackSpider</texPath>
           <drawSize>1.2</drawSize>
-          <color>(154,125,94)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/AA_BlackSpider/AA_Dessicated_BlackSpider</texPath>
@@ -352,7 +345,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/AA_BlackSpider/AA_BlackSpider</texPath>
           <drawSize>1.6</drawSize>
-          <color>(154,125,94)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/AA_BlackSpider/AA_Dessicated_BlackSpider</texPath>
@@ -363,7 +355,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/AA_BlackSpider/AA_BlackSpider</texPath>
           <drawSize>2.5</drawSize>
-          <color>(154,125,94)</color>
           <shadowData>
             <volume>(0.5, 0.7, 0.43)</volume>
             <offset>(0,0,-0.1)</offset>

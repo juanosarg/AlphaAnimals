@@ -27,14 +27,16 @@ namespace AlphaBehavioursAndEvents
             Map map = (Map)parms.target;
             int hiveCount = Mathf.Max(GenMath.RoundRandom(parms.points / 220f), 1);
             Thing t = this.SpawnTunnels(hiveCount, map);
-            base.SendStandardLetter(t, null, new string[0]);
-            Find.TickManager.slower.SignalForceNormalSpeedShort();
+            Find.LetterStack.ReceiveLetter("LetterLabelBlackHiveAttack".Translate(), "LetterBlackHiveAttack".Translate(), LetterDefOf.ThreatBig, t, null, null);
+
             return true;
         }
 
         private Thing SpawnTunnels(int hiveCount, Map map)
         {
             IntVec3 loc;
+            IntVec3 loc2;
+
             if (!TryFindEntryCell(map,out loc))
             {
                 return null;
@@ -42,10 +44,12 @@ namespace AlphaBehavioursAndEvents
             Thing thing = GenSpawn.Spawn(ThingMaker.MakeThing(ThingDef.Named("AA_BlackHiveMound"), null), loc, map, WipeMode.FullRefund);
             for (int i = 0; i < hiveCount - 1; i++)
             {
-                Predicate<IntVec3> validator = (IntVec3 c) => DropCellFinder.IsGoodDropSpot(loc, map, false, false);
-                if (CellFinder.TryFindRandomCellNear(loc, map, 8, validator, out loc, -1))
+                if (CellFinder.TryFindRandomCellNear(loc, map, 8, null, out loc2, -1))
                 {
-                    thing = GenSpawn.Spawn(ThingMaker.MakeThing(ThingDef.Named("AA_BlackHiveMound"),null), loc, map, WipeMode.FullRefund);
+                    if (loc2.InBounds(map))
+                    {
+                        thing = GenSpawn.Spawn(ThingMaker.MakeThing(ThingDef.Named("AA_BlackHiveMound"), null), loc2, map, WipeMode.FullRefund);
+                    }
                 }
 
                
