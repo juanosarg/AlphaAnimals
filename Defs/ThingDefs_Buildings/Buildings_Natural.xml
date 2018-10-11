@@ -44,6 +44,71 @@
     </comps>
   </ThingDef>
 
-  
+    <ThingDef ParentName="BuildingNaturalBase">
+    <defName>AA_BlackHiveMound</defName>
+    <label>black hive mound</label>
+    <description>A hive of giant insects. This mound was used by the Black Hive to tunnel to this territory, and is now inert. It will erode in a few days.</description>
+    <!--<thingClass>AlphaBehavioursAndEvents.Building_BlackHiveMound</thingClass>-->
+	    <thingClass>Hive</thingClass>
+
+    <graphicData>
+      <texPath>Things/Building/AA_BlackHive</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.6</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <rotatable>false</rotatable>
+    <fillPercent>0.5</fillPercent>
+    <statBases>
+      <MaxHitPoints>130</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <pathCost>50</pathCost>
+    <blockWind>true</blockWind>
+    <tickerType>Normal</tickerType>
+    <passability>PassThroughOnly</passability>
+    <killedLeavings>
+      <AA_BlackInsectJelly>30</AA_BlackInsectJelly>
+    </killedLeavings>
+    <comps>
+     <li Class="CompProperties_SpawnerHives" />
+      <li Class="CompProperties_Spawner">
+        <thingToSpawn>AA_BlackInsectJelly</thingToSpawn>
+        <spawnCount>10</spawnCount>
+        <spawnIntervalRange>
+          <min>26000</min>
+          <max>30000</max>
+        </spawnIntervalRange>
+        <spawnMaxAdjacent>40</spawnMaxAdjacent>
+        <spawnForbidden>true</spawnForbidden>
+        <saveKeysPrefix>jelly</saveKeysPrefix>
+      </li>
+      <li Class="CompProperties_Spawner">
+        <thingToSpawn>GlowPod</thingToSpawn>
+        <spawnCount>1</spawnCount>
+        <spawnIntervalRange>
+          <min>30000</min>
+          <max>60000</max>
+        </spawnIntervalRange>
+        <spawnMaxAdjacent>1</spawnMaxAdjacent>
+        <saveKeysPrefix>pod</saveKeysPrefix>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <heatPerSecond>6</heatPerSecond>
+        <heatPushMaxTemperature>38</heatPushMaxTemperature>
+      </li>
+      <li Class="CompProperties_SpawnerFilth">
+        <filthDef>Filth_Slime</filthDef>
+        <spawnCountOnSpawn>10</spawnCountOnSpawn>
+        <spawnMtbHours>4</spawnMtbHours>
+        <spawnRadius>5</spawnRadius>
+      </li>
+      <li Class="CompProperties_Maintainable">
+        <ticksHealthy>30000</ticksHealthy>
+        <ticksNeedsMaintenance>20000</ticksNeedsMaintenance>
+        <damagePerTickRare>20</damagePerTickRare>
+      </li>
+    </comps>
+  </ThingDef>
 
 </Defs>

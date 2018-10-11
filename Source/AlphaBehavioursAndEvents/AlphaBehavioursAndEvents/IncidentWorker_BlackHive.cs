@@ -35,18 +35,22 @@ namespace AlphaBehavioursAndEvents
         private Thing SpawnTunnels(int hiveCount, Map map)
         {
             IntVec3 loc;
-            if (!InfestationCellFinder.TryFindCell(out loc, map))
+            if (!TryFindEntryCell(map,out loc))
             {
                 return null;
             }
-            Thing thing = GenSpawn.Spawn(ThingMaker.MakeThing(ThingDefOf.TunnelHiveSpawner, null), loc, map, WipeMode.FullRefund);
+            Thing thing = GenSpawn.Spawn(ThingMaker.MakeThing(ThingDef.Named("AA_BlackHiveMound"), null), loc, map, WipeMode.FullRefund);
             for (int i = 0; i < hiveCount - 1; i++)
             {
-                loc = CompSpawnerHives.FindChildHiveLocation(thing.Position, map, ThingDefOf.Hive, ThingDefOf.Hive.GetCompProperties<CompProperties_SpawnerHives>(), false, true);
-                if (loc.IsValid)
+                Predicate<IntVec3> validator = (IntVec3 c) => DropCellFinder.IsGoodDropSpot(loc, map, false, false);
+                if (CellFinder.TryFindRandomCellNear(loc, map, 8, validator, out loc, -1))
                 {
-                    thing = GenSpawn.Spawn(ThingMaker.MakeThing(ThingDefOf.TunnelHiveSpawner, null), loc, map, WipeMode.FullRefund);
+                    thing = GenSpawn.Spawn(ThingMaker.MakeThing(ThingDef.Named("AA_BlackHiveMound"),null), loc, map, WipeMode.FullRefund);
                 }
+
+               
+                    
+                
             }
             return thing;
         }
