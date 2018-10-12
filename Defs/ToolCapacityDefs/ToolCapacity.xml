@@ -3,11 +3,31 @@
 <Defs>
 
 
- 
-  <ToolCapacityDef>
-    <defName>AA_LockJawDamage</defName>
-    <label>lockjaw bite</label>
-  </ToolCapacityDef>
+
+	<ToolCapacityDef>
+		<defName>AA_LockJawDamage</defName>
+		<label>lockjaw bite</label>
+	</ToolCapacityDef>
+
+	<ToolCapacityDef>
+		<defName>AA_ToxicSting</defName>
+		<label>toxic stinging</label>
+	</ToolCapacityDef>
+
+	<ToolCapacityDef>
+		<defName>AA_SiegeBlunt</defName>
+		<label>siege crush</label>
+	</ToolCapacityDef>
+
+	<ToolCapacityDef>
+		<defName>Pierce</defName>
+		<label>piercing</label>
+	</ToolCapacityDef>
+
+	<ToolCapacityDef>
+		<defName>BodyCrush</defName>
+		<label>crushing</label>
+	</ToolCapacityDef>
 
 
 </Defs>

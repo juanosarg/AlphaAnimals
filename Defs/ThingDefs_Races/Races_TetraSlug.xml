@@ -90,7 +90,7 @@
       <baseHealthScale>10</baseHealthScale>
       <foodType>OmnivoreRoughAnimal</foodType>
      
-      <wildness>0.9</wildness>
+      <wildness>0.7</wildness>
       <manhunterOnDamageChance>1.0</manhunterOnDamageChance>
       <manhunterOnTameFailChance>0.2</manhunterOnTameFailChance>
       <trainability>Advanced</trainability>

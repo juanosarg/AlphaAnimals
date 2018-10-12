@@ -3,6 +3,20 @@
 
 
   <ManeuverDef>
+    <defName>AA_SiegeBlunt</defName>
+    <requiredCapacity>AA_SiegeBlunt</requiredCapacity>
+    <verb>
+      <verbClass>Verb_MeleeAttackDamage</verbClass>
+      <meleeDamageDef>AA_SiegeBlunt</meleeDamageDef>
+    </verb>
+    <logEntryDef>MeleeAttack</logEntryDef>
+    <combatLogRulesHit>Maneuver_Smash_MeleeHit</combatLogRulesHit>
+    <combatLogRulesDeflect>Maneuver_Smash_MeleeDeflect</combatLogRulesDeflect>
+    <combatLogRulesMiss>Maneuver_Smash_MeleeMiss</combatLogRulesMiss>
+    <combatLogRulesDodge>Maneuver_Smash_MeleeDodge</combatLogRulesDodge>
+  </ManeuverDef>
+  
+    <ManeuverDef>
     <defName>AA_LockJawDamage</defName>
     <requiredCapacity>AA_LockJawDamage</requiredCapacity>
     <verb>
@@ -14,6 +28,20 @@
     <combatLogRulesDeflect>Maneuver_Bite_MeleeDeflect</combatLogRulesDeflect>
     <combatLogRulesMiss>Maneuver_Bite_MeleeMiss</combatLogRulesMiss>
     <combatLogRulesDodge>Maneuver_Bite_MeleeDodge</combatLogRulesDodge>
+  </ManeuverDef>
+  
+      <ManeuverDef>
+    <defName>AA_ToxicSting</defName>
+    <requiredCapacity>AA_ToxicSting</requiredCapacity>
+    <verb>
+      <verbClass>Verb_MeleeAttackDamage</verbClass>
+      <meleeDamageDef>AA_ToxicSting</meleeDamageDef>
+    </verb>
+    <logEntryDef>MeleeAttack</logEntryDef>
+    <combatLogRulesHit>Maneuver_Stab_MeleeHit</combatLogRulesHit>
+    <combatLogRulesDeflect>Maneuver_Stab_MeleeDeflect</combatLogRulesDeflect>
+    <combatLogRulesMiss>Maneuver_Stab_MeleeMiss</combatLogRulesMiss>
+    <combatLogRulesDodge>Maneuver_Stab_MeleeDodge</combatLogRulesDodge>
   </ManeuverDef>
 
 

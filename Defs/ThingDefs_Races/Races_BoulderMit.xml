@@ -70,7 +70,7 @@
       <baseHungerRate>2.0</baseHungerRate>
       <baseHealthScale>9.0</baseHealthScale>
       <foodType>VegetarianRoughAnimal</foodType>
-      <wildness>0.9</wildness>
+      <wildness>0.7</wildness>
       <manhunterOnDamageChance>0.01</manhunterOnDamageChance>
       <manhunterOnTameFailChance>0.2</manhunterOnTameFailChance>
       <trainability>Simple</trainability>

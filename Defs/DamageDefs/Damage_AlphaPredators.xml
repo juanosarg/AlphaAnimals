@@ -20,54 +20,67 @@
 		<armorCategory>Sharp</armorCategory>
 	</DamageDef>
 
-	<ToolCapacityDef>
-		<defName>AA_ToxicSting</defName>
-		<label>toxic stinging</label>
-	</ToolCapacityDef>
-	
-	  <DamageDef>
-    <defName>AA_PermanentBurn</defName>
-    <label>permanent burn</label>
-    <workerClass>DamageWorker_AddInjury</workerClass>
-    <externalViolence>true</externalViolence>
-    <deathMessage>{0} has been killed by burning.</deathMessage>
-    <hediff>AA_PermanentBurn</hediff>
-    <hediffSolid>AA_PermanentBurn</hediffSolid>
-    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
-       <minDamageToFragment>15</minDamageToFragment>
-   <defaultDamage>10</defaultDamage>
-    <defaultArmorPenetration>0</defaultArmorPenetration>
-    <armorCategory>Heat</armorCategory>
-      <combatLogRules>Damage_Flame</combatLogRules>
 
-  </DamageDef>
-  
-  	  <DamageDef>
-    <defName>AA_BoulderScratch</defName>
-    <label>scratch</label>
-    <workerClass>DamageWorker_AddInjury</workerClass>
-    <externalViolence>true</externalViolence>
-    <deathMessage>{0} has been killed by crushing.</deathMessage>
-    <hediff>Scratch</hediff>
-    <hediffSolid>Crack</hediffSolid>
-    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
-    <impactSoundType>Tornado</impactSoundType>
-    <armorCategory>Sharp</armorCategory>
-    <overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
-  </DamageDef>
-  
-    
-  <DamageDef ParentName="Bite">
-    <defName>AA_LockJawDamage</defName>
-    <label>lockjaw bite</label>
-    <additionalHediffs>
-      <li>
-        <hediff>AA_LockJawDisease</hediff>
-        <severityPerDamageDealt>0.1</severityPerDamageDealt>
-      </li>
-    </additionalHediffs>
-  </DamageDef>
-	
+	<DamageDef>
+		<defName>AA_SiegeBlunt</defName>
+		<label>crush</label>
+		<workerClass>AlphaBehavioursAndEvents.DamageWorker_Siege</workerClass>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been crushed to death.</deathMessage>
+		<hediff>Crush</hediff>
+		<hediffSkin>Shredded</hediffSkin>
+		<hediffSolid>Crack</hediffSolid>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Blunt</impactSoundType>
+		<armorCategory>Blunt</armorCategory>
+	</DamageDef>
+
+
+
+
+	<DamageDef>
+		<defName>AA_PermanentBurn</defName>
+		<label>permanent burn</label>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been killed by burning.</deathMessage>
+		<hediff>AA_PermanentBurn</hediff>
+		<hediffSolid>AA_PermanentBurn</hediffSolid>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<minDamageToFragment>15</minDamageToFragment>
+		<defaultDamage>10</defaultDamage>
+		<defaultArmorPenetration>0</defaultArmorPenetration>
+		<armorCategory>Heat</armorCategory>
+		<combatLogRules>Damage_Flame</combatLogRules>
+
+	</DamageDef>
+
+	<DamageDef>
+		<defName>AA_BoulderScratch</defName>
+		<label>scratch</label>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been killed by crushing.</deathMessage>
+		<hediff>Scratch</hediff>
+		<hediffSolid>Crack</hediffSolid>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Tornado</impactSoundType>
+		<armorCategory>Sharp</armorCategory>
+		<overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
+	</DamageDef>
+
+
+	<DamageDef ParentName="Bite">
+		<defName>AA_LockJawDamage</defName>
+		<label>lockjaw bite</label>
+		<additionalHediffs>
+			<li>
+				<hediff>AA_LockJawDisease</hediff>
+				<severityPerDamageDealt>0.1</severityPerDamageDealt>
+			</li>
+		</additionalHediffs>
+	</DamageDef>
+
 
 
 	<DamageDef>
@@ -83,10 +96,7 @@
 		<armorCategory>Sharp</armorCategory>
 	</DamageDef>
 
-	<ToolCapacityDef>
-		<defName>Pierce</defName>
-		<label>piercing</label>
-	</ToolCapacityDef>
+
 
 	<DamageDef>
 		<defName>BodyCrush</defName>
@@ -102,9 +112,6 @@
 		<armorCategory>Blunt</armorCategory>
 	</DamageDef>
 
-  <ToolCapacityDef>
-    <defName>BodyCrush</defName>
-    <label>crushing</label>
-  </ToolCapacityDef>
+
 
 </Defs>

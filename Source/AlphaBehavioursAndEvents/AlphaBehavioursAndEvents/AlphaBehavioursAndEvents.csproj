@@ -63,6 +63,7 @@
     <Compile Include="CompProperties_DigWhenHungry.cs" />
     <Compile Include="CompProperties_Nocturnal.cs" />
     <Compile Include="CompProperties_LightSustenance.cs" />
+    <Compile Include="DamageWorker_Siege.cs" />
     <Compile Include="Hediff_Crushing.cs" />
     <Compile Include="Hediff_NocturnalAnimal.cs" />
     <Compile Include="Hediff_Stalking.cs" />

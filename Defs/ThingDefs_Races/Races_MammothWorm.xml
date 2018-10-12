@@ -15,7 +15,7 @@
 			<li>
 				<label>body</label>
 				<capacities>
-					<li>Blunt</li>
+					<li>AA_SiegeBlunt</li>
 				</capacities>
 				<power>30</power>
 				<cooldownTime>1.9</cooldownTime>
@@ -38,27 +38,7 @@
 				<linkedBodyPartsGroup>TuskAttackTool</linkedBodyPartsGroup>
 			</li>
 		</tools>
-		<verbs>
-			<li>
-				<verbClass>Verb_Shoot</verbClass>
-				<accuracyTouch>1</accuracyTouch>
-				<accuracyShort>1</accuracyShort>
-				<accuracyMedium>1</accuracyMedium>
-				<accuracyLong>1</accuracyLong>
-				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>AA_Siege_Rock</defaultProjectile>
-				<warmupTime>3</warmupTime>
-				<burstShotCount>1</burstShotCount>
-				<minRange>1</minRange>
-				<range>1</range>
-				<soundCast>AA_RockThrow</soundCast>
-				<muzzleFlashScale>1</muzzleFlashScale>
-				<!--Commanility determines how frequent this range verb is chosen.-->
-				<commonality>1</commonality>
-			</li>
-
-
-		</verbs>
+		
 		  <comps>
    
 	 

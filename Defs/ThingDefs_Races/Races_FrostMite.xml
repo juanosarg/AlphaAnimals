@@ -70,7 +70,7 @@
       <meatColor>(160,150,140)</meatColor>
       <foodType>Corpse</foodType>
       <leatherDef>Leather_Chitin</leatherDef>
-      <wildness>0.9</wildness>
+      <wildness>0.7</wildness>
       <trainability>None</trainability>
       <gestationPeriodDays>30</gestationPeriodDays>
       <litterSizeCurve>

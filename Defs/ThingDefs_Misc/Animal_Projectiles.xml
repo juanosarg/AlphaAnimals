@@ -85,21 +85,7 @@
     </projectile>
   </ThingDef>
   
-  <ThingDef ParentName="BaseBullet">
-    <defName>AA_Siege_Rock</defName>
-    <label>rock</label>
-	<thingClass>AlphaAnimalRangeAttack.SiegeProjectile</thingClass>
-    <graphicData>
-      <texPath>Things/Projectiles/AA_Boulder</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <flyOverhead>true</flyOverhead>
-      <damageDef>Blunt</damageDef>
-      <damageAmountBase>15</damageAmountBase>
-      <speed>100</speed>
-    </projectile>
-  </ThingDef>
+ 
   
   <ThingDef ParentName="BaseBullet">
     <defName>AA_FrostWeb</defName>

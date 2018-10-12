@@ -87,7 +87,7 @@
 			<baseHealthScale>0.9</baseHealthScale>
       		<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>Leather_Cactus</leatherDef>
-			<wildness>0.8</wildness>
+			<wildness>0.6</wildness>
 			<trainability>Intermediate</trainability>
 			<gestationPeriodDays>30</gestationPeriodDays>
 			<litterSizeCurve>

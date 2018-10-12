@@ -2,6 +2,8 @@
 using UnityEngine;
 using Verse;
 using RimWorld;
+using Verse.AI;
+
 
 namespace AlphaBehavioursAndEvents
 {
@@ -44,12 +46,12 @@ namespace AlphaBehavioursAndEvents
             Thing thing = GenSpawn.Spawn(ThingMaker.MakeThing(ThingDef.Named("AA_BlackHiveMound"), null), loc, map, WipeMode.FullRefund);
             for (int i = 0; i < hiveCount - 1; i++)
             {
-                if (CellFinder.TryFindRandomCellNear(loc, map, 8, null, out loc2, -1))
+                if (CellFinder.TryFindRandomCellNear(loc, map, 8, (IntVec3 c) => c.Standable(map) &&
+                    map.reachability.CanReach(c, thing, PathEndMode.Touch, TraverseParms.For(TraverseMode.PassDoors, Danger.Deadly, false)), out loc2, -1))
                 {
-                    if (loc2.InBounds(map))
-                    {
+                    
                         thing = GenSpawn.Spawn(ThingMaker.MakeThing(ThingDef.Named("AA_BlackHiveMound"), null), loc2, map, WipeMode.FullRefund);
-                    }
+                    
                 }
 
                
