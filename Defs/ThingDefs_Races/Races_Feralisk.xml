@@ -102,9 +102,13 @@
 		</comps>
 		<race>
 			<wildBiomes>
-				<BorealForest>0.03</BorealForest>
-				<TemperateForest>0.03</TemperateForest>
-				<ColdBog>0.03</ColdBog>
+			
+		
+				<TemperateSwamp>0.15</TemperateSwamp>
+				<TropicalSwamp>0.15</TropicalSwamp>
+				<TemperateForest>0.07</TemperateForest>
+				<TropicalRainforest>0.15</TropicalRainforest>
+     
 			</wildBiomes>
 			<predator>true</predator>
 			<body>AA_Arachnid</body>
@@ -163,7 +167,7 @@
 		<race>AA_Feralisk</race>
 		<label>feralisk</label>
 		<combatPower>200</combatPower>
-		<ecoSystemWeight>0.2</ecoSystemWeight>
+		<ecoSystemWeight>0.5</ecoSystemWeight>
 
 		<wildGroupSize>
 			<min>2</min>

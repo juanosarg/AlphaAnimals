@@ -49,9 +49,15 @@
     </comps>
     <race>
       <wildBiomes>
-        <BorealForest>0.03</BorealForest>
+              <BorealForest>0.03</BorealForest>
+        <Tundra>0.03</Tundra>
+        <ColdBog>0.03</ColdBog>
         <TemperateForest>0.03</TemperateForest>
+        <TemperateSwamp>0.03</TemperateSwamp>
         <TropicalRainforest>0.03</TropicalRainforest>
+        <TropicalSwamp>0.03</TropicalSwamp>
+        <AridShrubland>0.03</AridShrubland>
+        <Desert>0.03</Desert>
       </wildBiomes>
       <herdAnimal>true</herdAnimal>
       <predator>false</predator>

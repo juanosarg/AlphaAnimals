@@ -14,16 +14,15 @@
     <race>
 	
 	<wildBiomes>
-        <BorealForest>0.03</BorealForest>
-        <Tundra>0.03</Tundra>
-        <ColdBog>0.03</ColdBog>
-        <TemperateForest>0.05</TemperateForest>
-        <TemperateSwamp>0.05</TemperateSwamp>
-        <TropicalRainforest>0.05</TropicalRainforest>
-        <TropicalSwamp>0.04</TropicalSwamp>
+        <BorealForest>0.3</BorealForest>
+        <Tundra>0.07</Tundra>
+        <ColdBog>0.07</ColdBog>
+        <TemperateForest>0.4</TemperateForest>
+        <TemperateSwamp>0.07</TemperateSwamp>
+        <TropicalRainforest>0.07</TropicalRainforest>
+        <TropicalSwamp>0.07</TropicalSwamp>
         <AridShrubland>0.04</AridShrubland>
         <Desert>0.03</Desert>
-        <ExtremeDesert>0.02</ExtremeDesert>      
       </wildBiomes>
       <herdAnimal>true</herdAnimal>
       <predator>false</predator>
@@ -139,7 +138,7 @@
     <label>meadow ave</label>
     <labelPlural>meadow aves</labelPlural>
     <race>AA_MeadowAve</race>
-	<ecoSystemWeight>0.9</ecoSystemWeight>
+	<ecoSystemWeight>0.5</ecoSystemWeight>
        <combatPower>70</combatPower>
 
     <wildGroupSize>

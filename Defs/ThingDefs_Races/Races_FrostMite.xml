@@ -53,9 +53,9 @@
 		</comps>
     <race>
       <wildBiomes>
-        <IceSheet>0.05</IceSheet>
+        <IceSheet>0.5</IceSheet>
         <Tundra>0.05</Tundra>
-        <SeaIce>0.05</SeaIce>
+        <SeaIce>0.5</SeaIce>
         <ColdBog>0.03</ColdBog>
         <BorealForest>0.02</BorealForest>
       </wildBiomes>
@@ -115,7 +115,7 @@
     <race>AA_Frostmite</race>
     <label>frostmite</label>
     <combatPower>80</combatPower>
-    <ecoSystemWeight>0.2</ecoSystemWeight>
+    <ecoSystemWeight>0.3</ecoSystemWeight>
     
     <wildGroupSize>
       <min>5</min>

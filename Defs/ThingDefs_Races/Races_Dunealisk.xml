@@ -104,9 +104,9 @@
 		</comps>
 		<race>
 			<wildBiomes>
-				<Desert>0.03</Desert>
-				<ExtremeDesert>0.03</ExtremeDesert>
-				<AridShrubland>0.03</AridShrubland>
+				<Desert>0.1</Desert>
+				<ExtremeDesert>0.1</ExtremeDesert>
+				<AridShrubland>0.07</AridShrubland>
 			</wildBiomes>
 			<predator>true</predator>
 			<body>AA_Arachnid</body>

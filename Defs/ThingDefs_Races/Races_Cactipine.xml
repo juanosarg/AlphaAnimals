@@ -72,9 +72,9 @@
 		</comps>
     <race>
       <wildBiomes>
-        <AridShrubland>0.04</AridShrubland>
-        <Desert>0.03</Desert>
-        <ExtremeDesert>0.01</ExtremeDesert>     
+        <AridShrubland>0.5</AridShrubland>
+        <Desert>0.07</Desert>
+        <ExtremeDesert>0.07</ExtremeDesert>     
       </wildBiomes>
       <herdAnimal>true</herdAnimal>
       <predator>false</predator>
@@ -134,7 +134,7 @@
     <label>cactipine</label>
     <race>AA_Cactipine</race>
     <combatPower>30</combatPower>
-    <ecoSystemWeight>0.2</ecoSystemWeight>
+    <ecoSystemWeight>0.3</ecoSystemWeight>
     <wildGroupSize>
       <min>1</min>
       <max>10</max>

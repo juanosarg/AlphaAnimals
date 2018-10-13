@@ -104,9 +104,11 @@
 		</comps>
 		<race>
 			<wildBiomes>
-				<SeaIce>0.03</SeaIce>
-				<IceSheet>0.03</IceSheet>
-				<Tundra>0.03</Tundra>
+				<SeaIce>0.1</SeaIce>
+				<IceSheet>0.1</IceSheet>
+				<Tundra>0.07</Tundra>
+				<ColdBog>0.07</ColdBog>
+				<BorealForest>0.07</BorealForest>
 			</wildBiomes>
 			<body>AA_Arachnid</body>
 			<baseBodySize>2.00</baseBodySize>

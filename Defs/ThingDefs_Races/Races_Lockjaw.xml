@@ -36,8 +36,9 @@
     </tools>
     <race>
       <wildBiomes>
-        <TropicalRainforest>0.04</TropicalRainforest>
-        <TropicalSwamp>0.05</TropicalSwamp>
+        <TropicalRainforest>0.2</TropicalRainforest>
+        <TropicalSwamp>0.2</TropicalSwamp>
+		<TemperateSwamp>0.2</TemperateSwamp>
       </wildBiomes>
       <body>AA_Crocodile</body>
       <baseBodySize>2.5</baseBodySize>
@@ -86,7 +87,7 @@
     <label>lockjaw</label>
     <race>AA_Lockjaw</race>
     <combatPower>300</combatPower>
-    <ecoSystemWeight>0.9</ecoSystemWeight>
+    <ecoSystemWeight>0.3</ecoSystemWeight>
    
     <wildGroupSize>
       <min>1</min>

@@ -80,9 +80,9 @@
 		</verbs>
     <race>
       <wildBiomes>
-        <Desert>0.03</Desert>
-        <ExtremeDesert>0.03</ExtremeDesert>
-        <AridShrubland>0.03</AridShrubland>
+        <Desert>0.3</Desert>
+        <ExtremeDesert>0.1</ExtremeDesert>
+        <AridShrubland>0.5</AridShrubland>
       </wildBiomes>
       <body>AA_ScorpionLike</body>
       <herdAnimal>false</herdAnimal>
@@ -140,7 +140,7 @@
     <race>AA_Barbslinger</race>
     <label>barbslinger</label>
     <combatPower>500</combatPower>
-    <ecoSystemWeight>0.2</ecoSystemWeight>
+    <ecoSystemWeight>0.3</ecoSystemWeight>
   
    <wildGroupSize>
 			<min>1</min>

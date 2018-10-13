@@ -78,13 +78,16 @@
 			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 			<wildBiomes>
-				<BorealForest>0.03</BorealForest>
-				<Tundra>0.03</Tundra>
+				<BorealForest>0.4</BorealForest>
+				<Tundra>0.05</Tundra>
 				<ColdBog>0.05</ColdBog>
-				<TemperateSwamp>0.05</TemperateSwamp>
-				<TropicalSwamp>0.05</TropicalSwamp>
-				<TemperateForest>0.03</TemperateForest>
-				<AridShrubland>0.02</AridShrubland>
+				<TemperateSwamp>0.4</TemperateSwamp>
+				<TropicalSwamp>0.3</TropicalSwamp>
+				<TemperateForest>0.4</TemperateForest>
+				<AridShrubland>0.2</AridShrubland>
+			    <Desert>0.1</Desert>
+                <TropicalRainforest>0.2</TropicalRainforest>
+
 			</wildBiomes>
 		</race>
 		<butcherProducts>

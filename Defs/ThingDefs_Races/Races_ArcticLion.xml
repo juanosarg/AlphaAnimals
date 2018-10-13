@@ -86,11 +86,11 @@
       <body>QuadrupedAnimalWithPawsAndTail</body>
       <herdAnimal>false</herdAnimal>
       <wildBiomes>
-        <IceSheet>0.01</IceSheet>
-        <Tundra>0.02</Tundra>
-        <SeaIce>0.01</SeaIce>
-        <ColdBog>0.02</ColdBog>
-        <BorealForest>0.02</BorealForest>
+        <IceSheet>0.1</IceSheet>
+        <Tundra>0.07</Tundra>
+        <SeaIce>0.1</SeaIce>
+        <ColdBog>0.07</ColdBog>
+        <BorealForest>0.07</BorealForest>
       </wildBiomes>
       <baseBodySize>2</baseBodySize>
       <baseHungerRate>0.8</baseHungerRate>

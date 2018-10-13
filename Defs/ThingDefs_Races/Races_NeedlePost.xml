@@ -75,9 +75,9 @@
     </comps>
 		<race>
       <wildBiomes>
-        <Desert>0.04</Desert>
+        <Desert>0.1</Desert>
         <ExtremeDesert>0.04</ExtremeDesert>
-        <AridShrubland>0.03</AridShrubland>
+        <AridShrubland>0.07</AridShrubland>
       </wildBiomes>
       <predator>false</predator>
 			<body>AA_SentientPlant</body>
@@ -133,7 +133,7 @@
     <race>AA_Needlepost</race>
     <label>needlepost</label>
     <combatPower>90</combatPower>
-    <ecoSystemWeight>0.2</ecoSystemWeight>
+    <ecoSystemWeight>0.5</ecoSystemWeight>
     <wildGroupSize>
       <min>6</min>
       <max>10</max>

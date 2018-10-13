@@ -79,8 +79,11 @@
 		</comps>
 		<race>
       <wildBiomes>
-        <TropicalRainforest>0.02</TropicalRainforest>
-        <TropicalSwamp>0.02</TropicalSwamp>
+        <TropicalRainforest>0.04</TropicalRainforest>
+        <TropicalSwamp>0.04</TropicalSwamp>
+		<TemperateSwamp>0.04</TemperateSwamp>
+		<ColdBog>0.02</ColdBog>
+
       </wildBiomes>
       <herdAnimal>false</herdAnimal>
       <predator>true</predator>
