@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>AlphaAnimals B19</name>
+	<name>Alpha Animals</name>
 	<author>AFriend, milon, Skullywag, kaptain_kavern and Sarg</author>
 	<targetVersion>0.19.2009</targetVersion>
 	<description>Adds multiple unique new animals to Rimworld.
 	
-	&lt;size=24&gt;Features&lt;/size&gt;
+&lt;size=24&gt;Features&lt;/size&gt;
 
+Adds 25 new, vanilla-friendly creatures to the diverse biomes of your Rimworlds. The philosophy of this mod is that every new creatures tries to bring some new mechanic into the game, whether it be walking tanks, living resource farm, indestructible plant monsters, night time stalkers, or plain speedy giant spiders. Some of the mechanics are simple, others much more complex.
 
+These animals will spawn in certain biomes, some others will only be available via traders. You'll have to explore to find them all!
+
+Bear in mind that spawn probabilities have been calculated with no other animal mods installed. If you have, for example, Animal Collab Project, less animals from this mod will appear, obviously.
+
+The mod will also add new insects in a new faction, the Black Hive. Raids from that faction can be disabled via Mod Options.
 
 &lt;size=24&gt;Issues&lt;/size&gt;
 
-
-&lt;size=24&gt;Notes&lt;/size&gt;
-
+There shouldn't be any. Balance is obviously always a concern, although it has been playtested. Feel free to tell me if you think something is too wacky.
 
 &lt;size=24&gt;Plans for the future&lt;/size&gt;
 
+Obviously, more animals!
 
 &lt;size=24&gt;Compatibility&lt;/size&gt;
+Compatible with A Dog Said...
+Compatible with the implants from Genetic Rim
 Uses Harmony (no need to download)
+Uses ModCheck (no need to download)
 
 &lt;size=24&gt;Credit&lt;/size&gt;
 Original creature graphics: A_Friend, aka SentientLine
@@ -30,7 +38,7 @@ Some sounds by Stephan Schutze at http://soundbible.com
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
 
-v0.1: Prerrelease
+v0.1: Prerelease
 
 	
 

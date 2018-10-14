@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[@Name = "GR_LegImplants"]/recipeUsers</xpath>
+		<value>
+			<li>GR_Spinobear</li>
+			<li>GR_Parasaurolope</li>
+			<li>GR_Chickennathus</li>
+			<li>GR_Diplobeetle</li>
+			<li>GR_Triceraffalo</li>
+			<li>GR_Raptortoise</li>
+			<li>GR_Stegothrumbo</li>
+			<li>GR_Velociwolf</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[@Name = "GR_TailImplants"]/recipeUsers</xpath>
+		<value>
+			<li>GR_Spinobear</li>
+			<li>GR_Parasaurolope</li>
+			<li>GR_Chickennathus</li>
+			<li>GR_Diplobeetle</li>
+			<li>GR_Triceraffalo</li>
+			<li>GR_Raptortoise</li>
+			<li>GR_Stegothrumbo</li>
+			<li>GR_Velociwolf</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[@Name = "GR_EyeImplants"]/recipeUsers</xpath>
+		<value>
+			<li>GR_Spinobear</li>
+			<li>GR_Parasaurolope</li>
+			<li>GR_Chickennathus</li>
+			<li>GR_Diplobeetle</li>
+			<li>GR_Triceraffalo</li>
+			<li>GR_Raptortoise</li>
+			<li>GR_Stegothrumbo</li>
+			<li>GR_Velociwolf</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[@Name = "GR_JawImplants"]/recipeUsers</xpath>
+		<value>
+			<li>GR_Spinobear</li>
+			<li>GR_Parasaurolope</li>
+			<li>GR_Chickennathus</li>
+			<li>GR_Diplobeetle</li>
+			<li>GR_Triceraffalo</li>
+			<li>GR_Raptortoise</li>
+			<li>GR_Stegothrumbo</li>
+			<li>GR_Velociwolf</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[@Name = "GR_SpineImplants"]/recipeUsers</xpath>
+		<value>
+			<li>GR_Spinobear</li>
+			<li>GR_Parasaurolope</li>
+			<li>GR_Chickennathus</li>
+			<li>GR_Diplobeetle</li>
+			<li>GR_Triceraffalo</li>
+			<li>GR_Raptortoise</li>
+			<li>GR_Stegothrumbo</li>
+			<li>GR_Velociwolf</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[@Name = "GR_BrainImplants"]/recipeUsers</xpath>
+		<value>
+			<li>GR_Spinobear</li>
+			<li>GR_Parasaurolope</li>
+			<li>GR_Chickennathus</li>
+			<li>GR_Diplobeetle</li>
+			<li>GR_Triceraffalo</li>
+			<li>GR_Raptortoise</li>
+			<li>GR_Stegothrumbo</li>
+			<li>GR_Velociwolf</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[@Name = "GR_HeartImplants"]/recipeUsers</xpath>
+		<value>
+			<li>GR_Spinobear</li>
+			<li>GR_Parasaurolope</li>
+			<li>GR_Chickennathus</li>
+			<li>GR_Diplobeetle</li>
+			<li>GR_Triceraffalo</li>
+			<li>GR_Raptortoise</li>
+			<li>GR_Stegothrumbo</li>
+			<li>GR_Velociwolf</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[@Name = "GR_LungImplants"]/recipeUsers</xpath>
+		<value>
+			<li>GR_Spinobear</li>
+			<li>GR_Parasaurolope</li>
+			<li>GR_Chickennathus</li>
+			<li>GR_Diplobeetle</li>
+			<li>GR_Triceraffalo</li>
+			<li>GR_Raptortoise</li>
+			<li>GR_Stegothrumbo</li>
+			<li>GR_Velociwolf</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[@Name = "GR_LiverImplants"]/recipeUsers</xpath>
+		<value>
+			<li>GR_Spinobear</li>
+			<li>GR_Parasaurolope</li>
+			<li>GR_Chickennathus</li>
+			<li>GR_Diplobeetle</li>
+			<li>GR_Triceraffalo</li>
+			<li>GR_Raptortoise</li>
+			<li>GR_Stegothrumbo</li>
+			<li>GR_Velociwolf</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[@Name = "GR_KidneyImplants"]/recipeUsers</xpath>
+		<value>
+			<li>GR_Spinobear</li>
+			<li>GR_Parasaurolope</li>
+			<li>GR_Chickennathus</li>
+			<li>GR_Diplobeetle</li>
+			<li>GR_Triceraffalo</li>
+			<li>GR_Raptortoise</li>
+			<li>GR_Stegothrumbo</li>
+			<li>GR_Velociwolf</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/RecipeDef[@Name = "GR_StomachImplants"]/recipeUsers</xpath>
+		<value>
+			<li>GR_Spinobear</li>
+			<li>GR_Parasaurolope</li>
+			<li>GR_Chickennathus</li>
+			<li>GR_Diplobeetle</li>
+			<li>GR_Triceraffalo</li>
+			<li>GR_Raptortoise</li>
+			<li>GR_Stegothrumbo</li>
+			<li>GR_Velociwolf</li>
+		</value>
+	</Operation>
+
+</Patch>
