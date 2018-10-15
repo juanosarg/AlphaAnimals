@@ -47,10 +47,13 @@ namespace AlphaBehavioursAndEvents
             }
         }
 
-        public override void PostDraw()
+      
+
+        public override void CompTick()
         {
-            base.PostDraw();
-            if (!hasAsigned) {
+            base.CompTick();
+            if (!hasAsigned)
+            {
                 int randomNumber = rand.Next(1, numberOfSkins + 1);
                 string skinString = skinBaseString + "_" + randomNumber.ToString();
                 Pawn pawn = this.parent as Pawn;
@@ -58,7 +61,8 @@ namespace AlphaBehavioursAndEvents
                 pawn.Drawer.renderer.graphics.nakedGraphic = newGraphic;
                 storeGraphic = randomNumber;
                 hasAsigned = true;
-            } else
+            }
+            else
             {
                 string skinString = skinBaseString + "_" + storeGraphic.ToString();
                 Pawn pawn = this.parent as Pawn;
@@ -66,10 +70,9 @@ namespace AlphaBehavioursAndEvents
                 pawn.Drawer.renderer.graphics.nakedGraphic = newGraphic2;
 
             }
-
         }
 
-      
+
 
 
 

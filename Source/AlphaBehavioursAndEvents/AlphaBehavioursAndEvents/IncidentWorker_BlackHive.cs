@@ -21,7 +21,7 @@ namespace AlphaBehavioursAndEvents
 
         private bool TryFindEntryCell(Map map, out IntVec3 cell)
         {
-            return RCellFinder.TryFindRandomPawnEntryCell(out cell, map, CellFinder.EdgeRoadChance_Animal + 0.2f, null);
+            return RCellFinder.TryFindRandomPawnEntryCell(out cell, map, CellFinder.EdgeRoadChance_Animal + 0.2f);
         }
 
 

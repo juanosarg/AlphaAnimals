@@ -47,19 +47,13 @@ namespace AlphaBehavioursAndEvents
                 }
             }
            
-            Find.LetterStack.ReceiveLetter("LetterLabelGallatrossPasses".Translate(new object[]
-            {
-                gallatross.label
-            }).CapitalizeFirst(), "LetterGallatrossPasses".Translate(new object[]
-            {
-                gallatross.label
-            }), LetterDefOf.PositiveEvent, pawn, null, null);
+            Find.LetterStack.ReceiveLetter("LetterLabelGallatrossPasses".Translate(gallatross.label.CapitalizeFirst()), "LetterGallatrossPasses".Translate(gallatross.label), LetterDefOf.PositiveEvent, pawn, null, null);
             return true;
         }
 
         private bool TryFindEntryCell(Map map, out IntVec3 cell)
         {
-            return RCellFinder.TryFindRandomPawnEntryCell(out cell, map, CellFinder.EdgeRoadChance_Animal + 0.2f, null);
+            return RCellFinder.TryFindRandomPawnEntryCell(out cell, map, CellFinder.EdgeRoadChance_Animal + 0.2f);
         }
     }
 }

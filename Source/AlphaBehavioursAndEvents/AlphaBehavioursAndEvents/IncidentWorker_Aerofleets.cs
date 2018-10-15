@@ -61,19 +61,13 @@ namespace AlphaBehavioursAndEvents
                     pawn.mindState.forcedGotoPosition = CellFinder.RandomClosewalkCellNear(invalid, map, 10, null);
                 }
             }
-            Find.LetterStack.ReceiveLetter("LetterLabelColossalAerofleetPasses".Translate(new object[]
-            {
-                aerofleetcolossal.label
-            }).CapitalizeFirst(), "LetterColossalAerofleetPasses".Translate(new object[]
-            {
-                aerofleetcolossal.label
-            }), LetterDefOf.PositiveEvent, pawn, null, null);
+            Find.LetterStack.ReceiveLetter("LetterLabelColossalAerofleetPasses".Translate(aerofleetcolossal.label.CapitalizeFirst()), "LetterColossalAerofleetPasses".Translate(aerofleetcolossal.label), LetterDefOf.PositiveEvent, pawn, null, null);
             return true;
         }
 
         private bool TryFindEntryCell(Map map, out IntVec3 cell)
         {
-            return RCellFinder.TryFindRandomPawnEntryCell(out cell, map, CellFinder.EdgeRoadChance_Animal + 0.2f, null);
+            return RCellFinder.TryFindRandomPawnEntryCell(out cell, map, CellFinder.EdgeRoadChance_Animal + 0.2f);
         }
     }
 }

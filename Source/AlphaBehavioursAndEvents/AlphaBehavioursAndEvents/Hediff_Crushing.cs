@@ -17,7 +17,7 @@ namespace AlphaBehavioursAndEvents
        
         private int filthCounter = 0;
         private Sustainer sustainer;
-        private int spawnTick;
+        private int spawnTick = 0;
         private int leftFadeOutTicks = -1;
 
         private static List<Thing> tmpThings = new List<Thing>();
