@@ -383,7 +383,6 @@
 		<description>Fertilized nightling egg. If all goes well, it should hatch into a baby nightling. It can be eaten raw, but it's much better cooked.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/AnimalProductRaw/AA_EggNightling</texPath>
-			<drawSize>1.8</drawSize>
 		</graphicData>
 		<statBases>
 			<MarketValue>100</MarketValue>
