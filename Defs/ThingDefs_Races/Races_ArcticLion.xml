@@ -97,6 +97,7 @@
       <baseHealthScale>2.5</baseHealthScale>
       <leatherDef>AA_ArcticLion_Leather</leatherDef>   
       <wildness>0.90</wildness>
+	  <trainability>Advanced</trainability>
       <manhunterOnTameFailChance>0.2</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1</manhunterOnDamageChance>
       <gestationPeriodDays>30</gestationPeriodDays>

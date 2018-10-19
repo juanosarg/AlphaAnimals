@@ -34,7 +34,7 @@
       <wildness>0.6</wildness>
       <manhunterOnDamageChance>0.05</manhunterOnDamageChance>
       <manhunterOnTameFailChance>0.02</manhunterOnTameFailChance>
-      <trainability>Intermediate</trainability>
+      <trainability>Advanced</trainability>
 	  <leatherDef>Leather_Bird</leatherDef>
       <gestationPeriodDays>24</gestationPeriodDays>
       <litterSizeCurve>
