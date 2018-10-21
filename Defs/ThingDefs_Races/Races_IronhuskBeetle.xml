@@ -9,6 +9,8 @@
       <MoveSpeed>2.8</MoveSpeed>
       <ComfyTemperatureMin>-8</ComfyTemperatureMin>
       <MarketValue>3000</MarketValue>
+	  	  <ArmorRating_Blunt>.75</ArmorRating_Blunt>
+	  <ArmorRating_Sharp>.75</ArmorRating_Sharp>
     </statBases>
     <tools>
       <li>

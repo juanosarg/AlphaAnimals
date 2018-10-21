@@ -54,6 +54,8 @@
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>AA_Leather_Aerofleet</leatherDef>
 			<wildness>0.60</wildness>
+			      <canBePredatorPrey>false</canBePredatorPrey>
+
 			<gestationPeriodDays>8</gestationPeriodDays>
 			<lifeExpectancy>9</lifeExpectancy>
 			<lifeStageAges>
@@ -179,6 +181,8 @@
 			<executionRange>6</executionRange>
 			<herdAnimal>true</herdAnimal>
 			<herdMigrationAllowed>false</herdMigrationAllowed>
+			      <canBePredatorPrey>false</canBePredatorPrey>
+
 			<body>AA_JellyfishBody</body>
 			<baseBodySize>2</baseBodySize>
 			<baseHealthScale>2</baseHealthScale>

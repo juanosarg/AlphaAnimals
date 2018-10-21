@@ -51,11 +51,14 @@ namespace AlphaBehavioursAndEvents
 
                 foreach (IntVec3 current in rect.Cells)
                 {
-                    Building edifice = current.GetEdifice(pawn.Map);
-                    if (edifice != null && ((edifice.def.defName == "Battery")))
-                    {
-                        batteriesInRange.Add(edifice);
+                    if (current.InBounds(pawn.Map)) {
+                        Building edifice = current.GetEdifice(pawn.Map);
+                        if (edifice != null && ((edifice.def.defName == "Battery")))
+                        {
+                            batteriesInRange.Add(edifice);
+                        }
                     }
+                    
                 }
 
                 if (batteriesInRange.Count > 0)

@@ -13,7 +13,7 @@
 			<ComfyTemperatureMax>70</ComfyTemperatureMax>
 			<MarketValue>630</MarketValue>
 			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
-				  			<MeatAmount>0</MeatAmount>
+			<MeatAmount>0</MeatAmount>
 
 		</statBases>
 			<tickerType>Normal</tickerType>
@@ -82,9 +82,9 @@
       <predator>false</predator>
 			<body>AA_SentientPlant</body>
 			<herdAnimal>true</herdAnimal>
-			<baseBodySize>1.80</baseBodySize>
+			<baseBodySize>1</baseBodySize>
 			<baseHungerRate>0.05</baseHungerRate>
-			<baseHealthScale>0.9</baseHealthScale>
+			<baseHealthScale>1.8</baseHealthScale>
       		<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>Leather_Cactus</leatherDef>
 			<wildness>0.6</wildness>

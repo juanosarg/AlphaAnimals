@@ -46,7 +46,7 @@ namespace AlphaBehavioursAndEvents
 
                 if ((hediff != null) && hediff.Severity > 0f)
                 {
-                    hediff.Severity -= 0.000025f;
+                    hediff.Severity -= 0.000015f;
                    // Log.Warning("Severity " + hediff.Severity.ToString());
                 }
             }
@@ -57,7 +57,7 @@ namespace AlphaBehavioursAndEvents
                 if ((hediff != null) && hediff.Severity < 1f)
                 {
 
-                    hediff.Severity += 0.000025f;
+                    hediff.Severity += 0.000015f;
                     // Log.Warning("Severity " + hediff.Severity.ToString());
 
                 }

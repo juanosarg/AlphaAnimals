@@ -48,7 +48,7 @@ namespace AlphaBehavioursAndEvents
                         this.effecter = EffecterDefOf.Mine.Spawn();
                     }
                     this.effecter.Trigger(pawn, newPawn);
-                    stopdiggingcounter = 10000;
+                    stopdiggingcounter = 40000;
                 }
                 stopdiggingcounter--;
 

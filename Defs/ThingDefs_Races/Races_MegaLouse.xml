@@ -19,7 +19,7 @@
           <li>Stab</li>
         </capacities>
         <power>16</power>
-        <cooldownTime>1.5</cooldownTime>
+        <cooldownTime>2.5</cooldownTime>
         <linkedBodyPartsGroup>TuskAttackTool</linkedBodyPartsGroup>
       </li>
       <li>
