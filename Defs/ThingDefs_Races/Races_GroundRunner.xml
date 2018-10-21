@@ -7,7 +7,7 @@
 		<statBases>
 			<MoveSpeed>3.00</MoveSpeed>
 			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
-			<MarketValue>2450</MarketValue>
+			<MarketValue>250</MarketValue>
 			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
 		</statBases>
 		<tools>
@@ -94,7 +94,7 @@
 			<leatherDef>Leather_Plain</leatherDef>
 			<wildness>0.3</wildness>
 			<trainability>Advanced</trainability>
-			<gestationPeriodDays>90</gestationPeriodDays>
+			<gestationPeriodDays>40</gestationPeriodDays>
 			<litterSizeCurve>
 				<points>
 					<li>(0.5, 0)</li>

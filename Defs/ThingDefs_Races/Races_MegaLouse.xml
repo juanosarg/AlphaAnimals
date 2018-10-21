@@ -67,7 +67,7 @@
       <baseHealthScale>1.0</baseHealthScale>
       <fleshType>Insectoid</fleshType>
       <bloodDef>Filth_BloodInsect</bloodDef>
-      <meatColor>(160,150,140)</meatColor>
+      <useMeatFrom>Megaspider</useMeatFrom>
       <foodType>OmnivoreAnimal, AnimalProduct</foodType>
       <leatherDef>Leather_Chitin</leatherDef>
       <wildness>0.9</wildness>

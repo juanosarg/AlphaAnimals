@@ -11,14 +11,17 @@ namespace AlphaBehavioursAndEvents
 
        
             public bool flagBlackHiveRaids = true;
-           
-            public override void ExposeData()
+            public bool flagStalkingLions = true;
+
+
+        public override void ExposeData()
             {
                 base.ExposeData();
                 Scribe_Values.Look(ref this.flagBlackHiveRaids, "flagBlackHiveRaids", true);
-               
-            }
-        
+                Scribe_Values.Look(ref this.flagStalkingLions, "flagStalkingLions", true);
+
+        }
+
 
     }
     class AlphaAnimals_Mod : Mod
@@ -36,6 +39,8 @@ namespace AlphaBehavioursAndEvents
             ls.Begin(inRect);
             ls.Gap(12f);
             ls.CheckboxLabeled("allowBlackHive".Translate(), ref settings.flagBlackHiveRaids, null);
+            ls.Gap(12f);
+            ls.CheckboxLabeled("allowStalkingLions".Translate(), ref settings.flagStalkingLions, null);
             ls.Gap(12f);
             settings.Write();
             ls.End();

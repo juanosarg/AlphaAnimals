@@ -47,15 +47,22 @@ namespace AlphaBehavioursAndEvents
                 tickCounter++;
                 if (tickCounter > 30)
                 {
-                    this.DamageCloseThings();
-                    tickCounter = 0;
+                    if (!pawn.Downed) {
+                        this.DamageCloseThings();
+                        tickCounter = 0;
+                    }
+                    
                 }
                
                 filthCounter++;
                 if (filthCounter > 130)
                 {
-                    this.RandomFilthGenerator();
-                    filthCounter = 0;
+                    if (!pawn.Downed)
+                    {
+                        this.RandomFilthGenerator();
+                        filthCounter = 0;
+                    }
+                        
                 }
             }
 

@@ -38,7 +38,9 @@
         <spawnForbidden>true</spawnForbidden>
         <saveKeysPrefix>jelly</saveKeysPrefix>
       </li>
-     
+     <li Class="CompProperties_Lifespan">
+        <lifespanTicks>180000</lifespanTicks>
+      </li>
       
      
     </comps>

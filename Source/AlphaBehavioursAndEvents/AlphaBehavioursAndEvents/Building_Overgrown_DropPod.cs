@@ -27,7 +27,8 @@ namespace AlphaBehavioursAndEvents
                 nextPawnSpawnTick++;
                 if (nextPawnSpawnTick > 7500)
                 {
-                    Pawn pawn = PawnGenerator.GeneratePawn(PawnKindDef.Named("AA_Cactipine"), base.Faction);
+                    Faction faction = Find.FactionManager.FirstFactionOfDef(FactionDefOf.Insect);
+                    Pawn pawn = PawnGenerator.GeneratePawn(PawnKindDef.Named("AA_Cactipine"), faction);
                    
                     GenSpawn.Spawn(pawn, CellFinder.RandomClosewalkCellNear(base.Position, base.Map, 1, null), base.Map, WipeMode.Vanish);
                     nextPawnSpawnTick = 0;

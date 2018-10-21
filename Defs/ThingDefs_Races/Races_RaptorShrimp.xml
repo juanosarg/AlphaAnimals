@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!-- ============================================================ -->
+	<!-- ============================================================ -->
 
-<ThingDef ParentName="BaseInsect">
+	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_RaptorShrimp</defName>
 		<label>raptor shrimp</label>
 		<description>A large genetically modified creature, its origins unknown. They are known to make homes in tropical regions. Instilling fear among the local inhabitants as those who pass through its territory are often reported to go missing; their bodies never found.\n\nThe few that survived an encounter with these monsters report bullets being shrugged off, limbs of their companions being torn apart, and the statement "The grass has eyes".\n\nRaptor shrimps have impressive regenerative capabilities, and shouldn't be considered dead until they absolutely, unmistakably, are.</description>
 		<statBases>
 			<MoveSpeed>4.70</MoveSpeed>
 			<ComfyTemperatureMin>10</ComfyTemperatureMin>
-			<MarketValue>2100</MarketValue>
+			<MarketValue>750</MarketValue>
 			<ArmorRating_Sharp>0.7</ArmorRating_Sharp>
 		</statBases>
 		<tools>
@@ -69,45 +69,41 @@
 				</surpriseAttack>
 			</li>
 		</tools>
-			<comps>
+		<comps>
 
 			<li Class="AlphaBehavioursAndEvents.CompProperties_Regeneration">
 				<rateInTicks>1000</rateInTicks>
-				
+
 			</li>
 
 		</comps>
 		<race>
-      <wildBiomes>
-        <TropicalRainforest>0.04</TropicalRainforest>
-        <TropicalSwamp>0.04</TropicalSwamp>
-		<TemperateSwamp>0.04</TemperateSwamp>
-		<ColdBog>0.02</ColdBog>
+			<wildBiomes>
+				<TropicalRainforest>0.04</TropicalRainforest>
+				<TropicalSwamp>0.04</TropicalSwamp>
+				<TemperateSwamp>0.04</TemperateSwamp>
+				<ColdBog>0.02</ColdBog>
 
-      </wildBiomes>
-      <herdAnimal>false</herdAnimal>
-      <predator>true</predator>
+			</wildBiomes>
+			<herdAnimal>false</herdAnimal>
+			<predator>true</predator>
 			<body>AA_SnakeWithTwoLimbs</body>
 			<baseBodySize>1.40</baseBodySize>
 			<baseHungerRate>1.2</baseHungerRate>
 			<baseHealthScale>3</baseHealthScale>
-      <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
-      <fleshType>Insectoid</fleshType>
-      <bloodDef>Filth_BloodInsect</bloodDef>
-      <meatColor>(160,150,140)</meatColor>
+			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_RaptorPlates</leatherDef>
-			
 			<wildness>0.9</wildness>
 			<trainability>Intermediate</trainability>
 			<gestationPeriodDays>45</gestationPeriodDays>
 			<litterSizeCurve>
-			<points>
-          <li>(0.5, 0)</li>
-          <li>(1, 1)</li>
-          <li>(2, 1.7)</li>
-          <li>(3, 0.7)</li>
-          <li>(3.5, 0)</li>
-        </points>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(2, 1.7)</li>
+					<li>(3, 0.7)</li>
+					<li>(3.5, 0)</li>
+				</points>
 			</litterSizeCurve>
 			<lifeExpectancy>15</lifeExpectancy>
 			<lifeStageAges>
@@ -132,54 +128,54 @@
 			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
-		 <tradeTags>
-      <li>AnimalUncommon</li>
-      <li>AnimalFighter</li>
-    </tradeTags>
-</ThingDef>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+			<li>AnimalFighter</li>
+		</tradeTags>
+	</ThingDef>
 
-<PawnKindDef ParentName="AnimalKindBase">
-    <defName>AA_RaptorShrimp</defName>
-    <race>AA_RaptorShrimp</race>
-    <label>raptor shrimp</label>
-    <combatPower>300</combatPower>
-    <ecoSystemWeight>0.9</ecoSystemWeight>
-    <wildGroupSize>
-      <min>1</min>
-      <max>3</max>
-    </wildGroupSize>
-    <lifeStages>
-      <li>
-        <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/AA_RaptorShrimp/AA_RaptorShrimp</texPath>
-          <drawSize>1.3</drawSize>
-        </bodyGraphicData>
-        <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/AA_RaptorShrimp/AA_Dessicated_RaptorShrimp</texPath>
-          <drawSize>1.3</drawSize>
-        </dessicatedBodyGraphicData>
-      </li>
-      <li>
-        <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/AA_RaptorShrimp/AA_RaptorShrimp</texPath>
-          <drawSize>2.3</drawSize>
-        </bodyGraphicData>
-        <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/AA_RaptorShrimp/AA_Dessicated_RaptorShrimp</texPath>
-          <drawSize>2.3</drawSize>
-        </dessicatedBodyGraphicData>
-      </li>
-      <li>
-        <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/AA_RaptorShrimp/AA_RaptorShrimp</texPath>
-          <drawSize>3.0</drawSize>
-        </bodyGraphicData>
-        <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/AA_RaptorShrimp/AA_Dessicated_RaptorShrimp</texPath>
-          <drawSize>3.0</drawSize>
-        </dessicatedBodyGraphicData>
-      </li>
-    </lifeStages>
-  </PawnKindDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>AA_RaptorShrimp</defName>
+		<race>AA_RaptorShrimp</race>
+		<label>raptor shrimp</label>
+		<combatPower>300</combatPower>
+		<ecoSystemWeight>0.9</ecoSystemWeight>
+		<wildGroupSize>
+			<min>1</min>
+			<max>3</max>
+		</wildGroupSize>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_RaptorShrimp/AA_RaptorShrimp</texPath>
+					<drawSize>1.3</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_RaptorShrimp/AA_Dessicated_RaptorShrimp</texPath>
+					<drawSize>1.3</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_RaptorShrimp/AA_RaptorShrimp</texPath>
+					<drawSize>2.3</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_RaptorShrimp/AA_Dessicated_RaptorShrimp</texPath>
+					<drawSize>2.3</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_RaptorShrimp/AA_RaptorShrimp</texPath>
+					<drawSize>3.0</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_RaptorShrimp/AA_Dessicated_RaptorShrimp</texPath>
+					<drawSize>3.0</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
 
 </Defs>

@@ -19,6 +19,7 @@
 		<statBases>
 			<MoveSpeed>5.7</MoveSpeed>
 			<ComfyTemperatureMin>-100</ComfyTemperatureMin>
+      <MarketValue>4000</MarketValue>
 
 		</statBases>
 		<tools>

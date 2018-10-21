@@ -47,5 +47,12 @@ namespace AlphaBehavioursAndEvents
 
         }
 
+        public override void Notify_PawnDied()
+        {
+            base.Notify_PawnDied();
+            this.pawn.Drawer.renderer.graphics.nakedGraphic = storeGraphic;
+        }
+
+
     }
 }

@@ -8,7 +8,7 @@
     <statBases>
       <MoveSpeed>3</MoveSpeed>
       <ComfyTemperatureMin>-15</ComfyTemperatureMin>
-      <MarketValue>2100</MarketValue>
+      <MarketValue>400</MarketValue>
       <LeatherAmount>0</LeatherAmount>
 	  <MeatAmount>0</MeatAmount>
 	  <ArmorRating_Blunt>2</ArmorRating_Blunt>

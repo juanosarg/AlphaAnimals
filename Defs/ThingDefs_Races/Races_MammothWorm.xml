@@ -7,7 +7,7 @@
 		<statBases>
 			<MoveSpeed>2.0</MoveSpeed>
 			<ComfyTemperatureMin>0</ComfyTemperatureMin>
-			<MarketValue>1400</MarketValue>
+			<MarketValue>600</MarketValue>
 			<ArmorRating_Blunt>0.5</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
 		</statBases>
@@ -63,7 +63,7 @@
 			<baseHealthScale>3.0</baseHealthScale>
 			<fleshType>Insectoid</fleshType>
 			<bloodDef>Filth_BloodInsect</bloodDef>
-			<meatColor>(160,150,140)</meatColor>
+      <useMeatFrom>Megaspider</useMeatFrom>
 			<foodType>OmnivoreAnimal, AnimalProduct</foodType>
 			<leatherDef>Leather_Chitin</leatherDef>
 			

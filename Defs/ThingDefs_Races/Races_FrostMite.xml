@@ -11,7 +11,7 @@
       <MoveSpeed>6.00</MoveSpeed>
       <ComfyTemperatureMin>-80</ComfyTemperatureMin>
       <ComfyTemperatureMax>15</ComfyTemperatureMax>
-      <MarketValue>560</MarketValue>
+      <MarketValue>120</MarketValue>
     </statBases>
     <tools>
       <li>
@@ -67,7 +67,7 @@
       <baseHealthScale>0.8</baseHealthScale>
       <fleshType>Insectoid</fleshType>
       <bloodDef>Filth_BloodInsect</bloodDef>
-      <meatColor>(160,150,140)</meatColor>
+      <useMeatFrom>Megaspider</useMeatFrom>
       <foodType>Corpse</foodType>
       <leatherDef>Leather_Chitin</leatherDef>
       <wildness>0.7</wildness>

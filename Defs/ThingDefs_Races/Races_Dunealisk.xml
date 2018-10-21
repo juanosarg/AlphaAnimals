@@ -10,7 +10,7 @@
 			<ComfyTemperatureMin>10</ComfyTemperatureMin>
 			<ComfyTemperatureMax>100</ComfyTemperatureMax>
 
-			<MarketValue>2100</MarketValue>
+			<MarketValue>500</MarketValue>
 			<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.4</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.4</ArmorRating_Heat>
@@ -116,7 +116,7 @@
 			<baseHealthScale>1.9</baseHealthScale>
 			<leatherDef>Leather_Chitin</leatherDef>
 			<bloodDef>Filth_BloodInsect</bloodDef>
-			<meatColor>(160,150,140)</meatColor>
+      <useMeatFrom>Megaspider</useMeatFrom>
 			<foodType>OmnivoreAnimal, AnimalProduct</foodType>
 			<wildness>0.985</wildness>
 			<trainability>Advanced</trainability>
@@ -214,7 +214,7 @@
 			<ComfyTemperatureMin>10</ComfyTemperatureMin>
 			<ComfyTemperatureMax>100</ComfyTemperatureMax>
 
-			<MarketValue>2500</MarketValue>
+			<MarketValue>900</MarketValue>
 			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.6</ArmorRating_Heat>
 			<ArmorRating_Sharp>0.6</ArmorRating_Sharp>
@@ -318,7 +318,7 @@
 			<baseHealthScale>3</baseHealthScale>
 			<leatherDef>Leather_Chitin</leatherDef>
 			<bloodDef>Filth_BloodInsect</bloodDef>
-			<meatColor>(160,150,140)</meatColor>
+      <useMeatFrom>Megaspider</useMeatFrom>
 			<foodType>OmnivoreAnimal, AnimalProduct</foodType>
 			<wildness>1</wildness>
 			<trainability>Advanced</trainability>

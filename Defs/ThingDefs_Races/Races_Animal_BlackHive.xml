@@ -334,9 +334,8 @@
       <baseBodySize>1.5</baseBodySize>
       <baseHealthScale>3</baseHealthScale>
       <gestationPeriodDays>12</gestationPeriodDays>
-      <meatLabel>insect meat</meatLabel>
-	  	  <leatherDef>Leather_BlackChitin</leatherDef>
-
+      <useMeatFrom>Megaspider</useMeatFrom>
+	  <leatherDef>Leather_BlackChitin</leatherDef>
       <wildness>1</wildness>
       <lifeExpectancy>6</lifeExpectancy>
       <lifeStageAges>
