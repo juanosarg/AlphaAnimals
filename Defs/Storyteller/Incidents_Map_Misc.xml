@@ -35,7 +35,7 @@
       <li>Map_PlayerHome</li>
     </targetTags>
     <workerClass>AlphaBehavioursAndEvents.IncidentWorker_BlizzariskClutchMother</workerClass>
-    <baseChance>2</baseChance>
+    <baseChance>1</baseChance>
     <category>ThreatBig</category>
     <minRefireDays>12</minRefireDays>
     <pointsScaleable>true</pointsScaleable>
@@ -49,7 +49,7 @@
       <li>Map_PlayerHome</li>
     </targetTags>
     <workerClass>AlphaBehavioursAndEvents.IncidentWorker_DunealiskClutchMother</workerClass>
-    <baseChance>2</baseChance>
+    <baseChance>1</baseChance>
     <category>ThreatBig</category>
     <minRefireDays>12</minRefireDays>
     <pointsScaleable>true</pointsScaleable>
@@ -63,7 +63,7 @@
       <li>Map_PlayerHome</li>
     </targetTags>
     <workerClass>AlphaBehavioursAndEvents.IncidentWorker_FeraliskClutchMother</workerClass>
-    <baseChance>2</baseChance>
+    <baseChance>1</baseChance>
     <category>ThreatBig</category>
     <minRefireDays>12</minRefireDays>
     <pointsScaleable>true</pointsScaleable>
@@ -109,7 +109,7 @@
       <li>Map_PlayerHome</li>
     </targetTags>
     <workerClass>AlphaBehavioursAndEvents.IncidentWorker_Gallatross</workerClass>
-    <baseChance>0.7</baseChance>
+    <baseChance>0.35</baseChance>
     <minRefireDays>13</minRefireDays>
   </IncidentDef>
   
@@ -121,7 +121,7 @@
       <li>Map_PlayerHome</li>
     </targetTags>
     <workerClass>AlphaBehavioursAndEvents.IncidentWorker_BlackHive</workerClass>
-    <baseChance>2.7</baseChance>
+    <baseChance>1.5</baseChance>
     <category>ThreatBig</category>
     <pointsScaleable>true</pointsScaleable>
     <tale>Raid</tale>

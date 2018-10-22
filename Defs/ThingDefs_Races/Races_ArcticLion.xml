@@ -92,6 +92,8 @@
         <ColdBog>0.07</ColdBog>
         <BorealForest>0.07</BorealForest>
       </wildBiomes>
+	        <predator>true</predator>
+
       <baseBodySize>2</baseBodySize>
       <baseHungerRate>0.8</baseHungerRate>
       <baseHealthScale>2.5</baseHealthScale>

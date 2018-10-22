@@ -71,7 +71,7 @@
 				<minRange>2</minRange>
 				<range>20</range>
 				<soundCast>AA_DartSound</soundCast>
-				<muzzleFlashScale>2</muzzleFlashScale>
+				<muzzleFlashScale>0</muzzleFlashScale>
 				<!--Commanility determines how frequent this range verb is chosen.-->
 				<commonality>.8</commonality>
 			</li>

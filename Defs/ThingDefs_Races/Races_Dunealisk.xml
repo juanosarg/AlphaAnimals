@@ -75,7 +75,7 @@
 				<minRange>1</minRange>
 				<range>20</range>
 				<soundCast>AA_Throw</soundCast>
-				<muzzleFlashScale>2</muzzleFlashScale>
+				<muzzleFlashScale>0</muzzleFlashScale>
 				<!--Commanility determines how frequent this range verb is chosen.-->
 				<commonality>.8</commonality>
 			</li>
@@ -279,7 +279,7 @@
 				<minRange>1</minRange>
 				<range>20</range>
 				<soundCast>AA_Throw</soundCast>
-				<muzzleFlashScale>2</muzzleFlashScale>
+				<muzzleFlashScale>0</muzzleFlashScale>
 				<!--Commanility determines how frequent this range verb is chosen.-->
 				<commonality>.8</commonality>
 			</li>
@@ -288,13 +288,7 @@
 		</verbs>
 		<comps>
 
-			<li Class="NewAlphaAnimalSubproducts.CompProperties_AnimalProduct">
-				<resourceDef>Synthread</resourceDef>
-				<gatheringIntervalDays>16</gatheringIntervalDays>
-				<resourceAmount>33</resourceAmount>
-				<customResourceString>SynthreadDesc</customResourceString>
-
-			</li>
+			
 			<li Class="CompProperties_EggLayer">
 				<eggUnfertilizedDef>AA_DunealiskSuperEggFertilized</eggUnfertilizedDef>
 				<eggFertilizedDef>AA_DunealiskSuperEggFertilized</eggFertilizedDef>

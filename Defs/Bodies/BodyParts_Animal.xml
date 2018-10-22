@@ -117,13 +117,19 @@
 		</tags>
 	</BodyPartDef>
 
-	<!-- Mammoth Worm parts -->
+	<!-- Mammoth Worm and Megalouse parts -->
 
 	<BodyPartDef>
 		<defName>AA_FirstWormSegment</defName>
 		<label>first body segment</label>
 		<hitPoints>25</hitPoints>
 		<skinCovered>true</skinCovered>
+		<tags>
+			
+			<li>ManipulationLimbCore</li>
+						<li>MovingLimbCore</li>
+
+		</tags>
 	</BodyPartDef>
 
 	<BodyPartDef>

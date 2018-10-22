@@ -190,7 +190,7 @@
 			<hasGenders>false</hasGenders>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>AA_Leather_Aerofleet</leatherDef>
-			<wildness>0.80</wildness>
+			<wildness>1</wildness>
 			<gestationPeriodDays>8</gestationPeriodDays>
 			<lifeExpectancy>110</lifeExpectancy>
 			<lifeStageAges>

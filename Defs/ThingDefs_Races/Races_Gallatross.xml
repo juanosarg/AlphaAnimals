@@ -78,7 +78,7 @@
 				<minRange>2</minRange>
 				<range>30</range>
 				<soundCast>AA_RockThrow</soundCast>
-				<muzzleFlashScale>2</muzzleFlashScale>
+				<muzzleFlashScale>0</muzzleFlashScale>
 				<!--Commanility determines how frequent this range verb is chosen.-->
 				<commonality>1</commonality>
 			</li>

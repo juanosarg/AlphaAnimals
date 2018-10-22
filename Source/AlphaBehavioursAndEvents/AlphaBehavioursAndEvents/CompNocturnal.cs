@@ -40,7 +40,7 @@ namespace AlphaBehavioursAndEvents
                 //float num = this.Map.glowGrid.GameGlowAt(this.Position, false);
                 if ((currentHour >= 19 && currentHour <= 24)|| (currentHour >= 0 && currentHour <= 9))
                 {
-                    if (pawn.needs.rest.CurLevelPercentage < 0.5) {
+                    if (pawn.needs.rest.CurLevelPercentage < 0.8) {
                         pawn.needs.rest.SetInitialLevel();
                         RestUtility.WakeUp(pawn);
                     }
