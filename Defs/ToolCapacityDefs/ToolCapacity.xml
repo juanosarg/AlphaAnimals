@@ -2,7 +2,10 @@
 
 <Defs>
 
-
+	<ToolCapacityDef>
+		<defName>AA_ParalysingBite</defName>
+		<label>paralysing bite</label>
+	</ToolCapacityDef>
 
 	<ToolCapacityDef>
 		<defName>AA_LockJawDamage</defName>

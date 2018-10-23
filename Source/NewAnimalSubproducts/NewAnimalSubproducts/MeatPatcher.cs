@@ -38,7 +38,7 @@ namespace NewAlphaAnimalSubproducts
                 var thingies = __result.ToList();
                 var pawn = (Pawn)__instance;
 
-                if ((__instance.def.butcherProducts != null) && ((__instance.def.defName == "AA_Aerofleet") || (__instance.def.defName == "AA_ColossalAerofleet") || (__instance.def.defName == "AA_Cactipine") || (__instance.def.defName == "AA_Needlepost") || (__instance.def.defName == "AA_Wildpod")))
+                if ((__instance.def.butcherProducts != null) && ((__instance.def.defName == "AA_Aerofleet") || (__instance.def.defName == "AA_ColossalAerofleet") || (__instance.def.defName == "AA_Cactipine") || (__instance.def.defName == "AA_Needlepost") || (__instance.def.defName == "AA_Needleroll") || (__instance.def.defName == "AA_Wildpod") || (__instance.def.defName == "AA_Wildpawn")))
                 {
                     //Log.Message("Adding meat butcher products", false);
 

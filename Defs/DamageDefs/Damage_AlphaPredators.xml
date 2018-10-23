@@ -19,7 +19,17 @@
 		<impactSoundType>Slice</impactSoundType>
 		<armorCategory>Sharp</armorCategory>
 	</DamageDef>
-
+	
+	<DamageDef ParentName="Bite">
+		<defName>AA_ParalysingBite</defName>
+		<label>paralysing bite</label>
+		<additionalHediffs>
+			<li>
+				<hediff>AA_Paralysis</hediff>
+				<severityPerDamageDealt>0.01</severityPerDamageDealt>
+			</li>
+		</additionalHediffs>
+	</DamageDef>
 
 	<DamageDef>
 		<defName>AA_SiegeBlunt</defName>

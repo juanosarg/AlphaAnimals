@@ -35,7 +35,7 @@ namespace NewAlphaAnimalSubproducts
             {
                 if (this.Props.resourceDef.defName== "AA_RandomStones")
                 {
-                    int randomNumber = rand.Next(1, 7);
+                    int randomNumber = rand.Next(1, 6);
                     switch (randomNumber)
                     {
                         case 1:
@@ -55,8 +55,30 @@ namespace NewAlphaAnimalSubproducts
                     }
 
 
-                }
-                else return this.Props.resourceDef;
+                } else if (this.Props.resourceDef.defName == "AA_RandomBricks")
+                    {
+                        int randomNumber = rand.Next(1, 6);
+                        switch (randomNumber)
+                        {
+                            case 1:
+                                return ThingDef.Named("BlocksSandstone");
+                            case 2:
+                                return ThingDef.Named("BlocksGranite");
+                            case 3:
+                                return ThingDef.Named("BlocksLimestone");
+                            case 4:
+                                return ThingDef.Named("BlocksSlate");
+                            case 5:
+                                return ThingDef.Named("BlocksMarble");
+
+                            default:
+                                return ThingDef.Named("BlocksSandstone");
+
+                        }
+
+
+                    }
+                    else return this.Props.resourceDef;
             }
         }
 

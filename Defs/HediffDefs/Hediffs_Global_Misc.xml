@@ -82,5 +82,29 @@
       </li>
     </comps>
   </HediffDef>
+  
+    <HediffDef ParentName="DiseaseBase">
+    <defName>AA_Paralysis</defName>
+    <label>paralysis</label>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>
+          <min>1000</min>
+          <max>1000</max>
+        </disappearsAfterTicks>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.1</setMax>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
 
 </Defs>

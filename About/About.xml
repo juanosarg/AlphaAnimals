@@ -7,7 +7,7 @@
 	
 &lt;size=24&gt;Features&lt;/size&gt;
 
-Adds 25 new, vanilla-friendly creatures to the diverse biomes of your Rimworlds. The philosophy of this mod is that every new creatures tries to bring some new mechanic into the game, whether it be walking tanks, living resource farm, indestructible plant monsters, night time stalkers, or plain speedy giant spiders. Some of the mechanics are simple, others much more complex.
+Adds 30 new, vanilla-friendly creatures to the diverse biomes of your Rimworlds. The philosophy of this mod is that every new creatures tries to bring some new mechanic into the game, whether it be walking tanks, living resource farm, indestructible plant monsters, night time stalkers, or plain speedy giant spiders. Some of the mechanics are simple, others much more complex.
 
 These animals will spawn in certain biomes, some others will only be available via traders. You'll have to explore to find them all!
 
@@ -26,6 +26,7 @@ Obviously, more animals!
 &lt;size=24&gt;Compatibility&lt;/size&gt;
 Compatible with A Dog Said...
 Compatible with the implants from Genetic Rim
+Compatible with cloth production in Vegetable Garden Project (VGP)
 Uses Harmony (no need to download)
 Uses ModCheck (no need to download)
 
@@ -38,6 +39,7 @@ Some sounds by Stephan Schutze at http://soundbible.com
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
 
+v1.03: Five new animals added! Bugfixing and balance tweaks. Full changelog on GitHub (23/10/18)
 v1.02: Bugfixing and balance tweaks. Full changelog on GitHub (22/10/18)
 v1.0: Rimworld 1.0 version (17/10/18)
 v0.1: Prerelease
