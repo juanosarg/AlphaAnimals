@@ -54,8 +54,8 @@
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>AA_Leather_Aerofleet</leatherDef>
 			<wildness>0.60</wildness>
-			      <canBePredatorPrey>false</canBePredatorPrey>
-
+			<canBePredatorPrey>false</canBePredatorPrey>
+			<trainability>Simple</trainability>
 			<gestationPeriodDays>8</gestationPeriodDays>
 			<lifeExpectancy>9</lifeExpectancy>
 			<lifeStageAges>
