@@ -30,6 +30,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="0Harmony, Version=1.2.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Assemblies\0Harmony.dll</HintPath>
+    </Reference>
     <Reference Include="Assembly-CSharp">
       <HintPath>..\..\..\..\..\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>
@@ -78,7 +82,10 @@
     <Compile Include="IncidentWorker_StalkingArcticLion.cs" />
     <Compile Include="IncidentWorker_CactipineDropPod.cs" />
     <Compile Include="IncidentWorker_SummitCrab.cs" />
+    <Compile Include="InteractionWorker_PsionicNuzzle.cs" />
+    <Compile Include="JobDriver_PsionicNuzzle.cs" />
     <Compile Include="JobGiver_Mine.cs" />
+    <Compile Include="JobGiver_PsionicNuzzle.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

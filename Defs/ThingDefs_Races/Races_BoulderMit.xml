@@ -70,7 +70,7 @@
       <predator>false</predator>
       <body>TurtleLike</body>
       <baseBodySize>4.00</baseBodySize>
-      <baseHungerRate>2.0</baseHungerRate>
+      <baseHungerRate>0.05</baseHungerRate>
       <baseHealthScale>9.0</baseHealthScale>
       <foodType>VegetarianRoughAnimal</foodType>
       <wildness>0.7</wildness>
@@ -125,7 +125,8 @@
     <label>bouldermit</label>
     <race>AA_BoulderMit</race>
     <combatPower>350</combatPower>
-   
+   		<canArriveManhunter>false</canArriveManhunter>
+
     <ecoSystemWeight>0.2</ecoSystemWeight>
     <lifeStages>
       <li>
@@ -266,7 +267,8 @@
     <label>summit crab</label>
     <race>AA_SummitCrab</race>
     <combatPower>800</combatPower>
-   
+   		<canArriveManhunter>false</canArriveManhunter>
+
     <lifeStages>
       <li>
         <label>summit crab</label>
