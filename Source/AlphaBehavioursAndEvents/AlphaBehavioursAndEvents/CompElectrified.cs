@@ -39,41 +39,48 @@ namespace AlphaBehavioursAndEvents
 
         public override void CompTick()
         {
-            tickCounter++;
 
-            if (tickCounter>= electroRate) {
-                Pawn pawn = this.parent as Pawn;
 
-                CellRect rect = GenAdj.OccupiedRect(pawn.Position, pawn.Rotation, IntVec2.One);
-                rect = rect.ExpandedBy(electroRadius);
+            if (this.parent.Map != null) {
+                tickCounter++;
 
-                List<Building> batteriesInRange = new List<Building>();
-
-                foreach (IntVec3 current in rect.Cells)
+                if (tickCounter >= electroRate)
                 {
-                    if (current.InBounds(pawn.Map)) {
-                        Building edifice = current.GetEdifice(pawn.Map);
-                        if (edifice != null && ((edifice.def.defName == "Battery")))
+                    Pawn pawn = this.parent as Pawn;
+
+                    CellRect rect = GenAdj.OccupiedRect(pawn.Position, pawn.Rotation, IntVec2.One);
+                    rect = rect.ExpandedBy(electroRadius);
+
+                    List<Building> batteriesInRange = new List<Building>();
+
+                    foreach (IntVec3 current in rect.Cells)
+                    {
+                        if (current.InBounds(pawn.Map))
                         {
-                            batteriesInRange.Add(edifice);
+                            Building edifice = current.GetEdifice(pawn.Map);
+                            if (edifice != null && ((edifice.def.defName == "Battery")))
+                            {
+                                batteriesInRange.Add(edifice);
+                            }
+                        }
+
+                    }
+
+                    if (batteriesInRange.Count > 0)
+                    {
+                        Building batteryToAffect = batteriesInRange.RandomElement();
+                        MoteMaker.ThrowMicroSparks(batteryToAffect.Position.ToVector3(), batteryToAffect.Map);
+                        foreach (CompPowerBattery current2 in batteryToAffect.GetComps<CompPowerBattery>())
+                        {
+                            current2.AddEnergy((float)1);
+                            break;
+
                         }
                     }
-                    
+                    tickCounter = 0;
                 }
-
-                if (batteriesInRange.Count > 0)
-                {
-                    Building batteryToAffect = batteriesInRange.RandomElement();
-                    MoteMaker.ThrowMicroSparks(batteryToAffect.Position.ToVector3(), batteryToAffect.Map);
-                    foreach (CompPowerBattery current2 in batteryToAffect.GetComps<CompPowerBattery>())
-                    {
-                        current2.AddEnergy((float)1);
-                        break;
-
-                    }
-                }
-                tickCounter = 0;
             }
+            
 
             
 
