@@ -46,18 +46,10 @@ namespace AlphaBehavioursAndEvents
 
             StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.Append(base.GetInspectString());
-            string text = base.InspectStringPartsFromComps();
-            if (!text.NullOrEmpty())
-            {
-                if (stringBuilder.Length > 0)
-                {
-                    stringBuilder.AppendLine();
-                }
-                stringBuilder.Append(text);
-            }
+           
             float totalProgress = ((float)nextPawnSpawnTick / (float)(7500));
              
-            stringBuilder.Append("Generating terraforming lifeform: "+ totalProgress.ToStringPercent());
+            stringBuilder.Append("\nGenerating terraforming lifeform: "+ totalProgress.ToStringPercent());
 
             return stringBuilder.ToString();
 

@@ -4,7 +4,7 @@
 		<success>Always</success>
 		<operations>
 			<li Class="ModCheck.isModLoaded">
-				<modName>A Dog Said...</modName>
+				<modName>A Dog Said... Animal Prosthetics</modName>
 				<yourMod>Alpha Animals</yourMod>
 			</li>
 
@@ -284,7 +284,15 @@
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
-				<xpath>/Defs/RecipeDef[defName = "InstallJawAnimalBionic" or "InstallJawAnimalSimple"]/appliedOnFixedBodyParts</xpath>
+				<xpath>/Defs/RecipeDef[defName = "InstallJawAnimalBionic"]/appliedOnFixedBodyParts</xpath>
+				<value>
+					<li>AA_InsectMouth</li>
+					<li>AA_CrocodileJaw</li>
+					<li>AA_SentientPlantMouth</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "InstallJawAnimalSimple"]/appliedOnFixedBodyParts</xpath>
 				<value>
 					<li>AA_InsectMouth</li>
 					<li>AA_CrocodileJaw</li>

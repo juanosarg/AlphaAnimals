@@ -47,11 +47,16 @@
   <DevilstrandDesc>Devilstrand production:</DevilstrandDesc>
   <SynthreadDesc>Synthread production:</SynthreadDesc>
   <ChunkSlagSteelDesc>Steel chunk loosening:</ChunkSlagSteelDesc>
+  <RawMushrooms>Raw mushrooms growth:</RawMushrooms>
+
   
   <!-- Mod Settings -->
   
   <allowBlackHive>Allow Black Hive raids</allowBlackHive>
   <allowStalkingLions>Allow Stalking Arctic Lion attacks</allowStalkingLions>
+  <allowCactipineDroppods>Allow Cactipine droppod event</allowCactipineDroppods>
+  <allowSpiderClutchMothers>Allow spider clutch mothers event</allowSpiderClutchMothers>
+
 
 
 

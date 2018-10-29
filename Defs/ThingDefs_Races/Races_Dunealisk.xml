@@ -108,6 +108,8 @@
 				<ExtremeDesert>0.1</ExtremeDesert>
 				<AridShrubland>0.07</AridShrubland>
 			</wildBiomes>
+						<canBePredatorPrey>false</canBePredatorPrey>
+
 			<predator>true</predator>
 			<body>AA_Arachnid</body>
 			<herdAnimal>true</herdAnimal>

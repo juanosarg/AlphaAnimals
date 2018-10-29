@@ -110,6 +110,8 @@
 				<TropicalRainforest>0.15</TropicalRainforest>
      
 			</wildBiomes>
+						<canBePredatorPrey>false</canBePredatorPrey>
+
 			<predator>true</predator>
 			<body>AA_Arachnid</body>
 			<herdAnimal>true</herdAnimal>

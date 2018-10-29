@@ -4,14 +4,14 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>AA_Wildpod</defName>
     <label>wildpod</label>
-    <description>This lumbering mass of apparently decomposing plant matter is a Wildpod, a sentient mycoid creature native to some jungle infested planet on the Rim. The Wildpod is almost impervious to gunfire, with bullets simply being absorbed into its mass without doing much damage, but very weak to fire. Interestingly, it reproduces asexually by releasing clumps of spores every few weeks.\n\nAlthough risky, the Wildpod can be hunted for huge amounts of edible raw fungus.</description>
+    <description>This lumbering mass of apparently decomposing plant matter is a Wildpod, a sentient mycoid creature native to some jungle infested planet on the Rim. The Wildpod is almost impervious to gunfire, with bullets simply being absorbed into its mass without doing much damage, but very weak to fire. Interestingly, it reproduces asexually by releasing clumps of spores every few weeks, so its children are completely independent from it, with no concept of parenthood.\n\nAlthough risky, the Wildpod can be hunted or farmed for decent amounts of edible raw fungus.</description>
     <statBases>
       <MoveSpeed>3</MoveSpeed>
       <ComfyTemperatureMin>-15</ComfyTemperatureMin>
       <MarketValue>400</MarketValue>
       <LeatherAmount>0</LeatherAmount>
 	  <MeatAmount>0</MeatAmount>
-	  <ArmorRating_Blunt>2</ArmorRating_Blunt>
+	  <ArmorRating_Blunt>1</ArmorRating_Blunt>
 	  <ArmorRating_Heat>-100</ArmorRating_Heat>
 	  <ArmorRating_Sharp>2</ArmorRating_Sharp>
     </statBases>
@@ -83,6 +83,13 @@
 
 				
 			</li>
+			<li Class="NewAlphaAnimalSubproducts.CompProperties_AnimalProduct">
+				<resourceDef>RawFungus</resourceDef>
+				<gatheringIntervalDays>10</gatheringIntervalDays>
+				<resourceAmount>60</resourceAmount>
+				<customResourceString>RawMushrooms</customResourceString>
+
+			</li>
 
 		</comps>
 	
@@ -93,7 +100,7 @@
       <baseHealthScale>3.6</baseHealthScale>
       <foodType>VegetarianRoughAnimal</foodType>
 	  <hasGenders>false</hasGenders>
-      <wildness>0.75</wildness>
+      <wildness>0.95</wildness>
       <manhunterOnTameFailChance>0.018</manhunterOnTameFailChance>
       <trainability>Intermediate</trainability>
       <lifeExpectancy>70</lifeExpectancy>

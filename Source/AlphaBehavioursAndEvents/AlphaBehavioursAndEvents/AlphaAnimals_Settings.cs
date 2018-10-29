@@ -12,6 +12,10 @@ namespace AlphaBehavioursAndEvents
        
             public bool flagBlackHiveRaids = true;
             public bool flagStalkingLions = true;
+            public bool flagCactipineDroppods = true;
+            public bool flagSpiderClutchMothers = true;
+
+
 
 
         public override void ExposeData()
@@ -19,6 +23,9 @@ namespace AlphaBehavioursAndEvents
                 base.ExposeData();
                 Scribe_Values.Look(ref this.flagBlackHiveRaids, "flagBlackHiveRaids", true);
                 Scribe_Values.Look(ref this.flagStalkingLions, "flagStalkingLions", true);
+                Scribe_Values.Look(ref this.flagCactipineDroppods, "flagCactipineDroppods", true);
+                Scribe_Values.Look(ref this.flagSpiderClutchMothers, "flagSpiderClutchMothers", true);
+
 
         }
 
@@ -41,6 +48,10 @@ namespace AlphaBehavioursAndEvents
             ls.CheckboxLabeled("allowBlackHive".Translate(), ref settings.flagBlackHiveRaids, null);
             ls.Gap(12f);
             ls.CheckboxLabeled("allowStalkingLions".Translate(), ref settings.flagStalkingLions, null);
+            ls.Gap(12f);
+            ls.CheckboxLabeled("allowCactipineDroppods".Translate(), ref settings.flagCactipineDroppods, null);
+            ls.Gap(12f);
+            ls.CheckboxLabeled("allowSpiderClutchMothers".Translate(), ref settings.flagSpiderClutchMothers, null);
             ls.Gap(12f);
             settings.Write();
             ls.End();

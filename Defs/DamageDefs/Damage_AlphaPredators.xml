@@ -94,7 +94,7 @@
 
 
 	<DamageDef>
-		<defName>Pierce</defName>
+		<defName>AA_Pierce</defName>
 		<label>pierce</label>
 		<workerClass>DamageWorker_Stab</workerClass>
 		<externalViolence>true</externalViolence>

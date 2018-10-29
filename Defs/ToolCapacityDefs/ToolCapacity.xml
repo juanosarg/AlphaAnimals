@@ -23,7 +23,7 @@
 	</ToolCapacityDef>
 
 	<ToolCapacityDef>
-		<defName>Pierce</defName>
+		<defName>AA_Pierce</defName>
 		<label>piercing</label>
 	</ToolCapacityDef>
 

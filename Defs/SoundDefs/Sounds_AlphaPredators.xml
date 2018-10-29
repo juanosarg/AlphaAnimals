@@ -181,12 +181,12 @@
           </li>
         </grains>      
         <volumeRange>
-          <min>70</min>        
-          <max>70</max>
+          <min>40</min>        
+          <max>40</max>
         </volumeRange>
         <sustainAttack>2.5</sustainAttack>      
         <sustainRelease>2.5</sustainRelease>
-        <distRange><min>100</min><max>200</max></distRange>
+        <distRange><min>50</min><max>100</max></distRange>
       </li>
     </subSounds>
   </SoundDef>

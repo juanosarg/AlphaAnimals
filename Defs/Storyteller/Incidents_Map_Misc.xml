@@ -6,7 +6,7 @@
   <IncidentDef>
     <defName>AA_Incident_Aerofleets</defName>
     <label>colossal Aerofleet</label>
-		<category>Misc</category>
+	<category>Misc</category>
     <targetTags>
       <li>Map_PlayerHome</li>
     </targetTags>
@@ -36,7 +36,7 @@
     </targetTags>
     <workerClass>AlphaBehavioursAndEvents.IncidentWorker_BlizzariskClutchMother</workerClass>
     <baseChance>1</baseChance>
-    <category>ThreatBig</category>
+    <category>Misc</category>
     <minRefireDays>12</minRefireDays>
     <pointsScaleable>true</pointsScaleable>
    
@@ -50,7 +50,7 @@
     </targetTags>
     <workerClass>AlphaBehavioursAndEvents.IncidentWorker_DunealiskClutchMother</workerClass>
     <baseChance>1</baseChance>
-    <category>ThreatBig</category>
+    <category>Misc</category>
     <minRefireDays>12</minRefireDays>
     <pointsScaleable>true</pointsScaleable>
    
@@ -64,7 +64,7 @@
     </targetTags>
     <workerClass>AlphaBehavioursAndEvents.IncidentWorker_FeraliskClutchMother</workerClass>
     <baseChance>1</baseChance>
-    <category>ThreatBig</category>
+    <category>Misc</category>
     <minRefireDays>12</minRefireDays>
     <pointsScaleable>true</pointsScaleable>
    
@@ -79,7 +79,7 @@
       <li>Map_PlayerHome</li>
     </targetTags>
     <workerClass>AlphaBehavioursAndEvents.IncidentWorker_SummitCrab</workerClass>
-    <baseChance>1</baseChance>
+    <baseChance>0.3</baseChance>
     <category>ThreatBig</category>
     <minRefireDays>12</minRefireDays>
     <pointsScaleable>true</pointsScaleable>
@@ -93,8 +93,8 @@
       <li>Map_PlayerHome</li>
     </targetTags>
     <workerClass>AlphaBehavioursAndEvents.IncidentWorker_CactipineDropPod</workerClass>
-    <baseChance>1</baseChance>
-	    <category>ThreatBig</category>
+    <baseChance>0.2</baseChance>
+	    <category>Misc</category>
 
     <minRefireDays>12</minRefireDays>
     <pointsScaleable>true</pointsScaleable>

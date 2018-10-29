@@ -4,7 +4,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>AA_Wildpawn</defName>
     <label>wildpawn</label>
-    <description>Wildpawns are a variant of the wildpods that have adapted to life outside of swamps and rainforests. Since they have less access to water and rotting vegetation, they grow much less, and are much less dangerous. Wildpawns are less resistant to gunfire, but retain the weakness to fire of their bigger brethren. Wildpawns reproduce asexually by releasing clumps of spores every few weeks.\n\nAlthough risky, the Wildpawns can be hunted for small amounts of edible raw fungus.</description>
+    <description>Wildpawns are a variant of the wildpods that have adapted to life outside of swamps and rainforests. Since they have less access to water and rotting vegetation, they grow much less, and are much less dangerous. Wildpawns are less resistant to gunfire, but retain the weakness to fire of their bigger brethren. Wildpawns reproduce asexually by releasing clumps of spores every few weeks, so its children are completely independent from it, with no concept of parenthood.\n\nAlthough risky, the Wildpawns can be hunted or farmed for small amounts of edible raw fungus.</description>
     <statBases>
       <MoveSpeed>4</MoveSpeed>
       <ComfyTemperatureMin>-15</ComfyTemperatureMin>
@@ -82,6 +82,13 @@
 			<li Class="AlphaBehavioursAndEvents.CompProperties_HighlyFlammable">
 
 				
+			</li>
+			<li Class="NewAlphaAnimalSubproducts.CompProperties_AnimalProduct">
+				<resourceDef>RawFungus</resourceDef>
+				<gatheringIntervalDays>10</gatheringIntervalDays>
+				<resourceAmount>20</resourceAmount>
+				<customResourceString>RawMushrooms</customResourceString>
+
 			</li>
 
 		</comps>

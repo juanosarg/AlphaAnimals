@@ -33,12 +33,14 @@ Uses ModCheck (no need to download)
 &lt;size=24&gt;Credit&lt;/size&gt;
 Original creature graphics: A_Friend, aka SentientLine
 Original implementation and programming: milon, Skullywag and kaptain_kavern 
+Using the AnimalVariation DLL from AnimalCollabProject
 Some sounds by Mike Koenig at http://soundbible.com
 Some sounds by Stephan Schutze at http://soundbible.com
 
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
 
+v1.05: Bugfixing and balance tweaks. Full changelog on GitHub (29/10/18)
 v1.04: Bugfixing and balance tweaks. Full changelog on GitHub (24/10/18)
 v1.03: Five new animals added! Bugfixing and balance tweaks. Full changelog on GitHub (23/10/18)
 v1.02: Bugfixing and balance tweaks. Full changelog on GitHub (22/10/18)

@@ -110,6 +110,8 @@
 				<ColdBog>0.07</ColdBog>
 				<BorealForest>0.07</BorealForest>
 			</wildBiomes>
+						<canBePredatorPrey>false</canBePredatorPrey>
+
 			<body>AA_Arachnid</body>
 			<baseBodySize>2.00</baseBodySize>
 			<baseHungerRate>0.7</baseHungerRate>

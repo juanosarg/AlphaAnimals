@@ -63,10 +63,11 @@
 			<baseHealthScale>3.0</baseHealthScale>
 			<fleshType>Insectoid</fleshType>
 			<bloodDef>Filth_BloodInsect</bloodDef>
-      <useMeatFrom>Megaspider</useMeatFrom>
-			<foodType>OmnivoreAnimal, AnimalProduct</foodType>
+            <useMeatFrom>Megaspider</useMeatFrom>
+			<foodType>OmnivoreRoughAnimal</foodType>
 			<leatherDef>Leather_Chitin</leatherDef>
-			
+				        <packAnimal>true</packAnimal>
+
 			<wildness>0.9</wildness>
 			<trainability>Intermediate</trainability>
 			<litterSizeCurve>

@@ -41,13 +41,17 @@ namespace AlphaBehavioursAndEvents
                     PawnKindDef wildman = PawnKindDef.Named("WildMan");
                     Faction faction = FactionUtility.DefaultFactionFrom(wildman.defaultFactionType);
                     Pawn newPawn = PawnGenerator.GeneratePawn(wildman, faction);
-                    newPawn.health.SetDead();
-                    GenSpawn.Spawn(newPawn, pawn.Position, pawn.Map, WipeMode.Vanish);
+
+                    Thing newcorpse = GenSpawn.Spawn(newPawn, pawn.Position, pawn.Map, WipeMode.Vanish);
+                    newcorpse.Kill(null, null);
+                    newcorpse.SetForbidden(true, false);
                     if (this.effecter == null)
 					{
                         this.effecter = EffecterDefOf.Mine.Spawn();
                     }
-                    this.effecter.Trigger(pawn, newPawn);
+                    this.effecter.Trigger(pawn, newcorpse);
+                   
+
                     stopdiggingcounter = 40000;
                 }
                 stopdiggingcounter--;

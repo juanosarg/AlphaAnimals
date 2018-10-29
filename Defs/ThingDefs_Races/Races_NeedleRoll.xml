@@ -75,8 +75,8 @@
     </comps>
 		<race>
       <wildBiomes>
-        <Desert>2</Desert>
-        <ExtremeDesert>2</ExtremeDesert>
+        <Desert>1.2</Desert>
+        <ExtremeDesert>1.5</ExtremeDesert>
         
       </wildBiomes>
       <predator>false</predator>
@@ -134,7 +134,7 @@
     <race>AA_Needleroll</race>
     <label>needleroll</label>
     <combatPower>33</combatPower>
-    <ecoSystemWeight>1</ecoSystemWeight>
+    <ecoSystemWeight>0.3</ecoSystemWeight>
     <wildGroupSize>
       <min>6</min>
       <max>10</max>
