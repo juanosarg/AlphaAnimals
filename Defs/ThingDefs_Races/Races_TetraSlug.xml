@@ -86,7 +86,7 @@
       <predator>false</predator>
       <body>AA_Slug</body>
       <baseBodySize>5.00</baseBodySize>
-      <baseHungerRate>3.0</baseHungerRate>
+      <baseHungerRate>0.3</baseHungerRate>
       <baseHealthScale>10</baseHealthScale>
       <foodType>OmnivoreRoughAnimal</foodType>
      
