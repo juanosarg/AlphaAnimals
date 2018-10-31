@@ -11,7 +11,9 @@ namespace AlphaBehavioursAndEvents
         {
             Map map = (Map)parms.target;
             IntVec3 intVec;
-            return !map.gameConditionManager.ConditionIsActive(GameConditionDefOf.ToxicFallout) && map.mapTemperature.SeasonAndOutdoorTemperatureAcceptableFor(ThingDef.Named("AA_Aerofleet")) && this.TryFindEntryCell(map, out intVec);
+            return !map.gameConditionManager.ConditionIsActive(GameConditionDefOf.ToxicFallout) &&
+                map.mapTemperature.SeasonAndOutdoorTemperatureAcceptableFor(ThingDef.Named("AA_Aerofleet")) && 
+                this.TryFindEntryCell(map, out intVec) && LoadedModManager.GetMod<AlphaAnimals_Mod>().GetSettings<AlphaAnimals_Settings>().flagAerofleets ;
         }
 
         protected override bool TryExecuteWorker(IncidentParms parms)

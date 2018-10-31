@@ -14,6 +14,12 @@ namespace AlphaBehavioursAndEvents
             public bool flagStalkingLions = true;
             public bool flagCactipineDroppods = true;
             public bool flagSpiderClutchMothers = true;
+            public bool flagAerofleets = true;
+            public bool flagGallatross = true;
+            public bool flagSummitCrab = true;
+
+
+
 
 
 
@@ -25,6 +31,9 @@ namespace AlphaBehavioursAndEvents
                 Scribe_Values.Look(ref this.flagStalkingLions, "flagStalkingLions", true);
                 Scribe_Values.Look(ref this.flagCactipineDroppods, "flagCactipineDroppods", true);
                 Scribe_Values.Look(ref this.flagSpiderClutchMothers, "flagSpiderClutchMothers", true);
+                Scribe_Values.Look(ref this.flagAerofleets, "flagAerofleets", true);
+                Scribe_Values.Look(ref this.flagGallatross, "flagGallatross", true);
+                Scribe_Values.Look(ref this.flagSummitCrab, "flagSummitCrab", true);
 
 
         }
@@ -52,6 +61,12 @@ namespace AlphaBehavioursAndEvents
             ls.CheckboxLabeled("allowCactipineDroppods".Translate(), ref settings.flagCactipineDroppods, null);
             ls.Gap(12f);
             ls.CheckboxLabeled("allowSpiderClutchMothers".Translate(), ref settings.flagSpiderClutchMothers, null);
+            ls.Gap(12f);
+            ls.CheckboxLabeled("allowAerofleet".Translate(), ref settings.flagAerofleets, null);
+            ls.Gap(12f);
+            ls.CheckboxLabeled("allowGallatross".Translate(), ref settings.flagGallatross, null);
+            ls.Gap(12f);
+            ls.CheckboxLabeled("allowSummitCrab".Translate(), ref settings.flagSummitCrab, null);
             ls.Gap(12f);
             settings.Write();
             ls.End();

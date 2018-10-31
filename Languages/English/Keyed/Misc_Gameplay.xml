@@ -56,6 +56,12 @@
   <allowStalkingLions>Allow Stalking Arctic Lion attacks</allowStalkingLions>
   <allowCactipineDroppods>Allow Cactipine droppod event</allowCactipineDroppods>
   <allowSpiderClutchMothers>Allow spider clutch mothers event</allowSpiderClutchMothers>
+  <allowAerofleet>Allow aerofleet migrations</allowAerofleet>
+  <allowGallatross>Allow gallatross migrations</allowGallatross>
+  <allowSummitCrab>Allow summit crab event</allowSummitCrab>
+
+
+
 
 
 
