@@ -7,12 +7,12 @@
     <variants>
 
 	  <skin>
-	    <commonality>1</commonality>
-        <texName>AA_Aerofleet2</texName>
+	    <commonality>0.5</commonality>
+        <texName>AA_Lockjaw2</texName>
       </skin>
 	  <skin>
-	    <commonality>1</commonality>
-        <texName>AA_Aerofleet3</texName>
+	    <commonality>0.5</commonality>
+        <texName>AA_Lockjaw3</texName>
       </skin>
 	 
     </variants>

@@ -4,6 +4,8 @@
 	<ThingDef ParentName="BaseInsect">
 		<defName>AA_Dunealisk</defName>
 		<label>dunealisk</label>
+					<thingClass>AnimalVariations.AnimalMultiSkins</thingClass>
+
 		<description>Someone once thought that creating supersized spiders for synthread-web production was a good idea. Their home planet is now reduced to a Marble World; a world completely purged by atomic fire. The Dunealisk is a mutant variation of the Feralisk that has adapted to extremely hot climates.\n\nDunealisks attack by throwing spider webs at their prey. These huge webs stun and burn anyone they touch, allowing the Dunealisk to close in and finish the kill with their fearsome venom laced fangs.</description>
 		<statBases>
 			<MoveSpeed>5</MoveSpeed>

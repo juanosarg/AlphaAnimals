@@ -5,10 +5,7 @@
   <lifeStage>
     <appliesToAll>true</appliesToAll>
     <variants>
-	  <skin>
-	    <commonality>1</commonality>
-        <texName>AA_BarbSlinger</texName>
-      </skin>
+
 	  <skin>
 	    <commonality>0.5</commonality>
         <texName>AA_BarbSlinger2</texName>
