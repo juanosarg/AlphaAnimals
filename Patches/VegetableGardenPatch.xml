@@ -179,7 +179,7 @@
 							</thingDefs>
 						</fixedIngredientFilter>
 						<products>
-							<Hyperweave>11</Hyperweave>
+							<Hyperweave>15</Hyperweave>
 						</products>
 						<workSkill>Crafting</workSkill>
 						<researchPrerequisite>VG_ClothI</researchPrerequisite>
