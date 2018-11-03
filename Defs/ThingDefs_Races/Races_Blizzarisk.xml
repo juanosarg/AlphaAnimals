@@ -115,7 +115,7 @@
 
 			<body>AA_Arachnid</body>
 			<baseBodySize>2.00</baseBodySize>
-			<baseHungerRate>0.7</baseHungerRate>
+			<baseHungerRate>0.3</baseHungerRate>
 			<baseHealthScale>1.9</baseHealthScale>
 			<wildness>0.985</wildness>
 			<lifeExpectancy>18</lifeExpectancy>
@@ -368,6 +368,7 @@
 		<label>blizzarisk clutch mother</label>
 		<combatPower>600</combatPower>
 		<ecoSystemWeight>0.2</ecoSystemWeight>
+   		<canArriveManhunter>false</canArriveManhunter>
 
 
 		<lifeStages>

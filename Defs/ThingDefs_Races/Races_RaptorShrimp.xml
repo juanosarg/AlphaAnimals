@@ -91,7 +91,7 @@
 			<predator>true</predator>
 			<body>AA_SnakeWithTwoLimbs</body>
 			<baseBodySize>1.40</baseBodySize>
-			<baseHungerRate>1.2</baseHungerRate>
+			<baseHungerRate>0.4</baseHungerRate>
 			<baseHealthScale>3</baseHealthScale>
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_RaptorPlates</leatherDef>

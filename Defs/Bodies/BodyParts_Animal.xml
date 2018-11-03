@@ -125,9 +125,9 @@
 		<hitPoints>25</hitPoints>
 		<skinCovered>true</skinCovered>
 		<tags>
-			
+
 			<li>ManipulationLimbCore</li>
-						<li>MovingLimbCore</li>
+			<li>MovingLimbCore</li>
 
 		</tags>
 	</BodyPartDef>
@@ -247,6 +247,40 @@
 		<skinCovered>true</skinCovered>
 		<tags>
 			<li>MovingLimbCore</li>
+		</tags>
+	</BodyPartDef>
+
+	<!-- Bumbledrone parts -->
+
+	<BodyPartDef>
+		<defName>AA_Abdomen</defName>
+		<label>abdomen</label>
+		<hitPoints>25</hitPoints>
+		<skinCovered>true</skinCovered>
+
+	</BodyPartDef>
+	<BodyPartDef>
+		<defName>AA_InsectWing</defName>
+		<label>wing</label>
+		<hitPoints>25</hitPoints>
+		<frostbiteVulnerability>0.5</frostbiteVulnerability>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+		<skinCovered>false</skinCovered>
+		<alive>false</alive>
+		<bleedRate>0</bleedRate>
+		<tags>
+			<li>MovingLimbCore</li>
+		</tags>
+	</BodyPartDef>
+	<BodyPartDef>
+		<defName>AA_SmallInsectLeg</defName>
+		<label>small leg</label>
+		<hitPoints>5</hitPoints>
+		<frostbiteVulnerability>0.1</frostbiteVulnerability>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+		<skinCovered>false</skinCovered>
+		<tags>
+			<li>ManipulationLimbCore</li>
 		</tags>
 	</BodyPartDef>
 

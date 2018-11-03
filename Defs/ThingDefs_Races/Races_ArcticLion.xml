@@ -95,7 +95,7 @@
 	        <predator>true</predator>
 
       <baseBodySize>2</baseBodySize>
-      <baseHungerRate>0.8</baseHungerRate>
+      <baseHungerRate>0.3</baseHungerRate>
       <baseHealthScale>2.5</baseHealthScale>
       <leatherDef>AA_ArcticLion_Leather</leatherDef>   
       <wildness>0.90</wildness>

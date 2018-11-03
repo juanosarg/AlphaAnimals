@@ -17,6 +17,8 @@ namespace AlphaBehavioursAndEvents
             public bool flagAerofleets = true;
             public bool flagGallatross = true;
             public bool flagSummitCrab = true;
+            public bool flagBumbledrones = true;
+
 
 
 
@@ -34,6 +36,8 @@ namespace AlphaBehavioursAndEvents
                 Scribe_Values.Look(ref this.flagAerofleets, "flagAerofleets", true);
                 Scribe_Values.Look(ref this.flagGallatross, "flagGallatross", true);
                 Scribe_Values.Look(ref this.flagSummitCrab, "flagSummitCrab", true);
+                Scribe_Values.Look(ref this.flagBumbledrones, "flagBumbledrones", true);
+
 
 
         }
@@ -67,6 +71,8 @@ namespace AlphaBehavioursAndEvents
             ls.CheckboxLabeled("allowGallatross".Translate(), ref settings.flagGallatross, null);
             ls.Gap(12f);
             ls.CheckboxLabeled("allowSummitCrab".Translate(), ref settings.flagSummitCrab, null);
+            ls.Gap(12f);
+            ls.CheckboxLabeled("allowBumbledrones".Translate(), ref settings.flagBumbledrones, null);
             ls.Gap(12f);
             settings.Write();
             ls.End();

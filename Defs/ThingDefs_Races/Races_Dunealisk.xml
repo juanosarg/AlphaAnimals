@@ -116,7 +116,7 @@
 			<body>AA_Arachnid</body>
 			<herdAnimal>true</herdAnimal>
 			<baseBodySize>2.00</baseBodySize>
-			<baseHungerRate>0.7</baseHungerRate>
+			<baseHungerRate>0.3</baseHungerRate>
 			<baseHealthScale>1.9</baseHealthScale>
 			<leatherDef>Leather_Chitin</leatherDef>
 			<bloodDef>Filth_BloodInsect</bloodDef>
@@ -366,6 +366,7 @@
 		<label>dunealisk clutch mother</label>
 		<combatPower>600</combatPower>
 		<ecoSystemWeight>0.2</ecoSystemWeight>
+   		<canArriveManhunter>false</canArriveManhunter>
 
 		<lifeStages>
 			<li>

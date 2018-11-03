@@ -20,6 +20,25 @@
 		<armorCategory>Sharp</armorCategory>
 	</DamageDef>
 	
+	<DamageDef>
+		<defName>AA_VeryToxicSting</defName>
+		<label>very toxic sting</label>
+		<workerClass>DamageWorker_Stab</workerClass>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been stung to death.</deathMessage>
+		<hediff>Stab</hediff>
+		<hediffSolid>Crack</hediffSolid>
+		<additionalHediffs>
+			<li>
+				<hediff>ToxicBuildup</hediff>
+				<severityPerDamageDealt>0.02</severityPerDamageDealt>
+			</li>
+		</additionalHediffs>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Slice</impactSoundType>
+		<armorCategory>Sharp</armorCategory>
+	</DamageDef>
+	
 	<DamageDef ParentName="Bite">
 		<defName>AA_ParalysingBite</defName>
 		<label>paralysing bite</label>

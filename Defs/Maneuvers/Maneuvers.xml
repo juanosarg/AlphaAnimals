@@ -72,6 +72,20 @@
     <combatLogRulesMiss>Maneuver_Stab_MeleeMiss</combatLogRulesMiss>
     <combatLogRulesDodge>Maneuver_Stab_MeleeDodge</combatLogRulesDodge>
   </ManeuverDef>
+  
+        <ManeuverDef>
+    <defName>AA_VeryToxicSting</defName>
+    <requiredCapacity>AA_VeryToxicSting</requiredCapacity>
+    <verb>
+      <verbClass>Verb_MeleeAttackDamage</verbClass>
+      <meleeDamageDef>AA_VeryToxicSting</meleeDamageDef>
+    </verb>
+    <logEntryDef>MeleeAttack</logEntryDef>
+    <combatLogRulesHit>Maneuver_Stab_MeleeHit</combatLogRulesHit>
+    <combatLogRulesDeflect>Maneuver_Stab_MeleeDeflect</combatLogRulesDeflect>
+    <combatLogRulesMiss>Maneuver_Stab_MeleeMiss</combatLogRulesMiss>
+    <combatLogRulesDodge>Maneuver_Stab_MeleeDodge</combatLogRulesDodge>
+  </ManeuverDef>
 
 
   

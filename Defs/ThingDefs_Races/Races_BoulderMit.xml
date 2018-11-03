@@ -87,7 +87,7 @@
           <li>(1.01, 0)</li>
         </points>
       </litterSizeCurve>
-      <lifeExpectancy>120</lifeExpectancy>
+      <lifeExpectancy>650</lifeExpectancy>
       <lifeStageAges>
         <li>
           <def>AnimalBaby</def>

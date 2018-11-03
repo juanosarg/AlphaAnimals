@@ -116,7 +116,7 @@
 			<body>AA_Arachnid</body>
 			<herdAnimal>true</herdAnimal>
 			<baseBodySize>1.00</baseBodySize>
-			<baseHungerRate>0.7</baseHungerRate>
+			<baseHungerRate>0.3</baseHungerRate>
 			<baseHealthScale>1.2</baseHealthScale>
 			<leatherDef>Leather_Chitin</leatherDef>
 			<bloodDef>Filth_BloodInsect</bloodDef>
@@ -364,6 +364,7 @@
 		<label>feralisk clutch mother</label>
 		<combatPower>600</combatPower>
 		<ecoSystemWeight>0.2</ecoSystemWeight>
+   		<canArriveManhunter>false</canArriveManhunter>
 
 		<lifeStages>
 			<li>

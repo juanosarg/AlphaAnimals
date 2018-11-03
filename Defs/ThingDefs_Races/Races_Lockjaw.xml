@@ -45,7 +45,7 @@
       <body>AA_Crocodile</body>
       <baseBodySize>2.5</baseBodySize>
       <baseHealthScale>2.7</baseHealthScale>
-	  <baseHungerRate>1.5</baseHungerRate>
+	  <baseHungerRate>0.5</baseHungerRate>
 	  <foodType>CarnivoreAnimal</foodType>
       <predator>true</predator>
       <maxPreyBodySize>0.95</maxPreyBodySize>

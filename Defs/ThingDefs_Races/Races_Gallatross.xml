@@ -20,6 +20,8 @@
 			<MoveSpeed>5.7</MoveSpeed>
 			<ComfyTemperatureMin>-100</ComfyTemperatureMin>
       <MarketValue>4000</MarketValue>
+	        <PsychicSensitivity>0</PsychicSensitivity>
+
 
 		</statBases>
 		<tools>
@@ -141,6 +143,7 @@
 		<label>gallatross</label>
 		<race>AA_Gallatross</race>
 		<combatPower>1000</combatPower>
+   		<canArriveManhunter>false</canArriveManhunter>
 
 		<lifeStages>
 			<li>

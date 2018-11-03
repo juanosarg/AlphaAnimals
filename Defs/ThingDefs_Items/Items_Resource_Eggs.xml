@@ -51,6 +51,32 @@
 		</comps>
 	</ThingDef>
 
+		<!-- Bumbledrone Egg -->
+
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>AA_BumbledroneQueenEggFertilized</defName>
+		<label>bumbledrone egg (fert.)</label>
+		<description>Fertilized bumbledrone eggs. I... I wouldn't eat this. Yuck. If all goes well, it should hatch into a bumbledrone.</description>
+		<tradeability>None</tradeability>
+		<statBases>
+			<MarketValue>6.0</MarketValue>
+
+		</statBases>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
+			<color>(255,241,107)</color>
+
+		</graphicData>
+
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>15</hatcherDaystoHatch>
+				<hatcherPawn>AA_Bumbledrone</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+	
 	<!-- Wildpod Egg -->
 
 
