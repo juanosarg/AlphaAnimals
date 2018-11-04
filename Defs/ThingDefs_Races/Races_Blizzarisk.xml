@@ -217,7 +217,7 @@
 		<statBases>
 			<MoveSpeed>3</MoveSpeed>
 			<ComfyTemperatureMin>-70</ComfyTemperatureMin>
-			<ComfyTemperatureMax>10</ComfyTemperatureMax>
+			<ComfyTemperatureMax>0</ComfyTemperatureMax>
 			<MarketValue>900</MarketValue>
 			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.6</ArmorRating_Heat>
