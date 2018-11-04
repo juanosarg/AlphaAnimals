@@ -47,6 +47,9 @@
 					<li>AA_Needleroll</li>
 					<li>AA_AnimusVox</li>
 					<li>AA_PebbleMit</li>
+					<li>AA_Bumbledrone</li>
+					<li>AA_BumbledroneQueen</li>
+
 
 					
 					
@@ -185,6 +188,8 @@
 					<li>AA_Needleroll</li>
 					<li>AA_AnimusVox</li>
 					<li>AA_PebbleMit</li>
+					<li>AA_Bumbledrone</li>
+					<li>AA_BumbledroneQueen</li>
 				</value>
 			</li>
 
@@ -222,6 +227,8 @@
 					<li>AA_Needleroll</li>
 					<li>AA_AnimusVox</li>
 					<li>AA_PebbleMit</li>
+					<li>AA_Bumbledrone</li>
+					<li>AA_BumbledroneQueen</li>
 				</value>
 			</li>
 
@@ -281,6 +288,8 @@
 					<li>AA_Needleroll</li>
 					<li>AA_AnimusVox</li>
 					<li>AA_PebbleMit</li>
+					<li>AA_Bumbledrone</li>
+					<li>AA_BumbledroneQueen</li>
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
@@ -357,6 +366,8 @@
 					<li>AA_Needleroll</li>
 					<li>AA_AnimusVox</li>
 					<li>AA_PebbleMit</li>
+					<li>AA_Bumbledrone</li>
+					<li>AA_BumbledroneQueen</li>
 				</value>
 			</li>
 
@@ -412,6 +423,29 @@
 					<li>AA_BedBug</li>
 					<li>AA_AnimusVox</li>
 					<li>AA_PebbleMit</li>
+					<li>AA_Bumbledrone</li>
+					<li>AA_BumbledroneQueen</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "InstallPegLegAnimal"]/appliedOnFixedBodyParts</xpath>
+				<value>
+					<li>AA_SmallInsectLeg</li>
+					
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "InstallSimpleProstheticLegAnimal"]/appliedOnFixedBodyParts</xpath>
+				<value>
+					<li>AA_SmallInsectLeg</li>
+					
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[defName = "InstallBionicLegAnimal"]/appliedOnFixedBodyParts</xpath>
+				<value>
+					<li>AA_SmallInsectLeg</li>
+					
 				</value>
 			</li>
 
