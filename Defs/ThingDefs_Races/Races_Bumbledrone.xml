@@ -125,6 +125,7 @@
     <race>AA_Bumbledrone</race>
 	<ecoSystemWeight>0.5</ecoSystemWeight>
     <combatPower>120</combatPower>
+	<canArriveManhunter>false</canArriveManhunter>
 
     <wildGroupSize>
       <min>3</min>
