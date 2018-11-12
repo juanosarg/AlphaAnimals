@@ -50,37 +50,25 @@
 		</comps>
 	</ThingDef>
 
-	<!--<ThingDef ParentName="ResourceBase">
-		<defName>AA_Corpse</defName>
-		<label>unnamed corpse</label>
-		<description>Testity test.</description>
-		<thingClass>Corpse</thingClass>
-		<graphicData>
-			<texPath>Things/Item/Resource/AA_Corpse</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-
-		</graphicData>
-		<techLevel>Neolithic</techLevel>
-		<statBases>
-			<MarketValue>10</MarketValue>
-			<Mass>0.35</Mass>
-			<Flammability>1.3</Flammability>
-			<DeteriorationRate>1</DeteriorationRate>
-			<Nutrition>5.2</Nutrition>
-      <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
-		</statBases>
-		<ingestible>
-		<preferability>DesperateOnly</preferability>
-			<foodType>Corpse</foodType>
-		</ingestible>
-		<tickerType>Rare</tickerType>
-		<comps>
-			<li Class="CompProperties_Rottable">
-				<daysToRotStart>150</daysToRotStart>
-				<rotDestroys>true</rotDestroys>
-			</li>
-		</comps>
-	</ThingDef>-->
+  <ThingDef ParentName="MealRottable">
+    <defName>AA_DisgustingMealNutrientPaste</defName>
+    <label>disgusting nutrient paste meal</label>
+    <description>A synthetic mixture of protein, carbohydrates, and vitamins, amino acids and minerals. Everything the body needs, and absolutely disgusting. This paste is EVEN more disgusting than the paste produced by a nutrient paste dispenser, and people will just outright hate eating it. It was cheap, though!</description>
+    <graphicData>
+      <texPath>Things/Item/Meal/NutrientPaste</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1</MarketValue>
+      <Nutrition>0.8</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealAwful</preferability>
+	  <tasteThought>AA_AteSuperAwfulMeal</tasteThought>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
 
 
 

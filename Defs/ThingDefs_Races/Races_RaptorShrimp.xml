@@ -97,6 +97,8 @@
 			<leatherDef>Leather_RaptorPlates</leatherDef>
 			<wildness>0.9</wildness>
 			<trainability>Intermediate</trainability>
+			<manhunterOnTameFailChance>0.1</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>.8</manhunterOnDamageChance>
 			<gestationPeriodDays>45</gestationPeriodDays>
 			<litterSizeCurve>
 				<points>

@@ -316,7 +316,7 @@
 			<bloodDef>Filth_BloodInsect</bloodDef>
       <useMeatFrom>Megaspider</useMeatFrom>
 			<foodType>OmnivoreAnimal, AnimalProduct</foodType>
-			<wildness>1</wildness>
+			<wildness>3</wildness>
 			<trainability>Advanced</trainability>
 			<manhunterOnTameFailChance>0.8</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>1</manhunterOnDamageChance>
