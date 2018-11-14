@@ -36,9 +36,9 @@
 			
 <comps>
 			<li Class="NewAlphaAnimalSubproducts.CompProperties_AnimalProduct">
-				<resourceDef>MealNutrientPaste</resourceDef>
+				<resourceDef>AA_DisgustingMealNutrientPaste</resourceDef>
 				<gatheringIntervalDays>1</gatheringIntervalDays>
-				<resourceAmount>25</resourceAmount>
+				<resourceAmount>10</resourceAmount>
 				<customResourceString>AA_MealNutrientPaste</customResourceString>
 
 			</li>

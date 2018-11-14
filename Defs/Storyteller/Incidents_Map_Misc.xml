@@ -35,7 +35,7 @@
       <li>Map_PlayerHome</li>
     </targetTags>
     <workerClass>AlphaBehavioursAndEvents.IncidentWorker_BlizzariskClutchMother</workerClass>
-    <baseChance>1</baseChance>
+    <baseChance>.5</baseChance>
     <category>Misc</category>
     <minRefireDays>25</minRefireDays>
     <pointsScaleable>true</pointsScaleable>
@@ -49,7 +49,7 @@
       <li>Map_PlayerHome</li>
     </targetTags>
     <workerClass>AlphaBehavioursAndEvents.IncidentWorker_DunealiskClutchMother</workerClass>
-    <baseChance>1</baseChance>
+    <baseChance>.5</baseChance>
     <category>Misc</category>
     <minRefireDays>25</minRefireDays>
     <pointsScaleable>true</pointsScaleable>
@@ -63,7 +63,7 @@
       <li>Map_PlayerHome</li>
     </targetTags>
     <workerClass>AlphaBehavioursAndEvents.IncidentWorker_FeraliskClutchMother</workerClass>
-    <baseChance>1</baseChance>
+    <baseChance>.5</baseChance>
     <category>Misc</category>
     <minRefireDays>25</minRefireDays>
     <pointsScaleable>true</pointsScaleable>

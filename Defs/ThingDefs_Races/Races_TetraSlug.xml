@@ -136,6 +136,8 @@
     <label>tetra slug</label>
     <race>AA_TetraSlug</race>
     <combatPower>650</combatPower>
+	   		<canArriveManhunter>false</canArriveManhunter>
+
     <lifeStages>
       <li>
         <label>tetra slug</label>

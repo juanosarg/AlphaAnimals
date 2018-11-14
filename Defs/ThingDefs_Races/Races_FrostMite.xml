@@ -70,7 +70,7 @@
       <fleshType>Insectoid</fleshType>
       <bloodDef>Filth_BloodInsect</bloodDef>
       <useMeatFrom>Megaspider</useMeatFrom>
-      <foodType>Corpse</foodType>
+      <foodType>Corpse,Meat</foodType>
       <leatherDef>Leather_Chitin</leatherDef>
       <wildness>0.7</wildness>
       <trainability>None</trainability>

@@ -36,6 +36,8 @@ namespace AlphaBehavioursAndEvents
             Rot4 rot = Rot4.FromAngleFlat((map.Center - intVec).AngleFlat);
 
             IntVec3 loc2 = CellFinder.RandomClosewalkCellNear(intVec, map, 1, null);
+            Faction faction = Find.FactionManager.FirstFactionOfDef(FactionDefOf.Insect);
+
             Pawn newThing = PawnGenerator.GeneratePawn(pawnKindDef, null);
             newThing.gender = Gender.Female;
             GenSpawn.Spawn(newThing, loc2, map, WipeMode.Vanish);
