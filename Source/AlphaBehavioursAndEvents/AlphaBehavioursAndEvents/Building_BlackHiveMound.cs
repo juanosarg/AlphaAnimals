@@ -26,7 +26,7 @@ namespace AlphaBehavioursAndEvents
 
         public static void ResetStaticData()
         {
-            Hive.spawnablePawnKinds.Clear();
+            Building_BlackHiveMound.spawnablePawnKinds.Clear();
             spawnablePawnKinds.Add(PawnKindDef.Named("AA_MegaLouse"));
             spawnablePawnKinds.Add(PawnKindDef.Named("AA_MammothWorm"));
             spawnablePawnKinds.Add(PawnKindDef.Named("AA_BlackScarab"));
