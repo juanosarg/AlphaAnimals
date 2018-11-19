@@ -14,6 +14,8 @@
       <ComfyTemperatureMin>-80</ComfyTemperatureMin>
       <ComfyTemperatureMax>15</ComfyTemperatureMax>
       <MarketValue>120</MarketValue>
+	  <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
     </statBases>
     <tools>
       <li>

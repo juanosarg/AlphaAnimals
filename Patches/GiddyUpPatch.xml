@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Giddy-up! Battle Mounts</modName>
+				<yourMod>Alpha Animals</yourMod>
+			</li>
+
+
+
+			<li Class="PatchOperationAddModExtension">
+				<xpath>/Defs/ThingDef[defName = "AA_MeadowAve"]</xpath> 
+				<value>
+					<li Class="GiddyUpCore.CustomStatsPatch">
+						<!--Speed factor. -->
+						<speedModifier>1.5</speedModifier>
+						<!--Armor factor. -->
+						<armorModifier>1</armorModifier>
+						<!--Setting useMetalArmor to true, makes the animal's skin have the metal bounce of effect when hit when used as mount --> 
+						<useMetalArmor>false</useMetalArmor>
+					</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAddModExtension">
+				<xpath>/Defs/ThingDef[defName = "AA_MammothWorm"]</xpath> 
+				<value>
+					<li Class="GiddyUpCore.CustomStatsPatch">
+						<!--Speed factor.  -->
+						<speedModifier>1.25</speedModifier>
+						<!--Armor factor.  -->
+						<armorModifier>1.5</armorModifier>
+						<!--Setting useMetalArmor to true, makes the animal's skin have the metal bounce of effect when hit when used as mount --> 
+						<useMetalArmor>true</useMetalArmor>
+					</li>
+				</value>
+			</li>
+
+
+		
+
+
+
+		</operations>
+	</Operation>
+
+
+</Patch>
+

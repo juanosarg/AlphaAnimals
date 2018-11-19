@@ -20,9 +20,19 @@ namespace AlphaBehavioursAndEvents
         public override void ExposeData()
         {
             base.ExposeData();
-            Scribe_References.Look<Lord>(ref this.lord, "lord", false);
+           // Scribe_Deep.Look<Lord>(ref this.lord, "lord", false);
+           
         }
 
+        public static void ResetStaticData()
+        {
+            Hive.spawnablePawnKinds.Clear();
+            spawnablePawnKinds.Add(PawnKindDef.Named("AA_MegaLouse"));
+            spawnablePawnKinds.Add(PawnKindDef.Named("AA_MammothWorm"));
+            spawnablePawnKinds.Add(PawnKindDef.Named("AA_BlackScarab"));
+            spawnablePawnKinds.Add(PawnKindDef.Named("AA_BlackSpelopede"));
+            spawnablePawnKinds.Add(PawnKindDef.Named("AA_BlackSpider"));
+        }
 
         public override void SpawnSetup(Map map, bool respawningAfterLoad)
         {
@@ -71,10 +81,11 @@ namespace AlphaBehavioursAndEvents
                 if (source.TryRandomElement(out kindDef))
                 {
                     Pawn pawn = PawnGenerator.GeneratePawn(kindDef, faction);
-                    GenSpawn.Spawn(pawn, CellFinder.RandomClosewalkCellNear(base.Position, base.Map, 2, (IntVec3 c) => c.Standable(base.Map) &&
+                    Thing spawnedCreature=GenSpawn.Spawn(pawn, CellFinder.RandomClosewalkCellNear(base.Position, base.Map, 2, (IntVec3 c) => c.Standable(base.Map) &&
                     base.Map.reachability.CanReach(c, this, PathEndMode.Touch, TraverseParms.For(TraverseMode.PassDoors, Danger.Deadly, false))),
                     base.Map, WipeMode.Vanish);
-                    this.lord.AddPawn(pawn);
+                    if (spawnedCreature != null) { this.lord.AddPawn(pawn); }
+                    
                     remaining -= (int)kindDef.combatPower;
 
                 }

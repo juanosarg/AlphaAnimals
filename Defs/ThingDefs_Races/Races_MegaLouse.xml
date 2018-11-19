@@ -11,6 +11,8 @@
       <MoveSpeed>3.00</MoveSpeed>
       <ComfyTemperatureMin>-70</ComfyTemperatureMin>
       <MarketValue>400</MarketValue>
+	  <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
     </statBases>
     <tools>
       <li>
@@ -64,12 +66,12 @@
       <body>AA_WormWithArmorAndTusks</body>
       <baseBodySize>0.5</baseBodySize>
       <baseHungerRate>0.7</baseHungerRate>
-      <baseHealthScale>1.0</baseHealthScale>
+      <baseHealthScale>0.85</baseHealthScale>
       <fleshType>Insectoid</fleshType>
       <bloodDef>Filth_BloodInsect</bloodDef>
       <useMeatFrom>Megaspider</useMeatFrom>
       <foodType>OmnivoreAnimal, AnimalProduct</foodType>
-      <leatherDef>Leather_Chitin</leatherDef>
+      <leatherDef>Leather_BlackChitin</leatherDef>
       <wildness>0.9</wildness>
       <manhunterOnDamageChance>1.0</manhunterOnDamageChance>
       <manhunterOnTameFailChance>0.2</manhunterOnTameFailChance>

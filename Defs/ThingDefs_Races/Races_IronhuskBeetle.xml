@@ -63,7 +63,7 @@
       <baseHealthScale>1.5</baseHealthScale>
       <baseHungerRate>0.95</baseHungerRate>
       <foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
-      <leatherDef>Leather_Chitin</leatherDef>
+      <leatherDef>Leather_IronChitin</leatherDef>
      
       <wildness>0.2</wildness>
       <trainability>Intermediate</trainability>

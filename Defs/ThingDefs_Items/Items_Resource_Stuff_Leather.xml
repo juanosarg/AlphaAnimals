@@ -76,6 +76,30 @@
   </ThingDef>
   
     <ThingDef ParentName="LeatherBase">
+    <defName>Leather_IronChitin</defName>
+    <label>iron chitin</label>
+    <description>Super hard overlapping scales of insectoid chitin. It seems to be reinforced with some kind of iron lattice.</description>
+    <graphicData>
+		<texPath>Things/Item/Resource/AA_Chitin</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(110,112,100)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>3</MarketValue>
+      <StuffPower_Armor_Sharp>1.45</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Cold>6</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>6</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(110,112,100)</color>
+      <commonality>0.001</commonality>
+      <statFactors>
+        <MaxHitPoints>1.5</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  
+    <ThingDef ParentName="LeatherBase">
     <defName>Leather_RaptorPlates</defName>
     <label>raptor shrimp plates</label>
     <description>Overlapping plates of hardened chitin. Really durable in combat, but provides little protection from weather.</description>
