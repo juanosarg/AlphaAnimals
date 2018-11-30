@@ -26,6 +26,8 @@
     <category>ThreatBig</category>
     <minRefireDays>30</minRefireDays>
     <pointsScaleable>true</pointsScaleable> 
+		<earliestDay>15</earliestDay>
+
   </IncidentDef>
   
   <IncidentDef>
@@ -39,7 +41,8 @@
     <category>Misc</category>
     <minRefireDays>25</minRefireDays>
     <pointsScaleable>true</pointsScaleable>
-   
+   	<earliestDay>15</earliestDay>
+
   </IncidentDef>
   
   <IncidentDef>
@@ -53,7 +56,8 @@
     <category>Misc</category>
     <minRefireDays>25</minRefireDays>
     <pointsScaleable>true</pointsScaleable>
-   
+   	<earliestDay>15</earliestDay>
+
   </IncidentDef>
   
   <IncidentDef>
@@ -67,7 +71,8 @@
     <category>Misc</category>
     <minRefireDays>25</minRefireDays>
     <pointsScaleable>true</pointsScaleable>
-   
+    	<earliestDay>15</earliestDay>
+
   </IncidentDef>   
   
 
@@ -137,6 +142,7 @@
     <category>ThreatBig</category>
     <pointsScaleable>true</pointsScaleable>
 	<minRefireDays>25</minRefireDays>
+	<earliestDay>15</earliestDay>
     <tale>Raid</tale>
   </IncidentDef>
   

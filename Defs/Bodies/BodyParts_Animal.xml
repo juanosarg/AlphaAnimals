@@ -283,5 +283,27 @@
 			<li>ManipulationLimbCore</li>
 		</tags>
 	</BodyPartDef>
+	
+	<!-- Great Devourer Parts -->
+	
+	  <BodyPartDef>
+    <defName>AA_EcholocationOrgan</defName>
+    <label>echolocation organ</label>
+    <hitPoints>10</hitPoints>
+    <permanentInjuryChanceFactor>15</permanentInjuryChanceFactor>
+    <delicate>true</delicate>
+    <skinCovered>true</skinCovered>
+    <socketed>false</socketed>
+    <beautyRelated>false</beautyRelated>
+    <tags>
+      <li>SightSource</li>
+    </tags>
+    <hitChanceFactors>
+      <li>
+        <key>Blunt</key>
+        <value>0</value>
+      </li>
+    </hitChanceFactors>
+  </BodyPartDef>
 
 </Defs>

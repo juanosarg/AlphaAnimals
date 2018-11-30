@@ -99,7 +99,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/AA_Lockjaw/AA_Lockjaw</texPath>
-          <drawSize>2.5</drawSize>
+          <drawSize>1.5</drawSize>
           <shadowData>
             <volume>(0.30, 0.25, 0.20)</volume>
           </shadowData>
@@ -119,7 +119,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/AA_Lockjaw/AA_Dessicated_Lockjaw</texPath>
-          <drawSize>1.8</drawSize>
+          <drawSize>2.25</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -133,7 +133,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/AA_Lockjaw/AA_Dessicated_Lockjaw</texPath>
-          <drawSize>2.2</drawSize>
+          <drawSize>4.8</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

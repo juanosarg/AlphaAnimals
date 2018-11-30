@@ -204,6 +204,45 @@
 			</li>
 		</comps>
 	</ThingDef>
+	
+		<!-- Great Devourer Egg -->
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>AA_GreatDevourerEggUnfertilized</defName>
+		<label>great devourer egg (unfert.)</label>
+		<description>Unfertilized great devourer egg. It can be eaten raw, but it's much, much better cooked. Actually, it's a worm egg, it is disgusting either way...</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AA_EggBeetle</texPath>
+			<color>(163,81,36)</color>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MarketValue>9.0</MarketValue>
+
+		</statBases>
+
+	</ThingDef>
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>AA_GreatDevourerEggFertilized</defName>
+		<label>great devourer egg (fert.)</label>
+		<description>Fertilized great devourer egg. It can be eaten raw, but it's much, much better cooked. Actually, it's a worm egg, it is disgusting either way... If all goes well, it should hatch into a great devourer.</description>
+		<tradeability>None</tradeability>
+		<statBases>
+			<MarketValue>9.0</MarketValue>
+
+		</statBases>
+		<graphicData>
+			<texPath>Things/Item/Resource/AA_EggBeetle</texPath>
+			<color>(163,81,36)</color>
+		</graphicData>
+
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>8</hatcherDaystoHatch>
+				<hatcherPawn>AA_GreatDevourer</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
 
 	<!-- Megalouse Egg -->
 	<ThingDef ParentName="EggUnfertBase">
