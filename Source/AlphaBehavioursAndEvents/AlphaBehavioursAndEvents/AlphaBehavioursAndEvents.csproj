@@ -53,8 +53,10 @@
     <Compile Include="AlphaAnimals_Settings.cs" />
     <Compile Include="Building_BlackHiveMound.cs" />
     <Compile Include="Building_Overgrown_DropPod.cs" />
+    <Compile Include="CompFertilizer.cs" />
     <Compile Include="CompProperties_Electrified.cs" />
     <Compile Include="CompElectrified.cs" />
+    <Compile Include="CompProperties_Fertilizer.cs" />
     <Compile Include="CompRegeneration.cs" />
     <Compile Include="CompProperties_Regeneration.cs" />
     <Compile Include="CompProperties_HighlyFlammable.cs" />

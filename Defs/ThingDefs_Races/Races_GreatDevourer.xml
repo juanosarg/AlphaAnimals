@@ -58,8 +58,8 @@
         <Tundra>0.01</Tundra>
         <ColdBog>0.01</ColdBog>
         <TemperateForest>0.01</TemperateForest>
-        <AridShrubland>0.07</AridShrubland>
-        <Desert>0.05</Desert>
+        <AridShrubland>0.01</AridShrubland>
+        <Desert>0.01</Desert>
       </wildBiomes>
       <body>AA_WormWithArmor</body>
 	  <predator>true</predator>

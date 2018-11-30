@@ -25,6 +25,11 @@
 		<defName>AA_BladeAttackTool</defName>
 		<label>blade</label>
 	</BodyPartGroupDef>
+	
+	<BodyPartGroupDef>
+		<defName>AA_TentacleAttackTool</defName>
+		<label>tentacle</label>
+	</BodyPartGroupDef>
 
 	<BodyPartGroupDef>
 		<defName>LegAttackTool</defName>

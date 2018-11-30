@@ -156,6 +156,28 @@
       <speed>15</speed>
     </projectile>
   </ThingDef>
+  
+    <ThingDef ParentName="BaseBullet">
+    <defName>AA_IncendiaryMote</defName>
+    <label>fireball</label>
+    <graphicData>
+      <texPath>Things/Projectiles/AA_Fireball</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <speed>40</speed>
+      <damageDef>Flame</damageDef>
+	  <damageAmountBase>15</damageAmountBase>
+      <explosionRadius>1.1</explosionRadius>
+      <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+      <preExplosionSpawnChance>0.6</preExplosionSpawnChance>
+      <ai_IsIncendiary>true</ai_IsIncendiary>
+	  <soundExplode>Interact_Ignite</soundExplode>
+
+    </projectile>
+  </ThingDef>
 
   
   

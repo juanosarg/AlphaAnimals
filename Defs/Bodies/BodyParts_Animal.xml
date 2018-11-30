@@ -250,6 +250,59 @@
 		</tags>
 	</BodyPartDef>
 
+	<!-- Squid parts -->
+
+	<BodyPartDef>
+		<defName>AA_ConicalShell</defName>
+		<label>conical shell</label>
+		<hitPoints>100</hitPoints>
+		<skinCovered>false</skinCovered>
+
+		<solid>true</solid>
+		<alive>false</alive>
+		<bleedRate>0</bleedRate>
+	</BodyPartDef>			
+	<BodyPartDef>
+		<defName>AA_SquidBody</defName>
+		<label>squid body</label>
+		<hitPoints>25</hitPoints>
+		<skinCovered>true</skinCovered>
+		<tags>
+			<li>MovingLimbCore</li>
+		</tags>
+	</BodyPartDef>
+	<BodyPartDef>
+		<defName>AA_VibrationReceptor</defName>
+		<label>vibration receptor</label>
+		<hitPoints>10</hitPoints>
+		<permanentInjuryChanceFactor>15</permanentInjuryChanceFactor>
+		<delicate>true</delicate>
+		<skinCovered>true</skinCovered>
+		<socketed>false</socketed>
+		<beautyRelated>false</beautyRelated>
+		<tags>
+			<li>SightSource</li>
+		</tags>
+		<hitChanceFactors>
+			<li>
+				<key>Blunt</key>
+				<value>0</value>
+			</li>
+		</hitChanceFactors>
+	</BodyPartDef>
+	<BodyPartDef>
+		<defName>AA_SquidTentacle</defName>
+		<label>tentacle</label>
+		<hitPoints>15</hitPoints>
+		<frostbiteVulnerability>0.1</frostbiteVulnerability>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+		<skinCovered>true</skinCovered>
+		<tags>
+			
+			<li>ManipulationLimbCore</li>
+		</tags>
+	</BodyPartDef>
+
 	<!-- Bumbledrone parts -->
 
 	<BodyPartDef>
@@ -283,27 +336,27 @@
 			<li>ManipulationLimbCore</li>
 		</tags>
 	</BodyPartDef>
-	
+
 	<!-- Great Devourer Parts -->
-	
-	  <BodyPartDef>
-    <defName>AA_EcholocationOrgan</defName>
-    <label>echolocation organ</label>
-    <hitPoints>10</hitPoints>
-    <permanentInjuryChanceFactor>15</permanentInjuryChanceFactor>
-    <delicate>true</delicate>
-    <skinCovered>true</skinCovered>
-    <socketed>false</socketed>
-    <beautyRelated>false</beautyRelated>
-    <tags>
-      <li>SightSource</li>
-    </tags>
-    <hitChanceFactors>
-      <li>
-        <key>Blunt</key>
-        <value>0</value>
-      </li>
-    </hitChanceFactors>
-  </BodyPartDef>
+
+	<BodyPartDef>
+		<defName>AA_EcholocationOrgan</defName>
+		<label>echolocation organ</label>
+		<hitPoints>10</hitPoints>
+		<permanentInjuryChanceFactor>15</permanentInjuryChanceFactor>
+		<delicate>true</delicate>
+		<skinCovered>true</skinCovered>
+		<socketed>false</socketed>
+		<beautyRelated>false</beautyRelated>
+		<tags>
+			<li>SightSource</li>
+		</tags>
+		<hitChanceFactors>
+			<li>
+				<key>Blunt</key>
+				<value>0</value>
+			</li>
+		</hitChanceFactors>
+	</BodyPartDef>
 
 </Defs>

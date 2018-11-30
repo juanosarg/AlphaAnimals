@@ -46,15 +46,17 @@
 				<accuracyMedium>1</accuracyMedium>
 				<accuracyLong>1</accuracyLong>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>AA_PoisonBolt</defaultProjectile>
+				<defaultProjectile>AA_IncendiaryMote</defaultProjectile>
 				<warmupTime>2</warmupTime>
 				<burstShotCount>1</burstShotCount>
 				<minRange>2</minRange>
 				<range>30</range>
+								<forcedMissRadius>2</forcedMissRadius>
+
 				<soundCast>AA_PoisonBolt</soundCast>
 				<muzzleFlashScale>0</muzzleFlashScale>
 				<!--Commanility determines how frequent this range verb is chosen.-->
-				<commonality>.8</commonality>
+				<commonality>.9</commonality>
 			</li>
 
 
@@ -128,17 +130,17 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/AA_Thermadon/AA_Thermadon</texPath>
-          <drawSize>1.6</drawSize>
+          <drawSize>2</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/AA_Thermadon/AA_Dessicated_Thermadon</texPath>
-          <drawSize>1.6</drawSize>
+          <drawSize>2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/AA_Thermadon/AA_Thermadon</texPath>
-          <drawSize>2.5</drawSize>
+          <drawSize>3</drawSize>
           <shadowData>
             <volume>(0.5, 0.7, 0.43)</volume>
             <offset>(0,0,-0.1)</offset>
@@ -146,7 +148,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/AA_Thermadon/AA_Dessicated_Thermadon</texPath>
-          <drawSize>2.5</drawSize>
+          <drawSize>3</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
