@@ -189,6 +189,10 @@
 					<texPath>Things/Pawn/Animal/AA_Gallatross/AA_Dessicated_Gallatross</texPath>
 					<drawSize>4.5</drawSize>
 				</dessicatedBodyGraphicData>
+				<butcherBodyPart>
+          <bodyPartGroup>HornAttackTool</bodyPartGroup>
+          <thing>AA_GallatrossHorn</thing>
+        </butcherBodyPart>
 			</li>
 		</lifeStages>
 	</PawnKindDef>

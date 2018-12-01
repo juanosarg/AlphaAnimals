@@ -14,8 +14,8 @@
 			<li Class="PatchOperationAdd"> <!-- "Inserting animal defNames into InstallBionicAnimalStomach surgery <recipeUsers>" -->
 				<xpath>/Defs/RecipeDef[@Name = "GR_StomachImplants"]/recipeUsers</xpath>
 				<value>
-				
-				<li>AA_Aerofleet</li>
+
+					<li>AA_Aerofleet</li>
 					<li>AA_ColossalAerofleet</li>
 					<li>AA_BlackScarab</li>
 					<li>AA_BlackSpelopede</li>
@@ -48,9 +48,12 @@
 					<li>AA_PebbleMit</li>
 					<li>AA_Bumbledrone</li>
 					<li>AA_BumbledroneQueen</li>
-					
-					
-					
+					<li>AA_Thermadon</li>
+					<li>AA_SandSquid</li>
+					<li>AA_OvergrownColossus</li>
+					<li>AA_GreatDevourer</li>
+
+
 				</value>
 			</li>
 
@@ -82,6 +85,10 @@
 					<li>AA_Needleroll</li>
 					<li>AA_AnimusVox</li>
 					<li>AA_PebbleMit</li>
+					<li>AA_Thermadon</li>
+					<li>AA_SandSquid</li>
+					<li>AA_OvergrownColossus</li>
+					<li>AA_GreatDevourer</li>
 				</value>
 			</li>
 
@@ -113,6 +120,10 @@
 					<li>AA_Needleroll</li>
 					<li>AA_AnimusVox</li>
 					<li>AA_PebbleMit</li>
+					<li>AA_Thermadon</li>
+					<li>AA_SandSquid</li>
+					<li>AA_OvergrownColossus</li>
+					<li>AA_GreatDevourer</li>
 				</value>
 			</li>
 
@@ -144,6 +155,10 @@
 					<li>AA_Needleroll</li>
 					<li>AA_AnimusVox</li>
 					<li>AA_PebbleMit</li>
+					<li>AA_Thermadon</li>
+					<li>AA_SandSquid</li>
+					<li>AA_OvergrownColossus</li>
+					<li>AA_GreatDevourer</li>
 				</value>
 			</li>
 
@@ -183,13 +198,17 @@
 					<li>AA_PebbleMit</li>
 					<li>AA_Bumbledrone</li>
 					<li>AA_BumbledroneQueen</li>
+					<li>AA_Thermadon</li>
+					<li>AA_SandSquid</li>
+					<li>AA_OvergrownColossus</li>
+					<li>AA_GreatDevourer</li>
 				</value>
 			</li>
 
 			<li Class="PatchOperationAdd"> <!-- "Inserting animal defNames into InstallAnimalBrainStimulator surgery <recipeUsers>" -->
 				<xpath>/Defs/RecipeDef[@Name = "GR_BrainImplants"]/recipeUsers</xpath>
 				<value>
-					
+
 					<li>AA_BlackScarab</li>
 					<li>AA_BlackSpelopede</li>
 					<li>AA_BlackSpider</li>
@@ -221,20 +240,24 @@
 					<li>AA_PebbleMit</li>
 					<li>AA_Bumbledrone</li>
 					<li>AA_BumbledroneQueen</li>
+					<li>AA_Thermadon</li>
+					<li>AA_SandSquid</li>
+					<li>AA_OvergrownColossus</li>
+					<li>AA_GreatDevourer</li>
 				</value>
 			</li>
 
 			<li Class="PatchOperationAdd"> <!-- "Inserting animal defNames into InstallSpineAnimalBionic surgery <recipeUsers>" -->
 				<xpath>/Defs/RecipeDef[@Name = "GR_SpineImplants"]/recipeUsers</xpath>
 				<value>
-					
-					
+
+
 					<li>AA_ArcticLion</li>
-					
+
 					<li>AA_BoulderMit</li>
 					<li>AA_Cactipine</li>
 					<li>AA_DevilSheep</li>
-					
+
 					<li>AA_Gallatross</li>
 					<li>AA_Groundrunner</li>
 					<li>AA_Lockjaw</li>
@@ -244,6 +267,8 @@
 					<li>AA_Wildpawn</li>
 					<li>AA_AnimusVox</li>
 					<li>AA_PebbleMit</li>
+					<li>AA_OvergrownColossus</li>
+
 				</value>
 			</li>
 
@@ -285,6 +310,10 @@
 					<li>AA_PebbleMit</li>
 					<li>AA_Bumbledrone</li>
 					<li>AA_BumbledroneQueen</li>
+					<li>AA_Thermadon</li>
+					<li>AA_SandSquid</li>
+					<li>AA_OvergrownColossus</li>
+					<li>AA_GreatDevourer</li>
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
@@ -301,7 +330,7 @@
 			<li Class="PatchOperationAdd"> <!-- "Inserting animal defNames into InstallNoseAnimalSimple surgery <recipeUsers>" -->
 				<xpath>/Defs/RecipeDef[@Name = "GR_NoseImplants"]/recipeUsers</xpath>
 				<value>
-					
+
 					<li>AA_ArcticLion</li>
 					<li>AA_BoulderMit</li>
 					<li>AA_Cactipine</li>
@@ -316,6 +345,8 @@
 					<li>AA_Wildpawn</li>
 					<li>AA_AnimusVox</li>
 					<li>AA_PebbleMit</li>
+					<li>AA_OvergrownColossus</li>
+					<li>AA_GreatDevourer</li>
 				</value>
 			</li>
 
@@ -355,23 +386,26 @@
 					<li>AA_PebbleMit</li>
 					<li>AA_Bumbledrone</li>
 					<li>AA_BumbledroneQueen</li>
+					<li>AA_Thermadon</li>
+					<li>AA_OvergrownColossus</li>
+
 				</value>
 			</li>
 
 			<li Class="PatchOperationAdd"> <!-- "Inserting animal defNames into InstallEarAnimalSimple surgery <recipeUsers>" -->
 				<xpath>/Defs/RecipeDef[@Name = "GR_EarImplants"]/recipeUsers</xpath>
 				<value>
-					
+
 					<li>AA_ArcticLion</li>
-					
+
 					<li>AA_BoulderMit</li>
 					<li>AA_Cactipine</li>
 					<li>AA_DevilSheep</li>
-					
+
 					<li>AA_Gallatross</li>
 					<li>AA_Groundrunner</li>
 					<li>AA_Lockjaw</li>
-				
+
 					<li>AA_Nightling</li>
 					<li>AA_RaptorShrimp</li>
 					<li>AA_Wildpod</li>
@@ -388,7 +422,7 @@
 			<li Class="PatchOperationAdd"> <!-- "Inserting animal defNames into InstallPegLegAnimal surgery <recipeUsers>" -->
 				<xpath>/Defs/RecipeDef[@Name = "GR_LegImplants"]/recipeUsers</xpath>
 				<value>
-					
+
 					<li>AA_BlackScarab</li>
 					<li>AA_BlackSpelopede</li>
 					<li>AA_BlackSpider</li>
@@ -415,13 +449,15 @@
 					<li>AA_PebbleMit</li>
 					<li>AA_Bumbledrone</li>
 					<li>AA_BumbledroneQueen</li>
+					<li>AA_Thermadon</li>
+					<li>AA_OvergrownColossus</li>
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/RecipeDef[@Name = "GR_LegImplants"]/appliedOnFixedBodyParts</xpath>
 				<value>
 					<li>AA_SmallInsectLeg</li>
-					
+
 				</value>
 			</li>
 
@@ -435,20 +471,21 @@
 			<li Class="PatchOperationAdd"> <!-- "Inserting animal defNames into InstallSimpleProstheticTailAnimal surgery <recipeUsers>" -->
 				<xpath>/Defs/RecipeDef[@Name = "GR_TailImplants"]/recipeUsers</xpath>
 				<value>
-					
-					
+
+
 					<li>AA_ArcticLion</li>
 					<li>AA_Barbslinger</li>
-					
+
 					<li>AA_BoulderMit</li>
 					<li>AA_Cactipine</li>
-					
+
 					<li>AA_Groundrunner</li>
 					<li>AA_Lockjaw</li>
 					<li>AA_MeadowAve</li>
 					<li>AA_Nightling</li>
 					<li>AA_RaptorShrimp</li>
-										<li>AA_AnimusVox</li>
+					<li>AA_AnimusVox</li>
+					<li>AA_OvergrownColossus</li>
 
 				</value>
 			</li>
@@ -456,7 +493,7 @@
 				<xpath>/Defs/RecipeDef[@Name = "GR_TailImplants"]/appliedOnFixedBodyParts</xpath>
 				<value>
 					<li>AA_InsectTail</li>
-					
+
 				</value>
 			</li>
 

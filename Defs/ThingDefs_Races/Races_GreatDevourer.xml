@@ -4,6 +4,8 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>AA_GreatDevourer</defName>
     <label>great devourer</label>
+					   <thingClass>AnimalVariations.AnimalMultiSkins</thingClass>
+
     <description>Great Devourers are armoured worms known for their unquenchable appetite. Once a Great Devourer arrives, it will proceed to gorge itself on small prey, and total ecosystem collapse is almost a certainty.\n\nLuckily, they won't attack large creatures, including humans, unless provoked.</description>
     <statBases>
       <MoveSpeed>2.8</MoveSpeed>

@@ -69,6 +69,54 @@
       <ingestSound>Meal_Eat</ingestSound>
     </ingestible>
   </ThingDef>
+  
+    <ThingDef ParentName="ResourceVerbBase">
+    <defName>AA_GallatrossHorn</defName>
+    <label>gallatross horn</label>
+    <description>A Gallatross' horn. This rock-hard horn is very valuable, and given the dangers inherent in hunting a Gallatross, a scarce commodity.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/AA_GallatrossHorn</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>-20</equippedAngleOffset>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Mass>5</Mass>
+      <Flammability>0.4</Flammability>
+      <DeteriorationRate>0.5</DeteriorationRate>
+    </statBases>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>10</stackLimit>
+    <tools>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>32</power>
+        <cooldownTime>2.6</cooldownTime>
+      </li>
+      <li>
+        <label>base</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <thingSetMakerTags>
+      <li>AnimalPart</li>
+    </thingSetMakerTags>
+  </ThingDef>
 
 
 

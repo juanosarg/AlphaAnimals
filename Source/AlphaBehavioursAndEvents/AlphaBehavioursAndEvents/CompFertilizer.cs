@@ -8,7 +8,7 @@ namespace AlphaBehavioursAndEvents
     public class CompFertilizer : ThingComp
     {
 
-
+        public int extraFertCounter = 500;
       
 
 
@@ -28,14 +28,34 @@ namespace AlphaBehavioursAndEvents
 
             if (pawn.Spawned)
             {
-              if (pawn.Position.GetTerrain(pawn.Map) == TerrainDef.Named("Sand"))
-                {
-                    pawn.Map.terrainGrid.SetTerrain(pawn.Position, TerrainDef.Named("AA_FertilizedSand"));
+                if (pawn.Faction != null) {
+
+                   
+                    if (pawn.Faction.IsPlayer && (pawn.Position.GetTerrain(pawn.Map) == TerrainDef.Named("Sand")))
+                    {
+                        pawn.Map.terrainGrid.SetTerrain(pawn.Position, TerrainDef.Named("AA_FertilizedSand"));
+                    }
+
+                    extraFertCounter--;
+                    if (extraFertCounter <= 0)
+                    {
+                        if (pawn.Faction.IsPlayer && pawn.training.HasLearned(TrainableDefOf.Obedience) && ((pawn.Position.GetTerrain(pawn.Map) == TerrainDef.Named("AA_FertilizedSand"))))
+                        {
+                            pawn.Map.terrainGrid.SetTerrain(pawn.Position, TerrainDef.Named("AA_SuperiorFertilizedSand"));
+                        }
+                        extraFertCounter = 500;
+                    }
+
                 }
+               
                 
 
             }
         }
+
+       
+
+
 
 
     }
