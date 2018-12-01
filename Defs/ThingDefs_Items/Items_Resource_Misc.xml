@@ -62,6 +62,8 @@
       <MarketValue>1</MarketValue>
       <Nutrition>0.8</Nutrition>
     </statBases>
+	    <tradeability>Sellable</tradeability>
+
     <ingestible>
       <preferability>MealAwful</preferability>
 	  <tasteThought>AA_AteSuperAwfulMeal</tasteThought>

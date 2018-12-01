@@ -94,7 +94,8 @@
     </race>
 	
 	<tradeTags>
-      <li>ExoticAnimal</li>
+      		<li>AnimalUncommon</li>
+      <li>AnimalFarm</li>
     </tradeTags>
   </ThingDef>
 

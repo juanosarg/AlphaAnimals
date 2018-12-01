@@ -96,7 +96,7 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>17</power>
+        <power>14</power>
         <cooldownTime>1.55</cooldownTime>
         <linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -112,7 +112,7 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>15</power>
+        <power>13</power>
         <cooldownTime>1.85</cooldownTime>
         <linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -129,7 +129,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>4</power>
+        <power>3</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <chanceFactor>0.2</chanceFactor>
