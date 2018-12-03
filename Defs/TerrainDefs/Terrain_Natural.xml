@@ -18,6 +18,7 @@
     <affordances>
       <li>Light</li>
       <li>Medium</li>
+	        <li>Heavy</li>
       <li>GrowSoil</li>
       <li>Diggable</li>
     </affordances>
@@ -51,6 +52,7 @@
     <affordances>
       <li>Light</li>
       <li>Medium</li>
+	        <li>Heavy</li>
       <li>GrowSoil</li>
       <li>Diggable</li>
     </affordances>

@@ -81,7 +81,7 @@
       <gestationPeriodDays>12</gestationPeriodDays>
       <useMeatFrom>Megaspider</useMeatFrom>
 	  <leatherDef>Leather_BlackChitin</leatherDef>
-      <wildness>1</wildness>
+      <wildness>0.9</wildness>
       <lifeExpectancy>6</lifeExpectancy>
       <lifeStageAges>
         <li>
