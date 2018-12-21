@@ -14,8 +14,43 @@
 		</value>
 	</Operation>
 
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/TraderKindDef[defName = "Base_Neolithic_Standard"]/stockGenerators</xpath>
+		<value>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>AA_CactipineQuill</thingDef>
+				<countRange>
+					<min>2</min>
+					<max>5</max>
+				</countRange>
+			</li>
+		</value>
+	</Operation>
 
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/TraderKindDef[defName = "Caravan_Neolithic_BulkGoods"]/stockGenerators</xpath>
+		<value>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>AA_CactipineQuill</thingDef>
+				<countRange>
+					<min>2</min>
+					<max>5</max>
+				</countRange>
+			</li>
+		</value>
+	</Operation>
 
-	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/TraderKindDef[defName = "Visitor_Neolithic_Standard"]/stockGenerators</xpath>
+		<value>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>AA_CactipineQuill</thingDef>
+				<countRange>
+					<min>2</min>
+					<max>5</max>
+				</countRange>
+			</li>
+		</value>
+	</Operation>
 
 </Patch>
