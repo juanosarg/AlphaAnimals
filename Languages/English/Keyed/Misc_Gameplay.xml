@@ -67,6 +67,8 @@
   <allowGallatross>Allow gallatross migrations</allowGallatross>
   <allowSummitCrab>Allow summit crab event</allowSummitCrab>
   <allowBumbledrones>Allow bumbledrone migrations</allowBumbledrones>
+  <allowFrostmiteCorpses>Allow frostmites digging corpses on their own</allowFrostmiteCorpses>
+
 
 
 

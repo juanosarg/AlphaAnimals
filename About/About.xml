@@ -2,7 +2,7 @@
 <ModMetaData>
 	<name>Alpha Animals</name>
 	<author>Sarg, AFriend, milon, Skullywag and kaptain_kavern</author>
-	<targetVersion>1.0.2059</targetVersion>
+	<supportedVersions><li>1.0</li></supportedVersions>
 	<description>Adds multiple unique new animals to Rimworld.
 	
 &lt;size=24&gt;Features&lt;/size&gt;
@@ -27,6 +27,7 @@ Obviously, more animals!
 Compatible with A Dog Said...
 Compatible with the implants from Genetic Rim
 Compatible with cloth production in Vegetable Garden Project (VGP)
+Compatible with Nature's Pretty Sweet
 Uses Harmony (no need to download)
 Uses ModCheck (no need to download)
 
@@ -40,6 +41,7 @@ Fireball Graphic created by StarsteelGaming at OpenGameArt.org (2018)
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
 
+v1.093: Bugfixing and balance tweaks. Full changelog on GitHub (31/01/19)
 v1.09: Four new animals added! Bugfixing and balance tweaks. Full changelog on GitHub (01/12/18)
 v1.08: Bugfixing and balance tweaks. Full changelog on GitHub (12/11/18)
 v1.07: Two new animals added! Bugfixing and balance tweaks. Full changelog on GitHub (04/11/18)

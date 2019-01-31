@@ -33,7 +33,7 @@ namespace AlphaBehavioursAndEvents
         {
             base.CompTick();
             Pawn pawn = this.parent as Pawn;
-            if ((pawn.Map != null)&&(pawn.needs.food.CurLevelPercentage < pawn.needs.food.PercentageThreshHungry)&&(pawn.Awake()))
+            if ((pawn.Map != null)&&(pawn.needs.food.CurLevelPercentage < pawn.needs.food.PercentageThreshHungry)&&(pawn.Awake()&& LoadedModManager.GetMod<AlphaAnimals_Mod>().GetSettings<AlphaAnimals_Settings>().flagFrostmites))
             {
                
                 if (stopdiggingcounter <= 0) {
