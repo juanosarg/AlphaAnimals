@@ -29,16 +29,15 @@
       <herdAnimal>true</herdAnimal>
       <predator>false</predator>
       <body>Bird</body>
-	        <packAnimal>true</packAnimal>
-
+	  <packAnimal>true</packAnimal>
       <baseBodySize>1.2</baseBodySize>
       <baseHealthScale>1.0</baseHealthScale>
 	  <baseHungerRate>0.55</baseHungerRate>
       <foodType>VegetarianRoughAnimal</foodType>
-      <wildness>0.6</wildness>
-      <manhunterOnDamageChance>0.05</manhunterOnDamageChance>
-      <manhunterOnTameFailChance>0.02</manhunterOnTameFailChance>
-      <trainability>Intermediate</trainability>
+      <wildness>0.85</wildness>
+      <manhunterOnDamageChance>0.25</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0.25</manhunterOnTameFailChance>
+      <trainability>Advanced</trainability>
 	  <leatherDef>Leather_Bird</leatherDef>
       <gestationPeriodDays>24</gestationPeriodDays>
       <litterSizeCurve>
