@@ -35,8 +35,8 @@
 	  <baseHungerRate>0.55</baseHungerRate>
       <foodType>VegetarianRoughAnimal</foodType>
       <wildness>0.85</wildness>
-      <manhunterOnDamageChance>0.25</manhunterOnDamageChance>
-      <manhunterOnTameFailChance>0.25</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.12</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0.12</manhunterOnTameFailChance>
       <trainability>Advanced</trainability>
 	  <leatherDef>Leather_Bird</leatherDef>
       <gestationPeriodDays>24</gestationPeriodDays>

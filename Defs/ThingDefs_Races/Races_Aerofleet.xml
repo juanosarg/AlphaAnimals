@@ -58,7 +58,8 @@
 			<wildness>0.60</wildness>
 			<canBePredatorPrey>false</canBePredatorPrey>
 			<trainability>Simple</trainability>
-			<gestationPeriodDays>8</gestationPeriodDays>
+			<mateMtbHours>10000</mateMtbHours>
+			<gestationPeriodDays>10000</gestationPeriodDays>
 			<lifeExpectancy>9</lifeExpectancy>
 			<lifeStageAges>
 				<li>

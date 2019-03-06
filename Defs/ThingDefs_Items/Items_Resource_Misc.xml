@@ -1,6 +1,54 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+  <ThingDef Name="AA_MeatMealBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+			<Beauty>0</Beauty>
+			<Mass>0.44</Mass>
+			<DeteriorationRate>10</DeteriorationRate>
+		</statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>10</stackLimit>
+    <tickerType>Rare</tickerType>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <thingCategories>
+      <li>FoodMeals</li>
+    </thingCategories>
+    <alwaysHaulable>true</alwaysHaulable>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Ingredients" />
+      <li Class="CompProperties_FoodPoisonable" />
+    </comps>
+    <pathCost>15</pathCost>
+    <resourceReadoutPriority>Last</resourceReadoutPriority>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <uiIconForStackCount>1</uiIconForStackCount>
+    <ingestible>
+      <foodType>Meat</foodType>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <optimalityOffsetHumanlikes>16</optimalityOffsetHumanlikes>
+    </ingestible>
+  </ThingDef>
+
+  <ThingDef ParentName="AA_MeatMealBase" Name="AA_MeatMealRottable" Abstract="True">
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>4</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <tradeability>Sellable</tradeability>
+  </ThingDef>
+
+
+
 
 	<ThingDef ParentName="UnfinishedBase">
 		<defName>AA_RandomStones</defName>
@@ -37,8 +85,8 @@
 			<MarketValue>10</MarketValue>
 			<Mass>0.35</Mass>
 			<Flammability>1.3</Flammability>
-			<MedicalPotency>0.75</MedicalPotency>
-			<MedicalQualityMax>0.8</MedicalQualityMax>
+			 <MedicalPotency>0.60</MedicalPotency>
+      <MedicalQualityMax>0.70</MedicalQualityMax>
 			<DeteriorationRate>6</DeteriorationRate>
 		</statBases>
 		<tickerType>Rare</tickerType>
@@ -50,7 +98,7 @@
 		</comps>
 	</ThingDef>
 
-  <ThingDef ParentName="MealRottable">
+  <ThingDef ParentName="AA_MeatMealRottable">
     <defName>AA_DisgustingMealNutrientPaste</defName>
     <label>disgusting nutrient paste meal</label>
     <description>A synthetic mixture of protein, carbohydrates, and vitamins, amino acids and minerals. Everything the body needs, and absolutely disgusting. This paste is EVEN more disgusting than the paste produced by a nutrient paste dispenser, and people will just outright hate eating it. It was cheap, though!</description>

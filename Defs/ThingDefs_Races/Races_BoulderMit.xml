@@ -54,10 +54,10 @@
 		</comps>
     <race>
       <wildBiomes>
-        <BorealForest>0.07</BorealForest>
+        <BorealForest>0.04</BorealForest>
         <Tundra>0.07</Tundra>
         <ColdBog>0.07</ColdBog>
-        <TemperateForest>0.1</TemperateForest>
+        <TemperateForest>0.05</TemperateForest>
         <TemperateSwamp>0.1</TemperateSwamp>
         <TropicalRainforest>0.05</TropicalRainforest>
         <TropicalSwamp>0.05</TropicalSwamp>

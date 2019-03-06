@@ -11,8 +11,9 @@
 		<hediffSolid>Crack</hediffSolid>
 		<additionalHediffs>
 			<li>
-				<hediff>ToxicBuildup</hediff>
+				<hediff>AA_ToxicBuildup</hediff>
 				<severityPerDamageDealt>0.004</severityPerDamageDealt>
+				<victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
 			</li>
 		</additionalHediffs>
 		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
@@ -30,8 +31,9 @@
 		<hediffSolid>Crack</hediffSolid>
 		<additionalHediffs>
 			<li>
-				<hediff>ToxicBuildup</hediff>
+				<hediff>AA_ToxicBuildup</hediff>
 				<severityPerDamageDealt>0.02</severityPerDamageDealt>
+				<victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
 			</li>
 		</additionalHediffs>
 		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
