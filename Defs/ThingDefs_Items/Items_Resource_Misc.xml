@@ -101,7 +101,7 @@
   <ThingDef ParentName="AA_MeatMealRottable">
     <defName>AA_DisgustingMealNutrientPaste</defName>
     <label>disgusting nutrient paste meal</label>
-    <description>A synthetic mixture of protein, carbohydrates, and vitamins, amino acids and minerals. Everything the body needs, and absolutely disgusting. This paste is EVEN more disgusting than the paste produced by a nutrient paste dispenser, and people will just outright hate eating it. It was cheap, though!</description>
+    <description>A synthetic mixture of protein, carbohydrates, and vitamins, amino acids and minerals. Everything the body needs, and absolutely disgusting. This paste is EVEN more disgusting than the paste produced by a nutrient paste dispenser, and people will just outright hate eating it. It was cheap, though!\n\nThis slurry is edible for carnivore and omnivore animals, but barely, and completely indigestible for herbivores.</description>
     <graphicData>
       <texPath>Things/Item/Meal/NutrientPaste</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>

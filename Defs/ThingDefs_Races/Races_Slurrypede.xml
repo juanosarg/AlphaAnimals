@@ -6,7 +6,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>AA_Slurrypede</defName>
     <label>slurrypede</label>
-    <description>Although rarely, mechanoids have been known to capture prisoners, and the Slurrypede is their solution to feed them in the most efficient way possible. The Slurrypede is a modified bio-mechanoid capable of devouring almost anything and processing it into an homogeneous organic slurry. This slurry is edible, but barely.\n\nSlurrypedes are docile, almost never hostile, and in case a mechanoid base is destroyed and one of them manages to survive, they tend to roam the wilderness aimlessly, consuming any organic material in their path and turning it into nutrient paste.</description>
+    <description>Although rarely, mechanoids have been known to capture prisoners, and the Slurrypede is their solution to feed them in the most efficient way possible. The Slurrypede is a modified bio-mechanoid capable of devouring almost anything and processing it into an homogeneous organic slurry. This slurry is edible for carnivore and omnivore animals, but barely, and completely indigestible for herbivores.\n\nSlurrypedes are docile, almost never hostile, and in case a mechanoid base is destroyed and one of them manages to survive, they tend to roam the wilderness aimlessly, consuming any organic material in their path and turning it into nutrient paste.</description>
     <statBases>
       <MoveSpeed>1.9</MoveSpeed>
       <MarketValue>650</MarketValue>
