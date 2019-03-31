@@ -6,7 +6,7 @@
     <label>great devourer</label>
 					   <thingClass>AnimalVariations.AnimalMultiSkins</thingClass>
 
-    <description>Great Devourers are armoured worms known for their unquenchable appetite. Once a Great Devourer arrives, it will proceed to gorge itself on small prey, and total ecosystem collapse is almost a certainty.\n\nLuckily, they won't attack large creatures, including humans, unless provoked.</description>
+    <description>Great Devourers are armoured worms known for their unquenchable appetite. Once a Great Devourer arrives, it will proceed to gorge itself on small prey, and total ecosystem collapse is almost a certainty.\n\nLuckily, they won't attack large creatures, including humans, unless provoked. Their whole name is in fact a pun, since they are not very resilient and are easily dispatched. They have however slow regenerative capabilities.</description>
     <statBases>
       <MoveSpeed>2.8</MoveSpeed>
       <ComfyTemperatureMin>-5</ComfyTemperatureMin>
@@ -51,6 +51,10 @@
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
 				<eggLayIntervalDays>25</eggLayIntervalDays>
 				
+			</li>
+			<li Class="AlphaBehavioursAndEvents.CompProperties_Regeneration">
+				<rateInTicks>8000</rateInTicks>
+
 			</li>
      
     </comps>
