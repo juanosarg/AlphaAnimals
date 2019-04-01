@@ -145,7 +145,7 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/AA_MammothWorm/AA_Dessicated_MammothWorm</texPath>
-					<drawSize>3.5</drawSize>
+					<drawSize>4.1</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>

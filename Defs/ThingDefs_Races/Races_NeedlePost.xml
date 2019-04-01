@@ -82,9 +82,9 @@
       <predator>false</predator>
 			<body>AA_SentientPlant</body>
 			<herdAnimal>true</herdAnimal>
-			<baseBodySize>1</baseBodySize>
+			<baseBodySize>0.79</baseBodySize>
 			<baseHungerRate>0.05</baseHungerRate>
-			<baseHealthScale>1.8</baseHealthScale>
+			<baseHealthScale>2.2</baseHealthScale>
       		<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>Leather_Cactus</leatherDef>
 			<wildness>0.6</wildness>

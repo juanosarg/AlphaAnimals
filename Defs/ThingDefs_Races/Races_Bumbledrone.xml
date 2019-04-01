@@ -62,7 +62,7 @@
       <herdAnimal>true</herdAnimal>
       <predator>false</predator>
       <body>AA_Wasp</body>
-      <baseBodySize>0.8</baseBodySize>
+      <baseBodySize>0.79</baseBodySize>
 	  <baseHealthScale>0.8</baseHealthScale>
 	  <baseHungerRate>0.3</baseHungerRate>
       <foodType>VegetarianRoughAnimal</foodType>
@@ -245,8 +245,8 @@
       <herdAnimal>true</herdAnimal>
       <predator>false</predator>
       <body>AA_Wasp</body>
-      <baseBodySize>1</baseBodySize>
-	  <baseHealthScale>1</baseHealthScale>
+      <baseBodySize>0.79</baseBodySize>
+	  <baseHealthScale>1.3</baseHealthScale>
 	  <baseHungerRate>0.4</baseHungerRate>
       <foodType>VegetarianRoughAnimal</foodType>
       <wildness>0.8</wildness>
