@@ -59,6 +59,20 @@
     <combatLogRulesDodge>Maneuver_Bite_MeleeDodge</combatLogRulesDodge>
   </ManeuverDef>
   
+    <ManeuverDef>
+    <defName>AA_Electric</defName>
+    <requiredCapacity>AA_Electric</requiredCapacity>
+    <verb>
+      <verbClass>Verb_MeleeAttackDamage</verbClass>
+      <meleeDamageDef>AA_Electric</meleeDamageDef>
+    </verb>
+    <logEntryDef>MeleeAttack</logEntryDef>
+    <combatLogRulesHit>Maneuver_Smash_MeleeHit</combatLogRulesHit>
+    <combatLogRulesDeflect>Maneuver_Smash_MeleeDeflect</combatLogRulesDeflect>
+    <combatLogRulesMiss>Maneuver_Smash_MeleeMiss</combatLogRulesMiss>
+    <combatLogRulesDodge>Maneuver_Smash_MeleeDodge</combatLogRulesDodge>
+  </ManeuverDef>
+  
       <ManeuverDef>
     <defName>AA_ToxicSting</defName>
     <requiredCapacity>AA_ToxicSting</requiredCapacity>
