@@ -141,6 +141,97 @@
     </stages>
   </HediffDef>
   
+      <HediffDef ParentName="DiseaseBase">
+    <defName>AA_Electric</defName>
+    <label>electric shock</label>
+    <isBad>true</isBad>
+    <comps>
+      <li Class="HediffCompProperties_Immunizable">
+        <severityPerDayNotImmune>-2</severityPerDayNotImmune>
+      </li>
+    </comps>
+    <stages>
+      <li>
+	    <label>initial</label>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.9</setMax>
+          </li>
+        </capMods>
+		 <hediffGivers>
+          <li Class="HediffGiver_Random">
+            <hediff>HeartAttack</hediff>
+            <mtbDays>10</mtbDays>
+            <partsToAffect>
+              <li>Heart</li>
+            </partsToAffect>
+          </li>
+        </hediffGivers>
+      </li>
+	   <li>
+	    <label>shocked</label>
+		<minSeverity>0.2</minSeverity>
+
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.6</setMax>
+          </li>
+        </capMods>
+		 <hediffGivers>
+          <li Class="HediffGiver_Random">
+            <hediff>HeartAttack</hediff>
+            <mtbDays>5</mtbDays>
+            <partsToAffect>
+              <li>Heart</li>
+            </partsToAffect>
+          </li>
+        </hediffGivers>
+      </li>
+	  <li>
+	    <label>very shocked</label>
+		<minSeverity>0.5</minSeverity>
+
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.4</setMax>
+          </li>
+        </capMods>
+		 <hediffGivers>
+          <li Class="HediffGiver_Random">
+            <hediff>HeartAttack</hediff>
+            <mtbDays>1</mtbDays>
+            <partsToAffect>
+              <li>Heart</li>
+            </partsToAffect>
+          </li>
+        </hediffGivers>
+      </li>
+	  <li>
+	    <label>paralysed</label>
+		<minSeverity>0.8</minSeverity>
+
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.1</setMax>
+          </li>
+        </capMods>
+		 <hediffGivers>
+          <li Class="HediffGiver_Random">
+            <hediff>HeartAttack</hediff>
+            <mtbDays>0.5</mtbDays>
+            <partsToAffect>
+              <li>Heart</li>
+            </partsToAffect>
+          </li>
+        </hediffGivers>
+      </li>
+    </stages>
+  </HediffDef>
+  
    <HediffDef>
     <defName>AA_ToxicBuildup</defName>
     <hediffClass>HediffWithComps</hediffClass>

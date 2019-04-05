@@ -54,9 +54,11 @@
     <Compile Include="Building_BlackHiveMound.cs" />
     <Compile Include="Building_Overgrown_DropPod.cs" />
     <Compile Include="CompFertilizer.cs" />
+    <Compile Include="CompGasProducer.cs" />
     <Compile Include="CompProperties_Electrified.cs" />
     <Compile Include="CompElectrified.cs" />
     <Compile Include="CompProperties_Fertilizer.cs" />
+    <Compile Include="CompProperties_GasProducer.cs" />
     <Compile Include="CompRegeneration.cs" />
     <Compile Include="CompProperties_Regeneration.cs" />
     <Compile Include="CompProperties_HighlyFlammable.cs" />
@@ -70,6 +72,7 @@
     <Compile Include="CompProperties_Nocturnal.cs" />
     <Compile Include="CompProperties_LightSustenance.cs" />
     <Compile Include="DamageWorker_Siege.cs" />
+    <Compile Include="DeathActionWorker_MouseFission.cs" />
     <Compile Include="Hediff_Crushing.cs" />
     <Compile Include="Hediff_NocturnalAnimal.cs" />
     <Compile Include="Hediff_Stalking.cs" />
