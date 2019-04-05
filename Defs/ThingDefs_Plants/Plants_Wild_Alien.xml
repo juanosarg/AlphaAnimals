@@ -154,7 +154,7 @@
 		<statBases>
 			<MaxHitPoints>85</MaxHitPoints>
 			<Flammability>1.3</Flammability>
-			<Nutrition>0.05</Nutrition>
+			<Nutrition>0.2</Nutrition>
 		</statBases>
 		<drawerType>MapMeshOnly</drawerType>
 		<graphicData>
@@ -171,11 +171,7 @@
           <severity>0.15</severity>
           <toleranceChemical>Alcohol</toleranceChemical>
         </li>
-        <li Class="IngestionOutcomeDoer_GiveHediff">
-          <hediffDef>AlcoholTolerance</hediffDef>
-          <severity>0.016</severity>
-					<divideByBodySize>true</divideByBodySize>
-				</li>
+       
       </outcomeDoers>
 		</ingestible> 
 
