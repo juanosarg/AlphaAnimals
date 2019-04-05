@@ -79,6 +79,16 @@
 				<chanceFactor>0.2</chanceFactor>
 			</li>
 		</tools>
+		<comps>
+
+			<li Class="AlphaBehavioursAndEvents.CompProperties_NearbyEffecter">
+				<thingToAffect>Plant_Grass</thingToAffect>
+				<thingToTurnTo>AA_RottingMound</thingToTurnTo>
+				<ticksConversionRate>1000</ticksConversionRate>
+
+			</li>
+
+		</comps>
 		<race>
 			<wildBiomes>
 				<TropicalRainforest>0.05</TropicalRainforest>
@@ -90,8 +100,8 @@
 			<body>AA_WingedQuadrupedAnimalWithPawsAndTail</body>
 			<baseBodySize>1</baseBodySize>
 			<baseHealthScale>1.5</baseHealthScale>
-			<baseHungerRate>0.5</baseHungerRate>
-			<foodType>CarnivoreAnimalStrict</foodType>
+			<baseHungerRate>10</baseHungerRate>
+			<foodType>Liquor,CarnivoreAnimalStrict</foodType>
 			<predator>true</predator>
 			<maxPreyBodySize>2</maxPreyBodySize>
 			<wildness>0.80</wildness>
