@@ -5,6 +5,8 @@
 
   <ThingDef ParentName="BaseGas">
     <defName>AA_OcularGas</defName>
+	<thingClass>AlphaBehavioursAndEvents.Gas_Ocular</thingClass>
+
     <label>ocular gas</label>
     <graphicData>
       <texPath>Things/Gas/Puff</texPath>

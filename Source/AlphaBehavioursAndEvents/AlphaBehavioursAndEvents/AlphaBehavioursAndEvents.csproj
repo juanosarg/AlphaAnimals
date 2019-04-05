@@ -73,6 +73,7 @@
     <Compile Include="CompProperties_LightSustenance.cs" />
     <Compile Include="DamageWorker_Siege.cs" />
     <Compile Include="DeathActionWorker_MouseFission.cs" />
+    <Compile Include="Gas_Ocular.cs" />
     <Compile Include="Hediff_Crushing.cs" />
     <Compile Include="Hediff_NocturnalAnimal.cs" />
     <Compile Include="Hediff_Stalking.cs" />
