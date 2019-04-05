@@ -28,7 +28,7 @@ namespace AlphaBehavioursAndEvents
                 Pawn pawn = this.parent as Pawn;
 
                 CellRect rect = GenAdj.OccupiedRect(pawn.Position, pawn.Rotation, IntVec2.One);
-                rect = rect.ExpandedBy(3);
+                rect = rect.ExpandedBy(2);
 
                foreach (IntVec3 current in rect.Cells)
                 {

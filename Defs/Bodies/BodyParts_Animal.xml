@@ -358,5 +358,19 @@
 			</li>
 		</hitChanceFactors>
 	</BodyPartDef>
+	
+	<!-- Decay Drake Parts -->
+	
+	<BodyPartDef>
+		<defName>AA_ReptileWing</defName>
+		<label>wing</label>
+		<hitPoints>25</hitPoints>
+		<frostbiteVulnerability>0.5</frostbiteVulnerability>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+		<skinCovered>true</skinCovered>
+		<alive>true</alive>
+		
+		
+	</BodyPartDef>
 
 </Defs>

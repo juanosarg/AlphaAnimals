@@ -185,13 +185,13 @@
       <MarketValue>1.2</MarketValue>
       <MaxHitPoints>150</MaxHitPoints>
       <Mass>0.4</Mass>
-      <Flammability>1.0</Flammability>
+      <Flammability>0.6</Flammability>
       <DeteriorationRate>1</DeteriorationRate>
       <SharpDamageMultiplier>0.6</SharpDamageMultiplier>
       <BluntDamageMultiplier>0.8</BluntDamageMultiplier>
     </statBases>
     <stuffProps>
-      <stuffAdjective>wooden</stuffAdjective>
+      <stuffAdjective>red wooden</stuffAdjective>
 	  
       <categories>
         <li>Woody</li>
@@ -200,20 +200,19 @@
       <color>(193,97,67)</color>
       <constructEffect>ConstructWood</constructEffect>
       <appearance>Planks</appearance>
-      <soundImpactStuff>BulletImpactWood</soundImpactStuff>
+      <soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
       <soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
       <statFactors>
-        <MaxHitPoints>0.5</MaxHitPoints>
-        <Beauty>3</Beauty>
+        <MaxHitPoints>0.75</MaxHitPoints>
+        <Beauty>-1</Beauty>
         <Flammability>1</Flammability>
-        <WorkToMake>0.8</WorkToMake>
+        <WorkToMake>0.6</WorkToMake>
 				<WorkToBuild>0.8</WorkToBuild>
         <DoorOpenSpeed>1.0</DoorOpenSpeed>
         <MeleeWeapon_CooldownMultiplier>1</MeleeWeapon_CooldownMultiplier>
       </statFactors>
     </stuffProps>
-    <isBodyPartOrImplant>true</isBodyPartOrImplant>
     <thingCategories>
       <li>ResourcesRaw</li>
     </thingCategories>
@@ -222,15 +221,16 @@
     </techHediffsTags>
     <tools>
       <li>
+	          <label>alien wood log</label>
+
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>11</power>
-        <cooldownTime>2.2</cooldownTime>
+        <power>12</power>
+        <cooldownTime>2</cooldownTime>
       </li>
     </tools>
   </ThingDef>
-
 
 
 

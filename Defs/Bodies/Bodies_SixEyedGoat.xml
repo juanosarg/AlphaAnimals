@@ -89,32 +89,32 @@
 								<li>
 									<def>Eye</def>
 									<customLabel>first left eye</customLabel>
-									<coverage>0.4</coverage>
+									<coverage>0.04</coverage>
 								</li>
 								<li>
 									<def>Eye</def>
 									<customLabel>first right eye</customLabel>
-									<coverage>0.4</coverage>
+									<coverage>0.04</coverage>
 								</li>
 								<li>
 									<def>Eye</def>
 									<customLabel>second left eye</customLabel>
-									<coverage>0.4</coverage>
+									<coverage>0.04</coverage>
 								</li>
 								<li>
 									<def>Eye</def>
 									<customLabel>second right eye</customLabel>
-									<coverage>0.4</coverage>
+									<coverage>0.04</coverage>
 								</li>
 								<li>
 									<def>Eye</def>
 									<customLabel>third left eye</customLabel>
-									<coverage>0.4</coverage>
+									<coverage>0.04</coverage>
 								</li>
 								<li>
 									<def>Eye</def>
 									<customLabel>third right eye</customLabel>
-									<coverage>0.4</coverage>
+									<coverage>0.04</coverage>
 								</li>
 								<li>
 									<def>Ear</def>

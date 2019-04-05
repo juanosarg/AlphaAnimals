@@ -82,6 +82,7 @@
       <baseHealthScale>0.6</baseHealthScale>
       <foodType>VegetarianRoughAnimal</foodType>
       <wildness>0.7</wildness> 
+	  <useLeatherFrom>Rat</useLeatherFrom>
       <trainability>Simple</trainability>
       <hasGenders>false</hasGenders>
       <lifeExpectancy>6</lifeExpectancy>
@@ -230,7 +231,9 @@
       <hasGenders>false</hasGenders>
       <lifeExpectancy>6</lifeExpectancy>
 	  <mateMtbHours>10000</mateMtbHours>
-			<gestationPeriodDays>10000</gestationPeriodDays>
+	  <gestationPeriodDays>10000</gestationPeriodDays>
+	  <useLeatherFrom>Rat</useLeatherFrom>
+	  <useMeatFrom>AA_FissionMouse</useMeatFrom>
       <lifeStageAges>
         
         <li>
@@ -343,7 +346,9 @@
       <hasGenders>false</hasGenders>
       <lifeExpectancy>4</lifeExpectancy>
 	  <mateMtbHours>10000</mateMtbHours>
-			<gestationPeriodDays>10000</gestationPeriodDays>
+	  <gestationPeriodDays>10000</gestationPeriodDays>
+	  <useLeatherFrom>Rat</useLeatherFrom>
+	  <useMeatFrom>AA_FissionMouse</useMeatFrom>
       <lifeStageAges>
         
         <li>

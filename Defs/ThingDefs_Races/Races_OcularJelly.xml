@@ -32,6 +32,27 @@
 				
 			</li>
 		</tools>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<accuracyTouch>1</accuracyTouch>
+				<accuracyShort>1</accuracyShort>
+				<accuracyMedium>1</accuracyMedium>
+				<accuracyLong>1</accuracyLong>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AA_RedPoisonBolt</defaultProjectile>
+				<warmupTime>3</warmupTime>
+				<burstShotCount>1</burstShotCount>
+				<minRange>2</minRange>
+				<range>20</range>
+				<soundCast>AA_PoisonBolt</soundCast>
+				<muzzleFlashScale>0</muzzleFlashScale>
+				<!--Commanility determines how frequent this range verb is chosen.-->
+				<commonality>.6</commonality>
+			</li>
+
+
+		</verbs>
 		<tickerType>Normal</tickerType>
 		<comps>
 
@@ -86,12 +107,12 @@
 			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 			<wildBiomes>
-				<BorealForest>0.02</BorealForest>
-				<ColdBog>0.02</ColdBog>
-				<TemperateSwamp>0.4</TemperateSwamp>
-				<TropicalSwamp>0.3</TropicalSwamp>
-				<TemperateForest>0.4</TemperateForest>
-				<TropicalRainforest>0.2</TropicalRainforest>
+				<BorealForest>0.005</BorealForest>
+				<ColdBog>0.005</ColdBog>
+				<TemperateSwamp>0.005</TemperateSwamp>
+				<TropicalSwamp>0.005</TropicalSwamp>
+				<TemperateForest>0.005</TemperateForest>
+				<TropicalRainforest>0.005</TropicalRainforest>
 
 			</wildBiomes>
 		</race>

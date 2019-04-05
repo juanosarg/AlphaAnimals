@@ -33,6 +33,23 @@
     </projectile>
   </ThingDef>
   
+  <ThingDef ParentName="BaseBullet">
+    <defName>AA_RedPoisonBolt</defName>
+    <label>red poison spit</label>
+	<thingClass>AlphaAnimalRangeAttack.AnimalProjectile</thingClass>
+    <graphicData>
+      <texPath>Things/Projectiles/AA_PoisonBolt</texPath>
+	  <color>(.8,0,0)</color>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>AA_ToxicSting</damageDef>
+      <damageAmountBase>3</damageAmountBase>
+      <speed>40</speed>
+    </projectile>
+  </ThingDef>
+  
     <ThingDef ParentName="BaseBullet">
     <defName>AA_Plasma</defName>
     <label>plasma burst</label>

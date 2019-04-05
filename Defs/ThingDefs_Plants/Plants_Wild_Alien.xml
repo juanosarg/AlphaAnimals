@@ -5,22 +5,22 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>GU_AlienGrass</defName>
 		<label>alien grass</label>
-		<description>Wild grass. Grows anywhere there is a little light and minimally fertile ground.</description>
+		<description>This grass is completely alien, probably not even 100% carbon based, and it seems to be decaying quickly by being exposed to a terrestrial environment.</description>
 		<statBases>
 			<MaxHitPoints>85</MaxHitPoints>
+			<Flammability>1.3</Flammability>
+			<Nutrition>0.05</Nutrition>
 		</statBases>
 		<graphicData>
 			<texPath>Things/Plants/GU_AlienGrass</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<hideAtSnowDepth>0.5</hideAtSnowDepth>
-		<ingestible>
-			<nutrition>0.18</nutrition>
-		</ingestible>
+		<ingestible />
 		<plant>
 			<fertilityMin>0.05</fertilityMin>
 			<fertilitySensitivity>0.3</fertilitySensitivity>
-			<growDays>2.5</growDays>
+			<growDays>1</growDays>
 			<harvestWork>40</harvestWork>
 			<maxMeshCount>9</maxMeshCount>
 			<visualSizeRange>
@@ -28,29 +28,30 @@
 				<max>0.6</max>
 			</visualSizeRange>
 			<topWindExposure>0.4</topWindExposure>
-			<reproduceMtbDays>3</reproduceMtbDays>
+			<wildOrder>1</wildOrder>
+			<lifespanDaysPerGrowDays>1</lifespanDaysPerGrowDays>
+
 		</plant>
 	</ThingDef>
 	
 	<ThingDef ParentName="PlantBase">
 		<defName>GU_RedLeaves</defName>
 		<label>alien plant</label>
-		<description>Wild grass. Grows anywhere there is a little light and minimally fertile ground.</description>
-		<statBases>
+<description>This grass is completely alien, probably not even 100% carbon based, and it seems to be decaying quickly by being exposed to a terrestrial environment.</description>		<statBases>
 			<MaxHitPoints>85</MaxHitPoints>
+			<Flammability>1.3</Flammability>
+			<Nutrition>0.05</Nutrition>
 		</statBases>
 		<graphicData>
 			<texPath>Things/Plants/GU_RedLeaves</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<hideAtSnowDepth>0.5</hideAtSnowDepth>
-		<ingestible>
-			<nutrition>0.18</nutrition>
-		</ingestible>
+		<ingestible />
 		<plant>
 			<fertilityMin>0.05</fertilityMin>
 			<fertilitySensitivity>0.1</fertilitySensitivity>
-			<growDays>2.5</growDays>
+			<growDays>1</growDays>
 			<harvestWork>40</harvestWork>
 			<maxMeshCount>1</maxMeshCount>
 			<visualSizeRange>
@@ -58,29 +59,30 @@
 				<max>1.6</max>
 			</visualSizeRange>
 			<topWindExposure>0.4</topWindExposure>
-			<reproduceMtbDays>3</reproduceMtbDays>
+			<wildOrder>1</wildOrder>
+						<lifespanDaysPerGrowDays>1</lifespanDaysPerGrowDays>
+
 		</plant>
 	</ThingDef>
 	
 	<ThingDef ParentName="PlantBase">
 		<defName>GU_RedPlantsTall</defName>
 		<label>alien plant</label>
-		<description>Wild grass. Grows anywhere there is a little light and minimally fertile ground.</description>
-		<statBases>
+<description>This grass is completely alien, probably not even 100% carbon based, and it seems to be decaying quickly by being exposed to a terrestrial environment.</description>		<statBases>
 			<MaxHitPoints>85</MaxHitPoints>
+			<Flammability>1.3</Flammability>
+			<Nutrition>0.05</Nutrition>
 		</statBases>
 		<graphicData>
 			<texPath>Things/Plants/GU_RedLeaves2</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<hideAtSnowDepth>0.5</hideAtSnowDepth>
-		<ingestible>
-			<nutrition>0.18</nutrition>
-		</ingestible>
+		<ingestible />
 		<plant>
 			<fertilityMin>0.05</fertilityMin>
 			<fertilitySensitivity>0.1</fertilitySensitivity>
-			<growDays>2.5</growDays>
+			<growDays>1</growDays>
 			<harvestWork>40</harvestWork>
 			<maxMeshCount>1</maxMeshCount>
 			<visualSizeRange>
@@ -88,7 +90,9 @@
 				<max>1.6</max>
 			</visualSizeRange>
 			<topWindExposure>0.4</topWindExposure>
-			<reproduceMtbDays>3</reproduceMtbDays>
+			<wildOrder>1</wildOrder>
+						<lifespanDaysPerGrowDays>1</lifespanDaysPerGrowDays>
+
 		</plant>
 	</ThingDef>
 	<!--============================ Trees ============================-->
@@ -96,9 +100,10 @@
   <ThingDef ParentName="PlantBase">
     <defName>GU_AlienTree</defName>
     <label>alien tree</label>
-    <description>This thing is weird. Are those eyes? They seem to be fruit, but...</description>
-    <statBases>
+<description>This tree is completely alien, probably not even 100% carbon based, and it seems to be decaying quickly by being exposed to a terrestrial environment. Strange fruits resembling eyeballs hang from the tree, but they are probably not edible. Its wood releases a powerful, sweet scent. Perhaps it can be somehow useful?</description>    <statBases>
       <MaxHitPoints>200</MaxHitPoints>
+	   <Flammability>0.8</Flammability>
+      <Nutrition>0.1</Nutrition>
     </statBases>
     <graphicData>
       <texPath>Things/Plants/GU_AlienTree</texPath>
@@ -117,13 +122,13 @@
     <ingestible>
       <foodType>Tree</foodType>
       <preferability>RawBad</preferability>
-      <nutrition>0.70</nutrition>
+      
     </ingestible>
     <plant>
 			<fertilityMin>0.05</fertilityMin>
 			<fertilitySensitivity>0</fertilitySensitivity>
-			<growDays>5</growDays>
-			<reproduceRadius>42</reproduceRadius>
+			<growDays>1</growDays>
+			
 			<soundHarvesting>Harvest_Tree</soundHarvesting>
 			<soundHarvestFinish>Harvest_Tree_Finish</soundHarvestFinish>
 			<harvestWork>300</harvestWork>
@@ -137,6 +142,8 @@
 				<max>3.0</max>
 			</visualSizeRange>
 			<topWindExposure>0.3</topWindExposure>
+						<lifespanDaysPerGrowDays>1</lifespanDaysPerGrowDays>
+
 		</plant>
   </ThingDef>
 
