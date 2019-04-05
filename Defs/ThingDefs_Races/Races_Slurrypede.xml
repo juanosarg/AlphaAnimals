@@ -68,7 +68,8 @@
       <baseHealthScale>5</baseHealthScale>
       <foodType>OmnivoreRoughAnimal,DendrovoreAnimal,OmnivoreAnimal,AnimalProduct</foodType>
      <hasGenders>false</hasGenders>
-
+<mateMtbHours>10000</mateMtbHours>
+			<gestationPeriodDays>10000</gestationPeriodDays>
       <wildness>0.6</wildness>
       <manhunterOnDamageChance>0.0</manhunterOnDamageChance>
       <manhunterOnTameFailChance>0.0</manhunterOnTameFailChance>
