@@ -11,6 +11,9 @@
 			<li Class="StockGenerator_BuySingleDef">
 				<thingDef>AA_GallatrossHorn</thingDef>
 			</li>
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>GU_RedWood</thingDef>
+			</li>
 		</value>
 	</Operation>
 

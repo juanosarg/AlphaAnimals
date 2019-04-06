@@ -24,31 +24,34 @@ namespace AlphaBehavioursAndEvents
             if (this.tickProgress > Props.ticksConversionRate)
             {
                 Pawn pawn = this.parent as Pawn;
+                if ((!pawn.Downed)) {
+                    CellRect rect = GenAdj.OccupiedRect(pawn.Position, pawn.Rotation, IntVec2.One);
+                    rect = rect.ExpandedBy(2);
 
-                CellRect rect = GenAdj.OccupiedRect(pawn.Position, pawn.Rotation, IntVec2.One);
-                rect = rect.ExpandedBy(2);
-
-                foreach (IntVec3 current in rect.Cells)
-                {
-                    if (current.InBounds(pawn.Map))
+                    foreach (IntVec3 current in rect.Cells)
                     {
-                        HashSet<Thing> hashSet = new HashSet<Thing>(current.GetThingList(pawn.Map));
-                        if (hashSet != null)
+                        if (current.InBounds(pawn.Map))
                         {
-                            Thing current2 = hashSet.FirstOrFallback();
-                            if (current2 != null) { 
-                                if (current2.def.defName == Props.thingToAffect)
+                            HashSet<Thing> hashSet = new HashSet<Thing>(current.GetThingList(pawn.Map));
+                            if (hashSet != null)
+                            {
+                                Thing current2 = hashSet.FirstOrFallback();
+                                if (current2 != null)
                                 {
-                                    Thing thing = GenSpawn.Spawn(ThingDef.Named(Props.thingToTurnTo), current, pawn.Map, WipeMode.Vanish);
-                                    current2.Destroy();
-                                    break;
+                                    if (current2.def.defName == Props.thingToAffect)
+                                    {
+                                        Thing thing = GenSpawn.Spawn(ThingDef.Named(Props.thingToTurnTo), current, pawn.Map, WipeMode.Vanish);
+                                        current2.Destroy();
+                                        break;
+                                    }
                                 }
                             }
+
                         }
 
                     }
-                    
                 }
+                
                 // FilthMaker.MakeFilth(this.parent.PositionHeld, this.parent.MapHeld, ThingDef.Named("GR_FilthMucus"), 1);
                 this.tickProgress = 0;
             }

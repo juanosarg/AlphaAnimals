@@ -54,6 +54,15 @@
 					<li>AA_SandSquid</li>
 					<li>AA_OvergrownColossus</li>
 					<li>AA_GreatDevourer</li>
+					
+					<li>AA_FissionMouse</li>
+					<li>AA_FissionMouseSecond</li>
+					<li>AA_FissionMouseThird</li>
+					<li>AA_DecayDrake</li>
+					<li>AA_ShockGoat</li>
+					<li>AA_OcularJelly</li>
+
+
 
 
 
@@ -98,6 +107,13 @@
 					<li>AA_SandSquid</li>
 					<li>AA_OvergrownColossus</li>
 					<li>AA_GreatDevourer</li>
+					
+					<li>AA_FissionMouse</li>
+					<li>AA_FissionMouseSecond</li>
+					<li>AA_FissionMouseThird</li>
+					<li>AA_DecayDrake</li>
+					<li>AA_ShockGoat</li>
+					
 				</value>
 			</li>
 
@@ -134,6 +150,13 @@
 					<li>AA_SandSquid</li>
 					<li>AA_OvergrownColossus</li>
 					<li>AA_GreatDevourer</li>
+					
+					<li>AA_FissionMouse</li>
+					<li>AA_FissionMouseSecond</li>
+					<li>AA_FissionMouseThird</li>
+					<li>AA_DecayDrake</li>
+					<li>AA_ShockGoat</li>
+					
 				</value>
 			</li>
 
@@ -170,6 +193,13 @@
 					<li>AA_SandSquid</li>
 					<li>AA_OvergrownColossus</li>
 					<li>AA_GreatDevourer</li>
+					
+					<li>AA_FissionMouse</li>
+					<li>AA_FissionMouseSecond</li>
+					<li>AA_FissionMouseThird</li>
+					<li>AA_DecayDrake</li>
+					<li>AA_ShockGoat</li>
+					
 				</value>
 			</li>
 
@@ -214,6 +244,12 @@
 					<li>AA_SandSquid</li>
 					<li>AA_OvergrownColossus</li>
 					<li>AA_GreatDevourer</li>
+					<li>AA_FissionMouse</li>
+					<li>AA_FissionMouseSecond</li>
+					<li>AA_FissionMouseThird</li>
+					<li>AA_DecayDrake</li>
+					<li>AA_ShockGoat</li>
+					<li>AA_OcularJelly</li>
 				</value>
 			</li>
 
@@ -257,6 +293,12 @@
 					<li>AA_SandSquid</li>
 					<li>AA_OvergrownColossus</li>
 					<li>AA_GreatDevourer</li>
+					<li>AA_FissionMouse</li>
+					<li>AA_FissionMouseSecond</li>
+					<li>AA_FissionMouseThird</li>
+					<li>AA_DecayDrake</li>
+					<li>AA_ShockGoat</li>
+					
 				</value>
 			</li>
 
@@ -278,6 +320,12 @@
 					<li>AA_AnimusVox</li>
 					<li>AA_PebbleMit</li>
 					<li>AA_OvergrownColossus</li>
+					<li>AA_FissionMouse</li>
+					<li>AA_FissionMouseSecond</li>
+					<li>AA_FissionMouseThird</li>
+					<li>AA_DecayDrake</li>
+					<li>AA_ShockGoat</li>
+					
 				</value>
 			</li>
 
@@ -323,6 +371,12 @@
 					<li>AA_SandSquid</li>
 					<li>AA_OvergrownColossus</li>
 					<li>AA_GreatDevourer</li>
+					<li>AA_FissionMouse</li>
+					<li>AA_FissionMouseSecond</li>
+					<li>AA_FissionMouseThird</li>
+					<li>AA_DecayDrake</li>
+					<li>AA_ShockGoat</li>
+					<li>AA_OcularJelly</li>
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
@@ -364,6 +418,12 @@
 					<li>AA_PebbleMit</li>
 					<li>AA_OvergrownColossus</li>
 					<li>AA_GreatDevourer</li>
+					<li>AA_FissionMouse</li>
+					<li>AA_FissionMouseSecond</li>
+					<li>AA_FissionMouseThird</li>
+					<li>AA_DecayDrake</li>
+					<li>AA_ShockGoat</li>
+					
 				</value>
 			</li>
 
@@ -405,6 +465,12 @@
 					<li>AA_BumbledroneQueen</li>
 					<li>AA_Thermadon</li>
 					<li>AA_OvergrownColossus</li>
+					<li>AA_FissionMouse</li>
+					<li>AA_FissionMouseSecond</li>
+					<li>AA_FissionMouseThird</li>
+					<li>AA_DecayDrake</li>
+					<li>AA_ShockGoat</li>
+					<li>AA_OcularJelly</li>
 				</value>
 			</li>
 
@@ -425,6 +491,12 @@
 					<li>AA_Wildpawn</li>
 					<li>AA_AnimusVox</li>
 					<li>AA_PebbleMit</li>
+					<li>AA_FissionMouse</li>
+					<li>AA_FissionMouseSecond</li>
+					<li>AA_FissionMouseThird</li>
+					<li>AA_DecayDrake</li>
+					<li>AA_ShockGoat</li>
+					
 				</value>
 			</li>
 
@@ -464,6 +536,12 @@
 					<li>AA_BumbledroneQueen</li>
 					<li>AA_Thermadon</li>
 					<li>AA_OvergrownColossus</li>
+					<li>AA_FissionMouse</li>
+					<li>AA_FissionMouseSecond</li>
+					<li>AA_FissionMouseThird</li>
+					<li>AA_DecayDrake</li>
+					<li>AA_ShockGoat</li>
+				
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
@@ -514,6 +592,12 @@
 					<li>AA_AnimusVox</li>
 
 					<li>AA_OvergrownColossus</li>
+					<li>AA_FissionMouse</li>
+					<li>AA_FissionMouseSecond</li>
+					<li>AA_FissionMouseThird</li>
+					<li>AA_DecayDrake</li>
+					
+					
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">

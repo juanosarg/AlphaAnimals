@@ -16,6 +16,18 @@
       </li>
     </stages>
   </ThoughtDef>
+  
+    <ThoughtDef>
+    <defName>AA_AteHorribleRot</defName>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate fermented rotting vegetation</label>
+        <description>I had to scavenge fermented rotting vegetation to survive. This was worse than eating a corpse. The end is near.</description>
+        <baseMoodEffect>-25</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
 
  
 

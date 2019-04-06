@@ -30,7 +30,7 @@
 				</li>
 				<li>
 					<def>Stomach</def>
-					<coverage>0.03</coverage>
+					<coverage>0.02</coverage>
 					<depth>Inside</depth>
 				</li>
 				<li>
@@ -64,7 +64,26 @@
 				</li>
 				<li>
 					<def>Liver</def>
-					<coverage>0.03</coverage>
+					<customLabel>first liver</customLabel>
+					<coverage>0.01</coverage>
+					<depth>Inside</depth>
+				</li>
+				<li>
+					<def>Liver</def>
+					<customLabel>second liver</customLabel>					
+					<coverage>0.01</coverage>
+					<depth>Inside</depth>
+				</li>
+				<li>
+					<def>Liver</def>
+					<customLabel>third liver</customLabel>
+					<coverage>0.01</coverage>
+					<depth>Inside</depth>
+				</li>
+				<li>
+					<def>Liver</def>
+					<customLabel>fourth liver</customLabel>
+					<coverage>0.01</coverage>
 					<depth>Inside</depth>
 				</li>
 				<li>
