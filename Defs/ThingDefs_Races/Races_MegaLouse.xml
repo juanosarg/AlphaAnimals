@@ -116,6 +116,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
   	<defName>AA_MegaLouse</defName>
     <label>megalouse</label>
+	<labelPlural>megalice</labelPlural>
     <race>AA_MegaLouse</race>
     <combatPower>150</combatPower>
     <ecoSystemWeight>0.2</ecoSystemWeight>
@@ -125,7 +126,6 @@
     </wildGroupSize>
     <lifeStages>
     	<li>
-    		<label>megalouse</label>
     		<bodyGraphicData>
     			<texPath>Things/Pawn/Animal/AA_MegaLouse/AA_MegaLouse</texPath>
     			<drawSize>0.8</drawSize>
@@ -136,7 +136,6 @@
     		</dessicatedBodyGraphicData>
     	</li>
     	<li>
-    		<label>megalouse</label>
     		<bodyGraphicData>
     			<texPath>Things/Pawn/Animal/AA_MegaLouse/AA_MegaLouse</texPath>
     			<drawSize>1</drawSize>

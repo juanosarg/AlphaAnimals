@@ -51,6 +51,28 @@
     </stuffProps>
   </ThingDef>
   
+    <ThingDef ParentName="LeatherBase">
+    <defName>AA_SandLion_Leather</defName>
+    <label>sand lion fur</label>
+    <description>Cream coloured thick leather covered in a long, rugged mat of fur. Harvested from a sand lion. This thick skin insulates from heat and protects really well.</description>
+    <graphicData>
+      <color>(178,129,100)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>3.8</MarketValue>
+      <StuffPower_Armor_Sharp>1.24</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Cold>14</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>36</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(178,129,100)</color>
+      <commonality>0.001</commonality>
+      <statFactors>
+        <MaxHitPoints>1.5</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  
   <ThingDef ParentName="LeatherBase">
     <defName>Leather_Chitin</defName>
     <label>insect chitin</label>
