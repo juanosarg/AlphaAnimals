@@ -249,7 +249,7 @@
     <stages>
       <li>
         <label>initial</label>
-        <becomeVisible>false</becomeVisible>
+       
       </li>
       <li>
         <label>initial</label>
@@ -346,6 +346,60 @@
           </li>
         </hediffGivers>
       </li>
+    </stages>
+  </HediffDef>
+  
+  <HediffDef>
+    <defName>AA_AcidBuildup</defName>
+	<hediffClass>AlphaBehavioursAndEvents.Hediff_AcidBuildup</hediffClass>
+    <defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+    <label>acid burn</label>
+    <lethalSeverity>1</lethalSeverity>
+    <makesSickThought>true</makesSickThought>
+    
+    <comps>
+      <li Class="HediffCompProperties_Immunizable">
+        <severityPerDayNotImmune>-4</severityPerDayNotImmune>
+      </li>
+    </comps>
+    <stages>
+      
+      
+      <li>
+        <label>minor, receiving burns</label>
+        <minSeverity>0</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.10</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>moderate, receiving burns</label>
+        <minSeverity>0.40</minSeverity>
+        <vomitMtbDays>5</vomitMtbDays>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.15</offset>
+          </li>
+        </capMods>
+       
+      </li>
+      <li>
+        <label>serious, receiving burns</label>
+        <minSeverity>0.60</minSeverity>
+        <vomitMtbDays>1</vomitMtbDays>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.4</offset>
+          </li>
+        </capMods>
+        
+      </li>
+      
     </stages>
   </HediffDef>
 

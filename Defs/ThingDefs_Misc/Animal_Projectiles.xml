@@ -33,6 +33,24 @@
     </projectile>
   </ThingDef>
   
+   <ThingDef ParentName="BaseBullet">
+    <defName>AA_AcidBolt</defName>
+    <label>acid spit</label>
+	<thingClass>AlphaAnimalRangeAttack.AnimalProjectile</thingClass>
+    <graphicData>
+      <texPath>Things/Projectiles/AA_PoisonBolt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>AA_AcidSpit</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+      <armorPenetrationBase>0.35</armorPenetrationBase>
+	  <stoppingPower>1.1</stoppingPower>
+      <speed>40</speed>
+    </projectile>
+  </ThingDef>
+  
   <ThingDef ParentName="BaseBullet">
     <defName>AA_RedPoisonBolt</defName>
     <label>red poison spit</label>

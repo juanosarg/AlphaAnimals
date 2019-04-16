@@ -23,6 +23,11 @@
 	</ToolCapacityDef>
 	
 	<ToolCapacityDef>
+		<defName>AA_Acid</defName>
+		<label>acid spit</label>
+	</ToolCapacityDef>
+	
+	<ToolCapacityDef>
 		<defName>AA_VeryToxicSting</defName>
 		<label>very toxic stinging</label>
 	</ToolCapacityDef>

@@ -28,11 +28,11 @@ namespace AlphaBehavioursAndEvents
                 Pawn pawn = this.parent as Pawn;
 
                 CellRect rect = GenAdj.OccupiedRect(pawn.Position, pawn.Rotation, IntVec2.One);
-                rect = rect.ExpandedBy(2);
+                rect = rect.ExpandedBy(Props.radius);
 
                foreach (IntVec3 current in rect.Cells)
                 {
-                    if (current.InBounds(pawn.Map)&& rand.NextDouble() < 0.2)
+                    if (current.InBounds(pawn.Map)&& rand.NextDouble() < Props.rate)
                     {
                         Thing thing = ThingMaker.MakeThing(ThingDef.Named(Props.gasType), null);
 

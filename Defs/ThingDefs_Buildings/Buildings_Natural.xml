@@ -106,5 +106,31 @@
       </li>
     </comps>
   </ThingDef>
+  
+    <ThingDef ParentName="RockBase">
+    <defName>AA_SkySteelClumps</defName>
+    <label>strange shiny mineral</label>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(36,84,150)</color>
+      <colorTwo>(107,123,33)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>4500</MaxHitPoints>
+    </statBases>
+    <description>This strange mineral is very hard and resilient. Perhaps you could find a way to extract useable materials from it.</description>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>AA_SkySteel</mineableThing>
+      <mineableYield>45</mineableYield>
+      <mineableScatterCommonality>0</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>
+        <min>20</min>
+        <max>40</max>
+      </mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
 
 </Defs>

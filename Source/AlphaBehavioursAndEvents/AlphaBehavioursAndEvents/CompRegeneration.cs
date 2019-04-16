@@ -44,7 +44,8 @@ namespace AlphaBehavioursAndEvents
                     {
                         foreach (Hediff_Injury injury in pawn.health.hediffSet.GetInjuriesTendable())
                         {
-                            injury.Severity = Mathf.Clamp(injury.Severity - 0.1f, 0.0f, 1.0f);
+                            injury.Severity = injury.Severity - 0.1f;
+                            break;
                         }
                     }
                 }

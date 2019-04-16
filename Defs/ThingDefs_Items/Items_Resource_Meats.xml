@@ -88,7 +88,7 @@
 
 	<ThingDef ParentName="AA_PlantFoodRawBase">
 		<defName>AA_CactusMeat</defName>
-		<label>cactus meat</label>
+		<label>plant meat</label>
 		<description>This strange meat is part vegetable, part animal. Confusing, to say the least.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/AA_Cactipine_Meat</texPath>

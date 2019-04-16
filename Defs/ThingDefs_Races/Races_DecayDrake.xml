@@ -83,6 +83,7 @@
 
 			<li Class="AlphaBehavioursAndEvents.CompProperties_NearbyEffecter">
 				<thingToAffect>Plant_Grass</thingToAffect>
+				<secondaryThingToAffect>Plant_TallGrass</secondaryThingToAffect>
 				<thingToTurnTo>AA_RottingMound</thingToTurnTo>
 				<ticksConversionRate>5000</ticksConversionRate>
 

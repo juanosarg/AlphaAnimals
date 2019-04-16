@@ -7,7 +7,7 @@
 	
 &lt;size=24&gt;Features&lt;/size&gt;
 
-Adds 30 new, vanilla-friendly creatures to the diverse biomes of your Rimworlds. The philosophy of this mod is that every new creatures tries to bring some new mechanic into the game, whether it be walking tanks, living resource farm, indestructible plant monsters, night time stalkers, or plain speedy giant spiders. Some of the mechanics are simple, others much more complex.
+Adds 45 new, vanilla-friendly creatures to the diverse biomes of your Rimworlds. The philosophy of this mod is that every new creatures tries to bring some new mechanic into the game, whether it be walking tanks, living resource farm, indestructible plant monsters, night time stalkers, or plain speedy giant spiders. Some of the mechanics are simple, others much more complex.
 
 These animals will spawn in certain biomes, some others will only be available via traders. You'll have to explore to find them all!
 
@@ -28,6 +28,7 @@ Compatible with A Dog Said...
 Compatible with the implants from Genetic Rim
 Compatible with cloth production in Vegetable Garden Project (VGP)
 Compatible with Nature's Pretty Sweet
+Compatible with Advanced Biomes
 Uses Harmony (no need to download)
 Uses ModCheck (no need to download)
 
@@ -41,6 +42,7 @@ Fireball Graphic created by StarsteelGaming at OpenGameArt.org (2018)
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
 
+v1.3: Added five new animals. Bugfixing and balance tweaks. Full changelog on GitHub (16/04/19)
 v1.2: Added four new animals. Added compatibility with Advanced Biomes Mod (06/04/19)
 v1.1: Added visual Giddy-Up! saddles to mosty rideable creatures. The Meadow Ave is not being rendered correctly so it will need a later update (02/04/19)
 v1.096: Bugfixing and balance tweaks. Full changelog on GitHub (06/03/19)

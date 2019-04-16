@@ -78,9 +78,11 @@
     <Compile Include="DamageWorker_Siege.cs" />
     <Compile Include="DeathActionWorker_MouseFission.cs" />
     <Compile Include="Gas_Ocular.cs" />
+    <Compile Include="Hediff_AcidBuildup.cs" />
     <Compile Include="Hediff_Crushing.cs" />
     <Compile Include="Hediff_NocturnalAnimal.cs" />
     <Compile Include="Hediff_Stalking.cs" />
+    <Compile Include="IncidentWorker_Asteroid.cs" />
     <Compile Include="IncidentWorker_Bumbledrones.cs" />
     <Compile Include="IncidentWorker_BlackHive.cs" />
     <Compile Include="IncidentWorker_FeraliskClutchMother.cs" />
@@ -97,7 +99,9 @@
     <Compile Include="JobDriver_PsionicNuzzle.cs" />
     <Compile Include="JobGiver_Mine.cs" />
     <Compile Include="JobGiver_PsionicNuzzle.cs" />
+    <Compile Include="MassUtilityPatcher.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThingSetMaker_SpecialMeteorite.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -58,6 +58,7 @@
 			<wildness>0.60</wildness>
 			<canBePredatorPrey>false</canBePredatorPrey>
 			<trainability>Simple</trainability>
+			
 			<mateMtbHours>10000</mateMtbHours>
 			<gestationPeriodDays>10000</gestationPeriodDays>
 			<lifeExpectancy>9</lifeExpectancy>
@@ -194,7 +195,9 @@
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>AA_Leather_Aerofleet</leatherDef>
 			<wildness>1</wildness>
-			<gestationPeriodDays>8</gestationPeriodDays>
+			
+	<mateMtbHours>10000</mateMtbHours>
+			<gestationPeriodDays>10000</gestationPeriodDays>
 			<lifeExpectancy>110</lifeExpectancy>
 			<lifeStageAges>
 				<li>

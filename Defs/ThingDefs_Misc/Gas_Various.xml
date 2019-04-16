@@ -23,5 +23,25 @@
       <rotationSpeed>10</rotationSpeed>
     </gas>
   </ThingDef>
+  
+  <ThingDef ParentName="BaseGas">
+    <defName>AA_SandPuff</defName>
+	
+    <label>particulate sand</label>
+    <graphicData>
+      <texPath>Things/Gas/AA_Sandpuff</texPath>
+      <drawSize>1.5</drawSize>
+      
+    </graphicData>
+    <gas>
+      <expireSeconds>
+        <min>17</min>
+        <max>20</max>
+      </expireSeconds>
+      <blockTurretTracking>true</blockTurretTracking>
+      <accuracyPenalty>0.5</accuracyPenalty>
+      <rotationSpeed>10</rotationSpeed>
+    </gas>
+  </ThingDef>
     
 </Defs>

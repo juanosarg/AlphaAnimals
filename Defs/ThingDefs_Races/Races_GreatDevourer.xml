@@ -53,7 +53,7 @@
 				
 			</li>
 			<li Class="AlphaBehavioursAndEvents.CompProperties_Regeneration">
-				<rateInTicks>8000</rateInTicks>
+				<rateInTicks>50</rateInTicks>
 
 			</li>
      

@@ -119,6 +119,18 @@
   </IncidentDef>
   
   <IncidentDef>
+    <defName>AA_Incident_SkyMeteorite</defName>
+    <label>sky meteorite</label>
+		<category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>AlphaBehavioursAndEvents.IncidentWorker_Asteroid</workerClass>
+    <baseChance>0.1</baseChance>
+    <minRefireDays>60</minRefireDays>
+  </IncidentDef>
+  
+  <IncidentDef>
     <defName>AA_Incident_Bumbledrones</defName>
     <label>bumbledrone migration</label>
 		<category>Misc</category>

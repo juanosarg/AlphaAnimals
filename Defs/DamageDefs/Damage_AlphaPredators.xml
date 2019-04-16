@@ -22,6 +22,36 @@
 	</DamageDef>
 	
 	<DamageDef>
+		<defName>AA_AcidSpit</defName>
+		<label>acid spit</label>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been corroded to death.</deathMessage>
+		<hediff>Burn</hediff>
+		<additionalHediffs>
+			<li>
+				<hediff>AA_AcidBuildup</hediff>
+				<severityPerDamageDealt>0.01</severityPerDamageDealt>
+				
+			</li>
+		</additionalHediffs>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<armorCategory>Heat</armorCategory>
+	</DamageDef>
+	
+	<DamageDef>
+		<defName>AA_SecondaryAcidBurn</defName>
+		<label>acid burn</label>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been corroded to death.</deathMessage>
+		<hediff>Burn</hediff>
+		
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<armorCategory>Heat</armorCategory>
+	</DamageDef>
+	
+	<DamageDef>
 		<defName>AA_VeryToxicSting</defName>
 		<label>very toxic sting</label>
 		<workerClass>DamageWorker_Stab</workerClass>

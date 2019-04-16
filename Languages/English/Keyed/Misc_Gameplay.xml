@@ -13,6 +13,9 @@
   <LetterLabelColossalAerofleetPasses>Colossal Aerofleet</LetterLabelColossalAerofleetPasses>
   <LetterColossalAerofleetPasses>A strange floating creature bounces around in the distance, blundering around the landscape.\n\nA small horde of smaller specimens seem to be attracted to it, and follow it at a short distance.\n\nThey seem to be mostly harmless, and will probably leave the area when they have fed.</LetterColossalAerofleetPasses>
   
+  <LetterLabelSkyAsteroid>Strange asteroid</LetterLabelSkyAsteroid>
+  <LetterSkyAsteroid>A small, strange asteroid seems to have entered the atmosphere of this planet. Impact is inminent.</LetterSkyAsteroid>
+  
   <LetterLabelBumbledroneMigration>Bumbledrone migration</LetterLabelBumbledroneMigration>
   <LetterBumbledroneMigration>A small group of bumbledrones, led by a bumbledrone queen, has entered this area.\n\nBumbledrones are generally not aggressive, unless threatened.\n\nThey will probably leave this area after a while in search of a quieter place, since the colony is too noisy for them.</LetterBumbledroneMigration>
 
@@ -44,17 +47,18 @@
   
   <!-- Animal Products -->
   
-  <HyperweaveDesc>Hyperweave production:</HyperweaveDesc>
-  <StoneChunkDesc>Random stone chunk loosening:</StoneChunkDesc>
-  <StoneBlockDesc>Random stone block loosening:</StoneBlockDesc>
-  <MedicinalQuillDesc>Medicinal quill growth:</MedicinalQuillDesc>
-  <DevilstrandDesc>Devilstrand production:</DevilstrandDesc>
-  <SynthreadDesc>Synthread production:</SynthreadDesc>
-  <BoomthreadDesc>Boomthread production:</BoomthreadDesc>
-  <ChunkSlagSteelDesc>Steel chunk loosening:</ChunkSlagSteelDesc>
-  <RawMushrooms>Raw mushrooms growth:</RawMushrooms>
-  <AA_MealNutrientPaste>Nutrient paste production:</AA_MealNutrientPaste>
-  <AA_Wood>Time to "trim" trees:</AA_Wood>
+  <HyperweaveDesc>Hyperweave production</HyperweaveDesc>
+  <AA_UraniumCrystalsDesc>Uranium crystal loosening</AA_UraniumCrystalsDesc>
+  <StoneChunkDesc>Random stone chunk loosening</StoneChunkDesc>
+  <StoneBlockDesc>Random stone block loosening</StoneBlockDesc>
+  <MedicinalQuillDesc>Medicinal quill growth</MedicinalQuillDesc>
+  <DevilstrandDesc>Devilstrand production</DevilstrandDesc>
+  <SynthreadDesc>Synthread production</SynthreadDesc>
+  <BoomthreadDesc>Boomthread production</BoomthreadDesc>
+  <ChunkSlagSteelDesc>Steel chunk loosening</ChunkSlagSteelDesc>
+  <RawMushrooms>Raw mushrooms growth</RawMushrooms>
+  <AA_MealNutrientPaste>Nutrient paste production</AA_MealNutrientPaste>
+  <AA_Wood>Time to "trim" trees</AA_Wood>
 
 
   
@@ -69,6 +73,8 @@
   <allowSummitCrab>Allow summit crab event</allowSummitCrab>
   <allowBumbledrones>Allow bumbledrone migrations</allowBumbledrones>
   <allowFrostmiteCorpses>Allow frostmites digging corpses on their own</allowFrostmiteCorpses>
+  <allowAsteroids>Allow Arcturan Sky eel asteroids impacting</allowAsteroids>
+
 
 
 

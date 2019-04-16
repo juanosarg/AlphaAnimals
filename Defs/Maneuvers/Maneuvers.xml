@@ -74,6 +74,20 @@
   </ManeuverDef>
   
       <ManeuverDef>
+    <defName>AA_Acid</defName>
+    <requiredCapacity>AA_Acid</requiredCapacity>
+    <verb>
+      <verbClass>Verb_MeleeAttackDamage</verbClass>
+      <meleeDamageDef>AA_AcidSpit</meleeDamageDef>
+    </verb>
+    <logEntryDef>MeleeAttack</logEntryDef>
+    <combatLogRulesHit>Maneuver_Smash_MeleeHit</combatLogRulesHit>
+    <combatLogRulesDeflect>Maneuver_Smash_MeleeDeflect</combatLogRulesDeflect>
+    <combatLogRulesMiss>Maneuver_Smash_MeleeMiss</combatLogRulesMiss>
+    <combatLogRulesDodge>Maneuver_Smash_MeleeDodge</combatLogRulesDodge>
+  </ManeuverDef>
+  
+      <ManeuverDef>
     <defName>AA_ToxicSting</defName>
     <requiredCapacity>AA_ToxicSting</requiredCapacity>
     <verb>

@@ -172,7 +172,7 @@
    <ThingDef ParentName="ResourceVerbBase">
     <defName>GU_RedWood</defName>
     <label>red wood</label>
-    <description>This red tinged wood is oddly strong, and a sweet scent emanates from it.</description>
+    <description>This red tinged wood is oddly strong, and a sweet scent emanates from it. Less flammable than terrestrial wood, but quite ugly.</description>
     <graphicData>
       <texPath>Things/Item/Resource/GU_RedWood</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -204,13 +204,14 @@
       <soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
       <statFactors>
-        <MaxHitPoints>0.75</MaxHitPoints>
-        <Beauty>-1</Beauty>
+		<Beauty>0.45</Beauty>
+        <MaxHitPoints>0.75</MaxHitPoints>    
         <Flammability>0.75</Flammability>
         <WorkToMake>0.6</WorkToMake>
-				<WorkToBuild>0.8</WorkToBuild>
+		<WorkToBuild>0.8</WorkToBuild>
         <DoorOpenSpeed>1.0</DoorOpenSpeed>
         <MeleeWeapon_CooldownMultiplier>1</MeleeWeapon_CooldownMultiplier>
+		
       </statFactors>
     </stuffProps>
     <thingCategories>
@@ -231,6 +232,79 @@
       </li>
     </tools>
   </ThingDef>
+  
+   <ThingDef ParentName="ResourceBase">
+    <defName>AA_SkySteel</defName>
+    <label>sky steel</label>
+    <description>A weird iron based compound found in a fallen asteroid. Stronger than normal steel, but a terrible insulator.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/AA_SkySteel</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <statBases>
+      <MarketValue>2.5</MarketValue>
+      <Mass>0.35</Mass>
+      <StuffPower_Armor_Sharp>1</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.55</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.35</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>0</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>1.1</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.1</BluntDamageMultiplier>
+    </statBases>
+    <useHitPoints>false</useHitPoints>
+    
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+   
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <commonality>0</commonality>
+      <constructEffect>ConstructMetal</constructEffect>
+      <color>(36,84,150)</color>
+      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <statFactors>
+        <MaxHitPoints>1.5</MaxHitPoints>
+        <Beauty>2</Beauty>
+        <Flammability>0.2</Flammability>
+      </statFactors>
+      
+    </stuffProps>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+		<defName>AA_UraniumCrystals</defName>
+		<label>unrefined uranium crystals</label>
+		<description>This crystal can be refined in a chemfuel refinery into uranium.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AA_UraniumCrystals</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>75</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>65</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>1.8</Mass>
+
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+	</ThingDef>
 
 
 

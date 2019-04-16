@@ -7,6 +7,9 @@ namespace AlphaBehavioursAndEvents
     {
 
         public string gasType = "";
+        public float rate = 0f;
+        public int radius = 0;
+
 
 
         public CompProperties_GasProducer()

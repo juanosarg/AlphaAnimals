@@ -74,7 +74,7 @@
 		<comps>
 
 			<li Class="AlphaBehavioursAndEvents.CompProperties_Regeneration">
-				<rateInTicks>1000</rateInTicks>
+				<rateInTicks>20</rateInTicks>
 
 			</li>
 

@@ -147,7 +147,7 @@
   
     <ThingDef ParentName="LeatherBase">
     <defName>Leather_Cactus</defName>
-    <label>living cactus skin</label>
+    <label>sentient plant skin</label>
     <description>This strange material seems to be part animal hide, part living plant tissue. It traps cold water inside, acting as an incredibly good thermal insulator for hot climates.</description>
     <graphicData>
 		

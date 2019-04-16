@@ -124,7 +124,7 @@
 			<AA_CactusMeat>2</AA_CactusMeat>
 		</butcherProducts>
 				<tradeTags>
-			<li>ExoticAnimal</li>
+			<li>AnimalExotic</li>
 		</tradeTags>
 </ThingDef>
 

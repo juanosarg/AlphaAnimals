@@ -85,6 +85,7 @@
 	  <leatherDef>Leather_Cactus</leatherDef>
       <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
       <wildness>0.75</wildness>
+	  
       <manhunterOnDamageChance>1.0</manhunterOnDamageChance>
       <manhunterOnTameFailChance>0.2</manhunterOnTameFailChance>
       <trainability>Intermediate</trainability>

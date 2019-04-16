@@ -105,7 +105,8 @@
       <trainability>Intermediate</trainability>
       <lifeExpectancy>70</lifeExpectancy>
 	  <mateMtbHours>10000</mateMtbHours>
-			<gestationPeriodDays>10000</gestationPeriodDays>
+	<gestationPeriodDays>10000</gestationPeriodDays>
+			
       <lifeStageAges>
         <li>
           <def>AnimalBaby</def>

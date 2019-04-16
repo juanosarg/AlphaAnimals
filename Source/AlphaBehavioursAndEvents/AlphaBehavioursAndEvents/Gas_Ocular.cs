@@ -34,25 +34,29 @@ namespace AlphaBehavioursAndEvents
                                if (plant.IsTree && (current.def.defName != "GU_AlienTree"))
                                {
                                     Plant thing2 = (Plant)GenSpawn.Spawn(ThingDef.Named("GU_AlienTree"), this.Position, this.Map, WipeMode.Vanish);
-                                    thing2.Growth = 1f;
+                                    Plant thingToDestroy = (Plant)current;
+                                    thing2.Growth = thingToDestroy.Growth;
                                     current.Destroy();
                                } else if (!plant.IsTree && (current.def.defName != "GU_AlienGrass")&&(current.def.defName != "GU_RedLeaves") && (current.def.defName != "GU_RedPlantsTall"))
                                 {
                                     if (rand.NextDouble() < 0.4)
                                     {
                                         Plant thing2 = (Plant)GenSpawn.Spawn(ThingDef.Named("GU_AlienGrass"), this.Position, this.Map, WipeMode.Vanish);
-                                        thing2.Growth = 1f;
+                                        Plant thingToDestroy = (Plant)current;
+                                        thing2.Growth = thingToDestroy.Growth;
                                         current.Destroy();
                                     } else if (rand.NextDouble() > 0.4 && rand.NextDouble() < 0.7)
                                     {
                                         Plant thing2 = (Plant)GenSpawn.Spawn(ThingDef.Named("GU_RedLeaves"), this.Position, this.Map, WipeMode.Vanish);
-                                        thing2.Growth = 1f;
+                                        Plant thingToDestroy = (Plant)current;
+                                        thing2.Growth = thingToDestroy.Growth;
                                         current.Destroy();
                                     }
                                     else if (rand.NextDouble() > 0.7)
                                     {
                                         Plant thing2 = (Plant)GenSpawn.Spawn(ThingDef.Named("GU_RedPlantsTall"), this.Position, this.Map, WipeMode.Vanish);
-                                        thing2.Growth = 1f;
+                                        Plant thingToDestroy = (Plant)current;
+                                        thing2.Growth = thingToDestroy.Growth;
                                         current.Destroy();
                                     }
                                 }

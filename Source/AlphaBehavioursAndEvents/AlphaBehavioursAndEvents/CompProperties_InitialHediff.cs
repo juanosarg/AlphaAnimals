@@ -7,6 +7,7 @@ namespace AlphaBehavioursAndEvents
 
         public string hediffname = "";
         public float hediffseverity = 0f;
+        public int numberOfHediffs = 1;
 
 
 

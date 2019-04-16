@@ -7,7 +7,9 @@ namespace AlphaBehavioursAndEvents
     {
 
         public string thingToAffect = "";
-      
+        public string secondaryThingToAffect = "";
+
+
         public string thingToTurnTo = "";
         public int ticksConversionRate = 1000;
 

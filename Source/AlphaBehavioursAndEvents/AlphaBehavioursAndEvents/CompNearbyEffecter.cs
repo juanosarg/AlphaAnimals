@@ -43,6 +43,11 @@ namespace AlphaBehavioursAndEvents
                                         Thing thing = GenSpawn.Spawn(ThingDef.Named(Props.thingToTurnTo), current, pawn.Map, WipeMode.Vanish);
                                         current2.Destroy();
                                         break;
+                                    } else if (current2.def.defName == Props.secondaryThingToAffect)
+                                    {
+                                        Thing thing = GenSpawn.Spawn(ThingDef.Named(Props.thingToTurnTo), current, pawn.Map, WipeMode.Vanish);
+                                        current2.Destroy();
+                                        break;
                                     }
                                 }
                             }

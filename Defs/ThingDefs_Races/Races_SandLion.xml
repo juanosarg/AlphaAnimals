@@ -6,7 +6,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>AA_SandLion</defName>
     <label>sand lion</label>
-    <description>The Sand Lion is a variant of the genetically modified arctic lion, specifically engineered as ambush units by the navy for extreme high temperature environments. Instead of a light reflecting pelt, the sand lion has the unique ability of constantly digging into sand, producing dense clouds of particulate matter that obscures sight of its prey, making it easier for the lion to attack them.\n\nDue to this ability, attacking a sand lion with guns is not really advisable, unless they are VERY big guns.</description>
+    <description>The Sand Lion is a variant of the genetically modified arctic lion, specifically engineered as ambush units by the navy for extreme high temperature environments. Instead of a light reflecting pelt, the sand lion has the unique ability of constantly digging into sand, producing dense clouds of particulate matter that obscures line of sight of its prey, making it easier for the lion to attack them.\n\nDue to this ability, attacking a sand lion with guns is not really advisable, unless they are VERY big guns.</description>
     <statBases>
       <MoveSpeed>6</MoveSpeed>
       <ComfyTemperatureMin>10</ComfyTemperatureMin>
@@ -75,6 +75,19 @@
         <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
+	
+	<comps>
+
+			
+			
+			<li Class="AlphaBehavioursAndEvents.CompProperties_GasProducer">
+				<gasType>AA_SandPuff</gasType>
+				<rate>0.2</rate>
+				<radius>2</radius>
+			</li>
+		
+
+		</comps>
    
     <race>
       <body>QuadrupedAnimalWithPawsAndTail</body>
