@@ -24,7 +24,7 @@ namespace AlphaBehavioursAndEvents
             if (this.tickProgress > Props.ticksConversionRate)
             {
                 Pawn pawn = this.parent as Pawn;
-                if ((!pawn.Downed)) {
+                if ((!pawn.Downed)&&(pawn.Map != null)) {
                     CellRect rect = GenAdj.OccupiedRect(pawn.Position, pawn.Rotation, IntVec2.One);
                     rect = rect.ExpandedBy(2);
 
