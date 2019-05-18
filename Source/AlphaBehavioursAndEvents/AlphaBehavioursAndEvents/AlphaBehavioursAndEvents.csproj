@@ -99,7 +99,7 @@
     <Compile Include="JobDriver_PsionicNuzzle.cs" />
     <Compile Include="JobGiver_Mine.cs" />
     <Compile Include="JobGiver_PsionicNuzzle.cs" />
-    <Compile Include="MassUtilityPatcher.cs" />
+    <Compile Include="HarmonyPatchers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ThingSetMaker_SpecialMeteorite.cs" />
   </ItemGroup>
