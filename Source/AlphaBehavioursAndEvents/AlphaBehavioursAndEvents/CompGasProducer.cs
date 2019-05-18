@@ -26,22 +26,24 @@ namespace AlphaBehavioursAndEvents
             if (this.gasProgress > gasTickMax)
             {
                 Pawn pawn = this.parent as Pawn;
+                if (pawn.Map != null) {
+                    CellRect rect = GenAdj.OccupiedRect(pawn.Position, pawn.Rotation, IntVec2.One);
+                    rect = rect.ExpandedBy(Props.radius);
 
-                CellRect rect = GenAdj.OccupiedRect(pawn.Position, pawn.Rotation, IntVec2.One);
-                rect = rect.ExpandedBy(Props.radius);
-
-               foreach (IntVec3 current in rect.Cells)
-                {
-                    if (current.InBounds(pawn.Map)&& rand.NextDouble() < Props.rate)
+                   foreach (IntVec3 current in rect.Cells)
                     {
-                        Thing thing = ThingMaker.MakeThing(ThingDef.Named(Props.gasType), null);
+                        if (current.InBounds(pawn.Map)&& rand.NextDouble() < Props.rate)
+                        {
+                            Thing thing = ThingMaker.MakeThing(ThingDef.Named(Props.gasType), null);
 
-                        GenSpawn.Spawn(thing, current, pawn.Map);
+                            GenSpawn.Spawn(thing, current, pawn.Map);
+                        }
+
                     }
-
+                    // FilthMaker.MakeFilth(this.parent.PositionHeld, this.parent.MapHeld, ThingDef.Named("GR_FilthMucus"), 1);
+                    this.gasProgress = 0;
                 }
-                // FilthMaker.MakeFilth(this.parent.PositionHeld, this.parent.MapHeld, ThingDef.Named("GR_FilthMucus"), 1);
-                this.gasProgress = 0;
+                    
             }
         }
     }

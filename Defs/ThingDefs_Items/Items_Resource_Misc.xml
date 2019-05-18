@@ -244,8 +244,8 @@
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Metal_Drop</soundDrop>
     <statBases>
-      <MarketValue>2.5</MarketValue>
-      <Mass>0.35</Mass>
+      <MarketValue>5</MarketValue>
+      <Mass>1</Mass>
       <StuffPower_Armor_Sharp>1</StuffPower_Armor_Sharp>
       <StuffPower_Armor_Blunt>0.55</StuffPower_Armor_Blunt>
       <StuffPower_Armor_Heat>0.35</StuffPower_Armor_Heat>
