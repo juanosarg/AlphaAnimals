@@ -8,18 +8,7 @@ namespace AlphaBehavioursAndEvents
     class AlphaAnimals_Settings: ModSettings
         
     {
-           
-
-            public bool flagBlackHiveRaids = true;
-            public bool flagStalkingLions = true;
-            public bool flagCactipineDroppods = true;
-            public bool flagSpiderClutchMothers = true;
-            public bool flagAerofleets = true;
-            public bool flagGallatross = true;
-            public bool flagSummitCrab = true;
-            public bool flagBumbledrones = true;
-            public bool flagFrostmites = true;
-            public bool flagAsteroids = true;
+          
 
             public bool AA_AerofleetFlag = false;
             public bool AA_AnimusVoxFlag = false;
@@ -64,17 +53,7 @@ namespace AlphaBehavioursAndEvents
         public override void ExposeData()
             {
                 base.ExposeData();
-                Scribe_Values.Look(ref this.flagBlackHiveRaids, "flagBlackHiveRaids", true);
-                Scribe_Values.Look(ref this.flagStalkingLions, "flagStalkingLions", true);
-                Scribe_Values.Look(ref this.flagCactipineDroppods, "flagCactipineDroppods", true);
-                Scribe_Values.Look(ref this.flagSpiderClutchMothers, "flagSpiderClutchMothers", true);
-                Scribe_Values.Look(ref this.flagAerofleets, "flagAerofleets", true);
-                Scribe_Values.Look(ref this.flagGallatross, "flagGallatross", true);
-                Scribe_Values.Look(ref this.flagSummitCrab, "flagSummitCrab", true);
-                Scribe_Values.Look(ref this.flagBumbledrones, "flagBumbledrones", true);
-                Scribe_Values.Look(ref this.flagFrostmites, "flagFrostmites", true);
-                Scribe_Values.Look(ref this.flagAsteroids, "flagAsteroid", true);
-
+               
                 Scribe_Values.Look(ref this.AA_AerofleetFlag, "AA_AerofleetFlag", false);
                 Scribe_Values.Look(ref this.AA_AnimusVoxFlag, "AA_AnimusVoxFlag", false);
                 Scribe_Values.Look(ref this.AA_ArcticLionFlag, "AA_ArcticLionFlag", false);
@@ -115,10 +94,43 @@ namespace AlphaBehavioursAndEvents
                 Scribe_Values.Look(ref this.AA_WildpodFlag, "AA_WildpodFlag", false);
 
 
+        }
 
 
+    }
+
+    class AlphaAnimalsEvents_Settings : ModSettings
+
+    {
 
 
+        public bool flagBlackHiveRaids = true;
+        public bool flagStalkingLions = true;
+        public bool flagCactipineDroppods = true;
+        public bool flagSpiderClutchMothers = true;
+        public bool flagAerofleets = true;
+        public bool flagGallatross = true;
+        public bool flagSummitCrab = true;
+        public bool flagBumbledrones = true;
+        public bool flagFrostmites = true;
+        public bool flagAsteroids = true;
+
+
+        public override void ExposeData()
+        {
+            base.ExposeData();
+            Scribe_Values.Look(ref this.flagBlackHiveRaids, "flagBlackHiveRaids", true);
+            Scribe_Values.Look(ref this.flagStalkingLions, "flagStalkingLions", true);
+            Scribe_Values.Look(ref this.flagCactipineDroppods, "flagCactipineDroppods", true);
+            Scribe_Values.Look(ref this.flagSpiderClutchMothers, "flagSpiderClutchMothers", true);
+            Scribe_Values.Look(ref this.flagAerofleets, "flagAerofleets", true);
+            Scribe_Values.Look(ref this.flagGallatross, "flagGallatross", true);
+            Scribe_Values.Look(ref this.flagSummitCrab, "flagSummitCrab", true);
+            Scribe_Values.Look(ref this.flagBumbledrones, "flagBumbledrones", true);
+            Scribe_Values.Look(ref this.flagFrostmites, "flagFrostmites", true);
+            Scribe_Values.Look(ref this.flagAsteroids, "flagAsteroid", true);
+
+          
 
         }
 
@@ -128,10 +140,10 @@ namespace AlphaBehavioursAndEvents
     class AlphaAnimalsEvents_Mod : Mod
     {
 
-        public static AlphaAnimals_Settings settings;
+        public static AlphaAnimalsEvents_Settings settings;
         public AlphaAnimalsEvents_Mod(ModContentPack content) : base(content)
         {
-            settings = GetSettings<AlphaAnimals_Settings>();
+            settings = GetSettings<AlphaAnimalsEvents_Settings>();
         }
         public override string SettingsCategory() => "Alpha Animals, Events";
 

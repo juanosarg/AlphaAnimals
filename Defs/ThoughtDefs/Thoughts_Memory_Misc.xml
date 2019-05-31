@@ -15,7 +15,7 @@
 			<li>
 				<label>psionically nuzzled</label>
 				<description>That pretty fox sure seems to know how to make you feel loved...</description>
-				<baseMoodEffect>8</baseMoodEffect>
+				<baseMoodEffect>6</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>
