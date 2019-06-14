@@ -21,7 +21,7 @@ namespace AlphaBehavioursAndEvents
             PawnKindDef pawnKindDef;
             IntVec3 intVec;
             IntVec3 intVec2;
-            return this.TryFindAnimalKind(map.Tile, out pawnKindDef) && this.TryFindStartAndEndCells(map, out intVec, out intVec2) && LoadedModManager.GetMod<AlphaAnimalsEvents_Mod>().GetSettings<AlphaAnimalsEvents_Settings>().flagSummitCrab;
+            return this.TryFindAnimalKind(map.Tile, out pawnKindDef) && this.TryFindStartAndEndCells(map, out intVec, out intVec2) && AlphaAnimalsEvents_Settings.flagSummitCrab;
         }
 
         protected override bool TryExecuteWorker(IncidentParms parms)

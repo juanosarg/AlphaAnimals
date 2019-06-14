@@ -100,155 +100,155 @@ namespace AlphaBehavioursAndEvents
                 if (theCreature.defName.Contains("AA_"))
                 {
                     
-                    if (theCreature.defName.Contains("AA_Aerofleet") &&LoadedModManager.GetMod<AlphaAnimals_Mod>().GetSettings<AlphaAnimals_Settings>().AA_AerofleetFlag)
+                    if (theCreature.defName.Contains("AA_Aerofleet") && AlphaAnimals_Settings.AA_AerofleetFlag)
                     {
                         return true;
                     }
-                    if (theCreature.defName.Contains("AA_AnimusVox") && LoadedModManager.GetMod<AlphaAnimals_Mod>().GetSettings<AlphaAnimals_Settings>().AA_AnimusVoxFlag)
+                    if (theCreature.defName.Contains("AA_AnimusVox") && AlphaAnimals_Settings.AA_AnimusVoxFlag)
                     {
                         return true;
                     }
-                    if (theCreature.defName.Contains("AA_ArcticLion") && LoadedModManager.GetMod<AlphaAnimals_Mod>().GetSettings<AlphaAnimals_Settings>().AA_ArcticLionFlag)
+                    if (theCreature.defName.Contains("AA_ArcticLion") && AlphaAnimals_Settings.AA_ArcticLionFlag)
                     {
                         return true;
                     }
-                    if (theCreature.defName.Contains("AA_Barbslinger") && LoadedModManager.GetMod<AlphaAnimals_Mod>().GetSettings<AlphaAnimals_Settings>().AA_BarbslingerFlag)
+                    if (theCreature.defName.Contains("AA_Barbslinger") && AlphaAnimals_Settings.AA_BarbslingerFlag)
                     {
                         return true;
                     }
-                    if (theCreature.defName.Contains("AA_BedBug") && LoadedModManager.GetMod<AlphaAnimals_Mod>().GetSettings<AlphaAnimals_Settings>().AA_BedBugFlag)
+                    if (theCreature.defName.Contains("AA_BedBug") && AlphaAnimals_Settings.AA_BedBugFlag)
                     {
                         return true;
                     }
-                    if (theCreature.defName.Contains("AA_Blizzarisk") && LoadedModManager.GetMod<AlphaAnimals_Mod>().GetSettings<AlphaAnimals_Settings>().AA_BlizzariskFlag)
+                    if (theCreature.defName.Contains("AA_Blizzarisk") && AlphaAnimals_Settings.AA_BlizzariskFlag)
                     {
                         return true;
                     }
-                    if (theCreature.defName.Contains("AA_BoulderMit") && LoadedModManager.GetMod<AlphaAnimals_Mod>().GetSettings<AlphaAnimals_Settings>().AA_BoulderMitFlag)
+                    if (theCreature.defName.Contains("AA_BoulderMit") && AlphaAnimals_Settings.AA_BoulderMitFlag)
                     {
                         return true;
                     }
-                    if (theCreature.defName.Contains("AA_Bumbledrone") && LoadedModManager.GetMod<AlphaAnimals_Mod>().GetSettings<AlphaAnimals_Settings>().AA_BumbledroneFlag)
+                    if (theCreature.defName.Contains("AA_Bumbledrone") && AlphaAnimals_Settings.AA_BumbledroneFlag)
                     {
                         return true;
                     }
-                    if (theCreature.defName.Contains("AA_Cactipine") && LoadedModManager.GetMod<AlphaAnimals_Mod>().GetSettings<AlphaAnimals_Settings>().AA_CactipineFlag)
+                    if (theCreature.defName.Contains("AA_Cactipine") && AlphaAnimals_Settings.AA_CactipineFlag)
                     {
                         return true;
                     }
-                    if (theCreature.defName.Contains("AA_DecayDrake") && LoadedModManager.GetMod<AlphaAnimals_Mod>().GetSettings<AlphaAnimals_Settings>().AA_DecayDrakeFlag)
+                    if (theCreature.defName.Contains("AA_DecayDrake") && AlphaAnimals_Settings.AA_DecayDrakeFlag)
                     {
                         return true;
                     }
-                    if (theCreature.defName.Contains("AA_Dunealisk") && LoadedModManager.GetMod<AlphaAnimals_Mod>().GetSettings<AlphaAnimals_Settings>().AA_DunealiskFlag)
+                    if (theCreature.defName.Contains("AA_Dunealisk") && AlphaAnimals_Settings.AA_DunealiskFlag)
                     {
                         return true;
                     }
-                    if (theCreature.defName.Contains("AA_Feralisk") && LoadedModManager.GetMod<AlphaAnimals_Mod>().GetSettings<AlphaAnimals_Settings>().AA_FeraliskFlag)
+                    if (theCreature.defName.Contains("AA_Feralisk") && AlphaAnimals_Settings.AA_FeraliskFlag)
                     {
                         return true;
                     }
-                    if (theCreature.defName.Contains("AA_FissionMouse") && LoadedModManager.GetMod<AlphaAnimals_Mod>().GetSettings<AlphaAnimals_Settings>().AA_FissionMouseFlag)
+                    if (theCreature.defName.Contains("AA_FissionMouse") && AlphaAnimals_Settings.AA_FissionMouseFlag)
                     {
                         return true;
                     }
-                    if (theCreature.defName.Contains("AA_Frostmite") && LoadedModManager.GetMod<AlphaAnimals_Mod>().GetSettings<AlphaAnimals_Settings>().AA_FrostmiteFlag)
+                    if (theCreature.defName.Contains("AA_Frostmite") && AlphaAnimals_Settings.AA_FrostmiteFlag)
                     {
                         return true;
                     }
-                    if (theCreature.defName.Contains("AA_Gigantelope") && LoadedModManager.GetMod<AlphaAnimals_Mod>().GetSettings<AlphaAnimals_Settings>().AA_GigantelopeFlag)
+                    if (theCreature.defName.Contains("AA_Gigantelope") && AlphaAnimals_Settings.AA_GigantelopeFlag)
                     {
                         return true;
                     }
-                    if (theCreature.defName.Contains("AA_GreatDevourer") && LoadedModManager.GetMod<AlphaAnimals_Mod>().GetSettings<AlphaAnimals_Settings>().AA_GreatDevourerFlag)
+                    if (theCreature.defName.Contains("AA_GreatDevourer") && AlphaAnimals_Settings.AA_GreatDevourerFlag)
                     {
                         return true;
                     }
-                    if (theCreature.defName.Contains("AA_Groundrunner") && LoadedModManager.GetMod<AlphaAnimals_Mod>().GetSettings<AlphaAnimals_Settings>().AA_GroundrunnerFlag)
+                    if (theCreature.defName.Contains("AA_Groundrunner") && AlphaAnimals_Settings.AA_GroundrunnerFlag)
                     {
                         return true;
                     }
-                    if (theCreature.defName.Contains("AA_Lockjaw") && LoadedModManager.GetMod<AlphaAnimals_Mod>().GetSettings<AlphaAnimals_Settings>().AA_LockjawFlag)
+                    if (theCreature.defName.Contains("AA_Lockjaw") && AlphaAnimals_Settings.AA_LockjawFlag)
                     {
                         return true;
                     }
-                    if (theCreature.defName.Contains("AA_MammothWorm") && LoadedModManager.GetMod<AlphaAnimals_Mod>().GetSettings<AlphaAnimals_Settings>().AA_MammothWormFlag)
+                    if (theCreature.defName.Contains("AA_MammothWorm") && AlphaAnimals_Settings.AA_MammothWormFlag)
                     {
                         return true;
                     }
-                    if (theCreature.defName.Contains("AA_Mantrap") && LoadedModManager.GetMod<AlphaAnimals_Mod>().GetSettings<AlphaAnimals_Settings>().AA_MantrapFlag)
+                    if (theCreature.defName.Contains("AA_Mantrap") && AlphaAnimals_Settings.AA_MantrapFlag)
                     {
                         return true;
                     }
-                    if (theCreature.defName.Contains("AA_MeadowAve") && LoadedModManager.GetMod<AlphaAnimals_Mod>().GetSettings<AlphaAnimals_Settings>().AA_MeadowAveFlag)
+                    if (theCreature.defName.Contains("AA_MeadowAve") && AlphaAnimals_Settings.AA_MeadowAveFlag)
                     {
                         return true;
                     }
-                    if (theCreature.defName.Contains("AA_MegaLouse") && LoadedModManager.GetMod<AlphaAnimals_Mod>().GetSettings<AlphaAnimals_Settings>().AA_MegaLouseFlag)
+                    if (theCreature.defName.Contains("AA_MegaLouse") && AlphaAnimals_Settings.AA_MegaLouseFlag)
                     {
                         return true;
                     }
-                    if (theCreature.defName.Contains("AA_Needlepost") && LoadedModManager.GetMod<AlphaAnimals_Mod>().GetSettings<AlphaAnimals_Settings>().AA_NeedlepostFlag)
+                    if (theCreature.defName.Contains("AA_Needlepost") && AlphaAnimals_Settings.AA_NeedlepostFlag)
                     {
                         return true;
                     }
-                    if (theCreature.defName.Contains("AA_Needleroll") && LoadedModManager.GetMod<AlphaAnimals_Mod>().GetSettings<AlphaAnimals_Settings>().AA_NeedlerollFlag)
+                    if (theCreature.defName.Contains("AA_Needleroll") && AlphaAnimals_Settings.AA_NeedlerollFlag)
                     {
                         return true;
                     }
-                    if (theCreature.defName.Contains("AA_Nightling") && LoadedModManager.GetMod<AlphaAnimals_Mod>().GetSettings<AlphaAnimals_Settings>().AA_NightlingFlag)
+                    if (theCreature.defName.Contains("AA_Nightling") && AlphaAnimals_Settings.AA_NightlingFlag)
                     {
                         return true;
                     }
-                    if (theCreature.defName.Contains("AA_OcularJelly") && LoadedModManager.GetMod<AlphaAnimals_Mod>().GetSettings<AlphaAnimals_Settings>().AA_OcularJellyFlag)
+                    if (theCreature.defName.Contains("AA_OcularJelly") && AlphaAnimals_Settings.AA_OcularJellyFlag)
                     {
                         return true;
                     }
-                    if (theCreature.defName.Contains("AA_OvergrownColossus") && LoadedModManager.GetMod<AlphaAnimals_Mod>().GetSettings<AlphaAnimals_Settings>().AA_OvergrownColossusFlag)
+                    if (theCreature.defName.Contains("AA_OvergrownColossus") && AlphaAnimals_Settings.AA_OvergrownColossusFlag)
                     {
                         return true;
                     }
-                    if (theCreature.defName.Contains("AA_PebbleMit") && LoadedModManager.GetMod<AlphaAnimals_Mod>().GetSettings<AlphaAnimals_Settings>().AA_PebbleMitFlag)
+                    if (theCreature.defName.Contains("AA_PebbleMit") && AlphaAnimals_Settings.AA_PebbleMitFlag)
                     {
                         return true;
                     }
-                    if (theCreature.defName.Contains("AA_Radyak") && LoadedModManager.GetMod<AlphaAnimals_Mod>().GetSettings<AlphaAnimals_Settings>().AA_RadyakFlag)
+                    if (theCreature.defName.Contains("AA_Radyak") && AlphaAnimals_Settings.AA_RadyakFlag)
                     {
                         return true;
                     }
-                    if (theCreature.defName.Contains("AA_RaptorShrimp") && LoadedModManager.GetMod<AlphaAnimals_Mod>().GetSettings<AlphaAnimals_Settings>().AA_RaptorShrimpFlag)
+                    if (theCreature.defName.Contains("AA_RaptorShrimp") && AlphaAnimals_Settings.AA_RaptorShrimpFlag)
                     {
                         return true;
                     }
-                    if (theCreature.defName.Contains("AA_SandLion") && LoadedModManager.GetMod<AlphaAnimals_Mod>().GetSettings<AlphaAnimals_Settings>().AA_SandLionFlag)
+                    if (theCreature.defName.Contains("AA_SandLion") && AlphaAnimals_Settings.AA_SandLionFlag)
                     {
                         return true;
                     }
-                    if (theCreature.defName.Contains("AA_SandSquid") && LoadedModManager.GetMod<AlphaAnimals_Mod>().GetSettings<AlphaAnimals_Settings>().AA_SandSquidFlag)
+                    if (theCreature.defName.Contains("AA_SandSquid") && AlphaAnimals_Settings.AA_SandSquidFlag)
                     {
                         return true;
                     }
-                    if (theCreature.defName.Contains("AA_ShockGoat") && LoadedModManager.GetMod<AlphaAnimals_Mod>().GetSettings<AlphaAnimals_Settings>().AA_ShockGoatFlag)
+                    if (theCreature.defName.Contains("AA_ShockGoat") && AlphaAnimals_Settings.AA_ShockGoatFlag)
                     {
                         return true;
                     }
-                    if (theCreature.defName.Contains("AA_Slurrypede") && LoadedModManager.GetMod<AlphaAnimals_Mod>().GetSettings<AlphaAnimals_Settings>().AA_SlurrypedeFlag)
+                    if (theCreature.defName.Contains("AA_Slurrypede") && AlphaAnimals_Settings.AA_SlurrypedeFlag)
                     {
                         return true;
                     }
-                    if (theCreature.defName.Contains("AA_TetraSlug") && LoadedModManager.GetMod<AlphaAnimals_Mod>().GetSettings<AlphaAnimals_Settings>().AA_TetraSlugFlag)
+                    if (theCreature.defName.Contains("AA_TetraSlug") && AlphaAnimals_Settings.AA_TetraSlugFlag)
                     {
                         return true;
                     }
-                    if (theCreature.defName.Contains("AA_Thermadon") && LoadedModManager.GetMod<AlphaAnimals_Mod>().GetSettings<AlphaAnimals_Settings>().AA_ThermadonFlag)
+                    if (theCreature.defName.Contains("AA_Thermadon") && AlphaAnimals_Settings.AA_ThermadonFlag)
                     {
                         return true;
                     }
-                    if (theCreature.defName.Contains("AA_Wildpawn") && LoadedModManager.GetMod<AlphaAnimals_Mod>().GetSettings<AlphaAnimals_Settings>().AA_WildpawnFlag)
+                    if (theCreature.defName.Contains("AA_Wildpawn") && AlphaAnimals_Settings.AA_WildpawnFlag)
                     {
                         return true;
                     }
-                    if (theCreature.defName.Contains("AA_Wildpod") && LoadedModManager.GetMod<AlphaAnimals_Mod>().GetSettings<AlphaAnimals_Settings>().AA_WildpodFlag)
+                    if (theCreature.defName.Contains("AA_Wildpod") && AlphaAnimals_Settings.AA_WildpodFlag)
                     {
                         return true;
                     }

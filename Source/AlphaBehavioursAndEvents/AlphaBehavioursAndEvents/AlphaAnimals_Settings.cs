@@ -5,284 +5,265 @@ using Verse;
 
 namespace AlphaBehavioursAndEvents
 {
-    class AlphaAnimals_Settings: ModSettings
+    public class AlphaAnimals_Settings: ModSettings
         
     {
           
 
-            public bool AA_AerofleetFlag = false;
-            public bool AA_AnimusVoxFlag = false;
-            public bool AA_ArcticLionFlag = false;
-            public bool AA_BarbslingerFlag = false;
-            public bool AA_BedBugFlag = false;
-            public bool AA_BlizzariskFlag = false;
-            public bool AA_BoulderMitFlag = false;
-            public bool AA_BumbledroneFlag = false;
-            public bool AA_CactipineFlag = false;
-            public bool AA_DecayDrakeFlag = false;
-            public bool AA_DunealiskFlag = false;
-            public bool AA_FeraliskFlag = false;
-            public bool AA_FissionMouseFlag = false;
-            public bool AA_FrostmiteFlag = false;
-            public bool AA_GigantelopeFlag = false;
-            public bool AA_GreatDevourerFlag = false;
-            public bool AA_GroundrunnerFlag = false;
-            public bool AA_LockjawFlag = false;
-            public bool AA_MammothWormFlag = false;
-            public bool AA_MantrapFlag = false;
-            public bool AA_MeadowAveFlag = false;
-            public bool AA_MegaLouseFlag = false;
-            public bool AA_NeedlepostFlag = false;
-            public bool AA_NeedlerollFlag = false;
-            public bool AA_NightlingFlag = false;
-            public bool AA_OcularJellyFlag = false;
-            public bool AA_OvergrownColossusFlag = false;
-            public bool AA_PebbleMitFlag = false;
-            public bool AA_RadyakFlag = false;
-            public bool AA_RaptorShrimpFlag = false;
-            public bool AA_SandLionFlag = false;
-            public bool AA_SandSquidFlag = false;
-            public bool AA_ShockGoatFlag = false;
-            public bool AA_SlurrypedeFlag = false;
-            public bool AA_TetraSlugFlag = false;
-            public bool AA_ThermadonFlag = false;
-            public bool AA_WildpawnFlag = false;
-            public bool AA_WildpodFlag = false;
+            public static bool AA_AerofleetFlag = false;
+            public static bool AA_AnimusVoxFlag = false;
+            public static bool AA_ArcticLionFlag = false;
+            public static bool AA_BarbslingerFlag = false;
+            public static bool AA_BedBugFlag = false;
+            public static bool AA_BlizzariskFlag = false;
+            public static bool AA_BoulderMitFlag = false;
+            public static bool AA_BumbledroneFlag = false;
+            public static bool AA_CactipineFlag = false;
+            public static bool AA_DecayDrakeFlag = false;
+            public static bool AA_DunealiskFlag = false;
+            public static bool AA_FeraliskFlag = false;
+            public static bool AA_FissionMouseFlag = false;
+            public static bool AA_FrostmiteFlag = false;
+            public static bool AA_GigantelopeFlag = false;
+            public static bool AA_GreatDevourerFlag = false;
+            public static bool AA_GroundrunnerFlag = false;
+            public static bool AA_LockjawFlag = false;
+            public static bool AA_MammothWormFlag = false;
+            public static bool AA_MantrapFlag = false;
+            public static bool AA_MeadowAveFlag = false;
+            public static bool AA_MegaLouseFlag = false;
+            public static bool AA_NeedlepostFlag = false;
+            public static bool AA_NeedlerollFlag = false;
+            public static bool AA_NightlingFlag = false;
+            public static bool AA_OcularJellyFlag = false;
+            public static bool AA_OvergrownColossusFlag = false;
+            public static bool AA_PebbleMitFlag = false;
+            public static bool AA_RadyakFlag = false;
+            public static bool AA_RaptorShrimpFlag = false;
+            public static bool AA_SandLionFlag = false;
+            public static bool AA_SandSquidFlag = false;
+            public static bool AA_ShockGoatFlag = false;
+            public static bool AA_SlurrypedeFlag = false;
+            public static bool AA_TetraSlugFlag = false;
+            public static bool AA_ThermadonFlag = false;
+            public static bool AA_WildpawnFlag = false;
+            public static bool AA_WildpodFlag = false;
            
 
         public override void ExposeData()
             {
                 base.ExposeData();
                
-                Scribe_Values.Look(ref this.AA_AerofleetFlag, "AA_AerofleetFlag", false);
-                Scribe_Values.Look(ref this.AA_AnimusVoxFlag, "AA_AnimusVoxFlag", false);
-                Scribe_Values.Look(ref this.AA_ArcticLionFlag, "AA_ArcticLionFlag", false);
-                Scribe_Values.Look(ref this.AA_BarbslingerFlag, "AA_BarbslingerFlag", false);
-                Scribe_Values.Look(ref this.AA_BedBugFlag, "AA_BedBugFlag", false);
-                Scribe_Values.Look(ref this.AA_BlizzariskFlag, "AA_BlizzariskFlag", false);
-                Scribe_Values.Look(ref this.AA_BoulderMitFlag, "AA_BoulderMitFlag", false);
-                Scribe_Values.Look(ref this.AA_BumbledroneFlag, "AA_BumbledroneFlag", false);
-                Scribe_Values.Look(ref this.AA_CactipineFlag, "AA_CactipineFlag", false);
-                Scribe_Values.Look(ref this.AA_DecayDrakeFlag, "AA_DecayDrakeFlag", false);
-                Scribe_Values.Look(ref this.AA_DunealiskFlag, "AA_DunealiskFlag", false);
-                Scribe_Values.Look(ref this.AA_FeraliskFlag, "AA_FeraliskFlag", false);
-                Scribe_Values.Look(ref this.AA_FissionMouseFlag, "AA_FissionMouseFlag", false);
-                Scribe_Values.Look(ref this.AA_FrostmiteFlag, "AA_FrostmiteFlag", false);
-                Scribe_Values.Look(ref this.AA_GigantelopeFlag, "AA_GigantelopeFlag", false);
-                Scribe_Values.Look(ref this.AA_GreatDevourerFlag, "AA_GreatDevourerFlag", false);
-                Scribe_Values.Look(ref this.AA_GroundrunnerFlag, "AA_GroundrunnerFlag", false);
-                Scribe_Values.Look(ref this.AA_LockjawFlag, "AA_LockjawFlag", false);
-                Scribe_Values.Look(ref this.AA_MammothWormFlag, "AA_MammothWormFlag", false);
-                Scribe_Values.Look(ref this.AA_MantrapFlag, "AA_MantrapFlag", false);
-                Scribe_Values.Look(ref this.AA_MeadowAveFlag, "AA_MeadowAveFlag", false);
-                Scribe_Values.Look(ref this.AA_MegaLouseFlag, "AA_MegaLouseFlag", false);
-                Scribe_Values.Look(ref this.AA_NeedlepostFlag, "AA_NeedlepostFlag", false);
-                Scribe_Values.Look(ref this.AA_NeedlerollFlag, "AA_NeedlerollFlag", false);
-                Scribe_Values.Look(ref this.AA_NightlingFlag, "AA_NightlingFlag", false);
-                Scribe_Values.Look(ref this.AA_OcularJellyFlag, "AA_OcularJellyFlag", false);
-                Scribe_Values.Look(ref this.AA_OvergrownColossusFlag, "AA_OvergrownColossusFlag", false);
-                Scribe_Values.Look(ref this.AA_PebbleMitFlag, "AA_PebbleMitFlag", false);
-                Scribe_Values.Look(ref this.AA_RadyakFlag, "AA_RadyakFlag", false);
-                Scribe_Values.Look(ref this.AA_RaptorShrimpFlag, "AA_RaptorShrimpFlag", false);
-                Scribe_Values.Look(ref this.AA_SandLionFlag, "AA_SandLionFlag", false);
-                Scribe_Values.Look(ref this.AA_SandSquidFlag, "AA_SandSquidFlag", false);
-                Scribe_Values.Look(ref this.AA_ShockGoatFlag, "AA_ShockGoatFlag", false);
-                Scribe_Values.Look(ref this.AA_SlurrypedeFlag, "AA_SlurrypedeFlag", false);
-                Scribe_Values.Look(ref this.AA_TetraSlugFlag, "AA_TetraSlugFlag", false);
-                Scribe_Values.Look(ref this.AA_ThermadonFlag, "AA_ThermadonFlag", false);
-                Scribe_Values.Look(ref this.AA_WildpawnFlag, "AA_WildpawnFlag", false);
-                Scribe_Values.Look(ref this.AA_WildpodFlag, "AA_WildpodFlag", false);
+            Scribe_Values.Look(ref AA_AerofleetFlag, "AA_AerofleetFlag", false, true);
+            Scribe_Values.Look(ref AA_AnimusVoxFlag, "AA_AnimusVoxFlag", false, true);
+            Scribe_Values.Look(ref AA_ArcticLionFlag, "AA_ArcticLionFlag", false, true);
+            Scribe_Values.Look(ref AA_BarbslingerFlag, "AA_BarbslingerFlag", false, true);
+            Scribe_Values.Look(ref AA_BedBugFlag, "AA_BedBugFlag", false, true);
+            Scribe_Values.Look(ref AA_BlizzariskFlag, "AA_BlizzariskFlag", false, true);
+            Scribe_Values.Look(ref AA_BoulderMitFlag, "AA_BoulderMitFlag", false, true);
+            Scribe_Values.Look(ref AA_BumbledroneFlag, "AA_BumbledroneFlag", false, true);
+            Scribe_Values.Look(ref AA_CactipineFlag, "AA_CactipineFlag", false, true);
+            Scribe_Values.Look(ref AA_DecayDrakeFlag, "AA_DecayDrakeFlag", false, true);
+            Scribe_Values.Look(ref AA_DunealiskFlag, "AA_DunealiskFlag", false, true);
+            Scribe_Values.Look(ref AA_FeraliskFlag, "AA_FeraliskFlag", false, true);
+            Scribe_Values.Look(ref AA_FissionMouseFlag, "AA_FissionMouseFlag", false, true);
+            Scribe_Values.Look(ref AA_FrostmiteFlag, "AA_FrostmiteFlag", false, true);
+            Scribe_Values.Look(ref AA_GigantelopeFlag, "AA_GigantelopeFlag", false, true);
+            Scribe_Values.Look(ref AA_GreatDevourerFlag, "AA_GreatDevourerFlag", false, true);
+            Scribe_Values.Look(ref AA_GroundrunnerFlag, "AA_GroundrunnerFlag", false, true);
+            Scribe_Values.Look(ref AA_LockjawFlag, "AA_LockjawFlag", false, true);
+            Scribe_Values.Look(ref AA_MammothWormFlag, "AA_MammothWormFlag", false, true);
+            Scribe_Values.Look(ref AA_MantrapFlag, "AA_MantrapFlag", false, true);
+            Scribe_Values.Look(ref AA_MeadowAveFlag, "AA_MeadowAveFlag", false, true);
+            Scribe_Values.Look(ref AA_MegaLouseFlag, "AA_MegaLouseFlag", false, true);
+            Scribe_Values.Look(ref AA_NeedlepostFlag, "AA_NeedlepostFlag", false, true);
+            Scribe_Values.Look(ref AA_NeedlerollFlag, "AA_NeedlerollFlag", false, true);
+            Scribe_Values.Look(ref AA_NightlingFlag, "AA_NightlingFlag", false, true);
+            Scribe_Values.Look(ref AA_OcularJellyFlag, "AA_OcularJellyFlag", false, true);
+            Scribe_Values.Look(ref AA_OvergrownColossusFlag, "AA_OvergrownColossusFlag", false, true);
+            Scribe_Values.Look(ref AA_PebbleMitFlag, "AA_PebbleMitFlag", false, true);
+            Scribe_Values.Look(ref AA_RadyakFlag, "AA_RadyakFlag", false, true);
+            Scribe_Values.Look(ref AA_RaptorShrimpFlag, "AA_RaptorShrimpFlag", false, true);
+            Scribe_Values.Look(ref AA_SandLionFlag, "AA_SandLionFlag", false, true);
+            Scribe_Values.Look(ref AA_SandSquidFlag, "AA_SandSquidFlag", false, true);
+            Scribe_Values.Look(ref AA_ShockGoatFlag, "AA_ShockGoatFlag", false, true);
+            Scribe_Values.Look(ref AA_SlurrypedeFlag, "AA_SlurrypedeFlag", false, true);
+            Scribe_Values.Look(ref AA_TetraSlugFlag, "AA_TetraSlugFlag", false, true);
+            Scribe_Values.Look(ref AA_ThermadonFlag, "AA_ThermadonFlag", false, true);
+            Scribe_Values.Look(ref AA_WildpawnFlag, "AA_WildpawnFlag", false, true);
+            Scribe_Values.Look(ref AA_WildpodFlag, "AA_WildpodFlag", false, true);
 
+
+        }
+        public static void DoWindowContents(Rect inRect)
+        {
+            Listing_Standard ls = new Listing_Standard();
+
+
+            ls.Begin(inRect);
+            ls.ColumnWidth = inRect.width / 2.05f;
+
+            ls.CheckboxLabeled("disableAerofleet".Translate(), ref AA_AerofleetFlag, null);
+
+            ls.CheckboxLabeled("disableAnimusVox".Translate(), ref AA_AnimusVoxFlag, null);
+
+            ls.CheckboxLabeled("disableArcticLion".Translate(), ref AA_ArcticLionFlag, null);
+
+            ls.CheckboxLabeled("disableBarbslinger".Translate(), ref AA_BarbslingerFlag, null);
+
+            ls.CheckboxLabeled("disableBedBug".Translate(), ref AA_BedBugFlag, null);
+
+            ls.CheckboxLabeled("disableBlizzarisk".Translate(), ref AA_BlizzariskFlag, null);
+
+            ls.CheckboxLabeled("disableBoulderMit".Translate(), ref AA_BoulderMitFlag, null);
+
+            ls.CheckboxLabeled("disableBumbledrone".Translate(), ref AA_BumbledroneFlag, null);
+
+            ls.CheckboxLabeled("disableCactipine".Translate(), ref AA_CactipineFlag, null);
+
+            ls.CheckboxLabeled("disableDecayDrake".Translate(), ref AA_DecayDrakeFlag, null);
+
+            ls.CheckboxLabeled("disableDunealisk".Translate(), ref AA_DunealiskFlag, null);
+
+            ls.CheckboxLabeled("disableFeralisk".Translate(), ref AA_FeraliskFlag, null);
+
+            ls.CheckboxLabeled("disableFissionMouse".Translate(), ref AA_FissionMouseFlag, null);
+
+            ls.CheckboxLabeled("disableFrostmite".Translate(), ref AA_FrostmiteFlag, null);
+
+            ls.CheckboxLabeled("disableGigantelope".Translate(), ref AA_GigantelopeFlag, null);
+
+            ls.CheckboxLabeled("disableGreatDevourer".Translate(), ref AA_GreatDevourerFlag, null);
+
+            ls.CheckboxLabeled("disableGroundrunner".Translate(), ref AA_GroundrunnerFlag, null);
+
+            ls.CheckboxLabeled("disableLockjaw".Translate(), ref AA_LockjawFlag, null);
+
+            ls.CheckboxLabeled("disableMammothWorm".Translate(), ref AA_MammothWormFlag, null);
+
+            ls.CheckboxLabeled("disableMantrap".Translate(), ref AA_MantrapFlag, null);
+            ls.NewColumn();
+            ls.CheckboxLabeled("disableMeadowAve".Translate(), ref AA_MeadowAveFlag, null);
+
+            ls.CheckboxLabeled("disableMegaLouse".Translate(), ref AA_MegaLouseFlag, null);
+
+            ls.CheckboxLabeled("disableNeedlepost".Translate(), ref AA_NeedlepostFlag, null);
+
+            ls.CheckboxLabeled("disableNeedleroll".Translate(), ref AA_NeedlerollFlag, null);
+
+            ls.CheckboxLabeled("disableNightling".Translate(), ref AA_NightlingFlag, null);
+
+            ls.CheckboxLabeled("disableOcularJelly".Translate(), ref AA_OcularJellyFlag, null);
+
+            ls.CheckboxLabeled("disableOvergrownColossus".Translate(), ref AA_OvergrownColossusFlag, null);
+
+            ls.CheckboxLabeled("disablePebbleMit".Translate(), ref AA_PebbleMitFlag, null);
+
+            ls.CheckboxLabeled("disableRadyak".Translate(), ref AA_RadyakFlag, null);
+
+            ls.CheckboxLabeled("disableRaptorShrimp".Translate(), ref AA_RaptorShrimpFlag, null);
+
+            ls.CheckboxLabeled("disableSandLion".Translate(), ref AA_SandLionFlag, null);
+
+            ls.CheckboxLabeled("disableSandSquid".Translate(), ref AA_SandSquidFlag, null);
+
+            ls.CheckboxLabeled("disableShockGoat".Translate(), ref AA_ShockGoatFlag, null);
+
+            ls.CheckboxLabeled("disableSlurrypede".Translate(), ref AA_SlurrypedeFlag, null);
+
+            ls.CheckboxLabeled("disableTetraSlug".Translate(), ref AA_TetraSlugFlag, null);
+
+            ls.CheckboxLabeled("disableThermadon".Translate(), ref AA_ThermadonFlag, null);
+
+            ls.CheckboxLabeled("disableWildpawn".Translate(), ref AA_WildpawnFlag, null);
+
+            ls.CheckboxLabeled("disableWildpod".Translate(), ref AA_WildpodFlag, null);
+
+            ls.End();
 
         }
 
 
+
+
     }
 
-    class AlphaAnimalsEvents_Settings : ModSettings
+    public class AlphaAnimalsEvents_Settings : ModSettings
 
     {
 
 
-        public bool flagBlackHiveRaids = true;
-        public bool flagStalkingLions = true;
-        public bool flagCactipineDroppods = true;
-        public bool flagSpiderClutchMothers = true;
-        public bool flagAerofleets = true;
-        public bool flagGallatross = true;
-        public bool flagSummitCrab = true;
-        public bool flagBumbledrones = true;
-        public bool flagFrostmites = true;
-        public bool flagAsteroids = true;
+        public static bool flagBlackHiveRaids = true;
+        public static bool flagStalkingLions = true;
+        public static bool flagCactipineDroppods = true;
+        public static bool flagSpiderClutchMothers = true;
+        public static bool flagAerofleets = true;
+        public static bool flagGallatross = true;
+        public static bool flagSummitCrab = true;
+        public static bool flagBumbledrones = true;
+        public static bool flagFrostmites = true;
+        public static bool flagAsteroids = true;
 
 
         public override void ExposeData()
         {
             base.ExposeData();
-            Scribe_Values.Look(ref this.flagBlackHiveRaids, "flagBlackHiveRaids", true);
-            Scribe_Values.Look(ref this.flagStalkingLions, "flagStalkingLions", true);
-            Scribe_Values.Look(ref this.flagCactipineDroppods, "flagCactipineDroppods", true);
-            Scribe_Values.Look(ref this.flagSpiderClutchMothers, "flagSpiderClutchMothers", true);
-            Scribe_Values.Look(ref this.flagAerofleets, "flagAerofleets", true);
-            Scribe_Values.Look(ref this.flagGallatross, "flagGallatross", true);
-            Scribe_Values.Look(ref this.flagSummitCrab, "flagSummitCrab", true);
-            Scribe_Values.Look(ref this.flagBumbledrones, "flagBumbledrones", true);
-            Scribe_Values.Look(ref this.flagFrostmites, "flagFrostmites", true);
-            Scribe_Values.Look(ref this.flagAsteroids, "flagAsteroid", true);
+            Scribe_Values.Look(ref flagBlackHiveRaids, "flagBlackHiveRaids", true,true);
+            Scribe_Values.Look(ref flagStalkingLions, "flagStalkingLions", true, true);
+            Scribe_Values.Look(ref flagCactipineDroppods, "flagCactipineDroppods", true, true);
+            Scribe_Values.Look(ref flagSpiderClutchMothers, "flagSpiderClutchMothers", true, true);
+            Scribe_Values.Look(ref flagAerofleets, "flagAerofleets", true, true);
+            Scribe_Values.Look(ref flagGallatross, "flagGallatross", true, true);
+            Scribe_Values.Look(ref flagSummitCrab, "flagSummitCrab", true, true);
+            Scribe_Values.Look(ref flagBumbledrones, "flagBumbledrones", true, true);
+            Scribe_Values.Look(ref flagFrostmites, "flagFrostmites", true, true);
+            Scribe_Values.Look(ref flagAsteroids, "flagAsteroid", true, true);
 
-          
+
 
         }
 
-
-    }
-
-    class AlphaAnimalsEvents_Mod : Mod
-    {
-
-        public static AlphaAnimalsEvents_Settings settings;
-        public AlphaAnimalsEvents_Mod(ModContentPack content) : base(content)
-        {
-            settings = GetSettings<AlphaAnimalsEvents_Settings>();
-        }
-        public override string SettingsCategory() => "Alpha Animals, Events";
-
-        public override void DoSettingsWindowContents(Rect inRect)
+        public static void DoWindowContents(Rect inRect)
         {
             Listing_Standard ls = new Listing_Standard();
 
 
             ls.Begin(inRect);
             ls.Gap(12f);
-            ls.CheckboxLabeled("allowBlackHive".Translate(), ref settings.flagBlackHiveRaids, null);
+            ls.CheckboxLabeled("allowBlackHive".Translate(), ref flagBlackHiveRaids, null);
             ls.Gap(12f);
-            ls.CheckboxLabeled("allowStalkingLions".Translate(), ref settings.flagStalkingLions, null);
+            ls.CheckboxLabeled("allowStalkingLions".Translate(), ref flagStalkingLions, null);
             ls.Gap(12f);
-            ls.CheckboxLabeled("allowCactipineDroppods".Translate(), ref settings.flagCactipineDroppods, null);
+            ls.CheckboxLabeled("allowCactipineDroppods".Translate(), ref flagCactipineDroppods, null);
             ls.Gap(12f);
-            ls.CheckboxLabeled("allowSpiderClutchMothers".Translate(), ref settings.flagSpiderClutchMothers, null);
+            ls.CheckboxLabeled("allowSpiderClutchMothers".Translate(), ref flagSpiderClutchMothers, null);
             ls.Gap(12f);
-            ls.CheckboxLabeled("allowAerofleet".Translate(), ref settings.flagAerofleets, null);
+            ls.CheckboxLabeled("allowAerofleet".Translate(), ref flagAerofleets, null);
             ls.Gap(12f);
-            ls.CheckboxLabeled("allowGallatross".Translate(), ref settings.flagGallatross, null);
+            ls.CheckboxLabeled("allowGallatross".Translate(), ref flagGallatross, null);
             ls.Gap(12f);
-            ls.CheckboxLabeled("allowSummitCrab".Translate(), ref settings.flagSummitCrab, null);
+            ls.CheckboxLabeled("allowSummitCrab".Translate(), ref flagSummitCrab, null);
             ls.Gap(12f);
-            ls.CheckboxLabeled("allowBumbledrones".Translate(), ref settings.flagBumbledrones, null);
+            ls.CheckboxLabeled("allowBumbledrones".Translate(), ref flagBumbledrones, null);
             ls.Gap(12f);
-            ls.CheckboxLabeled("allowFrostmiteCorpses".Translate(), ref settings.flagFrostmites, null);
+            ls.CheckboxLabeled("allowFrostmiteCorpses".Translate(), ref flagFrostmites, null);
             ls.Gap(12f);
-            ls.CheckboxLabeled("allowAsteroids".Translate(), ref settings.flagAsteroids, null);
-           
-            settings.Write();
+            ls.CheckboxLabeled("allowAsteroids".Translate(), ref flagAsteroids, null);
+
             ls.End();
-
-
         }
-    }
 
-    class AlphaAnimals_Mod : Mod
-    {
-      
-        public static AlphaAnimals_Settings settings;
-        public AlphaAnimals_Mod(ModContentPack content) : base(content)
-        {
-            settings = GetSettings<AlphaAnimals_Settings>();
-        }
-        public override string SettingsCategory() => "Alpha Animals";
 
-        public override void DoSettingsWindowContents(Rect inRect)
-        {
-            Listing_Standard ls = new Listing_Standard();
 
-           
-            ls.Begin(inRect);
-            ls.ColumnWidth = inRect.width / 2.05f;
-           
-            ls.CheckboxLabeled("disableAerofleet".Translate(), ref settings.AA_AerofleetFlag, null);
-           
-            ls.CheckboxLabeled("disableAnimusVox".Translate(), ref settings.AA_AnimusVoxFlag, null);
-           
-            ls.CheckboxLabeled("disableArcticLion".Translate(), ref settings.AA_ArcticLionFlag, null);
-         
-            ls.CheckboxLabeled("disableBarbslinger".Translate(), ref settings.AA_BarbslingerFlag, null);
-           
-            ls.CheckboxLabeled("disableBedBug".Translate(), ref settings.AA_BedBugFlag, null);
-           
-            ls.CheckboxLabeled("disableBlizzarisk".Translate(), ref settings.AA_BlizzariskFlag, null);
-            
-            ls.CheckboxLabeled("disableBoulderMit".Translate(), ref settings.AA_BoulderMitFlag, null);
-            
-            ls.CheckboxLabeled("disableBumbledrone".Translate(), ref settings.AA_BumbledroneFlag, null);
-           
-            ls.CheckboxLabeled("disableCactipine".Translate(), ref settings.AA_CactipineFlag, null);
-           
-            ls.CheckboxLabeled("disableDecayDrake".Translate(), ref settings.AA_DecayDrakeFlag, null);
-           
-            ls.CheckboxLabeled("disableDunealisk".Translate(), ref settings.AA_DunealiskFlag, null);
-            
-            ls.CheckboxLabeled("disableFeralisk".Translate(), ref settings.AA_FeraliskFlag, null);
-           
-            ls.CheckboxLabeled("disableFissionMouse".Translate(), ref settings.AA_FissionMouseFlag, null);
-            
-            ls.CheckboxLabeled("disableFrostmite".Translate(), ref settings.AA_FrostmiteFlag, null);
-           
-            ls.CheckboxLabeled("disableGigantelope".Translate(), ref settings.AA_GigantelopeFlag, null);
-            
-            ls.CheckboxLabeled("disableGreatDevourer".Translate(), ref settings.AA_GreatDevourerFlag, null);
-           
-            ls.CheckboxLabeled("disableGroundrunner".Translate(), ref settings.AA_GroundrunnerFlag, null);
-            
-            ls.CheckboxLabeled("disableLockjaw".Translate(), ref settings.AA_LockjawFlag, null);
-         
-            ls.CheckboxLabeled("disableMammothWorm".Translate(), ref settings.AA_MammothWormFlag, null);
-           
-            ls.CheckboxLabeled("disableMantrap".Translate(), ref settings.AA_MantrapFlag, null);
-            ls.NewColumn();
-            ls.CheckboxLabeled("disableMeadowAve".Translate(), ref settings.AA_MeadowAveFlag, null);
-           
-            ls.CheckboxLabeled("disableMegaLouse".Translate(), ref settings.AA_MegaLouseFlag, null);
-           
-            ls.CheckboxLabeled("disableNeedlepost".Translate(), ref settings.AA_NeedlepostFlag, null);
-            
-            ls.CheckboxLabeled("disableNeedleroll".Translate(), ref settings.AA_NeedlerollFlag, null);
-            
-            ls.CheckboxLabeled("disableNightling".Translate(), ref settings.AA_NightlingFlag, null);
-         
-            ls.CheckboxLabeled("disableOcularJelly".Translate(), ref settings.AA_OcularJellyFlag, null);
-           
-            ls.CheckboxLabeled("disableOvergrownColossus".Translate(), ref settings.AA_OvergrownColossusFlag, null);
-           
-            ls.CheckboxLabeled("disablePebbleMit".Translate(), ref settings.AA_PebbleMitFlag, null);
-           
-            ls.CheckboxLabeled("disableRadyak".Translate(), ref settings.AA_RadyakFlag, null);
-            
-            ls.CheckboxLabeled("disableRaptorShrimp".Translate(), ref settings.AA_RaptorShrimpFlag, null);
-            
-            ls.CheckboxLabeled("disableSandLion".Translate(), ref settings.AA_SandLionFlag, null);
-         
-            ls.CheckboxLabeled("disableSandSquid".Translate(), ref settings.AA_SandSquidFlag, null);
-            
-            ls.CheckboxLabeled("disableShockGoat".Translate(), ref settings.AA_ShockGoatFlag, null);
-           
-            ls.CheckboxLabeled("disableSlurrypede".Translate(), ref settings.AA_SlurrypedeFlag, null);
-            
-            ls.CheckboxLabeled("disableTetraSlug".Translate(), ref settings.AA_TetraSlugFlag, null);
-            
-            ls.CheckboxLabeled("disableThermadon".Translate(), ref settings.AA_ThermadonFlag, null);
-           
-            ls.CheckboxLabeled("disableWildpawn".Translate(), ref settings.AA_WildpawnFlag, null);
+      }
+
+
         
-            ls.CheckboxLabeled("disableWildpod".Translate(), ref settings.AA_WildpodFlag, null);
-           
 
 
+   
+            
 
-
-            settings.Write();
-            ls.End();
-
-
-        }
-    }
+        
+    
 }
