@@ -18,7 +18,7 @@
 					<ThingDef ParentName="VG_ResourceBase">
 						<defName>RB_SpunSynthreadSilk</defName>
 						<label>Synthread Silk</label>
-						<description>Silk Thread created by a Feralisk or Dunealisk. Can be turned into synthread in a loom.</description>
+						<description>Silk Thread created by a Feralisk, Junglelisk or Dunealisk. Can be turned into synthread in a loom.</description>
 						<graphicData>
 							<texPath>Things/Item/Resource/AA_SpunSilk</texPath>
 							<graphicClass>Graphic_Single</graphicClass>
@@ -39,6 +39,13 @@
 
 			<li Class="PatchOperationReplace"> 
 				<xpath>/Defs/ThingDef[defName="AA_Feralisk"]/comps/li/resourceDef</xpath>
+				<value>
+					<resourceDef>RB_SpunSynthreadSilk</resourceDef>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationReplace"> 
+				<xpath>/Defs/ThingDef[defName="AA_Junglelisk"]/comps/li/resourceDef</xpath>
 				<value>
 					<resourceDef>RB_SpunSynthreadSilk</resourceDef>
 				</value>

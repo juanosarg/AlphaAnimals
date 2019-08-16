@@ -67,6 +67,9 @@
 					<li>AA_Mantrap</li>
 					<li>AA_Skyeel</li>
 
+					<li>AA_Agaripod</li>
+					<li>AA_MycoidColossus</li>
+					<li>AA_Junglelisk</li>
 
 
 
@@ -124,6 +127,10 @@
 					<li>AA_SandLion</li>
 					<li>AA_Skyeel</li>
 					
+					<li>AA_Agaripod</li>
+					<li>AA_MycoidColossus</li>
+					
+					
 				</value>
 			</li>
 
@@ -173,6 +180,10 @@
 					
 					<li>AA_Skyeel</li>
 					
+					<li>AA_Agaripod</li>
+					<li>AA_MycoidColossus</li>
+					
+					
 				</value>
 			</li>
 
@@ -220,6 +231,10 @@
 					<li>AA_SandLion</li>
 					
 					<li>AA_Skyeel</li>
+					
+					<li>AA_Agaripod</li>
+					<li>AA_MycoidColossus</li>
+					
 					
 				</value>
 			</li>
@@ -276,6 +291,10 @@
 					<li>AA_SandLion</li>
 					<li>AA_Mantrap</li>
 					<li>AA_Skyeel</li>
+					
+					<li>AA_Agaripod</li>
+					<li>AA_MycoidColossus</li>
+					<li>AA_Junglelisk</li>
 				</value>
 			</li>
 
@@ -330,6 +349,10 @@
 					<li>AA_Mantrap</li>
 					<li>AA_Skyeel</li>
 					
+					<li>AA_Agaripod</li>
+					<li>AA_MycoidColossus</li>
+					<li>AA_Junglelisk</li>
+					
 				</value>
 			</li>
 
@@ -359,6 +382,9 @@
 					<li>AA_Radyak</li>
 					<li>AA_Gigantelope</li>
 					<li>AA_SandLion</li>
+					
+					<li>AA_Agaripod</li>
+					<li>AA_MycoidColossus</li>
 					
 					
 				</value>
@@ -417,6 +443,10 @@
 					<li>AA_SandLion</li>
 					<li>AA_Mantrap</li>
 					<li>AA_Skyeel</li>
+					
+					<li>AA_Agaripod</li>
+					<li>AA_MycoidColossus</li>
+					<li>AA_Junglelisk</li>
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
@@ -467,6 +497,9 @@
 					<li>AA_Gigantelope</li>
 					<li>AA_SandLion</li>
 					<li>AA_Skyeel</li>
+					
+					<li>AA_Agaripod</li>
+					<li>AA_MycoidColossus</li>
 					
 				</value>
 			</li>
@@ -519,6 +552,10 @@
 					<li>AA_Gigantelope</li>
 					<li>AA_SandLion</li>
 					<li>AA_Skyeel</li>
+					
+					<li>AA_Agaripod</li>
+					<li>AA_MycoidColossus</li>
+					<li>AA_Junglelisk</li>
 				</value>
 			</li>
 
@@ -548,6 +585,8 @@
 					<li>AA_Gigantelope</li>
 					<li>AA_SandLion</li>
 					<li>AA_Skyeel</li>
+					<li>AA_Agaripod</li>
+					
 				</value>
 			</li>
 
@@ -595,6 +634,9 @@
 					<li>AA_Radyak</li>
 					<li>AA_Gigantelope</li>
 					<li>AA_SandLion</li>
+					<li>AA_Agaripod</li>
+					<li>AA_MycoidColossus</li>
+					<li>AA_Junglelisk</li>
 					
 				
 				</value>
@@ -653,6 +695,9 @@
 					<li>AA_DecayDrake</li>
 					
 					<li>AA_SandLion</li>
+					
+					<li>AA_MycoidColossus</li>
+					
 					
 					
 				</value>
