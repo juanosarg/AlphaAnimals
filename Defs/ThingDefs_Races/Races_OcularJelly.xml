@@ -7,8 +7,8 @@
 		
 		<statBases>
 			<MoveSpeed>2</MoveSpeed>
-			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
-			<ComfyTemperatureMax>30</ComfyTemperatureMax>
+			<ComfyTemperatureMin>-35</ComfyTemperatureMin>
+			<ComfyTemperatureMax>40</ComfyTemperatureMax>
 			<MarketValue>250</MarketValue>
 			<MeatAmount>0</MeatAmount>
 		</statBases>

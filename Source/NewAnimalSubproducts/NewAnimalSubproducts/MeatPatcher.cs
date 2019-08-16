@@ -38,13 +38,17 @@ namespace NewAlphaAnimalSubproducts
                 var thingies = __result.ToList();
                 var pawn = (Pawn)__instance;
 
-                if ((__instance.def.butcherProducts != null) && ((__instance.def.defName == "AA_Aerofleet") || (__instance.def.defName == "AA_ColossalAerofleet") || (__instance.def.defName == "AA_Cactipine") || (__instance.def.defName == "AA_Needlepost") || (__instance.def.defName == "AA_Needleroll") || (__instance.def.defName == "AA_Wildpod") || (__instance.def.defName == "AA_Wildpawn") || (__instance.def.defName == "GR_Needlechicken") || (__instance.def.defName == "AA_OcularJelly") || (__instance.def.defName == "AA_Mantrap")))
+                if ((__instance.def.butcherProducts != null) && ((__instance.def.defName == "AA_Aerofleet") || (__instance.def.defName == "AA_ColossalAerofleet") || (__instance.def.defName == "AA_Cactipine") || (__instance.def.defName == "AA_Needlepost") || (__instance.def.defName == "AA_Needleroll") || (__instance.def.defName == "AA_Wildpod") || (__instance.def.defName == "AA_Wildpawn") || (__instance.def.defName == "GR_Needlechicken") || (__instance.def.defName == "AA_OcularJelly") || (__instance.def.defName == "AA_Mantrap") || (__instance.def.defName == "AA_Agaripod") || (__instance.def.defName == "AA_MycoidColossus")))
                 {
                     //Log.Message("Adding meat butcher products", false);
 
                     int baseCalculation = 90;
-                    if (__instance.def.defName == "AA_Wildpod") {
+                    if ((__instance.def.defName == "AA_Wildpod")|| (__instance.def.defName == "AA_Agaripod")) {
                         baseCalculation = 30;
+                    }
+                    if (__instance.def.defName == "AA_MycoidColossus")
+                    {
+                        baseCalculation = 15;
                     }
 
                     ThingDefCountClass ta = __instance.def.butcherProducts[0];

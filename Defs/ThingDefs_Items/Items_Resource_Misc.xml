@@ -305,6 +305,30 @@
 			<li>Exotic</li>
 		</tradeTags>
 	</ThingDef>
+	
+		<ThingDef ParentName="PlantFoodRawBase">
+		<defName>AA_AgariluxRawFungus</defName>
+		<label>agarilux raw fungus</label>
+		<description>Raw Agarilux from a living Agaripod, they are very nice to eat, even when raw.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AA_RawAgarilux</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.45</MarketValue>
+			<Mass>0.027</Mass>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>40</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<ingestible>
+			<preferability>RawTasty</preferability>
+			<tasteThought></tasteThought>
+			<foodType>VegetableOrFruit</foodType>
+		</ingestible>
+	</ThingDef>
 
 
 

@@ -43,6 +43,20 @@
 		</tags>
 	</BodyPartDef>
 	
+	<BodyPartDef>
+		<defName>AA_Nucleus</defName>
+		<label>nucleus</label>
+		<hitPoints>30</hitPoints>
+		<bleedRate>5</bleedRate>
+		<skinCovered>false</skinCovered>
+		<tags>
+			<li>ConsciousnessSource</li>
+			<li>SightSource</li>
+			<li>EatingSource</li>
+			
+		</tags>
+	</BodyPartDef>
+	
 	<!-- Mantrap parts -->
 
 	

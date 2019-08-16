@@ -50,6 +50,21 @@
 			</li>
 		</comps>
 	</ThingDef>
+	
+	<ThingDef Abstract="True" Name="AA_EggFertBaseResistant" ParentName="AA_EggBase" >
+		<tickerType>Normal</tickerType>
+
+		<thingCategories>
+			<li>EggsFertilized</li>
+		</thingCategories>
+		<comps>
+			<li Class="CompProperties_TemperatureRuinable">
+				<minSafeTemperature>-35</minSafeTemperature>
+				<maxSafeTemperature>80</maxSafeTemperature>
+				<progressPerDegreePerTick>0.00003</progressPerDegreePerTick>
+			</li>
+		</comps>
+	</ThingDef>
 
 		<!-- Bumbledrone Egg -->
 
@@ -99,6 +114,52 @@
 			<li Class="CompProperties_Hatcher">
 				<hatcherDaystoHatch>5</hatcherDaystoHatch>
 				<hatcherPawn>AA_Wildpod</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="EggFertBase">
+		<defName>AA_AgaripodSpores</defName>
+		<label>agaripod spore clump (fert.)</label>
+		<description>Fertilized agaripod spores. I... I wouldn't eat this. Yuck. If all goes well, it should hatch into an agaripod.</description>
+		<tradeability>None</tradeability>
+		<statBases>
+			<MarketValue>9.0</MarketValue>
+
+		</statBases>
+		<graphicData>
+			<texPath>Things/Item/Resource/AA_SporeClumpPurple</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+
+		</graphicData>
+
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>5</hatcherDaystoHatch>
+				<hatcherPawn>AA_Agaripod</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="EggFertBase">
+		<defName>AA_MycoidColossusSpores</defName>
+		<label>mycoid colossus spore clump (fert.)</label>
+		<description>Fertilized mycoid colossus spores. I... I wouldn't eat this. Yuck. If all goes well, it should hatch into a mycoid colossus.</description>
+		<tradeability>None</tradeability>
+		<statBases>
+			<MarketValue>9.0</MarketValue>
+
+		</statBases>
+		<graphicData>
+			<texPath>Things/Item/Resource/AA_SporeClumpPurple</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+
+		</graphicData>
+
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>5</hatcherDaystoHatch>
+				<hatcherPawn>AA_MycoidColossus</hatcherPawn>
 			</li>
 		</comps>
 	</ThingDef>
@@ -549,6 +610,45 @@
 				<minSafeTemperature>-50</minSafeTemperature>
 				<maxSafeTemperature>15</maxSafeTemperature>
 				<progressPerDegreePerTick>0.00003</progressPerDegreePerTick>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<!-- Junglelisk Egg -->
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>AA_JungleliskEggUnfertilized</defName>
+		<label>junglelisk egg (unfert.)</label>
+		<description>Unfertilized junglelisk egg. It can be eaten raw, but it's much, much better cooked. Actually, it's a spider egg, it is disgusting either way...</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
+			<color>(110,117,65)</color>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MarketValue>9.0</MarketValue>
+
+		</statBases>
+
+	</ThingDef>
+
+	<ThingDef ParentName="AA_EggFertBaseResistant">
+		<defName>AA_JungleliskEggFertilized</defName>
+		<label>junglelisk egg (fert.)</label>
+		<description>Fertilized junglelisk egg. It can be eaten raw, but it's much, much better cooked. Actually, it's a spider egg, it is disgusting either way... If all goes well, it should hatch into a junglelisk.</description>
+		<tradeability>None</tradeability>
+		<statBases>
+			<MarketValue>9.0</MarketValue>
+
+		</statBases>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
+			<color>(110,117,65)</color>
+		</graphicData>
+
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>12</hatcherDaystoHatch>
+				<hatcherPawn>AA_Junglelisk</hatcherPawn>
 			</li>
 		</comps>
 	</ThingDef>

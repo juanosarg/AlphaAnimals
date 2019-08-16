@@ -46,6 +46,14 @@ namespace AlphaAnimalRangeAttack
 
 
                 }
+                if (this.def.defName == "AA_AcidicWeb")
+                {
+                    DamageInfo dinfo2 = new DamageInfo(DefDatabase<DamageDef>.GetNamed("AA_AcidSpit", true), amount / 2, armorPenetration, y, launcher, null, null, DamageInfo.SourceCategory.ThingOrUnknown, this.intendedTarget.Thing);
+                    hitThing.TakeDamage(dinfo2).AssociateWithLog(battleLogEntry_RangedImpact);
+
+
+
+                }
                 if (this.def.defName == "AA_ExplodingWeb")
                 {
                     DamageInfo dinfo2 = new DamageInfo(DamageDefOf.Bomb, amount / 2, armorPenetration, y, launcher, null, null, DamageInfo.SourceCategory.ThingOrUnknown, this.intendedTarget.Thing);
