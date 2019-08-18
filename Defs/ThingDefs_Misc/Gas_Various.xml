@@ -63,5 +63,47 @@
       <rotationSpeed>10</rotationSpeed>
     </gas>
   </ThingDef>
+  
+  <ThingDef ParentName="BaseGas">
+    <defName>AA_Filth_Slime</defName>
+    <label>slime</label>
+   
+    <graphicData>
+	
+      <texPath>Things/Gas/AA_Spatter</texPath>
+      <color>(30, 70, 35, 170)</color>
+    </graphicData>
+   
+	<gas>
+      <expireSeconds>
+        <min>29</min>
+        <max>31</max>
+      </expireSeconds>
+     <blockTurretTracking>false</blockTurretTracking>
+      <accuracyPenalty>1</accuracyPenalty>
+      <rotationSpeed>0</rotationSpeed>
+    </gas>
+  </ThingDef>
+  
+    <ThingDef ParentName="BaseGas">
+    <defName>AA_Filth_RedSlime</defName>
+    <label>red slime</label>
+   
+    <graphicData>
+	
+      <texPath>Things/Gas/AA_Spatter</texPath>
+      <color>(196, 71, 50, 170)</color>
+    </graphicData>
+   
+	<gas>
+      <expireSeconds>
+        <min>29</min>
+        <max>31</max>
+      </expireSeconds>
+     <blockTurretTracking>false</blockTurretTracking>
+      <accuracyPenalty>1</accuracyPenalty>
+      <rotationSpeed>0</rotationSpeed>
+    </gas>
+  </ThingDef>
     
 </Defs>

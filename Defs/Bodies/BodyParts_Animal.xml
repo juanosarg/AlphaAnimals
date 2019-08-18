@@ -4,7 +4,7 @@
 	<!--===================== Misc =====================-->
 
 
-	<!-- Jellyfish parts -->
+	<!-- Jellyfish and amorphous parts -->
 
 	<BodyPartDef>
 		<defName>AA_JellyfishMainBody</defName>
@@ -40,6 +40,20 @@
 		<tags>
 			<li>MovingLimbCore</li>
 			<li>ManipulationLimbCore</li>
+		</tags>
+	</BodyPartDef>
+	
+	<BodyPartDef>
+		<defName>AA_Protoplasm</defName>
+		<label>protoplasm</label>
+		<hitPoints>30</hitPoints>
+		<skinCovered>true</skinCovered>
+		<tags>
+			<li>MovingLimbCore</li>
+			<li>BloodPumpingSource</li>
+			<li>BloodFiltrationSource</li>
+			<li>MetabolismSource</li>
+			<li>BreathingSource</li>
 		</tags>
 	</BodyPartDef>
 	

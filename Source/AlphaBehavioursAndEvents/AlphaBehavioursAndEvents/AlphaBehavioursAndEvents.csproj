@@ -77,6 +77,9 @@
     <Compile Include="CompProperties_Nocturnal.cs" />
     <Compile Include="CompProperties_LightSustenance.cs" />
     <Compile Include="DamageWorker_Siege.cs" />
+    <Compile Include="DeathActionWorker_SmallRedAcidExplosion.cs" />
+    <Compile Include="DeathActionWorker_RedAcidExplosion.cs" />
+    <Compile Include="DeathActionWorker_AcidExplosion.cs" />
     <Compile Include="DeathActionWorker_MouseFission.cs" />
     <Compile Include="Gas_Ocular.cs" />
     <Compile Include="Hediff_AcidBuildup.cs" />

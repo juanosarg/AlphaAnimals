@@ -66,7 +66,27 @@ namespace AlphaBehavioursAndEvents
         {
             base.CompTick();
             Pawn pawn = this.parent as Pawn;
-            if ((pawn.Faction == Faction.OfPlayer)&&(pawn.ageTracker.CurLifeStage.reproductive))
+
+            if (this.Props.isGreenGoo) {
+                asexualFissionCounter++;
+                if ((asexualFissionCounter >= ticksInday * reproductionIntervalDays)&&((this.parent.Map!=null)&&(this.parent.Map.listerThings.ThingsOfDef(ThingDef.Named("AA_GreenGoo")).Count<this.Props.GreenGooLimit)))
+                {
+                    Hediff_Pregnant.DoBirthSpawn(pawn, pawn);
+                    if (pawn.Faction == Faction.OfPlayer)
+                    {
+                        Messages.Message("AA_AsexualCloning".Translate(pawn.LabelIndefinite().CapitalizeFirst()), pawn, MessageTypeDefOf.PositiveEvent, true);
+
+                    }
+                    asexualFissionCounter = 0;
+                } else if(asexualFissionCounter >= ticksInday * reproductionIntervalDays)
+                {
+                    asexualFissionCounter = 0;
+                }
+
+            }
+
+
+            else if ((pawn.Faction == Faction.OfPlayer)&&(pawn.ageTracker.CurLifeStage.reproductive))
             {
                 asexualFissionCounter++;
                 if (asexualFissionCounter >= ticksInday * reproductionIntervalDays)
@@ -88,7 +108,13 @@ namespace AlphaBehavioursAndEvents
         public override string CompInspectStringExtra()
         {
             Pawn pawn = this.parent as Pawn;
-            if ((pawn.Faction == Faction.OfPlayer) && (pawn.ageTracker.CurLifeStage.reproductive))
+            if (this.Props.isGreenGoo)
+            {
+                float totalProgress = ((float)asexualFissionCounter / (float)(ticksInday * reproductionIntervalDays));
+                return customString + totalProgress.ToStringPercent() + " (" + reproductionIntervalDays.ToString() + " days)";
+            }
+
+            else if ((pawn.Faction == Faction.OfPlayer) && (pawn.ageTracker.CurLifeStage.reproductive))
             {
                 float totalProgress = ((float)asexualFissionCounter / (float)(ticksInday * reproductionIntervalDays));
                 return customString + totalProgress.ToStringPercent() + " (" + reproductionIntervalDays.ToString() + " days)";

@@ -54,7 +54,7 @@
 					<li>AA_SandSquid</li>
 					<li>AA_OvergrownColossus</li>
 					<li>AA_GreatDevourer</li>
-					
+
 					<li>AA_FissionMouse</li>
 					<li>AA_FissionMouseSecond</li>
 					<li>AA_FissionMouseThird</li>
@@ -70,6 +70,7 @@
 					<li>AA_Agaripod</li>
 					<li>AA_MycoidColossus</li>
 					<li>AA_Junglelisk</li>
+					<li>AA_InfectedAerofleet</li>
 
 
 
@@ -115,22 +116,22 @@
 					<li>AA_SandSquid</li>
 					<li>AA_OvergrownColossus</li>
 					<li>AA_GreatDevourer</li>
-					
+
 					<li>AA_FissionMouse</li>
 					<li>AA_FissionMouseSecond</li>
 					<li>AA_FissionMouseThird</li>
 					<li>AA_DecayDrake</li>
 					<li>AA_ShockGoat</li>
-					
+
 					<li>AA_Radyak</li>
 					<li>AA_Gigantelope</li>
 					<li>AA_SandLion</li>
 					<li>AA_Skyeel</li>
-					
+
 					<li>AA_Agaripod</li>
 					<li>AA_MycoidColossus</li>
-					
-					
+
+
 				</value>
 			</li>
 
@@ -167,23 +168,23 @@
 					<li>AA_SandSquid</li>
 					<li>AA_OvergrownColossus</li>
 					<li>AA_GreatDevourer</li>
-					
+
 					<li>AA_FissionMouse</li>
 					<li>AA_FissionMouseSecond</li>
 					<li>AA_FissionMouseThird</li>
 					<li>AA_DecayDrake</li>
 					<li>AA_ShockGoat</li>
-					
+
 					<li>AA_Radyak</li>
 					<li>AA_Gigantelope</li>
 					<li>AA_SandLion</li>
-					
+
 					<li>AA_Skyeel</li>
-					
+
 					<li>AA_Agaripod</li>
 					<li>AA_MycoidColossus</li>
-					
-					
+
+
 				</value>
 			</li>
 
@@ -220,7 +221,7 @@
 					<li>AA_SandSquid</li>
 					<li>AA_OvergrownColossus</li>
 					<li>AA_GreatDevourer</li>
-					
+
 					<li>AA_FissionMouse</li>
 					<li>AA_FissionMouseSecond</li>
 					<li>AA_FissionMouseThird</li>
@@ -229,13 +230,13 @@
 					<li>AA_Radyak</li>
 					<li>AA_Gigantelope</li>
 					<li>AA_SandLion</li>
-					
+
 					<li>AA_Skyeel</li>
-					
+
 					<li>AA_Agaripod</li>
 					<li>AA_MycoidColossus</li>
-					
-					
+
+
 				</value>
 			</li>
 
@@ -291,10 +292,12 @@
 					<li>AA_SandLion</li>
 					<li>AA_Mantrap</li>
 					<li>AA_Skyeel</li>
-					
+
 					<li>AA_Agaripod</li>
 					<li>AA_MycoidColossus</li>
 					<li>AA_Junglelisk</li>
+					<li>AA_InfectedAerofleet</li>
+
 				</value>
 			</li>
 
@@ -348,11 +351,11 @@
 					<li>AA_SandLion</li>
 					<li>AA_Mantrap</li>
 					<li>AA_Skyeel</li>
-					
+
 					<li>AA_Agaripod</li>
 					<li>AA_MycoidColossus</li>
 					<li>AA_Junglelisk</li>
-					
+
 				</value>
 			</li>
 
@@ -382,11 +385,11 @@
 					<li>AA_Radyak</li>
 					<li>AA_Gigantelope</li>
 					<li>AA_SandLion</li>
-					
+
 					<li>AA_Agaripod</li>
 					<li>AA_MycoidColossus</li>
-					
-					
+
+
 				</value>
 			</li>
 
@@ -443,10 +446,12 @@
 					<li>AA_SandLion</li>
 					<li>AA_Mantrap</li>
 					<li>AA_Skyeel</li>
-					
+
 					<li>AA_Agaripod</li>
 					<li>AA_MycoidColossus</li>
 					<li>AA_Junglelisk</li>
+					<li>AA_InfectedAerofleet</li>
+
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
@@ -497,10 +502,10 @@
 					<li>AA_Gigantelope</li>
 					<li>AA_SandLion</li>
 					<li>AA_Skyeel</li>
-					
+
 					<li>AA_Agaripod</li>
 					<li>AA_MycoidColossus</li>
-					
+
 				</value>
 			</li>
 
@@ -552,10 +557,12 @@
 					<li>AA_Gigantelope</li>
 					<li>AA_SandLion</li>
 					<li>AA_Skyeel</li>
-					
+
 					<li>AA_Agaripod</li>
 					<li>AA_MycoidColossus</li>
 					<li>AA_Junglelisk</li>
+					<li>AA_InfectedAerofleet</li>
+
 				</value>
 			</li>
 
@@ -586,7 +593,7 @@
 					<li>AA_SandLion</li>
 					<li>AA_Skyeel</li>
 					<li>AA_Agaripod</li>
-					
+
 				</value>
 			</li>
 
@@ -637,8 +644,8 @@
 					<li>AA_Agaripod</li>
 					<li>AA_MycoidColossus</li>
 					<li>AA_Junglelisk</li>
-					
-				
+
+
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
@@ -693,13 +700,13 @@
 					<li>AA_FissionMouseSecond</li>
 					<li>AA_FissionMouseThird</li>
 					<li>AA_DecayDrake</li>
-					
+
 					<li>AA_SandLion</li>
-					
+
 					<li>AA_MycoidColossus</li>
-					
-					
-					
+
+
+
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">

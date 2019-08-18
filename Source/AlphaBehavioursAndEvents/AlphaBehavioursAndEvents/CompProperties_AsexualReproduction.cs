@@ -9,6 +9,8 @@ namespace AlphaBehavioursAndEvents
         public string customString ="";
         public bool produceEggs = false;
         public string eggDef = "";
+        public bool isGreenGoo = false;
+        public int GreenGooLimit = 0;
 
         public CompProperties_AsexualReproduction()
         {

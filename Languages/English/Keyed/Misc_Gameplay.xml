@@ -6,7 +6,8 @@
   <!-- Misc -->
 
   <AA_AsexualHatched>{0} has reproduced asexually.</AA_AsexualHatched>
-    <AA_AsexualHatchedEgg>{0} has sporulated.</AA_AsexualHatchedEgg>
+  <AA_AsexualCloning>{0} has cloned itself.</AA_AsexualCloning>
+  <AA_AsexualHatchedEgg>{0} has sporulated.</AA_AsexualHatchedEgg>
 
   
     <!-- Incidents -->

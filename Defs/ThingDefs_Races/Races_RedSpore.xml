@@ -63,7 +63,7 @@
 		</comps>
 		<race>
 		   
-			<deathActionWorkerClass>DeathActionWorker_BigExplosion</deathActionWorkerClass>
+			<deathActionWorkerClass>AlphaBehavioursAndEvents.DeathActionWorker_RedAcidExplosion</deathActionWorkerClass>
 			<executionRange>6</executionRange>
 			<herdAnimal>true</herdAnimal>
 			<body>AA_RedSporeBody</body>

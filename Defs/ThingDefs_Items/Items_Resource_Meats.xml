@@ -83,6 +83,30 @@
 			<specialThoughtDirect>AteRawFood</specialThoughtDirect>
 		</ingestible>
 	</ThingDef>
+	
+	<!--  Red Goo  -->
+
+	<ThingDef ParentName="PlantFoodRawBase">
+		<defName>AB_RawRedSlime</defName>
+		<label>raw red slime</label>
+		<description>Raw red slime. This thing is edible. Barely.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AA_RawRedSlime</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.5</MarketValue>
+			<Nutrition>0.01</Nutrition>
+		</statBases>
+		<ingestible>
+			<foodType>VegetableOrFruit</foodType>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>60</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
 
 	<!--  Cactipine  -->
 
