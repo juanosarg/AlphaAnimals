@@ -252,6 +252,34 @@ namespace AlphaBehavioursAndEvents
                     {
                         return true;
                     }
+                    if (theCreature.defName.Contains("AA_Agaripod") && AlphaAnimals_Settings.AA_AgaripodFlag)
+                    {
+                        return true;
+                    }
+                    if (theCreature.defName.Contains("AA_MycoidColossus") && AlphaAnimals_Settings.AA_MycoidColossusFlag)
+                    {
+                        return true;
+                    }
+                    if (theCreature.defName.Contains("AA_Junglelisk") && AlphaAnimals_Settings.AA_JungleliskFlag)
+                    {
+                        return true;
+                    }
+                    if (theCreature.defName.Contains("AA_RedSpore") && AlphaAnimals_Settings.AA_RedSporeFlag)
+                    {
+                        return true;
+                    }
+                    if (theCreature.defName.Contains("AA_GreenGoo") && AlphaAnimals_Settings.AA_GreenGooFlag)
+                    {
+                        return true;
+                    }
+                    if (theCreature.defName.Contains("AA_RedGoo") && AlphaAnimals_Settings.AA_RedGooFlag)
+                    {
+                        return true;
+                    }
+                    if (theCreature.defName.Contains("AA_InfectedAerofleet") && AlphaAnimals_Settings.AA_InfectedAerofleetFlag)
+                    {
+                        return true;
+                    }
 
 
                     return false;

@@ -48,7 +48,15 @@ namespace AlphaBehavioursAndEvents
             public static bool AA_ThermadonFlag = false;
             public static bool AA_WildpawnFlag = false;
             public static bool AA_WildpodFlag = false;
-           
+
+            public static bool AA_AgaripodFlag = false;
+            public static bool AA_MycoidColossusFlag = false;
+            public static bool AA_JungleliskFlag = false;
+            public static bool AA_RedSporeFlag = false;
+            public static bool AA_RedGooFlag = false;
+            public static bool AA_GreenGooFlag = false;
+            public static bool AA_InfectedAerofleetFlag = false;
+
 
         public override void ExposeData()
             {
@@ -93,6 +101,13 @@ namespace AlphaBehavioursAndEvents
             Scribe_Values.Look(ref AA_WildpawnFlag, "AA_WildpawnFlag", false, true);
             Scribe_Values.Look(ref AA_WildpodFlag, "AA_WildpodFlag", false, true);
 
+            Scribe_Values.Look(ref AA_AgaripodFlag, "AA_AgaripodFlag", false, true);
+            Scribe_Values.Look(ref AA_MycoidColossusFlag, "AA_MycoidColossusFlag", false, true);
+            Scribe_Values.Look(ref AA_JungleliskFlag, "AA_JungleliskFlag", false, true);
+            Scribe_Values.Look(ref AA_RedSporeFlag, "AA_RedSporeFlag", false, true);
+            Scribe_Values.Look(ref AA_RedGooFlag, "AA_RedGooFlag", false, true);
+            Scribe_Values.Look(ref AA_GreenGooFlag, "AA_GreenGooFlag", false, true);
+            Scribe_Values.Look(ref AA_InfectedAerofleetFlag, "AA_InfectedAerofleetFlag", false, true);
 
         }
         public static void DoWindowContents(Rect inRect)
@@ -104,6 +119,8 @@ namespace AlphaBehavioursAndEvents
             ls.ColumnWidth = inRect.width / 2.05f;
 
             ls.CheckboxLabeled("disableAerofleet".Translate(), ref AA_AerofleetFlag, null);
+
+            ls.CheckboxLabeled("disableAgaripod".Translate(), ref AA_AgaripodFlag, null);
 
             ls.CheckboxLabeled("disableAnimusVox".Translate(), ref AA_AnimusVoxFlag, null);
 
@@ -135,17 +152,25 @@ namespace AlphaBehavioursAndEvents
 
             ls.CheckboxLabeled("disableGreatDevourer".Translate(), ref AA_GreatDevourerFlag, null);
 
+            ls.CheckboxLabeled("disableGreenGoo".Translate(), ref AA_GreenGooFlag, null);
+
             ls.CheckboxLabeled("disableGroundrunner".Translate(), ref AA_GroundrunnerFlag, null);
 
-            ls.CheckboxLabeled("disableLockjaw".Translate(), ref AA_LockjawFlag, null);
+            ls.CheckboxLabeled("disableInfectedAerofleet".Translate(), ref AA_InfectedAerofleetFlag, null);
 
+            ls.CheckboxLabeled("disableJunglelisk".Translate(), ref AA_JungleliskFlag, null);
+
+            ls.CheckboxLabeled("disableLockjaw".Translate(), ref AA_LockjawFlag, null);
+            ls.NewColumn();
             ls.CheckboxLabeled("disableMammothWorm".Translate(), ref AA_MammothWormFlag, null);
 
             ls.CheckboxLabeled("disableMantrap".Translate(), ref AA_MantrapFlag, null);
-            ls.NewColumn();
+           
             ls.CheckboxLabeled("disableMeadowAve".Translate(), ref AA_MeadowAveFlag, null);
 
             ls.CheckboxLabeled("disableMegaLouse".Translate(), ref AA_MegaLouseFlag, null);
+
+            ls.CheckboxLabeled("disableMycoidColossus".Translate(), ref AA_MycoidColossusFlag, null);
 
             ls.CheckboxLabeled("disableNeedlepost".Translate(), ref AA_NeedlepostFlag, null);
 
@@ -162,6 +187,10 @@ namespace AlphaBehavioursAndEvents
             ls.CheckboxLabeled("disableRadyak".Translate(), ref AA_RadyakFlag, null);
 
             ls.CheckboxLabeled("disableRaptorShrimp".Translate(), ref AA_RaptorShrimpFlag, null);
+
+            ls.CheckboxLabeled("disableRedGoo".Translate(), ref AA_RedGooFlag, null);
+
+            ls.CheckboxLabeled("disableRedSpore".Translate(), ref AA_RedSporeFlag, null);
 
             ls.CheckboxLabeled("disableSandLion".Translate(), ref AA_SandLionFlag, null);
 

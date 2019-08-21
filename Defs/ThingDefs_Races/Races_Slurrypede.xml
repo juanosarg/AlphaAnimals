@@ -62,7 +62,7 @@
       </wildBiomes>
       <herdAnimal>false</herdAnimal>
       <predator>false</predator>
-      <body>MechanicalCentipede</body>
+      <body>AA_SlurrypedeBody</body>
       <baseBodySize>2</baseBodySize>
       <baseHungerRate>2</baseHungerRate>
       <baseHealthScale>5</baseHealthScale>

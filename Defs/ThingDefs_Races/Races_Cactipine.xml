@@ -83,7 +83,7 @@
       <baseHungerRate>0.2</baseHungerRate>
       <baseHealthScale>1.5</baseHealthScale>
 	  <leatherDef>Leather_Cactus</leatherDef>
-      <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+      <foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
       <wildness>0.75</wildness>
 	  
       <manhunterOnDamageChance>1.0</manhunterOnDamageChance>

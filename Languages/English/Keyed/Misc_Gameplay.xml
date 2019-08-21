@@ -116,6 +116,14 @@
   <disableThermadon>Disable Thermadon wild spawns</disableThermadon>
   <disableWildpawn>Disable Wildpawn wild spawns</disableWildpawn>
   <disableWildpod>Disable Wildpod wild spawns</disableWildpod>
+  
+  <disableAgaripod>Disable Agaripod wild spawns</disableAgaripod>
+  <disableInfectedAerofleet>Disable Infected Aerofleet wild spawns</disableInfectedAerofleet>
+  <disableJunglelisk>Disable Junglelisk wild spawns</disableJunglelisk>
+  <disableMycoidColossus>Disable Mycoid Colossus wild spawns</disableMycoidColossus>
+  <disableRedGoo>Disable Red Goo spawns</disableRedGoo>
+  <disableGreenGoo>Disable Green Goo wild spawns</disableGreenGoo>
+  <disableRedSpore>Disable Red Spore wild spawns</disableRedSpore>
  
 
 
