@@ -21,7 +21,7 @@
 		<armorCategory>Sharp</armorCategory>
 	</DamageDef>
 	
-	<DamageDef Name="Sting">
+	<DamageDef Name="StingBolt">
 		<defName>AA_ToxicBolt</defName>
 		<label>toxic sting</label>
 		<workerClass>DamageWorker_Stab</workerClass>

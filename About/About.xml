@@ -7,7 +7,7 @@
 	
 &lt;size=24&gt;Features&lt;/size&gt;
 
-Adds 52 new, vanilla-friendly creatures to the diverse biomes of your Rimworlds. The philosophy of this mod is that every new creatures tries to bring some new mechanic into the game, whether it be walking tanks, living resource farm, indestructible plant monsters, night time stalkers, or plain speedy giant spiders. Some of the mechanics are simple, others much more complex.
+Adds 54 new, vanilla-friendly creatures to the diverse biomes of your Rimworlds. The philosophy of this mod is that every new creatures tries to bring some new mechanic into the game, whether it be walking tanks, living resource farm, indestructible plant monsters, night time stalkers, or plain speedy giant spiders. Some of the mechanics are simple, others much more complex.
 
 These animals will spawn in certain biomes, some others will only be available via traders. You'll have to explore to find them all!
 
@@ -38,13 +38,15 @@ Uses ModCheck (no need to download)
 &lt;size=24&gt;Credit&lt;/size&gt;
 Original creature graphics: A_Friend, aka SentientLine
 Original implementation and programming: milon, Skullywag and kaptain_kavern 
-Using the AnimalVariation DLL from AnimalCollabProject
 Some sounds by Mike Koenig at http://soundbible.com
 Some sounds by Stephan Schutze at http://soundbible.com
 Fireball Graphic created by StarsteelGaming at OpenGameArt.org (2018)
+Using the AnimalVariation DLL from AnimalCollabProject
+Using NocturnalAnimals DLL by XeoNovaDan
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
 
+v1.6: Added 2 new animals for the new Alpha Biomes biome. Changed nocturnal animal code (thanks XND!). Some bugfixing. (09/09/19)
 v1.5: Added 7 new animals to populate the newly released Alpha Biomes mod. (21/08/19)
 v1.402: Hopefully last change to mod options. Changed Sky Eel min temp (14/06/19)
 v1.401: Fixed mod options. Updated Modcheck to make it compatible with new RW version (31/05/19)
