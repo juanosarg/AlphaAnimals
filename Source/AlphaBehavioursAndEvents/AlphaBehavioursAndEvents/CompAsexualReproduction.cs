@@ -69,7 +69,7 @@ namespace AlphaBehavioursAndEvents
 
             if (this.Props.isGreenGoo) {
                 asexualFissionCounter++;
-                if ((asexualFissionCounter >= ticksInday * reproductionIntervalDays)&&((this.parent.Map!=null)&&(this.parent.Map.listerThings.ThingsOfDef(ThingDef.Named("AA_GreenGoo")).Count<this.Props.GreenGooLimit)))
+                if ((asexualFissionCounter >= ticksInday * reproductionIntervalDays)&&((this.parent.Map!=null)&&(this.parent.Map.listerThings.ThingsOfDef(ThingDef.Named(this.Props.GreenGooTarget)).Count<this.Props.GreenGooLimit)))
                 {
                     Hediff_Pregnant.DoBirthSpawn(pawn, pawn);
                     if (pawn.Faction == Faction.OfPlayer)

@@ -11,6 +11,7 @@ namespace AlphaBehavioursAndEvents
         public string eggDef = "";
         public bool isGreenGoo = false;
         public int GreenGooLimit = 0;
+        public string GreenGooTarget = "";
 
         public CompProperties_AsexualReproduction()
         {

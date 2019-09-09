@@ -56,6 +56,7 @@
 				<customString>Cloning in: </customString>
 				<isGreenGoo>true</isGreenGoo>
 				<GreenGooLimit>40</GreenGooLimit>
+				<GreenGooTarget>AA_GreenGoo</GreenGooTarget>
 
 			</li>
 			
