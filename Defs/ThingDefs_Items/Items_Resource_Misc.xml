@@ -97,6 +97,37 @@
 			</li>
 		</comps>
 	</ThingDef>
+	
+<ThingDef ParentName="OrganicProductBase">
+    <defName>AA_BlueMilk</defName>
+    <label>blue milk</label>
+    <description>"Milk" from a frostbound behemoth. Very nutritive but the colour is more than a little unsettling.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/AA_BlueMilk</texPath>
+    </graphicData>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MarketValue>4.5</MarketValue>
+      <Mass>0.045</Mass>
+	  <MaxHitPoints>60</MaxHitPoints>
+      <Flammability>0.2</Flammability>
+      <Nutrition>0.065</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>20</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <ingestible>
+      <preferability>RawTasty</preferability>
+      <foodType>AnimalProduct, Fluid</foodType>
+    </ingestible>
+    <thingCategories>
+      <li>AnimalProductRaw</li>
+    </thingCategories>
+  </ThingDef>
 
   <ThingDef ParentName="AA_MeatMealRottable">
     <defName>AA_DisgustingMealNutrientPaste</defName>

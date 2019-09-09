@@ -71,6 +71,8 @@
 					<li>AA_MycoidColossus</li>
 					<li>AA_Junglelisk</li>
 					<li>AA_InfectedAerofleet</li>
+					<li>AA_FrostboundBehemoth</li>
+					<li>AA_Frostling</li>
 
 
 
@@ -130,6 +132,9 @@
 
 					<li>AA_Agaripod</li>
 					<li>AA_MycoidColossus</li>
+					
+					<li>AA_FrostboundBehemoth</li>
+					<li>AA_Frostling</li>
 
 
 				</value>
@@ -183,6 +188,8 @@
 
 					<li>AA_Agaripod</li>
 					<li>AA_MycoidColossus</li>
+					<li>AA_FrostboundBehemoth</li>
+					<li>AA_Frostling</li>
 
 
 				</value>
@@ -235,6 +242,8 @@
 
 					<li>AA_Agaripod</li>
 					<li>AA_MycoidColossus</li>
+					<li>AA_FrostboundBehemoth</li>
+					<li>AA_Frostling</li>
 
 
 				</value>
@@ -297,6 +306,8 @@
 					<li>AA_MycoidColossus</li>
 					<li>AA_Junglelisk</li>
 					<li>AA_InfectedAerofleet</li>
+					<li>AA_FrostboundBehemoth</li>
+					<li>AA_Frostling</li>
 
 				</value>
 			</li>
@@ -355,6 +366,8 @@
 					<li>AA_Agaripod</li>
 					<li>AA_MycoidColossus</li>
 					<li>AA_Junglelisk</li>
+					<li>AA_FrostboundBehemoth</li>
+					<li>AA_Frostling</li>
 
 				</value>
 			</li>
@@ -388,6 +401,7 @@
 
 					<li>AA_Agaripod</li>
 					<li>AA_MycoidColossus</li>
+					<li>AA_Frostling</li>
 
 
 				</value>
@@ -451,6 +465,8 @@
 					<li>AA_MycoidColossus</li>
 					<li>AA_Junglelisk</li>
 					<li>AA_InfectedAerofleet</li>
+					<li>AA_FrostboundBehemoth</li>
+					<li>AA_Frostling</li>
 
 				</value>
 			</li>
@@ -505,6 +521,8 @@
 
 					<li>AA_Agaripod</li>
 					<li>AA_MycoidColossus</li>
+					<li>AA_FrostboundBehemoth</li>
+					<li>AA_Frostling</li>
 
 				</value>
 			</li>
@@ -562,6 +580,7 @@
 					<li>AA_MycoidColossus</li>
 					<li>AA_Junglelisk</li>
 					<li>AA_InfectedAerofleet</li>
+					<li>AA_Frostling</li>
 
 				</value>
 			</li>
@@ -593,6 +612,7 @@
 					<li>AA_SandLion</li>
 					<li>AA_Skyeel</li>
 					<li>AA_Agaripod</li>
+					<li>AA_Frostling</li>
 
 				</value>
 			</li>
@@ -644,6 +664,7 @@
 					<li>AA_Agaripod</li>
 					<li>AA_MycoidColossus</li>
 					<li>AA_Junglelisk</li>
+					<li>AA_Frostling</li>
 
 
 				</value>
@@ -705,6 +726,7 @@
 
 					<li>AA_MycoidColossus</li>
 
+					<li>AA_Frostling</li>
 
 
 				</value>

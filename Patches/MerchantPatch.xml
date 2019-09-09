@@ -26,6 +26,9 @@
 			<li Class="StockGenerator_BuySingleDef">
 				<thingDef>AA_CactipineQuill</thingDef>
 			</li>
+			<li Class="StockGenerator_BuySingleDef">
+				<thingDef>AA_BlueMilk</thingDef>
+			</li>
 		</value>
 	</Operation>
 

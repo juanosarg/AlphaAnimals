@@ -53,7 +53,7 @@ namespace AlphaBehavioursAndEvents
             if (flagIsCreatureMine && flagCanCreatureCarryMore)
             {
                 int factor = p.TryGetComp<CompInitialHediff>().phase;
-                __result = p.BodySize * 35f + factor*factor;
+                __result = p.BodySize * p.GetStatValue(StatDefOf.CarryingCapacity) + factor*factor;
             }
 
         }

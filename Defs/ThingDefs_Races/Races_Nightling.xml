@@ -106,9 +106,7 @@
         </eggCountRange>
       </li>
 	  				
-		<li Class="AlphaBehavioursAndEvents.CompProperties_Nocturnal">
-			
-        </li>
+		
     </comps>
     <race>
       <body>QuadrupedAnimalWithPawsAndTail</body>

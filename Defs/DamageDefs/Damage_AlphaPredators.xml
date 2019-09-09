@@ -21,6 +21,27 @@
 		<armorCategory>Sharp</armorCategory>
 	</DamageDef>
 	
+	<DamageDef Name="Sting">
+		<defName>AA_ToxicBolt</defName>
+		<label>toxic sting</label>
+		<workerClass>DamageWorker_Stab</workerClass>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been stung to death.</deathMessage>
+		<hediff>Stab</hediff>
+		<hediffSolid>Crack</hediffSolid>
+		<additionalHediffs>
+			<li>
+				<hediff>AA_ToxicBuildup</hediff>
+				<severityPerDamageDealt>0.004</severityPerDamageDealt>
+				<victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+			</li>
+		</additionalHediffs>
+		<isRanged>true</isRanged>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Slice</impactSoundType>
+		<armorCategory>Sharp</armorCategory>
+	</DamageDef>
+	
 	<DamageDef>
 		<defName>AA_AcidSpit</defName>
 		<label>acid spit</label>
@@ -35,6 +56,7 @@
 				
 			</li>
 		</additionalHediffs>
+		<isRanged>true</isRanged>
 		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
 		<armorCategory>Heat</armorCategory>
 	</DamageDef>
