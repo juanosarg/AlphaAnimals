@@ -116,7 +116,7 @@
       <baseHungerRate>0.25</baseHungerRate>
       <baseHealthScale>1.15</baseHealthScale>
       <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
-      <leatherDef>Leather_Heavy</leatherDef>
+      <leatherDef>Leather_Night</leatherDef>
       <maxPreyBodySize>2</maxPreyBodySize>
       <trainability>Advanced</trainability>
       <gestationPeriodDays>22.5</gestationPeriodDays>

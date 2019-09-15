@@ -11,6 +11,16 @@
         </value>
     </Operation>
 	
+	 <!-- Nightling -->
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ThingDef[defName="AA_NightRam"]</xpath>
+        <value>
+            <li Class="NocturnalAnimals.ExtendedRaceProperties">
+                <bodyClock>Nocturnal</bodyClock>
+            </li>
+        </value>
+    </Operation>
+	
 	 <!-- Frostling -->
     <Operation Class="PatchOperationAddModExtension">
         <xpath>/Defs/ThingDef[defName="AA_Frostling"]</xpath>
