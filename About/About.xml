@@ -7,9 +7,9 @@
 	
 &lt;size=24&gt;Features&lt;/size&gt;
 
-Adds 54 new, vanilla-friendly creatures to the diverse biomes of your Rimworlds. The philosophy of this mod is that every new creatures tries to bring some new mechanic into the game, whether it be walking tanks, living resource farm, indestructible plant monsters, night time stalkers, or plain speedy giant spiders. Some of the mechanics are simple, others much more complex.
+Adds 58 new, vanilla-friendly creatures to the diverse biomes of your Rimworlds. The philosophy of this mod is that every new creatures tries to bring some new mechanic into the game, whether it be walking tanks, living resource farm, indestructible plant monsters, night time stalkers, or plain speedy giant spiders. Some of the mechanics are simple, others much more complex.
 
-These animals will spawn in certain biomes, some others will only be available via traders. You'll have to explore to find them all!
+These animals will spawn in certain biomes, some others will only be available via traders. You'll have to explore to find them all! The Alpha Biomes is a companion mod that adds several new alien biomes to house these weird creatures.
 
 Bear in mind that spawn probabilities have been calculated with no other animal mods installed. If you have, for example, Animal Collab Project, less animals from this mod will appear, obviously.
 
@@ -46,6 +46,7 @@ Using NocturnalAnimals DLL by XeoNovaDan
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
 
+v1.7: Added 4 new animals for the new Alpha Biomes biome. (16/09/19)
 v1.6: Added 2 new animals for the new Alpha Biomes biome. Changed nocturnal animal code (thanks XND!). Some bugfixing. (09/09/19)
 v1.5: Added 7 new animals to populate the newly released Alpha Biomes mod. (21/08/19)
 v1.402: Hopefully last change to mod options. Changed Sky Eel min temp (14/06/19)

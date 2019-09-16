@@ -402,5 +402,21 @@
       
     </stages>
   </HediffDef>
+  
+    <HediffDef>
+  <defName>AA_LowRest</defName>
+    
+    <label>needs very little sleep</label>
+    <defaultLabelColor>(.8,0,0)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    
+      <stages>
+        <li>
+		  <restFallFactor>0.4</restFallFactor>
+		  
+		</li>
+      </stages>
+  </HediffDef>
 
 </Defs>

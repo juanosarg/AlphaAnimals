@@ -4,16 +4,16 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>AA_NightMule</defName>
     <label>nightmule</label>
-    <description>The Nightram is a stubborn herbivore that shares much of its genome with the predatory Nightling, hinting at a common ancestor. They both originate from a RimWorld orbiting a very faint star -the native planet of an elusive alien spacies know as Forsakens- so they have adapted to environments with low sunlight. When found on other worlds, the Nightram are exclusively nocturnal, instinctively avoiding natural sunlight.\n\nNightrams are peaceful unless disturbed or threatened.</description>
+    <description>The Nightmule is a hardy pack beast, used for transporting loads or doing other heavy work. Nightmules originate from a RimWorld orbiting a very faint star -the native planet of an elusive alien spacies know as Forsakens- so they have adapted to environments with low sunlight. They were domesticated by the Forsakens millenia ago, and can be found roaming around some other planets in the Rim.\n\nNightmules are stronger than muffalos, though they produce a very low amount of milk, and no wool. Similar to the Nightling, another creature from the Forsakens' planet, their back is crowned by dangerous quills, though the Nightmule lacks the capacity to throw them as defensive weapons.</description>
     <statBases>
       <MoveSpeed>4.5</MoveSpeed>
       <ComfyTemperatureMin>-55</ComfyTemperatureMin>
 	  <ComfyTemperatureMax>45</ComfyTemperatureMax>
       <MarketValue>350</MarketValue>
     </statBases>
-    <tools>
-		<li>
-        <label>horn</label>
+	 <tools>
+	 	<li>
+        <label>horns</label>
         <capacities>
           <li>Scratch</li>
         </capacities>
@@ -22,12 +22,22 @@
         <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
       </li>
       <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2.6</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+      </li>
+      <li>
         <label>left hoof</label>
         <capacities>
           <li>Blunt</li>
           <li>Poke</li>
         </capacities>
-        <power>15</power>
+        <power>10</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
       </li>
@@ -37,7 +47,7 @@
           <li>Blunt</li>
           <li>Poke</li>
         </capacities>
-        <power>15</power>
+        <power>10</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
       </li>
@@ -50,40 +60,29 @@
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <chanceFactor>0.5</chanceFactor>
       </li>
-      <li>
-        <label>head</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>13</power>
-        <cooldownTime>2.6</cooldownTime>
-        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-      </li>
     </tools>
+   
 	 <comps>
       <li Class="CompProperties_Milkable">
         <milkDef>Milk</milkDef>
-        <milkIntervalDays>2</milkIntervalDays>
+        <milkIntervalDays>4</milkIntervalDays>
         <milkAmount>12</milkAmount>
       </li>
     </comps>
 			
    
     <race>
-      <body>AA_NightRamBody</body>
-     
-      <baseBodySize>2.5</baseBodySize>
-      <baseHungerRate>0.85</baseHungerRate>
-      <baseHealthScale>2</baseHealthScale>
+      <body>AA_NightMuleBody</body>
+      <herdAnimal>true</herdAnimal>
+      <baseBodySize>2.8</baseBodySize>
+      <baseHealthScale>1.75</baseHealthScale>
+	  <baseHungerRate>0.3</baseHungerRate>
       <foodType>VegetarianRoughAnimal</foodType>
       <leatherDef>Leather_Night</leatherDef>
-     
-      <trainability>Intermediate</trainability>
-      <gestationPeriodDays>25</gestationPeriodDays>
-     
-      <wildness>0.75</wildness>
-    
+      <trainability>Simple</trainability>
+      <packAnimal>true</packAnimal>
+      <gestationPeriodDays>30</gestationPeriodDays>
+      <wildness>0.65</wildness>   
       <lifeExpectancy>15</lifeExpectancy>
       <lifeStageAges>
         <li>
@@ -92,15 +91,15 @@
         </li>
         <li>
           <def>AnimalJuvenile</def>
-          <minAge>0.2</minAge>
+          <minAge>0.4</minAge>
         </li>
         <li>
           <def>AnimalAdult</def>
-          <minAge>0.45</minAge>
-          <soundWounded>Pawn_Deer_Wounded</soundWounded>
-          <soundDeath>Pawn_Deer_Death</soundDeath>
-          <soundCall>Pawn_Deer_Call</soundCall>
-          <soundAngry>Pawn_Deer_Angry</soundAngry>
+          <minAge>0.7</minAge>
+          <soundWounded>Pawn_Muffalo_Wounded</soundWounded>
+          <soundDeath>Pawn_Muffalo_Death</soundDeath>
+          <soundCall>Pawn_Muffalo_Call</soundCall>
+          <soundAngry>Pawn_Muffalo_Angry</soundAngry>
         </li>
       </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
@@ -109,15 +108,15 @@
      
     </race>
     <tradeTags>
-      <li>AnimalUncommon</li>
-      <li>AnimalFighter</li>
+      <li>AnimalCommon</li>
+      <li>AnimalFarm</li>
     </tradeTags>
   </ThingDef>
 
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>AA_NightRam</defName>
-    <label>nightram</label>
-    <race>AA_NightRam</race>
+    <defName>AA_NightMule</defName>
+    <label>nightmule</label>
+    <race>AA_NightMule</race>
     <combatPower>125</combatPower>
 	<ecoSystemWeight>1.1</ecoSystemWeight>
 	 <wildGroupSize>
@@ -126,43 +125,43 @@
     </wildGroupSize>
     <lifeStages>
       <li>
-        <label>nightram calf</label>
-        <labelPlural>nightram calves</labelPlural>
+        <label>nightmule calf</label>
+        <labelPlural>nightmule calves</labelPlural>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/AA_NightRam/AA_NightRam</texPath>
-          <drawSize>1.4</drawSize>
+          <texPath>Things/Pawn/Animal/AA_NightMule/AA_NightMule</texPath>
+          <drawSize>1.5</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/AA_NightRam/AA_Desicated_NightRam</texPath>
-          <drawSize>1.4</drawSize>
+          <texPath>Things/Pawn/Animal/AA_NightMule/AA_Dessicated_NightMule</texPath>
+          <drawSize>1.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/AA_NightRam/AA_NightRam</texPath>
-          <drawSize>1.7</drawSize>
+          <texPath>Things/Pawn/Animal/AA_NightMule/AA_NightMule</texPath>
+          <drawSize>2.25</drawSize>
           <shadowData>
             <volume>(0.25, 0.3, 0.25)</volume>
             <offset>(0,0,-0.15)</offset>
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/AA_NightRam/AA_Desicated_NightRam</texPath>
-          <drawSize>1.7</drawSize>
+          <texPath>Things/Pawn/Animal/AA_NightMule/AA_Dessicated_NightMule</texPath>
+          <drawSize>2.25</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/AA_NightRam/AA_NightRam</texPath>
-          <drawSize>2.5</drawSize>
+          <texPath>Things/Pawn/Animal/AA_NightMule/AA_NightMule</texPath>
+          <drawSize>3</drawSize>
           <shadowData>
             <volume>(0.3, 0.4, 0.3)</volume>
             <offset>(0,0,-0.15)</offset>
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/AA_NightRam/AA_Desicated_NightRam</texPath>
-          <drawSize>2.5</drawSize>
+          <texPath>Things/Pawn/Animal/AA_NightMule/AA_Dessicated_NightMule</texPath>
+          <drawSize>3</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

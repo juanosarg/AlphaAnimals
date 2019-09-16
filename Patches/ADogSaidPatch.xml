@@ -74,6 +74,11 @@
 					<li>AA_FrostboundBehemoth</li>
 					<li>AA_Frostling</li>
 
+					<li>AA_NightRam</li>
+					<li>AA_NightMule</li>
+					<li>AA_CrepuscularBeetle</li>
+					<li>AA_DuskRat</li>
+
 
 
 
@@ -132,10 +137,13 @@
 
 					<li>AA_Agaripod</li>
 					<li>AA_MycoidColossus</li>
-					
+
 					<li>AA_FrostboundBehemoth</li>
 					<li>AA_Frostling</li>
 
+					<li>AA_NightRam</li>
+					<li>AA_NightMule</li>
+					<li>AA_DuskRat</li>
 
 				</value>
 			</li>
@@ -191,7 +199,9 @@
 					<li>AA_FrostboundBehemoth</li>
 					<li>AA_Frostling</li>
 
-
+					<li>AA_NightRam</li>
+					<li>AA_NightMule</li>
+					<li>AA_DuskRat</li>
 				</value>
 			</li>
 
@@ -245,6 +255,9 @@
 					<li>AA_FrostboundBehemoth</li>
 					<li>AA_Frostling</li>
 
+					<li>AA_NightRam</li>
+					<li>AA_NightMule</li>
+					<li>AA_DuskRat</li>
 
 				</value>
 			</li>
@@ -309,6 +322,10 @@
 					<li>AA_FrostboundBehemoth</li>
 					<li>AA_Frostling</li>
 
+					<li>AA_NightRam</li>
+					<li>AA_NightMule</li>
+					<li>AA_CrepuscularBeetle</li>
+					<li>AA_DuskRat</li>
 				</value>
 			</li>
 
@@ -369,6 +386,10 @@
 					<li>AA_FrostboundBehemoth</li>
 					<li>AA_Frostling</li>
 
+					<li>AA_NightRam</li>
+					<li>AA_NightMule</li>
+					<li>AA_CrepuscularBeetle</li>
+					<li>AA_DuskRat</li>
 				</value>
 			</li>
 
@@ -403,6 +424,9 @@
 					<li>AA_MycoidColossus</li>
 					<li>AA_Frostling</li>
 
+					<li>AA_NightRam</li>
+					<li>AA_NightMule</li>
+					<li>AA_DuskRat</li>
 
 				</value>
 			</li>
@@ -468,6 +492,10 @@
 					<li>AA_FrostboundBehemoth</li>
 					<li>AA_Frostling</li>
 
+					<li>AA_NightRam</li>
+					<li>AA_NightMule</li>
+					<li>AA_CrepuscularBeetle</li>
+					<li>AA_DuskRat</li>
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
@@ -524,6 +552,9 @@
 					<li>AA_FrostboundBehemoth</li>
 					<li>AA_Frostling</li>
 
+					<li>AA_NightRam</li>
+					<li>AA_NightMule</li>
+					<li>AA_DuskRat</li>
 				</value>
 			</li>
 
@@ -582,6 +613,10 @@
 					<li>AA_InfectedAerofleet</li>
 					<li>AA_Frostling</li>
 
+					<li>AA_NightRam</li>
+					<li>AA_NightMule</li>
+					<li>AA_CrepuscularBeetle</li>
+					<li>AA_DuskRat</li>
 				</value>
 			</li>
 
@@ -614,6 +649,9 @@
 					<li>AA_Agaripod</li>
 					<li>AA_Frostling</li>
 
+					<li>AA_NightRam</li>
+					<li>AA_NightMule</li>
+					<li>AA_DuskRat</li>
 				</value>
 			</li>
 
@@ -666,6 +704,10 @@
 					<li>AA_Junglelisk</li>
 					<li>AA_Frostling</li>
 
+					<li>AA_NightRam</li>
+					<li>AA_NightMule</li>
+					<li>AA_CrepuscularBeetle</li>
+					<li>AA_DuskRat</li>
 
 				</value>
 			</li>
@@ -727,7 +769,7 @@
 					<li>AA_MycoidColossus</li>
 
 					<li>AA_Frostling</li>
-
+					<li>AA_DuskRat</li>
 
 				</value>
 			</li>

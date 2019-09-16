@@ -266,6 +266,45 @@
 		</comps>
 	</ThingDef>
 	
+		<!-- Crepuscular Beetle Egg -->
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>AA_CrepuscularBeetleEggUnfertilized</defName>
+		<label>crepuscular beetle egg (unfert.)</label>
+		<description>Unfertilized crepuscular beetle egg. It can be eaten raw, but it's much, much better cooked. Actually, it's a beetle egg, it is disgusting either way...</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AA_EggBeetle</texPath>
+			<color>(45,45,58)</color>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MarketValue>9.0</MarketValue>
+
+		</statBases>
+
+	</ThingDef>
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>AA_CrepuscularBeetleEggFertilized</defName>
+		<label>crepuscular beetle egg (fert.)</label>
+		<description>Fertilized crepuscular beetle egg. It can be eaten raw, but it's much, much better cooked. Actually, it's a beetle egg, it is disgusting either way... If all goes well, it should hatch into a crepuscular beetle.</description>
+		<tradeability>None</tradeability>
+		<statBases>
+			<MarketValue>9.0</MarketValue>
+
+		</statBases>
+		<graphicData>
+			<texPath>Things/Item/Resource/AA_EggBeetle</texPath>
+			<color>(45,45,58)</color>
+		</graphicData>
+
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>25</hatcherDaystoHatch>
+				<hatcherPawn>AA_CrepuscularBeetle</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+	
 		<!-- Great Devourer Egg -->
 	<ThingDef ParentName="EggUnfertBase">
 		<defName>AA_GreatDevourerEggUnfertilized</defName>

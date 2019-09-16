@@ -73,7 +73,7 @@
       <body>AA_NightRamBody</body>
      
       <baseBodySize>2.5</baseBodySize>
-      <baseHungerRate>0.85</baseHungerRate>
+      <baseHungerRate>0.4</baseHungerRate>
       <baseHealthScale>2</baseHealthScale>
       <foodType>VegetarianRoughAnimal</foodType>
       <leatherDef>Leather_Night</leatherDef>
@@ -132,7 +132,7 @@
           <drawSize>1.4</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/AA_NightRam/AA_Desicated_NightRam</texPath>
+          <texPath>Things/Pawn/Animal/AA_NightRam/AA_Dessicated_NightRam</texPath>
           <drawSize>1.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -146,7 +146,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/AA_NightRam/AA_Desicated_NightRam</texPath>
+          <texPath>Things/Pawn/Animal/AA_NightRam/AA_Dessicated_NightRam</texPath>
           <drawSize>1.7</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -160,7 +160,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/AA_NightRam/AA_Desicated_NightRam</texPath>
+          <texPath>Things/Pawn/Animal/AA_NightRam/AA_Dessicated_NightRam</texPath>
           <drawSize>2.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>

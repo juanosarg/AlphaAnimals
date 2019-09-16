@@ -21,9 +21,29 @@
         </value>
     </Operation>
 	
-		 <!-- Nightmule -->
+	<!-- Nightmule -->
     <Operation Class="PatchOperationAddModExtension">
         <xpath>/Defs/ThingDef[defName="AA_NightMule"]</xpath>
+        <value>
+            <li Class="NocturnalAnimals.ExtendedRaceProperties">
+                <bodyClock>Nocturnal</bodyClock>
+            </li>
+        </value>
+    </Operation>
+
+	<!-- Crepuscular Beetle -->
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ThingDef[defName="AA_CrepuscularBeetle"]</xpath>
+        <value>
+            <li Class="NocturnalAnimals.ExtendedRaceProperties">
+                <bodyClock>Nocturnal</bodyClock>
+            </li>
+        </value>
+    </Operation>
+	
+		<!-- Dusk Rat -->
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ThingDef[defName="AA_DuskRat"]</xpath>
         <value>
             <li Class="NocturnalAnimals.ExtendedRaceProperties">
                 <bodyClock>Nocturnal</bodyClock>
