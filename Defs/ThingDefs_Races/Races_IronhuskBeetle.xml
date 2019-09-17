@@ -4,7 +4,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>AA_IronhuskBeetle</defName>
     <label>ironhusk beetle</label>
-    <description>Ironhusk beetles were genetically engineered by one of the miriad mining companies operating on the Rim. It's a peaceful farm animal that occasionally sheds metallic husks that can be used as steel, thus negating the need for heavy machinery in mining operations. As a downside, the beetle consumes a huge amount of wood from live trees.\n\nSadly, the mining company that created the Ironhusk beetles didn't account for this, and several planets on the Rim are now a barren ecological disaster.</description>
+    <description>Ironhusk beetles were genetically engineered by one of the myriad mining companies operating on the Rim. It's a peaceful farm animal that occasionally sheds metallic husks that can be used as steel, thus negating the need for heavy machinery in mining operations. As a downside, the beetle consumes a huge amount of wood from live trees.\n\nSadly, the mining company that created the Ironhusk beetles didn't account for this, and several planets on the Rim are now a barren ecological disaster.</description>
     <statBases>
       <MoveSpeed>2.8</MoveSpeed>
       <ComfyTemperatureMin>-8</ComfyTemperatureMin>

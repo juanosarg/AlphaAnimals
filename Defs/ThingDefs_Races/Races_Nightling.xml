@@ -4,7 +4,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>AA_Nightling</defName>
     <label>nightling</label>
-    <description>A sleek predatory beast with rows of quills on its back. The Nightling is a purely nocturnal hunter, hence its name, and isn't at all shy to prey on much larger animals, or people, than itself. Apart from its strong jaws, nighlings can throw the quills on their backs to overpower their prey.</description>
+    <description>A sleek predatory beast with rows of quills on its back. The Nightling is a purely nocturnal hunter, hence its name, and isn't at all shy to prey on much larger animals, or people, than itself. Apart from its strong jaws, nightlings can throw the quills on their backs to overpower their prey.</description>
     <statBases>
       <MoveSpeed>5.00</MoveSpeed>
       <ComfyTemperatureMin>-35</ComfyTemperatureMin>

@@ -8,7 +8,7 @@
 		<label>raptor shrimp</label>
 											<thingClass>AnimalVariations.AnimalMultiSkins</thingClass>
 
-		<description>A large genetically modified creature, its origins unknown. They are known to make homes in tropical regions. Instilling fear among the local inhabitants as those who pass through its territory are often reported to go missing; their bodies never found.\n\nThe few that survived an encounter with these monsters report bullets being shrugged off, limbs of their companions being torn apart, and the statement "The grass has eyes".\n\nRaptor shrimps have impressive regenerative capabilities, and shouldn't be considered dead until they absolutely, unmistakably, are.</description>
+		<description>A large genetically modified creature, its origins unknown. They are known to make homes in tropical regions, instilling fear among the local inhabitants as those who pass through its territory are often reported to go missing; their bodies never found.\n\nThe few that survived an encounter with these monsters report bullets being shrugged off, limbs of their companions being torn apart, and the statement "The grass has eyes".\n\nRaptor shrimps have impressive regenerative capabilities, and shouldn't be considered dead until they absolutely, unmistakably, are.</description>
 		<statBases>
 			<MoveSpeed>4.70</MoveSpeed>
 			<ComfyTemperatureMin>10</ComfyTemperatureMin>

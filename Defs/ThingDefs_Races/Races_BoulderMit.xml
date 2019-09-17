@@ -8,7 +8,7 @@
     <label>bouldermit</label>
 			<thingClass>AnimalVariations.AnimalMultiSkins</thingClass>
 
-    <description>A large genetically-engineered crab which uses a boulder for a shell. It is alternatively known as the Atlas Crab throughout various colonized planets. These massive creatures sport incredible strength and are commonly seen carrying giant boulders that would normally crush living things and machinery alike. Legends tell of one such creature that has grown so large and so powerful that it had entire mountains for a home.\n\nDespite first impressions, it is quite peaceful. Preferring to ignore any form of assault it may receive. Its predators are more likely to die of old age than to take down such an armored creature.</description>
+    <description>A large genetically-engineered crab which uses a boulder for a shell. It is alternatively known as the Atlas Crab throughout various colonized planets. These massive creatures sport incredible strength and are commonly seen carrying giant boulders that would normally crush living things and machinery alike. Legends tell of one such creature that has grown so large and so powerful that it had entire mountains for a home.\n\nDespite first impressions, it is quite peaceful, preferring to ignore any form of assault it may receive. Its predators are more likely to die of old age than to take down such an armored creature.</description>
     <statBases>
       <MoveSpeed>1.00</MoveSpeed>
       <ComfyTemperatureMin>-65</ComfyTemperatureMin>
@@ -181,7 +181,7 @@
     <ThingDef ParentName="AnimalThingBase">
     <defName>AA_SummitCrab</defName>
     <label>summit crab</label>
-    <description>Legends tell of a legendary bouldermit that has grown so large and so powerful that it had entire mountains for a home.\n\nThis one isn't probably the sole originator of such tales, but it is a fine example of a creature whose path you certainly don't want to cross.</description>
+    <description>Legends tell of a great bouldermit that had grown so large and so powerful that it had entire mountains for a home.\n\nThis one probably isn't the sole originator of such tales, but it is a fine example of a creature whose path you certainly don't want to cross.</description>
     <statBases>
       <MoveSpeed>1.00</MoveSpeed>
       <ComfyTemperatureMin>-65</ComfyTemperatureMin>

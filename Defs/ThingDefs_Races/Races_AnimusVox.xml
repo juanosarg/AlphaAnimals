@@ -5,7 +5,7 @@
 		<label>animus vox</label>
 			   <thingClass>AnimalVariations.AnimalMultiSkins</thingClass>
 
-		<description>The Animus Vox is a small canine with latent psionic abilities. Like all canines, it is quite intelligent for an animal, but not intelligent enough to properly use psionics. It will however quickly bond with human beings and reach with his mind to make happy everyone that treats it well.\n\nAnimus Voxes can often be seen on the Rim as pets, though some wander the wilderness, looking for someone to bond to.</description>
+		<description>The Animus Vox is a small canine with latent psionic abilities. Like all canines, it is quite intelligent for an animal, but not intelligent enough to properly use psionics. It will however quickly bond with human beings and reach with its mind to make happy everyone that treats it well.\n\nAnimus Voxes can often be seen on the Rim as pets, though some wander the wilderness, looking for someone to bond to.</description>
 		
 		<statBases>
 			<MoveSpeed>4.6</MoveSpeed>
