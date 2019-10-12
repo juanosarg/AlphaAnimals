@@ -36,7 +36,7 @@
         <xpath>/Defs/ThingDef[defName="AA_CrepuscularBeetle"]</xpath>
         <value>
             <li Class="NocturnalAnimals.ExtendedRaceProperties">
-                <bodyClock>Nocturnal</bodyClock>
+                <bodyClock>Crepuscular</bodyClock>
             </li>
         </value>
     </Operation>
