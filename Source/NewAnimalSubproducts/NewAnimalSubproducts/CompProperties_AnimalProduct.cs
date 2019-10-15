@@ -1,4 +1,6 @@
 ﻿using Verse;
+using System.Collections.Generic;
+
 
 namespace NewAlphaAnimalSubproducts
 {
@@ -7,8 +9,10 @@ namespace NewAlphaAnimalSubproducts
 
         public int gatheringIntervalDays = 1;
         public int resourceAmount = 1;
-        public ThingDef resourceDef;
-        public string customResourceString;
+        public ThingDef resourceDef = null;
+        public string customResourceString ="";
+        public bool isRandom = false;
+        public List<string> randomItems = null;
 
         public CompProperties_AnimalProduct()
         {

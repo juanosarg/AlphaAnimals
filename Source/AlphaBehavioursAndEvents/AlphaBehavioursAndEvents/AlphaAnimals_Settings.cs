@@ -8,8 +8,8 @@ namespace AlphaBehavioursAndEvents
     public class AlphaAnimals_Settings: ModSettings
         
     {
-          
 
+           
             public static bool AA_AerofleetFlag = false;
             public static bool AA_AnimusVoxFlag = false;
             public static bool AA_ArcticLionFlag = false;
@@ -113,8 +113,7 @@ namespace AlphaBehavioursAndEvents
         public static void DoWindowContents(Rect inRect)
         {
             Listing_Standard ls = new Listing_Standard();
-
-
+           
             ls.Begin(inRect);
             ls.ColumnWidth = inRect.width / 2.05f;
 
@@ -207,6 +206,7 @@ namespace AlphaBehavioursAndEvents
             ls.CheckboxLabeled("disableWildpawn".Translate(), ref AA_WildpawnFlag, null);
 
             ls.CheckboxLabeled("disableWildpod".Translate(), ref AA_WildpodFlag, null);
+   
 
             ls.End();
 

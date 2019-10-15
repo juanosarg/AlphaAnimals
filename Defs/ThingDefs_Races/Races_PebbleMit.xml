@@ -47,6 +47,14 @@
 				<gatheringIntervalDays>1</gatheringIntervalDays>
 				<resourceAmount>1</resourceAmount>
 				<customResourceString>StoneBlockDesc</customResourceString>
+				<isRandom>true</isRandom>
+				<randomItems>
+					<li>BlocksSandstone</li>
+					<li>BlocksGranite</li>
+					<li>BlocksLimestone</li>
+					<li>BlocksSlate</li>
+					<li>BlocksMarble</li>
+				</randomItems>
 
 			</li>
 			

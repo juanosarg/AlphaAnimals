@@ -33,52 +33,13 @@ namespace NewAlphaAnimalSubproducts
         {
             get
             {
-                if (this.Props.resourceDef.defName== "AA_RandomStones")
-                {
-                    int randomNumber = rand.Next(1, 6);
-                    switch (randomNumber)
-                    {
-                        case 1:
-                            return ThingDef.Named("ChunkSandstone");
-                        case 2:
-                            return ThingDef.Named("ChunkGranite");
-                        case 3:
-                            return ThingDef.Named("ChunkLimestone");
-                        case 4:
-                            return ThingDef.Named("ChunkSlate");
-                        case 5:
-                            return ThingDef.Named("ChunkMarble");
-
-                        default:
-                            return ThingDef.Named("ChunkSandstone");
-
-                    }
-
-
-                } else if (this.Props.resourceDef.defName == "AA_RandomBricks")
-                    {
-                        int randomNumber = rand.Next(1, 6);
-                        switch (randomNumber)
-                        {
-                            case 1:
-                                return ThingDef.Named("BlocksSandstone");
-                            case 2:
-                                return ThingDef.Named("BlocksGranite");
-                            case 3:
-                                return ThingDef.Named("BlocksLimestone");
-                            case 4:
-                                return ThingDef.Named("BlocksSlate");
-                            case 5:
-                                return ThingDef.Named("BlocksMarble");
-
-                            default:
-                                return ThingDef.Named("BlocksSandstone");
-
-                        }
-
-
-                    }
-                    else return this.Props.resourceDef;
+                if (Props.isRandom) {
+                   
+                    return ThingDef.Named(Props.randomItems.RandomElement());
+                } else {
+                    return this.Props.resourceDef;
+                }
+               
             }
         }
 

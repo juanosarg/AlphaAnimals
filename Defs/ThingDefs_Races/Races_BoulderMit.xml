@@ -47,6 +47,14 @@
 				<gatheringIntervalDays>1</gatheringIntervalDays>
 				<resourceAmount>1</resourceAmount>
 				<customResourceString>StoneChunkDesc</customResourceString>
+				<isRandom>true</isRandom>
+				<randomItems>
+					<li>ChunkSandstone</li>
+					<li>ChunkGranite</li>
+					<li>ChunkLimestone</li>
+					<li>ChunkSlate</li>
+					<li>ChunkMarble</li>
+				</randomItems>
 
 			</li>
 			
