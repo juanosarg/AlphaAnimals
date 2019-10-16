@@ -1,195 +1,185 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="AnimalThingBase">
-    <defName>AA_DesertAve</defName>
-    <label>desert ave</label>
-	   
-    <description>The Desert Ave is a large flightless bird adapted to living in very arid terrains. Large bony plates cover its neck, giving it a much needed defense both from predators and from the scalding heat of the desert sun.\n\nMeadow Aves are amazing mounts, much faster than horses, and if properly trained they can be ridden into battle at incredible speeds (this interaction needs the Giddy-Up, combat mounts mod, and it will make the Meadow Aves move 50% faster when used as mounts).</description>
-    <statBases>
-      <MoveSpeed>7.0</MoveSpeed>
-      <ComfyTemperatureMin>-15</ComfyTemperatureMin>
-      <MarketValue>400</MarketValue>
-    </statBases>
-	
-    <race>
-	
-	<wildBiomes>
-        <BorealForest>0.3</BorealForest>
-        <Tundra>0.07</Tundra>
-        <ColdBog>0.07</ColdBog>
-        <TemperateForest>0.4</TemperateForest>
-        <TemperateSwamp>0.07</TemperateSwamp>
-        <TropicalRainforest>0.07</TropicalRainforest>
-        <TropicalSwamp>0.07</TropicalSwamp>
-        <AridShrubland>0.04</AridShrubland>
-        <Desert>0.03</Desert>
-      </wildBiomes>
-      <herdAnimal>true</herdAnimal>
-      <predator>false</predator>
-      <body>Bird</body>
-	  <packAnimal>true</packAnimal>
-      <baseBodySize>1.2</baseBodySize>
-      <baseHealthScale>1.0</baseHealthScale>
-	  <baseHungerRate>0.55</baseHungerRate>
-      <foodType>VegetarianRoughAnimal</foodType>
-      <wildness>0.85</wildness>
-      <manhunterOnDamageChance>0.12</manhunterOnDamageChance>
-      <manhunterOnTameFailChance>0.12</manhunterOnTameFailChance>
-      <trainability>Advanced</trainability>
-	  <leatherDef>Leather_Bird</leatherDef>
-      <gestationPeriodDays>24</gestationPeriodDays>
-      <litterSizeCurve>
-        <points>
-          <li>(0.99, 0)</li>
-          <li>(1, 1)</li>
-          <li>(1.01, 0)</li>
-        </points>
-      </litterSizeCurve>
-      <lifeExpectancy>40</lifeExpectancy>
-      <lifeStageAges>
-        <li>
-          <def>AnimalBaby</def>
-          <minAge>0</minAge>
-        </li>
-        <li>
-          <def>AnimalJuvenile</def>
-          <minAge>0.2</minAge>
-        </li>
-        <li>
-          <def>AnimalAdult</def>
-          <minAge>0.5</minAge>
-     
-        </li>
-      </lifeStageAges>
-            <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
-      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
-      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
-	
-	
-	
-     
-    </race>
-	    <tradeTags>
-      <li>AnimalUncommon</li>
-    </tradeTags>
-    <comps>
-      <li Class="CompProperties_EggLayer">
-        <eggFertilizedDef>AA_EggMeadowAveFertilized</eggFertilizedDef>
-        <eggFertilizationCountMax>1</eggFertilizationCountMax>
-        <eggLayIntervalDays>23</eggLayIntervalDays>
-        <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
-        <eggCountRange>1</eggCountRange>
-      </li>
-	  <!--<li Class="AlphaBehavioursAndEvents.CompProperties_Skins">
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>AA_DesertAve</defName>
+		<label>desert ave</label>
 
-				<numberOfSkins>9</numberOfSkins>
-				<skinBaseString>Things/Pawn/Animal/AA_MeadowAve/AA_MeadowAve</skinBaseString>
+		<description>The Desert Ave is a large flightless bird adapted to living in very arid terrains. Large bony plates cover its neck, giving it a much needed defense both from predators and from the scalding heat of the desert sun. Compared to their more common Meadow Ave relatives, Desert Aves are less temperamental, but their slightly smaller size makes them less useful as pack animals.\n\nDesert Aves are amazing mounts, much faster than horses, and if properly trained they can be ridden into battle at incredible speeds (this interaction needs the Giddy-Up, combat mounts mod, and it will make the Desert Aves move 50% faster when used as mounts).</description>
+		<statBases>
+			<MoveSpeed>7.0</MoveSpeed>
+			<ComfyTemperatureMin>0</ComfyTemperatureMin>
+			<ComfyTemperatureMax>75</ComfyTemperatureMax>
+			<MarketValue>400</MarketValue>
+		</statBases>
 
-			</li>-->
-    </comps>
-    <tools>
-      <li>
-        <label>claws</label>
-        <capacities>
-          <li>Scratch</li>
-        </capacities>
-        <power>12</power>
-        <cooldownTime>1.55</cooldownTime>
-        <linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
-        <surpriseAttack>
-          <extraMeleeDamages>
-            <li>
-              <def>Stun</def>
-              <amount>15</amount>
-            </li>
-          </extraMeleeDamages>
-        </surpriseAttack>
-      </li>
-      <li>
-        <capacities>
-          <li>Bite</li>
-        </capacities>
-        <power>8</power>
-        <cooldownTime>1.85</cooldownTime>
-        <linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
-        <surpriseAttack>
-          <extraMeleeDamages>
-            <li>
-              <def>Stun</def>
-              <amount>13</amount>
-            </li>
-          </extraMeleeDamages>
-        </surpriseAttack>
-      </li>
-      <li>
-        <label>head</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>3</power>
-        <cooldownTime>1.65</cooldownTime>
-        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <chanceFactor>0.2</chanceFactor>
-      </li>
-    </tools>
-  </ThingDef>
+		<race>
 
-  <PawnKindDef ParentName="AnimalKindBase">
-    <defName>AA_MeadowAve</defName>
-    <label>meadow ave</label>
-    <labelPlural>meadow aves</labelPlural>
-    <race>AA_MeadowAve</race>
-	<ecoSystemWeight>0.5</ecoSystemWeight>
-       <combatPower>70</combatPower>
+			<wildBiomes>
+				<AridShrubland>0.4</AridShrubland>
+				<Desert>0.8</Desert>
+				<ExtremeDesert>0.25</ExtremeDesert>
+			</wildBiomes>
+			<herdAnimal>true</herdAnimal>
+			<predator>false</predator>
+			<body>Bird</body>
+			<packAnimal>true</packAnimal>
+			<baseBodySize>1.0</baseBodySize>
+			<baseHealthScale>1.0</baseHealthScale>
+			<baseHungerRate>0.55</baseHungerRate>
+			<foodType>VegetarianRoughAnimal</foodType>
+			<wildness>0.75</wildness>
+			<manhunterOnDamageChance>0.25</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0.04</manhunterOnTameFailChance>
+			<trainability>Advanced</trainability>
+			<leatherDef>Leather_Bird</leatherDef>
+			<gestationPeriodDays>36</gestationPeriodDays>
+			<litterSizeCurve>
+				<points>
+					<li>(0.99, 0)</li>
+					<li>(1, 1)</li>
+					<li>(1.01, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>35</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.2</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.5</minAge>
 
-    <wildGroupSize>
-      <min>3</min>
-      <max>7</max>
-    </wildGroupSize>
-    <lifeStages>
-      <li>
-        <label>meadow ave chick</label>
-        <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/AA_MeadowAve/AA_MeadowAve_1</texPath>
-          <drawSize>0.85</drawSize>
-        </bodyGraphicData>
-        <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/AA_MeadowAve/AA_Dessicated_MeadowAve</texPath>
-          <drawSize>0.85</drawSize>
-        </dessicatedBodyGraphicData>
-      </li>
-      <li>
-        <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/AA_MeadowAve/AA_MeadowAve_1</texPath>
-          <drawSize>2.1</drawSize>
-          <shadowData>
-            <volume>(0.3, 0.3, 0.3)</volume>
-            <offset>(0,0,-0.3)</offset>
-          </shadowData>
-        </bodyGraphicData>
-        <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/AA_MeadowAve/AA_Dessicated_MeadowAve</texPath>
-          <drawSize>2.1</drawSize>
-        </dessicatedBodyGraphicData>
-      </li>
-      <li>
-        <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/AA_MeadowAve/AA_MeadowAve_1</texPath>
-          <drawSize>3</drawSize>
-          <shadowData>
-            <volume>(0.4, 0.4, 0.4)</volume>
-            <offset>(0,0,-0.2)</offset>
-          </shadowData>
-        </bodyGraphicData>
-       
-        <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/AA_MeadowAve/AA_Dessicated_MeadowAve</texPath>
-          <drawSize>3</drawSize>
-        </dessicatedBodyGraphicData>
-      </li>
-    </lifeStages>
-   
-  </PawnKindDef>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+
+
+
+
+		</race>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+		</tradeTags>
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggFertilizedDef>AA_EggDesertAveFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>36</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>1</eggCountRange>
+			</li>
+			
+		</comps>
+		<tools>
+			<li>
+				<label>claws</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1.55</cooldownTime>
+				<linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>15</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>7</power>
+				<cooldownTime>1.85</cooldownTime>
+				<linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>13</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>AA_DesertAve</defName>
+		<label>desert ave</label>
+		<labelPlural>desert aves</labelPlural>
+		<race>AA_DesertAve</race>
+		<ecoSystemWeight>0.5</ecoSystemWeight>
+		<combatPower>70</combatPower>
+
+		<wildGroupSize>
+			<min>2</min>
+			<max>4</max>
+		</wildGroupSize>
+		<lifeStages>
+			<li>
+				<label>desert ave chick</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_DesertAve/AA_DesertAve</texPath>
+					<drawSize>0.85</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_DesertAve/AA_Dessicated_DesertAve</texPath>
+					<drawSize>0.85</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_DesertAve/AA_DesertAve</texPath>
+					<drawSize>2.1</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_DesertAve/AA_Dessicated_DesertAve</texPath>
+					<drawSize>2.1</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_DesertAve/AA_DesertAve</texPath>
+					<drawSize>2.75</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.4, 0.4)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_DesertAve/AA_Dessicated_DesertAve</texPath>
+					<drawSize>2.75</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+
+	</PawnKindDef>
 
 </Defs>

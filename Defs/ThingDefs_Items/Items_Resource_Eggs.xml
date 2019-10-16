@@ -50,7 +50,7 @@
 			</li>
 		</comps>
 	</ThingDef>
-	
+
 	<ThingDef Abstract="True" Name="AA_EggFertBaseResistant" ParentName="AA_EggBase" >
 		<tickerType>Normal</tickerType>
 
@@ -66,7 +66,7 @@
 		</comps>
 	</ThingDef>
 
-		<!-- Bumbledrone Egg -->
+	<!-- Bumbledrone Egg -->
 
 
 	<ThingDef ParentName="EggFertBase">
@@ -91,7 +91,7 @@
 			</li>
 		</comps>
 	</ThingDef>
-	
+
 	<!-- Wildpod Egg -->
 
 
@@ -117,7 +117,7 @@
 			</li>
 		</comps>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="EggFertBase">
 		<defName>AA_AgaripodSpores</defName>
 		<label>agaripod spore clump (fert.)</label>
@@ -140,7 +140,7 @@
 			</li>
 		</comps>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="EggFertBase">
 		<defName>AA_MycoidColossusSpores</defName>
 		<label>mycoid colossus spore clump (fert.)</label>
@@ -265,8 +265,8 @@
 			</li>
 		</comps>
 	</ThingDef>
-	
-		<!-- Crepuscular Beetle Egg -->
+
+	<!-- Crepuscular Beetle Egg -->
 	<ThingDef ParentName="EggUnfertBase">
 		<defName>AA_CrepuscularBeetleEggUnfertilized</defName>
 		<label>crepuscular beetle egg (unfert.)</label>
@@ -304,8 +304,8 @@
 			</li>
 		</comps>
 	</ThingDef>
-	
-		<!-- Great Devourer Egg -->
+
+	<!-- Great Devourer Egg -->
 	<ThingDef ParentName="EggUnfertBase">
 		<defName>AA_GreatDevourerEggUnfertilized</defName>
 		<label>great devourer egg (unfert.)</label>
@@ -382,8 +382,8 @@
 			</li>
 		</comps>
 	</ThingDef>
-	
-		<!-- Bedbug Egg -->
+
+	<!-- Bedbug Egg -->
 	<ThingDef ParentName="EggUnfertBase">
 		<defName>AA_BedBugEggUnfertilized</defName>
 		<label>bedbug egg (unfert.)</label>
@@ -480,7 +480,7 @@
 			<li>EggsFertilized</li>
 		</thingCategories>
 		<graphicData>
-					<graphicClass>Graphic_StackCount</graphicClass>
+			<graphicClass>Graphic_StackCount</graphicClass>
 
 			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
 			<color>(79,67,61)</color>
@@ -559,7 +559,7 @@
 			<li>EggsFertilized</li>
 		</thingCategories>
 		<graphicData>
-					<graphicClass>Graphic_StackCount</graphicClass>
+			<graphicClass>Graphic_StackCount</graphicClass>
 
 			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
 			<color>(186,170,112)</color>
@@ -635,7 +635,7 @@
 			<li>EggsFertilized</li>
 		</thingCategories>
 		<graphicData>
-					<graphicClass>Graphic_StackCount</graphicClass>
+			<graphicClass>Graphic_StackCount</graphicClass>
 
 			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
 			<color>(179,178,190)</color>
@@ -652,7 +652,7 @@
 			</li>
 		</comps>
 	</ThingDef>
-	
+
 	<!-- Junglelisk Egg -->
 	<ThingDef ParentName="EggUnfertBase">
 		<defName>AA_JungleliskEggUnfertilized</defName>
@@ -730,6 +730,28 @@
 			<li Class="CompProperties_Hatcher">
 				<hatcherDaystoHatch>7</hatcherDaystoHatch>
 				<hatcherPawn>AA_MeadowAve</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<!-- =============== Desert Ave Egg =============== -->
+
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>AA_EggDesertAveFertilized</defName>
+		<label>desert ave egg (fert.)</label>
+		<description>Fertilized desert ave egg. If all goes well, it should hatch into a baby desert ave. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<color>(125,138,97)</color>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>19.0</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>7</hatcherDaystoHatch>
+				<hatcherPawn>AA_DesertAve</hatcherPawn>
 			</li>
 		</comps>
 	</ThingDef>
