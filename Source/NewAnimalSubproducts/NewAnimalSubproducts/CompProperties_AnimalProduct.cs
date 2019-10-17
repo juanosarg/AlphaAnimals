@@ -13,6 +13,8 @@ namespace NewAlphaAnimalSubproducts
         public string customResourceString ="";
         public bool isRandom = false;
         public List<string> randomItems = null;
+        public List<string> seasonalItems = null;
+
 
         public CompProperties_AnimalProduct()
         {

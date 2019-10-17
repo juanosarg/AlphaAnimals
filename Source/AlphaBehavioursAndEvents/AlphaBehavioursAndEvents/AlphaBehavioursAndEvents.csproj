@@ -54,6 +54,7 @@
     <Compile Include="AlphaAnimals_Settings.cs" />
     <Compile Include="Building_BlackHiveMound.cs" />
     <Compile Include="Building_Overgrown_DropPod.cs" />
+    <Compile Include="ChameleonSkins.cs" />
     <Compile Include="CompFertilizer.cs" />
     <Compile Include="CompGasProducer.cs" />
     <Compile Include="CompInitialHediff.cs" />

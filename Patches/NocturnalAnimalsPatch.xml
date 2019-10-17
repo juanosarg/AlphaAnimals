@@ -60,5 +60,15 @@
             </li>
         </value>
     </Operation>
+	
+	<!-- Night Ave -->
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ThingDef[defName="AA_NightAve"]</xpath>
+        <value>
+            <li Class="NocturnalAnimals.ExtendedRaceProperties">
+                <bodyClock>Nocturnal</bodyClock>
+            </li>
+        </value>
+    </Operation>
 
 </Patch>

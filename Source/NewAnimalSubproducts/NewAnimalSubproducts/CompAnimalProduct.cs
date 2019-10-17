@@ -2,7 +2,7 @@
 using RimWorld.Planet;
 using UnityEngine;
 using Verse;
-using System;
+using AlphaBehavioursAndEvents;
 
 namespace NewAlphaAnimalSubproducts
 {
@@ -33,7 +33,11 @@ namespace NewAlphaAnimalSubproducts
         {
             get
             {
-                if (Props.isRandom) {
+                if (Props.seasonalItems!= null) {
+                    ChameleonSkins pawn = this.parent as ChameleonSkins;
+                    return ThingDef.Named(Props.seasonalItems[pawn.woolType]);
+                }
+                else if (Props.isRandom) {
                    
                     return ThingDef.Named(Props.randomItems.RandomElement());
                 } else {

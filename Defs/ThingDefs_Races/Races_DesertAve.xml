@@ -54,9 +54,16 @@
 				<li>
 					<def>AnimalAdult</def>
 					<minAge>0.5</minAge>
-
+					<soundAngry>AA_MeadowAve_Angry</soundAngry>
+					<soundWounded>AA_MeadowAve_Wounded</soundWounded>
+					<soundDeath>AA_MeadowAve_Death</soundDeath>
+					<soundCall>AA_MeadowAve_Call</soundCall>
 				</li>
 			</lifeStageAges>
+			<soundCallIntervalRange>
+				<min>2000</min>
+				<max>3000</max>
+			</soundCallIntervalRange>
 			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
 			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
@@ -76,7 +83,7 @@
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
 				<eggCountRange>1</eggCountRange>
 			</li>
-			
+
 		</comps>
 		<tools>
 			<li>
@@ -145,7 +152,7 @@
 					<drawSize>0.85</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/AA_DesertAve/AA_Dessicated_DesertAve</texPath>
+					<texPath>Things/Pawn/Animal/AA_MeadowAve/AA_Dessicated_MeadowAve</texPath>
 					<drawSize>0.85</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -159,7 +166,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/AA_DesertAve/AA_Dessicated_DesertAve</texPath>
+					<texPath>Things/Pawn/Animal/AA_MeadowAve/AA_Dessicated_MeadowAve</texPath>
 					<drawSize>2.1</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -174,7 +181,7 @@
 				</bodyGraphicData>
 
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/AA_DesertAve/AA_Dessicated_DesertAve</texPath>
+					<texPath>Things/Pawn/Animal/AA_MeadowAve/AA_Dessicated_MeadowAve</texPath>
 					<drawSize>2.75</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
