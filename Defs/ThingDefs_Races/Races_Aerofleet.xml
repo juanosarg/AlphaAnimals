@@ -36,6 +36,13 @@
 		</tools>
 		<comps>
 
+			<li Class="AlphaBehavioursAndEvents.CompProperties_Floating">
+
+				<isFloater>true</isFloater>
+				<canCrossWater>true</canCrossWater>
+
+			</li>
+			
 			<li Class="AlphaBehavioursAndEvents.CompProperties_AsexualReproduction">
 
 				<reproductionIntervalDays>9</reproductionIntervalDays>
