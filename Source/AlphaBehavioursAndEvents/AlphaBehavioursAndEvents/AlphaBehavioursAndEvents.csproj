@@ -56,12 +56,14 @@
     <Compile Include="Building_Overgrown_DropPod.cs" />
     <Compile Include="ChameleonSkins.cs" />
     <Compile Include="CompFertilizer.cs" />
+    <Compile Include="CompFloating.cs" />
     <Compile Include="CompGasProducer.cs" />
     <Compile Include="CompInitialHediff.cs" />
     <Compile Include="CompNearbyEffecter.cs" />
     <Compile Include="CompProperties_Electrified.cs" />
     <Compile Include="CompElectrified.cs" />
     <Compile Include="CompProperties_Fertilizer.cs" />
+    <Compile Include="CompProperties_Floating.cs" />
     <Compile Include="CompProperties_GasProducer.cs" />
     <Compile Include="CompProperties_InitialHediff.cs" />
     <Compile Include="CompProperties_NearbyEffecter.cs" />

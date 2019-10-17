@@ -59,6 +59,107 @@ namespace AlphaBehavioursAndEvents
         }
     }
 
+    /*This Harmony Prefix makes the creature carry more weight
+*/
+    [HarmonyPatch(typeof(PathGrid))]
+    [HarmonyPatch("CalculatedCostAt")]
+    public static class PathGrid_CalculatedCostAt_Patch
+    {
+        [HarmonyPostfix]
+        public static void MakePawnNotCountTerrain(IntVec3 c,Pawn p, ref int __result)
+
+        {
+        /*    if (p.GetComp<CompFloating>().Props.isFloater) {
+                bool flag = false;
+                if (p.Map != null)
+                {
+                    TerrainDef terrainDef = p.Map.terrainGrid.TerrainAt(c);
+                    if (terrainDef == null || (terrainDef.passability == Traversability.Impassable) && (!terrainDef.IsWater))
+                    {
+                        __result = 10000;
+                    }
+                    //int num = terrainDef.pathCost;
+                    List<Thing> list = p.Map.thingGrid.ThingsListAt(c);
+                    for (int i = 0; i < list.Count; i++)
+                    {
+                        Thing thing = list[i];
+                        if (thing.def.passability == Traversability.Impassable)
+                        {
+                            __result = 10000;
+                            
+                        }
+                        if (!PathGrid.IsPathCostIgnoreRepeater(thing.def) || !prevCell.IsValid || !this.ContainsPathCostIgnoreRepeater(prevCell))
+                        {
+                            int pathCost = thing.def.pathCost;
+                            if (pathCost > num)
+                            {
+                                num = pathCost;
+                            }
+                        }
+                        if (thing is Building_Door && prevCell.IsValid)
+                        {
+                            Building edifice = prevCell.GetEdifice(this.map);
+                            if (edifice != null && edifice is Building_Door)
+                            {
+                                flag = true;
+                            }
+                        }
+                    }
+                    int num2 = SnowUtility.MovementTicksAddOn(this.map.snowGrid.GetCategory(c));
+                    if (num2 > num)
+                    {
+                        num = num2;
+                    }
+                    if (flag)
+                    {
+                        num += 45;
+                    }
+                    if (perceivedStatic)
+                    {
+                        for (int j = 0; j < 9; j++)
+                        {
+                            IntVec3 b = GenAdj.AdjacentCellsAndInside[j];
+                            IntVec3 c2 = c + b;
+                            if (c2.InBounds(this.map))
+                            {
+                                Fire fire = null;
+                                list = this.map.thingGrid.ThingsListAtFast(c2);
+                                for (int k = 0; k < list.Count; k++)
+                                {
+                                    fire = (list[k] as Fire);
+                                    if (fire != null)
+                                    {
+                                        break;
+                                    }
+                                }
+                                if (fire != null && fire.parent == null)
+                                {
+                                    if (b.x == 0 && b.z == 0)
+                                    {
+                                        num += 1000;
+                                    }
+                                    else
+                                    {
+                                        num += 150;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    return num;
+
+                }
+
+
+            }
+            
+            
+*/
+        }
+    }
+
+
+
     /*Buckle your belts or something, we are doing Transpilers!*/
 
     [HarmonyPatch(typeof(WildAnimalSpawner))]
