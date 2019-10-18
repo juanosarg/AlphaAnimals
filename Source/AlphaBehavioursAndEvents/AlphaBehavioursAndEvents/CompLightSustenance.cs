@@ -12,6 +12,12 @@ namespace AlphaBehavioursAndEvents
         public float growOptimalGlow = 0.4f;
         private bool addHediffOnce = true;
 
+        public override void PostExposeData()
+        {
+            base.PostExposeData();
+            Scribe_Values.Look<bool>(ref this.addHediffOnce, "addHediffOnce", true, false);
+            
+        }
 
 
         public CompProperties_LightSustenance Props

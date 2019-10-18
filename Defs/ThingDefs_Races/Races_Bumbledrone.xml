@@ -4,7 +4,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>AA_Bumbledrone</defName>
     <label>bumbledrone</label>	  
-    <description>The Bumbledrone is a mutant wasp-like creature, probably the result of ancient genetic engineering long ago released into the wild. On its own, a Bumbledrone isn't very powerful, more a nuisance than a threat, but if threatened in big numbers their stingers carry a very powerful toxin that could down even the biggest foe. "Luckily", since they are not carnivorous, they use this as a deterrent, rather than as a hunting method.</description>
+    <description>The Bumbledrone is a mutant wasp-like creature, probably the result of ancient genetic engineering long ago released into the wild. On its own, a Bumbledrone isn't very powerful, more a nuisance than a threat, but if threatened in big numbers their stingers carry a very powerful toxin that could down even the biggest foe. "Luckily", since they are not carnivorous, they use this as a deterrent, rather than as a hunting method. As a floating creature, Bumbledrones ignore terrain movement costs.</description>
     <statBases>
       <MoveSpeed>5.0</MoveSpeed>
       <ComfyTemperatureMin>-25</ComfyTemperatureMin>
@@ -46,7 +46,14 @@
       </li>
 
     </tools>
-	
+	<comps>
+			<li Class="AlphaBehavioursAndEvents.CompProperties_Floating">
+
+				<isFloater>true</isFloater>
+				<canCrossWater>true</canCrossWater>
+
+			</li>
+		</comps>
 	
     <race>
 	
@@ -234,6 +241,12 @@
 					<max>3</max>
 				</eggCountRange>
 				<eggLayFemaleOnly>false</eggLayFemaleOnly>
+
+			</li>
+			<li Class="AlphaBehavioursAndEvents.CompProperties_Floating">
+
+				<isFloater>true</isFloater>
+				<canCrossWater>true</canCrossWater>
 
 			</li>
 

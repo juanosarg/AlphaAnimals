@@ -92,9 +92,9 @@
 			</li>
 			
 			<li Class="PatchOperationAdd">
-				<xpath>/Defs/ThingDef[defName = "AA_ColossalAerofleet"]</xpath> 
+				<xpath>/Defs/ThingDef[defName = "AA_ColossalAerofleet"]/comps</xpath> 
 				<value>
-				<comps>
+				
 					<li Class="GiddyUpCore.CompProperties_Overlay">
 						<overlaySide> 
 							<graphicDataDefault>
@@ -128,7 +128,7 @@
 						</overlayBack>
 
 					</li>
-				</comps>
+				
 				</value>
 			</li>
 			
