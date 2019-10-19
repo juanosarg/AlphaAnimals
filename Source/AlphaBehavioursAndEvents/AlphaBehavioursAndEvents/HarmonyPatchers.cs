@@ -108,7 +108,7 @@ namespace AlphaBehavioursAndEvents
                             num += 45;
                         }
                     }
-                    Log.Message(num.ToString());
+                    
                     __result = num;
 
                 }
