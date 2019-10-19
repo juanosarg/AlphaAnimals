@@ -52,7 +52,7 @@
 
   <ThingDef ParentName="AA_BodyPartMutantBase">
     <defName>AA_MutantEye</defName>
-    <label>eye</label>
+    <label>mutant eye</label>
     <description>This eye constantly blinks on its own, like a nervous tic, and a second set of vertical eyelids seems to be present behind the normal, human ones. Something seems... off about it, as if it wasn't a completely natural creation.</description>
     <statBases>
       <MarketValue>100</MarketValue>
