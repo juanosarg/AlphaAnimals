@@ -42,7 +42,7 @@
 			</li>
 			<li Class="NewAlphaAnimalSubproducts.CompProperties_AnimalProduct">
 				
-				<gatheringIntervalDays>10</gatheringIntervalDays>
+				<gatheringIntervalDays>20</gatheringIntervalDays>
 				<resourceAmount>1</resourceAmount>
 				<customResourceString>AA_MutantImplantsDesc</customResourceString>
 				<isRandom>true</isRandom>

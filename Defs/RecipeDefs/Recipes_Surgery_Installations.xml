@@ -13,6 +13,9 @@
     <skillRequirements>
       <Medicine>3</Medicine>
     </skillRequirements>
+	<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
     <ingredients>
       <li>
         <filter>
@@ -55,6 +58,9 @@
     <skillRequirements>
       <Medicine>3</Medicine>
     </skillRequirements>
+	<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
     <ingredients>
       <li>
         <filter>
@@ -97,6 +103,10 @@
     <skillRequirements>
       <Medicine>3</Medicine>
     </skillRequirements>
+	
+	<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
     <ingredients>
       <li>
         <filter>
