@@ -64,13 +64,15 @@ namespace NocturnalAnimals
                 {
                     return hour > 3 || hour < 16;
                 }
-                else if (extendedRaceProps == null || extendedRaceProps.bodyClock == BodyClock.Diurnal) {
-                    return hour < 7 || hour > 21;
+                else if (extendedRaceProps == null || extendedRaceProps.bodyClock == BodyClock.Nocturnal) {
+                    return hour > 9 && hour < 19;
                 } else
-                    
 
-                // Nocturnal
-                return hour > 9 && hour < 19;
+
+                    // Nocturnal
+                    return hour < 7 || hour > 21;
+
+                
             }
 
         }
