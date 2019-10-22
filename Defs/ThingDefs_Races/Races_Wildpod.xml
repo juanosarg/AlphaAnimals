@@ -98,6 +98,8 @@
       <body>QuadrupedAnimalWithPaws</body>
       <baseBodySize>4.0</baseBodySize>
       <baseHealthScale>3.6</baseHealthScale>
+	  	  <baseHungerRate>0.33</baseHungerRate>
+
       <foodType>VegetarianRoughAnimal</foodType>
 	  <hasGenders>false</hasGenders>
       <wildness>0.95</wildness>
