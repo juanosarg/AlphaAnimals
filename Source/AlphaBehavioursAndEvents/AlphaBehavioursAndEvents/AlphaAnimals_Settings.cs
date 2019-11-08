@@ -138,7 +138,7 @@ namespace AlphaBehavioursAndEvents
             Listing_Standard ls = new Listing_Standard();
            
             ls.Begin(inRect);
-            ls.ColumnWidth = inRect.width / 3f;
+            ls.ColumnWidth = inRect.width / 3.2f;
 
             ls.CheckboxLabeled("disableAerofleet".Translate(), ref AA_AerofleetFlag, null);
 
