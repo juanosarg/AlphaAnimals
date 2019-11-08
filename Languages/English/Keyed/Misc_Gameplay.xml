@@ -84,55 +84,72 @@
 	<allowBumbledrones>Allow bumbledrone queen migrations</allowBumbledrones>
 	<allowFrostmiteCorpses>Allow frostmites digging corpses on their own</allowFrostmiteCorpses>
 	<allowAsteroids>Allow Arcturan Sky eel asteroids impacting</allowAsteroids>
+	<removeAnimalParticles>Remove animal particles</removeAnimalParticles>
+
 
 	<!-- Mod Settings, animal toggles -->
 
-	<disableAerofleet>Disable Aerofleet wild spawns</disableAerofleet>
-	<disableAnimusVox>Disable Animus Vox wild spawns</disableAnimusVox>
-	<disableArcticLion>Disable Arctic Lion wild spawns</disableArcticLion>
-	<disableBarbslinger>Disable Barbslinger wild spawns</disableBarbslinger>
-	<disableBedBug>Disable Bed bug wild spawns</disableBedBug>
-	<disableBlizzarisk>Disable Blizzarisk wild spawns</disableBlizzarisk>
-	<disableBoulderMit>Disable Bouldermit wild spawns</disableBoulderMit>
-	<disableBumbledrone>Disable Bumbledrone wild spawns</disableBumbledrone>
-	<disableCactipine>Disable Cactipine wild spawns</disableCactipine>
-	<disableDecayDrake>Disable Decay Drake wild spawns</disableDecayDrake>
-	<disableDunealisk>Disable Dunealisk wild spawns</disableDunealisk>
-	<disableFeralisk>Disable Feralisk wild spawns</disableFeralisk>
-	<disableFissionMouse>Disable Fission Mouse wild spawns</disableFissionMouse>
-	<disableFrostmite>Disable Frostmite wild spawns</disableFrostmite>
-	<disableGigantelope>Disable Gigantelope wild spawns</disableGigantelope>
-	<disableGreatDevourer>Disable Great Devourer wild spawns</disableGreatDevourer>
-	<disableGroundrunner>Disable Groundrunner wild spawns</disableGroundrunner>
-	<disableLockjaw>Disable Lockjaw wild spawns</disableLockjaw>
-	<disableMammothWorm>Disable Mammoth Worm wild spawns</disableMammothWorm>
-	<disableMantrap>Disable Mantrap wild spawns</disableMantrap>
-	<disableMeadowAve>Disable Meadow Ave wild spawns</disableMeadowAve>
-	<disableMegaLouse>Disable Megalouse wild spawns</disableMegaLouse>
-	<disableNeedlepost>Disable Needlepost wild spawns</disableNeedlepost>
-	<disableNeedleroll>Disable Needleroll wild spawns</disableNeedleroll>
-	<disableNightling>Disable Nightling wild spawns</disableNightling>
-	<disableOcularJelly>Disable Ocular Jelly wild spawns</disableOcularJelly>
-	<disableOvergrownColossus>Disable Overgrown Colossus wild spawns</disableOvergrownColossus>
-	<disablePebbleMit>Disable Pebblemit wild spawns</disablePebbleMit>
-	<disableRadyak>Disable Radyak wild spawns</disableRadyak>
-	<disableRaptorShrimp>Disable Raptor Shrimp wild spawns</disableRaptorShrimp>
-	<disableSandLion>Disable Sand Lion wild spawns</disableSandLion>
-	<disableSandSquid>Disable Sand Squid wild spawns</disableSandSquid>
-	<disableShockGoat>Disable Shock Goat wild spawns</disableShockGoat>
-	<disableSlurrypede>Disable Slurrypede wild spawns</disableSlurrypede>
-	<disableTetraSlug>Disable Tetraslug wild spawns</disableTetraSlug>
-	<disableThermadon>Disable Thermadon wild spawns</disableThermadon>
-	<disableWildpawn>Disable Wildpawn wild spawns</disableWildpawn>
-	<disableWildpod>Disable Wildpod wild spawns</disableWildpod>
+	<disableAerofleet>Disable Aerofleet</disableAerofleet>
+	<disableAnimusVox>Disable Animus Vox</disableAnimusVox>
+	<disableArcticLion>Disable Arctic Lion</disableArcticLion>
+	<disableBarbslinger>Disable Barbslinger</disableBarbslinger>
+	<disableBedBug>Disable Bed bug</disableBedBug>
+	<disableBlizzarisk>Disable Blizzarisk</disableBlizzarisk>
+	<disableBoulderMit>Disable Bouldermit</disableBoulderMit>
+	<disableBumbledrone>Disable Bumbledrone</disableBumbledrone>
+	<disableCactipine>Disable Cactipine</disableCactipine>
+	<disableDecayDrake>Disable Decay Drake</disableDecayDrake>
+	<disableDunealisk>Disable Dunealisk</disableDunealisk>
+	<disableFeralisk>Disable Feralisk</disableFeralisk>
+	<disableFissionMouse>Disable Fission Mouse</disableFissionMouse>
+	<disableFrostmite>Disable Frostmite</disableFrostmite>
+	<disableGigantelope>Disable Gigantelope</disableGigantelope>
+	<disableGreatDevourer>Disable Great Devourer</disableGreatDevourer>
+	<disableGroundrunner>Disable Groundrunner</disableGroundrunner>
+	<disableLockjaw>Disable Lockjaw</disableLockjaw>
+	<disableMammothWorm>Disable Mammoth Worm</disableMammothWorm>
+	<disableMantrap>Disable Mantrap</disableMantrap>
+	<disableMeadowAve>Disable all Meadow Aves</disableMeadowAve>
+	<disableMegaLouse>Disable Megalouse</disableMegaLouse>
+	<disableNeedlepost>Disable Needlepost</disableNeedlepost>
+	<disableNeedleroll>Disable Needleroll</disableNeedleroll>
+	<disableNightling>Disable Nightling</disableNightling>
+	<disableOcularJelly>Disable Ocular Jelly</disableOcularJelly>
+	<disableOvergrownColossus>Disable Overgrown Colossus</disableOvergrownColossus>
+	<disablePebbleMit>Disable Pebblemit</disablePebbleMit>
+	<disableRadyak>Disable Radyak</disableRadyak>
+	<disableRaptorShrimp>Disable Raptor Shrimp</disableRaptorShrimp>
+	<disableSandLion>Disable Sand Lion</disableSandLion>
+	<disableSandSquid>Disable Sand Squid</disableSandSquid>
+	<disableShockGoat>Disable Shock Goat</disableShockGoat>
+	<disableSlurrypede>Disable Slurrypede</disableSlurrypede>
+	<disableTetraSlug>Disable Tetraslug</disableTetraSlug>
+	<disableThermadon>Disable Thermadon</disableThermadon>
+	<disableWildpawn>Disable Wildpawn</disableWildpawn>
+	<disableWildpod>Disable Wildpod</disableWildpod>
 
-	<disableAgaripod>Disable Agaripod wild spawns</disableAgaripod>
-	<disableInfectedAerofleet>Disable Infected Aerofleet wild spawns</disableInfectedAerofleet>
-	<disableJunglelisk>Disable Junglelisk wild spawns</disableJunglelisk>
-	<disableMycoidColossus>Disable Mycoid Colossus wild spawns</disableMycoidColossus>
+	<disableAgaripod>Disable Agaripod</disableAgaripod>
+	<disableInfectedAerofleet>Disable Infected Aerofleet</disableInfectedAerofleet>
+	<disableJunglelisk>Disable Junglelisk</disableJunglelisk>
+	<disableMycoidColossus>Disable Mycoid Colossus</disableMycoidColossus>
 	<disableRedGoo>Disable Red Goo spawns</disableRedGoo>
-	<disableGreenGoo>Disable Green Goo wild spawns</disableGreenGoo>
-	<disableRedSpore>Disable Red Spore wild spawns</disableRedSpore>
+	<disableGreenGoo>Disable Green Goo</disableGreenGoo>
+	<disableRedSpore>Disable Red Spore</disableRedSpore>
+	
+	<disableYak>Disable Chameleon Yak</disableYak>
+	<disableBeetle>Disable Crepuscular Beetle</disableBeetle>
+	<disableDuskRat>Disable Dusk Rat</disableDuskRat>
+	<disableFrostBehemoth>Disable Frostbound Behemoth</disableFrostBehemoth>
+	<disableFrostling>Disable Frostling</disableFrostling>
+	<disableNightmule>Disable Nightmule</disableNightmule>
+	<disableNightram>Disable Nightram</disableNightram>
+	<disableTeratogenicOriginator>Disable Teratogenic Originator</disableTeratogenicOriginator>
+
+
+
+
+
+
 
 
 

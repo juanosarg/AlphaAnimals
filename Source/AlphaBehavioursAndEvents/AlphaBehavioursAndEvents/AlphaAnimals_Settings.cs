@@ -57,6 +57,19 @@ namespace AlphaBehavioursAndEvents
             public static bool AA_GreenGooFlag = false;
             public static bool AA_InfectedAerofleetFlag = false;
 
+            public static bool AA_YakFlag = false;
+            public static bool AA_BeetleFlag = false;
+            public static bool AA_DuskRatFlag = false;
+            public static bool AA_FrostBehemothFlag = false;
+            public static bool AA_FrostlingFlag = false;
+            public static bool AA_NightmuleFlag = false;
+            public static bool AA_NightramFlag = false;
+            public static bool AA_OriginatorFlag = false;
+
+
+
+
+
 
         public override void ExposeData()
             {
@@ -109,13 +122,23 @@ namespace AlphaBehavioursAndEvents
             Scribe_Values.Look(ref AA_GreenGooFlag, "AA_GreenGooFlag", false, true);
             Scribe_Values.Look(ref AA_InfectedAerofleetFlag, "AA_InfectedAerofleetFlag", false, true);
 
+            Scribe_Values.Look(ref AA_YakFlag, "AA_YakFlag", false, true);
+            Scribe_Values.Look(ref AA_BeetleFlag, "AA_BeetleFlag", false, true);
+            Scribe_Values.Look(ref AA_DuskRatFlag, "AA_DuskRatFlag", false, true);
+            Scribe_Values.Look(ref AA_FrostBehemothFlag, "AA_FrostBehemothFlag", false, true);
+            Scribe_Values.Look(ref AA_FrostlingFlag, "AA_FrostlingFlag", false, true);
+            Scribe_Values.Look(ref AA_NightmuleFlag, "AA_NightmuleFlag", false, true);
+            Scribe_Values.Look(ref AA_NightramFlag, "AA_NightramFlag", false, true);
+            Scribe_Values.Look(ref AA_OriginatorFlag, "AA_OriginatorFlag", false, true);
+
+
         }
         public static void DoWindowContents(Rect inRect)
         {
             Listing_Standard ls = new Listing_Standard();
            
             ls.Begin(inRect);
-            ls.ColumnWidth = inRect.width / 2.05f;
+            ls.ColumnWidth = inRect.width / 3f;
 
             ls.CheckboxLabeled("disableAerofleet".Translate(), ref AA_AerofleetFlag, null);
 
@@ -129,6 +152,8 @@ namespace AlphaBehavioursAndEvents
 
             ls.CheckboxLabeled("disableBedBug".Translate(), ref AA_BedBugFlag, null);
 
+            ls.CheckboxLabeled("disableBeetle".Translate(), ref AA_BeetleFlag, null);
+
             ls.CheckboxLabeled("disableBlizzarisk".Translate(), ref AA_BlizzariskFlag, null);
 
             ls.CheckboxLabeled("disableBoulderMit".Translate(), ref AA_BoulderMitFlag, null);
@@ -141,9 +166,16 @@ namespace AlphaBehavioursAndEvents
 
             ls.CheckboxLabeled("disableDunealisk".Translate(), ref AA_DunealiskFlag, null);
 
+            ls.CheckboxLabeled("disableDuskRat".Translate(), ref AA_DuskRatFlag, null);
+
             ls.CheckboxLabeled("disableFeralisk".Translate(), ref AA_FeraliskFlag, null);
 
             ls.CheckboxLabeled("disableFissionMouse".Translate(), ref AA_FissionMouseFlag, null);
+
+            ls.CheckboxLabeled("disableFrostBehemoth".Translate(), ref AA_FrostBehemothFlag, null);
+
+            ls.CheckboxLabeled("disableFrostling".Translate(), ref AA_FrostlingFlag, null);
+
 
             ls.CheckboxLabeled("disableFrostmite".Translate(), ref AA_FrostmiteFlag, null);
 
@@ -155,12 +187,14 @@ namespace AlphaBehavioursAndEvents
 
             ls.CheckboxLabeled("disableGroundrunner".Translate(), ref AA_GroundrunnerFlag, null);
 
+           
+
+           
+            ls.NewColumn();
             ls.CheckboxLabeled("disableInfectedAerofleet".Translate(), ref AA_InfectedAerofleetFlag, null);
 
             ls.CheckboxLabeled("disableJunglelisk".Translate(), ref AA_JungleliskFlag, null);
-
             ls.CheckboxLabeled("disableLockjaw".Translate(), ref AA_LockjawFlag, null);
-            ls.NewColumn();
             ls.CheckboxLabeled("disableMammothWorm".Translate(), ref AA_MammothWormFlag, null);
 
             ls.CheckboxLabeled("disableMantrap".Translate(), ref AA_MantrapFlag, null);
@@ -174,8 +208,10 @@ namespace AlphaBehavioursAndEvents
             ls.CheckboxLabeled("disableNeedlepost".Translate(), ref AA_NeedlepostFlag, null);
 
             ls.CheckboxLabeled("disableNeedleroll".Translate(), ref AA_NeedlerollFlag, null);
+            ls.CheckboxLabeled("disableNightmule".Translate(), ref AA_NightmuleFlag, null);
 
             ls.CheckboxLabeled("disableNightling".Translate(), ref AA_NightlingFlag, null);
+            ls.CheckboxLabeled("disableNightram".Translate(), ref AA_NightramFlag, null);
 
             ls.CheckboxLabeled("disableOcularJelly".Translate(), ref AA_OcularJellyFlag, null);
 
@@ -197,16 +233,25 @@ namespace AlphaBehavioursAndEvents
 
             ls.CheckboxLabeled("disableShockGoat".Translate(), ref AA_ShockGoatFlag, null);
 
+            
+
+         
+
+            ls.NewColumn();
             ls.CheckboxLabeled("disableSlurrypede".Translate(), ref AA_SlurrypedeFlag, null);
+            ls.CheckboxLabeled("disableTeratogenicOriginator".Translate(), ref AA_OriginatorFlag, null);
 
             ls.CheckboxLabeled("disableTetraSlug".Translate(), ref AA_TetraSlugFlag, null);
-
             ls.CheckboxLabeled("disableThermadon".Translate(), ref AA_ThermadonFlag, null);
 
             ls.CheckboxLabeled("disableWildpawn".Translate(), ref AA_WildpawnFlag, null);
+            ls.CheckboxLabeled("disableWildpod".Translate(), ref AA_WildpodFlag, null);
 
             ls.CheckboxLabeled("disableWildpod".Translate(), ref AA_WildpodFlag, null);
-   
+
+            ls.CheckboxLabeled("disableYak".Translate(), ref AA_YakFlag, null);
+
+
 
             ls.End();
 
@@ -232,6 +277,7 @@ namespace AlphaBehavioursAndEvents
         public static bool flagBumbledrones = true;
         public static bool flagFrostmites = true;
         public static bool flagAsteroids = true;
+        public static bool removeAnimalParticles = false;
 
 
         public override void ExposeData()
@@ -247,6 +293,8 @@ namespace AlphaBehavioursAndEvents
             Scribe_Values.Look(ref flagBumbledrones, "flagBumbledrones", true, true);
             Scribe_Values.Look(ref flagFrostmites, "flagFrostmites", true, true);
             Scribe_Values.Look(ref flagAsteroids, "flagAsteroid", true, true);
+            Scribe_Values.Look(ref removeAnimalParticles, "removeAnimalParticles", false, true);
+
 
 
 
@@ -278,7 +326,8 @@ namespace AlphaBehavioursAndEvents
             ls.CheckboxLabeled("allowFrostmiteCorpses".Translate(), ref flagFrostmites, null);
             ls.Gap(12f);
             ls.CheckboxLabeled("allowAsteroids".Translate(), ref flagAsteroids, null);
-
+            ls.Gap(12f);
+            ls.CheckboxLabeled("removeAnimalParticles".Translate(), ref removeAnimalParticles, null);
             ls.End();
         }
 

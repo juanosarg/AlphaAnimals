@@ -248,7 +248,8 @@ namespace AlphaBehavioursAndEvents
                     {
                         return true;
                     }
-                    if (theCreature.defName.Contains("AA_MeadowAve") && AlphaAnimals_Settings.AA_MeadowAveFlag)
+                    if ((theCreature.defName.Contains("AA_MeadowAve")|| theCreature.defName.Contains("AA_NightAve")|| theCreature.defName.Contains("AA_DesertAve")
+                        || theCreature.defName.Contains("AA_RoyalAve")|| theCreature.defName.Contains("AA_FrostAve")) && (AlphaAnimals_Settings.AA_MeadowAveFlag))
                     {
                         return true;
                     }
@@ -345,6 +346,38 @@ namespace AlphaBehavioursAndEvents
                         return true;
                     }
                     if (theCreature.defName.Contains("AA_InfectedAerofleet") && AlphaAnimals_Settings.AA_InfectedAerofleetFlag)
+                    {
+                        return true;
+                    }
+                    if (theCreature.defName.Contains("AA_ChameleonYak") && AlphaAnimals_Settings.AA_YakFlag)
+                    {
+                        return true;
+                    }
+                    if (theCreature.defName.Contains("AA_CrepuscularBeetle") && AlphaAnimals_Settings.AA_BeetleFlag)
+                    {
+                        return true;
+                    }
+                    if (theCreature.defName.Contains("AA_DuskRat") && AlphaAnimals_Settings.AA_DuskRatFlag)
+                    {
+                        return true;
+                    }
+                    if (theCreature.defName.Contains("AA_FrostboundBehemoth") && AlphaAnimals_Settings.AA_FrostBehemothFlag)
+                    {
+                        return true;
+                    }
+                    if (theCreature.defName.Contains("AA_Frostling") && AlphaAnimals_Settings.AA_FrostlingFlag)
+                    {
+                        return true;
+                    }
+                    if (theCreature.defName.Contains("AA_NightMule") && AlphaAnimals_Settings.AA_NightmuleFlag)
+                    {
+                        return true;
+                    }
+                    if (theCreature.defName.Contains("AA_NightRam") && AlphaAnimals_Settings.AA_NightramFlag)
+                    {
+                        return true;
+                    }
+                    if (theCreature.defName.Contains("AA_TeratogenicOriginator") && AlphaAnimals_Settings.AA_OriginatorFlag)
                     {
                         return true;
                     }
