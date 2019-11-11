@@ -5,7 +5,7 @@
 		<label>groundrunner</label>
 								<thingClass>AnimalVariations.AnimalMultiSkins</thingClass>
 
-		<description>A strange chimera between a bear and mole, Groundrunners originally came from Cave Worlds. They were used as walking heavy tools by the locals when they hit parts that plasteel can’t break, and for hauling large boulders that their owners can’t lift.\n\nDue to their domesticated origins, they are surprisingly docile and easy to tame. Their incredible strength and sharp claws allows them to break rocks with relative ease. But out here in the Rim, those claws are usually reserved for ripping power armors apart along with their wearers.\n\nGroundrunners will happily help your colonists mine rocks and minerals. They are however quite lazy and get distracted easily.</description>
+		<description>A strange chimera between a bear and mole, Groundrunners originally came from Cave Worlds. They were used as walking heavy tools by the locals when they hit parts that plasteel can’t break, and for hauling large boulders that their owners can’t lift.\n\nDue to their domesticated origins, they are surprisingly docile and easy to tame. Their incredible strength and sharp claws allows them to break rocks with relative ease. But out here in the Rim, those claws are usually reserved for ripping power armors apart along with their wearers.\n\nGroundrunners will happily help your colonists mine rocks and minerals. They are however quite lazy and get distracted easily (this interaction requires the Groundrunner to be trained in Obedience).</description>
 		<statBases>
 			<MoveSpeed>3.00</MoveSpeed>
 			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
