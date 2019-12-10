@@ -247,8 +247,6 @@ namespace AlphaBehavioursAndEvents
             ls.CheckboxLabeled("disableWildpawn".Translate(), ref AA_WildpawnFlag, null);
             ls.CheckboxLabeled("disableWildpod".Translate(), ref AA_WildpodFlag, null);
 
-            ls.CheckboxLabeled("disableWildpod".Translate(), ref AA_WildpodFlag, null);
-
             ls.CheckboxLabeled("disableYak".Translate(), ref AA_YakFlag, null);
 
 
