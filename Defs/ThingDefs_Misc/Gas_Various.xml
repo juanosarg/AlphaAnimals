@@ -105,5 +105,24 @@
       <rotationSpeed>0</rotationSpeed>
     </gas>
   </ThingDef>
+  
+  <ThingDef ParentName="BaseGas">
+    <defName>AA_SmokeInk</defName>
+    <label>aerosolized toxic ink</label>
+    <graphicData>
+      <texPath>Things/Gas/Puff</texPath>
+      <drawSize>2.2</drawSize>
+      <color>(0.2,0.2,0.2,0.5)</color>
+    </graphicData>
+    <gas>
+      <expireSeconds>
+        <min>29</min>
+        <max>31</max>
+      </expireSeconds>
+      <blockTurretTracking>true</blockTurretTracking>
+      <accuracyPenalty>0.25</accuracyPenalty>
+      <rotationSpeed>10</rotationSpeed>
+    </gas>
+  </ThingDef>
     
 </Defs>
