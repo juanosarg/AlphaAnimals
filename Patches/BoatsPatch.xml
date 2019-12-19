@@ -235,7 +235,7 @@
 					</ThingDef>
 				</value>
 			</li>
-			
+
 			<!-- Mirachian Man O'War -->
 
 			<li Class="PatchOperationAdd"> 
@@ -356,7 +356,7 @@
 										<slots>1</slots>
 										<slotsToOperate>1</slotsToOperate>
 									</li>
-									
+
 									<li>
 										<label>Passenger</label>
 										<handlingType>None</handlingType>
@@ -364,7 +364,7 @@
 									</li>
 								</roles>
 							</li>
-							
+
 						</comps>
 					</ThingDef>
 				</value>
@@ -410,7 +410,257 @@
 					</ThingDef>
 				</value>
 			</li>
+
+			<!-- Ironbound Leviathan -->
+
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs</xpath>
+				<value>
+					<PawnKindDef>
+						<defName>AA_IronboundLeviathan</defName>
+						<label>Ironbound Leviathan</label>
+						<defaultFactionType>PlayerColony</defaultFactionType>
+						<aiAvoidCover>false</aiAvoidCover>
+						<destroyGearOnDrop>true</destroyGearOnDrop>
+						<race>AA_IronboundLeviathanRace</race>
+						<backstoryCategories>
+							<li>Medieval</li>
+						</backstoryCategories>
+						<combatPower>20</combatPower>
+						<lifeStages>
+							<li>
+								<bodyGraphicData>
+									<texPath>Things/Pawn/Animal/AA_IronboundLeviathan/AA_IronboundLeviathan</texPath>
+									<graphicClass>Graphic_Multi</graphicClass>
+									<drawSize>(16,16)</drawSize>
+									<shaderType>CutoutComplex</shaderType>
+									<shadowData>
+										<volume>(0.4,0.1,0.4)</volume>
+									</shadowData>
+								</bodyGraphicData>
+							</li>
+						</lifeStages>
+					</PawnKindDef>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs</xpath>
+				<value>
+					<ThingDef ParentName="BaseShip">
+						<defName>AA_IronboundLeviathanRace</defName>
+						<label>Ironbound Leviathan</label>
+						<description>Leviathans are gigantic marine mammals within the infraorder Cetacea. The first Leviathans were genetically modified whales, selected for their increased size and reduced intellect, and bred as adaptable cattle. Ironbound Leviathans are Leviathan whales that are enslaved and drugged into a confused stupor, and used as a floating mobile war base. This is incredibly cruel to the animal, as it is forced to carry a lot of weight on its back, and to never be able to submerge in deep waters.\n\nIronbound Leviathans are a very cruel tool, only used by those despicable or desperate enough, and they require a lot of resources, since the whale needs to be shackled and drugged from birth.</description>
+
+						<statBases>
+							<MoveSpeed>5</MoveSpeed>
+							<Mass>15000</Mass>
+							<ArmorRating_Blunt>0.9</ArmorRating_Blunt>
+							<ArmorRating_Sharp>0.9</ArmorRating_Sharp>
+							<MarketValue>30000</MarketValue>
+							<MeatAmount>0</MeatAmount>
+							<LeatherAmount>0</LeatherAmount>
+						</statBases>
+
+						<size>(5,12)</size>
+
+						<tools>
+							<li>
+								<label>hull</label>
+								<capacities>
+									<li>Blunt</li>
+								</capacities>
+								<power>20</power>
+								<cooldownTime>10</cooldownTime>
+								<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+								<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+							</li>
+						</tools>
+
+						<race>
+							<thinkTreeMain>shipThinkTree_Simple</thinkTreeMain>
+							<thinkTreeConstant>shipThinkTree_SimpleConstant</thinkTreeConstant>
+							<intelligence>ToolUser</intelligence>
+							<fleshType>WoodenShip</fleshType>
+							<needsRest>false</needsRest>
+							<hasGenders>true</hasGenders>
+							<useMeatFrom>Cat</useMeatFrom>
+
+							<foodType>None</foodType>
+
+							<body>galleon_Body</body>
+							<baseBodySize>45.0</baseBodySize>
+							<baseHealthScale>1.0</baseHealthScale>
+							<lifeStageAges>
+								<li>
+									<def>MechanoidFullyFormed</def>
+									<minAge>0</minAge>
+									<soundWounded>BulletImpact_Wood</soundWounded>
+									<soundDeath>Explosion_Bomb</soundDeath>
+								</li>
+							</lifeStageAges>
+
+							<soundMeleeHitPawn>Pawn_Melee_MechanoidSlash_HitPawn</soundMeleeHitPawn>
+							<soundMeleeHitBuilding>Pawn_Melee_MechanoidSlash_HitPawn</soundMeleeHitBuilding>
+							<soundMeleeMiss>Pawn_Melee_MechanoidSlash_HitPawn</soundMeleeMiss>
+						</race>
+
+						<comps>	
+							<li Class = "RimShips.CompProperties_Ships">
+								<downable>false</downable>
+								<movesWhenDowned>false</movesWhenDowned>
+								<diagonalRotation>false</diagonalRotation>
+
+								<moveable>DriverNeeded</moveable>
+								<riverTraversability>HugeRiver</riverTraversability>
+								<shipPowerType>Sails</shipPowerType>
+								<nameable>true</nameable>
+								<buildDef>AA_IronboundLeviathanBlueprint</buildDef>
+								<ticksBetweenRepair>350</ticksBetweenRepair>
+
+								<healthLabel_Healthy>Operational</healthLabel_Healthy>
+								<healthLabel_Injured>Needs Healing</healthLabel_Injured>
+								<healthLabel_Immobile>Inoperable</healthLabel_Immobile>
+								<healthLabel_Dead>Dead</healthLabel_Dead>
+								<healthLabel_Beached>Beached</healthLabel_Beached>
+
+								<hitboxOffsetX>0.0</hitboxOffsetX>
+								<hitboxOffsetZ>-2.0</hitboxOffsetZ>
+
+								<roles>
+									<li>
+										<label>Whale Jockey</label>
+										<handlingType>Movement</handlingType>
+										<slots>1</slots>
+										<slotsToOperate>1</slotsToOperate>
+									</li>
+									<li>
+										<label>Crew</label>
+										<handlingType>Movement</handlingType>
+										<slots>4</slots>
+										<slotsToOperate>4</slotsToOperate>
+									</li>
+									<li>
+										<label>Cannons</label>
+										<handlingType>Cannons</handlingType>
+										<slots>6</slots>
+										<slotsToOperate>6</slotsToOperate>
+									</li>
+									<li>
+										<label>Passenger</label>
+										<handlingType>None</handlingType>
+										<slots>10</slots>
+									</li>
+								</roles>
+							</li>
+
+							<li Class="RimShips.CompProperties_Cannons">
+								<cannons>
+									<li>
+										<label>Portside</label>
+										<weaponType>Broadside</weaponType>
+										<weaponLocation>Port</weaponLocation>
+										<projectile>Galleon_cannonball</projectile>
+										<cannonSound>Explosion_PirateCannon</cannonSound>
+										<numberCannons>6</numberCannons>
+										<baseTicksBetweenShots>15</baseTicksBetweenShots>
+										<cooldownTimer>14</cooldownTimer>
+										<spacing>.63</spacing>
+
+										<splitCannonGroups>true</splitCannonGroups>
+										<centerPoints>
+											<li>.25</li>
+											<li>5.3</li>
+										</centerPoints>
+										<cannonsPerPoint>
+											<li>3</li>
+											<li>3</li>
+										</cannonsPerPoint>
+										<offset>2.0</offset>
+										<projectileOffset>1</projectileOffset>
+										<hitFlags>All</hitFlags>
+										<spreadRadius>4</spreadRadius>
+										<minRange>15</minRange>
+										<maxRange>55</maxRange>
+									</li>
+									<li>
+										<label>Starboard</label>
+										<weaponType>Broadside</weaponType>
+										<weaponLocation>Starboard</weaponLocation>
+										<projectile>Galleon_cannonball</projectile>
+										<cannonSound>Explosion_PirateCannon</cannonSound>
+										<numberCannons>6</numberCannons>
+										<baseTicksBetweenShots>15</baseTicksBetweenShots>
+										<cooldownTimer>14</cooldownTimer>
+										<spacing>0.63</spacing>
+
+										<splitCannonGroups>true</splitCannonGroups>
+										<centerPoints>
+											<li>.25</li>
+											<li>5.3</li>
+										</centerPoints>
+										<cannonsPerPoint>
+											<li>3</li>
+											<li>3</li>
+										</cannonsPerPoint>
+
+										<offset>2.0</offset>
+										<projectileOffset>1</projectileOffset>
+										<hitFlags>All</hitFlags>
+										<spreadRadius>4</spreadRadius>
+										<minRange>15</minRange>
+										<maxRange>55</maxRange>
+									</li>
+								</cannons>
+							</li>
+						</comps>
+					</ThingDef>
+				</value>
+			</li>
 			
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs</xpath>
+				<value>
+					<ThingDef ParentName="ShipBase">
+						<defName>AA_IronboundLeviathanBlueprint</defName>
+						<label>Ironbound Leviathan</label>
+						<description>Leviathans are gigantic marine mammals within the infraorder Cetacea. The first Leviathans were genetically modified whales, selected for their increased size and reduced intellect, and bred as adaptable cattle. Ironbound Leviathans are Leviathan whales that are enslaved and drugged into a confused stupor, and used as a floating mobile war base. This is incredibly cruel to the animal, as it is forced to carry a lot of weight on its back, and to never be able to submerge in deep waters.\n\nIronbound Leviathans are a very cruel tool, only used by those despicable or desperate enough, and they require a lot of resources, since the whale needs to be shackled and drugged from birth.</description>
+
+						<graphicData>
+							<texPath>Things/Pawn/Animal/AA_IronboundLeviathan/AA_IronboundLeviathan_north</texPath>
+							<graphicClass>Graphic_Single</graphicClass>
+							<drawSize>(16,16)</drawSize>
+						</graphicData>
+
+						<statBases>
+							<MaxHitPoints>12000</MaxHitPoints>
+							<WorkToBuild>250000</WorkToBuild>
+							<Flammability>75</Flammability>
+						</statBases>
+						<size>(5,12)</size>
+
+						<researchPrerequisites>
+							<li>Galleon</li>
+							<li>AA_Bioships</li>
+						</researchPrerequisites>
+						<costList>
+							<WoodLog>25</WoodLog>
+							<Steel>25</Steel>
+						</costList>
+
+						<soundImpactDefault>BulletImpact_Wood</soundImpactDefault>
+
+						<modExtensions>
+							<li Class="RimShips.Build.SpawnThingBuilt">
+								<thingToSpawn>AA_IronboundLeviathan</thingToSpawn>
+								<soundFinished>ShipBigConstruction</soundFinished>
+							</li>
+						</modExtensions>
+
+					</ThingDef>
+				</value>
+			</li>
+
 			<!-- Other needed things -->
 
 			<li Class="PatchOperationAdd"> 
