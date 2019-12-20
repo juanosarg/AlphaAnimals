@@ -58,7 +58,7 @@
 							<Mass>4500</Mass>
 							<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
 							<ArmorRating_Sharp>0.9</ArmorRating_Sharp>
-							<MarketValue>6000</MarketValue>
+							<MarketValue>1500</MarketValue>
 							<MeatAmount>0</MeatAmount>
 							<LeatherAmount>0</LeatherAmount>
 						</statBases>
@@ -201,7 +201,7 @@
 					<ThingDef ParentName="ShipBase">
 						<defName>AA_ColossalNautiloidBlueprint</defName>
 						<label>Colossal Nautiloid</label>
-						<description>The Colossal Nautiloid is an extremely large cephalopod with a spiral shell. In the wild, Colossal Nautiloids are fearsome predators that live in the deepest ocean trenches, hunting whales and various deep-sea fish. Nautiloid eggs find their way to the surface, where they are coveted as luxury items. If one of these eggs is hatched, a Colossal Nautiloid can be carefully tamed and used as a foundation to build a powerful bio-ship using a great amount of wood and cloth, a process that is quite painless to the Nautiloid if it is started when it is young.\n\nColossal Nautiloids can be trained to act as powerful sailing ships, armed with a nasty acidic ink spit.</description>
+						<description>Use a Colossal Nautiloid Egg, acquired from merchants, and raw resources to create a Colossal Nautiloid. The Colossal Nautiloid is an extremely large cephalopod with a spiral shell. In the wild, Colossal Nautiloids are fearsome predators that live in the deepest ocean trenches, hunting whales and various deep-sea fish. Nautiloid eggs find their way to the surface, where they are coveted as luxury items. If one of these eggs is hatched, a Colossal Nautiloid can be carefully tamed and used as a foundation to build a powerful bio-ship using a great amount of wood and cloth, a process that is quite painless to the Nautiloid if it is started when it is young.\n\nColossal Nautiloids can be trained to act as powerful sailing ships, armed with a nasty acidic ink spit.</description>
 						<graphicData>
 							<texPath>Things/Pawn/Animal/AA_ColossalNautiloid/AA_ColossalNautiloid_north</texPath>
 							<graphicClass>Graphic_Single</graphicClass>
@@ -219,8 +219,10 @@
 							<li>AA_Bioships</li>
 						</researchPrerequisites>
 						<costList>
-							<WoodLog>25</WoodLog>
+							<WoodLog>250</WoodLog>
+							<Cloth>70</Cloth>
 							<Steel>25</Steel>
+							<AA_ColossalNautiloidEgg>1</AA_ColossalNautiloidEgg>
 						</costList>
 
 						<soundImpactDefault>BulletImpact_Wood</soundImpactDefault>
@@ -278,11 +280,11 @@
 						<description>The Mirachian Man O'War originates from an unnamed ocean covered planet orbiting Mirach, or Beta Andromedae, a red giant relatively close to Sol. The Mirachian Man O'War is not a true jellyfish but a photosynthetic siphonophore, which is not actually a single multicellular organism, but a colonial organism made up of many specialized animals of the same species. When transported out of the poor light conditions in its home planet, the colony can grow to obscene sizes.\n\nA Mirachian Man O'War is naturally buoyant, using its pneumatophore, a sail-shaped structure filled with gas, to float aimlessly in the ocean currents, and its tentacles to paralyze and consume passing fish. If a colony can be artificially grown around an artificial structure, and chemical signals used to direct it at will, it could be used as a means of transportation.</description>
 
 						<statBases>
-							<MoveSpeed>4.5</MoveSpeed>
+							<MoveSpeed>6</MoveSpeed>
 							<Mass>1500</Mass>
-							<ArmorRating_Blunt>0.9</ArmorRating_Blunt>
+							<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
 							<ArmorRating_Sharp>0.4</ArmorRating_Sharp>
-							<MarketValue>3500</MarketValue>
+							<MarketValue>1000</MarketValue>
 							<MeatAmount>0</MeatAmount>
 							<LeatherAmount>0</LeatherAmount>
 						</statBases>
@@ -376,7 +378,7 @@
 					<ThingDef ParentName="ShipBase">
 						<defName>AA_MirachianManowarBlueprint</defName>
 						<label>Mirachian Man O'War</label>
-						<description>The Mirachian Man O'War originates from an unnamed ocean covered planet orbiting Mirach, or Beta Andromedae, a red giant relatively close to Sol. The Mirachian Man O'War is not a true jellyfish but a photosynthetic siphonophore, which is not actually a single multicellular organism, but a colonial organism made up of many specialized animals of the same species. When transported out of the poor light conditions in its home planet, the colony can grow to obscene sizes.\n\nA Mirachian Man O'War is naturally buoyant, using its pneumatophore, a sail-shaped structure filled with gas, to float aimlessly in the ocean currents, and its tentacles to paralyze and consume passing fish. If a colony can be artificially grown around an artificial structure, and chemical signals used to direct it at will, it could be used as a means of transportation.</description>
+						<description>Use Mirachian Man O'War eggs, acquired from merchants, and raw resources to create a Mirachian Man O'War. The Mirachian Man O'War originates from an unnamed ocean covered planet orbiting Mirach, or Beta Andromedae, a red giant relatively close to Sol. The Mirachian Man O'War is not a true jellyfish but a photosynthetic siphonophore, which is not actually a single multicellular organism, but a colonial organism made up of many specialized animals of the same species. When transported out of the poor light conditions in its home planet, the colony can grow to obscene sizes.\n\nA Mirachian Man O'War is naturally buoyant, using its pneumatophore, a sail-shaped structure filled with gas, to float aimlessly in the ocean currents, and its tentacles to paralyze and consume passing fish. If a colony can be artificially grown around an artificial structure, and chemical signals used to direct it at will, it could be used as a means of transportation.</description>
 						<graphicData>
 							<texPath>Things/Pawn/Animal/AA_MirachianManowar/AA_MirachianManowar_north</texPath>
 							<graphicClass>Graphic_Single</graphicClass>
@@ -394,8 +396,9 @@
 							<li>AA_Bioships</li>
 						</researchPrerequisites>
 						<costList>
-							<WoodLog>25</WoodLog>
-							<Steel>25</Steel>
+							<WoodLog>450</WoodLog>
+							<Steel>450</Steel>
+							<AA_MirachianManowarEggs>1</AA_MirachianManowarEggs>
 						</costList>
 
 						<soundImpactDefault>BulletImpact_Wood</soundImpactDefault>
@@ -457,7 +460,7 @@
 							<Mass>15000</Mass>
 							<ArmorRating_Blunt>0.9</ArmorRating_Blunt>
 							<ArmorRating_Sharp>0.9</ArmorRating_Sharp>
-							<MarketValue>30000</MarketValue>
+							<MarketValue>2750</MarketValue>
 							<MeatAmount>0</MeatAmount>
 							<LeatherAmount>0</LeatherAmount>
 						</statBases>
@@ -565,17 +568,8 @@
 										<numberCannons>6</numberCannons>
 										<baseTicksBetweenShots>15</baseTicksBetweenShots>
 										<cooldownTimer>14</cooldownTimer>
-										<spacing>.63</spacing>
+										<spacing>.4</spacing>
 
-										<splitCannonGroups>true</splitCannonGroups>
-										<centerPoints>
-											<li>.25</li>
-											<li>5.3</li>
-										</centerPoints>
-										<cannonsPerPoint>
-											<li>3</li>
-											<li>3</li>
-										</cannonsPerPoint>
 										<offset>2.0</offset>
 										<projectileOffset>1</projectileOffset>
 										<hitFlags>All</hitFlags>
@@ -592,17 +586,8 @@
 										<numberCannons>6</numberCannons>
 										<baseTicksBetweenShots>15</baseTicksBetweenShots>
 										<cooldownTimer>14</cooldownTimer>
-										<spacing>0.63</spacing>
+										<spacing>0.4</spacing>
 
-										<splitCannonGroups>true</splitCannonGroups>
-										<centerPoints>
-											<li>.25</li>
-											<li>5.3</li>
-										</centerPoints>
-										<cannonsPerPoint>
-											<li>3</li>
-											<li>3</li>
-										</cannonsPerPoint>
 
 										<offset>2.0</offset>
 										<projectileOffset>1</projectileOffset>
@@ -617,14 +602,14 @@
 					</ThingDef>
 				</value>
 			</li>
-			
+
 			<li Class="PatchOperationAdd"> 
 				<xpath>/Defs</xpath>
 				<value>
 					<ThingDef ParentName="ShipBase">
 						<defName>AA_IronboundLeviathanBlueprint</defName>
 						<label>Ironbound Leviathan</label>
-						<description>Leviathans are gigantic marine mammals within the infraorder Cetacea. The first Leviathans were genetically modified whales, selected for their increased size and reduced intellect, and bred as adaptable cattle. Ironbound Leviathans are Leviathan whales that are enslaved and drugged into a confused stupor, and used as a floating mobile war base. This is incredibly cruel to the animal, as it is forced to carry a lot of weight on its back, and to never be able to submerge in deep waters.\n\nIronbound Leviathans are a very cruel tool, only used by those despicable or desperate enough, and they require a lot of resources, since the whale needs to be shackled and drugged from birth.</description>
+						<description>Use an Ironbound Leviathan embryo, acquired from merchants, and raw resources to create an Ironbound Leviathan. Leviathans are gigantic marine mammals within the infraorder Cetacea. The first Leviathans were genetically modified whales, selected for their increased size and reduced intellect, and bred as adaptable cattle. Ironbound Leviathans are Leviathan whales that are enslaved and drugged into a confused stupor, and used as a floating mobile war base. This is incredibly cruel to the animal, as it is forced to carry a lot of weight on its back, and to never be able to submerge in deep waters.\n\nIronbound Leviathans are a very cruel tool, only used by those despicable or desperate enough, and they require a lot of resources, since the whale needs to be shackled and drugged from birth.</description>
 
 						<graphicData>
 							<texPath>Things/Pawn/Animal/AA_IronboundLeviathan/AA_IronboundLeviathan_north</texPath>
@@ -644,8 +629,10 @@
 							<li>AA_Bioships</li>
 						</researchPrerequisites>
 						<costList>
-							<WoodLog>25</WoodLog>
-							<Steel>25</Steel>
+							<WoodLog>1000</WoodLog>
+							<Cloth>300</Cloth>
+							<Steel>250</Steel>
+							<AA_IronboundLeviathanEmbryo>1</AA_IronboundLeviathanEmbryo>
 						</costList>
 
 						<soundImpactDefault>BulletImpact_Wood</soundImpactDefault>
@@ -680,6 +667,245 @@
 						<researchViewX>2</researchViewX>
 						<researchViewY>5</researchViewY>
 					</ResearchProjectDef>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs</xpath>
+				<value>
+					<ThingDef ParentName="ResourceBase">
+						<defName>AA_ColossalNautiloidEgg</defName>
+						<label>Colossal Nautiloid egg</label>
+						<description>A Colossal Nautiloid egg. These eggs can stay dormant for years until the right conditions are created to hatch them, which has turned them into a valuable commodity.\n\nThe Colossal Nautiloid is an extremely large cephalopod with a spiral shell. In the wild, Colossal Nautiloids are fearsome predators that live in the deepest ocean trenches, hunting whales and various deep-sea fish. Nautiloid eggs find their way to the surface, where they are coveted as luxury items. If one of these eggs is hatched, a Colossal Nautiloid can be carefully tamed and used as a foundation to build a powerful bio-ship using a great amount of wood and cloth, a process that is quite painless to the Nautiloid if it is started when it is young.\n\nColossal Nautiloids can be trained to act as powerful sailing ships, armed with a nasty acidic ink spit.</description>
+						<graphicData>
+							<texPath>Things/Item/Resource/AA_ColossalNautiloid_Egg</texPath>
+							<graphicClass>Graphic_Single</graphicClass>
+						</graphicData>
+						<tickerType>Rare</tickerType>
+						<statBases>
+							<MarketValue>1500</MarketValue>
+							<MaxHitPoints>250</MaxHitPoints>
+							<Mass>5</Mass>
+							<Flammability>0.4</Flammability>
+							<DeteriorationRate>2</DeteriorationRate>
+						</statBases>
+						<resourceReadoutPriority>Middle</resourceReadoutPriority>
+						<stackLimit>1</stackLimit>
+						<thingCategories>
+							<li>Items</li>
+						</thingCategories>
+						<tradeTags>
+							<li>ExoticMisc</li>
+						</tradeTags>
+						<comps>
+							<li Class="CompProperties_Rottable">
+								<daysToRotStart>20</daysToRotStart>
+								<rotDestroys>true</rotDestroys>
+							</li>
+						</comps>
+					</ThingDef>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs</xpath>
+				<value>
+					<ThingDef ParentName="ResourceBase">
+						<defName>AA_MirachianManowarEggs</defName>
+						<label>Mirachian Man O'War eggs</label>
+						<description>A clump of Mirachian Man O'War eggs. These eggs can stay dormant for years until the right conditions are created to hatch them, which has turned them into a valuable commodity.\n\nThe Mirachian Man O'War originates from an unnamed ocean covered planet orbiting Mirach, or Beta Andromedae, a red giant relatively close to Sol. The Mirachian Man O'War is not a true jellyfish but a photosynthetic siphonophore, which is not actually a single multicellular organism, but a colonial organism made up of many specialized animals of the same species. When transported out of the poor light conditions in its home planet, the colony can grow to obscene sizes.\n\nA Mirachian Man O'War is naturally buoyant, using its pneumatophore, a sail-shaped structure filled with gas, to float aimlessly in the ocean currents, and its tentacles to paralyze and consume passing fish. If a colony can be artificially grown around an artificial structure, and chemical signals used to direct it at will, it could be used as a means of transportation.</description>
+						<graphicData>
+							<texPath>Things/Item/Resource/AA_MirachianManowar_Egg</texPath>
+							<graphicClass>Graphic_Single</graphicClass>
+						</graphicData>
+						<tickerType>Rare</tickerType>
+
+						<statBases>
+							<MarketValue>1000</MarketValue>
+							<MaxHitPoints>250</MaxHitPoints>
+							<Mass>5</Mass>
+							<Flammability>0.4</Flammability>
+							<DeteriorationRate>2</DeteriorationRate>
+						</statBases>
+						<resourceReadoutPriority>Middle</resourceReadoutPriority>
+						<stackLimit>1</stackLimit>
+						<thingCategories>
+							<li>Items</li>
+						</thingCategories>
+						<tradeTags>
+							<li>ExoticMisc</li>
+						</tradeTags>
+						<comps>
+							<li Class="CompProperties_Rottable">
+								<daysToRotStart>20</daysToRotStart>
+								<rotDestroys>true</rotDestroys>
+							</li>
+						</comps>
+					</ThingDef>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd"> 
+				<xpath>/Defs</xpath>
+				<value>
+					<ThingDef ParentName="ResourceBase">
+						<defName>AA_IronboundLeviathanEmbryo</defName>
+						<label>Ironbound Leviathan embryo</label>
+						<description>An Ironbound Leviathan embryo. If properly stored, this whale embryo can be kept in suspended animation for years until the right conditions are created to grow it.\n\nLeviathans are gigantic marine mammals within the infraorder Cetacea. The first Leviathans were genetically modified whales, selected for their increased size and reduced intellect, and bred as adaptable cattle. Ironbound Leviathans are Leviathan whales that are enslaved and drugged into a confused stupor, and used as a floating mobile war base. This is incredibly cruel to the animal, as it is forced to carry a lot of weight on its back, and to never be able to submerge in deep waters.\n\nIronbound Leviathans are a very cruel tool, only used by those despicable or desperate enough, and they require a lot of resources, since the whale needs to be shackled and drugged from birth.</description>
+						<graphicData>
+							<texPath>Things/Item/Resource/AA_Leviathan_Embryo</texPath>
+							<graphicClass>Graphic_Single</graphicClass>
+						</graphicData>
+						<tickerType>Rare</tickerType>
+
+						<statBases>
+							<MarketValue>2750</MarketValue>
+							<MaxHitPoints>250</MaxHitPoints>
+							<Mass>5</Mass>
+							<Flammability>0.4</Flammability>
+							<DeteriorationRate>2</DeteriorationRate>
+						</statBases>
+						<resourceReadoutPriority>Middle</resourceReadoutPriority>
+						<stackLimit>1</stackLimit>
+						<thingCategories>
+							<li>Items</li>
+						</thingCategories>
+						<tradeTags>
+							<li>ExoticMisc</li>
+						</tradeTags>
+						<comps>
+							<li Class="CompProperties_Rottable">
+								<daysToRotStart>10</daysToRotStart>
+								<rotDestroys>true</rotDestroys>
+							</li>
+						</comps>
+					</ThingDef>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraderKindDef[defName = "Base_Outlander_Standard"]/stockGenerators</xpath>
+				<value>
+					<li Class="StockGenerator_BuySingleDef">
+						<thingDef>AA_ColossalNautiloidEgg</thingDef>
+					</li>
+					<li Class="StockGenerator_BuySingleDef">
+						<thingDef>AA_MirachianManowarEggs</thingDef>
+					</li>
+					<li Class="StockGenerator_BuySingleDef">
+						<thingDef>AA_IronboundLeviathanEmbryo</thingDef>
+					</li>
+					
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>AA_ColossalNautiloidEgg</thingDef>
+						<countRange>
+							<min>1</min>
+							<max>2</max>
+						</countRange>
+					</li>
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>AA_MirachianManowarEggs</thingDef>
+						<countRange>
+							<min>1</min>
+							<max>2</max>
+						</countRange>
+					</li>
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>AA_IronboundLeviathanEmbryo</thingDef>
+						<countRange>
+							<min>1</min>
+							<max>1</max>
+						</countRange>
+					</li>
+					
+
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraderKindDef[defName = "Caravan_Outlander_Exotic"]/stockGenerators</xpath>
+				<value>
+					<li Class="StockGenerator_BuySingleDef">
+						<thingDef>AA_ColossalNautiloidEgg</thingDef>
+					</li>
+					<li Class="StockGenerator_BuySingleDef">
+						<thingDef>AA_MirachianManowarEggs</thingDef>
+					</li>
+					<li Class="StockGenerator_BuySingleDef">
+						<thingDef>AA_IronboundLeviathanEmbryo</thingDef>
+					</li>
+					
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>AA_ColossalNautiloidEgg</thingDef>
+						<countRange>
+							<min>1</min>
+							<max>2</max>
+						</countRange>
+					</li>
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>AA_MirachianManowarEggs</thingDef>
+						<countRange>
+							<min>1</min>
+							<max>2</max>
+						</countRange>
+					</li>
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>AA_IronboundLeviathanEmbryo</thingDef>
+						<countRange>
+							<min>1</min>
+							<max>1</max>
+						</countRange>
+					</li>
+
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraderKindDef[defName = "Orbital_Exotic"]/stockGenerators</xpath>
+				<value>
+					<li Class="StockGenerator_BuySingleDef">
+						<thingDef>AA_ColossalNautiloidEgg</thingDef>
+					</li>
+					<li Class="StockGenerator_BuySingleDef">
+						<thingDef>AA_MirachianManowarEggs</thingDef>
+					</li>
+					
+					
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>AA_ColossalNautiloidEgg</thingDef>
+						<countRange>
+							<min>1</min>
+							<max>2</max>
+						</countRange>
+					</li>
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>AA_MirachianManowarEggs</thingDef>
+						<countRange>
+							<min>1</min>
+							<max>2</max>
+						</countRange>
+					</li>
+					
+
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraderKindDef[defName = "Orbital_PirateMerchant"]/stockGenerators</xpath>
+				<value>
+					
+					<li Class="StockGenerator_BuySingleDef">
+						<thingDef>AA_IronboundLeviathanEmbryo</thingDef>
+					</li>
+					
+					
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>AA_IronboundLeviathanEmbryo</thingDef>
+						<countRange>
+							<min>1</min>
+							<max>1</max>
+						</countRange>
+					</li>
+
 				</value>
 			</li>
 
