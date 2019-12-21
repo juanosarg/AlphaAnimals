@@ -587,7 +587,7 @@
 										<spacing>0.4</spacing>
 
 
-									
+
 										<hitFlags>All</hitFlags>
 										<spreadRadius>4</spreadRadius>
 										<minRange>15</minRange>
@@ -792,7 +792,7 @@
 					<li Class="StockGenerator_BuySingleDef">
 						<thingDef>AA_IronboundLeviathanEmbryo</thingDef>
 					</li>
-					
+
 					<li Class="StockGenerator_SingleDef">
 						<thingDef>AA_ColossalNautiloidEgg</thingDef>
 						<countRange>
@@ -814,7 +814,7 @@
 							<max>1</max>
 						</countRange>
 					</li>
-					
+
 
 				</value>
 			</li>
@@ -830,7 +830,7 @@
 					<li Class="StockGenerator_BuySingleDef">
 						<thingDef>AA_IronboundLeviathanEmbryo</thingDef>
 					</li>
-					
+
 					<li Class="StockGenerator_SingleDef">
 						<thingDef>AA_ColossalNautiloidEgg</thingDef>
 						<countRange>
@@ -855,7 +855,7 @@
 
 				</value>
 			</li>
-			
+
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/TraderKindDef[defName = "Caravan_Outlander_PirateMerchant"]/stockGenerators</xpath>
 				<value>
@@ -868,7 +868,7 @@
 					<li Class="StockGenerator_BuySingleDef">
 						<thingDef>AA_IronboundLeviathanEmbryo</thingDef>
 					</li>
-					
+
 					<li Class="StockGenerator_SingleDef">
 						<thingDef>AA_ColossalNautiloidEgg</thingDef>
 						<countRange>
@@ -903,8 +903,8 @@
 					<li Class="StockGenerator_BuySingleDef">
 						<thingDef>AA_MirachianManowarEggs</thingDef>
 					</li>
-					
-					
+
+
 					<li Class="StockGenerator_SingleDef">
 						<thingDef>AA_ColossalNautiloidEgg</thingDef>
 						<countRange>
@@ -919,20 +919,20 @@
 							<max>2</max>
 						</countRange>
 					</li>
-					
+
 
 				</value>
 			</li>
-			
+
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/TraderKindDef[defName = "Orbital_PirateMerchant"]/stockGenerators</xpath>
 				<value>
-					
+
 					<li Class="StockGenerator_BuySingleDef">
 						<thingDef>AA_IronboundLeviathanEmbryo</thingDef>
 					</li>
-					
-					
+
+
 					<li Class="StockGenerator_SingleDef">
 						<thingDef>AA_IronboundLeviathanEmbryo</thingDef>
 						<countRange>
@@ -943,6 +943,35 @@
 
 				</value>
 			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs</xpath>
+				<value>
+
+					<ThingDef ParentName="BaseBullet">
+						<defName>AA_Cannonball</defName>
+						<label>Cannon Ball</label>
+						<graphicData>
+							<texPath>Things/Projectiles/AA_Cannonball</texPath>
+							<graphicClass>Graphic_Single</graphicClass>
+							<shaderType>TransparentPostLight</shaderType>
+						</graphicData>
+						<thingClass>Projectile_Explosive</thingClass>
+						<projectile>
+							<damageDef>GalleonCannonball</damageDef>
+							<speed>30</speed>
+							<explosionRadius>1</explosionRadius>
+							<flyOverhead>false</flyOverhead>
+							<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+							<soundExplode>MortarBomb_Explode</soundExplode>
+							<soundAmbient>MortarRound_Ambient</soundAmbient>
+						</projectile>
+					</ThingDef>
+
+				</value>
+			</li>
+
+
 
 
 
