@@ -46,7 +46,7 @@ namespace AlphaBehavioursAndEvents
         {
             if (this.Map != null) {
 
-                if ((this.Position.GetTerrain(this.Map) == TerrainDef.Named("Ice")) || (this.Position.GetSnowDepth(this.Map) > 0))
+                if ((this.Position.GetTerrain(this.Map) == TerrainDef.Named("Ice")) || (this.Position.GetSnowDepth(this.Map) > 0) || (this.Map.mapTemperature.OutdoorTemp<-10f))
                 {
                     LongEventHandler.ExecuteWhenFinished(delegate
                     {
@@ -103,6 +103,9 @@ namespace AlphaBehavioursAndEvents
 
                 }
 
+            } else {
+                StatExtension.SetStatBaseValue(this.def, StatDefOf.ComfyTemperatureMin, -60f);
+                StatExtension.SetStatBaseValue(this.def, StatDefOf.ComfyTemperatureMax, 60f);
             }
             
 

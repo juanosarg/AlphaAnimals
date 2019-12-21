@@ -563,15 +563,13 @@
 										<label>Portside</label>
 										<weaponType>Broadside</weaponType>
 										<weaponLocation>Port</weaponLocation>
-										<projectile>Galleon_cannonball</projectile>
+										<projectile>AA_Cannonball</projectile>
 										<cannonSound>Explosion_PirateCannon</cannonSound>
 										<numberCannons>6</numberCannons>
 										<baseTicksBetweenShots>15</baseTicksBetweenShots>
 										<cooldownTimer>14</cooldownTimer>
 										<spacing>.4</spacing>
 
-										<offset>2.0</offset>
-										<projectileOffset>1</projectileOffset>
 										<hitFlags>All</hitFlags>
 										<spreadRadius>4</spreadRadius>
 										<minRange>15</minRange>
@@ -581,7 +579,7 @@
 										<label>Starboard</label>
 										<weaponType>Broadside</weaponType>
 										<weaponLocation>Starboard</weaponLocation>
-										<projectile>Galleon_cannonball</projectile>
+										<projectile>AA_Cannonball</projectile>
 										<cannonSound>Explosion_PirateCannon</cannonSound>
 										<numberCannons>6</numberCannons>
 										<baseTicksBetweenShots>15</baseTicksBetweenShots>
@@ -589,8 +587,7 @@
 										<spacing>0.4</spacing>
 
 
-										<offset>2.0</offset>
-										<projectileOffset>1</projectileOffset>
+									
 										<hitFlags>All</hitFlags>
 										<spreadRadius>4</spreadRadius>
 										<minRange>15</minRange>
@@ -823,6 +820,44 @@
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/TraderKindDef[defName = "Caravan_Outlander_Exotic"]/stockGenerators</xpath>
+				<value>
+					<li Class="StockGenerator_BuySingleDef">
+						<thingDef>AA_ColossalNautiloidEgg</thingDef>
+					</li>
+					<li Class="StockGenerator_BuySingleDef">
+						<thingDef>AA_MirachianManowarEggs</thingDef>
+					</li>
+					<li Class="StockGenerator_BuySingleDef">
+						<thingDef>AA_IronboundLeviathanEmbryo</thingDef>
+					</li>
+					
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>AA_ColossalNautiloidEgg</thingDef>
+						<countRange>
+							<min>1</min>
+							<max>2</max>
+						</countRange>
+					</li>
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>AA_MirachianManowarEggs</thingDef>
+						<countRange>
+							<min>1</min>
+							<max>2</max>
+						</countRange>
+					</li>
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>AA_IronboundLeviathanEmbryo</thingDef>
+						<countRange>
+							<min>1</min>
+							<max>1</max>
+						</countRange>
+					</li>
+
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraderKindDef[defName = "Caravan_Outlander_PirateMerchant"]/stockGenerators</xpath>
 				<value>
 					<li Class="StockGenerator_BuySingleDef">
 						<thingDef>AA_ColossalNautiloidEgg</thingDef>
