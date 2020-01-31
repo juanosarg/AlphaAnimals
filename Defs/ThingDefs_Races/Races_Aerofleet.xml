@@ -249,7 +249,7 @@
 			<AA_AerofleetMeat>2</AA_AerofleetMeat>
 		</butcherProducts>
 		<tradeTags>
-			<li>ExoticAnimal</li>
+			<li>AnimalExotic</li>
 		</tradeTags>
 	</ThingDef>
 

@@ -160,7 +160,7 @@
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
 		<tradeTags>
-			<li>ExoticAnimal</li>
+			<li>AnimalExotic</li>
 		</tradeTags>
 	</ThingDef>
 
@@ -356,7 +356,7 @@
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
 		<tradeTags>
-			<li>ExoticAnimal</li>
+			<li>AnimalExotic</li>
 		</tradeTags>
 	</ThingDef>
 
