@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>Alpha Animals</name>
+	<supportedVersions>
+      <li>1.0</li>
+      <li>1.1</li>
+   </supportedVersions>
 	<author>Sarg, AFriend, milon, Skullywag and kaptain_kavern</author>
-	<supportedVersions><li>1.0</li></supportedVersions>
+	
+		<packageId>sarg.alphaanimals</packageId>
+
 	<description>Adds multiple unique new animals to Rimworld.
 	
 &lt;size=24&gt;Features&lt;/size&gt;
