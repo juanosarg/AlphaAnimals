@@ -4,7 +4,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>AA_GreatDevourer</defName>
     <label>great devourer</label>
-					   <thingClass>AnimalVariations.AnimalMultiSkins</thingClass>
+					  
 
     <description>Great Devourers are armoured worms known for their unquenchable appetite. Once a Great Devourer arrives, it will proceed to gorge itself on small prey, and total ecosystem collapse is almost a certainty.\n\nLuckily, they won't attack large creatures, including humans, unless provoked. Their whole name is in fact a pun, since they are not very resilient and are easily dispatched. They have however slow regenerative capabilities.</description>
     <statBases>
@@ -112,7 +112,13 @@
     <race>AA_GreatDevourer</race>
     <combatPower>200</combatPower>
 	    <ecoSystemWeight>1</ecoSystemWeight>
-   
+   <alternateGraphicChance>1</alternateGraphicChance>
+		<alternateGraphics>
+			<li><texPath>Things/Pawn/Animal/AA_GreatDevourer/AA_GreatDevourer</texPath></li>
+			<li><texPath>Things/Pawn/Animal/AA_GreatDevourer/AA_GreatDevourer2</texPath></li>
+			<li><texPath>Things/Pawn/Animal/AA_GreatDevourer/AA_GreatDevourer3</texPath></li>
+			
+		</alternateGraphics>
     <lifeStages>
       <li>
         <bodyGraphicData>

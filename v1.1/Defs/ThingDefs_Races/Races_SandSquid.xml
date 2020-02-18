@@ -6,8 +6,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>AA_SandSquid</defName>
     <label>sand squid</label>
-				   <thingClass>AnimalVariations.AnimalMultiSkins</thingClass>
-	
+				 
     <description>Despite their common name, sand squids are actually genetically modified creatures that incorporate features from both cephalopods and cone snails. Sand squids were created as cattle adapted to extremely water deprived environments, such as very dry deserts.\n\nThe sand squid constantly produces a sticky secretion that acts as a powerful fertilizer when mixed with common sand, allowing growth of crops in the middle of the desert. The squid can be trained to properly distribute its slime around the fields to increase terrain fertility even more. (NOTE: due to balance concerns, the squid will only do this if tamed, I don't want them to mess up the whole map when wild...)</description>
     <statBases>
       <MoveSpeed>1.00</MoveSpeed>
@@ -105,7 +104,13 @@
     <race>AA_SandSquid</race>
     <combatPower>350</combatPower>
    	<canArriveManhunter>false</canArriveManhunter>
-
+<alternateGraphicChance>1</alternateGraphicChance>
+		<alternateGraphics>
+			<li><texPath>Things/Pawn/Animal/AA_SandSquid/AA_SandSquid</texPath></li>
+			<li><texPath>Things/Pawn/Animal/AA_SandSquid/AA_SandSquid2</texPath></li>
+			<li><texPath>Things/Pawn/Animal/AA_SandSquid/AA_SandSquid3</texPath></li>
+			
+		</alternateGraphics>
     <ecoSystemWeight>0.2</ecoSystemWeight>
     <lifeStages>
       <li>

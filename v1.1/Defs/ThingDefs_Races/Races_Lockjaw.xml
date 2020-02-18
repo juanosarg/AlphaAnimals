@@ -6,7 +6,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>AA_Lockjaw</defName>
     <label>lockjaw</label>
-									<thingClass>AnimalVariations.AnimalMultiSkins</thingClass>
+									
 
     <description>A very large animal native to this planet’s tropical regions. Nicknamed Lockjaws both for their incredibly strong bite force and for the disease they transmit, which afflicts its victims with a moderate facial paralysis that makes eating extremely uncomfortable.\n\nDespite having a guillotine for a mouth, the Lockjaw does not seem to be an overly aggressive creature; Preferring to prey on the local wildlife rather than the local populace.</description>
     <statBases>
@@ -95,6 +95,13 @@
       <min>1</min>
       <max>3</max>
     </wildGroupSize>
+	 <alternateGraphicChance>1</alternateGraphicChance>
+		<alternateGraphics>
+			<li><texPath>Things/Pawn/Animal/AA_Lockjaw/AA_Lockjaw</texPath></li>
+			<li><texPath>Things/Pawn/Animal/AA_Lockjaw/AA_Lockjaw2</texPath></li>
+			<li><texPath>Things/Pawn/Animal/AA_Lockjaw/AA_Lockjaw3</texPath></li>
+			
+		</alternateGraphics>
     <lifeStages>
       <li>
         <bodyGraphicData>

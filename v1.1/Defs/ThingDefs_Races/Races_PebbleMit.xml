@@ -5,8 +5,7 @@
 
   <ThingDef ParentName="AnimalThingBase">
     <defName>AA_PebbleMit</defName>
-									<thingClass>AnimalVariations.AnimalMultiSkins</thingClass>
-
+								
     <label>pebblemit</label>
     <description>Pebblemits are bouldermits that have evolved in Rimworlds rich in narrow, labyrinthine caves, where massive size is more a hindrance than an advantage.\n\nInstead of huge boulders, pebblemits use much smaller rocks as protection, slowly dragging them along the ground. Small blocks of stone periodically get loose from this rock, and they can be used as building materials.</description>
     <statBases>

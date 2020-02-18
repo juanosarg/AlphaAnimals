@@ -3,7 +3,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_Aerofleet</defName>
 		<label>aerofleet</label>
-			   <thingClass>AnimalVariations.AnimalMultiSkins</thingClass>
+			 
 
 		<description>A small, floating gelatinous creature. Propelled by the hydrogen it collects from water and various plant matter, these squishy creatures wander the lands, aimlessly bouncing off objects in their path.\n\nOne of the few rare creatures around here that strangely isn’t out for human blood. Well, isn’t that nice?\n\nAerofleets are genderless, and reproduce by strobilation, a form of asexual reproduction. As a floating creature, Aerofleets ignore terrain movement costs.</description>
 		
@@ -120,6 +120,13 @@
 			<min>1</min>
 			<max>7</max>
 		</wildGroupSize>
+		<alternateGraphicChance>1</alternateGraphicChance>
+		<alternateGraphics>
+			<li><texPath>Things/Pawn/Animal/AA_Aerofleet/AA_Aerofleet</texPath></li>
+			<li><texPath>Things/Pawn/Animal/AA_Aerofleet/AA_Aerofleet2</texPath></li>
+			<li><texPath>Things/Pawn/Animal/AA_Aerofleet/AA_Aerofleet3</texPath></li>
+			
+		</alternateGraphics>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
