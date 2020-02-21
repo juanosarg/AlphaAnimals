@@ -30,17 +30,17 @@ namespace NocturnalAnimals
                     var instruction = instructionList[i];
 
                     // Effectively turn 'if (num < 7 || num > 21)' into 'if (SleepHourFor(num, pawn))'
-                    if (!done && instruction.opcode == OpCodes.Stloc_3)
+                    if (!done && instruction.opcode == OpCodes.Stloc_S)
                     {
                         yield return instruction; // int num = GenLocalDate.HourOfDay(pawn)
-                        yield return new CodeInstruction(OpCodes.Ldloc_3); // num
+                        yield return new CodeInstruction(OpCodes.Ldloc_S,4); // num
                         yield return new CodeInstruction(OpCodes.Ldarg_1); // pawn
                         yield return new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(Patch_GetPriority), nameof(SleepHourFor))); // SleepHourFor(num, pawn)
 
                         int j = 1;
                         while (true)
                         {
-                            if (instructionList[i + j].opcode == OpCodes.Ble)
+                            if (instructionList[i + j].opcode == OpCodes.Ble_S)
                             {
                                 instruction = new CodeInstruction(OpCodes.Brfalse, instructionList[i + j].operand);
                                 instructionList[i + j] = new CodeInstruction(OpCodes.Nop);
@@ -52,11 +52,15 @@ namespace NocturnalAnimals
                     }
 
                     yield return instruction;
+                    
                 }
-            }
+               
+
+               }
 
             public static bool SleepHourFor(int hour, Pawn pawn)
             {
+                
                 var extendedRaceProps = pawn.def.GetModExtension<ExtendedRaceProperties>();
 
                 
