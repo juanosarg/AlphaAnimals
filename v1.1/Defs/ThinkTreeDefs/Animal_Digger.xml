@@ -224,19 +224,21 @@
 			<!-- Trained behavior: Mine-->
             <li Class="ThinkNode_ChancePerHour_Constant">
               <mtbHours>1.5</mtbHours>
-              <subNodes>
+			   <subNodes>
                 <li Class="ThinkNode_ConditionalTrainableCompleted">
-                  <trainable>Obedience</trainable>
-                  <subNodes>
-                    <li Class="ThinkNode_Tagger">
+                  <trainable>Haul</trainable>
+                   <subNodes>
+			  
+                <li Class="ThinkNode_Tagger">
                       <tagToGive>TrainedAnimalBehavior</tagToGive>
                       <subNodes>
-                        <li Class="AlphaBehavioursAndEvents.JobGiver_Mine" />
+                        <li Class="AlphaBehavioursAndEvents.JobGiver_MineOld" />
                       </subNodes>
-                    </li>
-                  </subNodes>
+                 </li>
+              </subNodes>
                 </li>
               </subNodes>
+             
             </li>
             <!-- Trained behavior: Haul-->
             <li Class="ThinkNode_ChancePerHour_Constant">

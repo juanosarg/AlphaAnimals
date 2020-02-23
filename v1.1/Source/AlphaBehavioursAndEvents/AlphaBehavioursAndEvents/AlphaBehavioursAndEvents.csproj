@@ -352,6 +352,7 @@
     <Compile Include="InteractionWorker_PsionicNuzzle.cs" />
     <Compile Include="JobDriver_PsionicNuzzle.cs" />
     <Compile Include="JobGiver_Mine.cs" />
+    <Compile Include="JobGiver_MineOld.cs" />
     <Compile Include="JobGiver_PsionicNuzzle.cs" />
     <Compile Include="HarmonyPatchers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

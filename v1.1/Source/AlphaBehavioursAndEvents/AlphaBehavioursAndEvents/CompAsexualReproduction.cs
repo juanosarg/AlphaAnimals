@@ -66,43 +66,51 @@ namespace AlphaBehavioursAndEvents
         {
             base.CompTick();
             Pawn pawn = this.parent as Pawn;
-
-            if (this.Props.isGreenGoo) {
-                asexualFissionCounter++;
-                if ((asexualFissionCounter >= ticksInday * reproductionIntervalDays)&&((this.parent.Map!=null)&&(this.parent.Map.listerThings.ThingsOfDef(ThingDef.Named(this.Props.GreenGooTarget)).Count<this.Props.GreenGooLimit)))
+            if (pawn.Map != null) {
+                if (this.Props.isGreenGoo)
                 {
-                    Hediff_Pregnant.DoBirthSpawn(pawn, pawn);
-                    if (pawn.Faction == Faction.OfPlayer)
+                    asexualFissionCounter++;
+                    if ((asexualFissionCounter >= ticksInday * reproductionIntervalDays) && ((this.parent.Map != null) && (this.parent.Map.listerThings.ThingsOfDef(ThingDef.Named(this.Props.GreenGooTarget)).Count < this.Props.GreenGooLimit)))
                     {
-                        Messages.Message("AA_AsexualCloning".Translate(pawn.LabelIndefinite().CapitalizeFirst()), pawn, MessageTypeDefOf.PositiveEvent, true);
-
-                    }
-                    asexualFissionCounter = 0;
-                } else if(asexualFissionCounter >= ticksInday * reproductionIntervalDays)
-                {
-                    asexualFissionCounter = 0;
-                }
-
-            }
-
-
-            else if ((pawn.Faction == Faction.OfPlayer)&&(pawn.ageTracker.CurLifeStage.reproductive))
-            {
-                asexualFissionCounter++;
-                if (asexualFissionCounter >= ticksInday * reproductionIntervalDays)
-                {
-                    if (produceEggs) {
-                        GenSpawn.Spawn(ThingDef.Named(eggDef), pawn.Position, pawn.Map);
-                        Messages.Message("AA_AsexualHatchedEgg".Translate(pawn.LabelIndefinite().CapitalizeFirst()), pawn, MessageTypeDefOf.PositiveEvent, true);
-                        asexualFissionCounter = 0;
-                    } else {
                         Hediff_Pregnant.DoBirthSpawn(pawn, pawn);
-                        Messages.Message("AA_AsexualHatched".Translate(pawn.LabelIndefinite().CapitalizeFirst()), pawn, MessageTypeDefOf.PositiveEvent, true);
+                        if (pawn.Faction == Faction.OfPlayer)
+                        {
+                            Messages.Message("AA_AsexualCloning".Translate(pawn.LabelIndefinite().CapitalizeFirst()), pawn, MessageTypeDefOf.PositiveEvent, true);
+
+                        }
                         asexualFissionCounter = 0;
                     }
-                    
+                    else if (asexualFissionCounter >= ticksInday * reproductionIntervalDays)
+                    {
+                        asexualFissionCounter = 0;
+                    }
+
                 }
+
+
+                else if ((pawn.Faction == Faction.OfPlayer) && (pawn.ageTracker.CurLifeStage.reproductive))
+                {
+                    asexualFissionCounter++;
+                    if (asexualFissionCounter >= ticksInday * reproductionIntervalDays)
+                    {
+                        if (produceEggs)
+                        {
+                            GenSpawn.Spawn(ThingDef.Named(eggDef), pawn.Position, pawn.Map);
+                            Messages.Message("AA_AsexualHatchedEgg".Translate(pawn.LabelIndefinite().CapitalizeFirst()), pawn, MessageTypeDefOf.PositiveEvent, true);
+                            asexualFissionCounter = 0;
+                        }
+                        else
+                        {
+                            Hediff_Pregnant.DoBirthSpawn(pawn, pawn);
+                            Messages.Message("AA_AsexualHatched".Translate(pawn.LabelIndefinite().CapitalizeFirst()), pawn, MessageTypeDefOf.PositiveEvent, true);
+                            asexualFissionCounter = 0;
+                        }
+
+                    }
+                }
+
             }
+            
         }
 
         public override string CompInspectStringExtra()

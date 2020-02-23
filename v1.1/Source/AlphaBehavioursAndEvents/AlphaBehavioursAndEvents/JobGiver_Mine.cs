@@ -29,9 +29,9 @@ namespace AlphaBehavioursAndEvents
                         Building edifice = c.GetEdifice(pawn.Map);
                         if (edifice != null && (edifice.def.passability == Traversability.Impassable || edifice.def.IsDoor) && edifice.def.size == IntVec2.One && edifice.def != ThingDefOf.CollapsedRocks && pawn.CanReserve(edifice, 1, -1, null, false))
                         {
-                            Job expr_C1 = JobMaker.MakeJob(JobDefOf.Mine, edifice);
-                            expr_C1.ignoreDesignations = true;
-                            return expr_C1;
+                            Job job = JobMaker.MakeJob(JobDefOf.Mine, edifice);
+                            job.ignoreDesignations = false;
+                            return job;
                         }
                     }
                 }
