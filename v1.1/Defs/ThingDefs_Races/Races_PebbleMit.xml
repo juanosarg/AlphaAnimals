@@ -127,12 +127,18 @@
     <race>AA_PebbleMit</race>
     <combatPower>50</combatPower>	
     <ecoSystemWeight>0.2</ecoSystemWeight>
+	<alternateGraphicChance>1</alternateGraphicChance>
+		<alternateGraphics>
+			<li><texPath>Things/Pawn/Animal/AA_PebbleMit/AA_PebbleMit1</texPath></li>
+			<li><texPath>Things/Pawn/Animal/AA_PebbleMit/AA_PebbleMit2</texPath></li>
+			<li><texPath>Things/Pawn/Animal/AA_PebbleMit/AA_PebbleMit3</texPath></li>
+		</alternateGraphics>
     <lifeStages>
       <li>
         <label>pebblemit</label>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/AA_PebbleMit/AA_PebbleMit</texPath>
-          <drawSize>0.9</drawSize>
+          <texPath>Things/Pawn/Animal/AA_PebbleMit/AA_PebbleMit1</texPath>
+          <drawSize>1.5</drawSize>
           <shadowData>
             <volume>(0.4, 0.3, 0.3)</volume>
             <offset>(0,0,-0.2)</offset>
@@ -140,14 +146,14 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/AA_PebbleMit/AA_Dessicated_PebbleMit</texPath>
-          <drawSize>0.9</drawSize>
+          <drawSize>1.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <label>pebblemit</label>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/AA_PebbleMit/AA_PebbleMit</texPath>
-          <drawSize>1.2</drawSize>
+          <texPath>Things/Pawn/Animal/AA_PebbleMit/AA_PebbleMit1</texPath>
+          <drawSize>1.75</drawSize>
           <shadowData>
             <volume>(0.6, 0.45, 0.45)</volume>
             <offset>(0,0,-0.25)</offset>
@@ -155,13 +161,13 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/AA_PebbleMit/AA_Dessicated_PebbleMit</texPath>
-          <drawSize>1.2</drawSize>
+          <drawSize>1.75</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/AA_PebbleMit/AA_PebbleMit</texPath>
-          <drawSize>1.5</drawSize>
+          <texPath>Things/Pawn/Animal/AA_PebbleMit/AA_PebbleMit1</texPath>
+          <drawSize>2</drawSize>
           <shadowData>
             <volume>(0.8, 0.6, 0.6)</volume>
             <offset>(0,0,-0.3)</offset>
@@ -169,7 +175,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/AA_PebbleMit/AA_Dessicated_PebbleMit</texPath>
-          <drawSize>1.5</drawSize>
+          <drawSize>2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
