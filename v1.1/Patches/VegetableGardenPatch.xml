@@ -89,7 +89,7 @@
 							<description>weave synthread cloth from Synthread Silk and plasteel thread. \n\nMakes 11 cloth.</description>
 							<jobString>weaving synthread cloth.</jobString>
 							<workAmount>2000</workAmount>
-							<workSpeedStat>TailoringSpeed</workSpeedStat>
+							<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 							<effectWorking>Tailor</effectWorking>
 							<soundWorking>Recipe_Tailor</soundWorking>
 							<recipeUsers>
@@ -191,7 +191,7 @@
 							<description>weave hyperweave cloth from hyperweave Silk and plasteel thread. \n\nMakes 15 cloth.</description>
 							<jobString>weaving hyperweave cloth.</jobString>
 							<workAmount>2000</workAmount>
-							<workSpeedStat>TailoringSpeed</workSpeedStat>
+							<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 							<effectWorking>Tailor</effectWorking>
 							<soundWorking>Recipe_Tailor</soundWorking>
 							<recipeUsers>
