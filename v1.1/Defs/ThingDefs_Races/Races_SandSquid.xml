@@ -109,6 +109,7 @@
 			<li><texPath>Things/Pawn/Animal/AA_SandSquid/AA_SandSquid</texPath></li>
 			<li><texPath>Things/Pawn/Animal/AA_SandSquid/AA_SandSquid2</texPath></li>
 			<li><texPath>Things/Pawn/Animal/AA_SandSquid/AA_SandSquid3</texPath></li>
+			<li><texPath>Things/Pawn/Animal/AA_SandSquid/AA_SandSquid4</texPath></li>
 			
 		</alternateGraphics>
     <ecoSystemWeight>0.2</ecoSystemWeight>
