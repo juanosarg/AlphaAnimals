@@ -6,8 +6,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>AA_Frostmite</defName>
     <label>frostmite</label>
-						<thingClass>AnimalVariations.AnimalMultiSkins</thingClass>
-
+						
     <description>A large parasite usually found in cold places. They sweep the cold barren lands in search of corpses buried in the snow, eating the preserved flesh and leaving a ravaged skeleton in its place; devoid of their former identity.</description>
     <statBases>
       <MoveSpeed>6.00</MoveSpeed>

@@ -130,7 +130,7 @@
 				<label>shock goat lamb</label>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/AA_ShockGoat/AA_ShockGoat</texPath>
-					<drawSize>0.9</drawSize>
+					<drawSize>1.5</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.3, 0.3)</volume>
 						<offset>(0,0,-0.2)</offset>
@@ -145,7 +145,7 @@
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/AA_ShockGoat/AA_ShockGoat</texPath>
-					<drawSize>1.3</drawSize>
+					<drawSize>1.9</drawSize>
 					<shadowData>
 						<volume>(0.6, 0.45, 0.45)</volume>
 						<offset>(0,0,-0.25)</offset>
@@ -160,7 +160,7 @@
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/AA_ShockGoat/AA_ShockGoat</texPath>
-					<drawSize>1.75</drawSize>
+					<drawSize>2.5</drawSize>
 					<shadowData>
 						<volume>(0.8, 0.6, 0.6)</volume>
 						<offset>(0,0,-0.3)</offset>

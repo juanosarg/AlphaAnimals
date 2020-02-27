@@ -146,7 +146,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/AA_PebbleMit/AA_Dessicated_PebbleMit</texPath>
-          <drawSize>1.5</drawSize>
+          <drawSize>0.9</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -161,7 +161,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/AA_PebbleMit/AA_Dessicated_PebbleMit</texPath>
-          <drawSize>1.75</drawSize>
+          <drawSize>1.2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -175,7 +175,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/AA_PebbleMit/AA_Dessicated_PebbleMit</texPath>
-          <drawSize>2</drawSize>
+          <drawSize>1.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

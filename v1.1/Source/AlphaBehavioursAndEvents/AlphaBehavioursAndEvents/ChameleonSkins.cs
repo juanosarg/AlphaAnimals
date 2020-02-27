@@ -45,14 +45,17 @@ namespace AlphaBehavioursAndEvents
         public void ChangeTheGraphics()
         {
             if (this.Map != null) {
+                Vector2 vector = this.ageTracker.CurKindLifeStage.bodyGraphicData.drawSize;
+                Graphic_Multi dessicatedGraphic = (Graphic_Multi)GraphicDatabase.Get<Graphic_Multi>(this.ageTracker.CurKindLifeStage.dessicatedBodyGraphicData.texPath, ShaderDatabase.Cutout, vector, Color.white);
 
                 if ((this.Position.GetTerrain(this.Map) == TerrainDef.Named("Ice")) || (this.Position.GetSnowDepth(this.Map) > 0) || (this.Map.mapTemperature.OutdoorTemp<-10f))
                 {
                     LongEventHandler.ExecuteWhenFinished(delegate
                     {
-                        Vector2 vector = this.ageTracker.CurKindLifeStage.bodyGraphicData.drawSize;
+                       
                         Graphic_Multi nakedGraphic = (Graphic_Multi)GraphicDatabase.Get<Graphic_Multi>(this.ageTracker.CurKindLifeStage.bodyGraphicData.texPath + "Winter", ShaderDatabase.Cutout, vector, Color.white);
                         this.pawn_renderer.graphics.nakedGraphic = nakedGraphic;
+                        this.pawn_renderer.graphics.dessicatedGraphic = dessicatedGraphic;
                         (this.pawn_renderer.graphics.nakedGraphic.data = new GraphicData()).shadowData = this.ageTracker.CurKindLifeStage.bodyGraphicData.shadowData;                        
                         StatExtension.SetStatBaseValue(this.def,StatDefOf.ComfyTemperatureMin,-60f);
                         StatExtension.SetStatBaseValue(this.def, StatDefOf.ComfyTemperatureMax, 10f);
@@ -64,9 +67,10 @@ namespace AlphaBehavioursAndEvents
                 {
                     LongEventHandler.ExecuteWhenFinished(delegate
                     {
-                        Vector2 vector = this.ageTracker.CurKindLifeStage.bodyGraphicData.drawSize;
                         Graphic_Multi nakedGraphic = (Graphic_Multi)GraphicDatabase.Get<Graphic_Multi>(this.ageTracker.CurKindLifeStage.bodyGraphicData.texPath + "Jungle", ShaderDatabase.Cutout, vector, Color.white);
                         this.pawn_renderer.graphics.nakedGraphic = nakedGraphic;
+                        this.pawn_renderer.graphics.dessicatedGraphic = dessicatedGraphic;
+
                         (this.pawn_renderer.graphics.nakedGraphic.data = new GraphicData()).shadowData = this.ageTracker.CurKindLifeStage.bodyGraphicData.shadowData;
                         StatExtension.SetStatBaseValue(this.def, StatDefOf.ComfyTemperatureMin, -10f);
                         StatExtension.SetStatBaseValue(this.def, StatDefOf.ComfyTemperatureMax, 35f);
@@ -78,9 +82,10 @@ namespace AlphaBehavioursAndEvents
                 {
                     LongEventHandler.ExecuteWhenFinished(delegate
                     {
-                        Vector2 vector = this.ageTracker.CurKindLifeStage.bodyGraphicData.drawSize;
                         Graphic_Multi nakedGraphic = (Graphic_Multi)GraphicDatabase.Get<Graphic_Multi>(this.ageTracker.CurKindLifeStage.bodyGraphicData.texPath + "Desert", ShaderDatabase.Cutout, vector, Color.white);
                         this.pawn_renderer.graphics.nakedGraphic = nakedGraphic;
+                        this.pawn_renderer.graphics.dessicatedGraphic = dessicatedGraphic;
+
                         (this.pawn_renderer.graphics.nakedGraphic.data = new GraphicData()).shadowData = this.ageTracker.CurKindLifeStage.bodyGraphicData.shadowData;
                         StatExtension.SetStatBaseValue(this.def, StatDefOf.ComfyTemperatureMin, 0f);
                         StatExtension.SetStatBaseValue(this.def, StatDefOf.ComfyTemperatureMax, 65f);
@@ -91,9 +96,10 @@ namespace AlphaBehavioursAndEvents
                 else {
                     LongEventHandler.ExecuteWhenFinished(delegate
                     {
-                        Vector2 vector = this.ageTracker.CurKindLifeStage.bodyGraphicData.drawSize;
                         Graphic_Multi nakedGraphic = (Graphic_Multi)GraphicDatabase.Get<Graphic_Multi>(this.ageTracker.CurKindLifeStage.bodyGraphicData.texPath, ShaderDatabase.Cutout, vector, Color.white);
                         this.pawn_renderer.graphics.nakedGraphic = nakedGraphic;
+                        this.pawn_renderer.graphics.dessicatedGraphic = dessicatedGraphic;
+
                         (this.pawn_renderer.graphics.nakedGraphic.data = new GraphicData()).shadowData = this.ageTracker.CurKindLifeStage.bodyGraphicData.shadowData;
                         StatExtension.SetStatBaseValue(this.def, StatDefOf.ComfyTemperatureMin, -10f);
                         StatExtension.SetStatBaseValue(this.def, StatDefOf.ComfyTemperatureMax, 35f);
