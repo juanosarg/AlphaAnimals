@@ -124,6 +124,13 @@
       <min>5</min>
       <max>25</max>
     </wildGroupSize>
+	<alternateGraphicChance>1</alternateGraphicChance>
+		<alternateGraphics>
+			<li><texPath>Things/Pawn/Animal/AA_FrostMite/AA_FrostMite</texPath></li>
+			<li><texPath>Things/Pawn/Animal/AA_FrostMite/AA_FrostMite2</texPath></li>
+			<li><texPath>Things/Pawn/Animal/AA_FrostMite/AA_FrostMite3</texPath></li>
+
+		</alternateGraphics>
     <lifeStages>
       <li>
         <bodyGraphicData>

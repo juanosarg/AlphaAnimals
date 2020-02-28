@@ -176,6 +176,15 @@
 			<min>2</min>
 			<max>4</max>
 		</wildGroupSize>
+		
+	<alternateGraphicChance>1</alternateGraphicChance>
+		<alternateGraphics>
+			<li><texPath>Things/Pawn/Animal/AA_Blizzarisk/AA_Blizzarisk</texPath></li>
+			<li><texPath>Things/Pawn/Animal/AA_Blizzarisk/AA_Blizzarisk2</texPath></li>
+			<li><texPath>Things/Pawn/Animal/AA_Blizzarisk/AA_Blizzarisk3</texPath></li>
+			<li><texPath>Things/Pawn/Animal/AA_Blizzarisk/AA_Blizzarisk4</texPath></li>
+
+		</alternateGraphics>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>

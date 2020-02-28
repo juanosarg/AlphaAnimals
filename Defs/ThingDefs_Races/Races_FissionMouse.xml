@@ -127,7 +127,7 @@
        
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/AA_FissionMouse/AA_FissionMouse</texPath>
-          <drawSize>1</drawSize>
+          <drawSize>1.3</drawSize>
          
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
@@ -139,7 +139,7 @@
        
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/AA_FissionMouse/AA_FissionMouse</texPath>
-          <drawSize>1.15</drawSize>
+          <drawSize>1.5</drawSize>
          
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
@@ -150,7 +150,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/AA_FissionMouse/AA_FissionMouse</texPath>
-          <drawSize>1.25</drawSize>
+          <drawSize>1.75</drawSize>
           
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
@@ -267,7 +267,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/AA_FissionMouse/AA_FissionMouse</texPath>
-          <drawSize>1.1</drawSize>
+          <drawSize>1.5</drawSize>
           
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
@@ -382,7 +382,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/AA_FissionMouse/AA_FissionMouse</texPath>
-          <drawSize>0.9</drawSize>
+          <drawSize>1.25</drawSize>
           
         </bodyGraphicData>
         <dessicatedBodyGraphicData>

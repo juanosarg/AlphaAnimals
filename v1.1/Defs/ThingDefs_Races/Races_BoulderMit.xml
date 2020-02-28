@@ -138,6 +138,14 @@
    		<canArriveManhunter>false</canArriveManhunter>
 
     <ecoSystemWeight>0.2</ecoSystemWeight>
+	
+	<alternateGraphicChance>1</alternateGraphicChance>
+		<alternateGraphics>
+			<li><texPath>Things/Pawn/Animal/AA_BoulderMit/AA_BoulderMit</texPath></li>
+			<li><texPath>Things/Pawn/Animal/AA_BoulderMit/AA_BoulderMit2</texPath></li>
+			<li><texPath>Things/Pawn/Animal/AA_BoulderMit/AA_BoulderMit3</texPath></li>
+			
+		</alternateGraphics>
     <lifeStages>
       <li>
         <label>bouldermit</label>

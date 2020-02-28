@@ -3,7 +3,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_Groundrunner</defName>
 		<label>groundrunner</label>
-								
+
 
 		<description>A strange chimera between a bear and mole, Groundrunners originally came from Cave Worlds. They were used as walking heavy tools by the locals when they hit parts that plasteel can’t break, and for hauling large boulders that their owners can’t lift.\n\nDue to their domesticated origins, they are surprisingly docile and easy to tame. Their incredible strength and sharp claws allows them to break rocks with relative ease. But out here in the Rim, those claws are usually reserved for ripping power armors apart along with their wearers.\n\nGroundrunners will happily help your colonists mine rocks and minerals. They are however quite lazy and get distracted easily (this interaction requires the Groundrunner to be trained in Haul).</description>
 		<statBases>
@@ -83,8 +83,8 @@
 				<TropicalSwamp>0.07</TropicalSwamp>
 
 			</wildBiomes>
-			      <thinkTreeMain>AA_AnimalDigger</thinkTreeMain>
-      <thinkTreeConstant>AA_AnimalDiggerConstant</thinkTreeConstant>
+			<thinkTreeMain>AA_AnimalDigger</thinkTreeMain>
+			<thinkTreeConstant>AA_AnimalDiggerConstant</thinkTreeConstant>
 
 			<herdAnimal>true</herdAnimal>
 			<predator>false</predator>
@@ -129,9 +129,9 @@
 			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
-			<tradeTags>
-      <li>AnimalCommon</li>
-    </tradeTags>
+		<tradeTags>
+			<li>AnimalCommon</li>
+		</tradeTags>
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">
@@ -140,7 +140,31 @@
 		<label>groundrunner</label>
 		<combatPower>350</combatPower>
 		<ecoSystemWeight>0.2</ecoSystemWeight>
-		
+		<alternateGraphicChance>1</alternateGraphicChance>
+		<alternateGraphics>
+			<li>
+				<texPath>Things/Pawn/Animal/AA_GroundRunner/AA_GroundRunner</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/AA_GroundRunner/AA_GroundRunnerW</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/AA_GroundRunner/AA_GroundRunner2</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/AA_GroundRunner/AA_GroundRunner3</texPath>
+			</li>
+
+			<li>
+				<texPath>Things/Pawn/Animal/AA_GroundRunner/AA_GroundRunner4</texPath>
+			</li>
+
+			<li>
+				<texPath>Things/Pawn/Animal/AA_GroundRunner/AA_GroundRunner5</texPath>
+			</li>
+
+
+		</alternateGraphics>
 		<wildGroupSize>
 			<min>2</min>
 			<max>3</max>
