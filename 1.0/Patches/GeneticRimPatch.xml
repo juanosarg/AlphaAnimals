@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Genetic Rim</modName>
+				<yourMod>Alpha Animals</yourMod>
+			</li>
+
+
+
+		
+
+		
+
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[@Name = "GR_JawImplants"]/appliedOnFixedBodyParts</xpath>
+				<value>
+					<li>AA_InsectMouth</li>
+					<li>AA_CrocodileJaw</li>
+					<li>AA_SentientPlantMouth</li>
+				</value>
+			</li>
+
+
+
+		
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[@Name = "GR_LegImplants"]/appliedOnFixedBodyParts</xpath>
+				<value>
+					<li>AA_SmallInsectLeg</li>
+
+				</value>
+			</li>
+
+
+
+
+
+
+
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/RecipeDef[@Name = "GR_TailImplants"]/appliedOnFixedBodyParts</xpath>
+				<value>
+					<li>AA_InsectTail</li>
+
+				</value>
+			</li>
+
+
+
+		</operations>
+	</Operation>
+
+
+</Patch>
+

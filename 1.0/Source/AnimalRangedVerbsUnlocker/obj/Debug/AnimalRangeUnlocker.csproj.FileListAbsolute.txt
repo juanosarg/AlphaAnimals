@@ -1,0 +1,7 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GeneticRim-b19\Source\AnimalRangedVerbsUnlocker\obj\Debug\AnimalRangeUnlocker.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GeneticRim-b19\Assemblies\AnimalRangeUnlocker.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GeneticRim-b19\Source\AnimalRangedVerbsUnlocker\obj\Debug\AnimalRangeUnlocker.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\AlphaAnimals-B19\Assemblies\AnimalRangeUnlocker.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\AlphaAnimals-B19\Source\AnimalRangedVerbsUnlocker\obj\Debug\AnimalRangeUnlocker.csprojAssemblyReference.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\AlphaAnimals-B19\Source\AnimalRangedVerbsUnlocker\obj\Debug\AnimalRangeUnlocker.csproj.CoreCompileInputs.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\AlphaAnimals-B19\Source\AnimalRangedVerbsUnlocker\obj\Debug\AnimalRangeUnlocker.dll

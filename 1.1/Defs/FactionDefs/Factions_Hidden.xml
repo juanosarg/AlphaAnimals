@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <FactionDef>
+    <defName>AA_BlackHive</defName>
+    <label>black hive</label>
+    <pawnSingular>black hive insect</pawnSingular>
+    <pawnsPlural>black hive insects</pawnsPlural>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <fixedName>black hive</fixedName>
+	<factionIconPath>World/WorldObjects/Expanding/Sites/Manhunters</factionIconPath>
+		<raidCommonalityFromPointsCurve>
+			<points>
+				<li>(0, 0)</li>
+			</points>
+		</raidCommonalityFromPointsCurve>
+    <humanlikeFaction>false</humanlikeFaction>
+    <hidden>true</hidden>
+    <autoFlee>false</autoFlee>
+    <canUseAvoidGrid>false</canUseAvoidGrid>
+    <techLevel>Animal</techLevel>
+    <permanentEnemy>true</permanentEnemy>
+   <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+    <allowedArrivalTemperatureRange>
+      <min>-30</min>
+      <max>60</max>
+    </allowedArrivalTemperatureRange>
+  </FactionDef>
+  
+</Defs>

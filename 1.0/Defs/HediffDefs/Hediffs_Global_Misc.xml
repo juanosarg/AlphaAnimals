@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ <HediffDef>
+    <defName>AA_InvisibleArcticLion</defName>
+    <hediffClass>AlphaBehavioursAndEvents.Hediff_Stalking</hediffClass>
+    <label>stalking</label>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>
+          <min>60000</min>
+          <max>60000</max>
+        </disappearsAfterTicks>
+      </li>
+    </comps>
+      <stages>
+        <li>
+		  
+		</li>
+      </stages>
+  </HediffDef>
+  
+   <HediffDef>
+    <defName>AA_CrushingEverything</defName>
+    <hediffClass>AlphaBehavioursAndEvents.Hediff_Crushing</hediffClass>
+    <label>crushing everything on its path</label>
+    <defaultLabelColor>(.8,0,0)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    
+      <stages>
+        <li>
+		  
+		</li>
+      </stages>
+  </HediffDef>
+  
+     <HediffDef>
+    <defName>AA_Nocturnal</defName>
+    <hediffClass>AlphaBehavioursAndEvents.Hediff_NocturnalAnimal</hediffClass>
+    <label>nocturnal animal</label>
+    <defaultLabelColor>(.8,0,0)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    
+      <stages>
+        <li>
+		  
+		</li>
+      </stages>
+  </HediffDef>
+  
+ <HediffDef ParentName="InfectionBase">
+    <defName>AA_LockJawDisease</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>lockjaw disease</label>
+    <makesSickThought>true</makesSickThought>
+    <tendable>true</tendable>
+    <stages>
+      <li>
+        <painOffset>0.2</painOffset>
+        <restFallFactorOffset>1</restFallFactorOffset>
+        <capMods>
+          <li>
+            <capacity>Talking</capacity>
+            <offset>-0.5</offset>
+          </li>
+          <li>
+            <capacity>Eating</capacity>
+            <offset>-0.5</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_TendDuration">
+        <baseTendDurationHours>48</baseTendDurationHours>
+        <disappearsAtTotalTendQuality>3</disappearsAtTotalTendQuality>
+      </li>
+    </comps>
+  </HediffDef>
+  
+    <HediffDef ParentName="DiseaseBase">
+    <defName>AA_Paralysis</defName>
+    <label>paralysis</label>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>
+          <min>1000</min>
+          <max>1000</max>
+        </disappearsAfterTicks>
+      </li>
+    </comps>
+    <stages>
+      <li>
+	    <label>initial</label>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.9</setMax>
+          </li>
+        </capMods>
+      </li>
+	   <li>
+	    <label>stunned</label>
+		<minSeverity>0.2</minSeverity>
+
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.6</setMax>
+          </li>
+        </capMods>
+      </li>
+	  <li>
+	    <label>very stunned</label>
+		<minSeverity>0.5</minSeverity>
+
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.4</setMax>
+          </li>
+        </capMods>
+      </li>
+	  <li>
+	    <label>paralysed</label>
+		<minSeverity>0.8</minSeverity>
+
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.1</setMax>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  
+      <HediffDef ParentName="DiseaseBase">
+    <defName>AA_Electric</defName>
+    <label>electric shock</label>
+    <isBad>true</isBad>
+    <comps>
+      <li Class="HediffCompProperties_Immunizable">
+        <severityPerDayNotImmune>-2</severityPerDayNotImmune>
+      </li>
+    </comps>
+    <stages>
+      <li>
+	    <label>initial</label>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.9</setMax>
+          </li>
+        </capMods>
+		 <hediffGivers>
+          <li Class="HediffGiver_Random">
+            <hediff>HeartAttack</hediff>
+            <mtbDays>10</mtbDays>
+            <partsToAffect>
+              <li>Heart</li>
+            </partsToAffect>
+          </li>
+        </hediffGivers>
+      </li>
+	   <li>
+	    <label>shocked</label>
+		<minSeverity>0.2</minSeverity>
+
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.6</setMax>
+          </li>
+        </capMods>
+		 <hediffGivers>
+          <li Class="HediffGiver_Random">
+            <hediff>HeartAttack</hediff>
+            <mtbDays>5</mtbDays>
+            <partsToAffect>
+              <li>Heart</li>
+            </partsToAffect>
+          </li>
+        </hediffGivers>
+      </li>
+	  <li>
+	    <label>very shocked</label>
+		<minSeverity>0.5</minSeverity>
+
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.4</setMax>
+          </li>
+        </capMods>
+		 <hediffGivers>
+          <li Class="HediffGiver_Random">
+            <hediff>HeartAttack</hediff>
+            <mtbDays>1</mtbDays>
+            <partsToAffect>
+              <li>Heart</li>
+            </partsToAffect>
+          </li>
+        </hediffGivers>
+      </li>
+	  <li>
+	    <label>paralysed</label>
+		<minSeverity>0.8</minSeverity>
+
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.1</setMax>
+          </li>
+        </capMods>
+		 <hediffGivers>
+          <li Class="HediffGiver_Random">
+            <hediff>HeartAttack</hediff>
+            <mtbDays>0.5</mtbDays>
+            <partsToAffect>
+              <li>Heart</li>
+            </partsToAffect>
+          </li>
+        </hediffGivers>
+      </li>
+    </stages>
+  </HediffDef>
+  
+   <HediffDef>
+    <defName>AA_ToxicBuildup</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+    <label>toxic buildup</label>
+    <lethalSeverity>1</lethalSeverity>
+    <makesSickThought>true</makesSickThought>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <taleOnVisible>ToxicityRevealed</taleOnVisible>
+    <comps>
+      <li Class="HediffCompProperties_Immunizable">
+        <severityPerDayNotImmune>-0.08</severityPerDayNotImmune>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <label>initial</label>
+       
+      </li>
+      <li>
+        <label>initial</label>
+        <minSeverity>0.04</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.05</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>minor</label>
+        <minSeverity>0.2</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.10</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>moderate</label>
+        <minSeverity>0.40</minSeverity>
+        <vomitMtbDays>5</vomitMtbDays>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.15</offset>
+          </li>
+        </capMods>
+        <hediffGivers>
+          <li Class="HediffGiver_Random">
+            <hediff>Dementia</hediff>
+            <mtbDays>146</mtbDays>
+            <partsToAffect>
+              <li>Brain</li>
+            </partsToAffect>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>Carcinoma</hediff>
+            <mtbDays>438</mtbDays>
+            <canAffectAnyLivePart>true</canAffectAnyLivePart>
+          </li>
+        </hediffGivers>
+      </li>
+      <li>
+        <label>serious</label>
+        <minSeverity>0.60</minSeverity>
+        <vomitMtbDays>1</vomitMtbDays>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.25</offset>
+          </li>
+        </capMods>
+        <hediffGivers>
+          <li Class="HediffGiver_Random">
+            <hediff>Dementia</hediff>
+            <mtbDays>37</mtbDays>
+            <partsToAffect>
+              <li>Brain</li>
+            </partsToAffect>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>Carcinoma</hediff>
+            <mtbDays>111</mtbDays>
+            <canAffectAnyLivePart>true</canAffectAnyLivePart>
+          </li>
+        </hediffGivers>
+      </li>
+      <li>
+        <label>extreme</label>
+        <minSeverity>0.80</minSeverity>
+        <vomitMtbDays>0.5</vomitMtbDays>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.10</setMax>
+          </li>
+        </capMods>
+        <hediffGivers>
+          <li Class="HediffGiver_Random">
+            <hediff>Dementia</hediff>
+            <mtbDays>13</mtbDays>
+            <partsToAffect>
+              <li>Brain</li>
+            </partsToAffect>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>Carcinoma</hediff>
+            <mtbDays>39</mtbDays>
+            <canAffectAnyLivePart>true</canAffectAnyLivePart>
+          </li>
+        </hediffGivers>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <HediffDef>
+    <defName>AA_AcidBuildup</defName>
+	<hediffClass>AlphaBehavioursAndEvents.Hediff_AcidBuildup</hediffClass>
+    <defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+    <label>acid burn</label>
+    <lethalSeverity>1</lethalSeverity>
+    <makesSickThought>true</makesSickThought>
+    
+    <comps>
+      <li Class="HediffCompProperties_Immunizable">
+        <severityPerDayNotImmune>-4</severityPerDayNotImmune>
+      </li>
+    </comps>
+    <stages>
+      
+      
+      <li>
+        <label>minor, receiving burns</label>
+        <minSeverity>0</minSeverity>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.10</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <label>moderate, receiving burns</label>
+        <minSeverity>0.40</minSeverity>
+        <vomitMtbDays>5</vomitMtbDays>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.15</offset>
+          </li>
+        </capMods>
+       
+      </li>
+      <li>
+        <label>serious, receiving burns</label>
+        <minSeverity>0.60</minSeverity>
+        <vomitMtbDays>1</vomitMtbDays>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.4</offset>
+          </li>
+        </capMods>
+        
+      </li>
+      
+    </stages>
+  </HediffDef>
+  
+    <HediffDef>
+  <defName>AA_LowRest</defName>
+    
+    <label>needs very little sleep</label>
+    <defaultLabelColor>(.8,0,0)</defaultLabelColor>
+    <scenarioCanAdd>false</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    
+      <stages>
+        <li>
+		  <restFallFactor>0.4</restFallFactor>
+		  
+		</li>
+      </stages>
+  </HediffDef>
+
+</Defs>

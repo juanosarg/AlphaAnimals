@@ -1,0 +1,13 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlphaAnimals B19\Assemblies\AlphaBehavioursAndEvents.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlphaAnimals B19\Source\AlphaBehavioursAndEvents\AlphaBehavioursAndEvents\obj\Debug\AlphaBehavioursAndEvents.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlphaAnimals B19\Source\AlphaBehavioursAndEvents\AlphaBehavioursAndEvents\obj\Debug\AlphaBehavioursAndEvents.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlphaAnimals\Source\AlphaBehavioursAndEvents\AlphaBehavioursAndEvents\obj\Debug\AlphaBehavioursAndEvents.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlphaAnimals\Assemblies\AlphaBehavioursAndEvents.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\AlphaAnimals\Assemblies\AlphaBehavioursAndEvents.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\AlphaAnimals\Source\AlphaBehavioursAndEvents\AlphaBehavioursAndEvents\obj\Debug\AlphaBehavioursAndEvents.csprojAssemblyReference.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\AlphaAnimals\Source\AlphaBehavioursAndEvents\AlphaBehavioursAndEvents\obj\Debug\AlphaBehavioursAndEvents.csproj.CoreCompileInputs.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\AlphaAnimals\Source\AlphaBehavioursAndEvents\AlphaBehavioursAndEvents\obj\Debug\AlphaBehavioursAndEvents.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\AlphaAnimals\Source\AlphaBehavioursAndEvents\AlphaBehavioursAndEvents\obj\Debug\AlphaBehavioursAndEvents.csproj.CopyComplete
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlphaAnimals\Source\AlphaBehavioursAndEvents\AlphaBehavioursAndEvents\obj\Debug\AlphaBehavioursAndEvents.csprojAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlphaAnimals\Source\AlphaBehavioursAndEvents\AlphaBehavioursAndEvents\obj\Debug\AlphaBehavioursAndEvents.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlphaAnimals\Source\AlphaBehavioursAndEvents\AlphaBehavioursAndEvents\obj\Debug\AlphaBehavioursAndEvents.csproj.CopyComplete

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+	
+	<RecipeDef>
+		<defName>AA_ExtractUranium</defName>
+		<label>process uranium crystals</label>
+		<description>Extract uranium from .</description>
+		<jobString>Extracting useful materials from unrefined uranium crystals.</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>2000</workAmount>
+		<recipeUsers>
+				<li>BiofuelRefinery</li>	  
+		</recipeUsers>	
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		
+		<ingredients>
+			<li>
+				<filter>
+				  <thingDefs>
+					<li>AA_UraniumCrystals</li>
+				  </thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AA_UraniumCrystals</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		
+		<products>
+			<Uranium>15</Uranium>
+			
+		</products>
+		
+	</RecipeDef>
+
+
+</Defs>
