@@ -49,7 +49,7 @@
 			<li Class="PatchOperationAdd"> 
 				<xpath>/Defs</xpath>
 				<value>
-					<ThingDef ParentName="BoatBase">
+					<ThingDef ParentName="BaseBoatPawn">
 						<defName>AA_ColossalNautiloidRace</defName>
 						<label>Colossal Nautiloid</label>
 						<description>The Colossal Nautiloid is an extremely large cephalopod with a spiral shell. In the wild, Colossal Nautiloids are fearsome predators that live in the deepest ocean trenches, hunting whales and various deep-sea fish. Nautiloid eggs find their way to the surface, where they are coveted as luxury items. If one of these eggs is hatched, a Colossal Nautiloid can be carefully tamed and used as a foundation to build a powerful bio-ship using a great amount of wood and cloth, a process that is quite painless to the Nautiloid if it is started when it is young.\n\nColossal Nautiloids can be trained to act as powerful sailing ships, armed with a nasty acidic ink spit.</description>
@@ -199,7 +199,7 @@
 			<li Class="PatchOperationAdd"> 
 				<xpath>/Defs</xpath>
 				<value>
-					<ThingDef ParentName="UnreleasedBoatBase">
+					<ThingDef ParentName="BoatBase">
 						<defName>AA_ColossalNautiloidBlueprint</defName>
 						<label>Colossal Nautiloid</label>
 						<description>Use a Colossal Nautiloid Egg, acquired from merchants, and raw resources to create a Colossal Nautiloid. The Colossal Nautiloid is an extremely large cephalopod with a spiral shell. In the wild, Colossal Nautiloids are fearsome predators that live in the deepest ocean trenches, hunting whales and various deep-sea fish. Nautiloid eggs find their way to the surface, where they are coveted as luxury items. If one of these eggs is hatched, a Colossal Nautiloid can be carefully tamed and used as a foundation to build a powerful bio-ship using a great amount of wood and cloth, a process that is quite painless to the Nautiloid if it is started when it is young.\n\nColossal Nautiloids can be trained to act as powerful sailing ships, armed with a nasty acidic ink spit.</description>
@@ -275,7 +275,7 @@
 			<li Class="PatchOperationAdd"> 
 				<xpath>/Defs</xpath>
 				<value>
-					<ThingDef ParentName="BoatBase">
+					<ThingDef ParentName="BaseBoatPawn">
 						<defName>AA_MirachianManowarRace</defName>
 						<label>Mirachian Man O'War</label>
 						<description>The Mirachian Man O'War originates from an unnamed ocean covered planet orbiting Mirach, or Beta Andromedae, a red giant relatively close to Sol. The Mirachian Man O'War is not a true jellyfish but a photosynthetic siphonophore, which is not actually a single multicellular organism, but a colonial organism made up of many specialized animals of the same species. When transported out of the poor light conditions in its home planet, the colony can grow to obscene sizes.\n\nA Mirachian Man O'War is naturally buoyant, using its pneumatophore, a sail-shaped structure filled with gas, to float aimlessly in the ocean currents, and its tentacles to paralyze and consume passing fish. If a colony can be artificially grown around an artificial structure, and chemical signals used to direct it at will, it could be used as a means of transportation.</description>
@@ -376,7 +376,7 @@
 			<li Class="PatchOperationAdd"> 
 				<xpath>/Defs</xpath>
 				<value>
-					<ThingDef ParentName="UnreleasedBoatBase">
+					<ThingDef ParentName="BoatBase">
 						<defName>AA_MirachianManowarBlueprint</defName>
 						<label>Mirachian Man O'War</label>
 						<description>Use Mirachian Man O'War eggs, acquired from merchants, and raw resources to create a Mirachian Man O'War. The Mirachian Man O'War originates from an unnamed ocean covered planet orbiting Mirach, or Beta Andromedae, a red giant relatively close to Sol. The Mirachian Man O'War is not a true jellyfish but a photosynthetic siphonophore, which is not actually a single multicellular organism, but a colonial organism made up of many specialized animals of the same species. When transported out of the poor light conditions in its home planet, the colony can grow to obscene sizes.\n\nA Mirachian Man O'War is naturally buoyant, using its pneumatophore, a sail-shaped structure filled with gas, to float aimlessly in the ocean currents, and its tentacles to paralyze and consume passing fish. If a colony can be artificially grown around an artificial structure, and chemical signals used to direct it at will, it could be used as a means of transportation.</description>
@@ -451,7 +451,7 @@
 			<li Class="PatchOperationAdd"> 
 				<xpath>/Defs</xpath>
 				<value>
-					<ThingDef ParentName="BoatBase">
+					<ThingDef ParentName="BaseBoatPawn">
 						<defName>AA_IronboundLeviathanRace</defName>
 						<label>Ironbound Leviathan</label>
 						<description>Leviathans are gigantic marine mammals within the infraorder Cetacea. The first Leviathans were genetically modified whales, selected for their increased size and reduced intellect, and bred as adaptable cattle. Ironbound Leviathans are Leviathan whales that are enslaved and drugged into a confused stupor, and used as a floating mobile war base. This is incredibly cruel to the animal, as it is forced to carry a lot of weight on its back, and to never be able to submerge in deep waters.\n\nIronbound Leviathans are a very cruel tool, only used by those despicable or desperate enough, and they require a lot of resources, since the whale needs to be shackled and drugged from birth.</description>
@@ -604,7 +604,7 @@
 			<li Class="PatchOperationAdd"> 
 				<xpath>/Defs</xpath>
 				<value>
-					<ThingDef ParentName="UnreleasedBoatBase">
+					<ThingDef ParentName="BoatBase">
 						<defName>AA_IronboundLeviathanBlueprint</defName>
 						<label>Ironbound Leviathan</label>
 						<description>Use an Ironbound Leviathan embryo, acquired from merchants, and raw resources to create an Ironbound Leviathan. Leviathans are gigantic marine mammals within the infraorder Cetacea. The first Leviathans were genetically modified whales, selected for their increased size and reduced intellect, and bred as adaptable cattle. Ironbound Leviathans are Leviathan whales that are enslaved and drugged into a confused stupor, and used as a floating mobile war base. This is incredibly cruel to the animal, as it is forced to carry a lot of weight on its back, and to never be able to submerge in deep waters.\n\nIronbound Leviathans are a very cruel tool, only used by those despicable or desperate enough, and they require a lot of resources, since the whale needs to be shackled and drugged from birth.</description>
