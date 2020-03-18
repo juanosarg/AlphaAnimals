@@ -75,7 +75,7 @@
 			<foodType>OmnivoreRoughAnimal</foodType>
 
 			<wildness>0.65</wildness>
-			<manhunterOnDamageChance>100</manhunterOnDamageChance>
+			<manhunterOnDamageChance>1</manhunterOnDamageChance>
 			<manhunterOnTameFailChance>0.2</manhunterOnTameFailChance>
 			<trainability>Simple</trainability>
 			<gestationPeriodDays>30</gestationPeriodDays>
