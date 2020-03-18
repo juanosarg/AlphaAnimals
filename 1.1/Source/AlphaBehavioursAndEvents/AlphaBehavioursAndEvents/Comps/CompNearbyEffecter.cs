@@ -41,11 +41,13 @@ namespace AlphaBehavioursAndEvents
                                     if (current2.def.defName == Props.thingToAffect)
                                     {
                                         Thing thing = GenSpawn.Spawn(ThingDef.Named(Props.thingToTurnTo), current, pawn.Map, WipeMode.Vanish);
+                                        thing.SetForbidden(true, false);
                                         current2.Destroy();
                                         break;
                                     } else if (current2.def.defName == Props.secondaryThingToAffect)
                                     {
                                         Thing thing = GenSpawn.Spawn(ThingDef.Named(Props.thingToTurnTo), current, pawn.Map, WipeMode.Vanish);
+                                        thing.SetForbidden(true, false);
                                         current2.Destroy();
                                         break;
                                     }

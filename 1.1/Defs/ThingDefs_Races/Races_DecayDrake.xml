@@ -84,9 +84,34 @@
 			<li Class="AlphaBehavioursAndEvents.CompProperties_NearbyEffecter">
 				<thingToAffect>Plant_Grass</thingToAffect>
 				<secondaryThingToAffect>Plant_TallGrass</secondaryThingToAffect>
-				<thingToTurnTo>AA_RottingMound</thingToTurnTo>
-				<ticksConversionRate>5000</ticksConversionRate>
+				<thingToTurnTo>AA_RottingMoundItem</thingToTurnTo>
+				<ticksConversionRate>10000</ticksConversionRate>
 
+			</li>
+			<li Class="AlphaBehavioursAndEvents.CompProperties_EatWeirdFood">
+
+				<customThingToEat>
+				
+					<li>AA_RottingMoundItem</li>
+					<li>Beer</li>
+					<li>RB_Mead</li>
+					<li>cider</li>
+					<li>rum</li>
+					<li>Wine</li>
+					<li>strawberrywine</li>
+					<li>saki</li>
+					<li>vodka</li>
+					<li>tequila</li>
+					<li>whisky</li>
+					<li>BrownAle</li>
+					<li>Fruitshine</li>
+					
+				</customThingToEat>
+				<nutrition>1</nutrition>
+				<digThingIfMapEmpty>false</digThingIfMapEmpty>
+				<fullyDestroyThing>true</fullyDestroyThing>
+				<hediffWhenEaten>AlcoholHigh</hediffWhenEaten>
+				
 			</li>
 
 		</comps>
@@ -98,10 +123,11 @@
 				<ColdBog>0.02</ColdBog>
 				<TemperateForest>0.005</TemperateForest>
 			</wildBiomes>
+			<thinkTreeMain>AA_AnimalWeirdEater</thinkTreeMain>
 			<body>AA_WingedQuadrupedAnimalWithPawsAndTail</body>
 			<baseBodySize>1</baseBodySize>
 			<baseHealthScale>2</baseHealthScale>
-			<baseHungerRate>2</baseHungerRate>
+			<baseHungerRate>0.65</baseHungerRate>
 			<foodType>Liquor,CarnivoreAnimalStrict</foodType>
 			<predator>true</predator>
 			<maxPreyBodySize>2</maxPreyBodySize>

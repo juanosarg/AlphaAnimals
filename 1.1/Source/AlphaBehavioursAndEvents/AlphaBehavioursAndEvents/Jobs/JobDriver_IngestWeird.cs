@@ -231,6 +231,11 @@ namespace AlphaBehavioursAndEvents
                 {
                     thing.HitPoints -= (int)(thing.MaxHitPoints * comp.Props.percentageOfDestruction);
                 }
+
+                if (comp.Props.hediffWhenEaten!="")
+                {
+                    actor.health.AddHediff(HediffDef.Named(comp.Props.hediffWhenEaten));
+                }
                 
                 if (!ingester.Dead)
                 {

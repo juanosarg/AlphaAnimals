@@ -15,6 +15,7 @@ namespace AlphaBehavioursAndEvents
         public bool digThingIfMapEmpty = false;
         public string thingToDigIfMapEmpty = "";
         public int customAmountToDig = 1;
+        public string hediffWhenEaten = "";
 
         public CompProperties_EatWeirdFood()
         {
