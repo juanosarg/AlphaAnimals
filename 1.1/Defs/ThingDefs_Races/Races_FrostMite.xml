@@ -50,6 +50,7 @@
 			<li Class="AlphaBehavioursAndEvents.CompProperties_DigWhenHungry">
 
 				<customThingToDig>AA_Corpse</customThingToDig>
+				<isFrostmite>true</isFrostmite>
 
 			</li>
 

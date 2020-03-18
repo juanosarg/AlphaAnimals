@@ -40,7 +40,7 @@
 				
 
 			</li>
-			<li Class="NewAlphaAnimalSubproducts.CompProperties_AnimalProduct">
+			<li Class="AlphaBehavioursAndEvents.CompProperties_AnimalProduct">
 				
 				<gatheringIntervalDays>20</gatheringIntervalDays>
 				<resourceAmount>1</resourceAmount>

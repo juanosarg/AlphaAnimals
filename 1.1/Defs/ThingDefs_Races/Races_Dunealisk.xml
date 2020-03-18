@@ -85,7 +85,7 @@
 		</verbs>
 		<comps>
 
-			<li Class="NewAlphaAnimalSubproducts.CompProperties_AnimalProduct">
+			<li Class="AlphaBehavioursAndEvents.CompProperties_AnimalProduct">
 				<resourceDef>Synthread</resourceDef>
 				<gatheringIntervalDays>16</gatheringIntervalDays>
 				<resourceAmount>33</resourceAmount>

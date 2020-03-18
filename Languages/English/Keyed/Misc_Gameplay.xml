@@ -68,6 +68,8 @@
 	<AA_MealNutrientPaste>Nutrient paste production</AA_MealNutrientPaste>
 	<AA_Wood>Time to "trim" trees</AA_Wood>
 	<AA_MutantImplantsDesc>Time to excise implant</AA_MutantImplantsDesc>
+	<AA_CinderSilkDesc>Cindersilk production</AA_CinderSilkDesc>
+
 
 
 
@@ -144,6 +146,15 @@
 	<disableNightmule>Disable Nightmule</disableNightmule>
 	<disableNightram>Disable Nightram</disableNightram>
 	<disableTeratogenicOriginator>Disable Teratogenic Originator</disableTeratogenicOriginator>
+	
+	<disableBloodShrimp>Disable Blood Shrimp</disableBloodShrimp>
+	<disableCinderlisk>Disable Cinderlisk</disableCinderlisk>
+	<disableCrystalMit>Disable Crystalmit</disableCrystalMit>
+	<disableHelixien>Disable Helixien</disableHelixien>
+	<disableRazorjack>Disable Razorjack</disableRazorjack>
+	<disableRipperHound>Disable Ripper Hound</disableRipperHound>
+	<disableRoughPlatedMonitor>Disable Rough-Plated Monitor</disableRoughPlatedMonitor>
+	<disableSwarmling>Disable Swarmling</disableSwarmling>
 
 
 

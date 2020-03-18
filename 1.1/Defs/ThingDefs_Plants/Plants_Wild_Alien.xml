@@ -3,7 +3,7 @@
 
 
 	<ThingDef ParentName="PlantBase">
-		<defName>GU_AlienGrass</defName>
+		<defName>AA_AlienGrass</defName>
 		<label>alien grass</label>
 		<description>This grass is completely alien, probably not even 100% carbon based, and it seems to be decaying quickly from exposure to a terrestrial environment.</description>
 		<statBases>
@@ -32,7 +32,7 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="PlantBase">
-		<defName>GU_RedLeaves</defName>
+		<defName>AA_RedLeaves</defName>
 		<label>alien plant</label>
 <description>This grass is completely alien, probably not even 100% carbon based, and it seems to be decaying quickly from exposure to a terrestrial environment.</description>		<statBases>
 			<MaxHitPoints>85</MaxHitPoints>
@@ -60,7 +60,7 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="PlantBase">
-		<defName>GU_RedPlantsTall</defName>
+		<defName>AA_RedPlantsTall</defName>
 		<label>alien plant</label>
 <description>This grass is completely alien, probably not even 100% carbon based, and it seems to be decaying quickly from exposure to a terrestrial environment.</description>		<statBases>
 			<MaxHitPoints>85</MaxHitPoints>
@@ -89,7 +89,7 @@
 	<!--============================ Trees ============================-->
 
   <ThingDef ParentName="PlantBase">
-    <defName>GU_AlienTree</defName>
+    <defName>AA_AlienTree</defName>
     <label>alien tree</label>
 <description>This tree is completely alien, probably not even 100% carbon based, and it seems to be decaying quickly from exposure to a terrestrial environment. Strange fruits resembling eyeballs hang from the tree, but they are probably not edible. Its wood releases a powerful, sweet scent. Perhaps it can be somehow useful?</description>    <statBases>
       <MaxHitPoints>200</MaxHitPoints>

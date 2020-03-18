@@ -33,8 +33,9 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="0Harmony, Version=2.0.0.2, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Lib.Harmony.2.0.0.2\lib\net472\0Harmony.dll</HintPath>
+    <Reference Include="0Harmony, Version=2.0.0.8, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lib.Harmony.2.0.0.8\lib\net472\0Harmony.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Assembly-CSharp">
       <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
@@ -297,66 +298,102 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AlphaAnimals_SettingsController.cs" />
-    <Compile Include="AlphaAnimals_Settings.cs" />
-    <Compile Include="Building_BlackHiveMound.cs" />
-    <Compile Include="Building_Overgrown_DropPod.cs" />
-    <Compile Include="ChameleonSkins.cs" />
-    <Compile Include="CompFertilizer.cs" />
-    <Compile Include="CompFloating.cs" />
-    <Compile Include="CompGasProducer.cs" />
-    <Compile Include="CompInitialHediff.cs" />
-    <Compile Include="CompNearbyEffecter.cs" />
-    <Compile Include="CompProperties_Electrified.cs" />
-    <Compile Include="CompElectrified.cs" />
-    <Compile Include="CompProperties_Fertilizer.cs" />
-    <Compile Include="CompProperties_Floating.cs" />
-    <Compile Include="CompProperties_GasProducer.cs" />
-    <Compile Include="CompProperties_InitialHediff.cs" />
-    <Compile Include="CompProperties_NearbyEffecter.cs" />
-    <Compile Include="CompRegeneration.cs" />
-    <Compile Include="CompProperties_Regeneration.cs" />
-    <Compile Include="CompProperties_HighlyFlammable.cs" />
-    <Compile Include="CompHighlyFlammable.cs" />
-    <Compile Include="CompSkins.cs" />
-    <Compile Include="CompDigWhenHungry.cs" />
-    <Compile Include="CompNocturnal.cs" />
-    <Compile Include="CompLightSustenance.cs" />
-    <Compile Include="CompProperties_Skins.cs" />
-    <Compile Include="CompProperties_DigWhenHungry.cs" />
-    <Compile Include="CompProperties_Nocturnal.cs" />
-    <Compile Include="CompProperties_LightSustenance.cs" />
-    <Compile Include="DamageWorker_Siege.cs" />
-    <Compile Include="DeathActionWorker_SmallRedAcidExplosion.cs" />
-    <Compile Include="DeathActionWorker_RedAcidExplosion.cs" />
-    <Compile Include="DeathActionWorker_AcidExplosion.cs" />
-    <Compile Include="DeathActionWorker_MouseFission.cs" />
-    <Compile Include="Gas_Ocular.cs" />
-    <Compile Include="Hediff_AcidBuildup.cs" />
-    <Compile Include="Hediff_Crushing.cs" />
-    <Compile Include="Hediff_NocturnalAnimal.cs" />
-    <Compile Include="Hediff_Stalking.cs" />
-    <Compile Include="IncidentWorker_Asteroid.cs" />
-    <Compile Include="IncidentWorker_Bumbledrones.cs" />
-    <Compile Include="IncidentWorker_BlackHive.cs" />
-    <Compile Include="IncidentWorker_FeraliskClutchMother.cs" />
-    <Compile Include="IncidentWorker_DunealiskClutchMother.cs" />
-    <Compile Include="IncidentWorker_Gallatross.cs" />
-    <Compile Include="IncidentWorker_Aerofleets.cs" />
-    <Compile Include="CompProperties_AsexualReproduction.cs" />
-    <Compile Include="CompAsexualReproduction.cs" />
-    <Compile Include="IncidentWorker_BlizzariskClutchMother.cs" />
-    <Compile Include="IncidentWorker_StalkingArcticLion.cs" />
-    <Compile Include="IncidentWorker_CactipineDropPod.cs" />
-    <Compile Include="IncidentWorker_SummitCrab.cs" />
-    <Compile Include="InteractionWorker_PsionicNuzzle.cs" />
-    <Compile Include="JobDriver_PsionicNuzzle.cs" />
-    <Compile Include="JobGiver_Mine.cs" />
-    <Compile Include="JobGiver_MineOld.cs" />
-    <Compile Include="JobGiver_PsionicNuzzle.cs" />
-    <Compile Include="HarmonyPatchers.cs" />
+    <Compile Include="Comps\CompAcidImmunity.cs" />
+    <Compile Include="Comps\CompAnimalProduct.cs" />
+    <Compile Include="Comps\CompChangeWeather.cs" />
+    <Compile Include="Comps\CompCorpseDecayer.cs" />
+    <Compile Include="Comps\CompEatWeirdFood.cs" />
+    <Compile Include="Comps\CompExploder.cs" />
+    <Compile Include="Comps\CompExplodingHatcher.cs" />
+    <Compile Include="Comps\CompFeminism.cs" />
+    <Compile Include="Comps\CompHediffEffecter.cs" />
+    <Compile Include="Comps\CompInfecter.cs" />
+    <Compile Include="Comps\CompMindEffecter.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_AcidImmunity.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_AnimalProduct.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_ChangeWeather.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_CorpseDecayer.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_EatWeirdFood.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_Exploder.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_ExplodingHatcher.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_Feminism.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_HediffEffecter.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_Infecter.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_MindEffecter.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_StateAfterHealthLoss.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_SummonOnSpawn.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_ThoughtEffecter.cs" />
+    <Compile Include="Comps\CompStateAfterHealthLoss.cs" />
+    <Compile Include="Comps\CompSummonOnSpawn.cs" />
+    <Compile Include="Comps\CompThoughtEffecter.cs" />
+    <Compile Include="Defs\LocalJobDefOf.cs" />
+    <Compile Include="ExplosionsAndDamage\DamageWorker_Berserk.cs" />
+    <Compile Include="ExplosionsAndDamage\DamageWorker_ExtraDamageInsectoids.cs" />
+    <Compile Include="ExplosionsAndDamage\DamageWorker_ExtraInfecter.cs" />
+    <Compile Include="ExplosionsAndDamage\DamageWorker_Vampiric.cs" />
+    <Compile Include="ExplosionsAndDamage\DeathActionWorker_GargantuanExplosion.cs" />
+    <Compile Include="Hediffs\HediffCompProperties_TurnsWhenDead.cs" />
+    <Compile Include="Hediffs\HediffComp_TurnWhenDead.cs" />
+    <Compile Include="Jobs\JobDriver_AnimalResource.cs" />
+    <Compile Include="Jobs\JobDriver_IngestWeird.cs" />
+    <Compile Include="Jobs\JobGiver_GetWeirdFood.cs" />
+    <Compile Include="Jobs\WorkGiver_AnimalResource.cs" />
+    <Compile Include="Options\AlphaAnimals_SettingsController.cs" />
+    <Compile Include="Options\AlphaAnimals_Settings.cs" />
+    <Compile Include="Buildings\Building_BlackHiveMound.cs" />
+    <Compile Include="Buildings\Building_Overgrown_DropPod.cs" />
+    <Compile Include="PawnClasses\ChameleonSkins.cs" />
+    <Compile Include="Comps\CompFertilizer.cs" />
+    <Compile Include="Comps\CompFloating.cs" />
+    <Compile Include="Comps\CompGasProducer.cs" />
+    <Compile Include="Comps\CompInitialHediff.cs" />
+    <Compile Include="Comps\CompNearbyEffecter.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_Electrified.cs" />
+    <Compile Include="Comps\CompElectrified.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_Fertilizer.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_Floating.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_GasProducer.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_InitialHediff.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_NearbyEffecter.cs" />
+    <Compile Include="Comps\CompRegeneration.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_Regeneration.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_HighlyFlammable.cs" />
+    <Compile Include="Comps\CompHighlyFlammable.cs" />
+    <Compile Include="Comps\CompDigWhenHungry.cs" />
+    <Compile Include="Comps\CompLightSustenance.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_DigWhenHungry.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_LightSustenance.cs" />
+    <Compile Include="ExplosionsAndDamage\DamageWorker_Siege.cs" />
+    <Compile Include="ExplosionsAndDamage\DeathActionWorker_SmallRedAcidExplosion.cs" />
+    <Compile Include="ExplosionsAndDamage\DeathActionWorker_RedAcidExplosion.cs" />
+    <Compile Include="ExplosionsAndDamage\DeathActionWorker_AcidExplosion.cs" />
+    <Compile Include="ExplosionsAndDamage\DeathActionWorker_MouseFission.cs" />
+    <Compile Include="Gases\Gas_Ocular.cs" />
+    <Compile Include="Hediffs\Hediff_AcidBuildup.cs" />
+    <Compile Include="Hediffs\Hediff_Crushing.cs" />
+    <Compile Include="Hediffs\Hediff_NocturnalAnimal.cs" />
+    <Compile Include="Hediffs\Hediff_Stalking.cs" />
+    <Compile Include="Incidents\IncidentWorker_Asteroid.cs" />
+    <Compile Include="Incidents\IncidentWorker_Bumbledrones.cs" />
+    <Compile Include="Incidents\IncidentWorker_BlackHive.cs" />
+    <Compile Include="Incidents\IncidentWorker_FeraliskClutchMother.cs" />
+    <Compile Include="Incidents\IncidentWorker_DunealiskClutchMother.cs" />
+    <Compile Include="Incidents\IncidentWorker_Gallatross.cs" />
+    <Compile Include="Incidents\IncidentWorker_Aerofleets.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_AsexualReproduction.cs" />
+    <Compile Include="Comps\CompAsexualReproduction.cs" />
+    <Compile Include="Incidents\IncidentWorker_BlizzariskClutchMother.cs" />
+    <Compile Include="Incidents\IncidentWorker_StalkingArcticLion.cs" />
+    <Compile Include="Incidents\IncidentWorker_CactipineDropPod.cs" />
+    <Compile Include="Incidents\IncidentWorker_SummitCrab.cs" />
+    <Compile Include="Jobs\InteractionWorker_PsionicNuzzle.cs" />
+    <Compile Include="Jobs\JobDriver_PsionicNuzzle.cs" />
+    <Compile Include="Jobs\JobGiver_Mine.cs" />
+    <Compile Include="Jobs\JobGiver_MineOld.cs" />
+    <Compile Include="Jobs\JobGiver_PsionicNuzzle.cs" />
+    <Compile Include="Harmony\HarmonyPatchers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ThingSetMaker_SpecialMeteorite.cs" />
+    <Compile Include="Incidents\ThingSetMaker_SpecialMeteorite.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

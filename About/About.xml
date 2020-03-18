@@ -22,7 +22,7 @@
 	
 &lt;size=24&gt;Features&lt;/size&gt;
 
-Adds 64 new, vanilla-friendly creatures to the diverse biomes of your Rimworlds. The philosophy of this mod is that every new creatures tries to bring some new mechanic into the game, whether it be walking tanks, living resource farm, indestructible plant monsters, night time stalkers, or plain speedy giant spiders. Some of the mechanics are simple, others much more complex.
+Adds 75 new, vanilla-friendly creatures to the diverse biomes of your Rimworlds. The philosophy of this mod is that every new creatures tries to bring some new mechanic into the game, whether it be walking tanks, living resource farm, indestructible plant monsters, night time stalkers, or plain speedy giant spiders. Some of the mechanics are simple, others much more complex.
 
 These animals will spawn in certain biomes, some others will only be available via traders. You'll have to explore to find them all! The Alpha Biomes is a companion mod that adds several new alien biomes to house these weird creatures.
 
@@ -47,8 +47,8 @@ Compatible with Advanced Biomes
 Compatible with Rainbeau Realistic Planets
 Compatible with Lords of the Rims - Elves (mallorn biome)
 Compatible with Boats
-Uses Harmony (no need to download)
-Uses ModCheck (no need to download)
+Uses Harmony (dependency)
+
 
 &lt;size=24&gt;Credit&lt;/size&gt;
 Original creature graphics: A_Friend, aka SentientLine
@@ -57,11 +57,11 @@ Some sounds by Mike Koenig at http://soundbible.com
 Some sounds by PsychoBird at http://soundbible.com
 Some sounds by Stephan Schutze at http://soundbible.com
 Fireball Graphic created by StarsteelGaming at OpenGameArt.org (2018)
-Using the AnimalVariation DLL from AnimalCollabProject
 Using NocturnalAnimals DLL by XeoNovaDan
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
 
+v2.1: Added 8 new animals. Bugfixing and balance tweaks. Full changelog on GitHub (18/03/20)
 v2.0: Updated for RimWorld 1.1 (21/02/20)
 v1.9: Added three new "bioship" animals. These can be created if you have the Boats mod installed, and act as a means of transportation. (21/12/19)
 v1.808: Added A Dog Said for latest animals (10/12/19)

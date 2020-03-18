@@ -41,7 +41,7 @@
       </li>
     </tools>
     <comps>
-		  <li Class="NewAlphaAnimalSubproducts.CompProperties_AnimalProduct">
+		  <li Class="AlphaBehavioursAndEvents.CompProperties_AnimalProduct">
 				<resourceDef>Steel</resourceDef>
 				<gatheringIntervalDays>3</gatheringIntervalDays>
 				<resourceAmount>40</resourceAmount>

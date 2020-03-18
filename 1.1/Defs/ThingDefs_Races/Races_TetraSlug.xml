@@ -62,7 +62,24 @@
 			<li Class="AlphaBehavioursAndEvents.CompProperties_Electrified">
 				<electroRate>40</electroRate>
 				<electroRadius>5</electroRadius>
-
+				<batteriesToAffect>
+					<li>Battery</li>
+					<li>Battery_Silver</li>
+					<li>Battery_Gold</li>
+					<li>Battery_Plasteel</li>
+					<li>Battery_Uranium</li>
+					<li>Battery_Advanced</li>
+					<li>Battery_Vanometric</li>
+					<li>Battery4k</li>
+					<li>Battery16k</li>
+					<li>Battery64k</li>
+					<li>Battery256k</li>
+					<li>ChargeBack_Battery_Prototype</li>
+					<li>ChargeBack_Battery</li>
+					<li>SpeedCharge_Battery</li>
+					<li>ResonanceCell_Battery</li>
+					<li>VoidCell_Battery</li>
+				</batteriesToAffect>
 				
 			</li>
 
@@ -84,7 +101,7 @@
       </wildBiomes>
       <herdAnimal>false</herdAnimal>
       <predator>false</predator>
-      <body>AA_Slug</body>
+      <body>AA_ArmouredSlug</body>
       <baseBodySize>5.00</baseBodySize>
       <baseHungerRate>0.3</baseHungerRate>
       <baseHealthScale>10</baseHealthScale>

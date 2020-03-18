@@ -86,6 +86,14 @@
 						<li>AA_RoyalAve</li>
 						<li>AA_ChameleonYak</li>
 
+						<li>AA_BloodShrimp</li>
+						<li>AA_Cinderlisk</li>
+						<li>AA_CrystalMit</li>
+						<li>AA_Helixien</li>
+						<li>AA_Razorjack</li>
+						<li>AA_RipperHound</li>
+						<li>AA_RoughPlatedMonitor</li>
+						<li>AA_Swarmling</li>
 
 
 
@@ -158,6 +166,15 @@
 						<li>AA_NightAve</li>
 						<li>AA_RoyalAve</li>
 						<li>AA_ChameleonYak</li>
+						
+						<li>AA_BloodShrimp</li>
+						<li>AA_Cinderlisk</li>
+						<li>AA_CrystalMit</li>
+						<li>AA_Helixien</li>
+						<li>AA_Razorjack</li>
+						<li>AA_RipperHound</li>
+						<li>AA_RoughPlatedMonitor</li>
+						<li>AA_Swarmling</li>
 
 					</value>
 				</li>
@@ -223,6 +240,15 @@
 						<li>AA_NightAve</li>
 						<li>AA_RoyalAve</li>
 						<li>AA_ChameleonYak</li>
+						
+						<li>AA_BloodShrimp</li>
+						<li>AA_Cinderlisk</li>
+						<li>AA_CrystalMit</li>
+						<li>AA_Helixien</li>
+						<li>AA_Razorjack</li>
+						<li>AA_RipperHound</li>
+						<li>AA_RoughPlatedMonitor</li>
+						<li>AA_Swarmling</li>
 					</value>
 				</li>
 
@@ -286,6 +312,15 @@
 						<li>AA_NightAve</li>
 						<li>AA_RoyalAve</li>
 						<li>AA_ChameleonYak</li>
+						
+						<li>AA_BloodShrimp</li>
+						<li>AA_Cinderlisk</li>
+						<li>AA_CrystalMit</li>
+						<li>AA_Helixien</li>
+						<li>AA_Razorjack</li>
+						<li>AA_RipperHound</li>
+						<li>AA_RoughPlatedMonitor</li>
+						<li>AA_Swarmling</li>
 
 					</value>
 				</li>
@@ -361,6 +396,15 @@
 						<li>AA_NightAve</li>
 						<li>AA_RoyalAve</li>
 						<li>AA_ChameleonYak</li>
+						
+						<li>AA_BloodShrimp</li>
+						<li>AA_Cinderlisk</li>
+						<li>AA_CrystalMit</li>
+						<li>AA_Helixien</li>
+						<li>AA_Razorjack</li>
+						<li>AA_RipperHound</li>
+						<li>AA_RoughPlatedMonitor</li>
+						<li>AA_Swarmling</li>
 					</value>
 				</li>
 
@@ -432,6 +476,15 @@
 						<li>AA_NightAve</li>
 						<li>AA_RoyalAve</li>
 						<li>AA_ChameleonYak</li>
+						
+						<li>AA_BloodShrimp</li>
+						<li>AA_Cinderlisk</li>
+						<li>AA_CrystalMit</li>
+						<li>AA_Helixien</li>
+						<li>AA_Razorjack</li>
+						<li>AA_RipperHound</li>
+						<li>AA_RoughPlatedMonitor</li>
+						<li>AA_Swarmling</li>
 					</value>
 				</li>
 
@@ -476,6 +529,13 @@
 						<li>AA_NightAve</li>
 						<li>AA_RoyalAve</li>
 						<li>AA_ChameleonYak</li>
+						
+						<li>AA_BloodShrimp</li>
+						<li>AA_CrystalMit</li>
+						<li>AA_Razorjack</li>
+						<li>AA_RipperHound</li>
+						<li>AA_RoughPlatedMonitor</li>
+						
 
 					</value>
 				</li>
@@ -552,6 +612,15 @@
 						<li>AA_NightAve</li>
 						<li>AA_RoyalAve</li>
 						<li>AA_ChameleonYak</li>
+						
+						<li>AA_BloodShrimp</li>
+						<li>AA_Cinderlisk</li>
+						<li>AA_CrystalMit</li>
+						<li>AA_Helixien</li>
+						<li>AA_Razorjack</li>
+						<li>AA_RipperHound</li>
+						<li>AA_RoughPlatedMonitor</li>
+						<li>AA_Swarmling</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
@@ -614,6 +683,14 @@
 						<li>AA_DuskRat</li>
 
 						<li>AA_ChameleonYak</li>
+						
+						<li>AA_BloodShrimp</li>
+						<li>AA_CrystalMit</li>
+						<li>AA_Helixien</li>
+						<li>AA_Razorjack</li>
+						<li>AA_RipperHound</li>
+						<li>AA_RoughPlatedMonitor</li>
+						<li>AA_Swarmling</li>
 					</value>
 				</li>
 
@@ -683,6 +760,12 @@
 						<li>AA_NightAve</li>
 						<li>AA_RoyalAve</li>
 						<li>AA_ChameleonYak</li>
+						
+						<li>AA_BloodShrimp</li>
+						<li>AA_Cinderlisk</li>
+						<li>AA_CrystalMit</li>
+						<li>AA_Helixien</li>
+						<li>AA_Swarmling</li>
 					</value>
 				</li>
 
@@ -719,6 +802,13 @@
 						<li>AA_NightRam</li>
 						<li>AA_NightMule</li>
 						<li>AA_DuskRat</li>
+						
+						<li>AA_BloodShrimp</li>
+						<li>AA_CrystalMit</li>
+						<li>AA_Razorjack</li>
+						<li>AA_RipperHound</li>
+						<li>AA_RoughPlatedMonitor</li>
+						
 					</value>
 				</li>
 
@@ -782,6 +872,13 @@
 						<li>AA_NightAve</li>
 						<li>AA_RoyalAve</li>
 						<li>AA_ChameleonYak</li>
+						
+						<li>AA_Cinderlisk</li>
+						<li>AA_CrystalMit</li>
+						<li>AA_Razorjack</li>
+						<li>AA_RipperHound</li>
+						<li>AA_RoughPlatedMonitor</li>
+						
 
 					</value>
 				</li>
@@ -837,7 +934,13 @@
 						<li>AA_FrostAve</li>
 						<li>AA_NightAve</li>
 						<li>AA_RoyalAve</li>
-
+						
+						<li>AA_BloodShrimp</li>
+						<li>AA_CrystalMit</li>
+						<li>AA_Razorjack</li>
+						<li>AA_RipperHound</li>
+						<li>AA_RoughPlatedMonitor</li>
+						
 
 					</value>
 				</li>

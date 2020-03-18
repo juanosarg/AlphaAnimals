@@ -40,7 +40,9 @@
 	
 	<comps>		
 		<li Class="AlphaBehavioursAndEvents.CompProperties_Fertilizer">
-			
+			<FirstStageTerrain>Sand</FirstStageTerrain>
+			<SecondStageTerrain>AA_FertilizedSand</SecondStageTerrain>
+			<ThirdStageTerrain>AA_SuperiorFertilizedSand</ThirdStageTerrain>
         </li>
     </comps>	
     <race>

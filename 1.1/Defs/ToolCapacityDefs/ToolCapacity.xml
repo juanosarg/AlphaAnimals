@@ -8,6 +8,11 @@
 	</ToolCapacityDef>
 	
 	<ToolCapacityDef>
+		<defName>AA_InfectedClaws</defName>
+		<label>infected claws</label>
+	</ToolCapacityDef>
+	
+	<ToolCapacityDef>
 		<defName>AA_Electric</defName>
 		<label>electric shock</label>
 	</ToolCapacityDef>
@@ -20,6 +25,11 @@
 	<ToolCapacityDef>
 		<defName>AA_ToxicSting</defName>
 		<label>toxic stinging</label>
+	</ToolCapacityDef>
+
+	<ToolCapacityDef>
+		<defName>AA_BurningBite</defName>
+		<label>burning bite</label>
 	</ToolCapacityDef>
 	
 	<ToolCapacityDef>
@@ -40,6 +50,21 @@
 	<ToolCapacityDef>
 		<defName>AA_Pierce</defName>
 		<label>piercing</label>
+	</ToolCapacityDef>
+
+	<ToolCapacityDef>
+		<defName>AA_RegenerativePierce</defName>
+		<label>regenerative pierce</label>
+	</ToolCapacityDef>
+	
+	<ToolCapacityDef>
+		<defName>AA_SwarmlingClaws</defName>
+		<label>swarmling claws</label>
+	</ToolCapacityDef>
+	
+	<ToolCapacityDef>
+		<defName>AA_ExtraDamageInsectoidsClaws</defName>
+		<label>rending claws</label>
 	</ToolCapacityDef>
 
 	<ToolCapacityDef>

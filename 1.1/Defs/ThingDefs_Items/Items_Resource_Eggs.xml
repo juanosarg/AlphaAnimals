@@ -691,6 +691,45 @@
 			</li>
 		</comps>
 	</ThingDef>
+	
+	<!-- Cinderlisk Egg -->
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>AA_CinderliskEggUnfertilized</defName>
+		<label>cinderlisk egg (unfert.)</label>
+		<description>Unfertilized cinderlisk egg. It can be eaten raw, but it's much, much better cooked. Actually, it's a spider egg, it is disgusting either way...</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
+			<color>(109,109,109)</color>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MarketValue>9.0</MarketValue>
+
+		</statBases>
+
+	</ThingDef>
+
+	<ThingDef ParentName="AA_EggFertBaseResistant">
+		<defName>AA_CinderliskEggFertilized</defName>
+		<label>cinderlisk egg (fert.)</label>
+		<description>Fertilized cinderlisk egg. It can be eaten raw, but it's much, much better cooked. Actually, it's a spider egg, it is disgusting either way... If all goes well, it should hatch into a cinderlisk.</description>
+		<tradeability>None</tradeability>
+		<statBases>
+			<MarketValue>9.0</MarketValue>
+
+		</statBases>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
+			<color>(109,109,109)</color>
+		</graphicData>
+
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>12</hatcherDaystoHatch>
+				<hatcherPawn>AA_Cinderlisk</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
 
 	<!-- =============== Nightling Egg =============== -->
 
@@ -800,6 +839,33 @@
 		</comps>
 	</ThingDef>
 
+
+<!-- =============== Rough Plated Monitor Egg =============== -->
+
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>AA_EggRoughPlatedMonitorFertilized</defName>
+		<label>rough-plated monitor egg (fert.)</label>
+		<description>Fertilized rough-plated monitor egg. If all goes well, it should hatch into a baby rough-plated monitor. It can be eaten raw, but it's much better cooked. BE WARNED: Rough-plated Monitor eggs are violently unstable, and they explode when they hatch!</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/AA_EggRoyalAve</texPath>
+			<drawSize>0.5</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>10.0</MarketValue>
+			<MaxHitPoints>200</MaxHitPoints>
+		</statBases>
+		<comps>
+			<li Class="AlphaBehavioursAndEvents.CompProperties_ExplodingHatcher">
+				<hatcherDaystoHatch>2</hatcherDaystoHatch>
+				<hatcherPawn>AA_RoughPlatedMonitor</hatcherPawn>
+				<range>3</range>
+				<damageDef>AA_AcidSpit</damageDef>
+				<damage>20</damage>
+				<soundDef>AA_GooPop</soundDef>
+			</li>
+		</comps>
+	</ThingDef>
 
 
 

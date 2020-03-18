@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<!-- ======================== TerramorphWorm ======================== -->
+	<!-- ======================== Tetraslug ======================== -->
 
 	<BodyDef>
 		<defName>AA_Slug</defName>
@@ -15,7 +15,7 @@
 			<parts>
 				<li>
 					<def>AA_SlugBody</def>
-					<coverage>0.40</coverage>
+					<coverage>0.80</coverage>
 					<height>Middle</height>
 					<depth>Outside</depth>
 					<parts>
@@ -64,12 +64,7 @@
 						</li>
 					</parts>
 				</li>
-				<li>
-					<def>AA_Carapace</def>
-					<customLabel>metallic carapace</customLabel>
-
-					<coverage>0.4</coverage>
-				</li>
+				
 
 				<li>
 					<def>Head</def>

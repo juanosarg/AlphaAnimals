@@ -7,7 +7,7 @@
 	<WorkGiverDef>
 		<defName>AA_AnimalResource</defName>
 		<label>gather animal resource</label>
-		<giverClass>NewAlphaAnimalSubproducts.WorkGiver_AnimalResource</giverClass>
+		<giverClass>AlphaBehavioursAndEvents.WorkGiver_AnimalResource</giverClass>
 		<workType>Handling</workType>
 		<verb>gather animal resource from</verb>
 		<gerund>gathering animal resource from</gerund>

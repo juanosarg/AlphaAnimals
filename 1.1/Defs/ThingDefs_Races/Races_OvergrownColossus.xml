@@ -40,7 +40,7 @@
 	
 		<comps>
 
-			<li Class="NewAlphaAnimalSubproducts.CompProperties_AnimalProduct">
+			<li Class="AlphaBehavioursAndEvents.CompProperties_AnimalProduct">
 				<resourceDef>WoodLog</resourceDef>
 				<gatheringIntervalDays>15</gatheringIntervalDays>
 				<resourceAmount>50</resourceAmount>

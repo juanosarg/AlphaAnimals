@@ -42,7 +42,7 @@
     </tools>
 	
 		<comps>
-			<li Class="NewAlphaAnimalSubproducts.CompProperties_AnimalProduct">
+			<li Class="AlphaBehavioursAndEvents.CompProperties_AnimalProduct">
 				<resourceDef>AA_RandomStones</resourceDef>
 				<gatheringIntervalDays>1</gatheringIntervalDays>
 				<resourceAmount>1</resourceAmount>

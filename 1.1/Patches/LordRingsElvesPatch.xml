@@ -107,6 +107,12 @@
 					</value>
 				</li>
 				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName="AA_Swarmling"]/race/wildBiomes</xpath>
+					<value>
+						<LotRE_MallornForest>0.01</LotRE_MallornForest>		
+					</value>
+				</li>
+				<li Class="PatchOperationAdd"> 
 					<xpath>/Defs/ThingDef[defName="AA_TetraSlug"]/race/wildBiomes</xpath>
 					<value>
 						<LotRE_MallornForest>0.001</LotRE_MallornForest>

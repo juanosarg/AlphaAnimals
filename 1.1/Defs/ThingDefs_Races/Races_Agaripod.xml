@@ -80,10 +80,10 @@
 
 			</li>
 			<li Class="AlphaBehavioursAndEvents.CompProperties_HighlyFlammable">
-
+				<hediffToInflict>AA_PermanentBurn</hediffToInflict>
 
 			</li>
-			<li Class="NewAlphaAnimalSubproducts.CompProperties_AnimalProduct">
+			<li Class="AlphaBehavioursAndEvents.CompProperties_AnimalProduct">
 				<resourceDef>AA_AgariluxRawFungus</resourceDef>
 				<gatheringIntervalDays>10</gatheringIntervalDays>
 				<resourceAmount>60</resourceAmount>

@@ -115,7 +115,7 @@
 		<race>AA_GreenGoo</race>
 		<combatPower>75</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
-
+		<ecoSystemWeight>0.01</ecoSystemWeight>
 		
 		<lifeStages>
 			<li>

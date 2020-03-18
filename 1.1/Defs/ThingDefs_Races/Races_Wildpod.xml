@@ -80,10 +80,10 @@
 
 			</li>
 			<li Class="AlphaBehavioursAndEvents.CompProperties_HighlyFlammable">
-
+				<hediffToInflict>AA_PermanentBurn</hediffToInflict>
 				
 			</li>
-			<li Class="NewAlphaAnimalSubproducts.CompProperties_AnimalProduct">
+			<li Class="AlphaBehavioursAndEvents.CompProperties_AnimalProduct">
 				<resourceDef>RawFungus</resourceDef>
 				<gatheringIntervalDays>10</gatheringIntervalDays>
 				<resourceAmount>60</resourceAmount>
@@ -121,10 +121,10 @@
         <li>
           <def>AnimalAdult</def>
           <minAge>2.0</minAge>
-          <soundWounded>Pawn_Elephant_Injured</soundWounded>
-          <soundDeath>Pawn_Elephant_Dead</soundDeath>
-          <soundCall>Pawn_Elephant_Call</soundCall>
-          <soundAngry>Pawn_Elephant_Angry</soundAngry>
+          <soundWounded>AA_Wildpod_Wounded</soundWounded>
+          <soundDeath>AA_Wildpod_Dead</soundDeath>
+          <soundCall>AA_Wildpod_Call</soundCall>
+          <soundAngry>AA_Wildpod_Angry</soundAngry>
         </li>
       </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>

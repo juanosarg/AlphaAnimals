@@ -117,7 +117,7 @@
 		<race>AA_RedGoo</race>
 		<combatPower>75</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
-
+		<ecoSystemWeight>0.01</ecoSystemWeight>
 		
 		<lifeStages>
 			<li>

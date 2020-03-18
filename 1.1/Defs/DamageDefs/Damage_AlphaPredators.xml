@@ -21,6 +21,27 @@
 		<armorCategory>Sharp</armorCategory>
 	</DamageDef>
 	
+	<DamageDef ParentName="CutBase">
+		<defName>AA_InfectedClaws</defName>
+		<label>infected claws</label>
+		<workerClass>AlphaBehavioursAndEvents.DamageWorker_ExtraInfecter</workerClass>
+		<additionalHediffs>
+			<li>
+				<hediff>AA_ToxicBuildup</hediff>
+				<severityPerDamageDealt>0.004</severityPerDamageDealt>
+				<victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+
+			</li>
+		</additionalHediffs>
+	</DamageDef>
+	
+	<DamageDef ParentName="CutBase">
+		<defName>AA_ExtraDamageInsectoidsClaws</defName>
+		<label>rending claws</label>
+		<workerClass>AlphaBehavioursAndEvents.DamageWorker_ExtraDamageInsectoids</workerClass>
+		
+	</DamageDef>
+	
 	<DamageDef Name="StingBolt">
 		<defName>AA_ToxicBolt</defName>
 		<label>toxic sting</label>
@@ -194,8 +215,6 @@
 		</additionalHediffs>
 	</DamageDef>
 
-
-
 	<DamageDef>
 		<defName>AA_Pierce</defName>
 		<label>pierce</label>
@@ -209,7 +228,27 @@
 		<armorCategory>Sharp</armorCategory>
 	</DamageDef>
 
+	<DamageDef ParentName="Flame">
+		<defName>AA_BurningBite</defName>
+		<label>burning bite</label>
+		<deathMessage>{0} has been bitten to death.</deathMessage>
+		<impactSoundType>Slice</impactSoundType>
+		<armorCategory>Sharp</armorCategory>
+	</DamageDef>
 
+	<DamageDef>
+		<defName>AA_RegenerativePierce</defName>
+		<label>vampiric stab</label>
+		<workerClass>AlphaBehavioursAndEvents.DamageWorker_Vampiric</workerClass>
+		
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been gored to death.</deathMessage>
+		<hediff>Stab</hediff>
+		<hediffSolid>Crack</hediffSolid>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Slice</impactSoundType>
+		<armorCategory>Sharp</armorCategory>
+	</DamageDef>
 
 	<DamageDef>
 		<defName>BodyCrush</defName>
@@ -223,6 +262,18 @@
 		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
 		<impactSoundType>Blunt</impactSoundType>
 		<armorCategory>Blunt</armorCategory>
+	</DamageDef>
+
+	<DamageDef ParentName="CutBase">
+		<defName>AA_SwarmlingClaws</defName>
+		<label>swarmling claws</label>
+		<additionalHediffs>
+			<li>
+				<hediff>AA_SwarmlingImplantation</hediff>
+				<severityPerDamageDealt>0.0001</severityPerDamageDealt>
+
+			</li>
+		</additionalHediffs>
 	</DamageDef>
 
 
