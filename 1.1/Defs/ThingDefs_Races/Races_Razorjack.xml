@@ -100,7 +100,7 @@
 			<body>AA_DualJawedQuadruped</body>
 			<baseBodySize>1</baseBodySize>
 			<baseHealthScale>2</baseHealthScale>
-			<baseHungerRate>0.25</baseHungerRate>
+			<baseHungerRate>0.05</baseHungerRate>
 			<foodType>OmnivoreRoughAnimal</foodType>
 			<predator>true</predator>
 			<maxPreyBodySize>2</maxPreyBodySize>
