@@ -121,7 +121,7 @@
           <def>AnimalAdult</def>
           <minAge>0.5</minAge>
          <soundWounded>AA_Wildpawn_Wounded</soundWounded>
-          <soundDeath>AA_Wildpawn_Dead</soundDeath>
+          <soundDeath>AA_Wildpawn_Death</soundDeath>
           <soundCall>AA_Wildpawn_Call</soundCall>
           <soundAngry>AA_Wildpawn_Angry</soundAngry>
         </li>
