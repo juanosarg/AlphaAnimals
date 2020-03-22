@@ -21,7 +21,7 @@ namespace AlphaBehavioursAndEvents
             {
                 if (tickerInterval >= tickerMax)
                 {
-
+                   
                     HashSet<Thing> hashSet = new HashSet<Thing>(this.Position.GetThingList(this.Map));
                     if (hashSet != null)
                     {
@@ -77,7 +77,7 @@ namespace AlphaBehavioursAndEvents
             }
             catch (NullReferenceException e)
             {
-                Log.Message("A weird error is produced sometimes when GetThingList returns a NullReferenceException. Please inform me if you see this error: "+e.ToString());
+               
                 //A weird error is produced sometimes when GetThingList returns a NullReferenceException. I did a try-catch which is inellegant, but it works
             }
 
