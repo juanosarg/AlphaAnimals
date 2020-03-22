@@ -8,4 +8,15 @@
 		<driverClass>AlphaAnimalRangeAttack.JobDriver_AnimalRangeAttack</driverClass>
 		<reportString>Attacking.</reportString>
 	</JobDef>
+	
+	<JobDef>
+		<defName>AnimalRangeAttack</defName>
+		<driverClass>AlphaAnimalRangeAttack.JobDriver_AnimalRangeAttack</driverClass>
+		<reportString>Attacking.</reportString>
+	</JobDef>
+	
+	
 </Defs>
+
+
+
