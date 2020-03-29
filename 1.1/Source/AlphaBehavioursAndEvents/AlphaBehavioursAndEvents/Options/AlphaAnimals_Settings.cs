@@ -272,6 +272,7 @@ namespace AlphaBehavioursAndEvents
         public static bool flagBumbledrones = true;
         public static bool flagFrostmites = true;
         public static bool flagAsteroids = true;
+        public static bool flagAlphaMechanoids = true;
         public static bool removeAnimalParticles = false;
 
 
@@ -288,6 +289,8 @@ namespace AlphaBehavioursAndEvents
             Scribe_Values.Look(ref flagBumbledrones, "flagBumbledrones", true, true);
             Scribe_Values.Look(ref flagFrostmites, "flagFrostmites", true, true);
             Scribe_Values.Look(ref flagAsteroids, "flagAsteroid", true, true);
+            Scribe_Values.Look(ref flagAlphaMechanoids, "flagAlphaMechanoids", true, true);
+
             Scribe_Values.Look(ref removeAnimalParticles, "removeAnimalParticles", false, true);
 
 
@@ -321,6 +324,8 @@ namespace AlphaBehavioursAndEvents
             ls.CheckboxLabeled("allowFrostmiteCorpses".Translate(), ref flagFrostmites, null);
             ls.Gap(12f);
             ls.CheckboxLabeled("allowAsteroids".Translate(), ref flagAsteroids, null);
+            ls.Gap(12f);
+            ls.CheckboxLabeled("allowAlphaMechanoids".Translate(), ref flagAlphaMechanoids, null);
             ls.Gap(12f);
             ls.CheckboxLabeled("removeAnimalParticles".Translate(), ref removeAnimalParticles, null);
             ls.End();

@@ -86,6 +86,7 @@
 	<allowBumbledrones>Allow bumbledrone queen migrations</allowBumbledrones>
 	<allowFrostmiteCorpses>Allow frostmites digging corpses on their own</allowFrostmiteCorpses>
 	<allowAsteroids>Allow Arcturan Sky eel asteroids impacting</allowAsteroids>
+	<allowAlphaMechanoids>Allow Alpha mechanoids on raids, clusters, etc</allowAlphaMechanoids>
 	<removeAnimalParticles>Remove animal particles</removeAnimalParticles>
 
 
