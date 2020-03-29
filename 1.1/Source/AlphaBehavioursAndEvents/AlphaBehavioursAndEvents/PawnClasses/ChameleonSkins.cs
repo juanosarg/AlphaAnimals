@@ -12,6 +12,7 @@ using Verse;
 
 namespace AlphaBehavioursAndEvents
 {
+    [StaticConstructorOnStartup]
     public class ChameleonSkins : Pawn
     {
         private PawnRenderer pawn_renderer;
@@ -20,15 +21,17 @@ namespace AlphaBehavioursAndEvents
 
         public int woolType = 0;
 
-
-
+       
+        public Graphic dessicatedGraphic;
 
         public override void SpawnSetup(Map map, bool respawningAfterLoad)
         {
             base.SpawnSetup(map, respawningAfterLoad);
             //this.main_graphic = this.ageTracker.CurKindLifeStage.bodyGraphicData.texPath;
             this.pawn_renderer = ((Pawn_DrawTracker)typeof(Pawn).GetField("drawer", BindingFlags.Instance | BindingFlags.NonPublic).GetValue(this)).renderer;
-
+            GraphicData dessicatedgraphicdata = new GraphicData();
+            dessicatedgraphicdata.texPath = "Things/Pawn/Animal/AA_ChameleonYak/AA_Dessicated_ChameleonYak";
+            dessicatedGraphic = dessicatedgraphicdata.Graphic;
             this.ChangeTheGraphics();
 
 
@@ -46,7 +49,7 @@ namespace AlphaBehavioursAndEvents
         {
             if (this.Map != null) {
                 Vector2 vector = this.ageTracker.CurKindLifeStage.bodyGraphicData.drawSize;
-                Graphic dessicatedGraphic = this.ageTracker.CurKindLifeStage.dessicatedBodyGraphicData.Graphic;
+                //Graphic dessicatedGraphic = this.ageTracker.CurKindLifeStage.dessicatedBodyGraphicData.Graphic;
                 if ((this.Position.GetTerrain(this.Map) == TerrainDef.Named("Ice")) || (this.Position.GetSnowDepth(this.Map) > 0) || (this.Map.mapTemperature.OutdoorTemp<-10f))
                 {
                     LongEventHandler.ExecuteWhenFinished(delegate
