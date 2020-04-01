@@ -334,7 +334,9 @@
     <Compile Include="ExplosionsAndDamage\DamageWorker_ExtraInfecter.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_Vampiric.cs" />
     <Compile Include="ExplosionsAndDamage\DeathActionWorker_GargantuanExplosion.cs" />
+    <Compile Include="Hediffs\HediffCompProperties_AutoPermanentInjury.cs" />
     <Compile Include="Hediffs\HediffCompProperties_TurnsWhenDead.cs" />
+    <Compile Include="Hediffs\HediffComp_AutoPermanentInjury.cs" />
     <Compile Include="Hediffs\HediffComp_TurnWhenDead.cs" />
     <Compile Include="Jobs\JobDriver_AnimalResource.cs" />
     <Compile Include="Jobs\JobDriver_IngestWeird.cs" />

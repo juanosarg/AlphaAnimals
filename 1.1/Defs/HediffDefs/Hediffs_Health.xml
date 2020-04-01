@@ -14,11 +14,15 @@
       </li>
       <li Class="HediffCompProperties_GetsPermanent">
         <permanentLabel>permanent burn</permanentLabel>
+		<becomePermanentChanceFactor>100</becomePermanentChanceFactor>
+      </li>
+	  <li Class="AlphaBehavioursAndEvents.HediffCompProperties_AutoPermanentInjury">
+        
       </li>
     </comps>
     <injuryProps>
-      <painPerSeverity>0.01875</painPerSeverity>
-      <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
+      <painPerSeverity>0.10</painPerSeverity>
+      <averagePainPerSeverityPermanent>0.05</averagePainPerSeverityPermanent>
       <canMerge>true</canMerge>
       <destroyedLabel>Burned off</destroyedLabel>
       <destroyedOutLabel>Burned out</destroyedOutLabel>
