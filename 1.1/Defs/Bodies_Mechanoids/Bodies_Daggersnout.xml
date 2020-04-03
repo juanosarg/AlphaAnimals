@@ -59,7 +59,7 @@
 				</li>
 				<li>
 					<def>AA_TankPlateThird</def>
-					<coverage>0.4</coverage>
+					<coverage>0.3</coverage>
 					<parts>
 						<li>
 							<def>Reactor</def>
