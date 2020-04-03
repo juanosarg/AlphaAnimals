@@ -12,7 +12,7 @@
 			<parts>
 				<li>
 					<def>MechanicalNeck</def>
-					<coverage>0.4</coverage>
+					<coverage>0.04</coverage>
 					<height>Top</height>
 					<parts>
 						<li>
@@ -58,7 +58,7 @@
 				<li>
 					<def>MechanicalShoulder</def>
 					<customLabel>left shoulder</customLabel>
-					<coverage>0.4</coverage>
+					<coverage>0.04</coverage>
 					<parts>
 						<li>
 							<def>MechanicalArm</def>
@@ -113,7 +113,7 @@
 				<li>
 					<def>MechanicalShoulder</def>
 					<customLabel>right mechanical shoulder</customLabel>
-					<coverage>0.4</coverage>
+					<coverage>0.04</coverage>
 					<parts>
 						<li>
 							<def>MechanicalArm</def>
