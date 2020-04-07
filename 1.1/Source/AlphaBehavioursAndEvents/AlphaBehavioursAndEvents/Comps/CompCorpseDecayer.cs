@@ -30,70 +30,77 @@ namespace AlphaBehavioursAndEvents
         public override void CompTick()
         {
             base.CompTick();
-            tickCounter++;
-            if (tickCounter > Props.tickInterval)
-            {
-                Pawn pawn = this.parent as Pawn;
-                if (pawn.Map != null)
+            
+            if (AlphaAnimalsEvents_Settings.flagHelixienCorpseEffect) {
+                tickCounter++;
+                if (tickCounter > Props.tickInterval)
                 {
-                    CellRect rect = GenAdj.OccupiedRect(pawn.Position, pawn.Rotation, IntVec2.One);
-                    rect = rect.ExpandedBy(Props.radius);
-
-                    foreach (IntVec3 current in rect.Cells)
+                    Pawn pawn = this.parent as Pawn;
+                    if (pawn.Map != null)
                     {
-                        if (current.InBounds(pawn.Map))
+                        CellRect rect = GenAdj.OccupiedRect(pawn.Position, pawn.Rotation, IntVec2.One);
+                        rect = rect.ExpandedBy(Props.radius);
+
+                        foreach (IntVec3 current in rect.Cells)
                         {
-                            HashSet<Thing> hashSet = new HashSet<Thing>(current.GetThingList(pawn.Map));
-                            if (hashSet != null)
+                            if (current.InBounds(pawn.Map))
                             {
-                                foreach (Thing thingInCell in hashSet)
+                                HashSet<Thing> hashSet = new HashSet<Thing>(current.GetThingList(pawn.Map));
+                                if (hashSet != null)
                                 {
-                                    Corpse corpse = thingInCell as Corpse;
-                                    if (corpse != null)
+                                    foreach (Thing thingInCell in hashSet)
                                     {
-                                        if (corpse.InnerPawn.def.race.IsFlesh) {
-                                            corpse.HitPoints -= 5;
-                                            pawn.needs.food.CurLevel += Props.nutritionGained;
-
-                                            CompRottable compRottable = corpse.TryGetComp<CompRottable>();
-                                            if (compRottable.Stage == RotStage.Fresh)
+                                        Corpse corpse = thingInCell as Corpse;
+                                        if (corpse != null)
+                                        {
+                                            if (corpse.InnerPawn.def.race.IsFlesh)
                                             {
-                                                compRottable.RotProgress += 100000;
-                                            }
+                                                corpse.HitPoints -= 5;
+                                                pawn.needs.food.CurLevel += Props.nutritionGained;
 
-                                            if (corpse.HitPoints < 0)
-                                            {
-                                                corpse.Destroy(DestroyMode.Vanish);
-                                                for (int i = 0; i < 20; i++)
+                                                CompRottable compRottable = corpse.TryGetComp<CompRottable>();
+                                                if (compRottable.Stage == RotStage.Fresh)
                                                 {
-                                                    IntVec3 c;
-                                                    CellFinder.TryFindRandomReachableCellNear(pawn.Position, pawn.Map, 2, TraverseParms.For(TraverseMode.NoPassClosedDoors, Danger.Deadly, false), null, null, out c);
-                                                    FilthMaker.TryMakeFilth(c, pawn.Map, ThingDefOf.Filth_CorpseBile, pawn.LabelIndefinite(), 1, FilthSourceFlags.None);
-                                                    SoundDef.Named(Props.corpseSound).PlayOneShot(new TargetInfo(pawn.Position, pawn.Map, false));
-
+                                                    compRottable.RotProgress += 100000;
                                                 }
+
+                                                if (corpse.HitPoints < 0)
+                                                {
+                                                    corpse.Destroy(DestroyMode.Vanish);
+                                                    for (int i = 0; i < 20; i++)
+                                                    {
+                                                        IntVec3 c;
+                                                        CellFinder.TryFindRandomReachableCellNear(pawn.Position, pawn.Map, 2, TraverseParms.For(TraverseMode.NoPassClosedDoors, Danger.Deadly, false), null, null, out c);
+                                                        FilthMaker.TryMakeFilth(c, pawn.Map, ThingDefOf.Filth_CorpseBile, pawn.LabelIndefinite(), 1, FilthSourceFlags.None);
+                                                        SoundDef.Named(Props.corpseSound).PlayOneShot(new TargetInfo(pawn.Position, pawn.Map, false));
+
+                                                    }
+                                                }
+                                                FilthMaker.TryMakeFilth(current, pawn.Map, ThingDefOf.Filth_CorpseBile, pawn.LabelIndefinite(), 1, FilthSourceFlags.None);
+                                                flagOnce = true;
+
                                             }
-                                            FilthMaker.TryMakeFilth(current, pawn.Map, ThingDefOf.Filth_CorpseBile, pawn.LabelIndefinite(), 1, FilthSourceFlags.None);
-                                            flagOnce = true;
 
                                         }
-                                        
-                                    }
 
+                                    }
                                 }
                             }
-                         }
-                        if (flagOnce) { flagOnce = false;break; }
+                            if (flagOnce) { flagOnce = false; break; }
+
+                        }
+
 
                     }
-                   
-                   
+
+
+
+                    tickCounter = 0;
                 }
 
 
-
-                tickCounter = 0;
             }
+            
 
         }
 

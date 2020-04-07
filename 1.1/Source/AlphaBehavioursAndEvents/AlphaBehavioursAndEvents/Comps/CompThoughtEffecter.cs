@@ -40,7 +40,7 @@ namespace AlphaBehavioursAndEvents
 
                     for (int k = 0; k < allPawnsSpawned.Count; k++)
                     {
-                        if (allPawnsSpawned[k] != null && !allPawnsSpawned[k].AnimalOrWildMan())
+                        if (allPawnsSpawned[k] != null && !allPawnsSpawned[k].AnimalOrWildMan() && allPawnsSpawned[k].RaceProps.IsFlesh)
                         {
                             pawnList.Add(allPawnsSpawned[k]);
                         }

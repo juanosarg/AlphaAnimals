@@ -253,8 +253,49 @@
 					</value>
 				</li>
 
+
+
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs/ThingDef[defName = "AA_BlizzariskClutchMother"]/comps</xpath> 
+					<value>
+						<li Class="GiddyUpCore.CompProperties_Overlay">
+							<overlaySide> 
+								<graphicDataDefault>
+									<texPath>Things/Pawn/Animal/Saddles/AA_Saddle4_east</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>3.5</drawSize>
+									<drawRotated>false</drawRotated>
+
+								</graphicDataDefault>					
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlaySide>
+							<overlayFront> 
+								<graphicDataDefault>
+									<texPath>Things/Pawn/Animal/Saddles/AA_Saddle4_south</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>3.5</drawSize>
+									<drawRotated>false</drawRotated>
+
+								</graphicDataDefault>					
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayFront>
+							<overlayBack> 
+								<graphicDataDefault>
+									<texPath>Things/Pawn/Animal/Saddles/AA_Saddle4_north</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>3.5</drawSize>
+									<drawRotated>false</drawRotated>
+
+								</graphicDataDefault>					
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayBack>
+
+						</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "AA_DunealiskClutchMother"]/comps</xpath> 
 					<value>
 						<li Class="GiddyUpCore.CompProperties_Overlay">
 							<overlaySide> 
@@ -332,7 +373,7 @@
 				</li>
 
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName = "AA_DunealiskClutchMother"]/comps</xpath> 
+					<xpath>/Defs/ThingDef[defName = "AA_FeraliskClutchMother"]/comps</xpath> 
 					<value>
 						<li Class="GiddyUpCore.CompProperties_Overlay">
 							<overlaySide> 
@@ -448,6 +489,57 @@
 					</value>
 				</li>
 
+				<li Class="PatchOperationAddModExtension">
+					<xpath>/Defs/ThingDef[defName = "AA_Cinderlisk"]</xpath> 
+					<value>
+						<li Class="GiddyUpCore.DrawingOffsetPatch">
+							<eastOffsetCSV>0.0,0,-0.25</eastOffsetCSV>
+							<westOffsetCSV>-0.0,0,-0.25</westOffsetCSV>
+							<northOffsetCSV>0,0,-0.25</northOffsetCSV>
+							<southOffsetCSV>0,0,-0.25</southOffsetCSV>
+						</li>				
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "AA_Cinderlisk"]/comps</xpath> 
+					<value>
+						<li Class="GiddyUpCore.CompProperties_Overlay">
+							<overlaySide> 
+								<graphicDataDefault>
+									<texPath>Things/Pawn/Animal/Saddles/AA_Saddle4_east</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>2.5</drawSize>
+									<drawRotated>false</drawRotated>
+
+								</graphicDataDefault>					
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlaySide>
+							<overlayFront> 
+								<graphicDataDefault>
+									<texPath>Things/Pawn/Animal/Saddles/AA_Saddle4_south</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>2.5</drawSize>
+									<drawRotated>false</drawRotated>
+
+								</graphicDataDefault>					
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayFront>
+							<overlayBack> 
+								<graphicDataDefault>
+									<texPath>Things/Pawn/Animal/Saddles/AA_Saddle4_north</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>2.5</drawSize>
+									<drawRotated>false</drawRotated>
+
+								</graphicDataDefault>					
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayBack>
+
+						</li>
+					</value>
+				</li>
+
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs/ThingDef[defName = "AA_BoulderMit"]/comps</xpath> 
 					<value>
@@ -529,6 +621,196 @@
 				</li>
 
 				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "AA_ChameleonYak"]/comps</xpath> 
+					<value>
+						<li Class="GiddyUpCore.CompProperties_Overlay">
+							<overlaySide> 
+								<graphicDataDefault>
+									<texPath>Things/Pawn/Animal/Saddles/GR_Saddle_Muffalos_east</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>3</drawSize>
+									<drawRotated>false</drawRotated>
+
+								</graphicDataDefault>					
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlaySide>
+							<overlayFront> 
+								<graphicDataDefault>
+									<texPath>Things/Pawn/Animal/Saddles/GR_Saddle_Muffalos_south</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>3</drawSize>
+									<drawRotated>false</drawRotated>
+
+								</graphicDataDefault>					
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayFront>
+							<overlayBack> 
+								<graphicDataDefault>
+									<texPath>Things/Pawn/Animal/Saddles/GR_Saddle_Muffalos_north</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>3</drawSize>
+									<drawRotated>false</drawRotated>
+
+								</graphicDataDefault>					
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayBack>
+
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>/Defs/ThingDef[defName = "AA_DecayDrake"]</xpath> 
+					<value>
+						<li Class="GiddyUpCore.DrawingOffsetPatch">
+							<eastOffsetCSV>0.537,0,0.42</eastOffsetCSV>
+							<westOffsetCSV>-0.537,0,0.42</westOffsetCSV>
+							<northOffsetCSV>0,0,0.42</northOffsetCSV>
+							<southOffsetCSV>0,0,0.42</southOffsetCSV>
+						</li>				
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "AA_DecayDrake"]/comps</xpath> 
+					<value>
+						<li Class="GiddyUpCore.CompProperties_Overlay">
+							<overlaySide> 
+								<graphicDataDefault>
+									<texPath>Things/Pawn/Animal/Saddles/AA_DecayDrakeSaddle_east</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>2.75</drawSize>
+									<drawRotated>false</drawRotated>
+
+								</graphicDataDefault>					
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlaySide>
+
+
+						</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "AA_DesertAve"]/comps</xpath> 
+					<value>
+						<li Class="GiddyUpCore.CompProperties_Overlay">
+							<overlayFront> 
+								<graphicDataDefault>
+									<texPath>Things/Pawn/Animal/Saddles/AA_DesertAveSaddle_south</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>2.75</drawSize>
+									<drawRotated>false</drawRotated>
+
+								</graphicDataDefault>					
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayFront>
+
+
+						</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "AA_FrostAve"]/comps</xpath> 
+					<value>
+						<li Class="GiddyUpCore.CompProperties_Overlay">
+							<overlayFront> 
+								<graphicDataDefault>
+									<texPath>Things/Pawn/Animal/Saddles/AA_FrostAveSaddle_south</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>3.15</drawSize>
+									<drawRotated>false</drawRotated>
+
+								</graphicDataDefault>					
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayFront>
+
+
+						</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "AA_FrostboundBehemoth"]/comps</xpath> 
+					<value>
+						<li Class="GiddyUpCore.CompProperties_Overlay">
+							<overlaySide> 
+								<graphicDataDefault>
+									<texPath>Things/Pawn/Animal/Saddles/AA_FrostboundBehemothSaddle_east</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>4.1</drawSize>
+									<drawRotated>false</drawRotated>
+
+								</graphicDataDefault>					
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlaySide>
+							<overlayFront> 
+								<graphicDataDefault>
+									<texPath>Things/Pawn/Animal/Saddles/AA_FrostboundBehemothSaddle_south</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>4.1</drawSize>
+									<drawRotated>false</drawRotated>
+
+								</graphicDataDefault>					
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayFront>
+							<overlayBack> 
+								<graphicDataDefault>
+									<texPath>Things/Pawn/Animal/Saddles/AA_FrostboundBehemothSaddle_north</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>4.1</drawSize>
+									<drawRotated>false</drawRotated>
+
+								</graphicDataDefault>					
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayBack>
+
+						</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "AA_Frostling"]</xpath> 
+					<value>
+						<comps>
+							<li Class="GiddyUpCore.CompProperties_Overlay">
+								<overlaySide> 
+									<graphicDataDefault>
+										<texPath>Things/Pawn/Animal/Saddles/AA_FrostlingSaddle_east</texPath>
+										<graphicClass>Graphic_Single</graphicClass>
+										<drawSize>2.5</drawSize>
+										<drawRotated>false</drawRotated>
+
+									</graphicDataDefault>					
+									<offsetDefault>(0,0,0,0)</offsetDefault>
+								</overlaySide>
+								<overlayFront> 
+									<graphicDataDefault>
+										<texPath>Things/Pawn/Animal/Saddles/AA_FrostlingSaddle_south</texPath>
+										<graphicClass>Graphic_Single</graphicClass>
+										<drawSize>2.5</drawSize>
+										<drawRotated>false</drawRotated>
+
+									</graphicDataDefault>					
+									<offsetDefault>(0,0,0,0)</offsetDefault>
+								</overlayFront>
+								<overlayBack> 
+									<graphicDataDefault>
+										<texPath>Things/Pawn/Animal/Saddles/AA_FrostlingSaddle_north</texPath>
+										<graphicClass>Graphic_Single</graphicClass>
+										<drawSize>2.5</drawSize>
+										<drawRotated>false</drawRotated>
+
+									</graphicDataDefault>					
+									<offsetDefault>(0,0,0,0)</offsetDefault>
+								</overlayBack>
+
+							</li>
+						</comps>
+					</value>
+				</li>
+
+
+				<li Class="PatchOperationAdd">
 					<xpath>/Defs/ThingDef[defName = "AA_Gallatross"]</xpath> 
 					<value>
 						<comps>
@@ -566,6 +848,47 @@
 
 							</li>
 						</comps>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAddModExtension">
+					<xpath>/Defs/ThingDef[defName = "AA_Gigantelope"]</xpath> 
+					<value>
+						<li Class="GiddyUpCore.DrawingOffsetPatch">
+							<eastOffsetCSV>0,0,-0.643</eastOffsetCSV>
+							<westOffsetCSV>0,0,-0.643</westOffsetCSV>
+							<northOffsetCSV>0,0,-0.643</northOffsetCSV>
+							<southOffsetCSV>0,0,-0.643</southOffsetCSV>
+						</li>				
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "AA_Gigantelope"]/comps</xpath> 
+					<value>
+						<li Class="GiddyUpCore.CompProperties_Overlay">
+
+							<overlayFront> 
+								<graphicDataDefault>
+									<texPath>Things/Pawn/Animal/Saddles/AA_GigantelopeSaddle_south</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>3</drawSize>
+									<drawRotated>false</drawRotated>
+
+								</graphicDataDefault>					
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayFront>
+							<overlayBack> 
+								<graphicDataDefault>
+									<texPath>Things/Pawn/Animal/Saddles/AA_GigantelopeSaddle_north</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>3</drawSize>
+									<drawRotated>false</drawRotated>
+
+								</graphicDataDefault>					
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayBack>
+
+						</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
@@ -606,6 +929,7 @@
 						</li>
 					</value>
 				</li>
+
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs/ThingDef[defName = "AA_Groundrunner"]</xpath> 
 					<value>
@@ -622,7 +946,36 @@
 									</graphicDataDefault>					
 									<offsetDefault>(0,0,0,0)</offsetDefault>
 								</overlaySide>
+								<overlayFront>
+									<graphicDataDefault>
+										<graphicClass>Graphic_Single</graphicClass>
+										<drawSize>2.5</drawSize>
+										<drawRotated>false</drawRotated>
+									</graphicDataDefault>
+									<allVariants>
+										<li>
+											<texPath>Things/Pawn/Animal/Saddles/AA_GroundRunner-_south</texPath>
+										</li>
+										<li>
+											<texPath>Things/Pawn/Animal/Saddles/AA_GroundRunner2-_south</texPath>
+										</li>							
+										<li>
+											<texPath>Things/Pawn/Animal/Saddles/AA_GroundRunner3-_south</texPath>
+										</li>							
+										<li>
+											<texPath>Things/Pawn/Animal/Saddles/AA_GroundRunner4-_south</texPath>
+										</li>							
+										<li>
+											<texPath>Things/Pawn/Animal/Saddles/AA_GroundRunner5-_south</texPath>
+										</li>							
+										<li>
+											<texPath>Things/Pawn/Animal/Saddles/AA_GroundRunnerW-_south</texPath>
+										</li>						
 
+									</allVariants>
+									<stringDelimiter>-</stringDelimiter>
+									<offsetDefault>(0,0,0,0)</offsetDefault>
+								</overlayFront>
 								<overlayBack> 
 									<graphicDataDefault>
 										<texPath>Things/Pawn/Animal/Saddles/AA_Saddle7_north</texPath>
@@ -765,6 +1118,71 @@
 						<li Class="GiddyUpCore.CompProperties_Mount">
 							<drawFront>true</drawFront>
 						</li>
+						<li Class="GiddyUpCore.CompProperties_Overlay">
+
+							<overlayFront>
+								<graphicDataDefault>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>3</drawSize>
+									<drawRotated>false</drawRotated>
+								</graphicDataDefault>
+								<allVariants>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/AA_MeadowAve_1-Saddle_south</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/AA_MeadowAve_2-Saddle_south</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/AA_MeadowAve_3-Saddle_south</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/AA_MeadowAve_4-Saddle_south</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/AA_MeadowAve_5-Saddle_south</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/AA_MeadowAve_6-Saddle_south</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/AA_MeadowAve_7-Saddle_south</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/AA_MeadowAve_8-Saddle_south</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/AA_MeadowAve_9-Saddle_south</texPath>
+									</li>
+
+
+								</allVariants>
+								<stringDelimiter>-</stringDelimiter>
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayFront>
+
+
+						</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "AA_NightAve"]/comps</xpath> 
+					<value>
+						<li Class="GiddyUpCore.CompProperties_Overlay">
+							<overlayFront> 
+								<graphicDataDefault>
+									<texPath>Things/Pawn/Animal/Saddles/AA_NightAveSaddle_south</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>3</drawSize>
+									<drawRotated>false</drawRotated>
+
+								</graphicDataDefault>					
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayFront>
+
+
+						</li>
 					</value>
 				</li>
 
@@ -809,6 +1227,84 @@
 									<texPath>Things/Pawn/Animal/Saddles/AA_Saddle11_north</texPath>
 									<graphicClass>Graphic_Single</graphicClass>
 									<drawSize>2.05</drawSize>
+									<drawRotated>false</drawRotated>
+
+								</graphicDataDefault>					
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayBack>
+
+						</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "AA_NightMule"]/comps</xpath> 
+					<value>
+						<li Class="GiddyUpCore.CompProperties_Overlay">
+							<overlaySide> 
+								<graphicDataDefault>
+									<texPath>Things/Pawn/Animal/Saddles/AA_NightMuleSaddle_east</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>3</drawSize>
+									<drawRotated>false</drawRotated>
+
+								</graphicDataDefault>					
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlaySide>
+							<overlayFront> 
+								<graphicDataDefault>
+									<texPath>Things/Pawn/Animal/Saddles/AA_Saddle3_south</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>3</drawSize>
+									<drawRotated>false</drawRotated>
+
+								</graphicDataDefault>					
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayFront>
+							<overlayBack> 
+								<graphicDataDefault>
+									<texPath>Things/Pawn/Animal/Saddles/AA_Saddle3_north</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>3</drawSize>
+									<drawRotated>false</drawRotated>
+
+								</graphicDataDefault>					
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayBack>
+
+						</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "AA_NightRam"]/comps</xpath> 
+					<value>
+						<li Class="GiddyUpCore.CompProperties_Overlay">
+							<overlaySide> 
+								<graphicDataDefault>
+									<texPath>Things/Pawn/Animal/Saddles/AA_NightRamSaddle_east</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>2.5</drawSize>
+									<drawRotated>false</drawRotated>
+
+								</graphicDataDefault>					
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlaySide>
+							<overlayFront> 
+								<graphicDataDefault>
+									<texPath>Things/Pawn/Animal/Saddles/AA_NightRamSaddle_south</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>2.5</drawSize>
+									<drawRotated>false</drawRotated>
+
+								</graphicDataDefault>					
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayFront>
+							<overlayBack> 
+								<graphicDataDefault>
+									<texPath>Things/Pawn/Animal/Saddles/AA_NightRamSaddle_north</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>2.5</drawSize>
 									<drawRotated>false</drawRotated>
 
 								</graphicDataDefault>					
@@ -896,6 +1392,44 @@
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "AA_Radyak"]/comps</xpath> 
+					<value>
+						<li Class="GiddyUpCore.CompProperties_Overlay">
+							<overlaySide> 
+								<graphicDataDefault>
+									<texPath>Things/Pawn/Animal/Saddles/AA_Saddle3_east</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>3</drawSize>
+									<drawRotated>false</drawRotated>
+
+								</graphicDataDefault>					
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlaySide>
+							<overlayFront> 
+								<graphicDataDefault>
+									<texPath>Things/Pawn/Animal/Saddles/AA_RadYakSaddle_south</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>3</drawSize>
+									<drawRotated>false</drawRotated>
+
+								</graphicDataDefault>					
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayFront>
+							<overlayBack> 
+								<graphicDataDefault>
+									<texPath>Things/Pawn/Animal/Saddles/AA_Saddle3_north</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>3</drawSize>
+									<drawRotated>false</drawRotated>
+
+								</graphicDataDefault>					
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayBack>
+
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
 					<xpath>/Defs/ThingDef[defName = "AA_RaptorShrimp"]/comps</xpath> 
 					<value>
 						<li Class="GiddyUpCore.CompProperties_Overlay">
@@ -924,6 +1458,162 @@
 									<texPath>Things/Pawn/Animal/Saddles/AA_Saddle13_north</texPath>
 									<graphicClass>Graphic_Single</graphicClass>
 									<drawSize>3</drawSize>
+									<drawRotated>false</drawRotated>
+
+								</graphicDataDefault>					
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayBack>
+
+						</li>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "AA_Razorjack"]/comps</xpath> 
+					<value>
+
+						<li Class="GiddyUpCore.CompProperties_Overlay">
+							<overlaySide> 
+								<graphicDataDefault>
+									<texPath>Things/Pawn/Animal/Saddles/AA_FrostlingSaddle_east</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>3</drawSize>
+									<drawRotated>false</drawRotated>
+
+								</graphicDataDefault>					
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlaySide>
+							<overlayFront> 
+								<graphicDataDefault>
+									<texPath>Things/Pawn/Animal/Saddles/AA_FrostlingSaddle_south</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>3</drawSize>
+									<drawRotated>false</drawRotated>
+
+								</graphicDataDefault>					
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayFront>
+							<overlayBack> 
+								<graphicDataDefault>
+									<texPath>Things/Pawn/Animal/Saddles/AA_FrostlingSaddle_north</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>3</drawSize>
+									<drawRotated>false</drawRotated>
+
+								</graphicDataDefault>					
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayBack>
+
+						</li>
+
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "AA_RipperHound"]</xpath> 
+					<value>
+						<comps>
+							<li Class="GiddyUpCore.CompProperties_Overlay">
+								<overlaySide> 
+									<graphicDataDefault>
+										<texPath>Things/Pawn/Animal/Saddles/AA_RipperHoundSaddle_east</texPath>
+										<graphicClass>Graphic_Single</graphicClass>
+										<drawSize>2.5</drawSize>
+										<drawRotated>false</drawRotated>
+
+									</graphicDataDefault>					
+									<offsetDefault>(0,0,0,0)</offsetDefault>
+								</overlaySide>
+
+
+							</li>
+						</comps>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>/Defs/ThingDef[defName = "AA_RoyalAve"]</xpath> 
+					<value>
+						<li Class="GiddyUpCore.DrawingOffsetPatch">
+							<eastOffsetCSV>0.50,0,-0.234</eastOffsetCSV>
+							<westOffsetCSV>-0.50,0,-0.234</westOffsetCSV>
+							<northOffsetCSV>0,0,-0.234</northOffsetCSV>
+							<southOffsetCSV>0,0,-0.234</southOffsetCSV>
+						</li>				
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "AA_RoyalAve"]/comps</xpath> 
+					<value>
+						<li Class="GiddyUpCore.CompProperties_Mount">
+							<drawFront>true</drawFront>
+						</li>
+						<li Class="GiddyUpCore.CompProperties_Overlay">
+
+							<overlayFront>
+								<graphicDataDefault>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>3</drawSize>
+									<drawRotated>false</drawRotated>
+								</graphicDataDefault>
+								<allVariants>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/AA_RoyalAve-saddle_south</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/AA_RoyalAveGreen-saddle_south</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/AA_RoyalAveOrange-saddle_south</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/AA_RoyalAveRainbow-saddle_south</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/AA_RoyalAveRed-saddle_south</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/AA_RoyalAveYellow-saddle_south</texPath>
+									</li>
+									
+
+
+								</allVariants>
+								<stringDelimiter>-</stringDelimiter>
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayFront>
+
+
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName = "AA_SandLion"]/comps</xpath> 
+					<value>
+						<li Class="GiddyUpCore.CompProperties_Overlay">
+							<overlaySide> 
+								<graphicDataDefault>
+									<texPath>Things/Pawn/Animal/Saddles/AA_FrostlingSaddle_east</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>2.5</drawSize>
+									<drawRotated>false</drawRotated>
+
+								</graphicDataDefault>					
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlaySide>
+							<overlayFront> 
+								<graphicDataDefault>
+									<texPath>Things/Pawn/Animal/Saddles/AA_FrostlingSaddle_south</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>2.5</drawSize>
+									<drawRotated>false</drawRotated>
+
+								</graphicDataDefault>					
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayFront>
+							<overlayBack> 
+								<graphicDataDefault>
+									<texPath>Things/Pawn/Animal/Saddles/AA_FrostlingSaddle_north</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>2.5</drawSize>
 									<drawRotated>false</drawRotated>
 
 								</graphicDataDefault>					

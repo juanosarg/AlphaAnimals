@@ -86,6 +86,15 @@ namespace AlphaBehavioursAndEvents
                             if (parent.Map != null)
                             {
                                 List<Thing> ignoredThings = new List<Thing>();
+                                List<Pawn> allPawnsSpawned = pawn.Map.mapPawns.AllPawnsSpawned;
+
+                                for (int k = 0; k < allPawnsSpawned.Count; k++)
+                                {
+                                    if (allPawnsSpawned[k] != null && allPawnsSpawned[k].def.defName==pawn.def.defName)
+                                    {
+                                        ignoredThings.Add(allPawnsSpawned[k]);
+                                    }
+                                }
                                 Thing pawnThing = pawn as Thing; 
                                 ignoredThings.Add(pawnThing);
                                // Log.Message(DefDatabase<DamageDef>.GetNamed(Props.damageDef).defName);
