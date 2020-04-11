@@ -94,7 +94,7 @@
 						<li>AA_RipperHound</li>
 						<li>AA_RoughPlatedMonitor</li>
 						<li>AA_Swarmling</li>
-
+						<li>AA_Agaripawn</li>
 
 
 
@@ -175,7 +175,7 @@
 						<li>AA_RipperHound</li>
 						<li>AA_RoughPlatedMonitor</li>
 						<li>AA_Swarmling</li>
-
+						<li>AA_Agaripawn</li>
 					</value>
 				</li>
 
@@ -249,6 +249,7 @@
 						<li>AA_RipperHound</li>
 						<li>AA_RoughPlatedMonitor</li>
 						<li>AA_Swarmling</li>
+						<li>AA_Agaripawn</li>
 					</value>
 				</li>
 
@@ -321,6 +322,7 @@
 						<li>AA_RipperHound</li>
 						<li>AA_RoughPlatedMonitor</li>
 						<li>AA_Swarmling</li>
+						<li>AA_Agaripawn</li>
 
 					</value>
 				</li>
@@ -405,6 +407,7 @@
 						<li>AA_RipperHound</li>
 						<li>AA_RoughPlatedMonitor</li>
 						<li>AA_Swarmling</li>
+						<li>AA_Agaripawn</li>
 					</value>
 				</li>
 
@@ -485,6 +488,7 @@
 						<li>AA_RipperHound</li>
 						<li>AA_RoughPlatedMonitor</li>
 						<li>AA_Swarmling</li>
+						<li>AA_Agaripawn</li>
 					</value>
 				</li>
 
@@ -535,6 +539,7 @@
 						<li>AA_Razorjack</li>
 						<li>AA_RipperHound</li>
 						<li>AA_RoughPlatedMonitor</li>
+						<li>AA_Agaripawn</li>
 						
 
 					</value>
@@ -621,6 +626,7 @@
 						<li>AA_RipperHound</li>
 						<li>AA_RoughPlatedMonitor</li>
 						<li>AA_Swarmling</li>
+						<li>AA_Agaripawn</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
@@ -691,6 +697,7 @@
 						<li>AA_RipperHound</li>
 						<li>AA_RoughPlatedMonitor</li>
 						<li>AA_Swarmling</li>
+						<li>AA_Agaripawn</li>
 					</value>
 				</li>
 
@@ -766,6 +773,7 @@
 						<li>AA_CrystalMit</li>
 						<li>AA_Helixien</li>
 						<li>AA_Swarmling</li>
+						<li>AA_Agaripawn</li>
 					</value>
 				</li>
 
@@ -808,6 +816,7 @@
 						<li>AA_Razorjack</li>
 						<li>AA_RipperHound</li>
 						<li>AA_RoughPlatedMonitor</li>
+						<li>AA_Agaripawn</li>
 						
 					</value>
 				</li>
@@ -878,6 +887,7 @@
 						<li>AA_Razorjack</li>
 						<li>AA_RipperHound</li>
 						<li>AA_RoughPlatedMonitor</li>
+						<li>AA_Agaripawn</li>
 						
 
 					</value>

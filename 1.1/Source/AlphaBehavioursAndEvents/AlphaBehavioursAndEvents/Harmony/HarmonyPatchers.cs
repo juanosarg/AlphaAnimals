@@ -54,7 +54,7 @@ namespace AlphaBehavioursAndEvents
             if (flagIsCreatureMine && flagCanCreatureCarryMore)
             {
                 int factor = p.TryGetComp<CompInitialHediff>().phase;
-                __result = (p.BodySize * MassUtility.MassCapacityPerBodySize) + factor*factor;
+                __result = (p.BodySize * MassUtility.MassCapacityPerBodySize) + factor*factor*1.5f;
             }
 
         }
@@ -139,7 +139,7 @@ namespace AlphaBehavioursAndEvents
                 var thingies = __result.ToList();
                 var pawn = (Pawn)__instance;
 
-                if ((__instance.def.butcherProducts != null) && ((__instance.def.defName == "AA_Aerofleet") || (__instance.def.defName == "AA_ColossalAerofleet") || (__instance.def.defName == "AA_Cactipine") || (__instance.def.defName == "AA_Needlepost") || (__instance.def.defName == "AA_Needleroll") || (__instance.def.defName == "AA_Wildpod") || (__instance.def.defName == "AA_Wildpawn") || (__instance.def.defName == "GR_Needlechicken") || (__instance.def.defName == "AA_OcularJelly") || (__instance.def.defName == "AA_Mantrap") || (__instance.def.defName == "AA_Agaripod") || (__instance.def.defName == "AA_MycoidColossus")))
+                if ((__instance.def.butcherProducts != null) && ((__instance.def.defName == "AA_Aerofleet") || (__instance.def.defName == "AA_ColossalAerofleet") || (__instance.def.defName == "AA_Cactipine") || (__instance.def.defName == "AA_Needlepost") || (__instance.def.defName == "AA_Needleroll") || (__instance.def.defName == "AA_Wildpod") || (__instance.def.defName == "AA_Wildpawn") || (__instance.def.defName == "AA_Agaripawn") || (__instance.def.defName == "GR_Needlechicken") || (__instance.def.defName == "AA_OcularJelly") || (__instance.def.defName == "AA_Mantrap") || (__instance.def.defName == "AA_Agaripod") || (__instance.def.defName == "AA_MycoidColossus")))
                 {
                     //Log.Message("Adding meat butcher products", false);
 

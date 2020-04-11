@@ -187,6 +187,30 @@
 			</li>
 		</comps>
 	</ThingDef>
+	
+	<ThingDef ParentName="EggFertBase">
+		<defName>AA_AgaripawnSpores</defName>
+		<label>agaripawn spore clump (fert.)</label>
+		<description>Fertilized agaripawn spores. I... I wouldn't eat this. Yuck. If all goes well, it should hatch into an agaripawn.</description>
+		<tradeability>None</tradeability>
+		<statBases>
+			<MarketValue>9.0</MarketValue>
+
+		</statBases>
+		<graphicData>
+			<texPath>Things/Item/Resource/AA_SporeClumpPurple</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>.85</drawSize>
+
+		</graphicData>
+
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>5</hatcherDaystoHatch>
+				<hatcherPawn>AA_Agaripawn</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
 
 	<!-- Ironhusk Beetle Egg -->
 	<ThingDef ParentName="EggUnfertBase">

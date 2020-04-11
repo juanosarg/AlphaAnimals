@@ -21,7 +21,11 @@ namespace AlphaBehavioursAndEvents
 
         public int woolType = 0;
 
-       
+        public int changeGraphicsCounter = 0;
+        public int changeGraphicsCounterMax = 60;
+
+
+
         public Graphic dessicatedGraphic;
 
         public override void SpawnSetup(Map map, bool respawningAfterLoad)
@@ -41,7 +45,13 @@ namespace AlphaBehavioursAndEvents
 
         public override void Tick()
         {
-            this.ChangeTheGraphics();
+            changeGraphicsCounter++;
+            if (changeGraphicsCounter > changeGraphicsCounterMax)
+            {
+                this.ChangeTheGraphics();
+                changeGraphicsCounter = 0;
+            }
+            
             base.Tick();
         }
 
