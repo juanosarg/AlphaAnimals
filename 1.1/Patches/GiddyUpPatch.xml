@@ -973,7 +973,7 @@
 										</li>						
 
 									</allVariants>
-									<!--<stringDelimiter>-</stringDelimiter>-->
+									<stringDelimiter>-</stringDelimiter>
 									<offsetDefault>(0,0,0,0)</offsetDefault>
 								</overlayFront>
 								<overlayBack> 
@@ -1157,7 +1157,7 @@
 
 
 								</allVariants>
-								<!--<stringDelimiter>-</stringDelimiter>-->
+								<stringDelimiter>-</stringDelimiter>
 								<offsetDefault>(0,0,0,0)</offsetDefault>
 							</overlayFront>
 
@@ -1577,7 +1577,7 @@
 
 
 								</allVariants>
-								<!--<stringDelimiter>-</stringDelimiter>-->
+								<stringDelimiter>-</stringDelimiter>
 								<offsetDefault>(0,0,0,0)</offsetDefault>
 							</overlayFront>
 
