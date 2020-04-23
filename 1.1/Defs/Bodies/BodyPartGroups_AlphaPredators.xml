@@ -30,6 +30,11 @@
 		<defName>AA_TentacleAttackTool</defName>
 		<label>tentacle</label>
 	</BodyPartGroupDef>
+	
+	<BodyPartGroupDef>
+		<defName>AA_EyestalkAttackTool</defName>
+		<label>eyestalk</label>
+	</BodyPartGroupDef>
 
 	<BodyPartGroupDef>
 		<defName>LegAttackTool</defName>

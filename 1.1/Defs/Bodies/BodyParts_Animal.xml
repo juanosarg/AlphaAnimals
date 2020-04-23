@@ -558,5 +558,21 @@
 		</tags>
 	</BodyPartDef>
 	
+	<BodyPartDef>
+		<defName>AA_SnailEyeStalk</defName>
+		<label>eyestalk</label>
+		<hitPoints>10</hitPoints>
+		<frostbiteVulnerability>0.1</frostbiteVulnerability>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+		<skinCovered>true</skinCovered>
+		
+		<alive>true</alive>
+		<tags>
+			
+			<li>ManipulationLimbCore</li>
+			<li>SightSource</li>
+		</tags>
+	</BodyPartDef>
+	
 
 </Defs>

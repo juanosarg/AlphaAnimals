@@ -53,7 +53,7 @@
     <label>install mutant arm</label>
     <description>Install a mutant arm.</description>
     <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-    <jobString>Installing mutant leg.</jobString>
+    <jobString>Installing mutant arm.</jobString>
     <workAmount>2000</workAmount>
     <skillRequirements>
       <Medicine>3</Medicine>
