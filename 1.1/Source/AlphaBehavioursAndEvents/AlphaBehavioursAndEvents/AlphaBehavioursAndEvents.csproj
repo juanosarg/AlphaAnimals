@@ -309,6 +309,7 @@
     <Compile Include="Comps\CompFeminism.cs" />
     <Compile Include="Comps\CompHediffEffecter.cs" />
     <Compile Include="Comps\CompInfecter.cs" />
+    <Compile Include="Comps\CompMetamorphosis.cs" />
     <Compile Include="Comps\CompMindEffecter.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_AcidImmunity.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_AnimalProduct.cs" />
@@ -321,6 +322,7 @@
     <Compile Include="Comps\CompProperties\CompProperties_Feminism.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_HediffEffecter.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_Infecter.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_Metamorphosis.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_MindEffecter.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_StateAfterHealthLoss.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_SummonOnSpawn.cs" />

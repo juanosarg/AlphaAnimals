@@ -42,7 +42,7 @@
 			<li>ManipulationLimbCore</li>
 		</tags>
 	</BodyPartDef>
-	
+
 	<BodyPartDef>
 		<defName>AA_Protoplasm</defName>
 		<label>protoplasm</label>
@@ -56,7 +56,7 @@
 			<li>BreathingSource</li>
 		</tags>
 	</BodyPartDef>
-	
+
 	<BodyPartDef>
 		<defName>AA_Nucleus</defName>
 		<label>nucleus</label>
@@ -67,13 +67,13 @@
 			<li>ConsciousnessSource</li>
 			<li>SightSource</li>
 			<li>EatingSource</li>
-			
+
 		</tags>
 	</BodyPartDef>
-	
+
 	<!-- Mantrap parts -->
 
-	
+
 
 	<BodyPartDef>
 		<defName>AA_PlantPhloem</defName>
@@ -88,7 +88,7 @@
 			<li>BreathingSource</li>
 		</tags>
 	</BodyPartDef>
-	
+
 	<BodyPartDef>
 		<defName>AA_PlantVibrationSensor</defName>
 		<label>plant vibration sensors</label>
@@ -97,7 +97,7 @@
 		<skinCovered>true</skinCovered>
 		<tags>
 			<li>SightSource</li>
-			
+
 		</tags>
 	</BodyPartDef>
 
@@ -369,7 +369,7 @@
 		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
 		<skinCovered>true</skinCovered>
 		<tags>
-			
+
 			<li>ManipulationLimbCore</li>
 		</tags>
 	</BodyPartDef>
@@ -429,9 +429,9 @@
 			</li>
 		</hitChanceFactors>
 	</BodyPartDef>
-	
+
 	<!-- Decay Drake Parts -->
-	
+
 	<BodyPartDef>
 		<defName>AA_ReptileWing</defName>
 		<label>wing</label>
@@ -440,13 +440,13 @@
 		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
 		<skinCovered>true</skinCovered>
 		<alive>true</alive>
-		
-		
+
+
 	</BodyPartDef>
-	
-	
+
+
 	<!-- Boat Parts -->
-	
+
 	<BodyPartDef>
 		<defName>AA_BoatBody</defName>
 		<label>body</label>
@@ -459,12 +459,12 @@
 		<tags>
 			<li>MovingLimbCore</li>
 		</tags>
-		
+
 	</BodyPartDef>
-	
+
 	<BodyPartDef>
 		<defName>AA_BoatEye</defName>
-		
+
 		<label>eye</label>
 		<hitPoints>10</hitPoints>
 		<permanentInjuryChanceFactor>15</permanentInjuryChanceFactor>
@@ -483,9 +483,9 @@
 				<value>0</value>
 			</li>
 		</hitChanceFactors>
-		
+
 	</BodyPartDef>
-	
+
 	<BodyPartDef>
 		<defName>AA_BoatHead</defName>
 		<label>head</label>
@@ -504,7 +504,7 @@
 		<bleedRate>0</bleedRate>
 		<alive>false</alive>
 	</BodyPartDef>
-	
+
 	<BodyPartDef>
 		<defName>AA_NautilusShell</defName>
 		<label>nautiloid shell</label>
@@ -514,7 +514,7 @@
 		<bleedRate>0</bleedRate>
 		<alive>false</alive>
 	</BodyPartDef>
-	
+
 	<BodyPartDef>
 		<defName>AA_BoatHydrogenSac</defName>
 		<label>hydrogen sac</label>
@@ -527,7 +527,7 @@
 			<li>MovingLimbCore</li>
 		</tags>
 	</BodyPartDef>
-	
+
 	<BodyPartDef>
 		<defName>AA_NautilusTentacles</defName>
 		<label>nautiloid tentacles</label>
@@ -538,11 +538,11 @@
 		<bleedRate>0</bleedRate>
 		<alive>false</alive>
 		<tags>
-			
+
 			<li>ManipulationLimbCore</li>
 		</tags>
 	</BodyPartDef>
-	
+
 	<BodyPartDef>
 		<defName>AA_JellyfishTentacles</defName>
 		<label>jellyfish tentacles</label>
@@ -553,11 +553,11 @@
 		<bleedRate>0</bleedRate>
 		<alive>false</alive>
 		<tags>
-			
+
 			<li>ManipulationLimbCore</li>
 		</tags>
 	</BodyPartDef>
-	
+
 	<BodyPartDef>
 		<defName>AA_SnailEyeStalk</defName>
 		<label>eyestalk</label>
@@ -565,14 +565,24 @@
 		<frostbiteVulnerability>0.1</frostbiteVulnerability>
 		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
 		<skinCovered>true</skinCovered>
-		
+
 		<alive>true</alive>
 		<tags>
-			
+
 			<li>ManipulationLimbCore</li>
 			<li>SightSource</li>
 		</tags>
 	</BodyPartDef>
-	
+
+	<BodyPartDef ParentName="ClawBase">
+		<defName>AA_FrontClaw</defName>
+		<label>front claw</label>
+		<labelShort>claw</labelShort>
+		<tags>
+
+			<li>ManipulationLimbCore</li>
+		</tags>
+	</BodyPartDef>
+
 
 </Defs>

@@ -255,6 +255,24 @@
 		</projectile>
 	</ThingDef>
 	
+	<ThingDef ParentName="BaseBullet">
+		<defName>AA_FireSpit</defName>
+		<label>fire spit</label>
+		<thingClass>AlphaAnimalRangeAttack.AnimalProjectile</thingClass>
+
+		<graphicData>
+			<texPath>Things/Projectiles/AA_FieryProjectile</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>2</drawSize>
+		</graphicData>
+		<projectile>
+			<flyOverhead>false</flyOverhead>
+			<damageDef>Flame</damageDef>
+			<damageAmountBase>1</damageAmountBase>
+			<speed>15</speed>
+		</projectile>
+	</ThingDef>
+	
 	
 
 

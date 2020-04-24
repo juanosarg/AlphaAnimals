@@ -96,7 +96,10 @@
 						<li>AA_Swarmling</li>
 						<li>AA_Agaripawn</li>
 
-
+						<li>AA_BumbledroneHierophant</li>
+						<li>AA_TarGuzzler</li>
+						<li>AA_Atispec</li>
+						<li>AA_Plasmorph</li>
 
 
 
@@ -176,6 +179,11 @@
 						<li>AA_RoughPlatedMonitor</li>
 						<li>AA_Swarmling</li>
 						<li>AA_Agaripawn</li>
+						
+						
+						<li>AA_TarGuzzler</li>
+						<li>AA_Atispec</li>
+						<li>AA_Plasmorph</li>
 					</value>
 				</li>
 
@@ -250,6 +258,10 @@
 						<li>AA_RoughPlatedMonitor</li>
 						<li>AA_Swarmling</li>
 						<li>AA_Agaripawn</li>
+												
+						<li>AA_TarGuzzler</li>
+						<li>AA_Atispec</li>
+						<li>AA_Plasmorph</li>
 					</value>
 				</li>
 
@@ -323,6 +335,10 @@
 						<li>AA_RoughPlatedMonitor</li>
 						<li>AA_Swarmling</li>
 						<li>AA_Agaripawn</li>
+						
+						<li>AA_TarGuzzler</li>
+						<li>AA_Atispec</li>
+						<li>AA_Plasmorph</li>
 
 					</value>
 				</li>
@@ -408,6 +424,11 @@
 						<li>AA_RoughPlatedMonitor</li>
 						<li>AA_Swarmling</li>
 						<li>AA_Agaripawn</li>
+						
+						<li>AA_TarGuzzler</li>
+						<li>AA_Atispec</li>
+						<li>AA_Plasmorph</li>
+						<li>AA_BumbledroneHierophant</li>
 					</value>
 				</li>
 
@@ -489,6 +510,11 @@
 						<li>AA_RoughPlatedMonitor</li>
 						<li>AA_Swarmling</li>
 						<li>AA_Agaripawn</li>
+						
+						<li>AA_TarGuzzler</li>
+						<li>AA_Atispec</li>
+						<li>AA_Plasmorph</li>
+					
 					</value>
 				</li>
 
@@ -540,6 +566,8 @@
 						<li>AA_RipperHound</li>
 						<li>AA_RoughPlatedMonitor</li>
 						<li>AA_Agaripawn</li>
+						
+						<li>AA_TarGuzzler</li>
 						
 
 					</value>
@@ -627,6 +655,11 @@
 						<li>AA_RoughPlatedMonitor</li>
 						<li>AA_Swarmling</li>
 						<li>AA_Agaripawn</li>
+						
+						<li>AA_TarGuzzler</li>
+						<li>AA_Atispec</li>
+						<li>AA_Plasmorph</li>
+						
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
@@ -698,6 +731,11 @@
 						<li>AA_RoughPlatedMonitor</li>
 						<li>AA_Swarmling</li>
 						<li>AA_Agaripawn</li>
+						
+						<li>AA_TarGuzzler</li>
+						<li>AA_Atispec</li>
+						
+						
 					</value>
 				</li>
 
@@ -774,6 +812,11 @@
 						<li>AA_Helixien</li>
 						<li>AA_Swarmling</li>
 						<li>AA_Agaripawn</li>
+						
+						<li>AA_TarGuzzler</li>
+						
+						
+						
 					</value>
 				</li>
 
@@ -817,6 +860,11 @@
 						<li>AA_RipperHound</li>
 						<li>AA_RoughPlatedMonitor</li>
 						<li>AA_Agaripawn</li>
+						
+						<li>AA_TarGuzzler</li>
+						
+						
+						
 						
 					</value>
 				</li>
@@ -889,6 +937,10 @@
 						<li>AA_RoughPlatedMonitor</li>
 						<li>AA_Agaripawn</li>
 						
+						<li>AA_TarGuzzler</li>
+
+						<li>AA_BumbledroneHierophant</li>
+						
 
 					</value>
 				</li>
@@ -950,6 +1002,9 @@
 						<li>AA_Razorjack</li>
 						<li>AA_RipperHound</li>
 						<li>AA_RoughPlatedMonitor</li>
+						
+						<li>AA_TarGuzzler</li>
+						<li>AA_Atispec</li>
 						
 
 					</value>

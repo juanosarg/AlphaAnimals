@@ -14,6 +14,8 @@
 	<NocturnalAnimals.BodyClock_Diurnal>Diurnal</NocturnalAnimals.BodyClock_Diurnal>
 	<NocturnalAnimals.BodyClock_Nocturnal>Nocturnal</NocturnalAnimals.BodyClock_Nocturnal>
 	<NocturnalAnimals.BodyClock_Crepuscular>Crepuscular</NocturnalAnimals.BodyClock_Crepuscular>
+	
+	<AA_TimeToMetamorphosis>Time to metamorphosis: {0}</AA_TimeToMetamorphosis>
 
 
 	<!-- Incidents -->

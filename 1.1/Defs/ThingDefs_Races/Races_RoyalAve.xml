@@ -88,12 +88,7 @@
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
 				<eggCountRange>1</eggCountRange>
 			</li>
-			<!--<li Class="AlphaBehavioursAndEvents.CompProperties_Skins">
-
-				<numberOfSkins>9</numberOfSkins>
-				<skinBaseString>Things/Pawn/Animal/AA_MeadowAve/AA_MeadowAve</skinBaseString>
-
-			</li>-->
+			
 		</comps>
 		<tools>
 			<li>

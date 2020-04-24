@@ -143,7 +143,11 @@
 		<label>tar guzzler</label>
 		<race>AA_TarGuzzler</race>
 		<combatPower>175</combatPower>
-		<ecoSystemWeight>0.5</ecoSystemWeight>
+		<ecoSystemWeight>0.01</ecoSystemWeight>
+		<wildGroupSize>
+			<min>5</min>
+			<max>8</max>
+		</wildGroupSize>
 
 		<lifeStages>
 			<li>

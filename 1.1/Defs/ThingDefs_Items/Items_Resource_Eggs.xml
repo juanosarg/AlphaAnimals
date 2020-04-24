@@ -890,6 +890,28 @@
 			</li>
 		</comps>
 	</ThingDef>
+	
+		<!-- =============== Atispec Egg =============== -->
+
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>AA_AtispecEggFertilized</defName>
+		<label>atispec egg (fert.)</label>
+		<description>Fertilized atispec egg. If all goes well, it should hatch into a larval atispec. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AA_AtispecEgg</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.5</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>7</hatcherDaystoHatch>
+				<hatcherPawn>AA_LarvalAtispec</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
 
 
 
