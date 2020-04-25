@@ -24,6 +24,14 @@ namespace AlphaBehavioursAndEvents
             }
         }
 
+        public override void PostExposeData()
+        {
+            base.PostExposeData();
+         
+            Scribe_Values.Look<int>(ref this.metamorphosisTick, "metamorphosisTick", 0, false);
+
+        }
+
         public override void CompTickRare()
         {
             base.CompTickRare();
