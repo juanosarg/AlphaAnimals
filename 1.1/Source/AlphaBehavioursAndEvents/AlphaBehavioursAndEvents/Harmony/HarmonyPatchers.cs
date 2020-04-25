@@ -230,6 +230,10 @@ namespace AlphaBehavioursAndEvents
                     {
                         return true;
                     }
+                    if (theCreature.defName.Contains("AA_Atispec") && AlphaAnimals_Settings.AA_AtispecFlag)
+                    {
+                        return true;
+                    }
                     if (theCreature.defName.Contains("AA_Barbslinger") && AlphaAnimals_Settings.AA_BarbslingerFlag)
                     {
                         return true;
@@ -344,6 +348,10 @@ namespace AlphaBehavioursAndEvents
                         return true;
                     }
                     if (theCreature.defName.Contains("AA_PebbleMit") && AlphaAnimals_Settings.AA_PebbleMitFlag)
+                    {
+                        return true;
+                    }
+                    if (theCreature.defName.Contains("AA_Plasmorph") && AlphaAnimals_Settings.AA_PlasmorphFlag)
                     {
                         return true;
                     }

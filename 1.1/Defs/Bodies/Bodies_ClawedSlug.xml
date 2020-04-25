@@ -63,7 +63,7 @@
 					<coverage>0.2</coverage>
 				</li>
 				<li>
-					<def>FrontClaw</def>
+					<def>AA_FrontClaw</def>
 					<customLabel>front left claw</customLabel>
 					<coverage>0.1</coverage>
 					<groups>
@@ -71,7 +71,7 @@
 					</groups>
 				</li>
 				<li>
-					<def>FrontClaw</def>
+					<def>AA_FrontClaw</def>
 					<customLabel>front right claw</customLabel>
 					<coverage>0.1</coverage>
 					<groups>

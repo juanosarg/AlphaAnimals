@@ -75,7 +75,8 @@ namespace AlphaBehavioursAndEvents
             public static bool AA_RoughPlatedMonitorFlag = false;
             public static bool AA_SwarmlingFlag = false;
 
-
+            public static bool AA_AtispecFlag = false;
+            public static bool AA_PlasmorphFlag = false;
 
 
 
@@ -149,11 +150,14 @@ namespace AlphaBehavioursAndEvents
             Scribe_Values.Look(ref AA_RoughPlatedMonitorFlag, "AA_RoughPlatedMonitorFlag", false, true);
             Scribe_Values.Look(ref AA_SwarmlingFlag, "AA_SwarmlingFlag", false, true);
 
-          
-           
-          
-           
-        
+            Scribe_Values.Look(ref AA_AtispecFlag, "AA_AtispecFlag", false, true);
+            Scribe_Values.Look(ref AA_PlasmorphFlag, "AA_PlasmorphFlag", false, true);
+
+
+
+
+
+
 
 
 
@@ -170,6 +174,7 @@ namespace AlphaBehavioursAndEvents
             ls.CheckboxLabeled("disableAgaripod".Translate(), ref AA_AgaripodFlag, null);
             ls.CheckboxLabeled("disableAnimusVox".Translate(), ref AA_AnimusVoxFlag, null);
             ls.CheckboxLabeled("disableArcticLion".Translate(), ref AA_ArcticLionFlag, null);
+            ls.CheckboxLabeled("disableAtispec".Translate(), ref AA_AtispecFlag, null);
             ls.CheckboxLabeled("disableBarbslinger".Translate(), ref AA_BarbslingerFlag, null);
             ls.CheckboxLabeled("disableBedBug".Translate(), ref AA_BedBugFlag, null);
             ls.CheckboxLabeled("disableBeetle".Translate(), ref AA_BeetleFlag, null);
@@ -188,7 +193,7 @@ namespace AlphaBehavioursAndEvents
             ls.CheckboxLabeled("disableFrostBehemoth".Translate(), ref AA_FrostBehemothFlag, null);
             ls.CheckboxLabeled("disableFrostling".Translate(), ref AA_FrostlingFlag, null);
             ls.CheckboxLabeled("disableFrostmite".Translate(), ref AA_FrostmiteFlag, null);
-            ls.CheckboxLabeled("disableGigantelope".Translate(), ref AA_GigantelopeFlag, null);
+           
            
 
            
@@ -196,6 +201,7 @@ namespace AlphaBehavioursAndEvents
            
             ls.NewColumn();
 
+            ls.CheckboxLabeled("disableGigantelope".Translate(), ref AA_GigantelopeFlag, null);
             ls.CheckboxLabeled("disableGreatDevourer".Translate(), ref AA_GreatDevourerFlag, null);
             ls.CheckboxLabeled("disableGreenGoo".Translate(), ref AA_GreenGooFlag, null);
             ls.CheckboxLabeled("disableGroundrunner".Translate(), ref AA_GroundrunnerFlag, null);
@@ -216,9 +222,9 @@ namespace AlphaBehavioursAndEvents
             ls.CheckboxLabeled("disableOcularJelly".Translate(), ref AA_OcularJellyFlag, null);
             ls.CheckboxLabeled("disableOvergrownColossus".Translate(), ref AA_OvergrownColossusFlag, null);
             ls.CheckboxLabeled("disablePebbleMit".Translate(), ref AA_PebbleMitFlag, null);
+            ls.CheckboxLabeled("disablePlasmorph".Translate(), ref AA_PlasmorphFlag, null);
             ls.CheckboxLabeled("disableRadyak".Translate(), ref AA_RadyakFlag, null);
-            ls.CheckboxLabeled("disableRaptorShrimp".Translate(), ref AA_RaptorShrimpFlag, null);
-            ls.CheckboxLabeled("disableRazorjack".Translate(), ref AA_RazorjackFlag, null);
+            
 
            
             
@@ -229,7 +235,8 @@ namespace AlphaBehavioursAndEvents
 
             ls.NewColumn();
 
-
+            ls.CheckboxLabeled("disableRaptorShrimp".Translate(), ref AA_RaptorShrimpFlag, null);
+            ls.CheckboxLabeled("disableRazorjack".Translate(), ref AA_RazorjackFlag, null);
             ls.CheckboxLabeled("disableRedGoo".Translate(), ref AA_RedGooFlag, null);
             ls.CheckboxLabeled("disableRedSpore".Translate(), ref AA_RedSporeFlag, null);
             ls.CheckboxLabeled("disableRipperHound".Translate(), ref AA_RipperHoundFlag, null);

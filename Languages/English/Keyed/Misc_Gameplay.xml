@@ -159,6 +159,9 @@
 	<disableRipperHound>Disable Ripper Hound</disableRipperHound>
 	<disableRoughPlatedMonitor>Disable Rough-Plated Monitor</disableRoughPlatedMonitor>
 	<disableSwarmling>Disable Swarmling</disableSwarmling>
+	
+	<disableAtispec>Disable Atispec</disableAtispec>
+	<disablePlasmorph>Disable Plasmorph</disablePlasmorph>
 
 
 

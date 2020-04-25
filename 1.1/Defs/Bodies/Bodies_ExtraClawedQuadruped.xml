@@ -123,7 +123,7 @@
 					</parts>
 				</li>
 				<li>
-					<def>FrontClaw</def>
+					<def>AA_FrontClaw</def>
 					<customLabel>front left claw</customLabel>
 					<coverage>0.03</coverage>
 					<height>Top</height>
@@ -132,7 +132,7 @@
 					</groups>
 				</li>
 				<li>
-					<def>FrontClaw</def>
+					<def>AA_FrontClaw</def>
 					<customLabel>front right claw</customLabel>
 					<coverage>0.03</coverage>
 					<height>Top</height>
