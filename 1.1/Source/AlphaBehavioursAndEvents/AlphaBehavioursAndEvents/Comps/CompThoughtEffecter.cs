@@ -36,62 +36,45 @@ namespace AlphaBehavioursAndEvents
                 thisPawn = this.parent as Pawn;
                 if (thisPawn != null && thisPawn.Map != null && !thisPawn.Dead && !thisPawn.Downed)
                 {
-                    List<Pawn> allPawnsSpawned = thisPawn.Map.mapPawns.AllPawnsSpawned;
-
-                    for (int k = 0; k < allPawnsSpawned.Count; k++)
+                    foreach (Thing thing in GenRadial.RadialDistinctThingsAround(thisPawn.Position, thisPawn.Map, Props.radius, true))
                     {
-                        if (allPawnsSpawned[k] != null && !allPawnsSpawned[k].AnimalOrWildMan() && allPawnsSpawned[k].RaceProps.IsFlesh)
+                        Pawn pawn = thing as Pawn;
+                        if (pawn != null && !pawn.AnimalOrWildMan() && pawn.RaceProps.IsFlesh)
                         {
-                            pawnList.Add(allPawnsSpawned[k]);
-                        }
-                    }
+                            
 
-                    if (pawnList.Count > 0)
-                    {
-                        IntVec3 thisPawnLocation = thisPawn.Position;
-                        List<Pawn> tempList = new List<Pawn>();
-                        for (int k = 0; k < pawnList.Count; k++)
-                        {
-                            if (IntVec3Utility.ManhattanDistanceFlat(thisPawnLocation, pawnList[k].Position) < Props.radius)
-                            {
-                                tempList.Add(pawnList[k]);
-                            }
-                        }
-
-                        if (tempList.Count > 0)
-                        {
-                            Pawn chosenOne = tempList.RandomElement();
-                            if (chosenOne != null)
-                            {
-
-                                if (!chosenOne.Dead && !chosenOne.Downed && chosenOne.GetStatValue(StatDefOf.PsychicSensitivity, true) > 0f)
+                                if (!pawn.Dead && !pawn.Downed && pawn.GetStatValue(StatDefOf.PsychicSensitivity, true) > 0f)
                                 {
-                                    if (Props.showEffect) {
+                                    if (Props.showEffect)
+                                    {
                                         Find.TickManager.slower.SignalForceNormalSpeedShort();
                                         SoundDefOf.PsychicPulseGlobal.PlayOneShot(new TargetInfo(this.parent.Position, this.parent.Map, false));
                                         MoteMaker.MakeAttachedOverlay(this.parent, ThingDef.Named("Mote_PsycastPsychicEffect"), Vector3.zero, 1f, -1f);
                                     }
-                                    
 
-                                    chosenOne.needs.mood.thoughts.memories.TryGainMemory(ThoughtDef.Named(Props.thoughtDef), null);
+
+                                    pawn.needs.mood.thoughts.memories.TryGainMemory(ThoughtDef.Named(Props.thoughtDef), null);
                                 }
 
-                            }
+                            
                         }
-
-                        tempList.Clear();
-
 
                     }
 
-
                 }
-                pawnList.Clear();
-                tickCounter = 0;
+                    
+
+
+               
+
+            tickCounter = 0;
+            }
+               
+                
             }
         }
 
 
     }
-}
+
 
