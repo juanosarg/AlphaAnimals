@@ -1684,9 +1684,9 @@
 										</li>
 									</capMods>
 									<statOffsets>
-										<ArmorRating_Sharp>0.03</ArmorRating_Sharp>
-										<ArmorRating_Blunt>0.03</ArmorRating_Blunt>
-										<ArmorRating_Heat>0.03</ArmorRating_Heat>
+										<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+										<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+										<ArmorRating_Heat>0.1</ArmorRating_Heat>
 									</statOffsets>
 								</li>	 
 							</stages>

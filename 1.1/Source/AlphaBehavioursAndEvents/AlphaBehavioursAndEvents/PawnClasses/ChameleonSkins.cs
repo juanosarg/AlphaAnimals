@@ -22,11 +22,20 @@ namespace AlphaBehavioursAndEvents
         public int woolType = 0;
 
         public int changeGraphicsCounter = 0;
-        public int changeGraphicsCounterMax = 60;
+        public int changeGraphicsCounterMax = 240;
 
-
+        public string terrainName = "";
 
         public Graphic dessicatedGraphic;
+
+        public override void ExposeData()
+        {
+            base.ExposeData();
+
+            Scribe_Values.Look<string>(ref this.terrainName, "terrainName", "", false);
+
+        }
+
 
         public override void SpawnSetup(Map map, bool respawningAfterLoad)
         {
@@ -57,73 +66,95 @@ namespace AlphaBehavioursAndEvents
 
         public void ChangeTheGraphics()
         {
+            string currentName = "";
             if (this.Map != null) {
                 Vector2 vector = this.ageTracker.CurKindLifeStage.bodyGraphicData.drawSize;
                 //Graphic dessicatedGraphic = this.ageTracker.CurKindLifeStage.dessicatedBodyGraphicData.Graphic;
                 if ((this.Position.GetTerrain(this.Map) == TerrainDef.Named("Ice")) || (this.Position.GetSnowDepth(this.Map) > 0) || (this.Map.mapTemperature.OutdoorTemp<-10f))
                 {
-                    LongEventHandler.ExecuteWhenFinished(delegate
-                    {
-                       
-                        Graphic_Multi nakedGraphic = (Graphic_Multi)GraphicDatabase.Get<Graphic_Multi>(this.ageTracker.CurKindLifeStage.bodyGraphicData.texPath + "Winter", ShaderDatabase.Cutout, vector, Color.white);
-                        this.pawn_renderer.graphics.dessicatedGraphic = dessicatedGraphic;
-                        this.pawn_renderer.graphics.ResolveAllGraphics();
-                        this.pawn_renderer.graphics.nakedGraphic = nakedGraphic;
+                    currentName = "Ice";
+                    if (this.terrainName != currentName) {
+                        LongEventHandler.ExecuteWhenFinished(delegate
+                        {
+
+                            Graphic_Multi nakedGraphic = (Graphic_Multi)GraphicDatabase.Get<Graphic_Multi>(this.ageTracker.CurKindLifeStage.bodyGraphicData.texPath + "Winter", ShaderDatabase.Cutout, vector, Color.white);
+                            this.pawn_renderer.graphics.dessicatedGraphic = dessicatedGraphic;
+                            this.pawn_renderer.graphics.ResolveAllGraphics();
+                            this.pawn_renderer.graphics.nakedGraphic = nakedGraphic;
 
 
-                        (this.pawn_renderer.graphics.nakedGraphic.data = new GraphicData()).shadowData = this.ageTracker.CurKindLifeStage.bodyGraphicData.shadowData;                        
-                        StatExtension.SetStatBaseValue(this.def,StatDefOf.ComfyTemperatureMin,-60f);
-                        StatExtension.SetStatBaseValue(this.def, StatDefOf.ComfyTemperatureMax, 10f);
-                    });
-                    woolType = 1;
+                            (this.pawn_renderer.graphics.nakedGraphic.data = new GraphicData()).shadowData = this.ageTracker.CurKindLifeStage.bodyGraphicData.shadowData;
+                            StatExtension.SetStatBaseValue(this.def, StatDefOf.ComfyTemperatureMin, -60f);
+                            StatExtension.SetStatBaseValue(this.def, StatDefOf.ComfyTemperatureMax, 10f);
+                            this.terrainName = "Ice";
+                        });
+                        woolType = 1;
+                    }
+                    
                 }
                 else if ((this.Position.GetTerrain(this.Map) == TerrainDef.Named("MossyTerrain")) || (this.Position.GetTerrain(this.Map) == TerrainDef.Named("MarshyTerrain")) || (this.Position.GetTerrain(this.Map) == TerrainDef.Named("SoilRich"))
                     || (this.Position.GetTerrain(this.Map).IsWater))
                 {
-                    LongEventHandler.ExecuteWhenFinished(delegate
+                    currentName = "Water";
+                    if (this.terrainName != currentName)
                     {
-                        Graphic_Multi nakedGraphic = (Graphic_Multi)GraphicDatabase.Get<Graphic_Multi>(this.ageTracker.CurKindLifeStage.bodyGraphicData.texPath + "Jungle", ShaderDatabase.Cutout, vector, Color.white);
-                        this.pawn_renderer.graphics.dessicatedGraphic = dessicatedGraphic;
-                        this.pawn_renderer.graphics.ResolveAllGraphics();
-                        this.pawn_renderer.graphics.nakedGraphic = nakedGraphic;
+                        LongEventHandler.ExecuteWhenFinished(delegate
+                        {
+                            Graphic_Multi nakedGraphic = (Graphic_Multi)GraphicDatabase.Get<Graphic_Multi>(this.ageTracker.CurKindLifeStage.bodyGraphicData.texPath + "Jungle", ShaderDatabase.Cutout, vector, Color.white);
+                            this.pawn_renderer.graphics.dessicatedGraphic = dessicatedGraphic;
+                            this.pawn_renderer.graphics.ResolveAllGraphics();
+                            this.pawn_renderer.graphics.nakedGraphic = nakedGraphic;
 
-                        (this.pawn_renderer.graphics.nakedGraphic.data = new GraphicData()).shadowData = this.ageTracker.CurKindLifeStage.bodyGraphicData.shadowData;
-                        StatExtension.SetStatBaseValue(this.def, StatDefOf.ComfyTemperatureMin, -10f);
-                        StatExtension.SetStatBaseValue(this.def, StatDefOf.ComfyTemperatureMax, 35f);
-                    });
-                    woolType = 2;
+                            (this.pawn_renderer.graphics.nakedGraphic.data = new GraphicData()).shadowData = this.ageTracker.CurKindLifeStage.bodyGraphicData.shadowData;
+                            StatExtension.SetStatBaseValue(this.def, StatDefOf.ComfyTemperatureMin, -10f);
+                            StatExtension.SetStatBaseValue(this.def, StatDefOf.ComfyTemperatureMax, 35f);
+                            this.terrainName = "Water";
+                        });
+                        woolType = 2;
+                    }
 
                 }
                 else if ((this.Position.GetTerrain(this.Map) == TerrainDef.Named("Sand")) || (this.Position.GetTerrain(this.Map) == TerrainDef.Named("SoftSand")))
                 {
-                    LongEventHandler.ExecuteWhenFinished(delegate
+                    currentName = "Desert";
+                    if (this.terrainName != currentName)
                     {
-                        Graphic_Multi nakedGraphic = (Graphic_Multi)GraphicDatabase.Get<Graphic_Multi>(this.ageTracker.CurKindLifeStage.bodyGraphicData.texPath + "Desert", ShaderDatabase.Cutout, vector, Color.white);
-                        this.pawn_renderer.graphics.dessicatedGraphic = dessicatedGraphic;
-                        this.pawn_renderer.graphics.ResolveAllGraphics();
-                        this.pawn_renderer.graphics.nakedGraphic = nakedGraphic;
+                        LongEventHandler.ExecuteWhenFinished(delegate
+                        {
+                            Graphic_Multi nakedGraphic = (Graphic_Multi)GraphicDatabase.Get<Graphic_Multi>(this.ageTracker.CurKindLifeStage.bodyGraphicData.texPath + "Desert", ShaderDatabase.Cutout, vector, Color.white);
+                            this.pawn_renderer.graphics.dessicatedGraphic = dessicatedGraphic;
+                            this.pawn_renderer.graphics.ResolveAllGraphics();
+                            this.pawn_renderer.graphics.nakedGraphic = nakedGraphic;
 
-                        (this.pawn_renderer.graphics.nakedGraphic.data = new GraphicData()).shadowData = this.ageTracker.CurKindLifeStage.bodyGraphicData.shadowData;
-                        StatExtension.SetStatBaseValue(this.def, StatDefOf.ComfyTemperatureMin, 0f);
-                        StatExtension.SetStatBaseValue(this.def, StatDefOf.ComfyTemperatureMax, 65f);
-                    });
-                    woolType = 3;
+                            (this.pawn_renderer.graphics.nakedGraphic.data = new GraphicData()).shadowData = this.ageTracker.CurKindLifeStage.bodyGraphicData.shadowData;
+                            StatExtension.SetStatBaseValue(this.def, StatDefOf.ComfyTemperatureMin, 0f);
+                            StatExtension.SetStatBaseValue(this.def, StatDefOf.ComfyTemperatureMax, 65f);
+                            this.terrainName = "Desert";
+                        });
+                        woolType = 3;
+                    }
 
                 }
                 else {
-                    LongEventHandler.ExecuteWhenFinished(delegate
-                    {
-                        Graphic_Multi nakedGraphic = (Graphic_Multi)GraphicDatabase.Get<Graphic_Multi>(this.ageTracker.CurKindLifeStage.bodyGraphicData.texPath, ShaderDatabase.Cutout, vector, Color.white);
-                        this.pawn_renderer.graphics.nakedGraphic = nakedGraphic;
-                        this.pawn_renderer.graphics.dessicatedGraphic = dessicatedGraphic;
-                        this.pawn_renderer.graphics.ResolveAllGraphics();
 
-                        //Log.Message(this.pawn_renderer.graphics.dessicatedGraphic.ToString());
-                        (this.pawn_renderer.graphics.nakedGraphic.data = new GraphicData()).shadowData = this.ageTracker.CurKindLifeStage.bodyGraphicData.shadowData;
-                        StatExtension.SetStatBaseValue(this.def, StatDefOf.ComfyTemperatureMin, -10f);
-                        StatExtension.SetStatBaseValue(this.def, StatDefOf.ComfyTemperatureMax, 35f);
-                    });
-                    woolType = 0;
+                    currentName = "Normal";
+                    if (this.terrainName != currentName)
+                    {
+                        LongEventHandler.ExecuteWhenFinished(delegate
+                        {
+                            Graphic_Multi nakedGraphic = (Graphic_Multi)GraphicDatabase.Get<Graphic_Multi>(this.ageTracker.CurKindLifeStage.bodyGraphicData.texPath, ShaderDatabase.Cutout, vector, Color.white);
+                            this.pawn_renderer.graphics.nakedGraphic = nakedGraphic;
+                            this.pawn_renderer.graphics.dessicatedGraphic = dessicatedGraphic;
+                            this.pawn_renderer.graphics.ResolveAllGraphics();
+
+                            //Log.Message(this.pawn_renderer.graphics.dessicatedGraphic.ToString());
+                            (this.pawn_renderer.graphics.nakedGraphic.data = new GraphicData()).shadowData = this.ageTracker.CurKindLifeStage.bodyGraphicData.shadowData;
+                            StatExtension.SetStatBaseValue(this.def, StatDefOf.ComfyTemperatureMin, -10f);
+                            StatExtension.SetStatBaseValue(this.def, StatDefOf.ComfyTemperatureMax, 35f);
+                            this.terrainName = "Normal";
+                        });
+                        woolType = 0;
+                    }
 
 
                 }

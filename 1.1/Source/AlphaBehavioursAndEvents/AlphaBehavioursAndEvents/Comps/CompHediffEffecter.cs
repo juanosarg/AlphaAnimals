@@ -31,56 +31,33 @@ namespace AlphaBehavioursAndEvents
             tickCounter++;
             if (tickCounter > Props.tickInterval)
             {
+
                 thisPawn = this.parent as Pawn;
                 if (thisPawn != null && thisPawn.Map != null && !thisPawn.Dead && !thisPawn.Downed)
                 {
-                    List<Pawn> allPawnsSpawned = thisPawn.Map.mapPawns.AllPawnsSpawned;
-
-                    for (int k = 0; k < allPawnsSpawned.Count; k++)
+                    foreach (Thing thing in GenRadial.RadialDistinctThingsAround(thisPawn.Position, thisPawn.Map, Props.radius, true))
                     {
-                        if (allPawnsSpawned[k] != null && allPawnsSpawned[k].IsColonist)
+                        Pawn pawn = thing as Pawn;
+                        if (pawn != null && pawn.IsColonist)
                         {
-                            pawnList.Add(allPawnsSpawned[k]);
-                        }
-                    }
 
-                    if (pawnList.Count > 0)
-                    {
-                        IntVec3 thisPawnLocation = thisPawn.Position;
-                        List<Pawn> tempList = new List<Pawn>();
-                        for (int k = 0; k < pawnList.Count; k++)
-                        {
-                            if (IntVec3Utility.ManhattanDistanceFlat(thisPawnLocation, pawnList[k].Position) < Props.radius)
+
+                            if (!pawn.Dead && !pawn.Downed && pawn.GetStatValue(StatDefOf.PsychicSensitivity, true) > 0f)
                             {
-                                tempList.Add(pawnList[k]);
+                                MoteMaker.MakeAttachedOverlay(this.parent, ThingDef.Named("Mote_PsycastPsychicEffect"), Vector3.zero, 1f, -1f);
+
+                                pawn.health.AddHediff(HediffDef.Named(Props.hediff));
                             }
+
+
                         }
-
-                        if (tempList.Count > 0)
-                        {
-                            Pawn chosenOne = tempList.RandomElement();
-                            if (chosenOne != null)
-                            {
-
-                                if (!chosenOne.Dead && !chosenOne.Downed)
-                                {
-                                    //SoundDefOf.PsychicPulseGlobal.PlayOneShot(new TargetInfo(this.parent.Position, this.parent.Map, false));
-                                    MoteMaker.MakeAttachedOverlay(this.parent, ThingDef.Named("Mote_PsycastPsychicEffect"), Vector3.zero, 1f, -1f);
-
-                                    chosenOne.health.AddHediff(HediffDef.Named(Props.hediff));
-                                }
-
-                            }
-                        }
-
-                        tempList.Clear();
-
 
                     }
-
 
                 }
-                pawnList.Clear();
+
+
+
                 tickCounter = 0;
             }
         }
