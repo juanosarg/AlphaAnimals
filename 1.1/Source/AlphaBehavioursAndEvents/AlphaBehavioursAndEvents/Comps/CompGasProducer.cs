@@ -38,8 +38,10 @@ namespace AlphaBehavioursAndEvents
                             if (current.InBounds(pawn.Map) && rand.NextDouble() < Props.rate)
                             {
                                 Thing thing = ThingMaker.MakeThing(ThingDef.Named(Props.gasType), null);
-
-                                GenSpawn.Spawn(thing, current, pawn.Map);
+                                thing.Rotation = Rot4.North;
+                                thing.Position = current;
+                                thing.SpawnSetup(pawn.Map, false);
+                                //GenSpawn.Spawn(thing, current, pawn.Map);
                             }
 
                         }
