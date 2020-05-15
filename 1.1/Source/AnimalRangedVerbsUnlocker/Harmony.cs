@@ -21,33 +21,33 @@ namespace AlphaAnimalRangeAttack
 
 
 
-	//Current effective verb influence target pick.
-	[HarmonyPatch(typeof(Pawn), "TryGetAttackVerb")]
-	public static class ARA__VerbCheck_Patch
-	{
-		static bool Prefix(ref Pawn __instance,ref Verb __result)
-		{
-			//If animal don't bother
-			if (!__instance.AnimalOrWildMan())
-				return true;
-			
-			List<Verb> verbList = __instance.verbTracker.AllVerbs;
-			for (int i = 0; i < verbList.Count; i++)
-			{
-				if (verbList[i].verbProps.range > 1.1f)
-				{
-					//found range verb return first one in the list
-					__result = verbList[i];
-					return false;
-				}
-			}
-			return true;
+    //Current effective verb influence target pick.
+    [HarmonyPatch(typeof(Pawn), "TryGetAttackVerb")]
+    public static class ARA__VerbCheck_Patch
+    {
+        private static void Postfix(ref Pawn __instance, ref Verb __result)
+        {
+            //Execute for animals and wild people only
+            if (__instance.AnimalOrWildMan())
+            {
+                //If no Verb was selected already, or the selected verb was melee, or the selected verb's range is less than or equal to 1.
+                if (__result == null || __result.IsMeleeAttack || __result.verbProps.range <= 1f)
+                {
+                    foreach (Verb verb in __instance.verbTracker.AllVerbs)
+                    {
+                        if (verb.verbProps.range > 1f)
+                        {
+                            __result = verb;
+                            break;
+                        }
+                    }
+                }
+            }
+        }
+    }
 
-		}
-	}
-	
-	
-	[HarmonyPatch(typeof(JobGiver_Manhunter), "TryGiveJob")]
+
+    [HarmonyPatch(typeof(JobGiver_Manhunter), "TryGiveJob")]
 	public static class ARA__ManHunter_Patch
 	{
 		
