@@ -303,6 +303,7 @@
     <Compile Include="Comps\CompChangeDef.cs" />
     <Compile Include="Comps\CompChangeWeather.cs" />
     <Compile Include="Comps\CompCorpseDecayer.cs" />
+    <Compile Include="Comps\CompDigPeriodically.cs" />
     <Compile Include="Comps\CompEatWeirdFood.cs" />
     <Compile Include="Comps\CompExploder.cs" />
     <Compile Include="Comps\CompExplodingHatcher.cs" />
@@ -316,6 +317,7 @@
     <Compile Include="Comps\CompProperties\CompProperties_ChangeDef.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_ChangeWeather.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_CorpseDecayer.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_DigPeriodically.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_EatWeirdFood.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_Exploder.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_ExplodingHatcher.cs" />
@@ -337,8 +339,10 @@
     <Compile Include="ExplosionsAndDamage\DamageWorker_Vampiric.cs" />
     <Compile Include="ExplosionsAndDamage\DeathActionWorker_GargantuanExplosion.cs" />
     <Compile Include="Hediffs\HediffCompProperties_AutoPermanentInjury.cs" />
+    <Compile Include="Hediffs\HediffCompProperties_ExplodeOnDowned.cs" />
     <Compile Include="Hediffs\HediffCompProperties_TurnsWhenDead.cs" />
     <Compile Include="Hediffs\HediffComp_AutoPermanentInjury.cs" />
+    <Compile Include="Hediffs\HediffComp_ExplodeOnDowned.cs" />
     <Compile Include="Hediffs\HediffComp_TurnWhenDead.cs" />
     <Compile Include="Jobs\JobDriver_AnimalResource.cs" />
     <Compile Include="Jobs\JobDriver_IngestWeird.cs" />

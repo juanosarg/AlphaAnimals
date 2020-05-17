@@ -1455,6 +1455,28 @@
 						</ThingDef>
 					</value>
 				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<ThingDef ParentName="AA_BodyPartProstheticBaseADS">
+							<defName>AA_GooAcidifier</defName>
+							<label>goo acidifier</label>
+							<description>A goo acidifier increases the acidity of a goo's internal organs, making it explode as soon as it is downed. Basically transforms goos into biological suicide bombers.</description>
+							<techLevel>Spacer</techLevel>
+							<costList>
+								<Steel>30</Steel>
+								<ComponentIndustrial>1</ComponentIndustrial>
+							</costList>
+							<statBases>
+								<WorkToMake>2000</WorkToMake>
+								<Mass>1</Mass>
+							</statBases>
+							<techHediffsTags>
+								<li>Simple</li>
+							</techHediffsTags>
+						</ThingDef>
+					</value>
+				</li>
 
 				<!-- Body Parts Hediffs -->
 
@@ -1834,7 +1856,26 @@
 						</HediffDef>
 					</value>
 				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<HediffDef ParentName="ImplantHediffBase">
+							<defName>AA_GooAcidifier</defName>
+							<label>goo acidifier</label>
+							<labelNoun>a goo acidifier</labelNoun>
+							<description>A goo acidifier increases the acidity of a goo's internal organs, making it explode as soon as it is downed. Basically transforms goos into biological suicide bombers.</description>
+							<descriptionHyperlinks>
+								<ThingDef>AA_GooAcidifier</ThingDef>
+							</descriptionHyperlinks>
+							<spawnThingOnRemoved>AA_GooAcidifier</spawnThingOnRemoved>
+							<comps>
+								<li Class="AlphaBehavioursAndEvents.HediffCompProperties_ExplodeOnDowned">
 
+								</li>
+							</comps>
+						</HediffDef>
+					</value>
+				</li>
 
 				<!-- Body Parts Operations -->
 
@@ -2431,6 +2472,45 @@
 						</RecipeDef>
 					</value>
 				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<RecipeDef ParentName="SurgeryInstallImplantBase">
+							<defName>AA_InstallGooAcidifier</defName>
+							<label>install goo acidifier</label>
+							<description>Install a goo acidifier.</description>
+							<descriptionHyperlinks>
+								<ThingDef>AA_GooAcidifier</ThingDef>
+							</descriptionHyperlinks>
+							<jobString>Installing goo acidifier.</jobString>
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>AA_GooAcidifier</li>
+										</thingDefs>
+									</filter>
+									<count>1</count>
+								</li>
+							</ingredients>
+							<recipeUsers inherit="false">
+								<li>AA_GreenGoo</li>
+								<li>AA_RedGoo</li>
+							</recipeUsers>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>AA_GooAcidifier</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<appliedOnFixedBodyParts>
+								<li>AA_Nucleus</li>
+							</appliedOnFixedBodyParts>
+							<addsHediff>AA_GooAcidifier</addsHediff>
+						</RecipeDef>
+					</value>
+				</li>
+
+
 
 				<!-- Final patch to vanilla to ensure these operations appear in all animals when they should -->
 

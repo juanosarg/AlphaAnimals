@@ -39,7 +39,7 @@ namespace AlphaBehavioursAndEvents
                     foreach (Thing thing in GenRadial.RadialDistinctThingsAround(thisPawn.Position, thisPawn.Map, Props.radius, true))
                     {
                         Pawn pawn = thing as Pawn;
-                        if (pawn != null && !pawn.AnimalOrWildMan() && pawn.RaceProps.IsFlesh)
+                        if (pawn != null && !pawn.AnimalOrWildMan() && pawn.RaceProps.IsFlesh && pawn!=this.parent)
                         {
                             
 
