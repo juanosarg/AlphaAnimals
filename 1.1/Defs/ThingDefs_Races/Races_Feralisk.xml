@@ -355,6 +355,7 @@
 		</race>
 		<tradeTags>
 			<li>ExoticAnimal</li>
+			<li>AnimalAlpha</li>
 		</tradeTags>
 	</ThingDef>
 

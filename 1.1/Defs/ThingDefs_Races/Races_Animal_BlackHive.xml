@@ -85,6 +85,7 @@
     </race>
     <tradeTags>
       <li>AnimalInsect</li>
+	  <li>AnimalAlpha</li>
     </tradeTags>
   </ThingDef>
   
@@ -222,6 +223,7 @@
     </race>
     <tradeTags>
       <li>AnimalInsect</li>
+	  <li>AnimalAlpha</li>
     </tradeTags>
   </ThingDef>
 
@@ -359,6 +361,7 @@
     </race>
     <tradeTags>
       <li>AnimalInsect</li>
+	  <li>AnimalAlpha</li>
     </tradeTags>
   </ThingDef>
 
