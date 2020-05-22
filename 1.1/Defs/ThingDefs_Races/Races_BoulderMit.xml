@@ -126,7 +126,7 @@
 		<ChunkMarble>2</ChunkMarble>
 	</butcherProducts>
 	<tradeTags>
-      <li>ExoticAnimal</li>
+      <li>AnimalExotic</li>
     </tradeTags>
   </ThingDef>
 
@@ -276,7 +276,7 @@
 		<ChunkMarble>6</ChunkMarble>
 	</butcherProducts>
 	<tradeTags>
-      <li>ExoticAnimal</li>
+      <li>AnimalExotic</li>
 	  <li>AnimalAlpha</li>
     </tradeTags>
   </ThingDef>

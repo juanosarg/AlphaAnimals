@@ -140,7 +140,7 @@
 			<RawFungus>2</RawFungus>
 		</butcherProducts>
 		<tradeTags>
-			<li>ExoticAnimal</li>
+			<li>AnimalExotic</li>
 		</tradeTags>
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">

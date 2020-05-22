@@ -135,7 +135,7 @@
 			<AA_AgariluxRawFungus>2</AA_AgariluxRawFungus>
 		</butcherProducts>
 		<tradeTags>
-			<li>ExoticAnimal</li>
+			<li>AnimalExotic</li>
 		</tradeTags>
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">
