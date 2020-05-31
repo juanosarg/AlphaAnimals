@@ -20,7 +20,7 @@
 			<li>
 				<label>left first leg</label>
 				<capacities>
-					<li>Scratch</li>
+					<li>AA_BurningAndFeedingBite</li>
 				</capacities>
 				<power>12</power>
 				<cooldownTime>1.5</cooldownTime>
@@ -29,7 +29,7 @@
 			<li>
 				<label>right first leg</label>
 				<capacities>
-					<li>Scratch</li>
+					<li>AA_BurningAndFeedingBite</li>
 				</capacities>
 				<power>12</power>
 				<cooldownTime>1.5</cooldownTime>
@@ -37,7 +37,7 @@
 			</li>
 			<li>
 				<capacities>
-					<li>AA_BurningBite</li>
+					<li>AA_BurningAndFeedingBite</li>
 				</capacities>
 				<power>15</power>
 				<cooldownTime>1.65</cooldownTime>

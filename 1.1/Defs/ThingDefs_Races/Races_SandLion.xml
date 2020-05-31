@@ -156,7 +156,7 @@
         </dessicatedBodyGraphicData>
       </li>
       <li>
-        <label>arctic lion juvenile</label>
+        <label>sand lion juvenile</label>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/AA_SandLion/AA_SandLion</texPath>
           <drawSize>1.85</drawSize>

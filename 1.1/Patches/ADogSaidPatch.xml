@@ -98,6 +98,11 @@
 						<li>AA_TarGuzzler</li>
 						<li>AA_Atispec</li>
 						<li>AA_Plasmorph</li>
+						
+						<li>AA_FireWasp</li>
+						<li>AA_ChemfuelMyrmidon</li>
+						<li>AA_SpinedGow</li>
+						<li>AA_Metallovore</li>
 
 
 
@@ -198,7 +203,10 @@
 						<li>AA_Atispec</li>
 						<li>AA_Plasmorph</li>
 
-
+						<li>AA_FireWasp</li>
+						<li>AA_ChemfuelMyrmidon</li>
+						<li>AA_SpinedGow</li>
+						<li>AA_Metallovore</li>
 
 
 
@@ -281,6 +289,10 @@
 						<li>AA_TarGuzzler</li>
 						<li>AA_Atispec</li>
 						<li>AA_Plasmorph</li>
+						
+						
+						<li>AA_SpinedGow</li>
+						<li>AA_Metallovore</li>
 					</value>
 				</li>
 
@@ -359,6 +371,10 @@
 						<li>AA_TarGuzzler</li>
 						<li>AA_Atispec</li>
 						<li>AA_Plasmorph</li>
+						
+						
+						<li>AA_SpinedGow</li>
+						<li>AA_Metallovore</li>
 					</value>
 				</li>
 
@@ -436,6 +452,10 @@
 						<li>AA_TarGuzzler</li>
 						<li>AA_Atispec</li>
 						<li>AA_Plasmorph</li>
+						
+						
+						<li>AA_SpinedGow</li>
+						<li>AA_Metallovore</li>
 
 					</value>
 				</li>
@@ -526,6 +546,11 @@
 						<li>AA_Atispec</li>
 						<li>AA_Plasmorph</li>
 						<li>AA_BumbledroneHierophant</li>
+						
+						<li>AA_FireWasp</li>
+						<li>AA_ChemfuelMyrmidon</li>
+						<li>AA_SpinedGow</li>
+						<li>AA_Metallovore</li>
 					</value>
 				</li>
 
@@ -611,6 +636,11 @@
 						<li>AA_TarGuzzler</li>
 						<li>AA_Atispec</li>
 						<li>AA_Plasmorph</li>
+						
+						<li>AA_FireWasp</li>
+						<li>AA_ChemfuelMyrmidon</li>
+						<li>AA_SpinedGow</li>
+						<li>AA_Metallovore</li>
 
 					</value>
 				</li>
@@ -665,6 +695,9 @@
 						<li>AA_Agaripawn</li>
 
 						<li>AA_TarGuzzler</li>
+												
+						<li>AA_SpinedGow</li>
+				
 
 
 					</value>
@@ -756,6 +789,11 @@
 						<li>AA_TarGuzzler</li>
 						<li>AA_Atispec</li>
 						<li>AA_Plasmorph</li>
+						
+						<li>AA_FireWasp</li>
+						<li>AA_ChemfuelMyrmidon</li>
+						<li>AA_SpinedGow</li>
+						<li>AA_Metallovore</li>
 
 					</value>
 				</li>
@@ -831,6 +869,10 @@
 
 						<li>AA_TarGuzzler</li>
 						<li>AA_Atispec</li>
+						
+						<li>AA_FireWasp</li>
+						<li>AA_SpinedGow</li>
+						<li>AA_Metallovore</li>
 
 
 					</value>
@@ -911,7 +953,11 @@
 						<li>AA_Agaripawn</li>
 
 						<li>AA_TarGuzzler</li>
-
+						
+						<li>AA_FireWasp</li>
+						<li>AA_ChemfuelMyrmidon</li>
+						<li>AA_SpinedGow</li>
+						<li>AA_Metallovore</li>
 
 
 					</value>
@@ -968,8 +1014,9 @@
 
 						<li>AA_TarGuzzler</li>
 
-
-
+						
+						<li>AA_SpinedGow</li>
+						
 
 					</value>
 				</li>
@@ -1045,7 +1092,10 @@
 						<li>AA_TarGuzzler</li>
 
 						<li>AA_BumbledroneHierophant</li>
-
+						<li>AA_FireWasp</li>
+						<li>AA_ChemfuelMyrmidon</li>
+						<li>AA_SpinedGow</li>
+						
 
 					</value>
 				</li>
@@ -1110,6 +1160,8 @@
 
 						<li>AA_TarGuzzler</li>
 						<li>AA_Atispec</li>
+						
+						
 
 
 					</value>
@@ -1663,6 +1715,7 @@
 					<value>
 						<HediffDef ParentName="addedPartAnimal">
 							<defName>AA_ProstheticShell</defName>
+							<hediffClass>Hediff_Implant</hediffClass>
 							<label>simple prosthetic shell</label>
 							<description>Simple prosthetic shell. Should be able to replace carapaces and shells.</description>
 							<defaultLabelColor>(233,129,69)</defaultLabelColor>
@@ -1691,6 +1744,7 @@
 						<HediffDef ParentName="addedPartAnimal">
 							<defName>AA_BionicShell</defName>
 							<label>bionic shell</label>
+							<hediffClass>Hediff_Implant</hediffClass>
 							<description>Improved bionic shell for animals. Should be able to replace carapaces and shells.</description>
 							<spawnThingOnRemoved>AA_BionicShell</spawnThingOnRemoved>
 							<addedPartProps>

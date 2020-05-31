@@ -43,6 +43,20 @@
 		<combatLogRulesMiss>Maneuver_Stab_MeleeMiss</combatLogRulesMiss>
 		<combatLogRulesDodge>Maneuver_Stab_MeleeDodge</combatLogRulesDodge>
 	</ManeuverDef>
+	
+	<ManeuverDef>
+		<defName>AA_BurningAndFeedingBite</defName>
+		<requiredCapacity>AA_BurningAndFeedingBite</requiredCapacity>
+		<verb>
+			<verbClass>Verb_MeleeAttackDamage</verbClass>
+			<meleeDamageDef>AA_BurningAndFeedingBite</meleeDamageDef>
+		</verb>
+		<logEntryDef>MeleeAttack</logEntryDef>
+		<combatLogRulesHit>Maneuver_Stab_MeleeHit</combatLogRulesHit>
+		<combatLogRulesDeflect>Maneuver_Stab_MeleeDeflect</combatLogRulesDeflect>
+		<combatLogRulesMiss>Maneuver_Stab_MeleeMiss</combatLogRulesMiss>
+		<combatLogRulesDodge>Maneuver_Stab_MeleeDodge</combatLogRulesDodge>
+	</ManeuverDef>	
 
 	<ManeuverDef>
 		<defName>AA_RegenerativePierce</defName>

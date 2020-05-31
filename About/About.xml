@@ -14,6 +14,11 @@
 			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
 		</li>
 	</modDependencies>
+	
+	<loadAfter>
+	  
+      <li>smashphil.boats</li>
+    </loadAfter>
 	<author>Sarg, AFriend, milon, Skullywag and kaptain_kavern</author>
 	
 		<packageId>sarg.alphaanimals</packageId>
@@ -22,7 +27,7 @@
 	
 &lt;size=24&gt;Features&lt;/size&gt;
 
-Adds 85 new, vanilla-friendly creatures to the diverse biomes of your Rimworlds. The philosophy of this mod is that every new creatures tries to bring some new mechanic into the game, whether it be walking tanks, living resource farm, indestructible plant monsters, night time stalkers, or plain speedy giant spiders. Some of the mechanics are simple, others much more complex.
+Adds 89 new, vanilla-friendly creatures to the diverse biomes of your Rimworlds. The philosophy of this mod is that every new creatures tries to bring some new mechanic into the game, whether it be walking tanks, living resource farm, indestructible plant monsters, night time stalkers, or plain speedy giant spiders. Some of the mechanics are simple, others much more complex.
 
 These animals will spawn in certain biomes, some others will only be available via traders. You'll have to explore to find them all! The Alpha Biomes is a companion mod that adds several new alien biomes to house these weird creatures.
 
@@ -62,6 +67,7 @@ Using NocturnalAnimals DLL by XeoNovaDan
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
 
+v2.4: Added 4 new animals. Varios bugfixes (31/05/20)
 v2.3: Added 4 new animals. Redesigned Bumbledrones. Added many new exotic implants such as tentacles and wings to A Dog Said (25/04/20)
 v2.2: Added 5 new animals (mechanoids). Bugfixing and balance tweaks. Full changelog on GitHub (29/03/20)
 v2.1: Added 8 new animals. Bugfixing and balance tweaks. Full changelog on GitHub (18/03/20)

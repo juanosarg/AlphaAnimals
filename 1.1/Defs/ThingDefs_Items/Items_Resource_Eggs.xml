@@ -45,7 +45,7 @@
 		<comps>
 			<li Class="CompProperties_TemperatureRuinable">
 				<minSafeTemperature>10</minSafeTemperature>
-				<maxSafeTemperature>100</maxSafeTemperature>
+				<maxSafeTemperature>180</maxSafeTemperature>
 				<progressPerDegreePerTick>0.00003</progressPerDegreePerTick>
 			</li>
 		</comps>
@@ -187,7 +187,7 @@
 			</li>
 		</comps>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="EggFertBase">
 		<defName>AA_AgaripawnSpores</defName>
 		<label>agaripawn spore clump (fert.)</label>
@@ -715,7 +715,7 @@
 			</li>
 		</comps>
 	</ThingDef>
-	
+
 	<!-- Cinderlisk Egg -->
 	<ThingDef ParentName="EggUnfertBase">
 		<defName>AA_CinderliskEggUnfertilized</defName>
@@ -818,7 +818,7 @@
 			</li>
 		</comps>
 	</ThingDef>
-	
+
 	<!-- =============== Night Ave Egg =============== -->
 
 
@@ -840,7 +840,7 @@
 			</li>
 		</comps>
 	</ThingDef>
-	
+
 	<!-- =============== Royal Ave Egg =============== -->
 
 
@@ -864,7 +864,7 @@
 	</ThingDef>
 
 
-<!-- =============== Rough Plated Monitor Egg =============== -->
+	<!-- =============== Rough Plated Monitor Egg =============== -->
 
 
 	<ThingDef ParentName="EggFertBase">
@@ -890,8 +890,8 @@
 			</li>
 		</comps>
 	</ThingDef>
-	
-		<!-- =============== Atispec Egg =============== -->
+
+	<!-- =============== Atispec Egg =============== -->
 
 
 	<ThingDef ParentName="EggFertBase">
@@ -909,6 +909,78 @@
 			<li Class="CompProperties_Hatcher">
 				<hatcherDaystoHatch>7</hatcherDaystoHatch>
 				<hatcherPawn>AA_LarvalAtispec</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<!-- =============== Fire Wasp Egg =============== -->
+
+
+	<ThingDef ParentName="AA_EggFertBaseHot">
+		<defName>AA_FireWaspEggFertilized</defName>
+		<label>fire wasp egg (fert.)</label>
+		<description>Fertilized fire wasp egg. If all goes well, it should hatch into a fire wasp. Fire Wasp Eggs radiate an incredible amount of heat, and they can be dangerous if left unchecked, and extremely uncomfortable to eat.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>0.75</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>7</MarketValue>
+			<Flammability>0</Flammability>
+			 <Nutrition>0.25</Nutrition>
+		</statBases>
+		<ingestible>
+			<foodType>AnimalProduct</foodType>
+			<ingestEffect>EatMeat</ingestEffect>
+			<ingestSound>RawMeat_Eat</ingestSound>
+			<preferability>RawBad</preferability>
+			<tasteThought>AA_UncomfortablyHot</tasteThought>
+			<specialThoughtAsIngredient>AA_UncomfortablyHot</specialThoughtAsIngredient>
+		</ingestible>
+
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>7</hatcherDaystoHatch>
+				<hatcherPawn>AA_FireWasp</hatcherPawn>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>CompHeatPusher</compClass>
+				<heatPerSecond>30</heatPerSecond>
+				<heatPushMaxTemperature>150</heatPushMaxTemperature>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>AA_FireWaspEggUnfertilized</defName>
+		<label>fire wasp egg (unfert.)</label>
+		<description>Unfertilized fire wasp egg. Fire Wasp Eggs radiate an incredible amount of heat, and they can be dangerous if left unchecked, and extremely uncomfortable to eat.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>0.75</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>7</MarketValue>
+			<Flammability>0</Flammability>
+			 <Nutrition>0.25</Nutrition>
+		</statBases>
+		<ingestible>
+			<foodType>AnimalProduct</foodType>
+			<ingestEffect>EatMeat</ingestEffect>
+			<ingestSound>RawMeat_Eat</ingestSound>
+			<preferability>RawBad</preferability>
+			<tasteThought>AA_UncomfortablyHot</tasteThought>
+			<specialThoughtAsIngredient>AA_UncomfortablyHot</specialThoughtAsIngredient>
+		</ingestible>
+
+		<comps>
+
+			<li Class="CompProperties_HeatPusher">
+				<compClass>CompHeatPusher</compClass>
+				<heatPerSecond>30</heatPerSecond>
+				<heatPushMaxTemperature>150</heatPushMaxTemperature>
 			</li>
 		</comps>
 	</ThingDef>

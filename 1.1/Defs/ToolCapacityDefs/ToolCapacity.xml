@@ -31,6 +31,11 @@
 		<defName>AA_BurningBite</defName>
 		<label>burning bite</label>
 	</ToolCapacityDef>
+
+	<ToolCapacityDef>
+		<defName>AA_BurningAndFeedingBite</defName>
+		<label>burning bite</label>
+	</ToolCapacityDef>
 	
 	<ToolCapacityDef>
 		<defName>AA_Acid</defName>

@@ -128,6 +128,37 @@
 			<li>AnimalProductRaw</li>
 		</thingCategories>
 	</ThingDef>
+	
+	<ThingDef ParentName="OrganicProductBase">
+		<defName>AA_GowMilk</defName>
+		<label>gow milk</label>
+		<description>Milk from a spined gow. Very nutritive but the reddish colour is a little unsettling.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AA_GowMilk</texPath>
+		</graphicData>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<statBases>
+			<MarketValue>4.1</MarketValue>
+			<Mass>0.045</Mass>
+			<MaxHitPoints>60</MaxHitPoints>
+			<Flammability>0.2</Flammability>
+			<Nutrition>0.06</Nutrition>
+			<FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>20</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<ingestible>
+			<preferability>RawTasty</preferability>
+			<foodType>AnimalProduct, Fluid</foodType>
+		</ingestible>
+		<thingCategories>
+			<li>AnimalProductRaw</li>
+		</thingCategories>
+	</ThingDef>
 
 	<ThingDef ParentName="AA_MeatMealRottable">
 		<defName>AA_DisgustingMealNutrientPaste</defName>

@@ -15,6 +15,8 @@
       <MarketValue>650</MarketValue>
       <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.4</ArmorRating_Sharp>
+	  			<Flammability>0</Flammability>
+
     </statBases>
     <tools>
       <li>

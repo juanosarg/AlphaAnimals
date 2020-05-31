@@ -24,17 +24,17 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>pdbonly</DebugType>
+    <DebugType>none</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
+    <OutputPath>..\..\..\Assemblies\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="0Harmony, Version=2.0.0.8, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Lib.Harmony.2.0.0.8\lib\net472\0Harmony.dll</HintPath>
+    <Reference Include="0Harmony, Version=2.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lib.Harmony.2.0.1\lib\net472\0Harmony.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Assembly-CSharp">
@@ -336,8 +336,10 @@
     <Compile Include="ExplosionsAndDamage\DamageWorker_Berserk.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_ExtraDamageInsectoids.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_ExtraInfecter.cs" />
+    <Compile Include="ExplosionsAndDamage\DamageWorker_FeedingFlame.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_Vampiric.cs" />
     <Compile Include="ExplosionsAndDamage\DeathActionWorker_GargantuanExplosion.cs" />
+    <Compile Include="Harmony\JobGiver_GetFood_TryGiveJob.cs" />
     <Compile Include="Hediffs\HediffCompProperties_AutoPermanentInjury.cs" />
     <Compile Include="Hediffs\HediffCompProperties_ExplodeOnDowned.cs" />
     <Compile Include="Hediffs\HediffCompProperties_TurnsWhenDead.cs" />

@@ -21,9 +21,9 @@ namespace AlphaBehavioursAndEvents
         {
             //base.Notify_PawnDied();
             float severityToTurn = Props.severityToTurn;
-          
 
-            if (this.parent.pawn.Corpse.Map != null && this.parent.Severity> severityToTurn) {
+            Map map = this.parent.pawn.Corpse.Map;
+            if (map != null && this.parent.Severity> severityToTurn) {
                 Gender oldGender = this.parent.pawn.gender;
                 Faction faction = null;
                 if (Props.isHostile)
@@ -49,14 +49,14 @@ namespace AlphaBehavioursAndEvents
                 for (int i = 0; i < 20; i++)
                 {
                     IntVec3 c;
-                    CellFinder.TryFindRandomReachableCellNear(this.parent.pawn.Corpse.Position, this.parent.pawn.Corpse.Map, 2, TraverseParms.For(TraverseMode.NoPassClosedDoors, Danger.Deadly, false), null, null, out c);
+                    CellFinder.TryFindRandomReachableCellNear(this.parent.pawn.Corpse.Position, map, 2, TraverseParms.For(TraverseMode.NoPassClosedDoors, Danger.Deadly, false), null, null, out c);
                    
                     FilthMaker.TryMakeFilth(c, this.parent.pawn.Corpse.Map, ThingDefOf.Filth_Blood);
                     
                 }
                 
                
-                SoundDefOf.Hive_Spawn.PlayOneShot(new TargetInfo(this.parent.pawn.Corpse.Position, this.parent.pawn.Corpse.Map, false));
+                SoundDefOf.Hive_Spawn.PlayOneShot(new TargetInfo(this.parent.pawn.Corpse.Position, map, false));
                 this.parent.pawn.Corpse.Destroy();
 
             }

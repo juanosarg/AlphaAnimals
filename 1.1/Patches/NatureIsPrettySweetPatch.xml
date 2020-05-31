@@ -136,6 +136,7 @@
 						<TKKN_Savanna>0.07</TKKN_Savanna>
 					</value>
 				</li>		
+				
 				<li Class="PatchOperationAdd"> 
 					<xpath>/Defs/ThingDef[defName="AA_FissionMouse"]/race/wildBiomes</xpath>
 					<value>

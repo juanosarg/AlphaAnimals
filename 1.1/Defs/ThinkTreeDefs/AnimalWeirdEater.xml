@@ -101,9 +101,7 @@
             <li Class="ThinkNode_Subtree">
               <treeDef>LeaveIfWrongSeason</treeDef>
             </li>
-            <li Class="ThinkNode_Subtree">
-              <treeDef>LeaveIfStarving</treeDef>
-            </li>
+           
 
             <!-- Wild animals randomly leave map -->
             <li Class="ThinkNode_ChancePerHour_Constant">

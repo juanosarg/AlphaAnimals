@@ -229,7 +229,22 @@ namespace AlphaBehavioursAndEvents
 
                 } else
                 {
-                    thing.HitPoints -= (int)(thing.MaxHitPoints * comp.Props.percentageOfDestruction);
+                    if (thing.def.useHitPoints) {
+                        thing.HitPoints -= (int)(thing.MaxHitPoints * comp.Props.percentageOfDestruction);
+                    } else
+                    {
+                        int thingsToDestroy = (int)(comp.Props.percentageOfDestruction * thing.def.stackLimit);
+                        //Log.Message(thingsToDestroy.ToString());
+
+                        thing.stackCount = thing.stackCount - thingsToDestroy;
+                        //Log.Message(thing.stackCount.ToString());
+                        if (thing.stackCount < 10)
+                        {
+                            thing.Destroy(DestroyMode.Vanish);
+                        }
+
+                    }
+                    
                 }
 
                 if (comp.Props.hediffWhenEaten!="")

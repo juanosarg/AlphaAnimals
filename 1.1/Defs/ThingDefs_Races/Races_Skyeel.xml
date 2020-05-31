@@ -150,6 +150,54 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
+	
+	
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>AA_SkyeelRavenous</defName>
+		<label>ravenous sky eel</label>
+		<race>AA_Skyeel</race>
+		<combatPower>80</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<defaultFactionType>Insect</defaultFactionType>
+		<ecoSystemWeight>0.25</ecoSystemWeight>
+		<lifeStages>
+			<li>
+
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_Skyeel/AA_Skyeel</texPath>
+					<drawSize>1.3</drawSize>
+
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_Skyeel/AA_Dessicated_Skyeel</texPath>
+					<drawSize>1.3</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_Skyeel/AA_Skyeel</texPath>
+					<drawSize>1.5</drawSize>
+
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_Skyeel/AA_Dessicated_Skyeel</texPath>
+					<drawSize>1.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_Skyeel/AA_Skyeel</texPath>
+					<drawSize>2.5</drawSize>
+
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_Skyeel/AA_Dessicated_Skyeel</texPath>
+					<drawSize>2.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
 
 
 

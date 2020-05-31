@@ -59,7 +59,7 @@ namespace AlphaBehavioursAndEvents
                 return null;
             }
 
-
+            //Log.Message("Eating");
 
             ThingDef thingDef = null;
             Thing thing = null;

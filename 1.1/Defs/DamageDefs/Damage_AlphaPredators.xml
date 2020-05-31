@@ -20,7 +20,7 @@
 		<impactSoundType>Slice</impactSoundType>
 		<armorCategory>Sharp</armorCategory>
 	</DamageDef>
-	
+
 	<DamageDef ParentName="CutBase">
 		<defName>AA_InfectedClaws</defName>
 		<label>infected claws</label>
@@ -34,14 +34,14 @@
 			</li>
 		</additionalHediffs>
 	</DamageDef>
-	
+
 	<DamageDef ParentName="CutBase">
 		<defName>AA_ExtraDamageInsectoidsClaws</defName>
 		<label>rending claws</label>
 		<workerClass>AlphaBehavioursAndEvents.DamageWorker_ExtraDamageInsectoids</workerClass>
-		
+
 	</DamageDef>
-	
+
 	<DamageDef Name="StingBolt">
 		<defName>AA_ToxicBolt</defName>
 		<label>toxic sting</label>
@@ -62,38 +62,57 @@
 		<impactSoundType>Slice</impactSoundType>
 		<armorCategory>Sharp</armorCategory>
 	</DamageDef>
-	
+
 	<DamageDef>
 		<defName>AA_AcidSpit</defName>
 		<label>acid spit</label>
 		<workerClass>DamageWorker_AddInjury</workerClass>
 		<externalViolence>true</externalViolence>
 		<deathMessage>{0} has been corroded to death.</deathMessage>
-		<hediff>Burn</hediff>
+		<hediff>AA_AcidBurn</hediff>
 		<additionalHediffs>
 			<li>
 				<hediff>AA_AcidBuildup</hediff>
 				<severityPerDamageDealt>0.01</severityPerDamageDealt>
-				
+
 			</li>
 		</additionalHediffs>
 		<isRanged>true</isRanged>
 		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
 		<armorCategory>Heat</armorCategory>
 	</DamageDef>
-	
+
+	<DamageDef>
+		<defName>AA_AcidRainDamage</defName>
+		<label>acid rain</label>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been corroded to death.</deathMessage>
+		<hediff>AA_AcidBurn</hediff>
+		<additionalHediffs>
+			<li>
+				<hediff>AA_AcidBuildup</hediff>
+				<severityPerDamageDealt>0.01</severityPerDamageDealt>
+
+			</li>
+		</additionalHediffs>
+		<isRanged>true</isRanged>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<armorCategory>Heat</armorCategory>
+	</DamageDef>
+
 	<DamageDef>
 		<defName>AA_SecondaryAcidBurn</defName>
 		<label>acid burn</label>
 		<workerClass>DamageWorker_AddInjury</workerClass>
 		<externalViolence>true</externalViolence>
 		<deathMessage>{0} has been corroded to death.</deathMessage>
-		<hediff>Burn</hediff>
-		
+		<hediff>AA_AcidBurn</hediff>
+
 		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
 		<armorCategory>Heat</armorCategory>
 	</DamageDef>
-	
+
 	<DamageDef>
 		<defName>AA_VeryToxicSting</defName>
 		<label>very toxic sting</label>
@@ -113,7 +132,7 @@
 		<impactSoundType>Slice</impactSoundType>
 		<armorCategory>Sharp</armorCategory>
 	</DamageDef>
-	
+
 	<DamageDef ParentName="Bite">
 		<defName>AA_ParalysingBite</defName>
 		<label>paralysing bite</label>
@@ -124,11 +143,11 @@
 			</li>
 		</additionalHediffs>
 	</DamageDef>
-	
+
 	<DamageDef>
 		<defName>AA_Electric</defName>
 		<label>electric shock</label>
-		    <hediff>Crush</hediff>
+		<hediff>Crush</hediff>
 
 		<additionalHediffs>
 			<li>
@@ -237,10 +256,33 @@
 	</DamageDef>
 
 	<DamageDef>
+		<defName>AA_BurningAndFeedingBite</defName>
+		<label>burning attack</label>
+		<deathMessage>{0} has been burned and gored to death.</deathMessage>
+		<impactSoundType>Slice</impactSoundType>
+		<armorCategory>Sharp</armorCategory>
+		<workerClass>AlphaBehavioursAndEvents.DamageWorker_FeedingFlame</workerClass>   
+		<hasForcefulImpact>false</hasForcefulImpact>
+		<makesBlood>false</makesBlood>
+		<canInterruptJobs>false</canInterruptJobs>
+		<externalViolence>true</externalViolence>  
+		<hediff>Burn</hediff> 
+		<minDamageToFragment>15</minDamageToFragment>
+		<defaultDamage>10</defaultDamage>
+		<defaultArmorPenetration>0</defaultArmorPenetration>
+		<explosionHeatEnergyPerCell>15</explosionHeatEnergyPerCell>
+		<explosionCellMote>Mote_BlastFlame</explosionCellMote>
+		<explosionColorCenter>(1, 0.7, 0.7)</explosionColorCenter>
+		<explosionColorEdge>(1, 1, 0.7)</explosionColorEdge>
+		<soundExplosion>Explosion_Flame</soundExplosion>
+		<combatLogRules>Damage_Flame</combatLogRules>
+	</DamageDef>
+
+	<DamageDef>
 		<defName>AA_RegenerativePierce</defName>
 		<label>vampiric stab</label>
 		<workerClass>AlphaBehavioursAndEvents.DamageWorker_Vampiric</workerClass>
-		
+
 		<externalViolence>true</externalViolence>
 		<deathMessage>{0} has been gored to death.</deathMessage>
 		<hediff>Stab</hediff>
