@@ -19,8 +19,8 @@
 		<statBases>
 			<MoveSpeed>5.7</MoveSpeed>
 			<ComfyTemperatureMin>-100</ComfyTemperatureMin>
-      <MarketValue>4000</MarketValue>
-	        <PsychicSensitivity>0</PsychicSensitivity>
+			<MarketValue>4000</MarketValue>
+			<PsychicSensitivity>0</PsychicSensitivity>
 
 
 		</statBases>
@@ -97,7 +97,9 @@
 			<baseHealthScale>40</baseHealthScale>
 			<foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
 			<leatherDef>Leather_Gallatross</leatherDef>
-
+			<willNeverEat>
+				<li MayRequire="Ludeon.RimWorld.Royalty">Plant_TreeAnima</li>
+			</willNeverEat>
 			<wildness>0.99</wildness>
 			<manhunterOnDamageChance>1.0</manhunterOnDamageChance>
 			<manhunterOnTameFailChance>0.3</manhunterOnTameFailChance>
@@ -144,7 +146,7 @@
 		<label>gallatross</label>
 		<race>AA_Gallatross</race>
 		<combatPower>1000</combatPower>
-   		<canArriveManhunter>false</canArriveManhunter>
+		<canArriveManhunter>false</canArriveManhunter>
 
 		<lifeStages>
 			<li>
@@ -191,9 +193,9 @@
 					<drawSize>4.5</drawSize>
 				</dessicatedBodyGraphicData>
 				<butcherBodyPart>
-          <bodyPartGroup>HornAttackTool</bodyPartGroup>
-          <thing>AA_GallatrossHorn</thing>
-        </butcherBodyPart>
+					<bodyPartGroup>HornAttackTool</bodyPartGroup>
+					<thing>AA_GallatrossHorn</thing>
+				</butcherBodyPart>
 			</li>
 		</lifeStages>
 	</PawnKindDef>

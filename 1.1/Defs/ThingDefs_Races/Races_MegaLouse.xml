@@ -128,27 +128,27 @@
     	<li>
     		<bodyGraphicData>
     			<texPath>Things/Pawn/Animal/AA_MegaLouse/AA_MegaLouse</texPath>
-    			<drawSize>0.8</drawSize>
-    		</bodyGraphicData>
-    		<dessicatedBodyGraphicData>
-    			<texPath>Things/Pawn/Animal/AA_MegaLouse/AA_Dessicated_MegaLouse</texPath>
-    			<drawSize>0.8</drawSize>
-    		</dessicatedBodyGraphicData>
-    	</li>
-    	<li>
-    		<bodyGraphicData>
-    			<texPath>Things/Pawn/Animal/AA_MegaLouse/AA_MegaLouse</texPath>
-    			<drawSize>1</drawSize>
-    		</bodyGraphicData>
-    		<dessicatedBodyGraphicData>
-    			<texPath>Things/Pawn/Animal/AA_MegaLouse/AA_Dessicated_MegaLouse</texPath>
-    			<drawSize>1</drawSize>
-    		</dessicatedBodyGraphicData>
-    	</li>
-    	<li>
-    		<bodyGraphicData>
-    			<texPath>Things/Pawn/Animal/AA_MegaLouse/AA_MegaLouse</texPath>
     			<drawSize>1.4</drawSize>
+    		</bodyGraphicData>
+    		<dessicatedBodyGraphicData>
+    			<texPath>Things/Pawn/Animal/AA_MegaLouse/AA_Dessicated_MegaLouse</texPath>
+    			<drawSize>1.4</drawSize>
+    		</dessicatedBodyGraphicData>
+    	</li>
+    	<li>
+    		<bodyGraphicData>
+    			<texPath>Things/Pawn/Animal/AA_MegaLouse/AA_MegaLouse</texPath>
+    			<drawSize>1.75</drawSize>
+    		</bodyGraphicData>
+    		<dessicatedBodyGraphicData>
+    			<texPath>Things/Pawn/Animal/AA_MegaLouse/AA_Dessicated_MegaLouse</texPath>
+    			<drawSize>1.75</drawSize>
+    		</dessicatedBodyGraphicData>
+    	</li>
+    	<li>
+    		<bodyGraphicData>
+    			<texPath>Things/Pawn/Animal/AA_MegaLouse/AA_MegaLouse</texPath>
+    			<drawSize>2</drawSize>
     			<shadowData>
     				<volume>(0.2, 0.3, 0.2)</volume>
     				<offset>(0,0,0)</offset>
@@ -156,7 +156,7 @@
     		</bodyGraphicData>
     		<dessicatedBodyGraphicData>
     			<texPath>Things/Pawn/Animal/AA_MegaLouse/AA_Dessicated_MegaLouse</texPath>
-    			<drawSize>1.4</drawSize>
+    			<drawSize>2</drawSize>
     		</dessicatedBodyGraphicData>
     	</li>
     </lifeStages>
