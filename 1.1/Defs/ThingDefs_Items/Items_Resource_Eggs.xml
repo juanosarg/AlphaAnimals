@@ -83,7 +83,9 @@
 			<color>(255,241,107)</color>
 
 		</graphicData>
-
+		<thingSetMakerTags>
+			<li>NotForGuests</li>
+		</thingSetMakerTags>
 		<comps>
 			<li Class="CompProperties_Hatcher">
 				<hatcherDaystoHatch>15</hatcherDaystoHatch>
@@ -109,7 +111,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 
 		</graphicData>
-
+		<thingSetMakerTags>
+			<li>NotForGuests</li>
+		</thingSetMakerTags>
 		<comps>
 			<li Class="CompProperties_Hatcher">
 				<hatcherDaystoHatch>5</hatcherDaystoHatch>
@@ -132,7 +136,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 
 		</graphicData>
-
+		<thingSetMakerTags>
+			<li>NotForGuests</li>
+		</thingSetMakerTags>
 		<comps>
 			<li Class="CompProperties_Hatcher">
 				<hatcherDaystoHatch>5</hatcherDaystoHatch>
@@ -155,7 +161,9 @@
 			<graphicClass>Graphic_Single</graphicClass>
 
 		</graphicData>
-
+		<thingSetMakerTags>
+			<li>NotForGuests</li>
+		</thingSetMakerTags>
 		<comps>
 			<li Class="CompProperties_Hatcher">
 				<hatcherDaystoHatch>5</hatcherDaystoHatch>
@@ -179,7 +187,9 @@
 			<drawSize>.85</drawSize>
 
 		</graphicData>
-
+		<thingSetMakerTags>
+			<li>NotForGuests</li>
+		</thingSetMakerTags>
 		<comps>
 			<li Class="CompProperties_Hatcher">
 				<hatcherDaystoHatch>5</hatcherDaystoHatch>
@@ -203,7 +213,9 @@
 			<drawSize>.85</drawSize>
 
 		</graphicData>
-
+		<thingSetMakerTags>
+			<li>NotForGuests</li>
+		</thingSetMakerTags>
 		<comps>
 			<li Class="CompProperties_Hatcher">
 				<hatcherDaystoHatch>5</hatcherDaystoHatch>
@@ -476,7 +488,9 @@
 			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
 			<color>(79,67,61)</color>
 		</graphicData>
-
+		<thingSetMakerTags>
+			<li>NotForGuests</li>
+		</thingSetMakerTags>
 		<comps>
 			<li Class="CompProperties_Hatcher">
 				<hatcherDaystoHatch>18</hatcherDaystoHatch>
@@ -500,6 +514,9 @@
 			<Flammability>0.7</Flammability>
 
 		</statBases>
+		<thingSetMakerTags>
+			<li>NotForGuests</li>
+		</thingSetMakerTags>
 		<thingCategories>
 			<li>EggsFertilized</li>
 		</thingCategories>
@@ -555,7 +572,9 @@
 			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
 			<color>(186,170,112)</color>
 		</graphicData>
-
+		<thingSetMakerTags>
+			<li>NotForGuests</li>
+		</thingSetMakerTags>
 		<comps>
 			<li Class="CompProperties_Hatcher">
 				<hatcherDaystoHatch>18</hatcherDaystoHatch>
@@ -579,6 +598,9 @@
 			<Flammability>0.7</Flammability>
 
 		</statBases>
+		<thingSetMakerTags>
+			<li>NotForGuests</li>
+		</thingSetMakerTags>
 		<thingCategories>
 			<li>EggsFertilized</li>
 		</thingCategories>
@@ -631,7 +653,9 @@
 			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
 			<color>(179,178,190)</color>
 		</graphicData>
-
+		<thingSetMakerTags>
+			<li>NotForGuests</li>
+		</thingSetMakerTags>
 		<comps>
 			<li Class="CompProperties_Hatcher">
 				<hatcherDaystoHatch>18</hatcherDaystoHatch>
@@ -655,6 +679,9 @@
 			<Flammability>0.7</Flammability>
 
 		</statBases>
+		<thingSetMakerTags>
+			<li>NotForGuests</li>
+		</thingSetMakerTags>
 		<thingCategories>
 			<li>EggsFertilized</li>
 		</thingCategories>
@@ -703,6 +730,9 @@
 			<MarketValue>9.0</MarketValue>
 
 		</statBases>
+		<thingSetMakerTags>
+			<li>NotForGuests</li>
+		</thingSetMakerTags>
 		<graphicData>
 			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
 			<color>(110,117,65)</color>
@@ -742,6 +772,9 @@
 			<MarketValue>9.0</MarketValue>
 
 		</statBases>
+		<thingSetMakerTags>
+			<li>NotForGuests</li>
+		</thingSetMakerTags>
 		<graphicData>
 			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
 			<color>(109,109,109)</color>
@@ -879,6 +912,9 @@
 			<MarketValue>10.0</MarketValue>
 			<MaxHitPoints>200</MaxHitPoints>
 		</statBases>
+		<thingSetMakerTags>
+			<li>NotForGuests</li>
+		</thingSetMakerTags>
 		<comps>
 			<li Class="AlphaBehavioursAndEvents.CompProperties_ExplodingHatcher">
 				<hatcherDaystoHatch>2</hatcherDaystoHatch>
@@ -905,6 +941,9 @@
 		<statBases>
 			<MarketValue>0.5</MarketValue>
 		</statBases>
+		<thingSetMakerTags>
+			<li>NotForGuests</li>
+		</thingSetMakerTags>
 		<comps>
 			<li Class="CompProperties_Hatcher">
 				<hatcherDaystoHatch>7</hatcherDaystoHatch>
@@ -928,7 +967,7 @@
 		<statBases>
 			<MarketValue>7</MarketValue>
 			<Flammability>0</Flammability>
-			 <Nutrition>0.25</Nutrition>
+			<Nutrition>0.25</Nutrition>
 		</statBases>
 		<ingestible>
 			<foodType>AnimalProduct</foodType>
@@ -938,7 +977,9 @@
 			<tasteThought>AA_UncomfortablyHot</tasteThought>
 			<specialThoughtAsIngredient>AA_UncomfortablyHot</specialThoughtAsIngredient>
 		</ingestible>
-
+		<thingSetMakerTags>
+			<li>NotForGuests</li>
+		</thingSetMakerTags>
 		<comps>
 			<li Class="CompProperties_Hatcher">
 				<hatcherDaystoHatch>7</hatcherDaystoHatch>
@@ -964,7 +1005,7 @@
 		<statBases>
 			<MarketValue>7</MarketValue>
 			<Flammability>0</Flammability>
-			 <Nutrition>0.25</Nutrition>
+			<Nutrition>0.25</Nutrition>
 		</statBases>
 		<ingestible>
 			<foodType>AnimalProduct</foodType>
@@ -974,7 +1015,9 @@
 			<tasteThought>AA_UncomfortablyHot</tasteThought>
 			<specialThoughtAsIngredient>AA_UncomfortablyHot</specialThoughtAsIngredient>
 		</ingestible>
-
+		<thingSetMakerTags>
+			<li>NotForGuests</li>
+		</thingSetMakerTags>
 		<comps>
 
 			<li Class="CompProperties_HeatPusher">
