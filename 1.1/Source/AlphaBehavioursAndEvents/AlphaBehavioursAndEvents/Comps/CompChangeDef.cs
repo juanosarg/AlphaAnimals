@@ -37,10 +37,12 @@ namespace AlphaBehavioursAndEvents
                     }
                     if (lord == null)
                     {
-                        LordJob_DefendPoint lordJob = new LordJob_DefendPoint(pawn.Position);
+                        LordJob_DefendPoint lordJob = new LordJob_DefendPoint(pawn.Position, null, false, true);
                         lord = LordMaker.MakeNewLord(Faction.OfMechanoids, lordJob, Find.CurrentMap, null);
                     }
                     lord.AddPawn(pawn);
+
+
                     this.parent.Destroy();
                 }
 
