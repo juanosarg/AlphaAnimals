@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Implants -->
+
+ <HediffDef ParentName="InjuryBase">
+    <defName>AA_PermanentBurn</defName>
+    <label>permanent burn</label>
+	<description>A permanent burn scar that cannot be treated.</description>
+    <labelNoun>a permanent burn</labelNoun>
+    <comps>
+     
+      <li Class="HediffCompProperties_Infecter">
+        <infectionChance>0.30</infectionChance>
+      </li>
+      <li Class="HediffCompProperties_GetsPermanent">
+        <permanentLabel>permanent burn</permanentLabel>
+		<becomePermanentChanceFactor>100</becomePermanentChanceFactor>
+      </li>
+	  <li Class="AlphaBehavioursAndEvents.HediffCompProperties_AutoPermanentInjury">
+        
+      </li>
+    </comps>
+    <injuryProps>
+      <painPerSeverity>0.10</painPerSeverity>
+      <averagePainPerSeverityPermanent>0.05</averagePainPerSeverityPermanent>
+      <canMerge>true</canMerge>
+      <destroyedLabel>Burned off</destroyedLabel>
+      <destroyedOutLabel>Burned out</destroyedOutLabel>
+    </injuryProps>
+  </HediffDef>
+
+  
+  
+  <HediffDef>
+    <defName>AA_LightSustenance</defName>
+	<description>This creature feeds on sunlight. Inadequate levels of light will kill it.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+    <label>level of sunlight</label>
+	<lethalSeverity>1</lethalSeverity>
+    <makesSickThought>false</makesSickThought>
+    <scenarioCanAdd>false</scenarioCanAdd>
+	    <minSeverity>0.01</minSeverity>
+
+	
+    <comps>
+      <li Class="HediffCompProperties_Immunizable">
+        <severityPerDayNotImmune>-0.08</severityPerDayNotImmune>
+      </li>
+    </comps>
+    <stages>
+     
+      <li>
+        <label>adequate light</label>
+        <minSeverity>0</minSeverity>
+
+      </li>
+      <li>
+        <label>poor light levels</label>
+        <minSeverity>0.2</minSeverity>
+
+      </li>
+      <li>
+        <label>very low light levels</label>
+        <minSeverity>0.40</minSeverity>
+
+        
+      </li>
+      <li>
+        <label>lack of sunlight</label>
+        <minSeverity>0.60</minSeverity>
+
+       
+      </li>
+      <li>
+        <label>extreme lack of sustenance</label>
+        <minSeverity>0.80</minSeverity>
+
+       
+      </li>
+    </stages>
+  </HediffDef>
+
+</Defs>

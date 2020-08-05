@@ -332,7 +332,6 @@
     <Compile Include="Comps\CompStateAfterHealthLoss.cs" />
     <Compile Include="Comps\CompSummonOnSpawn.cs" />
     <Compile Include="Comps\CompThoughtEffecter.cs" />
-    <Compile Include="Defs\LocalJobDefOf.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_Berserk.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_ExtraDamageInsectoids.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_ExtraInfecter.cs" />
@@ -340,6 +339,7 @@
     <Compile Include="ExplosionsAndDamage\DamageWorker_Vampiric.cs" />
     <Compile Include="ExplosionsAndDamage\DeathActionWorker_GargantuanExplosion.cs" />
     <Compile Include="Harmony\JobGiver_GetFood_TryGiveJob.cs" />
+    <Compile Include="Harmony\Thing_ButcherProducts.cs" />
     <Compile Include="Hediffs\HediffCompProperties_AutoPermanentInjury.cs" />
     <Compile Include="Hediffs\HediffCompProperties_ExplodeOnDowned.cs" />
     <Compile Include="Hediffs\HediffCompProperties_TurnsWhenDead.cs" />
@@ -410,5 +410,6 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

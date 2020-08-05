@@ -10,7 +10,7 @@ namespace AlphaBehavioursAndEvents
         {
             get
             {
-                return LocalJobDefOf.AA_AnimalResource;
+                return DefDatabase<JobDef>.GetNamed("AA_AnimalResource");
             }
         }
 
