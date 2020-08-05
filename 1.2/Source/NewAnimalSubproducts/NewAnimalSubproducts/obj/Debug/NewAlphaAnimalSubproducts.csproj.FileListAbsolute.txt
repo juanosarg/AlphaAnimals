@@ -18,3 +18,6 @@ E:\SteamLibrary\steamapps\common\RimWorld\Mods\AlphaAnimals\v1.1\Source\NewAnima
 E:\SteamLibrary\steamapps\common\RimWorld\Mods\AlphaAnimals\v1.1\Source\NewAnimalSubproducts\NewAnimalSubproducts\obj\Debug\NewAlphaAnimalSubproducts.csproj.CoreCompileInputs.cache
 E:\SteamLibrary\steamapps\common\RimWorld\Mods\AlphaAnimals\v1.1\Source\NewAnimalSubproducts\NewAnimalSubproducts\obj\Debug\NewAlphaAnimalSubproducts.csproj.CopyComplete
 E:\SteamLibrary\steamapps\common\RimWorld\Mods\AlphaAnimals\v1.1\Source\NewAnimalSubproducts\NewAnimalSubproducts\obj\Debug\NewAlphaAnimalSubproducts.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlphaAnimals\1.2\Assemblies\NewAlphaAnimalSubproducts.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlphaAnimals\1.2\Source\NewAnimalSubproducts\NewAnimalSubproducts\obj\Debug\NewAlphaAnimalSubproducts.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlphaAnimals\1.2\Source\NewAnimalSubproducts\NewAnimalSubproducts\obj\Debug\NewAlphaAnimalSubproducts.dll

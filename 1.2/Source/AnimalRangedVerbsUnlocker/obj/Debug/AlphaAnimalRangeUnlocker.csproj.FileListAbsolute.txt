@@ -22,3 +22,6 @@ C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlphaAnimals\1.1\Ass
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlphaAnimals\1.1\Source\AnimalRangedVerbsUnlocker\obj\Debug\AlphaAnimalRangeUnlocker.csprojAssemblyReference.cache
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlphaAnimals\1.1\Source\AnimalRangedVerbsUnlocker\obj\Debug\AlphaAnimalRangeUnlocker.csproj.CoreCompileInputs.cache
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlphaAnimals\1.1\Source\AnimalRangedVerbsUnlocker\obj\Debug\AlphaAnimalRangeUnlocker.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlphaAnimals\1.2\Source\AnimalRangedVerbsUnlocker\obj\Debug\AlphaAnimalRangeUnlocker.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlphaAnimals\1.2\Source\AnimalRangedVerbsUnlocker\obj\Debug\AlphaAnimalRangeUnlocker.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlphaAnimals\1.2\Assemblies\AlphaAnimalRangeUnlocker.dll
