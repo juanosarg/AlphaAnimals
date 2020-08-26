@@ -103,6 +103,9 @@
 						<li>AA_ChemfuelMyrmidon</li>
 						<li>AA_SpinedGow</li>
 						<li>AA_Metallovore</li>
+						
+						<li>AA_AngelMoth</li>
+						<li>AA_RayHound</li>
 
 
 
@@ -208,7 +211,8 @@
 						<li>AA_SpinedGow</li>
 						<li>AA_Metallovore</li>
 
-
+						<li>AA_AngelMoth</li>
+						<li>AA_RayHound</li>
 
 
 					</value>
@@ -293,6 +297,8 @@
 						
 						<li>AA_SpinedGow</li>
 						<li>AA_Metallovore</li>
+						
+						<li>AA_RayHound</li>
 					</value>
 				</li>
 
@@ -375,6 +381,8 @@
 						
 						<li>AA_SpinedGow</li>
 						<li>AA_Metallovore</li>
+						
+						<li>AA_RayHound</li>
 					</value>
 				</li>
 
@@ -456,6 +464,8 @@
 						
 						<li>AA_SpinedGow</li>
 						<li>AA_Metallovore</li>
+						
+						<li>AA_RayHound</li>
 
 					</value>
 				</li>
@@ -551,6 +561,8 @@
 						<li>AA_ChemfuelMyrmidon</li>
 						<li>AA_SpinedGow</li>
 						<li>AA_Metallovore</li>
+						<li>AA_AngelMoth</li>
+						<li>AA_RayHound</li>
 					</value>
 				</li>
 
@@ -641,7 +653,8 @@
 						<li>AA_ChemfuelMyrmidon</li>
 						<li>AA_SpinedGow</li>
 						<li>AA_Metallovore</li>
-
+						<li>AA_AngelMoth</li>
+						<li>AA_RayHound</li>
 					</value>
 				</li>
 
@@ -698,8 +711,7 @@
 												
 						<li>AA_SpinedGow</li>
 				
-
-
+						<li>AA_RayHound</li>
 					</value>
 				</li>
 
@@ -794,7 +806,8 @@
 						<li>AA_ChemfuelMyrmidon</li>
 						<li>AA_SpinedGow</li>
 						<li>AA_Metallovore</li>
-
+						<li>AA_AngelMoth</li>
+						<li>AA_RayHound</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
@@ -873,7 +886,8 @@
 						<li>AA_FireWasp</li>
 						<li>AA_SpinedGow</li>
 						<li>AA_Metallovore</li>
-
+						<li>AA_AngelMoth</li>
+						<li>AA_RayHound</li>
 
 					</value>
 				</li>
@@ -958,7 +972,8 @@
 						<li>AA_ChemfuelMyrmidon</li>
 						<li>AA_SpinedGow</li>
 						<li>AA_Metallovore</li>
-
+						<li>AA_AngelMoth</li>
+						<li>AA_RayHound</li>
 
 					</value>
 				</li>
@@ -1016,7 +1031,8 @@
 
 						
 						<li>AA_SpinedGow</li>
-						
+						<li>AA_AngelMoth</li>
+						<li>AA_RayHound</li>
 
 					</value>
 				</li>
@@ -1095,7 +1111,8 @@
 						<li>AA_FireWasp</li>
 						<li>AA_ChemfuelMyrmidon</li>
 						<li>AA_SpinedGow</li>
-						
+					
+						<li>AA_RayHound</li>	
 
 					</value>
 				</li>
@@ -1162,6 +1179,7 @@
 						<li>AA_Atispec</li>
 						
 						
+						<li>AA_RayHound</li>
 
 
 					</value>

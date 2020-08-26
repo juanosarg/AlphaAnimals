@@ -2,7 +2,7 @@
 <Patch>
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>Advanced Biomes</li>
+			<li>Advanced Biomes (Continued)</li>
 		</mods>
 
 		<match Class="PatchOperationSequence">
