@@ -15,6 +15,20 @@
 		<combatLogRulesMiss>Maneuver_Smash_MeleeMiss</combatLogRulesMiss>
 		<combatLogRulesDodge>Maneuver_Smash_MeleeDodge</combatLogRulesDodge>
 	</ManeuverDef>
+	
+	<ManeuverDef>
+		<defName>AA_EMPBlunt</defName>
+		<requiredCapacity>AA_EMPBlunt</requiredCapacity>
+		<verb>
+			<verbClass>Verb_MeleeAttackDamage</verbClass>
+			<meleeDamageDef>EMP</meleeDamageDef>
+		</verb>
+		<logEntryDef>MeleeAttack</logEntryDef>
+		<combatLogRulesHit>Maneuver_Smash_MeleeHit</combatLogRulesHit>
+		<combatLogRulesDeflect>Maneuver_Smash_MeleeDeflect</combatLogRulesDeflect>
+		<combatLogRulesMiss>Maneuver_Smash_MeleeMiss</combatLogRulesMiss>
+		<combatLogRulesDodge>Maneuver_Smash_MeleeDodge</combatLogRulesDodge>
+	</ManeuverDef>
 
 	<ManeuverDef>
 		<defName>AA_Pierce</defName>

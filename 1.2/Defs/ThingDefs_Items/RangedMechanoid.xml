@@ -56,29 +56,90 @@
 			</li>
 		</verbs>
 	</ThingDef>
-	
-	  <ThingDef ParentName="BaseBullet">
-    <defName>AA_Bullet_Shell_Explosive</defName>
-    <label>high-explosive shell</label>
-    <graphicData>
-      <texPath>Things/Projectile/ShellHighExplosive</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>TransparentPostLight</shaderType>
-    </graphicData>
-    <thingClass>Projectile_Explosive</thingClass>
-    <projectile>
-      <damageDef>Bomb</damageDef>
-      <!-- damage amount is the damage def default -->
-	  <damageAmountBase>30</damageAmountBase>
-      <speed>41</speed>
-      <explosionRadius>3.9</explosionRadius>
-      <flyOverhead>true</flyOverhead>
-      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
-      <soundExplode>MortarBomb_Explode</soundExplode>
-      <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
-      <soundAmbient>MortarRound_Ambient</soundAmbient>
-    </projectile>
-  </ThingDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>AA_Bullet_Shell_Explosive</defName>
+		<label>high-explosive shell</label>
+		<graphicData>
+			<texPath>Things/Projectile/ShellHighExplosive</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<damageDef>Bomb</damageDef>
+			<!-- damage amount is the damage def default -->
+			<damageAmountBase>30</damageAmountBase>
+			<speed>41</speed>
+			<explosionRadius>3.9</explosionRadius>
+			<flyOverhead>true</flyOverhead>
+			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+			<soundExplode>MortarBomb_Explode</soundExplode>
+			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+			<soundAmbient>MortarRound_Ambient</soundAmbient>
+		</projectile>
+	</ThingDef>
+
+
+	<!-- Demolisher Charges -->
+
+	<ThingDef Abstract="True" ParentName="BaseGunWithQuality" Name="AA_DemolisherChargeBase">
+		<label>demolisher charges</label>
+		<description>A huge turret that fires explosive warheads.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Animal/AA_ArcticLion/AA_ArcticLion_Invisible</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>1400</MarketValue>
+			<Mass>18</Mass>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+		</statBases>
+		<techLevel>Spacer</techLevel>
+		<menuHidden>True</menuHidden>
+		<generateCommonality>0.5</generateCommonality>
+		<tradeability>None</tradeability>
+
+	</ThingDef>
+
+	<ThingDef ParentName="AA_DemolisherChargeBase">
+		<defName>AA_DemolisherCharges</defName>
+		<weaponTags>
+			<li>AA_MechanoidDemolisherCharges</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AA_Bullet_Shell_Demolisher</defaultProjectile>				
+				<warmupTime>1</warmupTime>
+				<range>3</range>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>AA_DemolisherCharge</soundCast>
+
+				<muzzleFlashScale>14</muzzleFlashScale>
+				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+			</li>
+		</verbs>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>AA_Bullet_Shell_Demolisher</defName>
+		<label>demolisher charge</label>
+		<thingClass>AlphaAnimalRangeAttack.AnimalProjectile</thingClass>
+		<graphicData>
+			<texPath>Things/Pawn/Animal/AA_ArcticLion/AA_ArcticLion_Invisible</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<flyOverhead>false</flyOverhead>
+			<damageDef>AA_SiegeBlunt</damageDef>
+			<damageAmountBase>20</damageAmountBase>
+			<speed>40</speed>
+		</projectile>
+	</ThingDef>
+
+
 
 	<!-- Flamethrower -->
 
@@ -128,7 +189,7 @@
 				<burstShotCount>2</burstShotCount>
 				<soundCast>ThrowMolotovCocktail</soundCast>
 				<muzzleFlashScale>2</muzzleFlashScale>
-				
+
 			</li>
 		</verbs>
 	</ThingDef>
@@ -170,6 +231,80 @@
 			<ai_IsIncendiary>true</ai_IsIncendiary>
 			<soundExplode>Interact_Ignite</soundExplode>
 
+		</projectile>
+	</ThingDef>
+
+	<!-- Cryoweapon -->
+
+	<ThingDef Abstract="True" ParentName="BaseGunWithQuality" Name="AA_CryogenicGunBase">
+		<label>cryogenic gun</label>
+		<description>A cryogenic gun.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Animal/AA_ArcticLion/AA_ArcticLion_Invisible</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>1400</MarketValue>
+			<Mass>18</Mass>
+			<RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+		</statBases>
+		<techLevel>Spacer</techLevel>
+		<menuHidden>True</menuHidden>
+		<generateCommonality>0.5</generateCommonality>
+		<tradeability>None</tradeability>
+		<tools>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>11.7</power>
+				<cooldownTime>2.6</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="AA_CryogenicGunBase">
+		<defName>AA_CryogenicGun</defName>
+		<weaponTags>
+			<li>AA_MechanoidCryoweapon</li>
+		</weaponTags>
+		<verbs>
+			<li>
+
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AA_CryoBullet</defaultProjectile>
+				<forcedMissRadius>2</forcedMissRadius>
+				
+				<warmupTime>2</warmupTime>
+				<range>10</range>
+				<burstShotCount>4</burstShotCount>
+				<soundCast>AA_Cryogun</soundCast>
+				<muzzleFlashScale>2</muzzleFlashScale>
+
+			</li>
+		</verbs>
+	</ThingDef>
+
+
+
+	<ThingDef ParentName="AA_BaseMechProjectile">
+		<defName>AA_CryoBullet</defName>
+		<label>cryogenic pellet</label>
+		<graphicData>
+			<texPath>Things/Projectiles/AA_Cryo</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<speed>40</speed>
+			<damageDef>Frostbite</damageDef>
+			<damageAmountBase>5</damageAmountBase>
+			<explosionRadius>3</explosionRadius>						
+			<soundExplode>AA_Cryogun</soundExplode>
+			
 		</projectile>
 	</ThingDef>
 

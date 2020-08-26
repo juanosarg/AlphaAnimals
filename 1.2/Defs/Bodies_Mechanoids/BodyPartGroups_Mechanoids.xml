@@ -8,6 +8,12 @@
   </BodyPartGroupDef>
   
     <BodyPartGroupDef>
+    <defName>AA_MechaClaws</defName>
+    <label>mechanoid claws</label>
+    <labelShort>mechanoid claw</labelShort>
+  </BodyPartGroupDef>
+  
+    <BodyPartGroupDef>
     <defName>AA_NoseBlade</defName>
     <label>snout blade</label>
     <labelShort>snout blade</labelShort>

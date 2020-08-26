@@ -951,6 +951,31 @@
 			</li>
 		</comps>
 	</ThingDef>
+	
+		<!-- =============== Angel Moth Egg =============== -->
+
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>AA_AngelMothEggFertilized</defName>
+		<label>angel moth egg (fert.)</label>
+		<description>Fertilized angel moth egg. If all goes well, it should hatch into an angel moth larva. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AA_EggBeetle</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.5</MarketValue>
+		</statBases>
+		<thingSetMakerTags>
+			<li>NotForGuests</li>
+		</thingSetMakerTags>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>5</hatcherDaystoHatch>
+				<hatcherPawn>AA_AngelMothLarva</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
 
 	<!-- =============== Fire Wasp Egg =============== -->
 

@@ -14,7 +14,7 @@
 		<li>AA_Siegebreaker</li>
 		<li>AA_Daggersnout</li>
 		<li>AA_Fireworm</li>
-      	
+      	<li>AA_Phalanx</li>
         </value>
 	  </match>
 	</Operation>
@@ -31,7 +31,7 @@
 		<li>AA_Siegebreaker</li>
 		<li>AA_Daggersnout</li>
 		<li>AA_Fireworm</li>
-      	
+      	<li>AA_Phalanx</li>
         </value>
 	  </match>
 	</Operation>
@@ -46,7 +46,30 @@
 				<AA_Siegebreaker>10</AA_Siegebreaker>
 				<AA_Daggersnout>10</AA_Daggersnout>
 				<AA_Fireworm>10</AA_Fireworm>
+				<AA_Phalanx>10</AA_Phalanx>
+	  </value>
+	</Operation> 
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/FactionDef[defName = "Mechanoid"]/pawnGroupMakers</xpath>
+	  <value>
+		 <li>
+        <!-- All types-->
+        <kindDef>Combat</kindDef>
+        <commonality>40</commonality>
+        <options>        
+			  <AA_Goliath>5</AA_Goliath>
+			  <AA_Daggersnout>10</AA_Daggersnout>
+			  <AA_Demolisher>1.5</AA_Demolisher>
+			  <AA_Aura>7</AA_Aura>
+			  <Mech_Scyther>10</Mech_Scyther>
+			  <Mech_Lancer>10</Mech_Lancer>
+			  <Mech_Centipede>10</Mech_Centipede>
+			  <AA_Phalanx>3</AA_Phalanx>
+        </options>
+      </li>
 				
 	  </value>
 	</Operation> 
+	
 </Patch>

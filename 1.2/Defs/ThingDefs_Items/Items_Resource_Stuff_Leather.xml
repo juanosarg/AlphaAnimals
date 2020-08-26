@@ -370,6 +370,47 @@
       <li>Textiles</li>
     </thingCategories>
   </ThingDef>
+  
+    <ThingDef ParentName="ResourceBase">
+    <defName>AA_MothSilk</defName>
+    <label>moth silk</label>
+    <description>A very tough silk extracted from Angel moths. Very poor insulator.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/AA_MothSilk</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <MarketValue>5.5</MarketValue>
+      <Mass>0.01</Mass>
+      <Flammability>1</Flammability>
+      <DeteriorationRate>5</DeteriorationRate>
+      <StuffPower_Armor_Sharp>1.40</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.36</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>1</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>16</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>16</StuffPower_Insulation_Heat>
+    </statBases>
+    <burnableByRecipe>true</burnableByRecipe>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <minRewardCount>30</minRewardCount>
+    <stuffProps>
+      <categories>
+        <li>Fabric</li>
+      </categories>
+      <commonality>0</commonality>
+      <color>(249,235,220)</color>
+      <statFactors>
+        <Flammability>1</Flammability>
+        <MaxHitPoints>1.3</MaxHitPoints>
+        <Beauty>3</Beauty>
+      </statFactors>
+    </stuffProps>
+    <thingCategories>
+      <li>Textiles</li>
+    </thingCategories>
+    
+  </ThingDef>
 
 
 

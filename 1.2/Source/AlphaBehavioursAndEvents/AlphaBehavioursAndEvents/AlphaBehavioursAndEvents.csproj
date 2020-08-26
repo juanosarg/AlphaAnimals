@@ -339,6 +339,7 @@
     <Compile Include="ExplosionsAndDamage\DamageWorker_Vampiric.cs" />
     <Compile Include="ExplosionsAndDamage\DeathActionWorker_GargantuanExplosion.cs" />
     <Compile Include="Harmony\JobGiver_GetFood_TryGiveJob.cs" />
+    <Compile Include="Harmony\SappersUtility_IsGoodSapper.cs" />
     <Compile Include="Harmony\Thing_ButcherProducts.cs" />
     <Compile Include="Hediffs\HediffCompProperties_AutoPermanentInjury.cs" />
     <Compile Include="Hediffs\HediffCompProperties_ExplodeOnDowned.cs" />

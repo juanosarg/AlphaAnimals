@@ -19,7 +19,7 @@ namespace AlphaBehavioursAndEvents
             if ((wall != null)&&((wall.def.building.isNaturalRock) || (wall.def == ThingDefOf.Wall)))
             {
                
-                Log.Message("wall hit");
+                //Log.Message("wall hit");
                 DamageWorker.DamageResult damageResult = new DamageWorker.DamageResult();
                 if (victim.SpawnedOrAnyParentSpawned)
                 {

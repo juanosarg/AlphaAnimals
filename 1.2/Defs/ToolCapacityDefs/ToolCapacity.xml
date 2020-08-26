@@ -77,5 +77,9 @@
 		<label>crushing</label>
 	</ToolCapacityDef>
 
+	<ToolCapacityDef>
+		<defName>AA_EMPBlunt</defName>
+		<label>EMP blunt</label>
+	</ToolCapacityDef>
 
 </Defs>

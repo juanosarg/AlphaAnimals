@@ -27,6 +27,20 @@
 		<alive>false</alive>
 	</BodyPartDef>
 
+	<BodyPartDef>
+		<defName>AA_MechanicalClaw</defName>
+		<label>claw</label>
+		<hitPoints>30</hitPoints>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+		<skinCovered>false</skinCovered>
+		<solid>true</solid>
+		<alive>false</alive>
+		<bleedRate>0</bleedRate>
+		<tags>
+			<li>ManipulationLimbCore</li>
+		</tags>
+	</BodyPartDef>
+
 	<BodyPartDef Abstract="True" Name="AA_TankPlateBase">
 		<labelShort>chassis</labelShort>
 		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>

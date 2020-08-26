@@ -110,6 +110,7 @@
 			<predator>true</predator>
 			<maxPreyBodySize>1.5</maxPreyBodySize>
 			<wildness>0.70</wildness>
+			<meatLabel>lizard meat</meatLabel>
 			<trainability>Simple</trainability>
 			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.35</manhunterOnDamageChance>
