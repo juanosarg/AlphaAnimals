@@ -185,6 +185,16 @@
 
 		</comps>
 		<race>
+		<wildBiomes>
+				<BorealForest>0.05</BorealForest>				
+				<TemperateForest>0.07</TemperateForest>
+				<TemperateSwamp>0.07</TemperateSwamp>
+				<TropicalRainforest>0.04</TropicalRainforest>
+				<TropicalSwamp>0.04</TropicalSwamp>
+				<AridShrubland>0.05</AridShrubland>
+				<Desert>0.05</Desert>
+
+			</wildBiomes>
 			<thinkTreeMain>AA_AnimalWeirdEater</thinkTreeMain>
 			<herdAnimal>true</herdAnimal>			
 			<body>AA_Butterfly</body>
