@@ -18,6 +18,7 @@
 				<label>left tentacle</label>
 				<capacities>
 					<li>AA_EMPBlunt</li>
+					<li>Blunt</li>
 				</capacities>
 				<power>40</power>
 				<cooldownTime>1.5</cooldownTime>
@@ -28,6 +29,7 @@
 				<label>right tentacle</label>
 				<capacities>
 					<li>AA_EMPBlunt</li>
+					<li>Blunt</li>
 				</capacities>
 				<power>40</power>
 				<cooldownTime>1.5</cooldownTime>

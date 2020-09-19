@@ -301,7 +301,7 @@
 		<projectile>
 			<speed>40</speed>
 			<damageDef>Frostbite</damageDef>
-			<damageAmountBase>5</damageAmountBase>
+			<damageAmountBase>2</damageAmountBase>
 			<explosionRadius>3</explosionRadius>						
 			<soundExplode>AA_Cryogun</soundExplode>
 			
