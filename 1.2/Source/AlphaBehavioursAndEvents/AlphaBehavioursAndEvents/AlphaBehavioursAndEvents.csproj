@@ -329,9 +329,11 @@
     <Compile Include="Comps\CompProperties\CompProperties_StateAfterHealthLoss.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_SummonOnSpawn.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_ThoughtEffecter.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_Untameable.cs" />
     <Compile Include="Comps\CompStateAfterHealthLoss.cs" />
     <Compile Include="Comps\CompSummonOnSpawn.cs" />
     <Compile Include="Comps\CompThoughtEffecter.cs" />
+    <Compile Include="Comps\CompUntameable.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_Berserk.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_ExtraDamageInsectoids.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_ExtraInfecter.cs" />

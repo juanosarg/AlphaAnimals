@@ -29,6 +29,7 @@
 						<li>AA_Feralisk</li>
 						<li>AA_Frostmite</li>
 						<li>AA_Gallatross</li>
+						<li>AA_GallatrossMoribund</li>
 						<li>AA_Groundrunner</li>
 						<li>AA_IronhuskBeetle</li>
 						<li>AA_Lockjaw</li>
@@ -136,6 +137,7 @@
 						<li>AA_Feralisk</li>
 						<li>AA_Frostmite</li>
 						<li>AA_Gallatross</li>
+						<li>AA_GallatrossMoribund</li>
 						<li>AA_Groundrunner</li>
 						<li>AA_IronhuskBeetle</li>
 						<li>AA_Lockjaw</li>
@@ -231,6 +233,7 @@
 						<li>AA_DevilSheep</li>
 						<li>AA_Frostmite</li>
 						<li>AA_Gallatross</li>
+						<li>AA_GallatrossMoribund</li>
 						<li>AA_Groundrunner</li>
 						<li>AA_IronhuskBeetle</li>
 						<li>AA_Lockjaw</li>
@@ -315,6 +318,7 @@
 						<li>AA_DevilSheep</li>
 						<li>AA_Frostmite</li>
 						<li>AA_Gallatross</li>
+						<li>AA_GallatrossMoribund</li>
 						<li>AA_Groundrunner</li>
 						<li>AA_IronhuskBeetle</li>
 						<li>AA_Lockjaw</li>
@@ -399,6 +403,7 @@
 						<li>AA_DevilSheep</li>
 						<li>AA_Frostmite</li>
 						<li>AA_Gallatross</li>
+						<li>AA_GallatrossMoribund</li>
 						<li>AA_Groundrunner</li>
 						<li>AA_IronhuskBeetle</li>
 						<li>AA_Lockjaw</li>
@@ -489,6 +494,7 @@
 						<li>AA_Feralisk</li>
 						<li>AA_Frostmite</li>
 						<li>AA_Gallatross</li>
+						<li>AA_GallatrossMoribund</li>
 						<li>AA_Groundrunner</li>
 						<li>AA_IronhuskBeetle</li>
 						<li>AA_Lockjaw</li>
@@ -584,6 +590,7 @@
 						<li>AA_Feralisk</li>
 						<li>AA_Frostmite</li>
 						<li>AA_Gallatross</li>
+						<li>AA_GallatrossMoribund</li>
 						<li>AA_Groundrunner</li>
 						<li>AA_IronhuskBeetle</li>
 						<li>AA_Lockjaw</li>
@@ -668,6 +675,7 @@
 						<li>AA_Cactipine</li>
 						<li>AA_DevilSheep</li>
 						<li>AA_Gallatross</li>
+						<li>AA_GallatrossMoribund</li>
 						<li>AA_Groundrunner</li>
 						<li>AA_Lockjaw</li>
 						<li>AA_MeadowAve</li>
@@ -736,6 +744,7 @@
 						<li>AA_Feralisk</li>
 						<li>AA_Frostmite</li>
 						<li>AA_Gallatross</li>
+						<li>AA_GallatrossMoribund</li>
 						<li>AA_Groundrunner</li>
 						<li>AA_IronhuskBeetle</li>
 						<li>AA_Lockjaw</li>
@@ -839,6 +848,7 @@
 						<li>AA_Cactipine</li>
 						<li>AA_DevilSheep</li>
 						<li>AA_Gallatross</li>
+						<li>AA_GallatrossMoribund</li>
 						<li>AA_Groundrunner</li>
 						<li>AA_Lockjaw</li>	
 						<li>AA_Nightling</li>
@@ -911,6 +921,7 @@
 						<li>AA_Feralisk</li>
 						<li>AA_Frostmite</li>
 						<li>AA_Gallatross</li>
+						<li>AA_GallatrossMoribund</li>
 						<li>AA_Groundrunner</li>
 						<li>AA_IronhuskBeetle</li>
 						<li>AA_Lockjaw</li>
@@ -996,6 +1007,7 @@
 						<li>AA_Cactipine</li>
 						<li>AA_DevilSheep</li>					
 						<li>AA_Gallatross</li>
+						<li>AA_GallatrossMoribund</li>
 						<li>AA_Groundrunner</li>
 						<li>AA_Lockjaw</li>	
 						<li>AA_Nightling</li>
@@ -1059,6 +1071,7 @@
 						<li>AA_Feralisk</li>
 						<li>AA_Frostmite</li>
 						<li>AA_Gallatross</li>
+						<li>AA_GallatrossMoribund</li>
 						<li>AA_Groundrunner</li>
 						<li>AA_IronhuskBeetle</li>
 						<li>AA_Lockjaw</li>

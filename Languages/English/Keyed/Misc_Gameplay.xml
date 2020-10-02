@@ -16,6 +16,9 @@
 	<NocturnalAnimals.BodyClock_Crepuscular>Crepuscular</NocturnalAnimals.BodyClock_Crepuscular>
 	
 	<AA_TimeToMetamorphosis>Time to metamorphosis: {0}</AA_TimeToMetamorphosis>
+	
+	<AA_NotTameable>This creature is untameable</AA_NotTameable>
+	<AA_GallatrossNotTameable>The Moribund Gallatross is untameable and quickly returns into the wild, awaiting to die</AA_GallatrossNotTameable>
 
 
 	<!-- Incidents -->

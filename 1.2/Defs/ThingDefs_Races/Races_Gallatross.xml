@@ -277,6 +277,15 @@
 
 
 		</verbs>
+		<comps>
+
+			<li Class="AlphaBehavioursAndEvents.CompProperties_Untameable">
+				<message>AA_GallatrossNotTameable</message>
+				<sendMessage>true</sendMessage>
+
+			</li>
+			
+		</comps>
 		<race>
 
 			<herdAnimal>false</herdAnimal>
