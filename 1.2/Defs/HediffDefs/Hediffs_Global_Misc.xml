@@ -429,6 +429,26 @@
 			</li>
 		</stages>
 	</HediffDef>
+	
+	<HediffDef>
+		<defName>AA_PsionicallyNuzzled</defName>
+		<description>Blessed by an Animus Vox.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>psionically nuzzled</label>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_Immunizable">
+				<severityPerDayNotImmune>-12</severityPerDayNotImmune>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				
+			</li>
+		</stages>
+	</HediffDef>
 
 	<HediffDef ParentName="InfectionBase">
 		<defName>AA_SwarmlingImplantation</defName>

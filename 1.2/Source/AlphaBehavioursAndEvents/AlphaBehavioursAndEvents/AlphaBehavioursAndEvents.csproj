@@ -298,6 +298,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Achievements\KillTrackerWithOr.cs" />
     <Compile Include="Comps\CompAcidImmunity.cs" />
     <Compile Include="Comps\CompAnimalProduct.cs" />
     <Compile Include="Comps\CompChangeDef.cs" />

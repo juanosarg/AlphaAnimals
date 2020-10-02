@@ -21,6 +21,8 @@ namespace AlphaBehavioursAndEvents
         {
             Thought_Memory newThought = (Thought_Memory)ThoughtMaker.MakeThought(ThoughtDef.Named("AA_BeenPsionicallyNuzzled"));
             recipient.needs.mood.thoughts.memories.TryGainMemory(newThought, null);
+            recipient.health.AddHediff(HediffDef.Named("AA_PsionicallyNuzzled"));
+
         }
 
         private void TryGiveName(Pawn initiator, Pawn recipient)

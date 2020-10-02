@@ -412,7 +412,7 @@
 				<eggUnfertilizedDef>AA_BumbledroneQueenEggFertilized</eggUnfertilizedDef>
 				<eggFertilizedDef>AA_BumbledroneQueenEggFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
-				<eggLayIntervalDays>30</eggLayIntervalDays>
+				<eggLayIntervalDays>6</eggLayIntervalDays>
 				<eggCountRange>
 					<min>1</min>
 					<max>3</max>
