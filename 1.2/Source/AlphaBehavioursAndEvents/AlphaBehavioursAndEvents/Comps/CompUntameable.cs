@@ -33,7 +33,11 @@ namespace AlphaBehavioursAndEvents
                 Pawn pawn = parent as Pawn;
                 if (pawn != null)
                 {
-                    if (Props.factionToReturnTo == "")
+                    if (!Props.goesManhunter)
+                    {
+                        parent.SetFaction(null, null);
+                    }
+                    else if (Props.factionToReturnTo == "")
                     {
 
                         pawn.mindState.mentalStateHandler.TryStartMentalState(MentalStateDefOf.ManhunterPermanent);

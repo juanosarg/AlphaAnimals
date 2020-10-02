@@ -15,6 +15,7 @@ namespace AlphaBehavioursAndEvents
 
         public string factionToReturnTo = "";
         public bool sendMessage = false;
+        public bool goesManhunter = true;
         public string message = "AA_NotTameable";
 
     }

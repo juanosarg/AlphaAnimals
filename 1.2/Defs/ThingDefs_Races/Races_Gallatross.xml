@@ -282,7 +282,7 @@
 			<li Class="AlphaBehavioursAndEvents.CompProperties_Untameable">
 				<message>AA_GallatrossNotTameable</message>
 				<sendMessage>true</sendMessage>
-
+				<goesManhunter>false</goesManhunter>
 			</li>
 			
 		</comps>
