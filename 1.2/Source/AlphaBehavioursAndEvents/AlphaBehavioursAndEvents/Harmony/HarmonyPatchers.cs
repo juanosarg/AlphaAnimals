@@ -67,10 +67,12 @@ namespace AlphaBehavioursAndEvents
     [HarmonyPatch(new Type[] { typeof(Pawn), typeof(IntVec3) })]
     public static class Pawn_PathFollower_CostToMoveIntoCell_Patch
     {
+        
         [HarmonyPostfix]
-        public static void MakeFloatingCreaturesGreatAgaian(Pawn pawn, IntVec3 c, ref int __result)
+        public static void MakeFloatingCreaturesGreatAgain(Pawn pawn, IntVec3 c, ref int __result)
 
         {
+
             if ((pawn.Map!=null) && (pawn.TryGetComp<CompFloating>() != null))
             {
                 if (pawn.TryGetComp<CompFloating>().Props.isFloater)
