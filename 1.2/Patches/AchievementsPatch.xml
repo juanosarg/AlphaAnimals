@@ -50,7 +50,7 @@
 							</tracker>
 
 							<texPath>Achievements/AA_AchievementBlackChitin</texPath>
-							<points>10</points>
+							<points>15</points>
 						</AchievementsExpanded.AchievementDef>
 
 						<AchievementsExpanded.AchievementDef>
@@ -135,16 +135,32 @@
 						<AchievementsExpanded.AchievementDef>
 							<defName>AA_AchievementBlackHive</defName>
 							<label>Not the Mechanoids You Are Looking For</label>
-							<description>Kill 100 Black Hive Insectoids</description>
+							<description>Kill 50 Black Hive Insectoids</description>
 							<tab>AA_Achievements</tab>
 							<tracker Class="AchievementsExpanded.KillTracker">
 								<factionDefs>
 									<li>AA_BlackHive</li>
 								</factionDefs>
-								<count>100</count>
+								<count>50</count>
 							</tracker>
 
 							<texPath>Achievements/AA_AchievementBlackHive</texPath>
+							<points>25</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						<AchievementsExpanded.AchievementDef>
+							<defName>AA_AchievementBlackHiveExterminator</defName>
+							<label>Calling Pest Control</label>
+							<description>Kill 150 Black Hive Insectoids. That will teach them.</description>
+							<tab>AA_Achievements</tab>
+							<tracker Class="AchievementsExpanded.KillTracker">
+								<factionDefs>
+									<li>AA_BlackHive</li>
+								</factionDefs>
+								<count>150</count>
+							</tracker>
+
+							<texPath>Achievements/AA_AchievementBlackHiveExterminator</texPath>
 							<points>40</points>
 						</AchievementsExpanded.AchievementDef>
 
@@ -246,7 +262,7 @@
 							</tracker>
 
 							<texPath>Achievements/AA_AchievementNocturnal</texPath>
-							<points>25</points>
+							<points>15</points>
 						</AchievementsExpanded.AchievementDef>
 
 						<AchievementsExpanded.AchievementDef>
@@ -432,7 +448,7 @@
 							</tracker>
 
 							<texPath>Achievements/AA_AchievementMechanoidSiege</texPath>
-							<points>15</points>
+							<points>10</points>
 						</AchievementsExpanded.AchievementDef>		
 
 						<AchievementsExpanded.AchievementDef>
@@ -446,9 +462,65 @@
 							</tracker>
 
 							<texPath>Achievements/AA_AchievementDealWithTheDevil</texPath>
-							<points>25</points>
+							<points>15</points>
 						</AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef>
+							<defName>AA_AchievementGoodestBoys</defName>
+							<label>The Goodest Boys</label>
+							<description>Assemble an strike team of a Ray Hound, a Razorjack and a Ripper Hound</description>
+							<tab>AA_Achievements</tab>
+							<tracker Class="AchievementsExpanded.RaceDefTracker">
+								<kindDefDict>
+									<li>
+										<key>AA_RipperHound</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>AA_Razorjack</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>AA_RayHound</key>
+										<value>1</value>
+									</li>
+									
 
+								</kindDefDict>
+								<requireAll>true</requireAll>
+							</tracker>
+
+							<texPath>Achievements/AA_AchievementGoodestBoys</texPath>
+							<points>15</points>
+						</AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef>
+							<defName>AA_AchievementGoingVegan</defName>
+							<label>Going Vegan... More or Less</label>
+							<description>Acquire 200 pieces of Plant Meat</description>
+							<tab>AA_Achievements</tab>
+							<tracker Class="AchievementsExpanded.ItemTracker">
+								<def>AA_CactusMeat</def>
+								<count>200</count>
+							</tracker>
+
+							<texPath>Achievements/AA_AchievementGoingVegan</texPath>
+							<points>10</points>
+						</AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef>
+							<defName>AA_AchievementExtremeHauteCouture</defName>
+							<label>Extreme Haute Couture</label>
+							<description>Craft any item out of Gallatross Leather.</description>
+							<tab>AA_Achievements</tab>
+							<tracker Class="AchievementsExpanded.ItemCraftTracker">
+								
+								<madeFrom>Leather_Gallatross</madeFrom>
+								<count>1</count>
+							</tracker>
+
+							<texPath>Achievements/AA_AchievementExtremeHauteCouture</texPath>
+							<points>45</points>
+						</AchievementsExpanded.AchievementDef>
+						
+						
 					</value>
 				</li>
 
