@@ -50,6 +50,8 @@ namespace AlphaBehavioursAndEvents
                 {
                     this.GetSpecificComp((Pawn)((Thing)this.job.GetTarget(TargetIndex.A))).InformGathered(this.pawn);
                     actor.jobs.EndCurrentJob(JobCondition.Succeeded, true, true);
+                    actor.health.AddHediff(HediffDef.Named("AA_GatheredResource"));
+
                 }
             };
             wait.AddFinishAction(delegate
@@ -73,6 +75,7 @@ namespace AlphaBehavioursAndEvents
             wait.defaultCompleteMode = ToilCompleteMode.Never;
             wait.WithProgressBar(TargetIndex.A, () => this.gatherProgress / this.WorkTotal, false, -0.5f);
             wait.activeSkill = (() => SkillDefOf.Animals);
+
             yield return wait;
             yield break;
         }

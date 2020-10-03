@@ -519,8 +519,45 @@
 							<texPath>Achievements/AA_AchievementExtremeHauteCouture</texPath>
 							<points>45</points>
 						</AchievementsExpanded.AchievementDef>
-						
-						
+						<AchievementsExpanded.AchievementDef>
+							<defName>AA_AchievementResourceful</defName>
+							<label>Resourceful</label>
+							<description>Harvest any exotic animal product that doesn't count as Milking or Shearing</description>
+							<tab>AA_Achievements</tab>
+							<tracker Class="AchievementsExpanded.HediffTracker">
+								<def>AA_GatheredResource</def>
+								<count>1</count>
+							</tracker>
+
+							<texPath>Achievements/AA_AchievementResourceful</texPath>
+							<points>10</points>
+						</AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef>
+							<defName>AA_AchievementOmNomNom</defName>
+							<label>Om Nom Nom</label>
+							<description>Tame an Helixien slug and make it feed on human corpses</description>
+							<tab>AA_Achievements</tab>
+							<tracker Class="AchievementsExpanded.HediffTracker">
+								<def>AA_CorpseFeast</def>
+								<count>1</count>
+							</tracker>
+
+							<texPath>Achievements/AA_AchievementOmNomNom</texPath>
+							<points>10</points>
+						</AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef>
+							<defName>AA_AchievementBetterNotWaitForIt</defName>
+							<label>Better Not Wait For It</label>
+							<description>Tame an Angel Moth and feed it some legendary quality clothing</description>
+							<tab>AA_Achievements</tab>
+							<tracker Class="AchievementsExpanded.HediffTracker">
+								<def>AA_AteFinestClothes</def>
+								<count>1</count>
+							</tracker>
+
+							<texPath>Achievements/AA_AchievementBetterNotWaitForIt</texPath>
+							<points>30</points>
+						</AchievementsExpanded.AchievementDef>
 					</value>
 				</li>
 

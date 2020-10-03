@@ -58,6 +58,12 @@ namespace AlphaBehavioursAndEvents
                                                 corpse.HitPoints -= 5;
                                                 pawn.needs.food.CurLevel += Props.nutritionGained;
 
+                                                if ((pawn.Faction == Faction.OfPlayer) && (corpse.InnerPawn.def.race.Humanlike))
+                                                {
+                                                    pawn.health.AddHediff(HediffDef.Named("AA_CorpseFeast"));
+                                                }
+
+
                                                 CompRottable compRottable = corpse.TryGetComp<CompRottable>();
                                                 if (compRottable.Stage == RotStage.Fresh)
                                                 {

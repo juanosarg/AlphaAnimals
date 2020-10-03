@@ -449,6 +449,66 @@
 			</li>
 		</stages>
 	</HediffDef>
+	
+	<HediffDef>
+		<defName>AA_GatheredResource</defName>
+		<description>This colonist has recently gathered an animal resource.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>gathered animal resource</label>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_Immunizable">
+				<severityPerDayNotImmune>-12</severityPerDayNotImmune>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>AA_CorpseFeast</defName>
+		<description>This Helixien slug has recently fed on human corpses. The tastiest meat.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>feasted on human corpses</label>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_Immunizable">
+				<severityPerDayNotImmune>-12</severityPerDayNotImmune>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>AA_AteFinestClothes</defName>
+		<description>This Angel Moth has recently consumed clothes of Legendary quality.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>feasted on legendary clothing</label>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_Immunizable">
+				<severityPerDayNotImmune>-12</severityPerDayNotImmune>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				
+			</li>
+		</stages>
+	</HediffDef>
 
 	<HediffDef ParentName="InfectionBase">
 		<defName>AA_SwarmlingImplantation</defName>

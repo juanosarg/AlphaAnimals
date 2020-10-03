@@ -248,6 +248,9 @@ namespace AlphaBehavioursAndEvents
                         }
 
                     }
+                    if ((actor.def.defName == "AA_AngelMoth")&&(actor.Faction == Faction.OfPlayer) && (thing.TryGetComp<CompQuality>() != null) && (thing.TryGetComp<CompQuality>().Quality == QualityCategory.Legendary)) {
+                        actor.health.AddHediff(HediffDef.Named("AA_AteFinestClothes"));
+                    }
                     
                 }
 

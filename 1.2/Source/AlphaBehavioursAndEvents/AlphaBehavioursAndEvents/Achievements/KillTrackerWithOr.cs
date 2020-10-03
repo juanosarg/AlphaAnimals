@@ -1,4 +1,4 @@
-﻿/*using System;
+﻿ /*using System;
 using System.Reflection;
 using HarmonyLib;
 using Verse;
@@ -7,46 +7,21 @@ using System.Collections.Generic;
 
 namespace AchievementsExpanded
 {
-    public class KillTrackerWithOr : Tracker2<Pawn, DamageInfo?>
+    public class KillTrackerWithOr : KillTracker
     {
-        public override string Key => "KillTrackerWithOr";
+       
 
-        public override MethodInfo MethodHook => AccessTools.Method(typeof(Pawn), nameof(Pawn.Kill));
-        public override MethodInfo PatchMethod => AccessTools.Method(typeof(AchievementHarmony), nameof(AchievementHarmony.KillPawn));
-        protected override string[] DebugText => new string[] { 
-                                                                $"Race: {raceDef?.defName ?? "None"}",
-                                                                $"Factions: {factionDefs?.Count.ToString() ?? "None"}",
-                                                                $"Instigators: {instigatorFactionDefs?.Count.ToString() ?? "None"}",
-                                                                $"Count: {count}", $"Current: {triggeredCount}" };
-        public override PatchType PatchType => PatchType.Prefix;
-
-        public KillTrackerWithOr()
+       public KillTrackerWithOr(KillTrackerWithOr reference) : base(reference)
         {
-        }
-
-        public KillTrackerWithOr(KillTrackerWithOr reference) : base(reference)
-        {
-            kindDef = reference.kindDef;
-            raceDef = reference.raceDef;
-            factionDefs = reference.factionDefs;
-            instigatorFactionDefs = reference.instigatorFactionDefs;
-            count = reference.count;
-            triggeredCount = 0;
-
-            killedThings = new List<string>();
+            kindDefList = reference.kindDefList;
+           
         }
 
         public override void ExposeData()
         {
             base.ExposeData();
-            Scribe_Collections.Look(ref kindDef, "kindDef", LookMode.Def, LookMode.Value);
-            Scribe_Defs.Look(ref raceDef, "raceDef");
-            Scribe_Collections.Look(ref factionDefs, "factionDefs", LookMode.Def);
-            Scribe_Collections.Look(ref instigatorFactionDefs, "instigatorFactionDefs", LookMode.Def);
-            Scribe_Values.Look(ref count, "count", 1);
-
-            Scribe_Values.Look(ref triggeredCount, "triggeredCount", 0);
-            Scribe_Collections.Look(ref killedThings, "killedThings", LookMode.Value);
+            Scribe_Collections.Look(ref kindDefList, "kindDefList", LookMode.Def, LookMode.Value);
+           
         }
 
         public override bool Trigger(Pawn pawn, DamageInfo? dinfo)
@@ -60,7 +35,7 @@ namespace AchievementsExpanded
             bool kind = false;
             if (kindDef != null)
             {
-                foreach (KeyValuePair<PawnKindDef, int> set in kindDef)
+                foreach (KeyValuePair<PawnKindDef, int> set in kindDefList)
                 {
 
                     kind = (pawn.kindDef == set.Key);
@@ -73,13 +48,7 @@ namespace AchievementsExpanded
             return kind && race && faction && instigator && (count <= 1 || ++triggeredCount >= count);
         }
 
-        Dictionary<PawnKindDef, int> kindDef = new Dictionary<PawnKindDef, int>();
-        public ThingDef raceDef;
-        public List<FactionDef> factionDefs;
-        public List<FactionDef> instigatorFactionDefs;
-        public int count = 1;
-
-        protected int triggeredCount;
-        protected List<string> killedThings;
+        Dictionary<PawnKindDef, int> kindDefList = new Dictionary<PawnKindDef, int>();
+       
     }
 }*/
