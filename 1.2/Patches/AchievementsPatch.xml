@@ -381,13 +381,9 @@
 							<label>Greenest Energy</label>
 							<description>Tame a TetraSlug and make it recharge your batteries</description>
 							<tab>AA_Achievements</tab>
-							<tracker Class="AchievementsExpanded.RaceDefTracker">
-								<kindDefDict>
-									<li>
-										<key>AA_TetraSlug</key>
-										<value>1</value>
-									</li>
-								</kindDefDict>
+							<tracker Class="AchievementsExpanded.HediffTracker">
+								<def>AA_RechargingBatteries</def>
+								<count>1</count>
 							</tracker>
 
 							<texPath>Achievements/AA_AchievementGreenestEnergy</texPath>
@@ -557,6 +553,19 @@
 
 							<texPath>Achievements/AA_AchievementBetterNotWaitForIt</texPath>
 							<points>30</points>
+						</AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef>
+							<defName>AA_AchievementADifferentKindOfFarming</defName>
+							<label>A Different Kind of Farming</label>
+							<description>Tame a Sand Squid and make it fertilize some sand</description>
+							<tab>AA_Achievements</tab>
+							<tracker Class="AchievementsExpanded.HediffTracker">
+								<def>AA_FertilizedTerrain</def>
+								<count>1</count>
+							</tracker>
+
+							<texPath>Achievements/AA_AchievementADifferentKindOfFarming</texPath>
+							<points>15</points>
 						</AchievementsExpanded.AchievementDef>
 					</value>
 				</li>

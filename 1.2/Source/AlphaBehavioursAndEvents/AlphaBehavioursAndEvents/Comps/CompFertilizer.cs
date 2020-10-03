@@ -34,6 +34,7 @@ namespace AlphaBehavioursAndEvents
                     if (pawn.Faction.IsPlayer && (pawn.Position.GetTerrain(pawn.Map) == TerrainDef.Named(Props.FirstStageTerrain)))
                     {
                         pawn.Map.terrainGrid.SetTerrain(pawn.Position, TerrainDef.Named(Props.SecondStageTerrain));
+                        pawn.health.AddHediff(HediffDef.Named("AA_FertilizedTerrain"));
                     }
 
                     extraFertCounter--;
@@ -42,9 +43,11 @@ namespace AlphaBehavioursAndEvents
                         if (pawn.Faction.IsPlayer && pawn.training.HasLearned(TrainableDefOf.Obedience) && ((pawn.Position.GetTerrain(pawn.Map) == TerrainDef.Named(Props.SecondStageTerrain))))
                         {
                             pawn.Map.terrainGrid.SetTerrain(pawn.Position, TerrainDef.Named(Props.ThirdStageTerrain));
+                            pawn.health.AddHediff(HediffDef.Named("AA_FertilizedTerrain"));
                         }
                         extraFertCounter = 500;
                     }
+                    
 
                 }
                

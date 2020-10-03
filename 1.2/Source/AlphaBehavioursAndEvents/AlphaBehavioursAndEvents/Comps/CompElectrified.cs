@@ -81,6 +81,10 @@ namespace AlphaBehavioursAndEvents
                             break;
 
                         }
+                        if (pawn.Faction == Faction.OfPlayer)
+                        {
+                            pawn.health.AddHediff(HediffDef.Named("AA_RechargingBatteries"));
+                        }
                     }
                     tickCounter = 0;
                 }

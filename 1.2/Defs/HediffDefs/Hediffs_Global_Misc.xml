@@ -509,6 +509,46 @@
 			</li>
 		</stages>
 	</HediffDef>
+	
+	<HediffDef>
+		<defName>AA_RechargingBatteries</defName>
+		<description>This TetraSlug has recently recharged a nearby battery.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>recharging batteries</label>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_Immunizable">
+				<severityPerDayNotImmune>-12</severityPerDayNotImmune>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>AA_FertilizedTerrain</defName>
+		<description>This Sand Squid has recently fertilized some sandy terrain.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>fertilized terrain</label>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_Immunizable">
+				<severityPerDayNotImmune>-12</severityPerDayNotImmune>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				
+			</li>
+		</stages>
+	</HediffDef>
 
 	<HediffDef ParentName="InfectionBase">
 		<defName>AA_SwarmlingImplantation</defName>
