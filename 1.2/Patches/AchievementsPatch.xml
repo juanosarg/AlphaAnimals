@@ -147,7 +147,7 @@
 							<texPath>Achievements/AA_AchievementBlackHive</texPath>
 							<points>25</points>
 						</AchievementsExpanded.AchievementDef>
-						
+
 						<AchievementsExpanded.AchievementDef>
 							<defName>AA_AchievementBlackHiveExterminator</defName>
 							<label>Calling Pest Control</label>
@@ -479,7 +479,7 @@
 										<key>AA_RayHound</key>
 										<value>1</value>
 									</li>
-									
+
 
 								</kindDefDict>
 								<requireAll>true</requireAll>
@@ -507,7 +507,7 @@
 							<description>Craft any item out of Gallatross Leather.</description>
 							<tab>AA_Achievements</tab>
 							<tracker Class="AchievementsExpanded.ItemCraftTracker">
-								
+
 								<madeFrom>Leather_Gallatross</madeFrom>
 								<count>1</count>
 							</tracker>
@@ -566,6 +566,18 @@
 
 							<texPath>Achievements/AA_AchievementADifferentKindOfFarming</texPath>
 							<points>15</points>
+						</AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef>
+							<defName>AA_AchievementNoLight</defName>
+							<label>Wanting for the Sun</label>
+							<description>Witness a plant creature dying due to lack of sunlight</description>
+							<tab>AA_Achievements</tab>
+							<tracker Class="AchievementsExpanded.HediffDeathTracker">
+								<def>AA_LightSustenance</def>
+							</tracker>
+
+							<texPath>Achievements/AA_AchievementNoLight</texPath>
+							<points>10</points>
 						</AchievementsExpanded.AchievementDef>
 					</value>
 				</li>
