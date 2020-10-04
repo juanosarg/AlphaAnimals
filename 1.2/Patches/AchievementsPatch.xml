@@ -451,7 +451,7 @@
 							<defName>AA_AchievementDealWithTheDevil</defName>
 							<label>Deal With the Devil</label>
 							<description>Have a colonist develop a bond with a Devilsheep. Don't expect it to be mutual.</description>
-
+							<tab>AA_Achievements</tab>
 							<tracker Class="AchievementsExpanded.AnimalBondedTracker">
 								<kindDef>AA_DevilSheep</kindDef>
 								<count>1</count>
