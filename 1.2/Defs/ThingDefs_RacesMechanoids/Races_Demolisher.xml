@@ -31,6 +31,10 @@
 				<!-- Change to this pawn if Allow Alpha mechanoids is disabled in options -->
 				<defToChangeTo>Mech_Centipede</defToChangeTo>
 			</li>
+			<li Class="AlphaBehavioursAndEvents.CompProperties_ChangeDefSappers">
+				
+				<defToChangeTo>Mech_Centipede</defToChangeTo>
+			</li>
 		</comps>
 		<race>
 			<intelligence>ToolUser</intelligence>
