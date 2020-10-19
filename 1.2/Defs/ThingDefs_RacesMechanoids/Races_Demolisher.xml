@@ -31,10 +31,10 @@
 				<!-- Change to this pawn if Allow Alpha mechanoids is disabled in options -->
 				<defToChangeTo>Mech_Centipede</defToChangeTo>
 			</li>
-			<li Class="AlphaBehavioursAndEvents.CompProperties_ChangeDefSappers">
+			<!--<li Class="AlphaBehavioursAndEvents.CompProperties_ChangeDefSappers">
 				
 				<defToChangeTo>Mech_Centipede</defToChangeTo>
-			</li>
+			</li>-->
 		</comps>
 		<race>
 			<intelligence>ToolUser</intelligence>
@@ -68,7 +68,7 @@
 		<label>demolisher</label>
 		<race>AA_Demolisher</race>
 		<combatPower>400</combatPower>
-		<canBeSapper>true</canBeSapper>
+		<canBeSapper>false</canBeSapper>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>

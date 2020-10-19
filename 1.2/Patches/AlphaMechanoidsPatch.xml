@@ -56,7 +56,7 @@
 		 <li>
         <!-- All types-->
         <kindDef>Combat</kindDef>
-        <commonality>40</commonality>
+        <commonality>30</commonality>
         <options>        
 			  <AA_Goliath>5</AA_Goliath>
 			  <AA_Daggersnout>10</AA_Daggersnout>

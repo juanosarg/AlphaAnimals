@@ -337,8 +337,8 @@ namespace AlphaBehavioursAndEvents
             ls.Gap(12f);
             ls.CheckboxLabeled("allowAlphaMechanoids".Translate(), ref flagAlphaMechanoids, null);
             ls.Gap(12f);
-            ls.CheckboxLabeled("allowMechanoidSappers".Translate(), ref flagAlphaMechanoidsSappers, null);
-            ls.Gap(12f);
+           // ls.CheckboxLabeled("allowMechanoidSappers".Translate(), ref flagAlphaMechanoidsSappers, null);
+           // ls.Gap(12f);
             ls.CheckboxLabeled("allowHelixienCorpseEffect".Translate(), ref flagHelixienCorpseEffect, null);
             ls.Gap(12f);
             ls.CheckboxLabeled("removeAnimalParticles".Translate(), ref removeAnimalParticles, null);

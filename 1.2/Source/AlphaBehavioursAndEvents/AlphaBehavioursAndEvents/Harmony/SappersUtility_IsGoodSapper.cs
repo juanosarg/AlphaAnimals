@@ -21,9 +21,9 @@ namespace AlphaBehavioursAndEvents
         public static void DemolisherIsAGoodSapper(Pawn p, ref bool __result)
 
         {
-           if (p.def.defName== "AA_Demolisher") {
+           /*if (p.def.defName== "AA_Demolisher") {
                 __result = true;
-            }
+            }*/
             
         }
     }
