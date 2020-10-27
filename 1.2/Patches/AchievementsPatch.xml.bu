@@ -19,12 +19,17 @@
 							<defName>AA_Achievements</defName>
 							<label>Alpha Animals</label>
 						</AchievementsExpanded.AchievementTabDef>
+						
+						<AchievementsExpanded.AchievementDef Name="AA_AchievementParent" Abstract="true">					
+							<bgtexPath>Achievements/AA_AchievementBackground</bgtexPath>
+							<tab>AA_Achievements</tab>
+						</AchievementsExpanded.AchievementDef>
 
-						<AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 							<defName>AA_AchievementGallatross</defName>
 							<label>Thrumbos Schmrumbos</label>
 							<description>Tame the Legendary Gallatross</description>
-							<tab>AA_Achievements</tab>
+							
 							<tracker Class="AchievementsExpanded.RaceDefTracker">
 								<kindDefDict>
 									<li>
@@ -38,11 +43,11 @@
 							<points>75</points>
 						</AchievementsExpanded.AchievementDef>	
 
-						<AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 							<defName>AA_AchievementBlackChitin</defName>
 							<label>Black is the New Black</label>
 							<description>Craft a Black Insect Chitin duster. Stylish.</description>
-							<tab>AA_Achievements</tab>
+							
 							<tracker Class="AchievementsExpanded.ItemCraftTracker">
 								<def>Apparel_Duster</def>
 								<madeFrom>Leather_BlackChitin</madeFrom>
@@ -53,11 +58,11 @@
 							<points>15</points>
 						</AchievementsExpanded.AchievementDef>
 
-						<AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 							<defName>AA_AchievementAerofleet</defName>
 							<label>Framerate? What Framerate?</label>
 							<description>Tame an Aerofleet, let it reproduce till you have 100. Then detonate them. Ok, that is optional, but come on.</description>
-							<tab>AA_Achievements</tab>
+							
 							<tracker Class="AchievementsExpanded.RaceDefTracker">
 								<kindDefDict>
 									<li>
@@ -71,11 +76,11 @@
 							<points>20</points>
 						</AchievementsExpanded.AchievementDef>			
 
-						<AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 							<defName>AA_AchievementPsionicLove</defName>
 							<label>Psionic Love</label>
 							<description>Get psionically nuzzled by an Animus Vox.</description>
-							<tab>AA_Achievements</tab>
+							
 							<tracker Class="AchievementsExpanded.HediffTracker">
 								<def>AA_PsionicallyNuzzled</def>
 								<count>1</count>
@@ -85,12 +90,11 @@
 							<points>10</points>
 						</AchievementsExpanded.AchievementDef>
 
-						<AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 							<defName>AA_AchievementStalker</defName>
 							<label>Hide and Seek</label>
 							<description>Have an Arctic Lion stalk your colonists</description>
-							<tab>AA_Achievements</tab>
-
+							
 							<tracker Class="AchievementsExpanded.IncidentTracker">
 								<def>AA_IncidentStalkingArcticLion</def>
 								<count>1</count>
@@ -100,11 +104,11 @@
 							<points>10</points>
 						</AchievementsExpanded.AchievementDef>
 
-						<AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 							<defName>AA_AchievementAtispec</defName>
 							<label>The Longest Wait</label>
 							<description>Nurture an Atispec Larva into a mighty Atispec</description>
-							<tab>AA_Achievements</tab>
+							
 							<tracker Class="AchievementsExpanded.RaceDefTracker">
 								<kindDefDict>
 									<li>
@@ -118,11 +122,11 @@
 							<points>50</points>
 						</AchievementsExpanded.AchievementDef>	
 
-						<AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 							<defName>AA_AchievementArachnophobia</defName>
 							<label>Arachnophobia</label>
 							<description>Kill a Feralisk Clutchmother</description>
-							<tab>AA_Achievements</tab>
+							
 							<tracker Class="AchievementsExpanded.KillTracker">
 								<kindDef>AA_FeraliskClutchMother</kindDef>
 								<count>1</count>
@@ -132,11 +136,11 @@
 							<points>15</points>
 						</AchievementsExpanded.AchievementDef>
 
-						<AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 							<defName>AA_AchievementBlackHive</defName>
 							<label>Not the Mechanoids You Are Looking For</label>
 							<description>Kill 50 Black Hive Insectoids</description>
-							<tab>AA_Achievements</tab>
+							
 							<tracker Class="AchievementsExpanded.KillTracker">
 								<factionDefs>
 									<li>AA_BlackHive</li>
@@ -148,11 +152,11 @@
 							<points>25</points>
 						</AchievementsExpanded.AchievementDef>
 
-						<AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 							<defName>AA_AchievementBlackHiveExterminator</defName>
 							<label>Calling Pest Control</label>
 							<description>Kill 150 Black Hive Insectoids. That will teach them.</description>
-							<tab>AA_Achievements</tab>
+							
 							<tracker Class="AchievementsExpanded.KillTracker">
 								<factionDefs>
 									<li>AA_BlackHive</li>
@@ -164,11 +168,11 @@
 							<points>40</points>
 						</AchievementsExpanded.AchievementDef>
 
-						<AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 							<defName>AA_AchievementBlackHiveJelly</defName>
 							<label>It's My Food Now</label>
 							<description>Get at least 250 Black Insect Jelly from Black Hive invasions</description>
-							<tab>AA_Achievements</tab>
+							
 							<tracker Class="AchievementsExpanded.ItemTracker">
 								<def>AA_BlackInsectJelly</def>
 								<count>250</count>
@@ -178,11 +182,11 @@
 							<points>10</points>
 						</AchievementsExpanded.AchievementDef>
 
-						<AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 							<defName>AA_AchievementSkySteel</defName>
 							<label>It Came From Outer Space</label>
 							<description>Mine or trade at least 200 Sky Steel</description>
-							<tab>AA_Achievements</tab>
+							
 							<tracker Class="AchievementsExpanded.ItemTracker">
 								<def>AA_SkySteel</def>
 								<count>200</count>
@@ -192,12 +196,11 @@
 							<points>10</points>
 						</AchievementsExpanded.AchievementDef>
 
-						<AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 							<defName>AA_AchievementAcid</defName>
 							<label>This is the Vat of Acid Episode</label>
 							<description>Have a colonist or animal be affected by an acid burn</description>
-							<tab>AA_Achievements</tab>
-
+						
 							<tracker Class="AchievementsExpanded.HediffTracker">
 								<def>AA_AcidBurn</def>
 								<count>1</count>
@@ -207,12 +210,11 @@
 							<points>10</points>
 						</AchievementsExpanded.AchievementDef>
 
-						<AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 							<defName>AA_AchievementToxic</defName>
 							<label>The Toxicity of My Colony</label>
 							<description>Have a colonist or animal be affected by a toxic buildup that won't rot their body</description>
-							<tab>AA_Achievements</tab>
-
+							
 							<tracker Class="AchievementsExpanded.HediffTracker">
 								<def>AA_ToxicBuildup</def>
 								<count>1</count>
@@ -222,11 +224,11 @@
 							<points>10</points>
 						</AchievementsExpanded.AchievementDef>
 
-						<AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 							<defName>AA_AchievementNocturnal</defName>
 							<label>By a Moonlight Shadow</label>
 							<description>Have a nocturnal or crepuscular animal</description>
-							<tab>AA_Achievements</tab>
+							
 							<tracker Class="AchievementsExpanded.RaceDefTracker">
 								<kindDefDict>
 									<li>
@@ -265,11 +267,11 @@
 							<points>15</points>
 						</AchievementsExpanded.AchievementDef>
 
-						<AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 							<defName>AA_AchievementNoChocobo</defName>
 							<label>Not a Chocobo</label>
 							<description>Acquire any kind of Ave and install Giddy-Up if you haven't</description>
-							<tab>AA_Achievements</tab>
+							
 							<tracker Class="AchievementsExpanded.RaceDefTracker">
 								<kindDefDict>
 									<li>
@@ -301,11 +303,11 @@
 							<points>10</points>
 						</AchievementsExpanded.AchievementDef>
 
-						<AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 							<defName>AA_AchievementMinerBoys</defName>
 							<label>Miner Boys</label>
 							<description>Tame a troupe of 4 Groundrunners to mine for you</description>
-							<tab>AA_Achievements</tab>
+							
 							<tracker Class="AchievementsExpanded.RaceDefTracker">
 								<kindDefDict>
 									<li>
@@ -318,12 +320,11 @@
 							<texPath>Achievements/AA_AchievementMinerBoys</texPath>
 							<points>20</points>
 						</AchievementsExpanded.AchievementDef>	
-						<AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 							<defName>AA_AchievementMuffaloPlus</defName>
 							<label>Muffalo++</label>
 							<description>Acquire a Gigantelope with Legendary carry capacity</description>
-							<tab>AA_Achievements</tab>
-
+							
 							<tracker Class="AchievementsExpanded.HediffTracker">
 								<def>AA_CarryWeight7</def>
 								<count>1</count>
@@ -333,11 +334,11 @@
 							<points>15</points>
 						</AchievementsExpanded.AchievementDef>
 
-						<AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 							<defName>AA_AchievementMutantHand</defName>
 							<label>Did It Blink at Me?</label>
 							<description>Install a mutant arm, acquired from a Teratogenic Originator</description>
-							<tab>AA_Achievements</tab>
+							
 							<tracker Class="AchievementsExpanded.HediffTracker">
 								<def>AA_MutantArm</def>
 								<count>1</count>
@@ -346,11 +347,11 @@
 							<texPath>Achievements/AA_AchievementMutantHand</texPath>
 							<points>10</points>
 						</AchievementsExpanded.AchievementDef>
-						<AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 							<defName>AA_AchievementGreg</defName>
 							<label>I Will Call It "Greg"</label>
 							<description>Tame a Slurrypede</description>
-							<tab>AA_Achievements</tab>
+							
 							<tracker Class="AchievementsExpanded.RaceDefTracker">
 								<kindDefDict>
 									<li>
@@ -363,11 +364,11 @@
 							<texPath>Achievements/AA_AchievementGreg</texPath>
 							<points>15</points>
 						</AchievementsExpanded.AchievementDef>	
-						<AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 							<defName>AA_AchievementDiscoInferno</defName>
 							<label>Disco Inferno</label>
 							<description>Attack any of the "Pod" variants with enough fire to cause him permanent burn damage</description>
-							<tab>AA_Achievements</tab>
+							
 							<tracker Class="AchievementsExpanded.HediffTracker">
 								<def>AA_PermanentBurn</def>
 								<count>1</count>
@@ -376,11 +377,11 @@
 							<texPath>Achievements/AA_AchievementDiscoInferno</texPath>
 							<points>10</points>
 						</AchievementsExpanded.AchievementDef>
-						<AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 							<defName>AA_AchievementGreenestEnergy</defName>
 							<label>Greenest Energy</label>
 							<description>Tame a TetraSlug and make it recharge your batteries</description>
-							<tab>AA_Achievements</tab>
+							
 							<tracker Class="AchievementsExpanded.HediffTracker">
 								<def>AA_RechargingBatteries</def>
 								<count>1</count>
@@ -389,11 +390,11 @@
 							<texPath>Achievements/AA_AchievementGreenestEnergy</texPath>
 							<points>20</points>
 						</AchievementsExpanded.AchievementDef>	
-						<AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 							<defName>AA_AchievementNoSherpaNeeded</defName>
 							<label>No Sherpa Needed</label>
 							<description>Kill a gargantuan Summit Crab before it pulverizes your whole colony</description>
-							<tab>AA_Achievements</tab>
+							
 							<tracker Class="AchievementsExpanded.KillTracker">
 								<kindDef>AA_SummitCrab</kindDef>
 								<count>1</count>
@@ -402,11 +403,11 @@
 							<texPath>Achievements/AA_AchievementNoSherpaNeeded</texPath>
 							<points>15</points>
 						</AchievementsExpanded.AchievementDef>
-						<AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 							<defName>AA_AchievementBuzzingArmy</defName>
 							<label>Buzzing Army</label>
 							<description>Tame a Bumbledrone Queen and make her create 20 Bumbledrones.</description>
-							<tab>AA_Achievements</tab>
+							
 							<tracker Class="AchievementsExpanded.RaceDefTracker">
 								<kindDefDict>
 									<li>
@@ -419,11 +420,11 @@
 							<texPath>Achievements/AA_AchievementBuzzingArmy</texPath>
 							<points>15</points>
 						</AchievementsExpanded.AchievementDef>		
-						<!--<AchievementsExpanded.AchievementDef>
+						<!--<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 							<defName>AA_AchievementGourmelette</defName>
 							<label>Gourmelette</label>
 							<description>Use an expensive Nightling Egg to create a Lavish Meal</description>
-							<tab>AA_Achievements</tab>
+							
 							<tracker Class="AchievementsExpanded.ItemCraftTracker">
 								<def>MealLavish</def>
 								<madeFrom>AA_EggNightlingFertilized</madeFrom>
@@ -433,11 +434,11 @@
 							<texPath>Achievements/AA_AchievementGourmelette</texPath>
 							<points>10</points>
 						</AchievementsExpanded.AchievementDef>	-->		
-						<AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 							<defName>AA_AchievementMechanoidSiege</defName>
 							<label>Mechanoid Siege</label>
 							<description>Destroy a Demolisher mechanoid</description>
-							<tab>AA_Achievements</tab>
+							
 							<tracker Class="AchievementsExpanded.KillTracker">
 								<kindDef>AA_Demolisher</kindDef>
 								<count>1</count>
@@ -447,11 +448,11 @@
 							<points>10</points>
 						</AchievementsExpanded.AchievementDef>		
 
-						<AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 							<defName>AA_AchievementDealWithTheDevil</defName>
 							<label>Deal With the Devil</label>
 							<description>Have a colonist develop a bond with a Devilsheep. Don't expect it to be mutual.</description>
-							<tab>AA_Achievements</tab>
+							
 							<tracker Class="AchievementsExpanded.AnimalBondedTracker">
 								<kindDef>AA_DevilSheep</kindDef>
 								<count>1</count>
@@ -460,11 +461,11 @@
 							<texPath>Achievements/AA_AchievementDealWithTheDevil</texPath>
 							<points>15</points>
 						</AchievementsExpanded.AchievementDef>
-						<AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 							<defName>AA_AchievementGoodestBoys</defName>
 							<label>The Goodest Boys</label>
 							<description>Assemble an strike team of a Ray Hound, a Razorjack and a Ripper Hound</description>
-							<tab>AA_Achievements</tab>
+							
 							<tracker Class="AchievementsExpanded.RaceDefTracker">
 								<kindDefDict>
 									<li>
@@ -488,11 +489,11 @@
 							<texPath>Achievements/AA_AchievementGoodestBoys</texPath>
 							<points>15</points>
 						</AchievementsExpanded.AchievementDef>
-						<AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 							<defName>AA_AchievementGoingVegan</defName>
 							<label>Going Vegan... More or Less</label>
 							<description>Acquire 200 pieces of Plant Meat</description>
-							<tab>AA_Achievements</tab>
+							
 							<tracker Class="AchievementsExpanded.ItemTracker">
 								<def>AA_CactusMeat</def>
 								<count>200</count>
@@ -501,11 +502,11 @@
 							<texPath>Achievements/AA_AchievementGoingVegan</texPath>
 							<points>10</points>
 						</AchievementsExpanded.AchievementDef>
-						<AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 							<defName>AA_AchievementExtremeHauteCouture</defName>
 							<label>Extreme Haute Couture</label>
 							<description>Craft any item out of Gallatross Leather.</description>
-							<tab>AA_Achievements</tab>
+							
 							<tracker Class="AchievementsExpanded.ItemCraftTracker">
 
 								<madeFrom>Leather_Gallatross</madeFrom>
@@ -515,11 +516,11 @@
 							<texPath>Achievements/AA_AchievementExtremeHauteCouture</texPath>
 							<points>45</points>
 						</AchievementsExpanded.AchievementDef>
-						<AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 							<defName>AA_AchievementResourceful</defName>
 							<label>Resourceful</label>
 							<description>Harvest any exotic animal product that doesn't count as Milking or Shearing</description>
-							<tab>AA_Achievements</tab>
+							
 							<tracker Class="AchievementsExpanded.HediffTracker">
 								<def>AA_GatheredResource</def>
 								<count>1</count>
@@ -528,11 +529,11 @@
 							<texPath>Achievements/AA_AchievementResourceful</texPath>
 							<points>10</points>
 						</AchievementsExpanded.AchievementDef>
-						<AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 							<defName>AA_AchievementOmNomNom</defName>
 							<label>Om Nom Nom</label>
 							<description>Tame an Helixien slug and make it feed on human corpses</description>
-							<tab>AA_Achievements</tab>
+							
 							<tracker Class="AchievementsExpanded.HediffTracker">
 								<def>AA_CorpseFeast</def>
 								<count>1</count>
@@ -541,11 +542,11 @@
 							<texPath>Achievements/AA_AchievementOmNomNom</texPath>
 							<points>10</points>
 						</AchievementsExpanded.AchievementDef>
-						<AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 							<defName>AA_AchievementBetterNotWaitForIt</defName>
 							<label>Better Not Wait For It</label>
 							<description>Tame an Angel Moth and feed it some legendary quality clothing</description>
-							<tab>AA_Achievements</tab>
+							
 							<tracker Class="AchievementsExpanded.HediffTracker">
 								<def>AA_AteFinestClothes</def>
 								<count>1</count>
@@ -554,11 +555,11 @@
 							<texPath>Achievements/AA_AchievementBetterNotWaitForIt</texPath>
 							<points>30</points>
 						</AchievementsExpanded.AchievementDef>
-						<AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 							<defName>AA_AchievementADifferentKindOfFarming</defName>
 							<label>A Different Kind of Farming</label>
 							<description>Tame a Sand Squid and make it fertilize some sand</description>
-							<tab>AA_Achievements</tab>
+						
 							<tracker Class="AchievementsExpanded.HediffTracker">
 								<def>AA_FertilizedTerrain</def>
 								<count>1</count>
@@ -567,11 +568,11 @@
 							<texPath>Achievements/AA_AchievementADifferentKindOfFarming</texPath>
 							<points>15</points>
 						</AchievementsExpanded.AchievementDef>
-						<AchievementsExpanded.AchievementDef>
+						<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 							<defName>AA_AchievementNoLight</defName>
 							<label>Wanting for the Sun</label>
 							<description>Witness a plant creature dying due to lack of sunlight</description>
-							<tab>AA_Achievements</tab>
+							
 							<tracker Class="AchievementsExpanded.HediffDeathTracker">
 								<def>AA_LightSustenance</def>
 							</tracker>
