@@ -446,7 +446,31 @@
 
 							<texPath>Achievements/AA_AchievementMechanoidSiege</texPath>
 							<points>10</points>
-						</AchievementsExpanded.AchievementDef>		
+						</AchievementsExpanded.AchievementDef>	
+
+						<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
+							<defName>AA_AchievementMechanoidSiegeTwo</defName>
+							<label>Mechanoid Siege Two</label>
+							<description>Destroy a Demolisher mechanoid or a Phalanx</description>
+							
+							<tracker Class="AchievementsExpanded.KillTrackerWithOr">
+								<kindDefList>
+									<li>
+										<key>AA_Demolisher</key>
+										<value>1</value>
+									</li>
+									<li>
+										<key>AA_Phalanx</key>
+										<value>1</value>
+									</li>
+									
+
+								</kindDefList>
+							</tracker>
+
+							<texPath>Achievements/AA_AchievementMechanoidSiege</texPath>
+							<points>10</points>
+						</AchievementsExpanded.AchievementDef>							
 
 						<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 							<defName>AA_AchievementDealWithTheDevil</defName>

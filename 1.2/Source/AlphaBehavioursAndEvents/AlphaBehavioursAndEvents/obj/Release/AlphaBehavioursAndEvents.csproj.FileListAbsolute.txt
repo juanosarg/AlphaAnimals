@@ -10,3 +10,4 @@ E:\SteamLibrary\steamapps\common\RimWorld\Mods\AlphaAnimals\1.2\Assemblies\Alpha
 E:\SteamLibrary\steamapps\common\RimWorld\Mods\AlphaAnimals\1.2\Source\AlphaBehavioursAndEvents\AlphaBehavioursAndEvents\obj\Release\AlphaBehavioursAndEvents.csprojAssemblyReference.cache
 E:\SteamLibrary\steamapps\common\RimWorld\Mods\AlphaAnimals\1.2\Source\AlphaBehavioursAndEvents\AlphaBehavioursAndEvents\obj\Release\AlphaBehavioursAndEvents.csproj.CoreCompileInputs.cache
 E:\SteamLibrary\steamapps\common\RimWorld\Mods\AlphaAnimals\1.2\Source\AlphaBehavioursAndEvents\AlphaBehavioursAndEvents\obj\Release\AlphaBehavioursAndEvents.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\AlphaAnimals\1.2\Source\AlphaBehavioursAndEvents\AlphaBehavioursAndEvents\obj\Release\AlphaBehavioursAndEvents.csproj.CopyComplete
