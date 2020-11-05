@@ -301,6 +301,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Achievements\ItemCraftTrackerWithIngredients.cs" />
     <Compile Include="Achievements\KillTrackerWithOr.cs" />
     <Compile Include="Comps\CompAcidImmunity.cs" />
     <Compile Include="Comps\CompAnimalProduct.cs" />
@@ -355,6 +356,8 @@
     <Compile Include="Hediffs\HediffComp_AutoPermanentInjury.cs" />
     <Compile Include="Hediffs\HediffComp_ExplodeOnDowned.cs" />
     <Compile Include="Hediffs\HediffComp_TurnWhenDead.cs" />
+    <Compile Include="Incidents\IncidentWorker_AlphaResourcePodCrash.cs" />
+    <Compile Include="Incidents\ThingSetMaker_AlphaResourcePod.cs" />
     <Compile Include="Jobs\JobDriver_AnimalResource.cs" />
     <Compile Include="Jobs\JobDriver_IngestWeird.cs" />
     <Compile Include="Jobs\JobGiver_GetWeirdFood.cs" />

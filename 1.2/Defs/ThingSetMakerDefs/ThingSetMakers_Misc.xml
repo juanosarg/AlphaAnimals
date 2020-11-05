@@ -7,6 +7,11 @@
     <defName>AA_Meteorite</defName>
     <root Class="AlphaBehavioursAndEvents.ThingSetMaker_SpecialMeteorite" />
   </ThingSetMakerDef>
+  
+    <ThingSetMakerDef>
+    <defName>AA_AlphaResourcePod</defName>
+    <root Class="AlphaBehavioursAndEvents.ThingSetMaker_AlphaResourcePod" />
+  </ThingSetMakerDef>
 
  
   

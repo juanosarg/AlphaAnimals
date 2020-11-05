@@ -4,7 +4,8 @@
 
 
 	<!-- Misc -->
-
+	<AA_LetterLabelAlphaCargoPodCrash>Alpha Animals Cargo Pod</AA_LetterLabelAlphaCargoPodCrash>
+	<AA_AlphaCargoPodCrash>You have detected a cargo pod crashing nearby. Captive exotic animals seem to be inside.\n\nWho knows, but perhaps you'll find something useful in the wreckage.</AA_AlphaCargoPodCrash>
 	<AA_AsexualHatched>{0} has reproduced asexually.</AA_AsexualHatched>
 	<AA_AsexualCloning>{0} has cloned itself.</AA_AsexualCloning>
 	<AA_AsexualHatchedEgg>{0} has sporulated.</AA_AsexualHatchedEgg>

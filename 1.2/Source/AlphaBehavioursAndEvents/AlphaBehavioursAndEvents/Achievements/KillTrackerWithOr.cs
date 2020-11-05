@@ -28,19 +28,20 @@ namespace AchievementsExpanded
 
         public override bool Trigger(Pawn pawn, DamageInfo? dinfo)
         {
-            base.Trigger(pawn, dinfo);
+            //base.Trigger(pawn, dinfo);
             if (killedThings.Contains(pawn.GetUniqueLoadID()))
                 return false;
             else
                 killedThings.Add(pawn.GetUniqueLoadID());
             bool instigator = instigatorFactionDefs.NullOrEmpty() || (dinfo?.Instigator?.Faction?.def != null && instigatorFactionDefs.Contains(dinfo.Value.Instigator.Faction.def));
             bool kind = false;
-            if (kindDef != null)
+            if (kindDefList != null)
             {
                 foreach (KeyValuePair<PawnKindDef, int> set in kindDefList)
                 {
 
                     kind = (pawn.kindDef == set.Key);
+                    if (kind) { break; }
                 }
             }
             else kind = true;

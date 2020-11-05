@@ -158,6 +158,17 @@
     <tale>Raid</tale>
   </IncidentDef>
   
+  <IncidentDef>
+    <defName>AA_ResourcePodCrash</defName>
+    <label>alpha animal resource pod crash</label>
+    <category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>AlphaBehavioursAndEvents.IncidentWorker_AlphaResourcePodCrash</workerClass>
+    <baseChance>0</baseChance>
+  </IncidentDef>
+  
   
 
 </Defs>
