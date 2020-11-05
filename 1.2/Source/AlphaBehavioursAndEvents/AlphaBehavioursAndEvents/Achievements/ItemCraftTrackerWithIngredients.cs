@@ -29,7 +29,7 @@ namespace AchievementsExpanded
 
         public override bool Trigger(Thing thing)
         {
-            base.Trigger(thing);
+           // base.Trigger(thing);
             if ((def is null || thing.def == def) && (madeFrom is null || madeFrom == thing.Stuff)
                 && (includeingredient is null || (thing.TryGetComp<CompIngredients>().ingredients.Contains(includeingredient)))
                 )
