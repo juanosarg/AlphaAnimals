@@ -31,12 +31,12 @@
 							<description>Tame the Legendary Gallatross</description>
 							
 							<tracker Class="AchievementsExpanded.RaceDefTracker">
-								<kindDefDict>
+								<kindDefs>
 									<li>
 										<key>AA_Gallatross</key>
 										<value>1</value>
 									</li>
-								</kindDefDict>
+								</kindDefs>
 							</tracker>
 
 							<texPath>Achievements/AA_AchievementGallatross</texPath>
@@ -64,12 +64,12 @@
 							<description>Tame an Aerofleet, let it reproduce till you have 100. Then detonate them. Ok, that is optional, but come on.</description>
 							
 							<tracker Class="AchievementsExpanded.RaceDefTracker">
-								<kindDefDict>
+								<kindDefs>
 									<li>
 										<key>AA_Aerofleet</key>
 										<value>100</value>
 									</li>
-								</kindDefDict>
+								</kindDefs>
 							</tracker>
 
 							<texPath>Achievements/AA_AchievementAerofleet</texPath>
@@ -110,12 +110,12 @@
 							<description>Nurture an Atispec Larva into a mighty Atispec</description>
 							
 							<tracker Class="AchievementsExpanded.RaceDefTracker">
-								<kindDefDict>
+								<kindDefs>
 									<li>
 										<key>AA_Atispec</key>
 										<value>1</value>
 									</li>
-								</kindDefDict>
+								</kindDefs>
 							</tracker>
 
 							<texPath>Achievements/AA_AchievementAtispec</texPath>
@@ -244,7 +244,7 @@
 							<description>Have a nocturnal or crepuscular animal</description>
 							
 							<tracker Class="AchievementsExpanded.RaceDefTracker">
-								<kindDefDict>
+								<kindDefs>
 									<li>
 										<key>AA_Nightling</key>
 										<value>1</value>
@@ -273,7 +273,7 @@
 										<key>AA_NightAve</key>
 										<value>1</value>
 									</li>
-								</kindDefDict>
+								</kindDefs>
 								<requireAll>false</requireAll>
 							</tracker>
 
@@ -287,7 +287,7 @@
 							<description>Acquire any kind of Ave and install Giddy-Up if you haven't</description>
 							
 							<tracker Class="AchievementsExpanded.RaceDefTracker">
-								<kindDefDict>
+								<kindDefs>
 									<li>
 										<key>AA_RoyalAve</key>
 										<value>1</value>
@@ -309,7 +309,7 @@
 										<value>1</value>
 									</li>
 
-								</kindDefDict>
+								</kindDefs>
 								<requireAll>false</requireAll>
 							</tracker>
 
@@ -323,12 +323,12 @@
 							<description>Tame a troupe of 4 Groundrunners to mine for you</description>
 							
 							<tracker Class="AchievementsExpanded.RaceDefTracker">
-								<kindDefDict>
+								<kindDefs>
 									<li>
 										<key>AA_Groundrunner</key>
 										<value>4</value>
 									</li>
-								</kindDefDict>
+								</kindDefs>
 							</tracker>
 
 							<texPath>Achievements/AA_AchievementMinerBoys</texPath>
@@ -367,12 +367,12 @@
 							<description>Tame a Slurrypede</description>
 							
 							<tracker Class="AchievementsExpanded.RaceDefTracker">
-								<kindDefDict>
+								<kindDefs>
 									<li>
 										<key>AA_Slurrypede</key>
 										<value>1</value>
 									</li>
-								</kindDefDict>
+								</kindDefs>
 							</tracker>
 
 							<texPath>Achievements/AA_AchievementGreg</texPath>
@@ -423,12 +423,12 @@
 							<description>Tame a Bumbledrone Queen and make her create 20 Bumbledrones.</description>
 							
 							<tracker Class="AchievementsExpanded.RaceDefTracker">
-								<kindDefDict>
+								<kindDefs>
 									<li>
 										<key>AA_Bumbledrone</key>
 										<value>20</value>
 									</li>
-								</kindDefDict>
+								</kindDefs>
 							</tracker>
 
 							<texPath>Achievements/AA_AchievementBuzzingArmy</texPath>
@@ -497,7 +497,7 @@
 							<description>Assemble an strike team of a Ray Hound, a Razorjack and a Ripper Hound</description>
 							
 							<tracker Class="AchievementsExpanded.RaceDefTracker">
-								<kindDefDict>
+								<kindDefs>
 									<li>
 										<key>AA_RipperHound</key>
 										<value>1</value>
@@ -512,7 +512,7 @@
 									</li>
 
 
-								</kindDefDict>
+								</kindDefs>
 								<requireAll>true</requireAll>
 							</tracker>
 
