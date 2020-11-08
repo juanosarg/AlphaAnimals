@@ -605,6 +605,7 @@
 							
 							<tracker Class="AchievementsExpanded.HediffDeathTracker">
 								<def>AA_LightSustenance</def>
+								<count>1</count>
 							</tracker>
 
 							<texPath>Achievements/AA_AchievementNoLight</texPath>
