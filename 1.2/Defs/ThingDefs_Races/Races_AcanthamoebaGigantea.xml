@@ -1,98 +1,94 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<ThingDef ParentName="AnimalThingBase">
-		<defName>AA_AcanthamoebaGigantea</defName>
-		<label>acanthamoeba gigantea</label>
-		<description>These amorphous, ambulatory masses of gelatinous fluid seem to be a mockery of life. Although they look like individuals, in reality they are part of a greater gelatinous superorganism, with only one objective: grow and expand.\n\nThey have been nicknamed green goo due to their ability to reproduce constantly, requiring very little substenance, and quickly filling all available ecological niches. In the field of eschatology, a grey goo is an end-of-the-world scenario involving molecular nanotechnology in which out-of-control self-replicating robots consume all biomass while building more of themselves. A green goo scenario, however, involves biological self-replicating entities. NOTE: due to gameplay constraints, green goo will only self-replicate until the map holds 40 creatures, cause I don't want to fry your computers.</description>
-		
+		<defName>AA_AcanthamoebaGiganteaSmall</defName>
+		<label>acanthamoeba gigantea, small</label>
+		<description>Literally the "giant spiked amoeba", this strange creature is a huge unicellular organism genetically modified to serve as a biological cleaning machine. Acanthamoebas will happily feed on most types of non-metallic trash, engorging themselves in the process.\n\nAfter a certain amount of feedings, Acanthamoebas will increase in size and, after reaching a threshold, they will split into two different individuals.</description>
+
 		<statBases>
 			<MoveSpeed>1.5</MoveSpeed>
-			<ComfyTemperatureMin>-100</ComfyTemperatureMin>
-			<ComfyTemperatureMax>85</ComfyTemperatureMax>
-			<MarketValue>125</MarketValue>
+			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
+			<ComfyTemperatureMax>65</ComfyTemperatureMax>
+			<MarketValue>150</MarketValue>
 			<MeatAmount>0</MeatAmount>
 			<LeatherAmount>0</LeatherAmount>
 		</statBases>
 		<tools>
-			
+
 			<li>
-				<label>tentacles</label>
+				<label>pseudopods</label>
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>8</power>
+				<power>4</power>
 				<cooldownTime>1.2</cooldownTime>
 				<linkedBodyPartsGroup>Arms</linkedBodyPartsGroup>
-				
+
 			</li>
 		</tools>
-		<verbs>
-			<li>
-				<verbClass>Verb_Shoot</verbClass>
-				<accuracyTouch>1</accuracyTouch>
-				<accuracyShort>1</accuracyShort>
-				<accuracyMedium>1</accuracyMedium>
-				<accuracyLong>1</accuracyLong>
-				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>AA_PoisonBolt</defaultProjectile>
-				<warmupTime>3</warmupTime>
-				<burstShotCount>1</burstShotCount>
-				<minRange>2</minRange>
-				<range>20</range>
-				<soundCast>AA_PoisonBolt</soundCast>
-				<muzzleFlashScale>0</muzzleFlashScale>
-				<!--Commanility determines how frequent this range verb is chosen.-->
-				<commonality>.6</commonality>
-			</li>
 
-
-		</verbs>
 		<tickerType>Normal</tickerType>
 		<comps>
 
-			<!--<li Class="AlphaBehavioursAndEvents.CompProperties_AsexualReproduction">
+			<li Class="AlphaBehavioursAndEvents.CompProperties_EatWeirdFood">
 
-				<reproductionIntervalDays>10</reproductionIntervalDays>
-				<customString>Cloning in: </customString>
-				<isGreenGoo>true</isGreenGoo>
-				<GreenGooLimit>40</GreenGooLimit>
-				<GreenGooTarget>AA_GreenGoo</GreenGooTarget>
+				<customThingToEat>
 
-			</li>-->
-			
-		
-		
+					<li>Filth_Dirt</li>
+					<li>Filth_AnimalFilth</li>
+					<li>Filth_Trash</li>
+					<li>Filth_Sand</li>
+					<li>Filth_Blood</li>					
+					<li>Plant_Grass</li>
+					<li>Plant_TallGrass</li>
+
+				</customThingToEat>
+				<nutrition>1</nutrition>
+				<digThingIfMapEmpty>false</digThingIfMapEmpty>
+				<fullyDestroyThing>true</fullyDestroyThing>
+				<advanceLifeStage>true</advanceLifeStage>
+				<advanceAfterXFeedings>10</advanceAfterXFeedings>
+				<defToAdvanceTo>AA_AcanthamoebaGiganteaLarge</defToAdvanceTo>
+
+			</li>
+
+
+
 
 		</comps>
 		<race>
-		   
+			<thinkTreeMain>AA_AnimalWeirdEater</thinkTreeMain>
 			<deathActionWorkerClass>AlphaBehavioursAndEvents.DeathActionWorker_AcidExplosion</deathActionWorkerClass>
-			<executionRange>6</executionRange>
+			<executionRange>4</executionRange>
 			<herdAnimal>false</herdAnimal>
 			<body>AA_GooBody</body>
-			<baseBodySize>0.5</baseBodySize>
+			<baseBodySize>0.2</baseBodySize>
+			<canBePredatorPrey>false</canBePredatorPrey>
 			<baseHealthScale>0.75</baseHealthScale>
-			<baseHungerRate>0.005</baseHungerRate>
+			<baseHungerRate>0.5</baseHungerRate>
 			<hasGenders>false</hasGenders>
 			<foodType>VegetarianRoughAnimal</foodType>			
-			<wildness>0.6</wildness>
+			<wildness>0.42</wildness>
 			<trainability>Simple</trainability>
-			
+			<useMeatFrom>Pig</useMeatFrom>
 			<mateMtbHours>10000</mateMtbHours>
 			<gestationPeriodDays>10000</gestationPeriodDays>
-			<lifeExpectancy>10</lifeExpectancy>
+			<lifeExpectancy>3</lifeExpectancy>
+			<wildBiomes>
+				<BorealForest>0.01</BorealForest>
+				<Tundra>0.01</Tundra>
+				<ColdBog>0.005</ColdBog>
+				<TemperateForest>0.01</TemperateForest>
+				<TemperateSwamp>0.005</TemperateSwamp>
+				<TropicalRainforest>0.005</TropicalRainforest>
+				<TropicalSwamp>0.01</TropicalSwamp>
+				<AridShrubland>0.01</AridShrubland>
+			</wildBiomes>
 			<lifeStageAges>
-				<li>
-					<def>AnimalBaby</def>
-					<minAge>0</minAge>
-				</li>
-				<li>
-					<def>AnimalJuvenile</def>
-					<minAge>0.01</minAge>
-				</li>
+
 				<li>
 					<def>AnimalAdult</def>
-					<minAge>0.02</minAge>
+					<minAge>0</minAge>
 					<soundWounded>AA_GreenGoo_Wounded</soundWounded>
 					<soundDeath>AA_GreenGoo_Death</soundDeath>
 					<soundAngry>AA_GreenGoo_Angry</soundAngry>
@@ -101,22 +97,22 @@
 			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
 			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
-			
+
 		</race>
-		
+
 		<tradeTags>
 			<li>AnimalExotic</li>
 		</tradeTags>
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">
-		<defName>AA_AcanthamoebaGigantea</defName>
-		<label>acanthamoeba gigantea</label>
-		<race>AA_AcanthamoebaGigantea</race>
-		<combatPower>75</combatPower>
+		<defName>AA_AcanthamoebaGiganteaSmall</defName>
+		<label>acanthamoeba gigantea, small</label>
+		<race>AA_AcanthamoebaGiganteaSmall</race>
+		<combatPower>50</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
 		<ecoSystemWeight>0.01</ecoSystemWeight>
-		
+
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
@@ -124,34 +120,250 @@
 					<drawSize>1.5</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/AA_GreenGoo/AA_Dessicated_GreenGoo</texPath>
+					<texPath>Things/Pawn/Animal/AA_AcanthamoebaGigantea/AA_Dessicated_AcanthamoebaGigantea</texPath>
 					<drawSize>1.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
-			<li>
-				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AA_AcanthamoebaGigantea/AA_AcanthamoebaGigantea</texPath>
-					<drawSize>1.8</drawSize>
-				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/AA_GreenGoo/AA_Dessicated_GreenGoo</texPath>
-					<drawSize>1.8</drawSize>
-				</dessicatedBodyGraphicData>
-			</li>
-			<li>
-				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AA_AcanthamoebaGigantea/AA_AcanthamoebaGigantea</texPath>
-					<drawSize>2.5</drawSize>
-				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/AA_GreenGoo/AA_Dessicated_GreenGoo</texPath>
-					<drawSize>2.5</drawSize>
-				</dessicatedBodyGraphicData>
-			</li>
+
 		</lifeStages>
 	</PawnKindDef>
-	
-	
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>AA_AcanthamoebaGiganteaLarge</defName>
+		<label>acanthamoeba gigantea, large</label>
+		<description>Literally the "giant spiked amoeba", this strange creature is a huge unicellular organism genetically modified to serve as a biological cleaning machine. Acanthamoebas will happily feed on most types of non-metallic trash, engorging themselves in the process.\n\nAfter a certain amount of feedings, Acanthamoebas will increase in size and, after reaching a threshold, they will split into two different individuals.</description>
+
+		<statBases>
+			<MoveSpeed>1.75</MoveSpeed>
+			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
+			<ComfyTemperatureMax>65</ComfyTemperatureMax>
+			<MarketValue>350</MarketValue>
+			<MeatAmount>0</MeatAmount>
+			<LeatherAmount>0</LeatherAmount>
+		</statBases>
+		<tools>
+
+			<li>
+				<label>pseudopods</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>1.2</cooldownTime>
+				<linkedBodyPartsGroup>Arms</linkedBodyPartsGroup>
+
+			</li>
+		</tools>
+
+		<tickerType>Normal</tickerType>
+		<comps>
+
+			<li Class="AlphaBehavioursAndEvents.CompProperties_EatWeirdFood">
+
+				<customThingToEat>
+
+					<li>Filth_Dirt</li>
+					<li>Filth_AnimalFilth</li>
+					<li>Filth_Trash</li>
+					<li>Filth_Sand</li>
+					<li>Filth_Blood</li>					
+					<li>Plant_Grass</li>
+					<li>Plant_TallGrass</li>
+
+				</customThingToEat>
+				<nutrition>1</nutrition>
+				<digThingIfMapEmpty>false</digThingIfMapEmpty>
+				<fullyDestroyThing>true</fullyDestroyThing>
+				<advanceLifeStage>true</advanceLifeStage>
+				<advanceAfterXFeedings>20</advanceAfterXFeedings>
+				<defToAdvanceTo>AA_AcanthamoebaGiganteaHuge</defToAdvanceTo>
+
+			</li>
 
 
+
+
+		</comps>
+		<race>
+			<thinkTreeMain>AA_AnimalWeirdEater</thinkTreeMain>
+			<deathActionWorkerClass>AlphaBehavioursAndEvents.DeathActionWorker_AcidExplosion</deathActionWorkerClass>
+			<executionRange>6</executionRange>
+			<herdAnimal>false</herdAnimal>
+			<body>AA_GooBody</body>
+			<baseBodySize>0.8</baseBodySize>
+			<canBePredatorPrey>false</canBePredatorPrey>
+			<baseHealthScale>1.5</baseHealthScale>
+			<baseHungerRate>0.5</baseHungerRate>
+			<hasGenders>false</hasGenders>
+			<foodType>VegetarianRoughAnimal</foodType>			
+			<wildness>0.42</wildness>
+			<trainability>Simple</trainability>
+			<useMeatFrom>Pig</useMeatFrom>
+			<mateMtbHours>10000</mateMtbHours>
+			<gestationPeriodDays>10000</gestationPeriodDays>
+			<lifeExpectancy>3</lifeExpectancy>
+			<lifeStageAges>
+
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0</minAge>
+					<soundWounded>AA_GreenGoo_Wounded</soundWounded>
+					<soundDeath>AA_GreenGoo_Death</soundDeath>
+					<soundAngry>AA_GreenGoo_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+
+		</race>
+
+		<tradeTags>
+			<li>AnimalExotic</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>AA_AcanthamoebaGiganteaLarge</defName>
+		<label>acanthamoeba gigantea, large</label>
+		<race>AA_AcanthamoebaGiganteaLarge</race>
+		<combatPower>75</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>0.01</ecoSystemWeight>
+
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_AcanthamoebaGigantea/AA_AcanthamoebaGigantea</texPath>
+					<drawSize>2.25</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_AcanthamoebaGigantea/AA_Dessicated_AcanthamoebaGigantea</texPath>
+					<drawSize>2.25</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+
+		</lifeStages>
+	</PawnKindDef>
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>AA_AcanthamoebaGiganteaHuge</defName>
+		<label>acanthamoeba gigantea, huge</label>
+		<description>Literally the "giant spiked amoeba", this strange creature is a huge unicellular organism genetically modified to serve as a biological cleaning machine. Acanthamoebas will happily feed on most types of non-metallic trash, engorging themselves in the process.\n\nAfter a certain amount of feedings, Acanthamoebas will increase in size and, after reaching a threshold, they will split into two different individuals.</description>
+
+		<statBases>
+			<MoveSpeed>2</MoveSpeed>
+			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
+			<ComfyTemperatureMax>65</ComfyTemperatureMax>
+			<MarketValue>700</MarketValue>
+			<MeatAmount>0</MeatAmount>
+			<LeatherAmount>0</LeatherAmount>
+		</statBases>
+		<tools>
+
+			<li>
+				<label>pseudopods</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>1.2</cooldownTime>
+				<linkedBodyPartsGroup>Arms</linkedBodyPartsGroup>
+
+			</li>
+		</tools>
+
+		<tickerType>Normal</tickerType>
+		<comps>
+
+			<li Class="AlphaBehavioursAndEvents.CompProperties_EatWeirdFood">
+
+				<customThingToEat>
+
+					<li>Filth_Dirt</li>
+					<li>Filth_AnimalFilth</li>
+					<li>Filth_Trash</li>
+					<li>Filth_Sand</li>
+					<li>Filth_Blood</li>					
+					<li>Plant_Grass</li>
+					<li>Plant_TallGrass</li>
+
+				</customThingToEat>
+				<nutrition>1</nutrition>
+				<digThingIfMapEmpty>false</digThingIfMapEmpty>
+				<fullyDestroyThing>true</fullyDestroyThing>
+				<advanceLifeStage>true</advanceLifeStage>
+				<advanceAfterXFeedings>20</advanceAfterXFeedings>
+				<fissionAfterXFeedings>true</fissionAfterXFeedings>
+				<defToFissionTo>AA_AcanthamoebaGiganteaSmall</defToFissionTo>
+				<fissionOnlyIfTamed>true</fissionOnlyIfTamed>
+				<numberOfOffspring>2</numberOfOffspring>
+
+			</li>
+
+
+
+
+		</comps>
+		<race>
+			<thinkTreeMain>AA_AnimalWeirdEater</thinkTreeMain>
+			<deathActionWorkerClass>AlphaBehavioursAndEvents.DeathActionWorker_AcidExplosion</deathActionWorkerClass>
+			<executionRange>8</executionRange>
+			<herdAnimal>false</herdAnimal>
+			<body>AA_GooBody</body>
+			<baseBodySize>1.5</baseBodySize>
+			<canBePredatorPrey>false</canBePredatorPrey>
+			<baseHealthScale>2.5</baseHealthScale>
+			<baseHungerRate>0.5</baseHungerRate>
+			<hasGenders>false</hasGenders>
+			<foodType>VegetarianRoughAnimal</foodType>			
+			<wildness>0.42</wildness>
+			<trainability>Simple</trainability>
+			<useMeatFrom>Pig</useMeatFrom>
+			<mateMtbHours>10000</mateMtbHours>
+			<gestationPeriodDays>10000</gestationPeriodDays>
+			<lifeExpectancy>3</lifeExpectancy>
+			<lifeStageAges>
+
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0</minAge>
+					<soundWounded>AA_GreenGoo_Wounded</soundWounded>
+					<soundDeath>AA_GreenGoo_Death</soundDeath>
+					<soundAngry>AA_GreenGoo_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+
+		</race>
+
+		<tradeTags>
+			<li>AnimalExotic</li>
+		</tradeTags>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>AA_AcanthamoebaGiganteaHuge</defName>
+		<label>acanthamoeba gigantea, huge</label>
+		<race>AA_AcanthamoebaGiganteaHuge</race>
+		<combatPower>105</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>0.01</ecoSystemWeight>
+
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_AcanthamoebaGigantea/AA_AcanthamoebaGigantea</texPath>
+					<drawSize>3</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_AcanthamoebaGigantea/AA_Dessicated_AcanthamoebaGigantea</texPath>
+					<drawSize>3</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+
+		</lifeStages>
+	</PawnKindDef>
 </Defs>

@@ -204,6 +204,9 @@ namespace AlphaBehavioursAndEvents
                     chewer.Map.physicalInteractionReservationManager.Release(chewer, toil.actor.CurJob, thing);
                 }
             });
+
+            
+
             toil.handlingFacing = true;
             //Toils_Ingest.AddIngestionEffects(toil, chewer, ingestibleInd, eatSurfaceInd);
             return toil;
@@ -225,7 +228,16 @@ namespace AlphaBehavioursAndEvents
                 }
                 float num2 = comp.Props.nutrition;// thing.Ingested(ingester, num);
                 if (comp.Props.fullyDestroyThing) {
-                    thing.Destroy(DestroyMode.Vanish);
+                    if (comp.Props.drainBattery) {
+                        Building_Battery battery = thing as Building_Battery;
+                        if (battery != null) {
+                            CompPowerBattery compPower = battery.TryGetComp<CompPowerBattery>();
+                            compPower.SetStoredEnergyPct(compPower.StoredEnergyPct - comp.Props.percentageDrain);
+                        }
+                        else thing.Destroy(DestroyMode.Vanish);
+
+                    }
+                    else thing.Destroy(DestroyMode.Vanish);
 
                 } else
                 {
@@ -257,6 +269,45 @@ namespace AlphaBehavioursAndEvents
                 if (comp.Props.hediffWhenEaten!="")
                 {
                     actor.health.AddHediff(HediffDef.Named(comp.Props.hediffWhenEaten));
+                }
+
+                if (comp.Props.advanceLifeStage && actor.Map!=null) {
+                    comp.currentFeedings++;
+                    if (comp.currentFeedings >= comp.Props.advanceAfterXFeedings)
+                    {
+                        if (comp.Props.fissionAfterXFeedings) {
+                            if (!comp.Props.fissionOnlyIfTamed || actor.Faction.IsPlayer) {
+                                for (int i = 0; i < comp.Props.numberOfOffspring; i++)
+                                {
+                                    PawnGenerationRequest request = new PawnGenerationRequest(PawnKindDef.Named(comp.Props.defToFissionTo), actor.Faction, PawnGenerationContext.NonPlayer, -1, true, true, false, false, true, false, 1f, false, true, true, false, false);
+                                    Pawn newPawn = PawnGenerator.GeneratePawn(request);
+                                    newPawn.playerSettings.AreaRestriction = actor.playerSettings.AreaRestriction;
+                                    newPawn.relations.AddDirectRelation(PawnRelationDefOf.Parent, actor);
+                                    GenSpawn.Spawn(newPawn, actor.Position, actor.Map, WipeMode.Vanish);
+
+                                }
+
+                                actor.Destroy();
+                            }
+                            
+
+                        } else
+                        {
+                            PawnGenerationRequest request = new PawnGenerationRequest(PawnKindDef.Named(comp.Props.defToAdvanceTo), actor.Faction, PawnGenerationContext.NonPlayer, -1, true, true, false, false, true, false, 1f, false, true, true, false, false);
+                            Pawn newPawn = PawnGenerator.GeneratePawn(request);
+                            if (!actor.Name.ToString().UncapitalizeFirst().Contains(actor.def.label))
+                            {
+                                newPawn.Name = actor.Name;
+                            }
+                            newPawn.training = actor.training;
+                            newPawn.health = actor.health;
+                            newPawn.foodRestriction = actor.foodRestriction;
+                            newPawn.playerSettings.AreaRestriction = actor.playerSettings.AreaRestriction;
+                            GenSpawn.Spawn(newPawn, actor.Position, actor.Map, WipeMode.Vanish);
+                            actor.Destroy();
+                        }
+                        
+                    }
                 }
                 
                 if (!ingester.Dead)

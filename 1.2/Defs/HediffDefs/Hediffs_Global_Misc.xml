@@ -429,7 +429,7 @@
 			</li>
 		</stages>
 	</HediffDef>
-	
+
 	<HediffDef>
 		<defName>AA_PsionicallyNuzzled</defName>
 		<description>Blessed by an Animus Vox.</description>
@@ -445,11 +445,11 @@
 		</comps>
 		<stages>
 			<li>
-				
+
 			</li>
 		</stages>
 	</HediffDef>
-	
+
 	<HediffDef>
 		<defName>AA_GatheredResource</defName>
 		<description>This colonist has recently gathered an animal resource.</description>
@@ -465,11 +465,11 @@
 		</comps>
 		<stages>
 			<li>
-				
+
 			</li>
 		</stages>
 	</HediffDef>
-	
+
 	<HediffDef>
 		<defName>AA_CorpseFeast</defName>
 		<description>This Helixien slug has recently fed on human corpses. The tastiest meat.</description>
@@ -485,11 +485,11 @@
 		</comps>
 		<stages>
 			<li>
-				
+
 			</li>
 		</stages>
 	</HediffDef>
-	
+
 	<HediffDef>
 		<defName>AA_AteFinestClothes</defName>
 		<description>This Angel Moth has recently consumed clothes of Legendary quality.</description>
@@ -505,11 +505,11 @@
 		</comps>
 		<stages>
 			<li>
-				
+
 			</li>
 		</stages>
 	</HediffDef>
-	
+
 	<HediffDef>
 		<defName>AA_RechargingBatteries</defName>
 		<description>This TetraSlug has recently recharged a nearby battery.</description>
@@ -525,11 +525,11 @@
 		</comps>
 		<stages>
 			<li>
-				
+
 			</li>
 		</stages>
 	</HediffDef>
-	
+
 	<HediffDef>
 		<defName>AA_FertilizedTerrain</defName>
 		<description>This Sand Squid has recently fertilized some sandy terrain.</description>
@@ -545,7 +545,7 @@
 		</comps>
 		<stages>
 			<li>
-				
+
 			</li>
 		</stages>
 	</HediffDef>
@@ -623,33 +623,58 @@
 			</li>
 		</stages>
 	</HediffDef>
-	
+
 	<HediffDef ParentName="InjuryBase">
-    <defName>AA_AcidBurn</defName>
-    <label>acid burn</label>
-    <labelNoun>an acid burn</labelNoun>
-    <description>An acid burn.</description>
-    <comps>
-      <li Class="HediffCompProperties_TendDuration">
-        <labelTendedWell>bandaged</labelTendedWell>
-        <labelTendedWellInner>tended</labelTendedWellInner>
-        <labelSolidTendedWell>tended</labelSolidTendedWell>
-      </li>
-      <li Class="HediffCompProperties_Infecter">
-        <infectionChance>0.30</infectionChance>
-      </li>
-      <li Class="HediffCompProperties_GetsPermanent">
-        <permanentLabel>acid burn scar</permanentLabel>
-      </li>
-    </comps>
-    <injuryProps>
-      <painPerSeverity>0.01875</painPerSeverity>
-      <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
-      <canMerge>true</canMerge>
-      <destroyedLabel>Corroded</destroyedLabel>
-      <destroyedOutLabel>Corroded</destroyedOutLabel>
-    </injuryProps>
-  </HediffDef>
+		<defName>AA_AcidBurn</defName>
+		<label>acid burn</label>
+		<labelNoun>an acid burn</labelNoun>
+		<description>An acid burn.</description>
+		<comps>
+			<li Class="HediffCompProperties_TendDuration">
+				<labelTendedWell>bandaged</labelTendedWell>
+				<labelTendedWellInner>tended</labelTendedWellInner>
+				<labelSolidTendedWell>tended</labelSolidTendedWell>
+			</li>
+			<li Class="HediffCompProperties_Infecter">
+				<infectionChance>0.30</infectionChance>
+			</li>
+			<li Class="HediffCompProperties_GetsPermanent">
+				<permanentLabel>acid burn scar</permanentLabel>
+			</li>
+		</comps>
+		<injuryProps>
+			<painPerSeverity>0.01875</painPerSeverity>
+			<averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
+			<canMerge>true</canMerge>
+			<destroyedLabel>Corroded</destroyedLabel>
+			<destroyedOutLabel>Corroded</destroyedOutLabel>
+		</injuryProps>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>AA_Resurrection</defName>
+		<isBad>false</isBad>
+		<label>rise from your grave!</label>
+		<description>This animal can survive up to 9 fatal wounds, coming back from the dead.</description>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<hediffClass>HediffWithComps</hediffClass>
+		<comps>
+
+			<li Class="AlphaBehavioursAndEvents.HediffCompProperties_Resurrect">
+				<livesLeft>9</livesLeft>
+
+			</li>
+
+
+		</comps>
+		<stages>
+			<li>
+
+			</li>
+		</stages>
+	</HediffDef>
 
 
 </Defs>

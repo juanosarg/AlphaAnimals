@@ -44,6 +44,9 @@
 
 	<LetterLabelFeraliskClutchMother>Feralisk clutch mother</LetterLabelFeraliskClutchMother>
 	<FeraliskClutchMother>A huge spider like creature called a Feralisk wanders through this territory.\n\nThis Feralisk seems to be of much bigger size than usual, and is carrying a clutch of eggs on its back. This sounds like a recipe for disaster if not dealt with quickly.</FeraliskClutchMother>
+	
+	<AA_LetterLabelAnimaliskEnters>Animalisk spotted</AA_LetterLabelAnimaliskEnters>
+	<AA_LetterAnimaliskEnters>A huge spider like creature with arcane runes carved on its exoskeleton wanders through this territory.\n\nThis creature is an Animalisk, a gigantic herbivorous insect that devours Anima grass and trees.</AA_LetterAnimaliskEnters>
 
 	<LetterLabelSummitCrab>Summit Crab</LetterLabelSummitCrab>
 	<SummitCrab>The ground trembles as a massive hermit crab living inside a huge boulder drags itself across this region.\n\nThe gargantuan bouldermit isn't hostile, but it is almost impervious to gunfire and it will lay waste to anything in its path if not stopped.</SummitCrab>
@@ -96,6 +99,7 @@
 	<allowMechanoidSappers>Allow Demolishers to appear as Mechanoid sappers</allowMechanoidSappers>
 	<allowHelixienCorpseEffect>Allow Helixien effect (disable if getting errors due to other mods)</allowHelixienCorpseEffect>
 	<removeAnimalParticles>Remove animal particles</removeAnimalParticles>
+	<allowAnimalisk>Allow Animalisk (Royalty only in any case)</allowAnimalisk>
 
 
 	<!-- Mod Settings, animal toggles -->
@@ -168,7 +172,11 @@
 	<disableAtispec>Disable Atispec</disableAtispec>
 	<disablePlasmorph>Disable Plasmorph</disablePlasmorph>
 
-
+	<disableAcanthamoeba>Disable Acanthamoeba</disableAcanthamoeba>
+	<disableAngelMoth>Disable Angel Moth</disableAngelMoth>
+	<disableDrainer>Disable Drainer</disableDrainer>
+	<disablePhoenixOwlcat>Disable Phoenix Owlcat</disablePhoenixOwlcat>
+	<disableRayHound>Disable Ray Hound</disableRayHound>
 
 
 

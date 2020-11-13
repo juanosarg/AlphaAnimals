@@ -162,11 +162,14 @@ namespace AlphaBehavioursAndEvents
         {
             if (theCreature != null)
             {
-                //Log.Message("Creature that was going to spawn was" + theCreature.defName);
+                //This is a fucking abomination
                 
                 if (theCreature.defName.Contains("AA_"))
                 {
-                    
+                    if (theCreature.defName.Contains("AA_AcanthamoebaGiganteaSmall") && AlphaAnimals_Settings.AA_AcanthamoebaFlag)
+                    {
+                        return true;
+                    }
                     if (theCreature.defName.Contains("AA_Aerofleet") && AlphaAnimals_Settings.AA_AerofleetFlag)
                     {
                         return true;
@@ -175,6 +178,11 @@ namespace AlphaBehavioursAndEvents
                     {
                         return true;
                     }
+                    if (theCreature.defName.Contains("AA_AngelMoth") && AlphaAnimals_Settings.AA_AngelMothFlag)
+                    {
+                        return true;
+                    }
+
                     if (theCreature.defName.Contains("AA_ArcticLion") && AlphaAnimals_Settings.AA_ArcticLionFlag)
                     {
                         return true;
@@ -220,6 +228,10 @@ namespace AlphaBehavioursAndEvents
                         return true;
                     }
                     if (theCreature.defName.Contains("AA_DecayDrake") && AlphaAnimals_Settings.AA_DecayDrakeFlag)
+                    {
+                        return true;
+                    }
+                    if (theCreature.defName.Contains("AA_Drainer") && AlphaAnimals_Settings.AA_DrainerFlag)
                     {
                         return true;
                     }
@@ -300,6 +312,10 @@ namespace AlphaBehavioursAndEvents
                     {
                         return true;
                     }
+                    if (theCreature.defName.Contains("AA_PhoenixOwlcat") && AlphaAnimals_Settings.AA_PhoenixOwlcatFlag)
+                    {
+                        return true;
+                    }
                     if (theCreature.defName.Contains("AA_Plasmorph") && AlphaAnimals_Settings.AA_PlasmorphFlag)
                     {
                         return true;
@@ -309,6 +325,10 @@ namespace AlphaBehavioursAndEvents
                         return true;
                     }
                     if (theCreature.defName.Contains("AA_RaptorShrimp") && AlphaAnimals_Settings.AA_RaptorShrimpFlag)
+                    {
+                        return true;
+                    }
+                    if (theCreature.defName.Contains("AA_RayHound") && AlphaAnimals_Settings.AA_RayHoundFlag)
                     {
                         return true;
                     }

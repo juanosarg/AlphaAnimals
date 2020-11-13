@@ -79,6 +79,10 @@
 					<li>SpeedCharge_Battery</li>
 					<li>ResonanceCell_Battery</li>
 					<li>VoidCell_Battery</li>
+					<li>VFE_LargeBattery</li>
+					<li>VFE_SmallBattery</li>
+					<li>VFE_AdvancedBattery</li>
+					<li>VFE_LargeAdvancedBattery</li>
 				</batteriesToAffect>
 				
 			</li>

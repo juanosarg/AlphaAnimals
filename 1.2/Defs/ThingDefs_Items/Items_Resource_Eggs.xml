@@ -458,6 +458,32 @@
 		</comps>
 	</ThingDef>
 
+	<!-- =============== Animalisk Egg =============== -->
+
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>AA_AnimaliskEggFertilized</defName>
+		<label>animalisk egg (fert.)</label>
+		<description>Fertilized drainer egg. If all goes well, it should hatch into an animalisk. It can be eaten raw, but it's much better cooked. Actually, it's a spider egg, it is disgusting either way...</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
+			<color>(80,68,54)</color>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>9</MarketValue>
+		</statBases>
+		<thingSetMakerTags>
+			<li>NotForGuests</li>
+		</thingSetMakerTags>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>18</hatcherDaystoHatch>
+				<hatcherPawn>AA_Animalisk</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+
 	<!-- Feralisk Egg -->
 	<ThingDef ParentName="EggUnfertBase">
 		<defName>AA_FeraliskEggUnfertilized</defName>
@@ -951,8 +977,8 @@
 			</li>
 		</comps>
 	</ThingDef>
-	
-		<!-- =============== Angel Moth Egg =============== -->
+
+	<!-- =============== Angel Moth Egg =============== -->
 
 
 	<ThingDef ParentName="EggFertBase">
@@ -976,6 +1002,34 @@
 			</li>
 		</comps>
 	</ThingDef>
+
+	<!-- =============== Drainer Egg =============== -->
+
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>AA_DrainerEggFertilized</defName>
+		<label>drainer egg (fert.)</label>
+		<description>Fertilized drainer egg. If all goes well, it should hatch into a drainer larva. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AA_EggBeetle</texPath>
+			<color>(212,243,241)</color>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.5</MarketValue>
+		</statBases>
+		<thingSetMakerTags>
+			<li>NotForGuests</li>
+		</thingSetMakerTags>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>3</hatcherDaystoHatch>
+				<hatcherPawn>AA_DrainerLarva</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+
+
 
 	<!-- =============== Fire Wasp Egg =============== -->
 

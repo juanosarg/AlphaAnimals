@@ -16,6 +16,16 @@ namespace AlphaBehavioursAndEvents
         public string thingToDigIfMapEmpty = "";
         public int customAmountToDig = 1;
         public string hediffWhenEaten = "";
+        public bool advanceLifeStage = false;
+        public int advanceAfterXFeedings = 1;
+        public string defToAdvanceTo = "";
+        public bool fissionAfterXFeedings = false;
+        public string defToFissionTo = "";
+        public int numberOfOffspring = 2;
+        public bool fissionOnlyIfTamed = true;
+        public bool drainBattery = false;
+        public float percentageDrain = 0.1f;
+
 
         public CompProperties_EatWeirdFood()
         {
