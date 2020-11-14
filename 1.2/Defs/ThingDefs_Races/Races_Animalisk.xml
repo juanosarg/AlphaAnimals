@@ -115,7 +115,7 @@
 			</li>
 		</comps>
 		<race>
-			
+			<thinkTreeMain>AA_AnimalWeirdEater</thinkTreeMain>
 			<canBePredatorPrey>true</canBePredatorPrey>			
 			<body>AA_Arachnid</body>
 			<herdAnimal>true</herdAnimal>

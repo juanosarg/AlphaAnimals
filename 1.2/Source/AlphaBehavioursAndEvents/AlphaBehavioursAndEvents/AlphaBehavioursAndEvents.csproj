@@ -353,14 +353,17 @@
     <Compile Include="Harmony\Thing_ButcherProducts.cs" />
     <Compile Include="Hediffs\HediffCompProperties\HediffCompProperties_AutoPermanentInjury.cs" />
     <Compile Include="Hediffs\HediffCompProperties\HediffCompProperties_ExplodeOnDowned.cs" />
+    <Compile Include="Hediffs\HediffCompProperties\HediffCompProperties_Mime.cs" />
     <Compile Include="Hediffs\HediffCompProperties\HediffCompProperties_Resurrect.cs" />
     <Compile Include="Hediffs\HediffCompProperties\HediffCompProperties_TurnsWhenDead.cs" />
     <Compile Include="Hediffs\HediffComp_AutoPermanentInjury.cs" />
     <Compile Include="Hediffs\HediffComp_ExplodeOnDowned.cs" />
+    <Compile Include="Hediffs\HediffComp_Mime.cs" />
     <Compile Include="Hediffs\HediffComp_Resurrect.cs" />
     <Compile Include="Hediffs\HediffComp_TurnWhenDead.cs" />
     <Compile Include="Incidents\IncidentWorker_AlphaResourcePodCrash.cs" />
     <Compile Include="Incidents\IncidentWorker_Animalisk.cs" />
+    <Compile Include="Incidents\IncidentWorker_MimeWandererJoin.cs" />
     <Compile Include="Incidents\ThingSetMaker_AlphaResourcePod.cs" />
     <Compile Include="Jobs\JobDriver_AnimalResource.cs" />
     <Compile Include="Jobs\JobDriver_IngestWeird.cs" />

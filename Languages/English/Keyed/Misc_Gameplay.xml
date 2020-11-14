@@ -20,6 +20,7 @@
 	
 	<AA_NotTameable>This creature is untameable</AA_NotTameable>
 	<AA_GallatrossNotTameable>The Moribund Gallatross is untameable and quickly returns into the wild, awaiting to die</AA_GallatrossNotTameable>
+	<AA_MimeNotTameable>The Mime refuses to be tamed</AA_MimeNotTameable>
 
 
 	<!-- Incidents -->
@@ -100,6 +101,7 @@
 	<allowHelixienCorpseEffect>Allow Helixien effect (disable if getting errors due to other mods)</allowHelixienCorpseEffect>
 	<removeAnimalParticles>Remove animal particles</removeAnimalParticles>
 	<allowAnimalisk>Allow Animalisk (Royalty only in any case)</allowAnimalisk>
+	<allowMime>Allow Mime Wanderer Joins event</allowMime>
 
 
 	<!-- Mod Settings, animal toggles -->

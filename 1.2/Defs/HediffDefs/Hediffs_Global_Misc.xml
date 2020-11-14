@@ -676,5 +676,30 @@
 		</stages>
 	</HediffDef>
 
+	<HediffDef>
+		<defName>AA_MimeHediff</defName>
+		<isBad>false</isBad>
+		<label>hiding in plain sight</label>
+		<description>This colonist may not be a real person after all...</description>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<hediffClass>HediffWithComps</hediffClass>
+		<comps>
+
+			<li Class="AlphaBehavioursAndEvents.HediffCompProperties_Mime">
+				<malnutritionTrigger>30</malnutritionTrigger>
+				<turnTo>AA_Mime</turnTo>
+			</li>
+
+
+		</comps>
+		<stages>
+			<li>
+				<becomeVisible>false</becomeVisible>
+			</li>
+		</stages>
+	</HediffDef>
+
 
 </Defs>
