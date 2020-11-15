@@ -18,7 +18,7 @@
 				<label>mechanoid claws</label>
 				<capacities>
 					<li>Cut</li>
-					<li>Blunt</li>
+					<li>AA_SiegeBlunt</li>
 				</capacities>
 				<power>20</power>
 				<cooldownTime>2.6</cooldownTime>
@@ -31,10 +31,7 @@
 				<!-- Change to this pawn if Allow Alpha mechanoids is disabled in options -->
 				<defToChangeTo>Mech_Centipede</defToChangeTo>
 			</li>
-			<!--<li Class="AlphaBehavioursAndEvents.CompProperties_ChangeDefSappers">
-				
-				<defToChangeTo>Mech_Centipede</defToChangeTo>
-			</li>-->
+			
 		</comps>
 		<race>
 			<intelligence>ToolUser</intelligence>

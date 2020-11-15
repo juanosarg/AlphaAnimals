@@ -107,6 +107,35 @@
     </comps>
   </ThingDef>
   
+   <ThingDef ParentName="BuildingNaturalBase">
+    <defName>AA_AncientAssembler</defName>
+    <label>ancient mechanoid assembler</label>
+    <description>An ancient automated mechanoid factory. This machine seems to be almost derelict, but it still has a spark of energy inside.</description>
+    <thingClass>AlphaBehavioursAndEvents.Building_AncientAssembler</thingClass>
+	<size>(1,1)</size>
+    <graphicData>
+      <texPath>Things/Building/AA_AncientMechAssembler</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>3</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <rotatable>false</rotatable>
+    <fillPercent>0.5</fillPercent>
+    <statBases>
+      <MaxHitPoints>450</MaxHitPoints>
+      <Flammability>0</Flammability>
+    </statBases>
+    <pathCost>50</pathCost>
+    <blockWind>true</blockWind>
+    <tickerType>Normal</tickerType>
+    <passability>PassThroughOnly</passability>
+    <killedLeavings>
+      <Steel>150</Steel>
+	  <Plasteel>50</Plasteel>
+    </killedLeavings>
+   
+  </ThingDef>
+  
     <ThingDef ParentName="RockBase">
     <defName>AA_SkySteelClumps</defName>
     <label>strange shiny mineral</label>

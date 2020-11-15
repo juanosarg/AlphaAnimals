@@ -60,6 +60,9 @@
 
 	<LetterLabelBlackHiveAttack>Black hive attack</LetterLabelBlackHiveAttack>
 	<LetterBlackHiveAttack>Insectoids in the rim are genetically altered organisms designed to fight mechanoid invasions. The Black Hive was the best of the best, designed to be much more aggressive than usual, and capable of laying siege to impregnable mechanoid fortresses. Existing insectoid species were improved and several new species were created and added to the Hive to increase its lethality.\n\nA group of Black Hive insectoids has tunneled to this location, and will attack your base immediately.</LetterBlackHiveAttack>
+	
+	<AA_LetterLabelMechanoidSappers>Mechanoid Sappers</AA_LetterLabelMechanoidSappers>
+	<AA_LetterMechanoidSappers>A previously cloaked ancient mechanoid assembler has mysteriously appeared nearby.\n\nA swarm of mechanoids spews forth, quickly readying for an attack.\n\nOne of these mechanoids is a dangerous Demolisher, so they'll probably go straight for the walls!</AA_LetterMechanoidSappers>
 
 
 	<!-- Animal Products -->
@@ -97,7 +100,7 @@
 	<allowFrostmiteCorpses>Allow frostmites digging corpses on their own</allowFrostmiteCorpses>
 	<allowAsteroids>Allow Arcturan Sky eel asteroids impacting</allowAsteroids>
 	<allowAlphaMechanoids>Allow Alpha mechanoids on raids, clusters, etc</allowAlphaMechanoids>
-	<allowMechanoidSappers>Allow Demolishers to appear as Mechanoid sappers</allowMechanoidSappers>
+	<allowMechanoidSappers>Allow Mechanoid sappers event</allowMechanoidSappers>
 	<allowHelixienCorpseEffect>Allow Helixien effect (disable if getting errors due to other mods)</allowHelixienCorpseEffect>
 	<removeAnimalParticles>Remove animal particles</removeAnimalParticles>
 	<allowAnimalisk>Allow Animalisk (Royalty only in any case)</allowAnimalisk>

@@ -303,6 +303,7 @@
   <ItemGroup>
     <Compile Include="Achievements\ItemCraftTrackerWithIngredients.cs" />
     <Compile Include="Achievements\KillTrackerWithOr.cs" />
+    <Compile Include="Buildings\Building_AncientAssembler.cs" />
     <Compile Include="Comps\CompAcidImmunity.cs" />
     <Compile Include="Comps\CompAnimalProduct.cs" />
     <Compile Include="Comps\CompChangeDefSappers.cs" />
@@ -363,6 +364,7 @@
     <Compile Include="Hediffs\HediffComp_TurnWhenDead.cs" />
     <Compile Include="Incidents\IncidentWorker_AlphaResourcePodCrash.cs" />
     <Compile Include="Incidents\IncidentWorker_Animalisk.cs" />
+    <Compile Include="Incidents\IncidentWorker_MechanoidSappers.cs" />
     <Compile Include="Incidents\IncidentWorker_MimeWandererJoin.cs" />
     <Compile Include="Incidents\ThingSetMaker_AlphaResourcePod.cs" />
     <Compile Include="Jobs\JobDriver_AnimalResource.cs" />
