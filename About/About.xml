@@ -16,7 +16,7 @@
 	</modDependencies>
 	
 	<loadAfter>
-	  
+	   <li>vanillaexpanded.achievements</li>
       <li>smashphil.boats</li>
     </loadAfter>
 	<author>Sarg, AFriend, milon, Skullywag and kaptain_kavern</author>
@@ -67,6 +67,7 @@ Using NocturnalAnimals DLL by XeoNovaDan
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
 
+v2.9: Added 4 new animals and 35 new Achievements (15/11/20)
 v2.5: Added 2 new animals, 2 new mechanoids and 5 retextures (26/08/20)
 v2.4: Added 4 new animals. Varios bugfixes (31/05/20)
 v2.3: Added 4 new animals. Redesigned Bumbledrones. Added many new exotic implants such as tentacles and wings to A Dog Said (25/04/20)

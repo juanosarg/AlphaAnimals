@@ -107,6 +107,15 @@
 						
 						<li>AA_AngelMoth</li>
 						<li>AA_RayHound</li>
+						
+						<li>AA_AcanthamoebaGiganteaSmall</li>
+						<li>AA_AcanthamoebaGiganteaLarge</li>
+						<li>AA_AcanthamoebaGiganteaHuge</li>
+						<li>AA_Animalisk</li>
+						<li>AA_DrainerLarva</li>
+						<li>AA_Drainer</li>
+						<li>AA_PhoenixOwlcat</li>
+
 
 
 
@@ -215,6 +224,11 @@
 
 						<li>AA_AngelMoth</li>
 						<li>AA_RayHound</li>
+						
+						
+						<li>AA_Animalisk</li>
+						<li>AA_Drainer</li>
+						<li>AA_PhoenixOwlcat</li>
 
 
 					</value>
@@ -302,6 +316,9 @@
 						<li>AA_Metallovore</li>
 						
 						<li>AA_RayHound</li>
+						
+						
+						<li>AA_PhoenixOwlcat</li>
 					</value>
 				</li>
 
@@ -387,6 +404,9 @@
 						<li>AA_Metallovore</li>
 						
 						<li>AA_RayHound</li>
+						
+					
+						<li>AA_PhoenixOwlcat</li>
 					</value>
 				</li>
 
@@ -471,6 +491,9 @@
 						<li>AA_Metallovore</li>
 						
 						<li>AA_RayHound</li>
+						<li>AA_Animalisk</li>
+						
+						<li>AA_PhoenixOwlcat</li>
 
 					</value>
 				</li>
@@ -569,6 +592,10 @@
 						<li>AA_Metallovore</li>
 						<li>AA_AngelMoth</li>
 						<li>AA_RayHound</li>
+						
+						<li>AA_Animalisk</li>
+						<li>AA_Drainer</li>
+						<li>AA_PhoenixOwlcat</li>
 					</value>
 				</li>
 
@@ -662,6 +689,10 @@
 						<li>AA_Metallovore</li>
 						<li>AA_AngelMoth</li>
 						<li>AA_RayHound</li>
+						
+						<li>AA_Animalisk</li>
+						<li>AA_Drainer</li>
+						<li>AA_PhoenixOwlcat</li>
 					</value>
 				</li>
 
@@ -720,6 +751,8 @@
 						<li>AA_SpinedGow</li>
 				
 						<li>AA_RayHound</li>
+						
+						<li>AA_PhoenixOwlcat</li>
 					</value>
 				</li>
 
@@ -817,6 +850,9 @@
 						<li>AA_Metallovore</li>
 						<li>AA_AngelMoth</li>
 						<li>AA_RayHound</li>
+						<li>AA_Animalisk</li>
+						<li>AA_Drainer</li>
+						<li>AA_PhoenixOwlcat</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
@@ -898,6 +934,8 @@
 						<li>AA_Metallovore</li>
 						<li>AA_AngelMoth</li>
 						<li>AA_RayHound</li>
+						
+						<li>AA_PhoenixOwlcat</li>
 
 					</value>
 				</li>
@@ -985,6 +1023,9 @@
 						<li>AA_Metallovore</li>
 						<li>AA_AngelMoth</li>
 						<li>AA_RayHound</li>
+						<li>AA_Animalisk</li>
+						<li>AA_Drainer</li>
+						<li>AA_PhoenixOwlcat</li>
 
 					</value>
 				</li>
@@ -1045,6 +1086,9 @@
 						<li>AA_SpinedGow</li>
 						<li>AA_AngelMoth</li>
 						<li>AA_RayHound</li>
+						
+						<li>AA_Drainer</li>
+						<li>AA_PhoenixOwlcat</li>
 
 					</value>
 				</li>
@@ -1126,6 +1170,9 @@
 						<li>AA_SpinedGow</li>
 					
 						<li>AA_RayHound</li>	
+						<li>AA_Animalisk</li>
+						
+						<li>AA_PhoenixOwlcat</li>
 
 					</value>
 				</li>
@@ -1193,6 +1240,8 @@
 						
 						
 						<li>AA_RayHound</li>
+					
+						<li>AA_PhoenixOwlcat</li>
 
 
 					</value>
