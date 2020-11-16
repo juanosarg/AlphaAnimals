@@ -157,6 +157,7 @@
 		<race>AA_PhoenixOwlcat</race>
 		<combatPower>33</combatPower>
 		<ecoSystemWeight>0.3</ecoSystemWeight>
+		<canArriveManhunter>false</canArriveManhunter>
 		<lifeStages>
 			<li>
 				<label>phoenix owlcat kitten</label>

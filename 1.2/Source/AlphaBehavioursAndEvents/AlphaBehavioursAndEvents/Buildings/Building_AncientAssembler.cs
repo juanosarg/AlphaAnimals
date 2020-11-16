@@ -67,10 +67,7 @@ namespace AlphaBehavioursAndEvents
                 base.Map.reachability.CanReach(c, this, PathEndMode.Touch, TraverseParms.For(TraverseMode.PassDoors, Danger.Deadly, false))),
                 base.Map, WipeMode.Vanish);
                 this.lord.AddPawn(pawn);
-                IIncidentTarget target = Find.CurrentMap;
-                IncidentParms parms = StorytellerUtility.DefaultParmsNow(IncidentCategoryDefOf.ThreatBig, target);
-              
-                this.SpawnPawnsUntilPoints(Mathf.Min(GenMath.RoundRandom(parms.points * 60f), 10000) , faction);
+                this.SpawnPawnsUntilPoints(10 , faction);
             }
         }
 
@@ -89,7 +86,7 @@ namespace AlphaBehavioursAndEvents
                     base.Map, WipeMode.Vanish);
                     if (spawnedCreature != null) { this.lord.AddPawn(pawn); }
 
-                    remaining -= (int)kindDef.combatPower;
+                    remaining --;
 
                 }
             }
