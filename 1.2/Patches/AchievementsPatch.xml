@@ -439,7 +439,7 @@
 							<label>Gourmelette</label>
 							<description>Use an expensive Nightling Egg to create a Lavish Meal</description>
 							
-							<tracker Class="AchievementsExpanded.ItemCraftTrackerWithIngredients">
+							<tracker Class="AchievementsExpanded.ItemCraftTrackerWithIngredientsAlpha">
 								<def>MealLavish</def>
 								<includeingredient>AA_EggNightlingFertilized</includeingredient>
 								<count>1</count>
@@ -453,7 +453,7 @@
 							<label>Jellyfish salad</label>
 							<description>Make a Simple meal out of Aerofleet meat</description>
 							
-							<tracker Class="AchievementsExpanded.ItemCraftTrackerWithIngredients">
+							<tracker Class="AchievementsExpanded.ItemCraftTrackerWithIngredientsAlpha">
 								<def>MealSimple</def>
 								<includeingredient>AA_AerofleetMeat</includeingredient>
 								<count>1</count>
@@ -461,7 +461,7 @@
 
 							<texPath>Achievements/AA_AchievementJellyfishSalad</texPath>
 							<points>10</points>
-						</AchievementsExpanded.AchievementDef>	
+						</AchievementsExpanded.AchievementDef>
 						<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 							<defName>AA_AchievementMechanoidSiege</defName>
 							<label>Mechanoid Siege</label>

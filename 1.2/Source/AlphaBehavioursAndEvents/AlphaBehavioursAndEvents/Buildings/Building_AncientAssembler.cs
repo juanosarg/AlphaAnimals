@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
+﻿using System.Collections.Generic;
 using Verse;
 using Verse.AI.Group;
-using Verse.Sound;
 using RimWorld;
 using Verse.AI;
+using UnityEngine;
 
 namespace AlphaBehavioursAndEvents
 {
@@ -73,7 +70,7 @@ namespace AlphaBehavioursAndEvents
                 IIncidentTarget target = Find.CurrentMap;
                 IncidentParms parms = StorytellerUtility.DefaultParmsNow(IncidentCategoryDefOf.ThreatBig, target);
               
-                this.SpawnPawnsUntilPoints(parms.points*100f, faction);
+                this.SpawnPawnsUntilPoints(Mathf.Min(GenMath.RoundRandom(parms.points * 60f), 10000) , faction);
             }
         }
 
