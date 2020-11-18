@@ -37,8 +37,8 @@
       <HintPath>..\packages\Lib.Harmony.2.0.4\lib\net472\0Harmony.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="AchievementsExpanded, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\AchievementsExpanded.1.0.4\lib\net472\AchievementsExpanded.dll</HintPath>
+    <Reference Include="AchievementsExpanded, Version=1.0.7.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\AchievementsExpanded.1.0.8\lib\net472\AchievementsExpanded.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp">
       <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
