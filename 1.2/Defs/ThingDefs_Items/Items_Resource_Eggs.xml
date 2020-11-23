@@ -464,7 +464,7 @@
 	<ThingDef ParentName="EggFertBase">
 		<defName>AA_AnimaliskEggFertilized</defName>
 		<label>animalisk egg (fert.)</label>
-		<description>Fertilized drainer egg. If all goes well, it should hatch into an animalisk. It can be eaten raw, but it's much better cooked. Actually, it's a spider egg, it is disgusting either way...</description>
+		<description>Fertilized animalisk egg. If all goes well, it should hatch into an animalisk. It can be eaten raw, but it's much better cooked. Actually, it's a spider egg, it is disgusting either way...</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
 			<color>(80,68,54)</color>
