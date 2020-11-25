@@ -25,10 +25,10 @@ namespace AlphaBehavioursAndEvents
             }
         }
 
-
         public override void CompTick()
         {
             base.CompTick();
+            //SummonOnce guarantees it only happens once when the animal spawns
             if (summonOnce) {
                 if (this.parent.Map != null)
                 {
@@ -38,10 +38,11 @@ namespace AlphaBehavioursAndEvents
                     {
                         PawnGenerationRequest request = new PawnGenerationRequest(PawnKindDef.Named(Props.pawnDef), Find.FactionManager.FirstFactionOfDef(FactionDefOf.AncientsHostile), PawnGenerationContext.NonPlayer, -1, false, false, false, false, true, false, 1f, false, true, true, false, false);
                         Pawn pawn = PawnGenerator.GeneratePawn(request);
-
                         GenSpawn.Spawn(pawn, CellFinder.RandomClosewalkCellNear(parent.Position, parent.Map, 3, null), parent.Map, WipeMode.Vanish);
-                        pawn.mindState.mentalStateHandler.TryStartMentalState(DefDatabase<MentalStateDef>.GetNamed("ManhunterPermanent", true), null, true, false, null, false);
-                        
+                        if (Props.summonsAreManhunters) {
+                            pawn.mindState.mentalStateHandler.TryStartMentalState(DefDatabase<MentalStateDef>.GetNamed("ManhunterPermanent", true), null, true, false, null, false);
+                        }
+
                     }
                     SoundDefOf.Hive_Spawn.PlayOneShot(new TargetInfo(this.parent.Position, this.parent.Map, false));
 

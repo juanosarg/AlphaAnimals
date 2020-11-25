@@ -20,20 +20,19 @@ namespace AlphaBehavioursAndEvents
             }
         }
 
-
-
-
         public override void CompTick()
         {
             base.CompTick();
             diggingCounter++;
+            //Only do every ticksToDig
             if (diggingCounter > Props.ticksToDig)
             {
                 Pawn pawn = this.parent as Pawn;
 
-
+                //Null map check. Also check that the animal isn't sleeping, downed or dead
                 if ((pawn.Map != null) && pawn.Awake() && !pawn.Downed && !pawn.Dead)
                 {
+                    //This could have been done with a Dictionary
                     string thingToDig = this.Props.customThingToDig.RandomElement();
                     int index = Props.customThingToDig.IndexOf(thingToDig);
                     int amount = Props.customAmountToDig[index];
@@ -46,23 +45,9 @@ namespace AlphaBehavioursAndEvents
                         this.effecter = EffecterDefOf.Mine.Spawn();
                     }
                     this.effecter.Trigger(pawn, newDugThing);
-
-
-
-
-
-
                 }
                 diggingCounter = 0;
             }
-
-
-
-
-
-
         }
-
-
     }
 }

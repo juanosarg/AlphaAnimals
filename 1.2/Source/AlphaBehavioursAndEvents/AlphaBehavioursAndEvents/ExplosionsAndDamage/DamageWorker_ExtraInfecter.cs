@@ -11,6 +11,8 @@ namespace AlphaBehavioursAndEvents
         public class DamageWorker_ExtraInfecter : DamageWorker_Cut
         {
            
+            //A damage class that causes additional infections when causing damage. The percentage chance
+            //is passed by adding a comp class, CompInfecter, to the animal using this damage class
 
             protected override void ApplySpecialEffectsToPart(Pawn pawn, float totalDamage, DamageInfo dinfo, DamageWorker.DamageResult result)
             {

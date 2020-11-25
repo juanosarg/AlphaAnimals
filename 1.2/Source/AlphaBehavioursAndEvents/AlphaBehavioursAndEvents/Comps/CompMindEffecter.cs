@@ -15,7 +15,6 @@ namespace AlphaBehavioursAndEvents
         public List<Pawn> pawnList = new List<Pawn>();
         public Pawn thisPawn;
 
-
         public CompProperties_MindEffecter Props
         {
             get
@@ -24,25 +23,24 @@ namespace AlphaBehavioursAndEvents
             }
         }
 
-
-
-
         public override void CompTick()
         {
             base.CompTick();
             tickCounter++;
+            //Only do anything every tickInterval
             if (tickCounter > Props.tickInterval)
             {
                 thisPawn = this.parent as Pawn;
+                //Null map check. Also will only work if pawn is not dead or downed
                 if (thisPawn != null && thisPawn.Map != null && !thisPawn.Dead && !thisPawn.Downed)
                 {
                     foreach (Thing thing in GenRadial.RadialDistinctThingsAround(thisPawn.Position, thisPawn.Map, Props.radius, true))
                     {
                         Pawn pawn = thing as Pawn;
-                        if (pawn != null && pawn.IsColonist)
+                        //Only work on colonists, unless notOnlyAffectColonists
+                        if (pawn != null && (pawn.IsColonist || Props.notOnlyAffectColonists))
                         {
-
-
+                            //Only work on not dead, not downed, not psychically immune colonists
                             if (!pawn.Dead && !pawn.Downed && pawn.GetStatValue(StatDefOf.PsychicSensitivity, true) > 0f)
                             {
                                 Find.TickManager.slower.SignalForceNormalSpeedShort();
@@ -50,21 +48,12 @@ namespace AlphaBehavioursAndEvents
                                 MoteMaker.MakeAttachedOverlay(this.parent, ThingDef.Named("Mote_PsycastPsychicEffect"), Vector3.zero, 1f, -1f);
                                 pawn.mindState.mentalStateHandler.TryStartMentalState(DefDatabase<MentalStateDef>.GetNamed(Props.mentalState, true), null, true, false, null, false);
                             }
-
-
                         }
-
                     }
-
-                }
-
-
-               
+                }            
                 tickCounter = 0;
             }
         }
-
-
     }
 }
 

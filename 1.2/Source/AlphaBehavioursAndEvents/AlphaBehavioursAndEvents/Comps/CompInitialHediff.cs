@@ -12,7 +12,6 @@ namespace AlphaBehavioursAndEvents
         private System.Random rand = new System.Random();
         public int phase = 1;
 
-
         public CompProperties_InitialHediff Props
         {
             get
@@ -26,10 +25,7 @@ namespace AlphaBehavioursAndEvents
             base.PostExposeData();
             Scribe_Values.Look<bool>(ref this.addHediffOnce, "addHediffOnce", true, false);
             Scribe_Values.Look<int>(ref this.phase, "phase", 1, false);
-
         }
-
-
 
         public override void CompTickRare()
         {
@@ -38,7 +34,7 @@ namespace AlphaBehavioursAndEvents
 
             if (addHediffOnce)
             {
-                //Log.Message("Ticking");
+                
                 Pawn pawn = this.parent as Pawn;
                 if (Props.numberOfHediffs == 1) {
                     pawn.health.AddHediff(HediffDef.Named(Props.hediffname));
@@ -49,8 +45,6 @@ namespace AlphaBehavioursAndEvents
                     pawn.health.AddHediff(HediffDef.Named(Props.hediffname + randomHediff.ToString()));
                 }
                 
-                //Hediff hediff = pawn.health.hediffSet.GetFirstHediffOfDef(HediffDef.Named(Props.hediffname), false);
-                //hediff.Severity = Props.hediffseverity;
                 addHediffOnce = false;
             }
         }

@@ -9,6 +9,9 @@ namespace AlphaBehavioursAndEvents
     public class CompAnimalProduct : CompHasGatherableBodyResource
     {
 
+        //CompAnimalProduct builds upon both CompMilkable and CompShearable, with many more configuration options
+
+
         System.Random rand = new System.Random();
 
         protected override int GatherResourcesIntervalDays
@@ -33,11 +36,13 @@ namespace AlphaBehavioursAndEvents
         {
             get
             {
+                //This is only used by the Chameleon Yak
                 if (Props.seasonalItems != null)
                 {
                     ChameleonSkins pawn = this.parent as ChameleonSkins;
                     return ThingDef.Named(Props.seasonalItems[pawn.woolType]);
                 }
+                //This selects a random output item
                 else if (Props.isRandom)
                 {
 
@@ -76,6 +81,8 @@ namespace AlphaBehavioursAndEvents
                     return false;
                 }
                 Pawn pawn = this.parent as Pawn;
+                //Using shearable, though this could be changed to allow only the last lifestage to be harvestable.
+                //As it is, it needs a patch for adult insectoids, which aren't shearable
                 return pawn == null || pawn.ageTracker.CurLifeStage.shearable;
             }
         }
@@ -99,6 +106,7 @@ namespace AlphaBehavioursAndEvents
 
         public void InformGathered(Pawn doer)
         {
+            //Mostly a copy from CompShearable
             if (!this.Active)
             {
                 Log.Error(doer + " gathered body resources while not Active: " + this.parent, false);
@@ -118,6 +126,9 @@ namespace AlphaBehavioursAndEvents
                     thing.stackCount = num;
                     GenPlace.TryPlaceThing(thing, doer.Position, doer.Map, ThingPlaceMode.Near, null, null, default(Rot4));
                 }
+
+                //Until here, where it handles additional products
+
                 if (this.Props.hasAditional)
                 {
 

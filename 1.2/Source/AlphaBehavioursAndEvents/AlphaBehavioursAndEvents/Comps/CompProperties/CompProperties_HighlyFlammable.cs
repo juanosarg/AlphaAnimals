@@ -6,6 +6,7 @@ namespace AlphaBehavioursAndEvents
     {
 
         public string hediffToInflict = "";
+        public int tickInterval = 50;
 
         public CompProperties_HighlyFlammable()
         {

@@ -306,6 +306,7 @@
     <Compile Include="Buildings\Building_AncientAssembler.cs" />
     <Compile Include="Comps\CompAcidImmunity.cs" />
     <Compile Include="Comps\CompAnimalProduct.cs" />
+    <Compile Include="Comps\CompBuildPeriodically.cs" />
     <Compile Include="Comps\CompChangeDefSappers.cs" />
     <Compile Include="Comps\CompChangeDef.cs" />
     <Compile Include="Comps\CompChangeWeather.cs" />
@@ -321,6 +322,7 @@
     <Compile Include="Comps\CompMindEffecter.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_AcidImmunity.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_AnimalProduct.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_BuildPeriodically.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_ChangeDefSappers.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_ChangeDef.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_ChangeWeather.cs" />

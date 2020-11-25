@@ -11,7 +11,6 @@ namespace AlphaBehavioursAndEvents
     public class CompInfecter : ThingComp
     {
        
-
         public CompProperties_Infecter Props
         {
             get
@@ -27,8 +26,6 @@ namespace AlphaBehavioursAndEvents
                 return this.Props.infectionChance;
             }
         }
-
-
     }
 }
 

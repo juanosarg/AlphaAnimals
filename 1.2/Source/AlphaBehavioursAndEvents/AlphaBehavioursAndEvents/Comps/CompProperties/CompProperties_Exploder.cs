@@ -11,10 +11,8 @@ namespace AlphaBehavioursAndEvents
         public int wickTimeVariance = 1;
         public float explosionForce = 1f;
 
-
         public CompProperties_Exploder()
-        {
-          
+        {          
             this.compClass = typeof(CompExploder);
         }
     }

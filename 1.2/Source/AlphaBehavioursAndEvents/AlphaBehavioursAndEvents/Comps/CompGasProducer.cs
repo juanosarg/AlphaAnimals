@@ -12,7 +12,6 @@ namespace AlphaBehavioursAndEvents
         private int gasTickMax = 64;
         private System.Random rand = new System.Random();
 
-
         public CompProperties_GasProducer Props
         {
             get
@@ -22,9 +21,11 @@ namespace AlphaBehavioursAndEvents
         }
         public override void CompTick()
         {
+            //Since it's a laggy class, allow options to toggle it
             if (!AlphaAnimalsEvents_Settings.removeAnimalParticles) {
 
                 this.gasProgress += 1;
+                //Increasing gasTickMax reduces lag, but it will also look like ass
                 if (this.gasProgress > gasTickMax)
                 {
                     Pawn pawn = this.parent as Pawn;
@@ -40,19 +41,14 @@ namespace AlphaBehavioursAndEvents
                                 Thing thing = ThingMaker.MakeThing(ThingDef.Named(Props.gasType), null);
                                 thing.Rotation = Rot4.North;
                                 thing.Position = current;
-                                thing.SpawnSetup(pawn.Map, false);
-                                //GenSpawn.Spawn(thing, current, pawn.Map);
+                                //Directly using SpawnSetup instead of GenSpawn.Spawn to further reduce lag
+                                thing.SpawnSetup(pawn.Map, false);                               
                             }
-
-                        }
-                        // FilthMaker.MakeFilth(this.parent.PositionHeld, this.parent.MapHeld, ThingDef.Named("GR_FilthMucus"), 1);
+                        }                      
                         this.gasProgress = 0;
                     }
-
                 }
-
-            }
-            
+            }            
         }
     }
 }
