@@ -367,6 +367,32 @@
 			<li>Exotic</li>
 		</tradeTags>
 	</ThingDef>
+	
+	<ThingDef ParentName="ResourceBase">
+		<defName>AA_BlueGel</defName>
+		<label>blue gel</label>
+		<description>A syrupy residue extracted from Aerofleets, which can be refined into an energy-dense compound, and potentially used to build powerful batteries and generators, with the appropiate research (Biofuel refining, Batteries and Advanced Fabrication).</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AA_BlueGel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>75</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>1</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>1.8</Mass>
+
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+	</ThingDef>
 
 	<ThingDef ParentName="PlantFoodRawBase">
 		<defName>AA_AgariluxRawFungus</defName>

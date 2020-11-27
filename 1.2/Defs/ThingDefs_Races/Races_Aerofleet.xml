@@ -5,7 +5,7 @@
 		<label>aerofleet</label>
 			 
 
-		<description>A small, floating gelatinous creature. Propelled by the hydrogen it collects from water and various plant matter, these squishy creatures wander the lands, aimlessly bouncing off objects in their path.\n\nOne of the few rare creatures around here that strangely isn’t out for human blood. Well, isn’t that nice?\n\nAerofleets are genderless, and reproduce by strobilation, a form of asexual reproduction. As a floating creature, Aerofleets ignore terrain movement costs.</description>
+		<description>A small, floating gelatinous creature. Propelled by the hydrogen it collects from water and various plant matter, these squishy creatures wander the lands, aimlessly bouncing off objects in their path. One of the few rare creatures around here that strangely isn’t out for human blood. Well, isn’t that nice?\n\nAerofleets are genderless, and reproduce by strobilation, a form of asexual reproduction. As a floating creature, Aerofleets ignore terrain movement costs.\n\nAerofleets slowly produce a thick, gelatinous substance known as Blue Gel. This syrupy residue can be collected and refined into an energy-dense compound, and potentially used to build powerful batteries and generators, with the appropiate research (Biofuel refining, Batteries and Advanced Fabrication).</description>
 		
 		<statBases>
 			<MoveSpeed>2.84</MoveSpeed>
@@ -44,10 +44,15 @@
 			</li>
 			
 			<li Class="AlphaBehavioursAndEvents.CompProperties_AsexualReproduction">
-
 				<reproductionIntervalDays>9</reproductionIntervalDays>
 				<customString>Asexual fission in: </customString>
-
+			</li>
+			
+			<li Class="AlphaBehavioursAndEvents.CompProperties_AnimalProduct">
+				<resourceDef>AA_BlueGel</resourceDef>
+				<gatheringIntervalDays>3</gatheringIntervalDays>
+				<resourceAmount>6</resourceAmount>
+				<customResourceString>AA_BlueGel</customResourceString>
 			</li>
 
 		</comps>
@@ -164,7 +169,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_ColossalAerofleet</defName>
 		<label>colossal aerofleet</label>
-		<description>A huge, floating gelatinous creature. Propelled by the hydrogen it collects from water and various plant matter, these squishy creatures wander the lands, aimlessly bouncing off objects in their path.\n\nOne of the few rare creatures around here that strangely isn’t out for human blood. Well, isn’t that nice?\n\nThis Aerofleet has somehow grown to extreme size, and seems to be too old to reproduce. A small number of younger Aerofleets seem to be attracted to it and follow it everywhere.</description>
+		<description>A huge, floating gelatinous creature. Propelled by the hydrogen it collects from water and various plant matter, these squishy creatures wander the lands, aimlessly bouncing off objects in their path. One of the few rare creatures around here that strangely isn’t out for human blood. Well, isn’t that nice?\n\nThis Aerofleet has somehow grown to extreme size, and seems to be too old to reproduce. A small number of younger Aerofleets seem to be attracted to it and follow it everywhere.\n\nColossal Aerofleets produce a thick, gelatinous substance known as Blue Gel. This syrupy residue can be collected and refined into an energy-dense compound, and potentially used to build powerful batteries and generators, with the appropiate research (Biofuel refining, Batteries and Advanced Fabrication).</description>
 		
 		<statBases>
 			<MoveSpeed>2.84</MoveSpeed>
@@ -179,6 +184,12 @@
 				<isFloater>true</isFloater>
 				<canCrossWater>true</canCrossWater>
 
+			</li>
+			<li Class="AlphaBehavioursAndEvents.CompProperties_AnimalProduct">
+				<resourceDef>AA_BlueGel</resourceDef>
+				<gatheringIntervalDays>5</gatheringIntervalDays>
+				<resourceAmount>100</resourceAmount>
+				<customResourceString>AA_BlueGel</customResourceString>
 			</li>
 		</comps>
 		<tools>
