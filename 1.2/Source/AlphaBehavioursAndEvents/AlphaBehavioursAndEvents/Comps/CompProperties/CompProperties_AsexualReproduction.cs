@@ -16,6 +16,9 @@ namespace AlphaBehavioursAndEvents
         public bool isGreenGoo = false;
         public int GreenGooLimit = 0;
         public string GreenGooTarget = "";
+        //Some creatures need to spawn a different def
+        public bool convertsIntoAnotherDef = false;     
+        public string newDef = "";
 
         public CompProperties_AsexualReproduction()
         {

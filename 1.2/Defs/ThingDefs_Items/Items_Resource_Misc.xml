@@ -128,7 +128,7 @@
 			<li>AnimalProductRaw</li>
 		</thingCategories>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="OrganicProductBase">
 		<defName>AA_GowMilk</defName>
 		<label>gow milk</label>
@@ -367,11 +367,11 @@
 			<li>Exotic</li>
 		</tradeTags>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="ResourceBase">
 		<defName>AA_BlueGel</defName>
 		<label>blue gel</label>
-		<description>A syrupy residue extracted from Aerofleets, which can be refined into an energy-dense compound, and potentially used to build powerful batteries and generators, with the appropiate research (Biofuel refining, Batteries and Advanced Fabrication).</description>
+		<description>A syrupy residue extracted from Aerofleets, which can be refined into an energy-dense compound, and potentially used to build powerful batteries and generators, with the appropiate research (Biofuel refining to process it further, and Batteries).</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/AA_BlueGel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -383,7 +383,7 @@
 		<statBases>
 			<MarketValue>1</MarketValue>
 			<MaxHitPoints>100</MaxHitPoints>
-			<Mass>1.8</Mass>
+			<Mass>0.05</Mass>
 
 		</statBases>
 		<thingCategories>
@@ -391,6 +391,72 @@
 		</thingCategories>
 		<tradeTags>
 			<li>Exotic</li>
+		</tradeTags>
+	</ThingDef>
+	<ThingDef ParentName="ResourceBase">
+		<defName>AA_Hexagel</defName>
+		<label>hexagel</label>
+		<description>A crystallized and condensed variety of blue gel. Hexagel is capable of storing much more energy than its non-refined cousin, but it also seems to be quite unstable. Hexagel can be used to build powerful batteries and generators, with the appropiate research (Batteries and Advanced Fabrication).</description>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Item/Resource/AA_HexaGel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>75</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>6</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>0.3</Mass>
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>1.1</explosiveRadius>
+				<explosiveDamageType>Flame</explosiveDamageType>
+				<explosiveExpandPerStackcount>0.037</explosiveExpandPerStackcount>
+				<startWickOnDamageTaken>
+					<li>Flame</li>
+				</startWickOnDamageTaken>
+				<startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+				<preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+				<preExplosionSpawnChance>1</preExplosionSpawnChance>
+				<wickTicks>
+					<min>70</min>
+					<max>150</max>
+				</wickTicks>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>AA_HexagelCore</defName>
+		<label>hexagel core</label>
+		<description>A hexagonal shaped energy core composed of -in itself highly unstable- hydrogen-rich blue gel stabilized within an uranium shell.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AA_HexagelEnergyCore</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>			
+		</graphicData>
+		<stackLimit>75</stackLimit>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<MarketValue>42</MarketValue>
+			<Mass>0.95</Mass>
+			<Flammability>1.1</Flammability>
+			<DeteriorationRate>1.5</DeteriorationRate>
+		</statBases>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<tradeTags>
+			<li>ExoticMisc</li>
 		</tradeTags>
 	</ThingDef>
 
@@ -449,7 +515,7 @@
 			</outcomeDoers>
 		</ingestible> 
 
-		
+
 	</ThingDef>
 
 

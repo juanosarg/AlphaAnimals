@@ -3,10 +3,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_Aerofleet</defName>
 		<label>aerofleet</label>
-			 
-
 		<description>A small, floating gelatinous creature. Propelled by the hydrogen it collects from water and various plant matter, these squishy creatures wander the lands, aimlessly bouncing off objects in their path. One of the few rare creatures around here that strangely isn’t out for human blood. Well, isn’t that nice?\n\nAerofleets are genderless, and reproduce by strobilation, a form of asexual reproduction. As a floating creature, Aerofleets ignore terrain movement costs.\n\nAerofleets slowly produce a thick, gelatinous substance known as Blue Gel. This syrupy residue can be collected and refined into an energy-dense compound, and potentially used to build powerful batteries and generators, with the appropiate research (Biofuel refining, Batteries and Advanced Fabrication).</description>
-		
 		<statBases>
 			<MoveSpeed>2.84</MoveSpeed>
 			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
@@ -42,12 +39,12 @@
 				<canCrossWater>true</canCrossWater>
 
 			</li>
-			
+
 			<li Class="AlphaBehavioursAndEvents.CompProperties_AsexualReproduction">
 				<reproductionIntervalDays>9</reproductionIntervalDays>
 				<customString>Asexual fission in: </customString>
 			</li>
-			
+
 			<li Class="AlphaBehavioursAndEvents.CompProperties_AnimalProduct">
 				<resourceDef>AA_BlueGel</resourceDef>
 				<gatheringIntervalDays>3</gatheringIntervalDays>
@@ -57,7 +54,7 @@
 
 		</comps>
 		<race>
-		    <deathActionWorkerClass>DeathActionWorker_SmallExplosion</deathActionWorkerClass>
+			<deathActionWorkerClass>DeathActionWorker_SmallExplosion</deathActionWorkerClass>
 			<executionRange>2</executionRange>
 			<herdAnimal>true</herdAnimal>
 			<body>AA_JellyfishBody</body>
@@ -70,7 +67,6 @@
 			<wildness>0.60</wildness>
 			<canBePredatorPrey>false</canBePredatorPrey>
 			<trainability>Simple</trainability>
-			
 			<mateMtbHours>10000</mateMtbHours>
 			<gestationPeriodDays>10000</gestationPeriodDays>
 			<lifeExpectancy>9</lifeExpectancy>
@@ -103,8 +99,8 @@
 				<TropicalSwamp>0.3</TropicalSwamp>
 				<TemperateForest>0.4</TemperateForest>
 				<AridShrubland>0.2</AridShrubland>
-			    <Desert>0.1</Desert>
-                <TropicalRainforest>0.2</TropicalRainforest>
+				<Desert>0.1</Desert>
+				<TropicalRainforest>0.2</TropicalRainforest>
 
 			</wildBiomes>
 		</race>
@@ -127,10 +123,16 @@
 		</wildGroupSize>
 		<alternateGraphicChance>1</alternateGraphicChance>
 		<alternateGraphics>
-			<li><texPath>Things/Pawn/Animal/AA_Aerofleet/AA_Aerofleet</texPath></li>
-			<li><texPath>Things/Pawn/Animal/AA_Aerofleet/AA_Aerofleet2</texPath></li>
-			<li><texPath>Things/Pawn/Animal/AA_Aerofleet/AA_Aerofleet3</texPath></li>
-			
+			<li>
+				<texPath>Things/Pawn/Animal/AA_Aerofleet/AA_Aerofleet</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/AA_Aerofleet/AA_Aerofleet2</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/AA_Aerofleet/AA_Aerofleet3</texPath>
+			</li>
+
 		</alternateGraphics>
 		<lifeStages>
 			<li>
@@ -165,12 +167,12 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
-	
+
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_ColossalAerofleet</defName>
 		<label>colossal aerofleet</label>
-		<description>A huge, floating gelatinous creature. Propelled by the hydrogen it collects from water and various plant matter, these squishy creatures wander the lands, aimlessly bouncing off objects in their path. One of the few rare creatures around here that strangely isn’t out for human blood. Well, isn’t that nice?\n\nThis Aerofleet has somehow grown to extreme size, and seems to be too old to reproduce. A small number of younger Aerofleets seem to be attracted to it and follow it everywhere.\n\nColossal Aerofleets produce a thick, gelatinous substance known as Blue Gel. This syrupy residue can be collected and refined into an energy-dense compound, and potentially used to build powerful batteries and generators, with the appropiate research (Biofuel refining, Batteries and Advanced Fabrication).</description>
-		
+		<description>A huge, floating gelatinous creature. Propelled by the hydrogen it collects from water and various plant matter, these squishy creatures wander the lands, aimlessly bouncing off objects in their path. One of the few rare creatures around here that strangely isn’t out for human blood. Well, isn’t that nice?\n\nThis Aerofleet has somehow grown to extreme size. A small number of younger Aerofleets seem to be attracted to it and follow it everywhere.\n\nColossal Aerofleets produce a thick, gelatinous substance known as Blue Gel. This syrupy residue can be collected and refined into an energy-dense compound, and potentially used to build powerful batteries and generators, with the appropiate research (Biofuel refining, Batteries and Advanced Fabrication).</description>
+
 		<statBases>
 			<MoveSpeed>2.84</MoveSpeed>
 			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
@@ -190,6 +192,12 @@
 				<gatheringIntervalDays>5</gatheringIntervalDays>
 				<resourceAmount>100</resourceAmount>
 				<customResourceString>AA_BlueGel</customResourceString>
+			</li>
+			<li Class="AlphaBehavioursAndEvents.CompProperties_AsexualReproduction">
+				<reproductionIntervalDays>25</reproductionIntervalDays>
+				<customString>Asexual fission in: </customString>
+				<convertsIntoAnotherDef>true</convertsIntoAnotherDef>
+				<newDef>AA_Aerofleet</newDef>
 			</li>
 		</comps>
 		<tools>
@@ -212,14 +220,13 @@
 				<chanceFactor>0.2</chanceFactor>
 			</li>
 		</tools>
-		
+
 		<race>
-		    <deathActionWorkerClass>DeathActionWorker_BigExplosion</deathActionWorkerClass>
+			<deathActionWorkerClass>DeathActionWorker_BigExplosion</deathActionWorkerClass>
 			<executionRange>6</executionRange>
 			<herdAnimal>true</herdAnimal>
 			<herdMigrationAllowed>false</herdMigrationAllowed>
-			      <canBePredatorPrey>false</canBePredatorPrey>
-
+			<canBePredatorPrey>false</canBePredatorPrey>
 			<body>AA_JellyfishBody</body>
 			<baseBodySize>2</baseBodySize>
 			<baseHealthScale>2</baseHealthScale>
@@ -228,8 +235,8 @@
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>AA_Leather_Aerofleet</leatherDef>
 			<wildness>1</wildness>
-			
-	<mateMtbHours>10000</mateMtbHours>
+
+			<mateMtbHours>10000</mateMtbHours>
 			<gestationPeriodDays>10000</gestationPeriodDays>
 			<lifeExpectancy>110</lifeExpectancy>
 			<lifeStageAges>
@@ -240,28 +247,12 @@
 					<soundDeath>Pawn_Rodent_Death</soundDeath>
 					<soundCall>Pawn_Rodent_Call</soundCall>
 					<soundAngry>Pawn_Rodent_Angry</soundAngry>
-				</li>
-				<li>
-					<def>AnimalAdult</def>
-					<minAge>0</minAge>
-					<soundWounded>Pawn_Rodent_Wounded</soundWounded>
-					<soundDeath>Pawn_Rodent_Death</soundDeath>
-					<soundCall>Pawn_Rodent_Call</soundCall>
-					<soundAngry>Pawn_Rodent_Angry</soundAngry>
-				</li>
-				<li>
-					<def>AnimalAdult</def>
-					<minAge>0</minAge>
-					<soundWounded>Pawn_Rodent_Wounded</soundWounded>
-					<soundDeath>Pawn_Rodent_Death</soundDeath>
-					<soundCall>Pawn_Rodent_Call</soundCall>
-					<soundAngry>Pawn_Rodent_Angry</soundAngry>
-				</li>
+				</li>				
 			</lifeStageAges>
 			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
 			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
-			
+
 		</race>
 		<butcherProducts>
 			<AA_AerofleetMeat>2</AA_AerofleetMeat>
@@ -278,7 +269,7 @@
 		<race>AA_ColossalAerofleet</race>
 		<canArriveManhunter>false</canArriveManhunter>
 		<combatPower>120</combatPower>
-		
+
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
@@ -289,28 +280,8 @@
 					<texPath>Things/Pawn/Animal/AA_Aerofleet/AA_Dessicated_Aerofleet</texPath>
 					<drawSize>1.8</drawSize>
 				</dessicatedBodyGraphicData>
-			</li>
-			<li>
-				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AA_Aerofleet/AA_Aerofleet</texPath>
-					<drawSize>2</drawSize>
-				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/AA_Aerofleet/AA_Dessicated_Aerofleet</texPath>
-					<drawSize>1.8</drawSize>
-				</dessicatedBodyGraphicData>
-			</li>
-			<li>
-				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AA_Aerofleet/AA_Aerofleet</texPath>
-					<drawSize>2</drawSize>
-				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/AA_Aerofleet/AA_Dessicated_Aerofleet</texPath>
-					<drawSize>1.8</drawSize>
-				</dessicatedBodyGraphicData>
-			</li>
-			
+			</li>			
+
 		</lifeStages>
 	</PawnKindDef>
 

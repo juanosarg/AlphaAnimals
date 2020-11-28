@@ -110,9 +110,21 @@ namespace AlphaBehavioursAndEvents
                         //If not, do a normal fission
                         else
                         {
-                            Hediff_Pregnant.DoBirthSpawn(pawn, pawn);
-                            Messages.Message("AA_AsexualHatched".Translate(pawn.LabelIndefinite().CapitalizeFirst()), pawn, MessageTypeDefOf.PositiveEvent, true);
-                            asexualFissionCounter = 0;
+                            if (Props.convertsIntoAnotherDef)
+                            {
+                                PawnGenerationRequest request = new PawnGenerationRequest(PawnKindDef.Named(Props.newDef), pawn.Faction, PawnGenerationContext.NonPlayer, -1, false, true, false, false, true, false, 1f, false, true, true, true, false, false, false, false, 0f, null, 1f, null, null, null, null, null, null, null, null, null, null, null, null);
+                                Pawn pawnToGenerate = PawnGenerator.GeneratePawn(request);
+                                PawnUtility.TrySpawnHatchedOrBornPawn(pawnToGenerate, pawn);
+                                Messages.Message("AA_AsexualHatched".Translate(pawn.LabelIndefinite().CapitalizeFirst()), pawn, MessageTypeDefOf.PositiveEvent, true);
+                                asexualFissionCounter = 0;
+                            }
+                            else
+                            {
+                                Hediff_Pregnant.DoBirthSpawn(pawn, pawn);
+                                Messages.Message("AA_AsexualHatched".Translate(pawn.LabelIndefinite().CapitalizeFirst()), pawn, MessageTypeDefOf.PositiveEvent, true);
+                                asexualFissionCounter = 0;
+                            }
+                            
                         }
 
                     }

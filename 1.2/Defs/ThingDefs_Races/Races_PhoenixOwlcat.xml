@@ -5,7 +5,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_PhoenixOwlcat</defName>
 		<label>phoenix owlcat</label>
-		<description>A genetically modified feline with avian characteristics, the Phoenix Owlcat was created as a durable alternative to fragile baseline cats. A loyal companion that isn't so easily hunted and slaughtered by the hostile lifeforms present on the planets of the Rim.\n\nThe ancient popular folklore of cats having nine lives was used as a pattern to create the Phoenix Owlcat: a swarm of powerful mechanites in its bloodstream is capable of saving it from up to 9 lethal wounds before being lost to decoherence.</description>
+		<description>A genetically modified feline with avian characteristics, the Phoenix Owlcat was created as a durable alternative to fragile baseline cats. A loyal companion that isn't so easily hunted and slaughtered by the hostile lifeforms present on the planets of the Rim.\n\nThe ancient popular folklore of cats having nine lives was used as a pattern to create the Phoenix Owlcat: a swarm of powerful mechanites in its bloodstream is capable of saving it from up to 9 lethal wounds before being lost to decoherence.\n\nRW animal graphic inspired by original creation by RobtheDoodler (check his Deviant Art page at https://www.deviantart.com/robthedoodler!).</description>
 		<statBases>
 			<MoveSpeed>4</MoveSpeed>
 			<MarketValue>250</MarketValue>
