@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+
+	<AlphaBehavioursAndEvents.ToggleableSpawnDef>
+		<defName>AA_ToggleableAnimals</defName>
+
+		<toggleablePawns>			
+			<li>AA_Aerofleet</li>	
+			<li>AA_AcanthamoebaGiganteaSmall</li>
+			<li>AA_Agaripawn</li>
+			<li>AA_Agaripod</li>
+			<li>AA_AngelMoth</li>
+			<li>AA_AnimusVox</li>
+			<li>AA_ArcticLion</li>
+			<li>AA_LarvalAtispec</li>
+			<li>AA_Barbslinger</li>
+			<li>AA_BedBug</li>
+			<li>AA_Blizzarisk</li>
+			<li>AA_BloodShrimp</li>
+			<li>AA_BoulderMit</li>
+			<li>AA_Bumbledrone</li>
+			<li>AA_Cactipine</li>
+			<li>AA_ChameleonYak</li>
+			<li>AA_ChemfuelMyrmidon</li>
+			<li>AA_Cinderlisk</li>
+			<li>AA_CrepuscularBeetle</li>
+			<li>AA_CrystalMit</li>
+			<li>AA_DecayDrake</li>
+			<li>AA_DesertAve</li>
+			<li>AA_Drainer</li>
+			<li>AA_DrainerLarva</li>
+			<li>AA_Dunealisk</li>
+			<li>AA_DuskRat</li>
+			<li>AA_Feralisk</li>
+			<li>AA_FireWasp</li>
+			<li>AA_FissionMouse</li>
+			<li>AA_FrostAve</li>
+			<li>AA_FrostboundBehemoth</li>
+			<li>AA_Frostling</li>
+			<li>AA_Frostmite</li>
+			<li>AA_Gallatross</li>
+			<li>AA_GallatrossMoribund</li>
+			<li>AA_Gigantelope</li>
+			<li>AA_GreatDevourer</li>
+			<li>AA_GreenGoo</li>
+			<li>AA_Groundrunner</li>
+			<li>AA_Helixien</li>
+			<li>AA_InfectedAerofleet</li>
+			<li>AA_IronhuskBeetle</li>
+			<li>AA_Junglelisk</li>
+			<li>AA_Lockjaw</li>
+			<li>AA_MammothWorm</li>
+			<li>AA_Mantrap</li>
+			<li>AA_MeadowAve</li>
+			<li>AA_MegaLouse</li>
+			<li>AA_Metallovore</li>
+			<li>AA_MycoidColossus</li>
+			<li>AA_Needlepost</li>
+			<li>AA_Needleroll</li>
+			<li>AA_NightAve</li>
+			<li>AA_NightMule</li>
+			<li>AA_NightRam</li>
+			<li>AA_Nightling</li>
+			<li>AA_OcularJelly</li>
+			<li>AA_OvergrownColossus</li>
+			<li>AA_PebbleMit</li>
+			<li>AA_PhoenixOwlcat</li>		
+			<li>AA_Plasmorph</li>
+			<li>AA_Radyak</li>
+			<li>AA_RaptorShrimp</li>
+			<li>AA_RayHound</li>
+			<li>AA_Razorjack</li>
+			<li>AA_RedGoo</li>
+			<li>AA_RedSpore</li>
+			<li>AA_RipperHound</li>
+			<li>AA_RoughPlatedMonitor</li>
+			<li>AA_RoyalAve</li>
+			<li>AA_SandLion</li>
+			<li>AA_SandSquid</li>
+			<li>AA_ShockGoat</li>
+			<li>AA_Slurrypede</li>
+			<li>AA_SpinedGow</li>
+			<li>AA_Swarmling</li>
+			<li>AA_TarGuzzler</li>
+			<li>AA_TeratogenicOriginator</li>
+			<li>AA_TetraSlug</li>
+			<li>AA_Thermadon</li>
+			<li>AA_Wildpawn</li>
+			<li>AA_Wildpod</li>
+		</toggleablePawns>							
+	</AlphaBehavioursAndEvents.ToggleableSpawnDef>
+
+
+
+
+
+</Defs>

@@ -1,9 +1,10 @@
 ﻿using RimWorld;
 using UnityEngine;
 using Verse;
+using System.Collections.Generic;
 
 
-namespace AlphaBehavioursAndEvents.Settings
+namespace AlphaBehavioursAndEvents
 {
    
 
@@ -26,17 +27,34 @@ namespace AlphaBehavioursAndEvents.Settings
 
     public class AlphaAnimals_Mod : Mod
     {
-      
-        
+
+        public static AlphaAnimals_Settings settings;
+
         public AlphaAnimals_Mod(ModContentPack content) : base(content)
         {
-           GetSettings<AlphaAnimals_Settings>();
+            settings = GetSettings<AlphaAnimals_Settings>();
         }
         public override string SettingsCategory() => "Alpha Animals";
 
         public override void DoSettingsWindowContents(Rect inRect)
         {
-            AlphaAnimals_Settings.DoWindowContents(inRect);
+            base.DoSettingsWindowContents(inRect);
+            var toggleablespawndefs = DefDatabase<ToggleableSpawnDef>.AllDefsListForReading;
+           
+            foreach (var toggleablespawndef in toggleablespawndefs)
+            {
+                if (settings.pawnSpawnStates == null) settings.pawnSpawnStates = new Dictionary<string, bool>();
+                foreach (string defName in toggleablespawndef.toggleablePawns)
+                {
+                    if (!settings.pawnSpawnStates.ContainsKey(defName))
+                    {
+                        settings.pawnSpawnStates[defName] = false;
+                    }
+                }
+                    
+            }
+
+            settings.DoWindowContents(inRect);
 
 
         }

@@ -344,6 +344,7 @@
     <Compile Include="Comps\CompSummonOnSpawn.cs" />
     <Compile Include="Comps\CompThoughtEffecter.cs" />
     <Compile Include="Comps\CompUntameable.cs" />
+    <Compile Include="Def\ToggleableSpawnDef.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_Berserk.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_ExtraDamageInsectoids.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_ExtraInfecter.cs" />
@@ -354,6 +355,7 @@
     <Compile Include="Harmony\QuestManager_Notify_ThingsProduced_Patch.cs" />
     <Compile Include="Harmony\SappersUtility_IsGoodSapper.cs" />
     <Compile Include="Harmony\Thing_ButcherProducts.cs" />
+    <Compile Include="Harmony\WildAnimalSpawner_SpawnRandomWildAnimalAt.cs" />
     <Compile Include="Hediffs\HediffCompProperties\HediffCompProperties_AutoPermanentInjury.cs" />
     <Compile Include="Hediffs\HediffCompProperties\HediffCompProperties_ExplodeOnDowned.cs" />
     <Compile Include="Hediffs\HediffCompProperties\HediffCompProperties_Mime.cs" />

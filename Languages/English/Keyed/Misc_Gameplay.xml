@@ -109,80 +109,8 @@
 
 
 	<!-- Mod Settings, animal toggles -->
-
-	<disableAerofleet>Disable Aerofleet</disableAerofleet>
-	<disableAnimusVox>Disable Animus Vox</disableAnimusVox>
-	<disableArcticLion>Disable Arctic Lion</disableArcticLion>
-	<disableBarbslinger>Disable Barbslinger</disableBarbslinger>
-	<disableBedBug>Disable Bed bug</disableBedBug>
-	<disableBlizzarisk>Disable Blizzarisk</disableBlizzarisk>
-	<disableBoulderMit>Disable Bouldermit</disableBoulderMit>
-	<disableBumbledrone>Disable Bumbledrone</disableBumbledrone>
-	<disableCactipine>Disable Cactipine</disableCactipine>
-	<disableDecayDrake>Disable Decay Drake</disableDecayDrake>
-	<disableDunealisk>Disable Dunealisk</disableDunealisk>
-	<disableFeralisk>Disable Feralisk</disableFeralisk>
-	<disableFissionMouse>Disable Fission Mouse</disableFissionMouse>
-	<disableFrostmite>Disable Frostmite</disableFrostmite>
-	<disableGigantelope>Disable Gigantelope</disableGigantelope>
-	<disableGreatDevourer>Disable Great Devourer</disableGreatDevourer>
-	<disableGroundrunner>Disable Groundrunner</disableGroundrunner>
-	<disableLockjaw>Disable Lockjaw</disableLockjaw>
-	<disableMammothWorm>Disable Mammoth Worm</disableMammothWorm>
-	<disableMantrap>Disable Mantrap</disableMantrap>
-	<disableMeadowAve>Disable all Meadow Aves</disableMeadowAve>
-	<disableMegaLouse>Disable Megalouse</disableMegaLouse>
-	<disableNeedlepost>Disable Needlepost</disableNeedlepost>
-	<disableNeedleroll>Disable Needleroll</disableNeedleroll>
-	<disableNightling>Disable Nightling</disableNightling>
-	<disableOcularJelly>Disable Ocular Jelly</disableOcularJelly>
-	<disableOvergrownColossus>Disable Overgrown Colossus</disableOvergrownColossus>
-	<disablePebbleMit>Disable Pebblemit</disablePebbleMit>
-	<disableRadyak>Disable Radyak</disableRadyak>
-	<disableRaptorShrimp>Disable Raptor Shrimp</disableRaptorShrimp>
-	<disableSandLion>Disable Sand Lion</disableSandLion>
-	<disableSandSquid>Disable Sand Squid</disableSandSquid>
-	<disableShockGoat>Disable Shock Goat</disableShockGoat>
-	<disableSlurrypede>Disable Slurrypede</disableSlurrypede>
-	<disableTetraSlug>Disable Tetraslug</disableTetraSlug>
-	<disableThermadon>Disable Thermadon</disableThermadon>
-	<disableWildpawn>Disable Wildpawn</disableWildpawn>
-	<disableWildpod>Disable Wildpod</disableWildpod>
-
-	<disableAgaripod>Disable Agaripod</disableAgaripod>
-	<disableInfectedAerofleet>Disable Infected Aerofleet</disableInfectedAerofleet>
-	<disableJunglelisk>Disable Junglelisk</disableJunglelisk>
-	<disableMycoidColossus>Disable Mycoid Colossus</disableMycoidColossus>
-	<disableRedGoo>Disable Red Goo spawns</disableRedGoo>
-	<disableGreenGoo>Disable Green Goo</disableGreenGoo>
-	<disableRedSpore>Disable Red Spore</disableRedSpore>
 	
-	<disableYak>Disable Chameleon Yak</disableYak>
-	<disableBeetle>Disable Crepuscular Beetle</disableBeetle>
-	<disableDuskRat>Disable Dusk Rat</disableDuskRat>
-	<disableFrostBehemoth>Disable Frostbound Behemoth</disableFrostBehemoth>
-	<disableFrostling>Disable Frostling</disableFrostling>
-	<disableNightmule>Disable Nightmule</disableNightmule>
-	<disableNightram>Disable Nightram</disableNightram>
-	<disableTeratogenicOriginator>Disable Teratogenic Originator</disableTeratogenicOriginator>
-	
-	<disableBloodShrimp>Disable Blood Shrimp</disableBloodShrimp>
-	<disableCinderlisk>Disable Cinderlisk</disableCinderlisk>
-	<disableCrystalMit>Disable Crystalmit</disableCrystalMit>
-	<disableHelixien>Disable Helixien</disableHelixien>
-	<disableRazorjack>Disable Razorjack</disableRazorjack>
-	<disableRipperHound>Disable Ripper Hound</disableRipperHound>
-	<disableRoughPlatedMonitor>Disable Rough-Plated Monitor</disableRoughPlatedMonitor>
-	<disableSwarmling>Disable Swarmling</disableSwarmling>
-	
-	<disableAtispec>Disable Atispec</disableAtispec>
-	<disablePlasmorph>Disable Plasmorph</disablePlasmorph>
-
-	<disableAcanthamoeba>Disable Acanthamoeba</disableAcanthamoeba>
-	<disableAngelMoth>Disable Angel Moth</disableAngelMoth>
-	<disableDrainer>Disable Drainer</disableDrainer>
-	<disablePhoenixOwlcat>Disable Phoenix Owlcat</disablePhoenixOwlcat>
-	<disableRayHound>Disable Ray Hound</disableRayHound>
+	<AA_DisableAnimal>Disable {0}</AA_DisableAnimal>
 
 
 
