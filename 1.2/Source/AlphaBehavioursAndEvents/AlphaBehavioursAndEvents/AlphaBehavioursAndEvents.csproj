@@ -347,6 +347,7 @@
     <Compile Include="Def\ToggleableSpawnDef.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_Berserk.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_ExtraDamageInsectoids.cs" />
+    <Compile Include="ExplosionsAndDamage\DamageWorker_SwallowWhole.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_ExtraInfecter.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_FeedingFlame.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_Vampiric.cs" />
@@ -429,6 +430,7 @@
     <Compile Include="Jobs\JobGiver_MineOld.cs" />
     <Compile Include="Jobs\JobGiver_PsionicNuzzle.cs" />
     <Compile Include="Harmony\HarmonyPatchers.cs" />
+    <Compile Include="PawnClasses\Pawn_SwallowWhole.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Incidents\ThingSetMaker_SpecialMeteorite.cs" />
   </ItemGroup>
