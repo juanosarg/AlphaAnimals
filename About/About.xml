@@ -2,11 +2,11 @@
 <ModMetaData>
 	<name>Alpha Animals</name>
 	<supportedVersions>
-      <li>1.0</li>
-      <li>1.1</li>
-	   <li>1.2</li>
-   </supportedVersions>
-   <modDependencies>
+		<li>1.0</li>
+		<li>1.1</li>
+		<li>1.2</li>
+	</supportedVersions>
+	<modDependencies>
 		<li>
 			<packageId>brrainz.harmony</packageId>
 			<displayName>Harmony</displayName>
@@ -14,17 +14,17 @@
 			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
 		</li>
 	</modDependencies>
-	
+
 	<loadAfter>
-	   <li>vanillaexpanded.achievements</li>
-      <li>smashphil.boats</li>
-    </loadAfter>
+		<li>vanillaexpanded.achievements</li>
+		<li>smashphil.boats</li>
+	</loadAfter>
 	<author>Sarg, AFriend, milon, Skullywag and kaptain_kavern</author>
-	
-		<packageId>sarg.alphaanimals</packageId>
+
+	<packageId>sarg.alphaanimals</packageId>
 
 	<description>Adds multiple unique new animals to Rimworld.
-	
+
 &lt;size=24&gt;Features&lt;/size&gt;
 
 Adds 100+ new, vanilla-friendly creatures to the diverse biomes of your Rimworlds. The philosophy of this mod is that every new creatures tries to bring some new mechanic into the game, whether it be walking tanks, living resource farm, indestructible plant monsters, night time stalkers, or plain speedy giant spiders. Some of the mechanics are simple, others much more complex.
@@ -105,7 +105,7 @@ v1.02: Bugfixing and balance tweaks. Full changelog on GitHub (22/10/18)
 v1.0: Rimworld 1.0 version (17/10/18)
 v0.1: Prerelease
 
-	
+
 
 	</description>
 </ModMetaData>

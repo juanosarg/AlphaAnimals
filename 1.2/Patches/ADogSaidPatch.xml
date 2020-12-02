@@ -115,7 +115,7 @@
 						<li>AA_DrainerLarva</li>
 						<li>AA_Drainer</li>
 						<li>AA_PhoenixOwlcat</li>
-
+						<li>AA_MatureFleshbeast</li>
 
 
 
@@ -229,7 +229,7 @@
 						<li>AA_Animalisk</li>
 						<li>AA_Drainer</li>
 						<li>AA_PhoenixOwlcat</li>
-
+<li>AA_MatureFleshbeast</li>
 
 					</value>
 				</li>
@@ -319,6 +319,7 @@
 						
 						
 						<li>AA_PhoenixOwlcat</li>
+						<li>AA_MatureFleshbeast</li>
 					</value>
 				</li>
 
@@ -407,6 +408,7 @@
 						
 					
 						<li>AA_PhoenixOwlcat</li>
+						<li>AA_MatureFleshbeast</li>
 					</value>
 				</li>
 
@@ -494,6 +496,7 @@
 						<li>AA_Animalisk</li>
 						
 						<li>AA_PhoenixOwlcat</li>
+						<li>AA_MatureFleshbeast</li>
 
 					</value>
 				</li>
@@ -596,6 +599,7 @@
 						<li>AA_Animalisk</li>
 						<li>AA_Drainer</li>
 						<li>AA_PhoenixOwlcat</li>
+						<li>AA_MatureFleshbeast</li>
 					</value>
 				</li>
 
@@ -693,6 +697,7 @@
 						<li>AA_Animalisk</li>
 						<li>AA_Drainer</li>
 						<li>AA_PhoenixOwlcat</li>
+						<li>AA_MatureFleshbeast</li>
 					</value>
 				</li>
 
@@ -753,6 +758,7 @@
 						<li>AA_RayHound</li>
 						
 						<li>AA_PhoenixOwlcat</li>
+						<li>AA_MatureFleshbeast</li>
 					</value>
 				</li>
 
@@ -853,6 +859,7 @@
 						<li>AA_Animalisk</li>
 						<li>AA_Drainer</li>
 						<li>AA_PhoenixOwlcat</li>
+						<li>AA_MatureFleshbeast</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
@@ -936,6 +943,7 @@
 						<li>AA_RayHound</li>
 						
 						<li>AA_PhoenixOwlcat</li>
+						<li>AA_MatureFleshbeast</li>
 
 					</value>
 				</li>
@@ -1089,6 +1097,7 @@
 						
 						<li>AA_Drainer</li>
 						<li>AA_PhoenixOwlcat</li>
+						<li>AA_MatureFleshbeast</li>
 
 					</value>
 				</li>
@@ -1173,6 +1182,7 @@
 						<li>AA_Animalisk</li>
 						
 						<li>AA_PhoenixOwlcat</li>
+						<li>AA_MatureFleshbeast</li>
 
 					</value>
 				</li>
