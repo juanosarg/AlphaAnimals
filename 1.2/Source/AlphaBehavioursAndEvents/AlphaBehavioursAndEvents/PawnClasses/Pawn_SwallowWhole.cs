@@ -2,6 +2,7 @@
 using RimWorld;
 using Verse;
 using System.Collections.Generic;
+using Verse.Sound;
 
 namespace AlphaBehavioursAndEvents
 {
@@ -9,6 +10,7 @@ namespace AlphaBehavioursAndEvents
     {
 
         public ThingOwner innerContainer = null;
+        protected bool contentsKnown;
 
         public Pawn_SwallowWhole()
         {
@@ -37,7 +39,10 @@ namespace AlphaBehavioursAndEvents
         public virtual void EjectContents()
         {
             //Remove ingredients from the pawn container. 
-            this.innerContainer?.TryDropAll(this.InteractionCell, base.Map, ThingPlaceMode.Near, null, null);           
+            if (this.Map != null)
+            {
+                this.innerContainer.TryDropAll(this.Position, base.Map, ThingPlaceMode.Near, null, null);
+            }
         }
 
         public void DestroyContents()
@@ -52,21 +57,56 @@ namespace AlphaBehavioursAndEvents
 
         public override void Destroy(DestroyMode mode = DestroyMode.Vanish)
         {
+
+            if (this.Map != null) {
+                EjectContents();
+                for (int i = 0; i < 20; i++)
+                {
+                    IntVec3 c;
+                    CellFinder.TryFindRandomReachableCellNear(this.Position, this.Map, 2, TraverseParms.For(TraverseMode.NoPassClosedDoors, Danger.Deadly, false), null, null, out c);
+                    FilthMaker.TryMakeFilth(c, this.Map, ThingDefOf.Filth_AmnioticFluid);
+
+                }
+                SoundDefOf.Hive_Spawn.PlayOneShot(new TargetInfo(this.Position, this.Map, false));
+            }
             
-            EjectContents();           
             base.Destroy(mode);
         }
 
-        public bool TryAcceptThing(Thing thing, bool allowSpecialEffects = true)
+        public override void Kill(DamageInfo? dinfo, Hediff exactCulprit = null)
         {
-            if (!this.innerContainer.CanAcceptAnyOf(thing, true))
+            if (this.Map != null)
+            {
+                EjectContents();
+                for (int i = 0; i < 20; i++)
+                {
+                    IntVec3 c;
+                    CellFinder.TryFindRandomReachableCellNear(this.Position, this.Map, 2, TraverseParms.For(TraverseMode.NoPassClosedDoors, Danger.Deadly, false), null, null, out c);
+                    FilthMaker.TryMakeFilth(c, this.Map, ThingDefOf.Filth_AmnioticFluid);
+
+                }
+                SoundDefOf.Hive_Spawn.PlayOneShot(new TargetInfo(this.Position, this.Map, false));
+            }
+            
+            base.Kill(dinfo, exactCulprit);
+        }
+
+        public virtual bool Accepts(Thing thing)
+        {
+            return this.innerContainer.CanAcceptAnyOf(thing, true);
+        }
+
+        public virtual bool TryAcceptThing(Thing thing, bool allowSpecialEffects = true)
+        {
+            if (!this.Accepts(thing))
             {
                 return false;
             }
             bool flag;
             if (thing.holdingOwner != null)
             {
-                thing.holdingOwner.TryTransferToContainer(thing, this.innerContainer, thing.stackCount, true);
+                thing.holdingOwner.Remove(thing);
+                this.innerContainer.TryAdd(thing, thing.stackCount, false);
                 flag = true;
             }
             else
@@ -75,13 +115,16 @@ namespace AlphaBehavioursAndEvents
             }
             if (flag)
             {
-                
+                if (thing.Faction != null && thing.Faction.IsPlayer)
+                {
+                    this.contentsKnown = true;
+                }
                 return true;
             }
             return false;
         }
 
-       
+
 
 
     }

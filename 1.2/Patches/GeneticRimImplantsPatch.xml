@@ -49,6 +49,13 @@
 
 				</value>
 			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "AA_MatureFleshbeast"]/race</xpath>
+				<value>
+					<useMeatFrom>GR_AberrantFleshbeast</useMeatFrom>
+				</value>
+			</li>
 
 
 

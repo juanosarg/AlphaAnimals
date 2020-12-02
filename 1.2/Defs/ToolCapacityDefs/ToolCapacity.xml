@@ -28,6 +28,11 @@
 	</ToolCapacityDef>
 
 	<ToolCapacityDef>
+		<defName>AA_SwallowWhole</defName>
+		<label>swallow whole</label>
+	</ToolCapacityDef>
+	
+	<ToolCapacityDef>
 		<defName>AA_BurningBite</defName>
 		<label>burning bite</label>
 	</ToolCapacityDef>

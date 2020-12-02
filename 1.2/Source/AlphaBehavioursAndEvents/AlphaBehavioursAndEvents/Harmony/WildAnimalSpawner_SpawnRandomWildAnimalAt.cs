@@ -48,7 +48,7 @@ namespace AlphaBehavioursAndEvents
             if (theCreature != null)
             {
 
-                if (AlphaAnimals_Mod.settings.pawnSpawnStates.Keys.Contains(theCreature.defName)) {
+                if (AlphaAnimals_Mod.settings.pawnSpawnStates!=null&&AlphaAnimals_Mod.settings.pawnSpawnStates.Keys.Contains(theCreature.defName)) {
                     if (AlphaAnimals_Mod.settings.pawnSpawnStates[theCreature.defName])
                     {
                         

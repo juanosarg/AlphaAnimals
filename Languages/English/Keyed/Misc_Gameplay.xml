@@ -64,6 +64,8 @@
 	<AA_LetterLabelMechanoidSappers>Mechanoid Sappers</AA_LetterLabelMechanoidSappers>
 	<AA_LetterMechanoidSappers>A previously cloaked ancient mechanoid assembler has mysteriously appeared nearby.\n\nA swarm of mechanoids spews forth, quickly readying for an attack.\n\nOne of these mechanoids is a dangerous Demolisher, so they'll probably go straight for the walls!</AA_LetterMechanoidSappers>
 
+	<AA_LetterLabelMatureFleshbeast>Devoured whole</AA_LetterLabelMatureFleshbeast>
+	<AA_LetterMatureFleshbeast>A grotesque creature has swallowed {0} whole! If you act quickly, perhaps you can still save {0_objective}.</AA_LetterMatureFleshbeast>
 
 	<!-- Animal Products -->
 
