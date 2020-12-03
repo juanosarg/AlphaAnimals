@@ -7,7 +7,7 @@
 		<defName>AA_MatureFleshbeast</defName>
 		<label>mature fleshbeast</label>
 		<thingClass>AlphaBehavioursAndEvents.Pawn_SwallowWhole</thingClass>
-		<description>The unwanted result of a genetic experiment gone wrong, fleshbeasts are usually miserable, weak creatures that ooze pus and struggle to keep breathing for longer than a few days. Sometimes, however, a fleshbeast manages to survive, and even thrive. Perhaps it was foolishly released into the wild, where it managed to stabilize and grow. Or perhaps it was stronger than average, and managed to subdue and devour its imprudent creators. In any case, it has now turned into a pulsating, fleshy behemoth with a ravenous appetite.\n\nMature fleshbeasts swallow their prey whole, storing up to 5 creatures on its huge stomach for later consumption.</description>
+		<description>The unwanted result of a genetic experiment gone wrong, fleshbeasts are usually miserable, weak creatures that ooze pus and struggle to keep breathing for longer than a few days. Sometimes, however, a fleshbeast manages to survive, and even thrive. Perhaps it was foolishly released into the wild, where it managed to stabilize and grow. Or perhaps it was stronger than average, and managed to subdue and devour its imprudent creators. In any case, it has now turned into a pulsating, fleshy behemoth with a ravenous appetite.\n\nMature fleshbeasts swallow their prey whole, storing up to 5 creatures on its huge stomach for later consumption. Prey may survive for up to one day, but they'll later be consumed and expelled as skeletized remains.</description>
 		<statBases>
 			<MoveSpeed>2.00</MoveSpeed>
 			<ComfyTemperatureMin>-70</ComfyTemperatureMin>

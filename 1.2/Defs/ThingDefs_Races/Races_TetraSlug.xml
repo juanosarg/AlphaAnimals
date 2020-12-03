@@ -85,6 +85,8 @@
 					<li>VFE_LargeAdvancedBattery</li>
 					<li>AA_BlueGelBattery</li>
 					<li>AA_HexaGelBattery</li>
+					<li>ShipCapacitor</li>
+					<li>ShipCapacitorSmall</li>
 				</batteriesToAffect>
 				
 			</li>

@@ -136,12 +136,16 @@ namespace AlphaBehavioursAndEvents
                 {
                     foreach (Thing thing in innerContainer) {
                         Pawn pawnSwallowed = thing as Pawn;
-                        if (pawnSwallowed!= null && !pawnSwallowed.Dead) {
-                            pawnSwallowed.Kill(null);
+                        if (pawnSwallowed!= null) {
+                            
+                            if (!pawnSwallowed.Dead) { pawnSwallowed.Kill(null); }                           
                             CompRottable compRottable = pawnSwallowed.Corpse.TryGetComp<CompRottable>();
-                            if (compRottable.Stage == RotStage.Fresh)
+                            
+
+                            if (compRottable!=null&&compRottable.Stage == RotStage.Fresh)
                             {
-                                compRottable.RotProgress += 100000;
+                                
+                                compRottable.RotProgress += 100000000;
                             }
                         }
                     
