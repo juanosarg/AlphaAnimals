@@ -171,6 +171,10 @@
 					<li>VFE_SmallBattery</li>
 					<li>VFE_AdvancedBattery</li>
 					<li>VFE_LargeAdvancedBattery</li>
+					<li>AA_BlueGelBattery</li>
+					<li>AA_HexaGelBattery</li>
+					<li>ShipCapacitor</li>
+					<li>ShipCapacitorSmall</li>
 					<li>Plant_Grass</li>
 					<li>Plant_TallGrass</li>
 					
