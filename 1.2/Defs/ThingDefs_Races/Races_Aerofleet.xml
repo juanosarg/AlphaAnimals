@@ -234,7 +234,7 @@
 			<hasGenders>false</hasGenders>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>AA_Leather_Aerofleet</leatherDef>
-			<wildness>1</wildness>
+			<wildness>0.80</wildness>
 
 			<mateMtbHours>10000</mateMtbHours>
 			<gestationPeriodDays>10000</gestationPeriodDays>

@@ -11,6 +11,8 @@ namespace AlphaBehavioursAndEvents
 
         public ThingOwner innerContainer = null;
         protected bool contentsKnown;
+        public int tickCounter = 0;
+        public int digestionPeriod = 240; // 1 day
 
         public Pawn_SwallowWhole()
         {
@@ -122,6 +124,47 @@ namespace AlphaBehavioursAndEvents
                 return true;
             }
             return false;
+        }
+
+        public override void TickRare()
+        {
+            base.TickRare();
+            if (innerContainer.Count >= 5)
+            {
+                tickCounter++;
+                if (tickCounter > digestionPeriod)
+                {
+                    foreach (Thing thing in innerContainer) {
+                        Pawn pawnSwallowed = thing as Pawn;
+                        if (pawnSwallowed!= null && !pawnSwallowed.Dead) {
+                            pawnSwallowed.Kill(null);
+                            CompRottable compRottable = pawnSwallowed.Corpse.TryGetComp<CompRottable>();
+                            if (compRottable.Stage == RotStage.Fresh)
+                            {
+                                compRottable.RotProgress += 100000;
+                            }
+                        }
+                    
+                    }
+                    EjectContents();
+                    tickCounter = 0;
+                }
+            }
+
+
+        }
+
+        public override string GetInspectString()
+        {
+            string stomachContents = "";
+
+            if (innerContainer.Count >= 5)
+            {
+                stomachContents += "\n" + "AA_StomachContents".Translate(innerContainer.Count) + "AA_DigestionTime".Translate(((digestionPeriod - tickCounter) * 250).ToStringTicksToPeriod(true, false, true, true));
+            }
+            else stomachContents += "\n" + "AA_StomachContents".Translate(innerContainer.Count);
+
+            return base.GetInspectString() + stomachContents;
         }
 
 

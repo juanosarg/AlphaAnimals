@@ -83,6 +83,8 @@
 					<li>VFE_SmallBattery</li>
 					<li>VFE_AdvancedBattery</li>
 					<li>VFE_LargeAdvancedBattery</li>
+					<li>AA_BlueGelBattery</li>
+					<li>AA_HexaGelBattery</li>
 				</batteriesToAffect>
 				
 			</li>
