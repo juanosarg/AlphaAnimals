@@ -23,6 +23,7 @@
 		<menuHidden>True</menuHidden>
 		<generateCommonality>0.5</generateCommonality>
 		<tradeability>None</tradeability>
+		<destroyOnDrop>true</destroyOnDrop>
 		<tools>
 			<li>
 				<label>barrel</label>
@@ -95,6 +96,7 @@
 			<Mass>18</Mass>
 			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
 		</statBases>
+		<destroyOnDrop>true</destroyOnDrop>
 		<techLevel>Spacer</techLevel>
 		<menuHidden>True</menuHidden>
 		<generateCommonality>0.5</generateCommonality>
@@ -157,6 +159,7 @@
 		</statBases>
 		<techLevel>Spacer</techLevel>
 		<menuHidden>True</menuHidden>
+		<destroyOnDrop>true</destroyOnDrop>
 		<generateCommonality>0.5</generateCommonality>
 		<tradeability>None</tradeability>
 		<tools>
@@ -250,6 +253,7 @@
 		</statBases>
 		<techLevel>Spacer</techLevel>
 		<menuHidden>True</menuHidden>
+		<destroyOnDrop>true</destroyOnDrop>
 		<generateCommonality>0.5</generateCommonality>
 		<tradeability>None</tradeability>
 		<tools>
