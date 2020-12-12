@@ -22,7 +22,7 @@
 				</capacities>
 				<power>15</power>
 				<cooldownTime>1.5</cooldownTime>
-				<linkedBodyPartsGroup>Arms</linkedBodyPartsGroup>
+				<linkedBodyPartsGroup>AA_TentacleAttackTool</linkedBodyPartsGroup>
 
 			</li>
 			<li>
@@ -33,7 +33,7 @@
 				</capacities>
 				<power>15</power>
 				<cooldownTime>1.5</cooldownTime>
-				<linkedBodyPartsGroup>Arms</linkedBodyPartsGroup>
+				<linkedBodyPartsGroup>AA_TentacleAttackTool</linkedBodyPartsGroup>
 
 			</li>
 			<li>
