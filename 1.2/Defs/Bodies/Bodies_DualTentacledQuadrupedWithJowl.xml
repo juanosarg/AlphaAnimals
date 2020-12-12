@@ -131,7 +131,7 @@
 									<def>AA_JellyfishTentacle</def>
 									<customLabel>left tentacle</customLabel>
 									<groups>
-										<li>Arms</li>
+										<li>AA_TentacleAttackTool</li>
 									</groups>
 									<coverage>0.12</coverage>
 									<height>Top</height>
@@ -141,7 +141,7 @@
 									<def>AA_JellyfishTentacle</def>
 									<customLabel>right tentacle</customLabel>
 									<groups>
-										<li>Arms</li>
+										<li>AA_TentacleAttackTool</li>
 									</groups>
 									<coverage>0.12</coverage>
 									<height>Top</height>

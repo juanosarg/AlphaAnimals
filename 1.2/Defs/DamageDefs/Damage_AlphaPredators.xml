@@ -41,6 +41,13 @@
 		<workerClass>AlphaBehavioursAndEvents.DamageWorker_ExtraDamageInsectoids</workerClass>
 
 	</DamageDef>
+	
+	<DamageDef ParentName="BluntBase">
+		<defName>AA_EMPBlunt</defName>
+		<label>EMP pulse</label>
+		<workerClass>AlphaBehavioursAndEvents.DamageWorker_ExtraDamageMechanoids</workerClass>
+
+	</DamageDef>
 
 	<DamageDef Name="StingBolt">
 		<defName>AA_ToxicBolt</defName>

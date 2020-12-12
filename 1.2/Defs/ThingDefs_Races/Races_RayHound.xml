@@ -18,9 +18,9 @@
 				<label>left tentacle</label>
 				<capacities>
 					<li>AA_EMPBlunt</li>
-					<li>Blunt</li>
+					
 				</capacities>
-				<power>40</power>
+				<power>15</power>
 				<cooldownTime>1.5</cooldownTime>
 				<linkedBodyPartsGroup>Arms</linkedBodyPartsGroup>
 
@@ -29,9 +29,9 @@
 				<label>right tentacle</label>
 				<capacities>
 					<li>AA_EMPBlunt</li>
-					<li>Blunt</li>
+					
 				</capacities>
-				<power>40</power>
+				<power>15</power>
 				<cooldownTime>1.5</cooldownTime>
 				<linkedBodyPartsGroup>Arms</linkedBodyPartsGroup>
 
@@ -40,7 +40,7 @@
 				<capacities>
 					<li>Bite</li>
 				</capacities>
-				<power>25</power>
+				<power>15</power>
 				<cooldownTime>2.0</cooldownTime>
 				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 				<chanceFactor>0.4</chanceFactor>

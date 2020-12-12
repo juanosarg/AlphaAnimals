@@ -21,7 +21,7 @@
 		<requiredCapacity>AA_EMPBlunt</requiredCapacity>
 		<verb>
 			<verbClass>Verb_MeleeAttackDamage</verbClass>
-			<meleeDamageDef>EMP</meleeDamageDef>
+			<meleeDamageDef>AA_EMPBlunt</meleeDamageDef>
 		</verb>
 		<logEntryDef>MeleeAttack</logEntryDef>
 		<combatLogRulesHit>Maneuver_Smash_MeleeHit</combatLogRulesHit>
