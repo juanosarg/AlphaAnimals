@@ -1,5 +1,6 @@
 ﻿
 using Verse;
+using RimWorld;
 
 namespace AlphaBehavioursAndEvents
 {
@@ -8,6 +9,7 @@ namespace AlphaBehavioursAndEvents
 
 
         public string defToChangeTo = "";
+        public FactionDef factionToChangeTo = FactionDefOf.Mechanoid;
 
 
         public CompProperties_ChangeDef()

@@ -54,6 +54,7 @@
 								<li Class="AlphaBehavioursAndEvents.CompProperties_ChangeDef">
 									<!-- Change to this pawn if Allow Alpha mechanoids is disabled in options -->
 									<defToChangeTo>VFE_Mech_Scyther</defToChangeTo>
+									<factionToChangeTo>VFE_Mechanoid</factionToChangeTo>
 								</li>
 								<li Class="AlphaBehavioursAndEvents.CompProperties_Regeneration">
 									<rateInTicks>30</rateInTicks>
@@ -125,6 +126,7 @@
 								<li Class="AlphaBehavioursAndEvents.CompProperties_ChangeDef">
 									<!-- Change to this pawn if Allow Alpha mechanoids is disabled in options -->
 									<defToChangeTo>VFE_Mech_Scyther</defToChangeTo>
+									<factionToChangeTo>VFE_Mechanoid</factionToChangeTo>
 								</li>
 							</comps>
 							<race>
@@ -185,6 +187,7 @@
 								<li Class="AlphaBehavioursAndEvents.CompProperties_ChangeDef">
 									<!-- Change to this pawn if Allow Alpha mechanoids is disabled in options -->
 									<defToChangeTo>VFE_Mech_Pikeman</defToChangeTo>
+									<factionToChangeTo>VFE_Mechanoid</factionToChangeTo>
 								</li>
 							</comps>
 							<race>
@@ -263,6 +266,7 @@
 								<li Class="AlphaBehavioursAndEvents.CompProperties_ChangeDef">
 									<!-- Change to this pawn if Allow Alpha mechanoids is disabled in options -->
 									<defToChangeTo>VFE_Mech_Centipede</defToChangeTo>
+									<factionToChangeTo>VFE_Mechanoid</factionToChangeTo>
 								</li>
 							</comps>
 							<race>
@@ -342,6 +346,7 @@
 								<li Class="AlphaBehavioursAndEvents.CompProperties_ChangeDef">
 									<!-- Change to this pawn if Allow Alpha mechanoids is disabled in options -->
 									<defToChangeTo>VFE_Mech_Pikeman</defToChangeTo>
+									<factionToChangeTo>VFE_Mechanoid</factionToChangeTo>
 								</li>
 							</comps>
 							<race>
@@ -420,6 +425,7 @@
 								<li Class="AlphaBehavioursAndEvents.CompProperties_ChangeDef">
 									<!-- Change to this pawn if Allow Alpha mechanoids is disabled in options -->
 									<defToChangeTo>VFE_Mech_Centipede</defToChangeTo>
+									<factionToChangeTo>VFE_Mechanoid</factionToChangeTo>
 								</li>
 							</comps>
 							<race>
@@ -508,6 +514,7 @@
 								<li Class="AlphaBehavioursAndEvents.CompProperties_ChangeDef">
 									<!-- Change to this pawn if Allow Alpha mechanoids is disabled in options -->
 									<defToChangeTo>VFE_Mech_AdvancedScyther</defToChangeTo>
+									<factionToChangeTo>VFE_Mechanoid</factionToChangeTo>
 								</li>
 								<li Class="AlphaBehavioursAndEvents.CompProperties_Regeneration">
 									<rateInTicks>30</rateInTicks>
@@ -580,6 +587,7 @@
 								<li Class="AlphaBehavioursAndEvents.CompProperties_ChangeDef">
 									<!-- Change to this pawn if Allow Alpha mechanoids is disabled in options -->
 									<defToChangeTo>VFE_Mech_AdvancedScyther</defToChangeTo>
+									<factionToChangeTo>VFE_Mechanoid</factionToChangeTo>
 								</li>
 							</comps>
 							<race>
@@ -640,6 +648,7 @@
 								<li Class="AlphaBehavioursAndEvents.CompProperties_ChangeDef">
 									<!-- Change to this pawn if Allow Alpha mechanoids is disabled in options -->
 									<defToChangeTo>VFE_Mech_AdvancedPikeman</defToChangeTo>
+									<factionToChangeTo>VFE_Mechanoid</factionToChangeTo>
 								</li>
 							</comps>
 							<race>
@@ -718,6 +727,7 @@
 								<li Class="AlphaBehavioursAndEvents.CompProperties_ChangeDef">
 									<!-- Change to this pawn if Allow Alpha mechanoids is disabled in options -->
 									<defToChangeTo>VFE_Mech_AdvancedCentipede</defToChangeTo>
+									<factionToChangeTo>VFE_Mechanoid</factionToChangeTo>
 								</li>
 							</comps>
 							<race>
@@ -797,6 +807,7 @@
 								<li Class="AlphaBehavioursAndEvents.CompProperties_ChangeDef">
 									<!-- Change to this pawn if Allow Alpha mechanoids is disabled in options -->
 									<defToChangeTo>VFE_Mech_AdvancedPikeman</defToChangeTo>
+									<factionToChangeTo>VFE_Mechanoid</factionToChangeTo>
 								</li>
 							</comps>
 							<race>
@@ -875,6 +886,7 @@
 								<li Class="AlphaBehavioursAndEvents.CompProperties_ChangeDef">
 									<!-- Change to this pawn if Allow Alpha mechanoids is disabled in options -->
 									<defToChangeTo>VFE_Mech_AdvancedCentipede</defToChangeTo>
+									<factionToChangeTo>VFE_Mechanoid</factionToChangeTo>
 								</li>
 							</comps>
 							<race>
