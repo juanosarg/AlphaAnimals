@@ -9,7 +9,7 @@ namespace AlphaBehavioursAndEvents
 
 
         public string defToChangeTo = "";
-        public FactionDef factionToChangeTo = FactionDefOf.Mechanoid;
+        public string factionToChangeTo = "Mechanoid";
 
 
         public CompProperties_ChangeDef()
