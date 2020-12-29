@@ -1042,6 +1042,62 @@
 					</value>
 				</li>
 
+				<li Class="PatchOperationFindMod">
+					<mods>
+						<li>Genetic Rim</li>
+					</mods>
+
+					<match Class="PatchOperationSequence">
+						<success>Always</success>
+						<operations>
+							<li Class="PatchOperationAdd"> 
+								<success>Always</success>
+								<xpath>/Defs</xpath>
+								<value>
+									<li Class="PatchOperationAdd">
+										<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesMechanoid"]/ingredients/li/filter/thingDefs</xpath>
+										<value>
+											<li>Corpse_VFE_Mech_Aura</li>
+											<li>Corpse_VFE_Mech_Daggersnout</li>
+											<li>Corpse_VFE_Mech_Fireworm</li>
+											<li>Corpse_VFE_Mech_Goliath</li>
+											<li>Corpse_VFE_Mech_Phalanx</li>
+											<li>Corpse_VFE_Mech_Siegebreaker</li>
+											<li>Corpse_VFE_Mech_Advanced_Aura</li>
+											<li>Corpse_VFE_Mech_Advanced_Daggersnout</li>
+											<li>Corpse_VFE_Mech_Advanced_Fireworm</li>
+											<li>Corpse_VFE_Mech_Advanced_Goliath</li>
+											<li>Corpse_VFE_Mech_Advanced_Phalanx</li>
+											<li>Corpse_VFE_Mech_Advanced_Siegebreaker</li>
+
+
+										</value>
+									</li>
+
+									<li Class="PatchOperationAdd">
+										<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesMechanoid"]/fixedIngredientFilter/thingDefs</xpath>
+										<value>
+											<li>Corpse_VFE_Mech_Aura</li>
+											<li>Corpse_VFE_Mech_Daggersnout</li>
+											<li>Corpse_VFE_Mech_Fireworm</li>
+											<li>Corpse_VFE_Mech_Goliath</li>
+											<li>Corpse_VFE_Mech_Phalanx</li>
+											<li>Corpse_VFE_Mech_Siegebreaker</li>
+											<li>Corpse_VFE_Mech_Advanced_Aura</li>
+											<li>Corpse_VFE_Mech_Advanced_Daggersnout</li>
+											<li>Corpse_VFE_Mech_Advanced_Fireworm</li>
+											<li>Corpse_VFE_Mech_Advanced_Goliath</li>
+											<li>Corpse_VFE_Mech_Advanced_Phalanx</li>
+											<li>Corpse_VFE_Mech_Advanced_Siegebreaker</li>
+										</value>
+									</li>
+
+								</value>
+							</li>
+						</operations>
+					</match>
+				</li>
+
 
 
 			</operations>

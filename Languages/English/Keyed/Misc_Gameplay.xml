@@ -94,6 +94,7 @@
 
 	<!-- Mod Settings -->
 
+	<allowVanillaAnimals>Allow spawning all base game animals (affects only wild spawns)</allowVanillaAnimals>
 	<allowBlackHive>Allow Black Hive raids</allowBlackHive>
 	<allowStalkingLions>Allow Stalking Arctic Lion attacks</allowStalkingLions>
 	<allowCactipineDroppods>Allow Cactipine droppod event</allowCactipineDroppods>

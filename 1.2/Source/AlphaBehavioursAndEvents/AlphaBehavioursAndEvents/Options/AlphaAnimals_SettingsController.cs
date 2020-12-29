@@ -2,7 +2,7 @@
 using UnityEngine;
 using Verse;
 using System.Collections.Generic;
-
+using System.Linq;
 
 namespace AlphaBehavioursAndEvents
 {
@@ -39,10 +39,12 @@ namespace AlphaBehavioursAndEvents
         public override void DoSettingsWindowContents(Rect inRect)
         {
             base.DoSettingsWindowContents(inRect);
-            var toggleablespawndefs = DefDatabase<ToggleableSpawnDef>.AllDefsListForReading;
-           
-            foreach (var toggleablespawndef in toggleablespawndefs)
-            {
+
+            ToggleableSpawnDef toggleablespawndef = (from k in DefDatabase<ToggleableSpawnDef>.AllDefsListForReading
+                                      where k.defName == "AA_ToggleableAnimals"
+                                      select k).RandomElement();
+
+            
                 if (settings.pawnSpawnStates == null) settings.pawnSpawnStates = new Dictionary<string, bool>();
                 foreach (string defName in toggleablespawndef.toggleablePawns)
                 {
@@ -52,7 +54,7 @@ namespace AlphaBehavioursAndEvents
                     }
                 }
                     
-            }
+            
 
             settings.DoWindowContents(inRect);
 
