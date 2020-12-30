@@ -13,7 +13,7 @@ namespace AlphaBehavioursAndEvents
             IntVec3 intVec;
             return !map.gameConditionManager.ConditionIsActive(GameConditionDefOf.ToxicFallout) &&
                 map.mapTemperature.SeasonAndOutdoorTemperatureAcceptableFor(ThingDef.Named("AA_Gallatross")) &&
-                this.TryFindEntryCell(map, out intVec) && AlphaAnimalsEvents_Settings.flagGallatross;
+                this.TryFindEntryCell(map, out intVec) && AlphaAnimalsEvents_Mod.settings.flagGallatross;
         }
 
         protected override bool TryExecuteWorker(IncidentParms parms)

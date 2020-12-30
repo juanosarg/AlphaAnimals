@@ -58,23 +58,23 @@ namespace AlphaBehavioursAndEvents
 
     {
 
-        public static bool flagVanillaAnimals = true;
-        public static bool flagBlackHiveRaids = true;
-        public static bool flagStalkingLions = true;
-        public static bool flagCactipineDroppods = true;
-        public static bool flagSpiderClutchMothers = true;
-        public static bool flagAerofleets = true;
-        public static bool flagGallatross = true;
-        public static bool flagSummitCrab = true;
-        public static bool flagBumbledrones = true;
-        public static bool flagFrostmites = true;
-        public static bool flagAsteroids = true;
-        public static bool flagAnimalisk = true;
-        public static bool flagMime = true;
-        public static bool flagAlphaMechanoids = true;
-        public static bool flagAlphaMechanoidsSappers = true;
-        public static bool flagHelixienCorpseEffect = true;
-        public static bool removeAnimalParticles = false;
+        public  bool flagVanillaAnimals = true;
+        public  bool flagBlackHiveRaids = true;
+        public  bool flagStalkingLions = true;
+        public  bool flagCactipineDroppods = true;
+        public  bool flagSpiderClutchMothers = true;
+        public  bool flagAerofleets = true;
+        public  bool flagGallatross = true;
+        public  bool flagSummitCrab = true;
+        public  bool flagBumbledrones = true;
+        public  bool flagFrostmites = true;
+        public  bool flagAsteroids = true;
+        public  bool flagAnimalisk = true;
+        public  bool flagMime = true;
+        public  bool flagAlphaMechanoids = true;
+        public  bool flagAlphaMechanoidsSappers = true;
+        public  bool flagHelixienCorpseEffect = true;
+        public  bool removeAnimalParticles = false;
 
 
         public override void ExposeData()
@@ -103,7 +103,7 @@ namespace AlphaBehavioursAndEvents
 
         }
 
-        public static void DoWindowContents(Rect inRect)
+        public void DoWindowContents(Rect inRect)
         {
             Listing_Standard ls = new Listing_Standard();
 

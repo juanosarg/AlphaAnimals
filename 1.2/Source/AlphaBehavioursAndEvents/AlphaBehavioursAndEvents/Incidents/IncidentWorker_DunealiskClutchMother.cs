@@ -15,7 +15,7 @@ namespace AlphaBehavioursAndEvents
         {
             Map map = (Map)parms.target;
             IntVec3 intVec;
-            return map.mapTemperature.SeasonAndOutdoorTemperatureAcceptableFor(ThingDef.Named("AA_DunealiskClutchMother")) && this.TryFindEntryCell(map, out intVec) && AlphaAnimalsEvents_Settings.flagSpiderClutchMothers;
+            return map.mapTemperature.SeasonAndOutdoorTemperatureAcceptableFor(ThingDef.Named("AA_DunealiskClutchMother")) && this.TryFindEntryCell(map, out intVec) && AlphaAnimalsEvents_Mod.settings.flagSpiderClutchMothers;
         }
 
         private bool TryFindEntryCell(Map map, out IntVec3 cell)

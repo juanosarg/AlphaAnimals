@@ -70,12 +70,12 @@ namespace AlphaBehavioursAndEvents
             {
                 yield return toil;
             }
-            IEnumerator<Toil> enumerator = null;
+           
             yield return chew;
             yield return FinalizeIngestAnything(this.pawn, TargetIndex.A, comp);
             yield return Toils_Jump.JumpIf(chew, () => this.job.GetTarget(TargetIndex.A).Thing is Corpse && this.pawn.needs.food.CurLevelPercentage < 0.9f);
             yield break;
-            yield break;
+            
         }
 
         private IEnumerable<Toil> PrepareToIngestToils(Toil chewToil)

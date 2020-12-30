@@ -47,8 +47,22 @@ namespace AlphaBehavioursAndEvents
         {
             if (theCreature != null)
             {
+                if (!AlphaAnimalsEvents_Mod.settings.flagVanillaAnimals)
+                {
+                    ToggleableSpawnDef toggleablespawndef = (from k in DefDatabase<ToggleableSpawnDef>.AllDefsListForReading
+                                                             where k.defName == "AA_VanillaAnimalToggles"
+                                                             select k).RandomElement();
+                    if (toggleablespawndef.toggleablePawns.Contains(theCreature.defName))
+                    {
+                        return true;
+                    }
 
-                if (AlphaAnimals_Mod.settings.pawnSpawnStates!=null&&AlphaAnimals_Mod.settings.pawnSpawnStates.Keys.Contains(theCreature.defName)) {
+                }
+
+
+
+
+                if (AlphaAnimals_Mod.settings.pawnSpawnStates != null && AlphaAnimals_Mod.settings.pawnSpawnStates.Keys.Contains(theCreature.defName)) {
                     if (AlphaAnimals_Mod.settings.pawnSpawnStates[theCreature.defName])
                     {
                         

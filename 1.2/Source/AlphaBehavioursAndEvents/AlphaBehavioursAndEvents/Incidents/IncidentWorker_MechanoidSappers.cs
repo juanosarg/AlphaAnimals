@@ -15,7 +15,7 @@ namespace AlphaBehavioursAndEvents
             Map map = (Map)parms.target;
             IntVec3 intVec;
             return base.CanFireNowSub(parms) &&
-                this.TryFindEntryCell(map, out intVec) && AlphaAnimalsEvents_Settings.flagAlphaMechanoidsSappers &&
+                this.TryFindEntryCell(map, out intVec) && AlphaAnimalsEvents_Mod.settings.flagAlphaMechanoidsSappers &&
                 ResearchProjectDef.Named("Fabrication").IsFinished;
         }
 

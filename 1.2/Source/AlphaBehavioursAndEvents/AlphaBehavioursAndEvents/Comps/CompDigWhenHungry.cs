@@ -35,7 +35,7 @@ namespace AlphaBehavioursAndEvents
             Pawn pawn = this.parent as Pawn;
             if (Props.isFrostmite) {
 
-                if ((pawn.Map != null) && (pawn.needs.food.CurLevelPercentage < pawn.needs.food.PercentageThreshHungry) && (pawn.Awake() && AlphaAnimalsEvents_Settings.flagFrostmites))
+                if ((pawn.Map != null) && (pawn.needs.food.CurLevelPercentage < pawn.needs.food.PercentageThreshHungry) && (pawn.Awake() && AlphaAnimalsEvents_Mod.settings.flagFrostmites))
                 {
 
                     if (stopdiggingcounter <= 0)

@@ -23,7 +23,7 @@ namespace AlphaBehavioursAndEvents
         public override void CompTick()
         {
             base.CompTick();
-            if (!AlphaAnimalsEvents_Settings.flagAlphaMechanoids) {
+            if (!AlphaAnimalsEvents_Mod.settings.flagAlphaMechanoids) {
                 if (parent.Map != null && Find.FactionManager.FirstFactionOfDef(FactionDef.Named(Props.factionToChangeTo))!=null)
                 {
                     PawnGenerationRequest request = new PawnGenerationRequest(PawnKindDef.Named(Props.defToChangeTo), Find.FactionManager.FirstFactionOfDef(FactionDef.Named(Props.factionToChangeTo)), PawnGenerationContext.NonPlayer, -1, false, false, false, false, true, false, 1f, false, true, true, false, false);

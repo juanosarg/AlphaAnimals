@@ -23,7 +23,7 @@ namespace AlphaBehavioursAndEvents
         public override void CompTick()
         {
             base.CompTick();
-            if (!AlphaAnimalsEvents_Settings.flagAlphaMechanoidsSappers) {
+            if (!AlphaAnimalsEvents_Mod.settings.flagAlphaMechanoidsSappers) {
                 if (parent.Map != null)
                 {
                     PawnGenerationRequest request = new PawnGenerationRequest(PawnKindDef.Named(Props.defToChangeTo), Find.FactionManager.FirstFactionOfDef(FactionDefOf.Mechanoid), PawnGenerationContext.NonPlayer, -1, false, false, false, false, true, false, 1f, false, true, true, false, false);

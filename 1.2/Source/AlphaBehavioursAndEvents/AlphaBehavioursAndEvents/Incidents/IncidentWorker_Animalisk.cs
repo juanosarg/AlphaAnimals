@@ -15,7 +15,7 @@ namespace AlphaBehavioursAndEvents
         {
             Map map = (Map)parms.target;
             IntVec3 intVec;
-            return ModsConfig.RoyaltyActive && map.mapTemperature.SeasonAndOutdoorTemperatureAcceptableFor(ThingDef.Named("AA_Animalisk")) && this.TryFindEntryCell(map, out intVec) && AlphaAnimalsEvents_Settings.flagAnimalisk;
+            return ModsConfig.RoyaltyActive && map.mapTemperature.SeasonAndOutdoorTemperatureAcceptableFor(ThingDef.Named("AA_Animalisk")) && this.TryFindEntryCell(map, out intVec) && AlphaAnimalsEvents_Mod.settings.flagAnimalisk;
         }
 
         private bool TryFindEntryCell(Map map, out IntVec3 cell)

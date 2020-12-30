@@ -16,7 +16,7 @@ namespace AlphaBehavioursAndEvents
             Map map = (Map)parms.target;
             IntVec3 intVec;
             return base.CanFireNowSub(parms) && map.mapTemperature.SeasonAndOutdoorTemperatureAcceptableFor(ThingDef.Named("AA_BlackScarab")) && 
-                this.TryFindEntryCell(map, out intVec) && AlphaAnimalsEvents_Settings.flagBlackHiveRaids;
+                this.TryFindEntryCell(map, out intVec) && AlphaAnimalsEvents_Mod.settings.flagBlackHiveRaids;
         }
 
         private bool TryFindEntryCell(Map map, out IntVec3 cell)

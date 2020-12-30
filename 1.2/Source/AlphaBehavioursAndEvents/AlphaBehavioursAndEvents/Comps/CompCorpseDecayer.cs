@@ -27,7 +27,7 @@ namespace AlphaBehavioursAndEvents
 
             //specific to Alpha Animals, make this effect toggleable in options
             
-            if (AlphaAnimalsEvents_Settings.flagHelixienCorpseEffect) {
+            if (AlphaAnimalsEvents_Mod.settings.flagHelixienCorpseEffect) {
                 tickCounter++;
 
                 //Only check every 2 rare ticks (8 seconds)

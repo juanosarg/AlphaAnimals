@@ -18,7 +18,7 @@ namespace AlphaBehavioursAndEvents
         {
             Map map = (Map)parms.target;
             IntVec3 intVec;
-            return map.mapTemperature.SeasonAndOutdoorTemperatureAcceptableFor(ThingDef.Named("AA_ArcticLion")) && this.TryFindEntryCell(map, out intVec) && AlphaAnimalsEvents_Settings.flagStalkingLions ;
+            return map.mapTemperature.SeasonAndOutdoorTemperatureAcceptableFor(ThingDef.Named("AA_ArcticLion")) && this.TryFindEntryCell(map, out intVec) && AlphaAnimalsEvents_Mod.settings.flagStalkingLions ;
         }
 
         private bool TryFindEntryCell(Map map, out IntVec3 cell)

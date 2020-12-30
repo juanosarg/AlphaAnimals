@@ -11,17 +11,17 @@ namespace AlphaBehavioursAndEvents
  
     public class AlphaAnimalsEvents_Mod : Mod
     {
+        public static AlphaAnimalsEvents_Settings settings;
 
-        
         public AlphaAnimalsEvents_Mod(ModContentPack content) : base(content)
         {
-            GetSettings<AlphaAnimalsEvents_Settings>();
+            settings = GetSettings<AlphaAnimalsEvents_Settings>();
         }
         public override string SettingsCategory() => "Alpha Animals, Events";
 
         public override void DoSettingsWindowContents(Rect inRect)
         {
-            AlphaAnimalsEvents_Settings.DoWindowContents(inRect);
+            settings.DoWindowContents(inRect);
         }
     }
 

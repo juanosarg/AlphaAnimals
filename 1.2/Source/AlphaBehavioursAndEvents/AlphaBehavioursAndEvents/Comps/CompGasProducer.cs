@@ -22,7 +22,7 @@ namespace AlphaBehavioursAndEvents
         public override void CompTick()
         {
             //Since it's a laggy class, allow options to toggle it
-            if (!AlphaAnimalsEvents_Settings.removeAnimalParticles) {
+            if (!AlphaAnimalsEvents_Mod.settings.removeAnimalParticles) {
 
                 this.gasProgress += 1;
                 //Increasing gasTickMax reduces lag, but it will also look like ass

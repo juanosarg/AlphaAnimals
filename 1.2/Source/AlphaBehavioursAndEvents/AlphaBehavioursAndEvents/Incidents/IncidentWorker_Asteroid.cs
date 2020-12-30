@@ -12,7 +12,7 @@ namespace AlphaBehavioursAndEvents
         {
             Map map = (Map)parms.target;
             IntVec3 intVec;
-            return this.TryFindCell(out intVec, map) && AlphaAnimalsEvents_Settings.flagAsteroids; ;
+            return this.TryFindCell(out intVec, map) && AlphaAnimalsEvents_Mod.settings.flagAsteroids; ;
         }
 
         protected override bool TryExecuteWorker(IncidentParms parms)

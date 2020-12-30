@@ -17,7 +17,7 @@ namespace AlphaBehavioursAndEvents
         {
             Map map = (Map)parms.target;
             PawnKindDef pawnKindDef;
-            return this.TryFindAnimalKind(map.Tile, out pawnKindDef) && AlphaAnimalsEvents_Settings.flagCactipineDroppods;
+            return this.TryFindAnimalKind(map.Tile, out pawnKindDef) && AlphaAnimalsEvents_Mod.settings.flagCactipineDroppods;
         }
 
         private bool TryFindAnimalKind(int tile, out PawnKindDef animalKind)

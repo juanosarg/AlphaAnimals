@@ -13,7 +13,7 @@ namespace AlphaBehavioursAndEvents
                 return false;
             }
             Map map = (Map)parms.target;
-            return this.CanSpawnJoiner(map) && AlphaAnimalsEvents_Settings.flagMime;
+            return this.CanSpawnJoiner(map) && AlphaAnimalsEvents_Mod.settings.flagMime;
         }
 
         public virtual Pawn GeneratePawn()
