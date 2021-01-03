@@ -26,6 +26,12 @@
 		<defName>AA_ToxicSting</defName>
 		<label>toxic stinging</label>
 	</ToolCapacityDef>
+	
+	<ToolCapacityDef>
+		<defName>AA_ToxicBite</defName>
+		<label>toxic bite</label>
+	</ToolCapacityDef>
+
 
 	<ToolCapacityDef>
 		<defName>AA_SwallowWhole</defName>

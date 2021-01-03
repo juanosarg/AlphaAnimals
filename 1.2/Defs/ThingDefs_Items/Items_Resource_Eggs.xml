@@ -750,7 +750,7 @@
 	<ThingDef ParentName="AA_EggFertBaseResistant">
 		<defName>AA_JungleliskEggFertilized</defName>
 		<label>junglelisk egg (fert.)</label>
-		<description>Fertilized junglelisk egg. It can be eaten raw, but it's much, much better cooked. Actually, it's a spider egg, it is disgusting either way... If all goes well, it should hatch into a junglelisk.</description>
+		<description>Fertilized junglelisk egg. Non-edible. If all goes well, it should hatch into a junglelisk.</description>
 		<tradeability>None</tradeability>
 		<statBases>
 			<MarketValue>9.0</MarketValue>

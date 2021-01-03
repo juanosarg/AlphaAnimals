@@ -52,7 +52,7 @@
       </li>
       <li>
         <capacities>
-          <li>ToxicBite</li>
+          <li>AA_ToxicBite</li>
         </capacities>
         <power>6</power>
         <cooldownTime>1.65</cooldownTime>
