@@ -13,6 +13,11 @@
 	</ToolCapacityDef>
 	
 	<ToolCapacityDef>
+		<defName>AA_FungalClaws</defName>
+		<label>fungal claws</label>
+	</ToolCapacityDef>
+	
+	<ToolCapacityDef>
 		<defName>AA_Electric</defName>
 		<label>electric shock</label>
 	</ToolCapacityDef>

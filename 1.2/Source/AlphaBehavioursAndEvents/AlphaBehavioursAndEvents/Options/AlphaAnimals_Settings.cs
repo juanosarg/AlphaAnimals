@@ -71,7 +71,8 @@ namespace AlphaBehavioursAndEvents
         public  bool flagAsteroids = true;
         public  bool flagAnimalisk = true;
         public  bool flagMime = true;
-        public  bool flagAlphaMechanoids = true;
+        public bool flagFungalHusk = true;
+        public bool flagAlphaMechanoids = true;
         public  bool flagAlphaMechanoidsSappers = true;
         public  bool flagHelixienCorpseEffect = true;
         public  bool removeAnimalParticles = false;
@@ -93,6 +94,7 @@ namespace AlphaBehavioursAndEvents
             Scribe_Values.Look(ref flagAsteroids, "flagAsteroid", true, true);
             Scribe_Values.Look(ref flagAnimalisk, "flagAnimalisk", true, true);
             Scribe_Values.Look(ref flagMime, "flagMime", true, true);
+            Scribe_Values.Look(ref flagFungalHusk, "flagFungalHusk", true, true);
             Scribe_Values.Look(ref flagAlphaMechanoids, "flagAlphaMechanoids", true, true);
             Scribe_Values.Look(ref flagAlphaMechanoidsSappers, "flagAlphaMechanoidsSappers", true, true);
             Scribe_Values.Look(ref flagHelixienCorpseEffect, "flagHelixienCorpseEffect", true, true);
@@ -111,37 +113,39 @@ namespace AlphaBehavioursAndEvents
             ls.Begin(inRect);
             ls.Gap(10f);
             ls.CheckboxLabeled("allowVanillaAnimals".Translate(), ref flagVanillaAnimals, null);
-            ls.Gap(10f);
+           
             ls.CheckboxLabeled("allowBlackHive".Translate(), ref flagBlackHiveRaids, null);
-            ls.Gap(10f);
+           
             ls.CheckboxLabeled("allowStalkingLions".Translate(), ref flagStalkingLions, null);
-            ls.Gap(10f);
+            
             ls.CheckboxLabeled("allowCactipineDroppods".Translate(), ref flagCactipineDroppods, null);
-            ls.Gap(10f);
+            
             ls.CheckboxLabeled("allowSpiderClutchMothers".Translate(), ref flagSpiderClutchMothers, null);
-            ls.Gap(10f);
+          
             ls.CheckboxLabeled("allowAerofleet".Translate(), ref flagAerofleets, null);
-            ls.Gap(10f);
+           
             ls.CheckboxLabeled("allowGallatross".Translate(), ref flagGallatross, null);
-            ls.Gap(10f);
+           
             ls.CheckboxLabeled("allowSummitCrab".Translate(), ref flagSummitCrab, null);
-            ls.Gap(10f);
+          
             ls.CheckboxLabeled("allowBumbledrones".Translate(), ref flagBumbledrones, null);
-            ls.Gap(10f);
+         
             ls.CheckboxLabeled("allowFrostmiteCorpses".Translate(), ref flagFrostmites, null);
-            ls.Gap(10f);
+          
             ls.CheckboxLabeled("allowAsteroids".Translate(), ref flagAsteroids, null);
-            ls.Gap(10f);
+            
             ls.CheckboxLabeled("allowAnimalisk".Translate(), ref flagAnimalisk, null);
-            ls.Gap(10f);
+        
             ls.CheckboxLabeled("allowMime".Translate(), ref flagMime, null);
-            ls.Gap(10f);
+
+            ls.CheckboxLabeled("allowFungalHusk".Translate(), ref flagFungalHusk, null);
+
             ls.CheckboxLabeled("allowAlphaMechanoids".Translate(), ref flagAlphaMechanoids, null);
-            ls.Gap(10f);
+          
             ls.CheckboxLabeled("allowMechanoidSappers".Translate(), ref flagAlphaMechanoidsSappers, null);
-            ls.Gap(10f);
+           
             ls.CheckboxLabeled("allowHelixienCorpseEffect".Translate(), ref flagHelixienCorpseEffect, null);
-            ls.Gap(10f);
+           
             ls.CheckboxLabeled("removeAnimalParticles".Translate(), ref removeAnimalParticles, null);
             ls.End();
         }

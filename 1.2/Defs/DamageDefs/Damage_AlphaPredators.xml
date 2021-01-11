@@ -108,6 +108,30 @@
 		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
 		<armorCategory>Heat</armorCategory>
 	</DamageDef>
+	
+	<DamageDef>
+		<defName>AA_LuciferiumExplosion</defName>
+		<label>luciferium burst</label>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been overdosed to death.</deathMessage>
+		<hediff>AA_AcidBurn</hediff>
+		<additionalHediffs>
+			<li>
+				<hediff>LuciferiumAddiction</hediff>
+				<severityPerDamageDealt>0.01</severityPerDamageDealt>
+
+			</li>
+			<li>
+				<hediff>LuciferiumHigh</hediff>
+				<severityPerDamageDealt>0.01</severityPerDamageDealt>
+
+			</li>
+		</additionalHediffs>
+		<isRanged>true</isRanged>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<armorCategory>Heat</armorCategory>
+	</DamageDef>
 
 	<DamageDef>
 		<defName>AA_AcidRainDamage</defName>
@@ -354,6 +378,18 @@
 		<additionalHediffs>
 			<li>
 				<hediff>AA_SwarmlingImplantation</hediff>
+				<severityPerDamageDealt>0.0001</severityPerDamageDealt>
+
+			</li>
+		</additionalHediffs>
+	</DamageDef>
+	
+	<DamageDef ParentName="CutBase">
+		<defName>AA_FungalClaws</defName>
+		<label>infected claws</label>
+		<additionalHediffs>
+			<li>
+				<hediff>AA_VirulentFungalInfection</hediff>
 				<severityPerDamageDealt>0.0001</severityPerDamageDealt>
 
 			</li>

@@ -23,7 +23,13 @@
 	<AA_MimeNotTameable>The Mime refuses to be tamed</AA_MimeNotTameable>
 	<AA_StomachContents>{0} creatures swallowed whole. </AA_StomachContents>
 	<AA_DigestionTime>Will be consumed in {0}</AA_DigestionTime>
+	
+	<AA_DestroyFlamingoEggsLabel>Smash Egg</AA_DestroyFlamingoEggsLabel>
+	<AA_DestroyFlamingoEggsDesc>Queue a work order to smash this egg as soon as possible</AA_DestroyFlamingoEggsDesc>
+	<AA_CancelDestroyFlamingoEggsLabel>Cancel Smashing Egg</AA_CancelDestroyFlamingoEggsLabel>
+	<AA_CancelDestroyFlamingoEggsDesc>Cancel a work order to smash this egg as soon as possible</AA_CancelDestroyFlamingoEggsDesc>
 
+	<AA_HuskNotTameable>The Fungal Husk only exists to spread its fungal infection, it can't be tamed</AA_HuskNotTameable>
 
 	<!-- Incidents -->
 	<LetterLabelColossalAerofleetPasses>Colossal Aerofleet</LetterLabelColossalAerofleetPasses>
@@ -68,6 +74,9 @@
 
 	<AA_LetterLabelMatureFleshbeast>Devoured whole</AA_LetterLabelMatureFleshbeast>
 	<AA_LetterMatureFleshbeast>A grotesque creature has swallowed {0} whole! If you act quickly, perhaps you can still save {0_objective}.</AA_LetterMatureFleshbeast>
+	
+	<AA_LetterLabelFungalHusk>Fungal Husks</AA_LetterLabelFungalHusk>
+	<AA_LetterFungalHusk>Bloating, shambling corpses animated by a terrible weaponized fungus have entered this territory!\n\nDon't let them attack your colonists, or they will be afflicted by a fast acting fungal infection that can kill quickly if untreated.</AA_LetterFungalHusk>
 
 	<!-- Animal Products -->
 
@@ -88,6 +97,8 @@
 	<AA_CinderSilkDesc>Cindersilk production</AA_CinderSilkDesc>
 	<AA_MothSilkDesc>Moth silk production</AA_MothSilkDesc>
 	<AA_BlueGel>Blue Gel production</AA_BlueGel>
+	<AA_Luciferium>Luciferium production</AA_Luciferium>
+
 
 
 
@@ -111,6 +122,7 @@
 	<removeAnimalParticles>Remove animal particles</removeAnimalParticles>
 	<allowAnimalisk>Allow Animalisk (Royalty only in any case)</allowAnimalisk>
 	<allowMime>Allow Mime Wanderer Joins event</allowMime>
+	<allowFungalHusk>Allow Fungal Husk attack event</allowFungalHusk>
 
 
 	<!-- Mod Settings, animal toggles -->

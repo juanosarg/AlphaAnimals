@@ -214,6 +214,21 @@
 		<workerClass>AlphaBehavioursAndEvents.IncidentWorker_AlphaResourcePodCrash</workerClass>
 		<baseChance>0</baseChance>
 	</IncidentDef>
+	
+	<IncidentDef>
+		<defName>AA_IncidentFungalHusk</defName>
+		<label>fungal husks</label>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>AlphaBehavioursAndEvents.IncidentWorker_FungalHusk</workerClass>
+		<baseChance>0.1</baseChance>
+		<category>ThreatBig</category>
+		<minRefireDays>150</minRefireDays>
+		<pointsScaleable>true</pointsScaleable> 
+		<earliestDay>30</earliestDay>
+
+	</IncidentDef>
 
 
 

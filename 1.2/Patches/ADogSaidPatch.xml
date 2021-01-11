@@ -99,15 +99,15 @@
 						<li>AA_TarGuzzler</li>
 						<li>AA_Atispec</li>
 						<li>AA_Plasmorph</li>
-						
+
 						<li>AA_FireWasp</li>
 						<li>AA_ChemfuelMyrmidon</li>
 						<li>AA_SpinedGow</li>
 						<li>AA_Metallovore</li>
-						
+
 						<li>AA_AngelMoth</li>
 						<li>AA_RayHound</li>
-						
+
 						<li>AA_AcanthamoebaGiganteaSmall</li>
 						<li>AA_AcanthamoebaGiganteaLarge</li>
 						<li>AA_AcanthamoebaGiganteaHuge</li>
@@ -116,6 +116,11 @@
 						<li>AA_Drainer</li>
 						<li>AA_PhoenixOwlcat</li>
 						<li>AA_MatureFleshbeast</li>
+
+						<li>AA_SandProwler</li>
+						<li>AA_FlamingoPhoenix</li>
+						<li>AA_Terramorph</li>
+						<li>AA_LuciferBug</li>
 
 
 
@@ -224,12 +229,17 @@
 
 						<li>AA_AngelMoth</li>
 						<li>AA_RayHound</li>
-						
-						
+
+
 						<li>AA_Animalisk</li>
 						<li>AA_Drainer</li>
 						<li>AA_PhoenixOwlcat</li>
-<li>AA_MatureFleshbeast</li>
+						<li>AA_MatureFleshbeast</li>
+
+						<li>AA_SandProwler</li>
+						<li>AA_FlamingoPhoenix</li>
+						<li>AA_Terramorph</li>
+						<li>AA_LuciferBug</li>
 
 					</value>
 				</li>
@@ -310,16 +320,21 @@
 						<li>AA_TarGuzzler</li>
 						<li>AA_Atispec</li>
 						<li>AA_Plasmorph</li>
-						
-						
+
+
 						<li>AA_SpinedGow</li>
 						<li>AA_Metallovore</li>
-						
+
 						<li>AA_RayHound</li>
-						
-						
+
+
 						<li>AA_PhoenixOwlcat</li>
 						<li>AA_MatureFleshbeast</li>
+						
+						<li>AA_SandProwler</li>
+						<li>AA_FlamingoPhoenix</li>
+						<li>AA_Terramorph</li>
+						
 					</value>
 				</li>
 
@@ -399,16 +414,21 @@
 						<li>AA_TarGuzzler</li>
 						<li>AA_Atispec</li>
 						<li>AA_Plasmorph</li>
-						
-						
+
+
 						<li>AA_SpinedGow</li>
 						<li>AA_Metallovore</li>
-						
+
 						<li>AA_RayHound</li>
-						
-					
+
+
 						<li>AA_PhoenixOwlcat</li>
 						<li>AA_MatureFleshbeast</li>
+						
+						<li>AA_SandProwler</li>
+						<li>AA_FlamingoPhoenix</li>
+						<li>AA_Terramorph</li>
+					
 					</value>
 				</li>
 
@@ -487,16 +507,21 @@
 						<li>AA_TarGuzzler</li>
 						<li>AA_Atispec</li>
 						<li>AA_Plasmorph</li>
-						
-						
+
+
 						<li>AA_SpinedGow</li>
 						<li>AA_Metallovore</li>
-						
+
 						<li>AA_RayHound</li>
 						<li>AA_Animalisk</li>
-						
+
 						<li>AA_PhoenixOwlcat</li>
 						<li>AA_MatureFleshbeast</li>
+						
+						<li>AA_SandProwler</li>
+						<li>AA_FlamingoPhoenix</li>
+						<li>AA_Terramorph</li>
+					
 
 					</value>
 				</li>
@@ -588,18 +613,23 @@
 						<li>AA_Atispec</li>
 						<li>AA_Plasmorph</li>
 						<li>AA_BumbledroneHierophant</li>
-						
+
 						<li>AA_FireWasp</li>
 						<li>AA_ChemfuelMyrmidon</li>
 						<li>AA_SpinedGow</li>
 						<li>AA_Metallovore</li>
 						<li>AA_AngelMoth</li>
 						<li>AA_RayHound</li>
-						
+
 						<li>AA_Animalisk</li>
 						<li>AA_Drainer</li>
 						<li>AA_PhoenixOwlcat</li>
 						<li>AA_MatureFleshbeast</li>
+						
+						<li>AA_SandProwler</li>
+						<li>AA_FlamingoPhoenix</li>
+						<li>AA_Terramorph</li>
+						<li>AA_LuciferBug</li>
 					</value>
 				</li>
 
@@ -686,18 +716,23 @@
 						<li>AA_TarGuzzler</li>
 						<li>AA_Atispec</li>
 						<li>AA_Plasmorph</li>
-						
+
 						<li>AA_FireWasp</li>
 						<li>AA_ChemfuelMyrmidon</li>
 						<li>AA_SpinedGow</li>
 						<li>AA_Metallovore</li>
 						<li>AA_AngelMoth</li>
 						<li>AA_RayHound</li>
-						
+
 						<li>AA_Animalisk</li>
 						<li>AA_Drainer</li>
 						<li>AA_PhoenixOwlcat</li>
 						<li>AA_MatureFleshbeast</li>
+						
+						<li>AA_SandProwler</li>
+						<li>AA_FlamingoPhoenix</li>
+						<li>AA_Terramorph</li>
+						<li>AA_LuciferBug</li>
 					</value>
 				</li>
 
@@ -752,13 +787,18 @@
 						<li>AA_Agaripawn</li>
 
 						<li>AA_TarGuzzler</li>
-												
+
 						<li>AA_SpinedGow</li>
-				
+
 						<li>AA_RayHound</li>
-						
+
 						<li>AA_PhoenixOwlcat</li>
 						<li>AA_MatureFleshbeast</li>
+						
+						<li>AA_SandProwler</li>
+						<li>AA_FlamingoPhoenix</li>
+						<li>AA_Terramorph</li>
+					¡
 					</value>
 				</li>
 
@@ -849,7 +889,7 @@
 						<li>AA_TarGuzzler</li>
 						<li>AA_Atispec</li>
 						<li>AA_Plasmorph</li>
-						
+
 						<li>AA_FireWasp</li>
 						<li>AA_ChemfuelMyrmidon</li>
 						<li>AA_SpinedGow</li>
@@ -860,6 +900,11 @@
 						<li>AA_Drainer</li>
 						<li>AA_PhoenixOwlcat</li>
 						<li>AA_MatureFleshbeast</li>
+						
+						<li>AA_SandProwler</li>
+						<li>AA_FlamingoPhoenix</li>
+						<li>AA_Terramorph</li>
+						<li>AA_LuciferBug</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
@@ -935,15 +980,20 @@
 
 						<li>AA_TarGuzzler</li>
 						<li>AA_Atispec</li>
-						
+
 						<li>AA_FireWasp</li>
 						<li>AA_SpinedGow</li>
 						<li>AA_Metallovore</li>
 						<li>AA_AngelMoth</li>
 						<li>AA_RayHound</li>
-						
+
 						<li>AA_PhoenixOwlcat</li>
 						<li>AA_MatureFleshbeast</li>
+						
+						<li>AA_SandProwler</li>
+					
+						<li>AA_Terramorph</li>
+				
 
 					</value>
 				</li>
@@ -1024,7 +1074,7 @@
 						<li>AA_Agaripawn</li>
 
 						<li>AA_TarGuzzler</li>
-						
+
 						<li>AA_FireWasp</li>
 						<li>AA_ChemfuelMyrmidon</li>
 						<li>AA_SpinedGow</li>
@@ -1034,6 +1084,11 @@
 						<li>AA_Animalisk</li>
 						<li>AA_Drainer</li>
 						<li>AA_PhoenixOwlcat</li>
+						
+						<li>AA_SandProwler</li>
+						<li>AA_FlamingoPhoenix</li>
+						<li>AA_Terramorph</li>
+						<li>AA_LuciferBug</li>
 
 					</value>
 				</li>
@@ -1090,14 +1145,17 @@
 
 						<li>AA_TarGuzzler</li>
 
-						
+
 						<li>AA_SpinedGow</li>
 						<li>AA_AngelMoth</li>
 						<li>AA_RayHound</li>
-						
+
 						<li>AA_Drainer</li>
 						<li>AA_PhoenixOwlcat</li>
 						<li>AA_MatureFleshbeast</li>
+						
+						<li>AA_SandProwler</li>
+	
 
 					</value>
 				</li>
@@ -1177,12 +1235,17 @@
 						<li>AA_FireWasp</li>
 						<li>AA_ChemfuelMyrmidon</li>
 						<li>AA_SpinedGow</li>
-					
+
 						<li>AA_RayHound</li>	
 						<li>AA_Animalisk</li>
-						
+
 						<li>AA_PhoenixOwlcat</li>
 						<li>AA_MatureFleshbeast</li>
+						
+						<li>AA_SandProwler</li>
+						<li>AA_FlamingoPhoenix</li>
+						<li>AA_Terramorph</li>
+						<li>AA_LuciferBug</li>
 
 					</value>
 				</li>
@@ -1247,11 +1310,16 @@
 
 						<li>AA_TarGuzzler</li>
 						<li>AA_Atispec</li>
-						
-						
+
+
 						<li>AA_RayHound</li>
-					
+
 						<li>AA_PhoenixOwlcat</li>
+						
+						<li>AA_SandProwler</li>
+						<li>AA_FlamingoPhoenix</li>
+						<li>AA_Terramorph</li>
+					
 
 
 					</value>

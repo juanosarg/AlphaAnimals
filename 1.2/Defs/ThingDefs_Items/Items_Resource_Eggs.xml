@@ -769,6 +769,15 @@
 				<hatcherDaystoHatch>12</hatcherDaystoHatch>
 				<hatcherPawn>AA_Junglelisk</hatcherPawn>
 			</li>
+			<li Class="AlphaBehavioursAndEvents.CompProperties_DestroyThisItem">
+				<buttonLabel>AA_DestroyFlamingoEggsLabel</buttonLabel>
+				<buttonDesc>AA_DestroyFlamingoEggsDesc</buttonDesc>
+				<buttonIcon>UI/AA_DestroyJungleliskEgg</buttonIcon>
+				<buttonCancelLabel>AA_CancelDestroyFlamingoEggsLabel</buttonCancelLabel>
+				<buttonCancelDesc>AA_CancelDestroyFlamingoEggsDesc</buttonCancelDesc>
+				<buttonCancelIcon>UI/AA_CancelDestroyJungleliskEgg</buttonCancelIcon>
+							
+			</li>
 		</comps>
 	</ThingDef>
 
@@ -1105,6 +1114,41 @@
 				<heatPushMaxTemperature>150</heatPushMaxTemperature>
 			</li>
 		</comps>
+	</ThingDef>
+	
+	<!-- =============== Flamingo Phoenix Egg =============== -->
+
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>AA_EggFlamingoPhoenixFertilized</defName>
+		<label>flamingo phoenix egg (fert.)</label>
+		<description>Fertilized flamingo phoenix egg. If all goes well, it should hatch into a flamingo phoenix chick. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<color>(223,93,131)</color>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>10.0</MarketValue>
+			<Flammability>0</Flammability>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>2</hatcherDaystoHatch>
+				<hatcherPawn>AA_FlamingoPhoenix</hatcherPawn>
+			</li>
+			<li Class="AlphaBehavioursAndEvents.CompProperties_DestroyThisItem">
+				<buttonLabel>AA_DestroyFlamingoEggsLabel</buttonLabel>
+				<buttonDesc>AA_DestroyFlamingoEggsDesc</buttonDesc>
+				<buttonIcon>UI/AA_DestroyFlamingoEgg</buttonIcon>
+				<buttonCancelLabel>AA_CancelDestroyFlamingoEggsLabel</buttonCancelLabel>
+				<buttonCancelDesc>AA_CancelDestroyFlamingoEggsDesc</buttonCancelDesc>
+				<buttonCancelIcon>UI/AA_CancelDestroyFlamingoEgg</buttonCancelIcon>
+							
+			</li>
+		</comps>
+		<thingSetMakerTags>
+			<li>NotForGuests</li>
+		</thingSetMakerTags>
 	</ThingDef>
 
 

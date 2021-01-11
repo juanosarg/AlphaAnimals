@@ -133,7 +133,7 @@
 
 	<ThingDef ParentName="LeatherBase">
 		<defName>Leather_RaptorPlates</defName>
-		<label>raptor shrimp plates</label>
+		<label>hardened chitin</label>
 		<description>Overlapping plates of hardened chitin. Really durable in combat, but provides little protection from weather.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/AA_Chitin</texPath>

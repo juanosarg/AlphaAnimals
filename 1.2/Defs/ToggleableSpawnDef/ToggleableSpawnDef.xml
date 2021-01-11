@@ -88,9 +88,13 @@
 			<li>AA_Thermadon</li>
 			<li>AA_Wildpawn</li>
 			<li>AA_Wildpod</li>
+			<li>AA_SandProwler</li>
+			<li>AA_FlamingoPhoenix</li>
+			<li>AA_Terramorph</li>
+			<li>AA_LuciferBug</li>
 		</toggleablePawns>							
 	</AlphaBehavioursAndEvents.ToggleableSpawnDef>
-	
+
 	<AlphaBehavioursAndEvents.ToggleableSpawnDef>
 		<defName>AA_VanillaAnimalToggles</defName>
 		<toggleablePawns>			
@@ -148,7 +152,7 @@
 			<li>Fox_Fennec</li>
 			<li>Fox_Red</li>
 			<li>Fox_Arctic</li>
-			
+
 		</toggleablePawns>							
 	</AlphaBehavioursAndEvents.ToggleableSpawnDef>
 

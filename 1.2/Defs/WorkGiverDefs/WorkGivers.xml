@@ -17,6 +17,19 @@
 		</requiredCapacities>
     </WorkGiverDef>
 	
+	<WorkGiverDef>
+		<defName>AA_WorkGiverDestroyItem</defName>
+		<label>destroy item</label>
+		<giverClass>AlphaBehavioursAndEvents.WorkGiver_DestroyItem</giverClass>
+		<workType>Hauling</workType>
+		<verb>destroy</verb>
+		<gerund>destroying</gerund>
+		<priorityInType>19</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+	
 
 
 

@@ -703,4 +703,89 @@
 	</HediffDef>
 
 
+
+	<HediffDef>
+		<defName>AA_BurrowingUnderSand</defName>
+		<description>This Sand Prowler is burrowing under the sand, making it very resistant to damage. I hate sand. Its course, and ruff, and irritating. And it gets everywhere.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>burrowing under sand</label>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+
+		<stages>
+			<li>   
+				<statOffsets>
+					<ArmorRating_Blunt>0.75</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+
+				</statOffsets>
+
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="InfectionBase">
+		<defName>AA_VirulentFungalInfection</defName>
+		<label>virulent fungal infection</label>
+		<labelNoun>a virulent fungal infection</labelNoun>
+		<description>Fungal infection in a wound. Without treatment, the infection will advance at an astonishing rate, killing the afflicted in a few hours. Luckily, it is very easy to treat, and it will be kept contained and disappear as long as a medic treats it fast and with a decent treatment quality.</description>
+		<makesSickThought>true</makesSickThought>
+		<lethalSeverity>1</lethalSeverity>
+		<tendable>true</tendable>
+		<comps>
+			<li Class="HediffCompProperties_TendDuration">
+				<baseTendDurationHours>4</baseTendDurationHours>
+				<severityPerDayTended>-10</severityPerDayTended>
+			</li>
+			<li Class="HediffCompProperties_Immunizable">
+				<severityPerDayNotImmune>2</severityPerDayNotImmune>
+				<immunityPerDaySick>0.2</immunityPerDaySick>
+				<severityPerDayImmune>-1</severityPerDayImmune>
+				<immunityPerDayNotSick>-3</immunityPerDayNotSick>
+			</li>
+
+		</comps>
+		<stages>
+			<li>
+				<label>minor</label>
+				<painOffset>0.15</painOffset>
+			</li> 
+			<li>
+				<minSeverity>0.33</minSeverity>
+				<label>major</label>
+				<painOffset>0.20</painOffset>
+			</li>
+			<li>
+				<minSeverity>0.6</minSeverity>
+				<label>extreme</label>
+				<lifeThreatening>true</lifeThreatening>
+				<painOffset>0.80</painOffset>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.5</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.87</minSeverity>
+				<label>extreme</label>
+				<lifeThreatening>true</lifeThreatening>
+				<painOffset>1</painOffset>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.1</setMax>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>-0.05</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+
 </Defs>
