@@ -28,7 +28,7 @@ namespace AlphaBehavioursAndEvents
         {
             
             bool result;
-            if (t == null || !t.TryGetComp<CompDestroyThisItem>().itemNeedsDestruction)
+            if (t == null || t.IsBurning() || !t.TryGetComp<CompDestroyThisItem>().itemNeedsDestruction)
             {
                
                 result = false;
