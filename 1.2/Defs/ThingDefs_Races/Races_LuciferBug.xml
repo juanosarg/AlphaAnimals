@@ -75,13 +75,7 @@
 			<wildness>0.15</wildness>
 			<manhunterOnDamageChance>1.0</manhunterOnDamageChance>
 			<manhunterOnTameFailChance>0.2</manhunterOnTameFailChance>
-			<litterSizeCurve>
-				<points>
-					<li>(0.5, 0)</li>
-					<li>(1, 1)</li>
-
-				</points>
-			</litterSizeCurve>
+			
 			<lifeExpectancy>3</lifeExpectancy>
 			<lifeStageAges>
 				<li>

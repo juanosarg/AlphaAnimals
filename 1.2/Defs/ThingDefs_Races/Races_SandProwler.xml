@@ -83,6 +83,8 @@
 				<terrains>
 					<li>Sand</li>
 					<li>SoftSand</li>
+					<li>AA_FertilizedSand</li>
+					<li>AA_SuperiorFertilizedSand</li>
 					<li>AB_ForsakenSand</li>
 					<li>AB_FineForsakenSand</li>
 					<li>AB_FineSand</li>
