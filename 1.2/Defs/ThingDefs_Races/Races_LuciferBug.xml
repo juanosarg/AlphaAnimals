@@ -107,7 +107,7 @@
 
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AA_LuciferBug</defName>
-		<label>luciferBug</label>		
+		<label>luciferbug</label>		
 		<race>AA_LuciferBug</race>
 		<combatPower>100</combatPower>
 		<ecoSystemWeight>0.2</ecoSystemWeight>

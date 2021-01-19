@@ -48,12 +48,17 @@ namespace AlphaBehavioursAndEvents
         public override void PostSpawnSetup(bool respawningAfterLoad)
         {
             base.PostSpawnSetup(respawningAfterLoad);
-            
-            this.pawn_renderer = ((Pawn_DrawTracker)typeof(Pawn).GetField("drawer", BindingFlags.Instance | BindingFlags.NonPublic).GetValue(this.parent)).renderer;
+            Pawn pawn = this.parent as Pawn;
+            Pawn_DrawTracker drawtracker = ((Pawn_DrawTracker)typeof(Pawn).GetField("drawer", BindingFlags.Instance | BindingFlags.NonPublic).GetValue(pawn));
+            if (drawtracker != null)
+            {
+                this.pawn_renderer = drawtracker.renderer;
+            }
             GraphicData dessicatedgraphicdata = new GraphicData();
             dessicatedgraphicdata.texPath = Props.dessicatedTxt;
             dessicatedGraphic = dessicatedgraphicdata.Graphic;
             this.ChangeTheGraphics();
+
         }
 
 
@@ -63,8 +68,18 @@ namespace AlphaBehavioursAndEvents
             if (this.parent.Map != null)
             {
                 Pawn pawn = this.parent as Pawn;
+                if (this.pawn_renderer == null)
+                {
+                    Pawn_DrawTracker drawtracker = ((Pawn_DrawTracker)typeof(Pawn).GetField("drawer", BindingFlags.Instance | BindingFlags.NonPublic).GetValue(pawn));
+                    if (drawtracker != null)
+                    {
+                        this.pawn_renderer = drawtracker.renderer;
+                    }
+
+                }
+
                 Vector2 vector = pawn.ageTracker.CurKindLifeStage.bodyGraphicData.drawSize;
-              
+
                 if (Props.terrains.Contains(pawn.Position.GetTerrain(pawn.Map).defName))
                 {
                     currentName = pawn.Position.GetTerrain(pawn.Map).defName;
@@ -72,16 +87,23 @@ namespace AlphaBehavioursAndEvents
                     {
                         LongEventHandler.ExecuteWhenFinished(delegate
                         {
+                            if (this.pawn_renderer != null)
+                            {
+                                try
+                                {
+                                    Graphic_Multi nakedGraphic = (Graphic_Multi)GraphicDatabase.Get<Graphic_Multi>(pawn.ageTracker.CurKindLifeStage.bodyGraphicData.texPath + Props.suffix, ShaderDatabase.Cutout, vector, Color.white);
+                                    this.pawn_renderer.graphics.dessicatedGraphic = dessicatedGraphic;
+                                    this.pawn_renderer.graphics.ResolveAllGraphics();
+                                    this.pawn_renderer.graphics.nakedGraphic = nakedGraphic;
+                                    (this.pawn_renderer.graphics.nakedGraphic.data = new GraphicData()).shadowData = pawn.ageTracker.CurKindLifeStage.bodyGraphicData.shadowData;
+                                    this.terrainName = pawn.Position.GetTerrain(pawn.Map).defName;
+                                    pawn.health.AddHediff(DefDatabase<HediffDef>.GetNamed(Props.hediffToApply));
+                                }
+                                catch (NullReferenceException) { }
+                            }
 
-                            Graphic_Multi nakedGraphic = (Graphic_Multi)GraphicDatabase.Get<Graphic_Multi>(pawn.ageTracker.CurKindLifeStage.bodyGraphicData.texPath + Props.suffix, ShaderDatabase.Cutout, vector, Color.white);
-                            this.pawn_renderer.graphics.dessicatedGraphic = dessicatedGraphic;
-                            this.pawn_renderer.graphics.ResolveAllGraphics();
-                            this.pawn_renderer.graphics.nakedGraphic = nakedGraphic;
-                            (this.pawn_renderer.graphics.nakedGraphic.data = new GraphicData()).shadowData = pawn.ageTracker.CurKindLifeStage.bodyGraphicData.shadowData;                           
-                            this.terrainName = pawn.Position.GetTerrain(pawn.Map).defName;
-                            pawn.health.AddHediff(DefDatabase<HediffDef>.GetNamed(Props.hediffToApply));
                         });
-                       
+
                     }
                 }
                 else
@@ -91,23 +113,30 @@ namespace AlphaBehavioursAndEvents
                     {
                         LongEventHandler.ExecuteWhenFinished(delegate
                         {
-                            Graphic_Multi nakedGraphic = (Graphic_Multi)GraphicDatabase.Get<Graphic_Multi>(pawn.ageTracker.CurKindLifeStage.bodyGraphicData.texPath, ShaderDatabase.Cutout, vector, Color.white);
-                            this.pawn_renderer.graphics.nakedGraphic = nakedGraphic;
-                            this.pawn_renderer.graphics.dessicatedGraphic = dessicatedGraphic;
-                            this.pawn_renderer.graphics.ResolveAllGraphics();
-                            (this.pawn_renderer.graphics.nakedGraphic.data = new GraphicData()).shadowData = pawn.ageTracker.CurKindLifeStage.bodyGraphicData.shadowData;                          
-                            this.terrainName = "Normal";
-                            Hediff hediff = pawn.health.hediffSet.GetFirstHediffOfDef(DefDatabase<HediffDef>.GetNamed(Props.hediffToApply));
-                            if (hediff != null)
+                            if (this.pawn_renderer != null)
                             {
-                                pawn.health.RemoveHediff(hediff);
+                                try
+                                {
+                                    Graphic_Multi nakedGraphic = (Graphic_Multi)GraphicDatabase.Get<Graphic_Multi>(pawn.ageTracker.CurKindLifeStage.bodyGraphicData.texPath, ShaderDatabase.Cutout, vector, Color.white);
+                                    this.pawn_renderer.graphics.nakedGraphic = nakedGraphic;
+                                    this.pawn_renderer.graphics.dessicatedGraphic = dessicatedGraphic;
+                                    this.pawn_renderer.graphics.ResolveAllGraphics();
+                                    (this.pawn_renderer.graphics.nakedGraphic.data = new GraphicData()).shadowData = pawn.ageTracker.CurKindLifeStage.bodyGraphicData.shadowData;
+                                    this.terrainName = "Normal";
+                                    Hediff hediff = pawn.health.hediffSet.GetFirstHediffOfDef(DefDatabase<HediffDef>.GetNamed(Props.hediffToApply));
+                                    if (hediff != null)
+                                    {
+                                        pawn.health.RemoveHediff(hediff);
+                                    }
+                                }
+                                catch (NullReferenceException) { }
                             }
 
-                        });              
+                        });
                     }
                 }
             }
-            
+
 
 
 
