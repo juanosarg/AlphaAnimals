@@ -240,6 +240,27 @@
               </subNodes>
              
             </li>
+			
+			<!-- Trained behavior: Mine in Quarry-->
+            <li Class="ThinkNode_ChancePerHour_Constant">
+              <mtbHours>1.5</mtbHours>
+			   <subNodes>
+                <li Class="ThinkNode_ConditionalTrainableCompleted">
+                  <trainable>Haul</trainable>
+                   <subNodes>
+			  
+                <li Class="ThinkNode_Tagger">
+                      <tagToGive>TrainedAnimalBehavior</tagToGive>
+                      <subNodes>
+                        <li Class="AlphaBehavioursAndEvents.JobGiver_TryQuarryJob" />
+                      </subNodes>
+                 </li>
+              </subNodes>
+                </li>
+              </subNodes>
+             
+            </li>
+			
             <!-- Trained behavior: Haul-->
             <li Class="ThinkNode_ChancePerHour_Constant">
               <mtbHours>1.5</mtbHours>

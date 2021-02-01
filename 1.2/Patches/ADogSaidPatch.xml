@@ -330,11 +330,11 @@
 
 						<li>AA_PhoenixOwlcat</li>
 						<li>AA_MatureFleshbeast</li>
-						
+
 						<li>AA_SandProwler</li>
 						<li>AA_FlamingoPhoenix</li>
 						<li>AA_Terramorph</li>
-						
+
 					</value>
 				</li>
 
@@ -424,11 +424,11 @@
 
 						<li>AA_PhoenixOwlcat</li>
 						<li>AA_MatureFleshbeast</li>
-						
+
 						<li>AA_SandProwler</li>
 						<li>AA_FlamingoPhoenix</li>
 						<li>AA_Terramorph</li>
-					
+
 					</value>
 				</li>
 
@@ -517,11 +517,11 @@
 
 						<li>AA_PhoenixOwlcat</li>
 						<li>AA_MatureFleshbeast</li>
-						
+
 						<li>AA_SandProwler</li>
 						<li>AA_FlamingoPhoenix</li>
 						<li>AA_Terramorph</li>
-					
+
 
 					</value>
 				</li>
@@ -625,7 +625,7 @@
 						<li>AA_Drainer</li>
 						<li>AA_PhoenixOwlcat</li>
 						<li>AA_MatureFleshbeast</li>
-						
+
 						<li>AA_SandProwler</li>
 						<li>AA_FlamingoPhoenix</li>
 						<li>AA_Terramorph</li>
@@ -728,7 +728,7 @@
 						<li>AA_Drainer</li>
 						<li>AA_PhoenixOwlcat</li>
 						<li>AA_MatureFleshbeast</li>
-						
+
 						<li>AA_SandProwler</li>
 						<li>AA_FlamingoPhoenix</li>
 						<li>AA_Terramorph</li>
@@ -794,11 +794,11 @@
 
 						<li>AA_PhoenixOwlcat</li>
 						<li>AA_MatureFleshbeast</li>
-						
+
 						<li>AA_SandProwler</li>
 						<li>AA_FlamingoPhoenix</li>
 						<li>AA_Terramorph</li>
-					
+
 					</value>
 				</li>
 
@@ -900,7 +900,7 @@
 						<li>AA_Drainer</li>
 						<li>AA_PhoenixOwlcat</li>
 						<li>AA_MatureFleshbeast</li>
-						
+
 						<li>AA_SandProwler</li>
 						<li>AA_FlamingoPhoenix</li>
 						<li>AA_Terramorph</li>
@@ -989,11 +989,11 @@
 
 						<li>AA_PhoenixOwlcat</li>
 						<li>AA_MatureFleshbeast</li>
-						
+
 						<li>AA_SandProwler</li>
-					
+
 						<li>AA_Terramorph</li>
-				
+
 
 					</value>
 				</li>
@@ -1084,7 +1084,7 @@
 						<li>AA_Animalisk</li>
 						<li>AA_Drainer</li>
 						<li>AA_PhoenixOwlcat</li>
-						
+
 						<li>AA_SandProwler</li>
 						<li>AA_FlamingoPhoenix</li>
 						<li>AA_Terramorph</li>
@@ -1153,9 +1153,9 @@
 						<li>AA_Drainer</li>
 						<li>AA_PhoenixOwlcat</li>
 						<li>AA_MatureFleshbeast</li>
-						
+
 						<li>AA_SandProwler</li>
-	
+
 
 					</value>
 				</li>
@@ -1241,7 +1241,7 @@
 
 						<li>AA_PhoenixOwlcat</li>
 						<li>AA_MatureFleshbeast</li>
-						
+
 						<li>AA_SandProwler</li>
 						<li>AA_FlamingoPhoenix</li>
 						<li>AA_Terramorph</li>
@@ -1315,11 +1315,11 @@
 						<li>AA_RayHound</li>
 
 						<li>AA_PhoenixOwlcat</li>
-						
+
 						<li>AA_SandProwler</li>
 						<li>AA_FlamingoPhoenix</li>
 						<li>AA_Terramorph</li>
-					
+
 
 
 					</value>
@@ -1343,7 +1343,7 @@
 					<xpath>/Defs</xpath>
 					<value>
 						<ResearchProjectDef>
-							<defName>AA_ExoticProsthetics</defName>
+							<defName>VEF_ExoticProsthetics</defName>
 							<label>Exotic Animal Prosthetics</label>
 							<description>Learn to use and craft exotic animal prosthetics to replace such things as tentacles, wings, echolocation organs and so on</description>
 							<baseCost>500</baseCost>
@@ -1364,7 +1364,7 @@
 					<xpath>/Defs</xpath>
 					<value>
 						<ResearchProjectDef>
-							<defName>AA_ExoticBionics</defName>
+							<defName>VEF_ExoticBionics</defName>
 							<label>Exotic Animal Bionics</label>
 							<description>Learn to use and craft exotic bionics to create bionic tentacles, wings, echolocation organs, etc</description>
 							<baseCost>1000</baseCost>
@@ -1381,14 +1381,110 @@
 					</value>
 				</li>
 
-				<!-- Parts bases -->
+				<!-- Advanced Animal Implants -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<ResearchProjectDef>
+							<defName>VEF_AdvancedAnimalImplants</defName>
+							<label>Advanced Animal Implants</label>
+							<description>Learn to extract certain abilities from animals and implant them in others. Ranged animal attacks can also be implanted in a different animal</description>
+							<baseCost>2500</baseCost>
+							<techLevel>Spacer</techLevel>
+							<researchViewX>2</researchViewX>
+							<researchViewY>4</researchViewY>
+							<prerequisites>
+								<li>AnimalBionics</li>
+								<li>VEF_ExoticBionics</li>
+
+							</prerequisites>
+							<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+							<tab>ADogSaid</tab>
+						</ResearchProjectDef>
+					</value>
+				</li>
+
+				<!-- Advanced Animal Parts Table -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<ThingDef ParentName="BenchBaseADS">
+							<defName>VEF_AdvancedAnimalImplantsTable</defName>
+							<label>advanced animal prosthetics table</label>
+							<thingClass>Building_WorkTable</thingClass>
+							<description>Allows you to extract certain abilities from animals and implant them in others. Ranged animal attacks can also be implanted in a different animal</description>
+							<graphicData>
+								<texPath>Things/Building/VEF_AdvancedAnimalImplantsTable</texPath>
+								<graphicClass>Graphic_Multi</graphicClass>
+								<drawSize>(2.33,1.5)</drawSize>
+								<damageData>
+									<cornerTL>Damage/Corner</cornerTL>
+									<cornerTR>Damage/Corner</cornerTR>
+									<cornerBL>Damage/Corner</cornerBL>
+									<cornerBR>Damage/Corner</cornerBR>
+								</damageData>
+							</graphicData>
+							<size>(2,1)</size>
+							<costList>
+								<Steel>200</Steel>								
+								<ComponentSpacer>5</ComponentSpacer>
+							</costList>
+							<altitudeLayer>Building</altitudeLayer>
+							<fillPercent>0.5</fillPercent>
+							<useHitPoints>True</useHitPoints>
+							<statBases>
+								<WorkToBuild>7500</WorkToBuild>
+								<MaxHitPoints>300</MaxHitPoints>
+								<Flammability>0</Flammability>
+								<Cleanliness>-2</Cleanliness>
+							</statBases>
+							<designationCategory>Production</designationCategory>
+							<passability>PassThroughOnly</passability>
+							<pathCost>70</pathCost>
+							<hasInteractionCell>True</hasInteractionCell>
+							<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+							<surfaceType>Item</surfaceType>
+							<inspectorTabs>
+								<li>ITab_Bills</li>
+							</inspectorTabs>
+							<building>
+								<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+							</building>
+							<researchPrerequisites>
+								<li>Electricity</li>
+								<li>VEF_AdvancedAnimalImplants</li>
+							</researchPrerequisites>
+							<comps>
+								<li Class="CompProperties_Power">
+									<compClass>CompPowerTrader</compClass>
+									<shortCircuitInRain>true</shortCircuitInRain>
+									<basePowerConsumption>150</basePowerConsumption>
+								</li>
+								<li Class="CompProperties_AffectedByFacilities">
+									<linkableFacilities>
+										<li>ToolCabinet</li>
+									</linkableFacilities>
+								</li>
+								<li Class="CompProperties_Flickable"/>
+								<li Class="CompProperties_Breakdownable"/>
+							</comps>
+							<placeWorkers>
+								<li>PlaceWorker_ShowFacilitiesConnections</li>
+							</placeWorkers>
+							<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+						</ThingDef>
+					</value>
+				</li>
+
+
+				<!-- Bases -->
 
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs</xpath>
 					<value>
-						<ThingDef Name="AA_BodyPartProstheticBaseADS" ParentName="BodyPartProstheticBaseADS" Abstract="True">
+						<ThingDef Name="VEF_BodyPartProstheticBaseADS" ParentName="BodyPartProstheticBaseADS" Abstract="True">
 							<recipeMaker>
-								<researchPrerequisite>AA_ExoticProsthetics</researchPrerequisite>
+								<researchPrerequisite>VEF_ExoticProsthetics</researchPrerequisite>
 							</recipeMaker>
 						</ThingDef>
 					</value>
@@ -1396,19 +1492,84 @@
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs</xpath>
 					<value>
-						<ThingDef Name="AA_BodyPartBionicBaseADS" ParentName="BodyPartBionicBaseADS" Abstract="True">
+						<ThingDef Name="VEF_BodyPartBionicBaseADS" ParentName="BodyPartBionicBaseADS" Abstract="True">
 							<recipeMaker>
-								<researchPrerequisite>AA_ExoticBionics</researchPrerequisite>
+								<researchPrerequisite>VEF_ExoticBionics</researchPrerequisite>
 							</recipeMaker>
 						</ThingDef>
 					</value>
 				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<ThingDef Name="VEF_AdvancedBaseADS" ParentName="BodyPartArtificialBaseADS" Abstract="True">
+
+							<graphicData>
+								<texPath>Things/Item/VEF_AnimalBodyPart_ranged</texPath>
+								<graphicClass>Graphic_Single</graphicClass>
+								<drawSize>0.80</drawSize>
+							</graphicData>
+						</ThingDef>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<RecipeDef Name="VEF_AdvancedSurgeryInstallImplantBase" ParentName="SurgeryFlesh" Abstract="True">
+							<workerClass>Recipe_InstallImplant</workerClass>
+							<workAmount>2500</workAmount>
+							<skillRequirements>
+								<Medicine>8</Medicine>
+							</skillRequirements>
+
+							<ingredients>
+								<li>
+									<filter>
+										<categories>
+											<li>Medicine</li>
+										</categories>
+									</filter>
+									<count>5</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<categories>
+									<li>Medicine</li>
+								</categories>
+							</fixedIngredientFilter>
+						</RecipeDef>
+					</value>
+				</li>
+
+				<!-- Work  -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<WorkGiverDef>
+							<defName>VEF_DoBillsAdvancedAnimalImplantsTable</defName>
+							<label>make advanced animal implants</label>
+							<giverClass>WorkGiver_DoBill</giverClass>
+							<workType>Crafting</workType>
+							<priorityInType>85</priorityInType>
+							<fixedBillGiverDefs>
+								<li>VEF_AdvancedAnimalImplantsTable</li>
+							</fixedBillGiverDefs>
+							<verb>make advanced animal implants</verb>
+							<gerund>making advanced animal implants at</gerund>
+							<requiredCapacities>
+								<li>Manipulation</li>
+							</requiredCapacities>
+							<prioritizeSustains>true</prioritizeSustains>
+						</WorkGiverDef>
+					</value>
+				</li>
+
 				<!-- Body Parts Items -->
 
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs</xpath>
 					<value>
-						<ThingDef ParentName="AA_BodyPartProstheticBaseADS">
+						<ThingDef ParentName="VEF_BodyPartProstheticBaseADS">
 							<defName>AA_ProstheticTentacle</defName>
 							<label>simple prosthetic tentacle</label>
 							<description>Simple prosthetic tentacle. Should be able to replace almost any tentacle.</description>
@@ -1432,7 +1593,7 @@
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs</xpath>
 					<value>
-						<ThingDef ParentName="AA_BodyPartBionicBaseADS">
+						<ThingDef ParentName="VEF_BodyPartBionicBaseADS">
 							<defName>AA_BionicTentacle</defName>
 							<label>bionic tentacle</label>
 							<description>Improved bionic tentacle for animals. Should be able to replace almost any tentacle.</description>
@@ -1456,7 +1617,7 @@
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs</xpath>
 					<value>
-						<ThingDef ParentName="AA_BodyPartBionicBaseADS">
+						<ThingDef ParentName="VEF_BodyPartBionicBaseADS">
 							<defName>AA_BionicMotionDetector</defName>
 							<label>bionic motion detector</label>
 							<description>Improved bionic motion detector for animals. This motion detector replaces echolocation organs and vibration sensors.</description>
@@ -1480,7 +1641,7 @@
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs</xpath>
 					<value>
-						<ThingDef ParentName="AA_BodyPartProstheticBaseADS">
+						<ThingDef ParentName="VEF_BodyPartProstheticBaseADS">
 							<defName>AA_ProstheticBuoyancyMechanism</defName>
 							<label>simple prosthetic buoyancy mechanism</label>
 							<description>Simple prosthetic buoyancy mechanism. Should be able to replace hydrogen sacs and other exotic organs keeping hovering creatures in the air.</description>
@@ -1504,7 +1665,7 @@
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs</xpath>
 					<value>
-						<ThingDef ParentName="AA_BodyPartBionicBaseADS">
+						<ThingDef ParentName="VEF_BodyPartBionicBaseADS">
 							<defName>AA_BionicBuoyancyMechanism</defName>
 							<label>bionic buoyancy mechanism</label>
 							<description>Improved bionic buoyancy mechanism for animals. Should be able to replace hydrogen sacs and other exotic organs keeping hovering creatures in the air.</description>
@@ -1528,7 +1689,7 @@
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs</xpath>
 					<value>
-						<ThingDef ParentName="AA_BodyPartProstheticBaseADS">
+						<ThingDef ParentName="VEF_BodyPartProstheticBaseADS">
 							<defName>AA_ProstheticShell</defName>
 							<label>simple prosthetic shell</label>
 							<description>Simple prosthetic shell. Should be able to replace carapaces and shells.</description>
@@ -1552,7 +1713,7 @@
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs</xpath>
 					<value>
-						<ThingDef ParentName="AA_BodyPartBionicBaseADS">
+						<ThingDef ParentName="VEF_BodyPartBionicBaseADS">
 							<defName>AA_BionicShell</defName>
 							<label>bionic shell</label>
 							<description>Improved bionic shell for animals. Should be able to replace carapaces and shells.</description>
@@ -1575,7 +1736,7 @@
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs</xpath>
 					<value>
-						<ThingDef ParentName="AA_BodyPartProstheticBaseADS">
+						<ThingDef ParentName="VEF_BodyPartProstheticBaseADS">
 							<defName>AA_ProstheticWing</defName>
 							<label>simple prosthetic wing</label>
 							<description>Simple prosthetic wing. Should be able to replace any type of wing.</description>
@@ -1599,7 +1760,7 @@
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs</xpath>
 					<value>
-						<ThingDef ParentName="AA_BodyPartBionicBaseADS">
+						<ThingDef ParentName="VEF_BodyPartBionicBaseADS">
 							<defName>AA_BionicWing</defName>
 							<label>bionic wing</label>
 							<description>Improved bionic wing for animals. Should be able to replace any type of wing.</description>
@@ -1624,7 +1785,7 @@
 					<xpath>/Defs</xpath>
 					<value>
 
-						<ThingDef ParentName="AA_BodyPartProstheticBaseADS">
+						<ThingDef ParentName="VEF_BodyPartProstheticBaseADS">
 							<defName>AB_SimpleProstheticClaw</defName>
 							<label>simple prosthetic claw</label>
 							<description>Simple prosthetic claw. Fits animals with sharpened claws.</description>
@@ -1646,7 +1807,7 @@
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs</xpath>
 					<value>
-						<ThingDef ParentName="AA_BodyPartBionicBaseADS">
+						<ThingDef ParentName="VEF_BodyPartBionicBaseADS">
 							<defName>AB_BionicClaw</defName>
 							<label>bionic claw</label>
 							<description>Improved bionic claw. Fits animals with sharpened claws.</description>
@@ -1668,7 +1829,7 @@
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs</xpath>
 					<value>
-						<ThingDef ParentName="AA_BodyPartProstheticBaseADS">
+						<ThingDef ParentName="VEF_BodyPartProstheticBaseADS">
 							<defName>AA_GooAcidifier</defName>
 							<label>goo acidifier</label>
 							<description>A goo acidifier increases the acidity of a goo's internal organs, making it explode as soon as it is downed. Basically transforms goos into biological suicide bombers.</description>

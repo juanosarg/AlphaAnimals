@@ -384,6 +384,7 @@
     <Compile Include="Jobs\JobDriver_DestroyItem.cs" />
     <Compile Include="Jobs\JobDriver_IngestWeird.cs" />
     <Compile Include="Jobs\JobGiver_GetWeirdFood.cs" />
+    <Compile Include="Jobs\JobGiver_TryQuarryJob.cs" />
     <Compile Include="Jobs\WorkGiver_AnimalResource.cs" />
     <Compile Include="Jobs\WorkGiver_DestroyItem.cs" />
     <Compile Include="MapComponents\DestroyableObjects_MapComponent.cs" />
