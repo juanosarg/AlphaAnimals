@@ -44,7 +44,7 @@
 				<range>15</range>
 				<soundCast>AA_FireSpit</soundCast>
 				<muzzleFlashScale>0</muzzleFlashScale>
-				<!--Commanility determines how frequent this range verb is chosen.-->
+				<label>fire spit</label>
 				<commonality>.9</commonality>
 			</li>
 

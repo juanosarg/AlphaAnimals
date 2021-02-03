@@ -1617,6 +1617,54 @@
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs</xpath>
 					<value>
+						<ThingDef ParentName="VEF_BodyPartProstheticBaseADS">
+							<defName>AA_ProstheticBeak</defName>
+							<label>simple prosthetic beak</label>
+							<description>Simple prosthetic beak. Should be able to replace almost any avian-like beak.</description>
+							<techLevel>Industrial</techLevel>
+							<costList>
+								<Steel>20</Steel>
+								<ComponentIndustrial>2</ComponentIndustrial>
+							</costList>
+							<statBases>
+								<WorkToMake>8000</WorkToMake>
+								<Mass>5</Mass>
+							</statBases>
+							<techHediffsTags>
+								<li>Simple</li>
+							</techHediffsTags>
+						</ThingDef>
+
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<ThingDef ParentName="VEF_BodyPartBionicBaseADS">
+							<defName>AA_BionicBeak</defName>
+							<label>bionic beak</label>
+							<description>Improved bionic beak for animals. Should be able to replace almost any avian-like beak.</description>
+							<techLevel>Spacer</techLevel>
+							<costList>
+								<Plasteel>10</Plasteel>
+								<ComponentSpacer>2</ComponentSpacer>
+							</costList>
+							<statBases>
+								<WorkToMake>12000</WorkToMake>
+								<Mass>8</Mass>
+							</statBases>
+							<techHediffsTags>
+								<li>Advanced</li>
+							</techHediffsTags>
+						</ThingDef>
+
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
 						<ThingDef ParentName="VEF_BodyPartBionicBaseADS">
 							<defName>AA_BionicMotionDetector</defName>
 							<label>bionic motion detector</label>
@@ -1917,6 +1965,95 @@
 								</li>
 							</comps>
 							<spawnThingOnRemoved>AA_BionicTentacle</spawnThingOnRemoved>
+							<addedPartProps>
+								<solid>true</solid>
+								<partEfficiency>1.25</partEfficiency>
+							</addedPartProps>
+							<stages>
+								<li>
+									<capMods>
+										<li>
+											<capacity>Manipulation</capacity>
+											<offset>0.025</offset>
+										</li>
+									</capMods>
+									<statOffsets>
+										<ArmorRating_Sharp>0.03</ArmorRating_Sharp>
+										<ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+										<ArmorRating_Heat>0.03</ArmorRating_Heat>
+									</statOffsets>
+								</li>		
+							</stages>
+						</HediffDef>
+
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<HediffDef ParentName="addedPartAnimal">
+							<defName>AA_ProstheticBeak</defName>
+							<label>simple prosthetic beak</label>
+							<description>A simple prosthetic beak.</description>
+							<defaultLabelColor>(233,129,69)</defaultLabelColor>
+							<comps>
+								<li Class="HediffCompProperties_VerbGiver">
+									<tools>
+										<li>
+											<label>prosthetic beak</label>
+											<capacities>
+												<li>Bite</li>
+											</capacities>
+											<power>8</power>
+											<cooldownTime>1.8</cooldownTime>
+											<alwaysTreatAsWeapon>false</alwaysTreatAsWeapon>
+										</li>
+									</tools>
+								</li>
+							</comps>
+							<spawnThingOnRemoved>AA_ProstheticBeak</spawnThingOnRemoved>
+							<addedPartProps>
+								<partEfficiency>0.85</partEfficiency>
+								<betterThanNatural>false</betterThanNatural>
+								<solid>true</solid>
+							</addedPartProps>
+							<stages>
+								<li>
+									<statOffsets>
+										<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+										<ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+										<ArmorRating_Heat>0.01</ArmorRating_Heat>
+									</statOffsets>
+								</li>
+							</stages>
+						</HediffDef>
+
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<HediffDef ParentName="addedPartAnimal">
+							<defName>AA_BionicBeak</defName>
+							<label>bionic beak</label>
+							<description>A bionic beak.</description>
+							<comps>
+								<li Class="HediffCompProperties_VerbGiver">
+									<tools>
+										<li>
+											<label>bionic beak</label>
+											<capacities>
+												<li>Bite</li>
+											</capacities>
+											<power>20</power>
+											<cooldownTime>1.4</cooldownTime>
+											<alwaysTreatAsWeapon>false</alwaysTreatAsWeapon>
+										</li>
+									</tools>
+								</li>
+							</comps>
+							<spawnThingOnRemoved>AA_BionicBeak</spawnThingOnRemoved>
 							<addedPartProps>
 								<solid>true</solid>
 								<partEfficiency>1.25</partEfficiency>
@@ -2355,6 +2492,110 @@
 								</thingDefs>
 							</fixedIngredientFilter>
 							<addsHediff>AA_BionicTentacle</addsHediff>
+
+						</RecipeDef>
+
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<RecipeDef Abstract="True" Name="AA_BeakBaseAnimal" ParentName="SurgeryFleshAnimal">
+							<appliedOnFixedBodyParts>
+								<li>Beak</li>
+							</appliedOnFixedBodyParts>
+						</RecipeDef>
+					</value>
+				</li>
+
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<RecipeDef ParentName="AA_BeakBaseAnimal">
+							<defName>AA_InstallSimpleBeak</defName>
+							<label>install simple prosthetic beak</label>
+							<description>Installs simple prosthetic beak.</description>
+							<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+							<jobString>Installing simple prosthetic beak.</jobString>
+							<workAmount>2000</workAmount>
+							<skillRequirements>
+								<Medicine>4</Medicine>
+							</skillRequirements>
+							<ingredients>
+								<li>
+									<filter>
+										<categories>
+											<li>Medicine</li>
+										</categories>
+									</filter>
+									<count>1</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>AA_ProstheticBeak</li>
+										</thingDefs>
+									</filter>
+									<count>1</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<categories>
+									<li>Medicine</li>
+								</categories>
+								<thingDefs>
+									<li>AA_ProstheticBeak</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<addsHediff>AA_ProstheticBeak</addsHediff>
+
+						</RecipeDef>
+
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<RecipeDef ParentName="AA_BeakBaseAnimal">
+							<defName>AA_InstallBionicBeak</defName>
+							<label>install bionic beak</label>
+							<description>Installs bionic beak.</description>
+							<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+							<jobString>Installing bionic beak.</jobString>
+							<workAmount>2000</workAmount>
+							<skillRequirements>
+								<Medicine>8</Medicine>
+							</skillRequirements>
+							<ingredients>
+								<li>
+									<filter>
+										<categories>
+											<li>Medicine</li>
+										</categories>
+									</filter>
+									<count>1</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>AA_BionicBeak</li>
+										</thingDefs>
+									</filter>
+									<count>1</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<categories>
+									<li>Medicine</li>
+								</categories>
+								<thingDefs>
+									<li>AA_BionicBeak</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<addsHediff>AA_BionicBeak</addsHediff>
 
 						</RecipeDef>
 
@@ -2883,6 +3124,940 @@
 					</value>
 				</li>
 
+				<!-- Advanced Implants -->
+
+				<!-- Ranged spinneret -->
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<HediffDef ParentName="ImplantHediffBase">
+							<defName>AA_RangedSpinneretImplant</defName>
+							<label>ranged spinneret implant</label>
+							<labelNoun>a ranged spinneret implant</labelNoun>
+							<description>An installed ranged spinneret implant. This implant will allow this creature to use a ranged stunning web attack.\n\nNote that installing this on a creature that already has a ranged spinneret will have no effect.</description>
+							<descriptionHyperlinks>
+								<ThingDef>AA_RangedSpinneretImplant</ThingDef>
+							</descriptionHyperlinks>
+							<spawnThingOnRemoved>AA_RangedSpinneretImplant</spawnThingOnRemoved>
+							<comps>
+								<li Class="MVCF.Comps.HediffCompProperties_ExtendedVerbGiver">
+									<verbs>
+										<li>
+											<verbClass>Verb_Shoot</verbClass>
+											<accuracyTouch>1</accuracyTouch>
+											<accuracyShort>0.9</accuracyShort>
+											<accuracyMedium>0.8</accuracyMedium>
+											<accuracyLong>0.3</accuracyLong>
+											<hasStandardCommand>true</hasStandardCommand>
+											<defaultProjectile>AA_Web</defaultProjectile>
+											<warmupTime>3</warmupTime>
+											<burstShotCount>3</burstShotCount>
+											<minRange>1</minRange>
+											<range>20</range>
+											<soundCast>AA_Throw</soundCast>
+											<muzzleFlashScale>0</muzzleFlashScale>
+											<label>web</label>
+											<commonality>.8</commonality>
+										</li>
+									</verbs>
+									<verbProps>
+										<li>
+											<label>web</label>
+											<draw>false</draw>
+											<canBeToggled>true</canBeToggled>											
+											<canFireIndependently>false</canFireIndependently>
+										</li>
+									</verbProps>
+								</li>
+							</comps>
+							<addedPartProps>
+								<solid>true</solid>								
+								<betterThanNatural>true</betterThanNatural>
+							</addedPartProps>
+						</HediffDef>
+
+						<ThingDef ParentName="VEF_AdvancedBaseADS">
+							<defName>AA_RangedSpinneretImplant</defName>
+							<label>ranged spinneret implant</label>							
+							<description>An installed ranged spinneret implant. This implant will allow this creature to use a ranged stunning web attack.\n\nNote that installing this on a creature that already has a ranged spinneret will have no effect.</description>
+							<descriptionHyperlinks>
+								<RecipeDef>AA_InstallRangedSpinneretImplant</RecipeDef>
+							</descriptionHyperlinks>
+							<statBases>
+								<MarketValue>800</MarketValue>
+								<Mass>2</Mass>
+							</statBases>
+
+						</ThingDef>
+
+						<RecipeDef ParentName="VEF_AdvancedSurgeryInstallImplantBase">
+							<defName>AA_InstallRangedSpinneretImplant</defName>
+							<label>install ranged spinneret implant</label>
+							<description>Install a ranged spinneret. This implant will allow this creature to use a ranged stunning web attack.\n\nNote that installing this on a creature that already has a ranged spinneret will have no effect.</description>
+							<descriptionHyperlinks>
+								<ThingDef>AA_RangedSpinneretImplant</ThingDef>
+								<HediffDef>AA_RangedSpinneretImplant</HediffDef>
+							</descriptionHyperlinks>
+							<jobString>Installing ranged spinneret implant.</jobString>
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>AA_RangedSpinneretImplant</li>
+										</thingDefs>
+									</filter>
+									<count>1</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>AA_RangedSpinneretImplant</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<appliedOnFixedBodyParts>
+								<li>Body</li>								
+								<li>SnakeBody</li>
+								<li>AA_JellyfishMainBody</li>
+								<li>AA_Protoplasm</li>
+								<li>AA_Thorax</li>
+								<li>AA_SentientPlantBody</li>
+								<li>AA_SlugBody</li>
+							</appliedOnFixedBodyParts>
+							<addsHediff>AA_RangedSpinneretImplant</addsHediff>
+						</RecipeDef>
+
+						<RecipeDef>
+							<defName>AA_MakeRangedSpinneretImplant</defName>
+							<label>make a ranged spinneret implant</label>
+							<description>Make a ranged spinneret implant from a Feralisk, Dunealisk, Blizzarisk, Cinderlisk, Junglelisk or Animalisk corpse. This implant will allow this creature to use a ranged stunning web attack.\n\nNote that installing this on a creature that already has a ranged spinneret will have no effect.</description>
+							<jobString>Making ranged spinneret implant</jobString>							
+							<workAmount>15000</workAmount>		
+							<recipeUsers>
+								<li>VEF_AdvancedAnimalImplantsTable</li>
+							</recipeUsers>		
+							<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+							<workSkill>Crafting</workSkill>
+							<effectWorking>Smith</effectWorking>
+							<soundWorking>Recipe_Smith</soundWorking>
+							<skillRequirements>
+								<Crafting>10</Crafting>
+							</skillRequirements>
+							<unfinishedThingDef>UnfinishedAnimalPart</unfinishedThingDef>
+							<researchPrerequisite>VEF_AdvancedAnimalImplants</researchPrerequisite>							
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>Corpse_AA_Feralisk</li>
+											<li>Corpse_AA_Blizzarisk</li>
+											<li>Corpse_AA_Dunealisk</li>
+											<li>Corpse_AA_Cinderlisk</li>
+											<li>Corpse_AA_Junglelisk</li>
+											<li>Corpse_AA_Animalisk</li>
+
+										</thingDefs>
+									</filter>
+									<count>1</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>Plasteel</li>											
+										</thingDefs>
+									</filter>
+									<count>50</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>ComponentSpacer</li>										
+										</thingDefs>
+									</filter>
+									<count>5</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>Corpse_AA_Feralisk</li>
+									<li>Corpse_AA_Blizzarisk</li>
+									<li>Corpse_AA_Dunealisk</li>
+									<li>Corpse_AA_Cinderlisk</li>
+									<li>Corpse_AA_Junglelisk</li>
+									<li>Corpse_AA_Animalisk</li>									
+									<li>Plasteel</li>
+									<li>ComponentSpacer</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<defaultIngredientFilter>
+								<thingDefs>
+									<li>Corpse_AA_Feralisk</li>
+									<li>Corpse_AA_Blizzarisk</li>
+									<li>Corpse_AA_Dunealisk</li>
+									<li>Corpse_AA_Cinderlisk</li>
+									<li>Corpse_AA_Junglelisk</li>
+									<li>Corpse_AA_Animalisk</li>
+									<li>Plasteel</li>
+									<li>ComponentSpacer</li>
+								</thingDefs>
+							</defaultIngredientFilter>
+							<products>
+								<AA_RangedSpinneretImplant>1</AA_RangedSpinneretImplant>
+							</products>
+						</RecipeDef>
+
+						<RecipeDef ParentName="SurgeryRemoveImplantBase">
+							<defName>AA_RemoveRangedSpinneretImplant</defName>
+							<label>remove ranged spinneret implant</label>
+							<description>Remove ranged spinneret implant.</description>
+							<descriptionHyperlinks>
+								<ThingDef>AA_RangedSpinneretImplant</ThingDef>
+								<HediffDef>AA_RangedSpinneretImplant</HediffDef>
+							</descriptionHyperlinks>
+							<jobString>Removing ranged spinneret implant.</jobString>
+							<removesHediff>AA_RangedSpinneretImplant</removesHediff>
+						</RecipeDef>
+					</value>
+				</li>
+
+				<!-- Venomous Spitter -->
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<HediffDef ParentName="ImplantHediffBase">
+							<defName>AA_VenomousSpitterImplant</defName>
+							<label>venomous spitter implant</label>
+							<labelNoun>a venomous spitter implant</labelNoun>
+							<description>An installed venomous spitter implant. This implant will allow this creature to use a ranged venomous spit attack.\n\nNote that installing this on a creature that already has a venomous spitter will have no effect. This implant can only be used by animals that have a mouth (and not, for example, a beak or proboscis).</description>
+							<descriptionHyperlinks>
+								<ThingDef>AA_VenomousSpitterImplant</ThingDef>
+							</descriptionHyperlinks>
+							<spawnThingOnRemoved>AA_VenomousSpitterImplant</spawnThingOnRemoved>
+							<comps>
+								<li Class="MVCF.Comps.HediffCompProperties_ExtendedVerbGiver">
+									<verbs>
+										<li>
+											<verbClass>Verb_Shoot</verbClass>
+											<accuracyTouch>1</accuracyTouch>
+											<accuracyShort>1</accuracyShort>
+											<accuracyMedium>1</accuracyMedium>
+											<accuracyLong>1</accuracyLong>
+											<hasStandardCommand>true</hasStandardCommand>
+											<defaultProjectile>AA_PoisonBolt</defaultProjectile>
+											<warmupTime>2</warmupTime>
+											<burstShotCount>1</burstShotCount>
+											<minRange>2</minRange>
+											<range>30</range>
+											<soundCast>AA_PoisonBolt</soundCast>
+											<muzzleFlashScale>0</muzzleFlashScale>
+											<label>venomous spit</label>
+											<commonality>.8</commonality>
+										</li>
+									</verbs>
+									<verbProps>
+										<li>
+											<label>venomous spit</label>
+											<draw>false</draw>
+											<canBeToggled>true</canBeToggled>											
+											<canFireIndependently>false</canFireIndependently>
+										</li>
+									</verbProps>
+								</li>
+							</comps>
+							<addedPartProps>
+								<solid>true</solid>		
+								<partEfficiency>0.75</partEfficiency>								
+								<betterThanNatural>true</betterThanNatural>
+							</addedPartProps>
+						</HediffDef>
+
+						<ThingDef ParentName="VEF_AdvancedBaseADS">
+							<defName>AA_VenomousSpitterImplant</defName>
+							<label>venomous spitter implant</label>							
+							<description>An installed venomous spitter implant. This implant will allow this creature to use a ranged venomous spit attack.\n\nNote that installing this on a creature that already has a venomous spitter will have no effect. This implant can only be used by animals that have a mouth (and not, for example, a beak or proboscis).</description>
+							<descriptionHyperlinks>
+								<RecipeDef>AA_InstallVenomousSpitterImplant</RecipeDef>
+							</descriptionHyperlinks>
+							<statBases>
+								<MarketValue>800</MarketValue>
+								<Mass>2</Mass>
+							</statBases>
+
+						</ThingDef>
+
+						<RecipeDef ParentName="VEF_AdvancedSurgeryInstallImplantBase">
+							<defName>AA_InstallVenomousSpitterImplant</defName>
+							<label>install venomous spitter implant</label>
+							<description>Install a venomous spitter. This implant will allow this creature to use a ranged venomous spit attack.\n\nNote that installing this on a creature that already has a venomous spitter will have no effect. This implant can only be used by animals that have a mouth (and not, for example, a beak or proboscis).</description>
+							<descriptionHyperlinks>
+								<ThingDef>AA_VenomousSpitterImplant</ThingDef>
+								<HediffDef>AA_VenomousSpitterImplant</HediffDef>
+							</descriptionHyperlinks>
+							<jobString>Installing venomous spitter implant.</jobString>
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>AA_VenomousSpitterImplant</li>
+										</thingDefs>
+									</filter>
+									<count>1</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>AA_VenomousSpitterImplant</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<appliedOnFixedBodyParts>
+								<li>AnimalJaw</li>								
+								<li>AA_InsectMouth</li>
+								<li>AA_CrocodileJaw</li>
+								<li>AA_SentientPlantMouth</li>
+							</appliedOnFixedBodyParts>
+							<addsHediff>AA_VenomousSpitterImplant</addsHediff>
+						</RecipeDef>
+
+						<RecipeDef>
+							<defName>AA_MakeVenomousSpitterImplant</defName>
+							<label>make a venomous spitter implant</label>
+							<description>Make a venomous spitter from a Black Spelopede or Blackspider corpse. This implant will allow this creature to use a ranged venomous spit attack.\n\nNote that installing this on a creature that already has a venomous spitter will have no effect. This implant can only be used by animals that have a mouth (and not, for example, a beak or proboscis).</description>
+							<jobString>Making venomous spitter implant</jobString>							
+							<workAmount>15000</workAmount>		
+							<recipeUsers>
+								<li>VEF_AdvancedAnimalImplantsTable</li>
+							</recipeUsers>		
+							<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+							<workSkill>Crafting</workSkill>
+							<effectWorking>Smith</effectWorking>
+							<soundWorking>Recipe_Smith</soundWorking>
+							<skillRequirements>
+								<Crafting>10</Crafting>
+							</skillRequirements>
+							<unfinishedThingDef>UnfinishedAnimalPart</unfinishedThingDef>
+							<researchPrerequisite>VEF_AdvancedAnimalImplants</researchPrerequisite>							
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>Corpse_AA_BlackSpelopede</li>
+											<li>Corpse_AA_BlackSpider</li>
+
+										</thingDefs>
+									</filter>
+									<count>1</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>Plasteel</li>											
+										</thingDefs>
+									</filter>
+									<count>50</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>ComponentSpacer</li>										
+										</thingDefs>
+									</filter>
+									<count>5</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>Corpse_AA_BlackSpelopede</li>
+									<li>Corpse_AA_BlackSpider</li>									
+									<li>Plasteel</li>
+									<li>ComponentSpacer</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<defaultIngredientFilter>
+								<thingDefs>
+									<li>Corpse_AA_BlackSpelopede</li>
+									<li>Corpse_AA_BlackSpider</li>
+									<li>Plasteel</li>
+									<li>ComponentSpacer</li>
+								</thingDefs>
+							</defaultIngredientFilter>
+							<products>
+								<AA_VenomousSpitterImplant>1</AA_VenomousSpitterImplant>
+							</products>
+						</RecipeDef>
+
+						<RecipeDef ParentName="SurgeryRemoveImplantBase">
+							<defName>AA_RemoveVenomousSpitterImplant</defName>
+							<label>remove venomous spitter implant</label>
+							<description>Remove venomous spitter implant.</description>
+							<descriptionHyperlinks>
+								<ThingDef>AA_VenomousSpitterImplant</ThingDef>
+								<HediffDef>AA_VenomousSpitterImplant</HediffDef>
+							</descriptionHyperlinks>
+							<jobString>Removing venomous spitter implant.</jobString>
+							<removesHediff>AA_VenomousSpitterImplant</removesHediff>
+						</RecipeDef>
+					</value>
+				</li>
+
+				<!-- Acidic Spitter -->
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<HediffDef ParentName="ImplantHediffBase">
+							<defName>AA_AcidicSpitterImplant</defName>
+							<label>acidic spitter implant</label>
+							<labelNoun>an acidic spitter implant</labelNoun>
+							<description>An installed acidic spitter implant. This implant will allow this creature to use a ranged acidic spit attack that causes additional damage over time.\n\nNote that installing this on a creature that already has an acidic spitter will have no effect. This implant can only be used by animals that have a mouth (and not, for example, a beak or proboscis).</description>
+							<descriptionHyperlinks>
+								<ThingDef>AA_AcidicSpitterImplant</ThingDef>
+							</descriptionHyperlinks>
+							<spawnThingOnRemoved>AA_AcidicSpitterImplant</spawnThingOnRemoved>
+							<comps>
+								<li Class="MVCF.Comps.HediffCompProperties_ExtendedVerbGiver">
+									<verbs>
+										<li>
+											<verbClass>Verb_Shoot</verbClass>
+											<accuracyTouch>1</accuracyTouch>
+											<accuracyShort>1</accuracyShort>
+											<accuracyMedium>1</accuracyMedium>
+											<accuracyLong>1</accuracyLong>
+											<hasStandardCommand>true</hasStandardCommand>
+											<defaultProjectile>AA_AcidBolt</defaultProjectile>
+											<warmupTime>2</warmupTime>
+											<burstShotCount>1</burstShotCount>
+											<minRange>2</minRange>
+											<range>20</range>
+											<soundCast>AA_PoisonBolt</soundCast>
+											<muzzleFlashScale>0</muzzleFlashScale>
+											<label>acidic spit</label>
+											<commonality>.8</commonality>
+										</li>
+									</verbs>
+									<verbProps>
+										<li>
+											<label>acidic spit</label>
+											<draw>false</draw>
+											<canBeToggled>true</canBeToggled>											
+											<canFireIndependently>false</canFireIndependently>
+										</li>
+									</verbProps>
+								</li>
+							</comps>
+							<addedPartProps>
+								<solid>true</solid>		
+								<partEfficiency>0.75</partEfficiency>								
+								<betterThanNatural>true</betterThanNatural>
+							</addedPartProps>
+						</HediffDef>
+
+						<ThingDef ParentName="VEF_AdvancedBaseADS">
+							<defName>AA_AcidicSpitterImplant</defName>
+							<label>acidic spitter implant</label>							
+							<description>An installed acidic spitter implant. This implant will allow this creature to use a ranged acidic spit attack that causes additional damage over time.\n\nNote that installing this on a creature that already has an acidic spitter will have no effect. This implant can only be used by animals that have a mouth (and not, for example, a beak or proboscis).</description>
+							<descriptionHyperlinks>
+								<RecipeDef>AA_InstallVenomousSpitterImplant</RecipeDef>
+							</descriptionHyperlinks>
+							<statBases>
+								<MarketValue>800</MarketValue>
+								<Mass>2</Mass>
+							</statBases>
+
+						</ThingDef>
+
+						<RecipeDef ParentName="VEF_AdvancedSurgeryInstallImplantBase">
+							<defName>AA_InstallAcidicSpitterImplant</defName>
+							<label>install acidic spitter implant</label>
+							<description>Install an acidic spitter. This implant will allow this creature to use a ranged acidic spit attack that causes additional damage over time.\n\nNote that installing this on a creature that already has an acidic spitter will have no effect. This implant can only be used by animals that have a mouth (and not, for example, a beak or proboscis).</description>
+							<descriptionHyperlinks>
+								<ThingDef>AA_AcidicSpitterImplant</ThingDef>
+								<HediffDef>AA_AcidicSpitterImplant</HediffDef>
+							</descriptionHyperlinks>
+							<jobString>Installing acidic spitter implant.</jobString>
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>AA_AcidicSpitterImplant</li>
+										</thingDefs>
+									</filter>
+									<count>1</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>AA_AcidicSpitterImplant</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<appliedOnFixedBodyParts>
+								<li>AnimalJaw</li>								
+								<li>AA_InsectMouth</li>
+								<li>AA_CrocodileJaw</li>
+								<li>AA_SentientPlantMouth</li>
+							</appliedOnFixedBodyParts>
+							<addsHediff>AA_AcidicSpitterImplant</addsHediff>
+						</RecipeDef>
+
+						<RecipeDef>
+							<defName>AA_MakeAcidicSpitterImplant</defName>
+							<label>make an acidic spitter implant</label>
+							<description>Make an acidic spitter from a Red Goo, Green Goo, Mantrap, Red Spore or Ocular Jelly corpse. This implant will allow this creature to use a ranged acidic spit attack that causes additional damage over time.\n\nNote that installing this on a creature that already has an acidic spitter will have no effect. This implant can only be used by animals that have a mouth (and not, for example, a beak or proboscis).</description>
+							<jobString>Making acidic spitter implant</jobString>							
+							<workAmount>15000</workAmount>		
+							<recipeUsers>
+								<li>VEF_AdvancedAnimalImplantsTable</li>
+							</recipeUsers>		
+							<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+							<workSkill>Crafting</workSkill>
+							<effectWorking>Smith</effectWorking>
+							<soundWorking>Recipe_Smith</soundWorking>
+							<skillRequirements>
+								<Crafting>10</Crafting>
+							</skillRequirements>
+							<unfinishedThingDef>UnfinishedAnimalPart</unfinishedThingDef>
+							<researchPrerequisite>VEF_AdvancedAnimalImplants</researchPrerequisite>							
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>Corpse_AA_GreenGoo</li>
+											<li>Corpse_AA_RedGoo</li>
+											<li>Corpse_AA_Mantrap</li>
+											<li>Corpse_AA_RedSpore</li>
+											<li>Corpse_AA_OcularJelly</li>
+
+										</thingDefs>
+									</filter>
+									<count>1</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>Plasteel</li>											
+										</thingDefs>
+									</filter>
+									<count>50</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>ComponentSpacer</li>										
+										</thingDefs>
+									</filter>
+									<count>5</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>Corpse_AA_GreenGoo</li>
+									<li>Corpse_AA_RedGoo</li>
+									<li>Corpse_AA_Mantrap</li>
+									<li>Corpse_AA_RedSpore</li>
+									<li>Corpse_AA_OcularJelly</li>								
+									<li>Plasteel</li>
+									<li>ComponentSpacer</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<defaultIngredientFilter>
+								<thingDefs>
+									<li>Corpse_AA_GreenGoo</li>
+									<li>Corpse_AA_RedGoo</li>
+									<li>Corpse_AA_Mantrap</li>
+									<li>Corpse_AA_RedSpore</li>
+									<li>Corpse_AA_OcularJelly</li>
+									<li>Plasteel</li>
+									<li>ComponentSpacer</li>
+								</thingDefs>
+							</defaultIngredientFilter>
+							<products>
+								<AA_AcidicSpitterImplant>1</AA_AcidicSpitterImplant>
+							</products>
+						</RecipeDef>
+
+						<RecipeDef ParentName="SurgeryRemoveImplantBase">
+							<defName>AA_RemoveAcidicSpitterImplant</defName>
+							<label>remove acidic spitter implant</label>
+							<description>Remove acidic spitter implant.</description>
+							<descriptionHyperlinks>
+								<ThingDef>AA_AcidicSpitterImplant</ThingDef>
+								<HediffDef>AA_AcidicSpitterImplant</HediffDef>
+							</descriptionHyperlinks>
+							<jobString>Removing acidic spitter implant.</jobString>
+							<removesHediff>AA_AcidicSpitterImplant</removesHediff>
+						</RecipeDef>
+					</value>
+				</li>
+
+				<!-- Barbed Quill Thrower -->
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<HediffDef ParentName="ImplantHediffBase">
+							<defName>AA_BarbedQuillThrowerImplant</defName>
+							<label>barbed quill thrower implant</label>
+							<labelNoun>a barbed quill thrower implant</labelNoun>
+							<description>An installed barbed quill thrower implant. This implant will allow this creature to use a ranged venomous quill attack that causes toxic buildup.\n\nNote that installing this on a creature that already has a barbed quill thrower will have no effect.</description>
+							<descriptionHyperlinks>
+								<ThingDef>AA_BarbedQuillThrowerImplant</ThingDef>
+							</descriptionHyperlinks>
+							<spawnThingOnRemoved>AA_BarbedQuillThrowerImplant</spawnThingOnRemoved>
+							<comps>
+								<li Class="MVCF.Comps.HediffCompProperties_ExtendedVerbGiver">
+									<verbs>
+										<li>
+											<verbClass>Verb_Shoot</verbClass>
+											<accuracyTouch>1</accuracyTouch>
+											<accuracyShort>1</accuracyShort>
+											<accuracyMedium>1</accuracyMedium>
+											<accuracyLong>1</accuracyLong>
+											<hasStandardCommand>true</hasStandardCommand>
+											<defaultProjectile>AA_Quill</defaultProjectile>
+											<warmupTime>3</warmupTime>
+											<burstShotCount>1</burstShotCount>
+											<minRange>2</minRange>
+											<range>20</range>
+											<soundCast>AA_DartSound</soundCast>
+											<muzzleFlashScale>0</muzzleFlashScale>
+											<label>barbed quills</label> 
+											<commonality>.8</commonality>
+										</li>
+									</verbs>
+									<verbProps>
+										<li>
+											<label>barbed quills</label> 
+											<draw>false</draw>
+											<canBeToggled>true</canBeToggled>											
+											<canFireIndependently>false</canFireIndependently>
+										</li>
+									</verbProps>
+								</li>
+							</comps>
+							<addedPartProps>
+								<solid>true</solid>								
+								<betterThanNatural>true</betterThanNatural>
+							</addedPartProps>
+						</HediffDef>
+
+						<ThingDef ParentName="VEF_AdvancedBaseADS">
+							<defName>AA_BarbedQuillThrowerImplant</defName>
+							<label>barbed quill thrower implant</label>							
+							<description>An installed barbed quill thrower implant. This implant will allow this creature to use a ranged venomous quill attack that causes toxic buildup.\n\nNote that installing this on a creature that already has a barbed quill thrower will have no effect.</description>
+							<descriptionHyperlinks>
+								<RecipeDef>AA_InstallBarbedQuillThrowerImplant</RecipeDef>
+							</descriptionHyperlinks>
+							<statBases>
+								<MarketValue>800</MarketValue>
+								<Mass>2</Mass>
+							</statBases>
+
+						</ThingDef>
+
+						<RecipeDef ParentName="VEF_AdvancedSurgeryInstallImplantBase">
+							<defName>AA_InstallBarbedQuillThrowerImplant</defName>
+							<label>install barbed quill thrower implant</label>
+							<description>Install a barbed quill thrower. This implant will allow this creature to use a ranged venomous quill attack that causes toxic buildup.\n\nNote that installing this on a creature that already has a barbed quill thrower will have no effect.</description>
+							<descriptionHyperlinks>
+								<ThingDef>AA_BarbedQuillThrowerImplant</ThingDef>
+								<HediffDef>AA_BarbedQuillThrowerImplant</HediffDef>
+							</descriptionHyperlinks>
+							<jobString>Installing barbed quill thrower implant.</jobString>
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>AA_BarbedQuillThrowerImplant</li>
+										</thingDefs>
+									</filter>
+									<count>1</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>AA_BarbedQuillThrowerImplant</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<appliedOnFixedBodyParts>
+								<li>Body</li>								
+								<li>SnakeBody</li>
+								<li>AA_JellyfishMainBody</li>
+								<li>AA_Protoplasm</li>
+								<li>AA_Thorax</li>
+								<li>AA_SentientPlantBody</li>
+								<li>AA_SlugBody</li>
+							</appliedOnFixedBodyParts>
+							<addsHediff>AA_BarbedQuillThrowerImplant</addsHediff>
+						</RecipeDef>
+
+						<RecipeDef>
+							<defName>AA_MakeBarbedQuillThrowerImplant</defName>
+							<label>make a barbed quill thrower implant</label>
+							<description>Make a barbed quill thrower implant from a Barbslinger, Nightling, Night Ave, Needleroll or Needlepost corpse. This implant will allow this creature to use a ranged venomous quill attack that causes toxic buildup.\n\nNote that installing this on a creature that already has a barbed quill thrower will have no effect.</description>
+							<jobString>Making barbed quill thrower implant</jobString>							
+							<workAmount>15000</workAmount>		
+							<recipeUsers>
+								<li>VEF_AdvancedAnimalImplantsTable</li>
+							</recipeUsers>		
+							<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+							<workSkill>Crafting</workSkill>
+							<effectWorking>Smith</effectWorking>
+							<soundWorking>Recipe_Smith</soundWorking>
+							<skillRequirements>
+								<Crafting>10</Crafting>
+							</skillRequirements>
+							<unfinishedThingDef>UnfinishedAnimalPart</unfinishedThingDef>
+							<researchPrerequisite>VEF_AdvancedAnimalImplants</researchPrerequisite>							
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>Corpse_AA_Barbslinger</li>
+											<li>Corpse_AA_Nightling</li>
+											<li>Corpse_AA_NightAve</li>
+											<li>Corpse_AA_Needleroll</li>
+											<li>Corpse_AA_Needlepost</li>
+
+										</thingDefs>
+									</filter>
+									<count>1</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>Plasteel</li>											
+										</thingDefs>
+									</filter>
+									<count>50</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>ComponentSpacer</li>										
+										</thingDefs>
+									</filter>
+									<count>5</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>Corpse_AA_Barbslinger</li>
+									<li>Corpse_AA_Nightling</li>
+									<li>Corpse_AA_NightAve</li>
+									<li>Corpse_AA_Needleroll</li>
+									<li>Corpse_AA_Needlepost</li>								
+									<li>Plasteel</li>
+									<li>ComponentSpacer</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<defaultIngredientFilter>
+								<thingDefs>
+									<li>Corpse_AA_Barbslinger</li>
+									<li>Corpse_AA_Nightling</li>
+									<li>Corpse_AA_NightAve</li>
+									<li>Corpse_AA_Needleroll</li>
+									<li>Corpse_AA_Needlepost</li>
+									<li>Plasteel</li>
+									<li>ComponentSpacer</li>
+								</thingDefs>
+							</defaultIngredientFilter>
+							<products>
+								<AA_BarbedQuillThrowerImplant>1</AA_BarbedQuillThrowerImplant>
+							</products>
+						</RecipeDef>
+
+						<RecipeDef ParentName="SurgeryRemoveImplantBase">
+							<defName>AA_RemoveBarbedQuillThrowerImplant</defName>
+							<label>remove barbed quill thrower implant</label>
+							<description>Remove barbed quill thrower implant.</description>
+							<descriptionHyperlinks>
+								<ThingDef>AA_BarbedQuillThrowerImplant</ThingDef>
+								<HediffDef>AA_BarbedQuillThrowerImplant</HediffDef>
+							</descriptionHyperlinks>
+							<jobString>Removing barbed quill thrower implant.</jobString>
+							<removesHediff>AA_BarbedQuillThrowerImplant</removesHediff>
+						</RecipeDef>
+					</value>
+				</li>
+
+				<!-- Quad Tesla Cannon -->
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<HediffDef ParentName="ImplantHediffBase">
+							<defName>AA_QuadTeslaCannonImplant</defName>
+							<label>quad tesla cannon implant</label>
+							<labelNoun>a quad tesla cannon implant</labelNoun>
+							<description>An installed quad tesla cannon implant. This implant will allow this creature to use a powerful ranged plasma attack.\n\nNote that installing this on a creature that already has a quad tesla cannon will have no effect.</description>
+							<descriptionHyperlinks>
+								<ThingDef>AA_QuadTeslaCannonImplant</ThingDef>
+							</descriptionHyperlinks>
+							<spawnThingOnRemoved>AA_QuadTeslaCannonImplant</spawnThingOnRemoved>
+							<comps>
+								<li Class="MVCF.Comps.HediffCompProperties_ExtendedVerbGiver">
+									<verbs>
+										<li>
+											<verbClass>Verb_Shoot</verbClass>
+											<accuracyTouch>1</accuracyTouch>
+											<accuracyShort>1</accuracyShort>
+											<accuracyMedium>1</accuracyMedium>
+											<accuracyLong>1</accuracyLong>
+											<hasStandardCommand>true</hasStandardCommand>
+											<defaultProjectile>AA_Plasma</defaultProjectile>
+											<warmupTime>7</warmupTime>
+											<burstShotCount>4</burstShotCount>
+											<minRange>2</minRange>
+											<range>20</range>
+											<soundCast>AA_Plasma</soundCast>
+											<muzzleFlashScale>0</muzzleFlashScale>
+											<label>quad tesla cannon</label>
+											<commonality>1</commonality>
+										</li>
+									</verbs>
+									<verbProps>
+										<li>
+											<label>quad tesla cannon</label> 
+											<draw>false</draw>
+											<canBeToggled>true</canBeToggled>											
+											<canFireIndependently>false</canFireIndependently>
+										</li>
+									</verbProps>
+								</li>
+							</comps>
+							<addedPartProps>
+								<solid>true</solid>								
+								<betterThanNatural>true</betterThanNatural>
+							</addedPartProps>
+						</HediffDef>
+
+						<ThingDef ParentName="VEF_AdvancedBaseADS">
+							<defName>AA_QuadTeslaCannonImplant</defName>
+							<label>quad tesla cannon implant</label>							
+							<description>An installed quad tesla cannon implant. This implant will allow this creature to use a powerful ranged plasma attack.\n\nNote that installing this on a creature that already has a quad tesla cannon will have no effect.</description>
+							<descriptionHyperlinks>
+								<RecipeDef>AA_InstallQuadTeslaCannonImplant</RecipeDef>
+							</descriptionHyperlinks>
+							<statBases>
+								<MarketValue>800</MarketValue>
+								<Mass>2</Mass>
+							</statBases>
+
+						</ThingDef>
+
+						<RecipeDef ParentName="VEF_AdvancedSurgeryInstallImplantBase">
+							<defName>AA_InstallQuadTeslaCannonImplant</defName>
+							<label>install quad tesla cannon implant</label>
+							<description>Install a quad tesla cannon. This implant will allow this creature to use a powerful ranged plasma attack.\n\nNote that installing this on a creature that already has a quad tesla cannon will have no effect.</description>
+							<descriptionHyperlinks>
+								<ThingDef>AA_QuadTeslaCannonImplant</ThingDef>
+								<HediffDef>AA_QuadTeslaCannonImplant</HediffDef>
+							</descriptionHyperlinks>
+							<jobString>Installing quad tesla cannon implant.</jobString>
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>AA_QuadTeslaCannonImplant</li>
+										</thingDefs>
+									</filter>
+									<count>1</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>AA_QuadTeslaCannonImplant</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<appliedOnFixedBodyParts>
+								<li>Body</li>								
+								<li>SnakeBody</li>
+								<li>AA_JellyfishMainBody</li>
+								<li>AA_Protoplasm</li>
+								<li>AA_Thorax</li>
+								<li>AA_SentientPlantBody</li>
+								<li>AA_SlugBody</li>
+							</appliedOnFixedBodyParts>
+							<addsHediff>AA_QuadTeslaCannonImplant</addsHediff>
+						</RecipeDef>
+
+						<RecipeDef>
+							<defName>AA_MakeQuadTeslaCannonImplant</defName>
+							<label>make a quad tesla cannon implant</label>
+							<description>Make a quad tesla cannon implant from a Tetra slug corpse. This implant will allow this creature to use a powerful ranged plasma attack.\n\nNote that installing this on a creature that already has a quad tesla cannon will have no effect.</description>
+							<jobString>Making quad tesla cannon implant</jobString>							
+							<workAmount>15000</workAmount>		
+							<recipeUsers>
+								<li>VEF_AdvancedAnimalImplantsTable</li>
+							</recipeUsers>		
+							<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+							<workSkill>Crafting</workSkill>
+							<effectWorking>Smith</effectWorking>
+							<soundWorking>Recipe_Smith</soundWorking>
+							<skillRequirements>
+								<Crafting>10</Crafting>
+							</skillRequirements>
+							<unfinishedThingDef>UnfinishedAnimalPart</unfinishedThingDef>
+							<researchPrerequisite>VEF_AdvancedAnimalImplants</researchPrerequisite>							
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>Corpse_AA_TetraSlug</li>
+											
+										</thingDefs>
+									</filter>
+									<count>1</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>Plasteel</li>											
+										</thingDefs>
+									</filter>
+									<count>50</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>ComponentSpacer</li>										
+										</thingDefs>
+									</filter>
+									<count>5</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>Corpse_AA_TetraSlug</li>
+									<li>Plasteel</li>
+									<li>ComponentSpacer</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<defaultIngredientFilter>
+								<thingDefs>
+									<li>Corpse_AA_TetraSlug</li>
+									<li>Plasteel</li>
+									<li>ComponentSpacer</li>
+								</thingDefs>
+							</defaultIngredientFilter>
+							<products>
+								<AA_QuadTeslaCannonImplant>1</AA_QuadTeslaCannonImplant>
+							</products>
+						</RecipeDef>
+
+						<RecipeDef ParentName="SurgeryRemoveImplantBase">
+							<defName>AA_RemoveQuadTeslaCannonImplant</defName>
+							<label>remove quad tesla cannon implant</label>
+							<description>Remove quad tesla cannon implant.</description>
+							<descriptionHyperlinks>
+								<ThingDef>AA_QuadTeslaCannonImplant</ThingDef>
+								<HediffDef>AA_QuadTeslaCannonImplant</HediffDef>
+							</descriptionHyperlinks>
+							<jobString>Removing quad tesla cannon implant.</jobString>
+							<removesHediff>AA_QuadTeslaCannonImplant</removesHediff>
+						</RecipeDef>
+					</value>
+				</li>
 
 
 				<!-- Final patch to vanilla to ensure these operations appear in all animals when they should -->
@@ -2892,6 +4067,8 @@
 					<value>
 						<li>AB_InstallSimpleTentacle</li>
 						<li>AB_InstallBionicTentacle</li>
+						<li>AA_InstallSimpleBeak</li>
+						<li>AA_InstallBionicBeak</li>
 						<li>AA_InstallBionicMotionDetector</li>
 						<li>AB_InstallSimpleBuoyancy</li>
 						<li>AA_InstallBionicBuoyancy</li>
@@ -2901,6 +4078,16 @@
 						<li>AA_InstallBionicWing</li>
 						<li>AB_InstallSimpleClaw</li>
 						<li>AA_InstallBionicClaw</li>
+						<li>AA_InstallRangedSpinneretImplant</li>
+						<li>AA_RemoveRangedSpinneretImplant</li>
+						<li>AA_InstallVenomousSpitterImplant</li>
+						<li>AA_RemoveVenomousSpitterImplant</li>
+						<li>AA_InstallAcidicSpitterImplant</li>
+						<li>AA_RemoveAcidicSpitterImplant</li>
+						<li>AA_InstallBarbedQuillThrowerImplant</li>
+						<li>AA_RemoveBarbedQuillThrowerImplant</li>
+						<li>AA_InstallQuadTeslaCannonImplant</li>
+						<li>AA_RemoveQuadTeslaCannonImplant</li>
 
 
 

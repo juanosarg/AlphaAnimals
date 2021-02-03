@@ -51,7 +51,7 @@
 				<range>20</range>
 				<soundCast>AA_Plasma</soundCast>
 				<muzzleFlashScale>0</muzzleFlashScale>
-				<!--Commanility determines how frequent this range verb is chosen.-->
+				<label>quad tesla cannon</label>
 				<commonality>1</commonality>
 			</li>
 

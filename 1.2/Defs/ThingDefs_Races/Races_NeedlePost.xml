@@ -62,7 +62,7 @@
 				<range>20</range>
 				<soundCast>AA_DartSound</soundCast>
 				<muzzleFlashScale>0</muzzleFlashScale>
-				<!--Commanility determines how frequent this range verb is chosen.-->
+				<label>venomous barb</label>
 				<commonality>.99</commonality>
 			</li>
 

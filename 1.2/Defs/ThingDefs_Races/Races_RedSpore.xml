@@ -42,7 +42,7 @@
 				<range>30</range>
 				<soundCast>AA_PoisonBolt</soundCast>
 				<muzzleFlashScale>0</muzzleFlashScale>
-				<!--Commanility determines how frequent this range verb is chosen.-->
+				<label>venomous spit</label>
 				<commonality>.9</commonality>
 			</li>
 

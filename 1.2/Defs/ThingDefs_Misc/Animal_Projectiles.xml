@@ -3,8 +3,8 @@
 
 	<ThingDef ParentName="BaseBullet">
 		<defName>AA_Bullet_Barb</defName>
-		<label>barb</label>
-		<thingClass>AlphaAnimalRangeAttack.AnimalProjectile</thingClass>
+		<label>thrown quill</label>
+		
 		<graphicData>
 			<texPath>Things/Projectiles/AA_Barb</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -19,8 +19,8 @@
 
 	<ThingDef ParentName="BaseBullet">
 		<defName>AA_PoisonBolt</defName>
-		<label>poison spit</label>
-		<thingClass>AlphaAnimalRangeAttack.AnimalProjectile</thingClass>
+		<label>venomous spit</label>
+		
 		<graphicData>
 			<texPath>Things/Projectiles/AA_PoisonBolt</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -59,7 +59,7 @@
 	<ThingDef ParentName="BaseBullet">
 		<defName>AA_AcidBolt</defName>
 		<label>acid spit</label>
-		<thingClass>AlphaAnimalRangeAttack.AnimalProjectile</thingClass>
+		
 		<graphicData>
 			<texPath>Things/Projectiles/AA_PoisonBolt</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -77,7 +77,7 @@
 	<ThingDef ParentName="BaseBullet">
 		<defName>AA_RedPoisonBolt</defName>
 		<label>red poison spit</label>
-		<thingClass>AlphaAnimalRangeAttack.AnimalProjectile</thingClass>
+		
 		<graphicData>
 			<texPath>Things/Projectiles/AA_PoisonBolt</texPath>
 			<color>(.8,0,0)</color>
@@ -94,7 +94,7 @@
 	<ThingDef ParentName="BaseBullet">
 		<defName>AA_Plasma</defName>
 		<label>plasma burst</label>
-		<thingClass>AlphaAnimalRangeAttack.AnimalProjectile</thingClass>
+		
 		<graphicData>
 			<texPath>Things/Projectiles/AA_Plasma</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -102,7 +102,7 @@
 		<projectile>
 			<flyOverhead>false</flyOverhead>
 			<damageDef>Flame</damageDef>
-			<damageAmountBase>20</damageAmountBase>
+			<damageAmountBase>40</damageAmountBase>
 			<speed>25</speed>
 		</projectile>
 	</ThingDef>
@@ -110,7 +110,7 @@
 	<ThingDef ParentName="BaseBullet">
 		<defName>AA_Quill</defName>
 		<label>quill</label>
-		<thingClass>AlphaAnimalRangeAttack.AnimalProjectile</thingClass>
+		
 		<graphicData>
 			<texPath>Things/Projectiles/AA_Quill</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -127,7 +127,7 @@
 	<ThingDef ParentName="BaseBullet">
 		<defName>AA_Bullet_VenomBarb</defName>
 		<label>venomous barb</label>
-		<thingClass>AlphaAnimalRangeAttack.AnimalProjectile</thingClass>
+		
 		<graphicData>
 			<texPath>Things/Projectiles/AA_Barb</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -164,8 +164,6 @@
 	<ThingDef ParentName="BaseBullet">
 		<defName>AA_FrostWeb</defName>
 		<label>frost web</label>
-		<thingClass>AlphaAnimalRangeAttack.AnimalProjectile</thingClass>
-
 		<graphicData>
 			<texPath>Things/Projectiles/AA_Web</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -182,8 +180,6 @@
 	<ThingDef ParentName="BaseBullet">
 		<defName>AA_FireWeb</defName>
 		<label>fire web</label>
-		<thingClass>AlphaAnimalRangeAttack.AnimalProjectile</thingClass>
-
 		<graphicData>
 			<texPath>Things/Projectiles/AA_Web</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -200,7 +196,7 @@
 	<ThingDef ParentName="BaseBullet">
 		<defName>AA_AcidicWeb</defName>
 		<label>acidic web</label>
-		<thingClass>AlphaAnimalRangeAttack.AnimalProjectile</thingClass>
+
 		<graphicData>
 			<texPath>Things/Projectiles/AA_Web</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -218,7 +214,6 @@
 	<ThingDef ParentName="BaseBullet">
 		<defName>AA_Web</defName>
 		<label>web</label>
-		<thingClass>AlphaAnimalRangeAttack.AnimalProjectile</thingClass>
 
 		<graphicData>
 			<texPath>Things/Projectiles/AA_Web</texPath>
@@ -235,7 +230,7 @@
 
 	<ThingDef ParentName="BaseBullet">
 		<defName>AA_IncendiaryMote</defName>
-		<label>fireball</label>
+		<label>thermal detonating spit</label>
 		<graphicData>
 			<texPath>Things/Projectiles/AA_Fireball</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -258,8 +253,7 @@
 	<ThingDef ParentName="BaseBullet">
 		<defName>AA_FireSpit</defName>
 		<label>fire spit</label>
-		<thingClass>AlphaAnimalRangeAttack.AnimalProjectile</thingClass>
-
+		
 		<graphicData>
 			<texPath>Things/Projectiles/AA_FieryProjectile</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

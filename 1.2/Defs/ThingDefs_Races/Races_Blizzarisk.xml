@@ -76,7 +76,7 @@
 				<range>20</range>
 				<soundCast>AA_Throw</soundCast>
 				<muzzleFlashScale>0</muzzleFlashScale>
-				<!--Commanility determines how frequent this range verb is chosen.-->
+				<label>frost web</label>
 				<commonality>.8</commonality>
 			</li>
 

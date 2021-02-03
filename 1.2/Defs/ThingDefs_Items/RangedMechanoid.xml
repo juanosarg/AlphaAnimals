@@ -128,7 +128,7 @@
 	<ThingDef ParentName="BaseBullet">
 		<defName>AA_Bullet_Shell_Demolisher</defName>
 		<label>demolisher charge</label>
-		<thingClass>AlphaAnimalRangeAttack.AnimalProjectile</thingClass>
+		<thingClass>AlphaBehavioursAndEvents.Siege_Projectile</thingClass>
 		<graphicData>
 			<texPath>Things/Pawn/Animal/AA_ArcticLion/AA_ArcticLion_Invisible</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -185,7 +185,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>AA_FlamethrowerBullet</defaultProjectile>
-				<forcedMissRadius>2</forcedMissRadius>
+				
 				<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
 				<warmupTime>0.3</warmupTime>
 				<range>8</range>
@@ -215,7 +215,7 @@
 	</ThingDef>
 
 
-	<ThingDef ParentName="AA_BaseMechProjectile">
+	<!--<ThingDef ParentName="AA_BaseMechProjectile">
 		<defName>AA_FlamethrowerBullet</defName>
 		<label>chemical fire</label>
 		<graphicData>
@@ -235,7 +235,39 @@
 			<soundExplode>Interact_Ignite</soundExplode>
 
 		</projectile>
-	</ThingDef>
+	</ThingDef>-->
+	
+	<VFECore.ExpandableProjectileDef ParentName="AA_BaseMechProjectile">
+		<defName>AA_FlamethrowerBullet</defName>
+		<label>chemical fire</label>
+		<thingClass>VFECore.FlamethrowProjectile</thingClass>
+		<graphicData>
+			<texPath>Things/Projectiles/Proj_FireStream</texPath>
+			<texPathFadeOut>Things/Projectiles/Proj_FireStreamFadeOut</texPathFadeOut>
+			<shaderType>MoteGlow</shaderType>
+		</graphicData>
+		<drawOffscreen>true</drawOffscreen>
+		<lifeTimeDuration>50</lifeTimeDuration>
+		<widthScaleFactor>0.65</widthScaleFactor>
+		<heightScaleFactor>1</heightScaleFactor>
+		<startingPositionOffset>(0, 0, -2)</startingPositionOffset>
+		<totalSizeScale>2</totalSizeScale>
+		<tickFrameRate>4</tickFrameRate>
+		<finalTickFrameRate>5</finalTickFrameRate>
+		<tickDamageRate>20</tickDamageRate>
+		<dealsDamageOnce>true</dealsDamageOnce>
+		<minDistanceToAffect>2</minDistanceToAffect>
+		<projectile>
+			<damageDef>Flame</damageDef>		
+			<flyOverhead>false</flyOverhead>
+			<damageAmountBase>5</damageAmountBase>
+			<stoppingPower>1.5</stoppingPower>
+			<ai_IsIncendiary>true</ai_IsIncendiary>
+			<preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+			<preExplosionSpawnChance>0.6</preExplosionSpawnChance>
+			<speed>40</speed>
+		</projectile>
+	</VFECore.ExpandableProjectileDef>
 
 	<!-- Cryoweapon -->
 

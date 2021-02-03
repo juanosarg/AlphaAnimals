@@ -54,10 +54,9 @@
 		<minRange>2</minRange>
 		<range>30</range>
 		<forcedMissRadius>2</forcedMissRadius>
-
 		<soundCast>AA_PoisonBolt</soundCast>
 		<muzzleFlashScale>0</muzzleFlashScale>
-		<!--Commanility determines how frequent this range verb is chosen.-->
+		<label>thermal detonating spit</label>
 		<commonality>.9</commonality>
 	</li>
 

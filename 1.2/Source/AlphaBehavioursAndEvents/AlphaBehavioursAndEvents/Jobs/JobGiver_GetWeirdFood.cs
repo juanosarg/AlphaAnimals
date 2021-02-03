@@ -86,7 +86,7 @@ namespace AlphaBehavioursAndEvents
 
             }
             else return null;
-            if (thing != null)
+            if (thing != null && pawn.Map.reservationManager.CanReserve(pawn, thing, 1))
             {
                 //float nutrition = 1f;
                 Job job3 = JobMaker.MakeJob(DefDatabase<JobDef>.GetNamed("AA_IngestWeird", true), thing);
