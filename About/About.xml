@@ -40,7 +40,7 @@ Adds 100+ new, vanilla-friendly creatures to the diverse biomes of your Rimworld
 
 These animals will spawn in certain biomes, some others will only be available via traders. You'll have to explore to find them all! The Alpha Biomes is a companion mod that adds several new alien biomes to house these weird creatures.
 
-Bear in mind that spawn probabilities have been calculated with no other animal mods installed. If you have, for example, Animal Collab Project, less animals from this mod will appear, obviously.
+Bear in mind that spawn probabilities have been calculated with no other animal mods installed. If you have, for example, Vanilla Animals Expanded, less animals from this mod will appear, obviously.
 
 The mod will also add new insects in a new faction, the Black Hive. Raids from that faction can be disabled via Mod Options.
 
@@ -61,8 +61,6 @@ Compatible with Advanced Biomes
 Compatible with Rainbeau Realistic Planets
 Compatible with Lords of the Rims - Elves (mallorn biome)
 Compatible with Boats
-Uses Harmony (dependency)
-
 
 &lt;size=24&gt;Credit&lt;/size&gt;
 Original creature graphics: A_Friend, aka SentientLine
@@ -75,6 +73,7 @@ Fireball Graphic created by StarsteelGaming at OpenGameArt.org (2018)
 Using NocturnalAnimals DLL by XeoNovaDan
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
+v3.2: Complete overhaul of the ranged animal system (04/02/21)
 v3.1: Added 5 new animals (11/01/21) 
 v3.0: Added 6 new Alpha mechanoid variants for Vanilla Factions Expanded - Mechanoids (21/12/20)
 v2.10: Added 1 new animal and Aerofleet energy system (02/12/20)
