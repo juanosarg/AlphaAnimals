@@ -130,7 +130,56 @@
 	<AA_DisableAnimal>Disable {0}</AA_DisableAnimal>
 
 
+	<!-- Animal Stats -->
+	
+	<AA_PrimaryRole>Primary Role</AA_PrimaryRole>
+	<AA_SecondaryRole>Secondary Role</AA_SecondaryRole>
+	<AA_RangedAttacks>Uses Ranged Attacks</AA_RangedAttacks>
+	<AA_Yes>Yes</AA_Yes>
+	<AA_No>No</AA_No>
+	<AA_NoRanged>This animal doesn't have ranged attacks. To order it to attack, it needs to be trained in Guard and Attack, then it needs to be assigned to follow a master when drafted and/or working. The "release" button on the master's commands bar will make the animal attack in melee.</AA_NoRanged>
+	<AA_Ranged>This animal uses ranged attacks, and will only use melee attacks if the enemy gets into melee range. To order it to attack, it needs to be trained in Guard and Attack, then it needs to be assigned to follow a master when drafted and/or working. The "release" button on the master's commands bar will make the animal search for appropiate cover and use its ranged attack.</AA_Ranged>
+	
+	<!-- Roles -->
 
+	<AA_Tank>Tank</AA_Tank>
+	<AA_ShockTroop>Shock Troop</AA_ShockTroop>
+	<AA_ParalizingRanged>Paralyzing Ranged</AA_ParalizingRanged>
+	<AA_DamageRanged>Ranged Attacker</AA_DamageRanged>
+	<AA_DamageRangedPoison>Poison Ranged Attacker</AA_DamageRangedPoison>
+	<AA_Farm>Farm Animal</AA_Farm>
+	<AA_MountFast>Fast Mount</AA_MountFast>
+	<AA_MountArmoured>Armoured Mount</AA_MountArmoured>
+	<AA_MountFastArmoured>Armoured and Fast Mount</AA_MountFastArmoured>
+	<AA_Utility>Utility</AA_Utility>
+	<AA_Boomer>Boomer</AA_Boomer>
+	<AA_Larva>Larva</AA_Larva>
+	
+	<!-- Roles Descriptions -->
+	
+	<AA_VenomousTankDesc>"Tank" animals are specialized in melee combat. These animals have high attack damage, good resistance, high health, or other abilities that allow them to survive in the front lines.\n\nThis animal also has powerful venomous attacks.</AA_VenomousTankDesc>
+	<AA_ArmouredTankDesc>"Tank" animals are specialized in melee combat. These animals have high attack damage, good resistance, high health, or other abilities that allow them to survive in the front lines.</AA_ArmouredTankDesc>
+	<AA_ShockTroopDesc>"Shock Troop" animals are specialized in high speed, and some ability that adds utility to melee combat. They may not be very resistant, or have high health, but if properly used they can have devastating effects.</AA_ShockTroopDesc>
+	<AA_ShockTroopDOTDesc>"Shock Troop" animals are specialized in high speed, and some ability that adds utility to melee combat. They may not be very resistant, or have high health, but if properly used they can have devastating effects.\n\nThis animal has a melee attack that causes damage over time.</AA_ShockTroopDOTDesc>
+	<AA_ParalyzingShockTroopDesc>"Shock Troop" animals are specialized in high speed, and some ability that adds utility to melee combat. They may not be very resistant, or have high health, but if properly used they can have devastating effects.\n\nThis animal also has attacks that can be used to immobilize attackers.</AA_ParalyzingShockTroopDesc>
+	<AA_FireyShockTroopDesc>"Shock Troop" animals are specialized in high speed, and some ability that adds utility to melee combat. They may not be very resistant, or have high health, but if properly used they can have devastating effects.\n\nThis animal also has attacks that set enemies on fire.</AA_FireyShockTroopDesc>
+	<AA_ParalyzingRangedDesc>"Paralyzing Ranged" animals use ranged attacks to immobilize attackers. Having them in melee might not be the best use for them.</AA_ParalyzingRangedDesc>
+	<AA_DamageRangedDesc>This animal uses ranged attacks to damage attackers. Having them in melee might not be the best use for them.</AA_DamageRangedDesc>
+	<AA_DamageRangedDOTDesc>This animal uses ranged attacks to damage attackers. These attacks cause damage over time. Having them in melee might not be the best use for them.</AA_DamageRangedDOTDesc>
+	<AA_DamageRangedPoisonDesc>This animal uses ranged attacks to damage attackers. These attacks cause toxic damage. Having them in melee might not be the best use for them.</AA_DamageRangedPoisonDesc>
+	<AA_FarmMilkDesc>This is a farm animal that produces milk.</AA_FarmMilkDesc>
+	<AA_FarmFoodDesc>This is a farm animal that produces food items.</AA_FarmFoodDesc>
+	<AA_FarmWoolDesc>This is a farm animal that produces wool / textiles.</AA_FarmWoolDesc>
+	<AA_MountFastDesc>This animal can be mounted by colonists, providing a considerable speed boost, as well as being able to attack in melee along with its rider. Bear in mind that this whole interaction is only available if you have the Giddy Up! mod installed. And if you don't, what are you waiting for?</AA_MountFastDesc>
+	<AA_MountFastArmouredDesc>This animal can be mounted by colonists, providing a considerable speed boost, a defense boost due to extra armour, as well as being able to attack in melee along with its rider. Bear in mind that this whole interaction is only available if you have the Giddy Up! mod installed. And if you don't, what are you waiting for?</AA_MountFastArmouredDesc>
+	<AA_UtilityMoodDesc>This animal is not suited for combat, being quite physically weak. It will however increase the mood of your colonists, either through nuzzling or other alternative abilities.</AA_UtilityMoodDesc>
+	<AA_UtilityWorkerDesc>This animal is not suited for combat, being quite physically weak. It will however help your colonists with certain tasks (Mining, Harvesting, Cleaning, etc), reducing their work load considerably.</AA_UtilityWorkerDesc>
+	<AA_UtilityHealthDesc>This animal is not suited for combat, being quite physically weak. It will however help your colonists' health, either by healing wounds or somehow strengthening them.</AA_UtilityHealthDesc>
+	<AA_UtilityTemperatureDesc>This animal is not suited for combat, being quite physically weak. It will however help you control your colony's heat.</AA_UtilityTemperatureDesc>
+	<AA_UtilityPowerDesc>This animal is not suited for combat, being quite physically weak. It will however produce items that can be used to build power generators.</AA_UtilityPowerDesc>
+	<AA_UtilityRecycling>This animal is not suited for combat, being quite physically weak. It will eat textiles, getting rid of unwanted items to regulate your colony's wealth.</AA_UtilityRecycling>
+	<AA_BoomerDesc>This animal explodes on death.</AA_BoomerDesc>
+	<AA_LarvaDesc>This animal is a larval form, not suited for combat. You should keep it well defended if you want it to transform into its adult form.</AA_LarvaDesc>
 
 
 

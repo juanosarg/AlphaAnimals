@@ -103,6 +103,27 @@
 		<tradeTags>
 			<li>AnimalExotic</li>
 		</tradeTags>
+		<modExtensions>
+			<li Class="AnimalBehaviours.AnimalStatExtension">
+				
+				<statToAdd>
+					
+					<li>AA_PrimaryRole</li>
+					<li>AA_RangedAttacks</li>					
+				</statToAdd>
+				<statValues>
+					
+					<li>AA_Utility</li>
+					<li>AA_No</li>					
+				</statValues>
+				<statDescriptions>
+					
+					<li>AA_UtilityWorkerDesc</li>
+					<li>AA_NoRanged</li>
+				</statDescriptions>
+					
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">
@@ -217,6 +238,27 @@
 			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 
 		</race>
+		<modExtensions>
+			<li Class="AnimalBehaviours.AnimalStatExtension">
+				
+				<statToAdd>
+					
+					<li>AA_PrimaryRole</li>
+					<li>AA_RangedAttacks</li>					
+				</statToAdd>
+				<statValues>
+					
+					<li>AA_Utility</li>
+					<li>AA_No</li>					
+				</statValues>
+				<statDescriptions>
+					
+					<li>AA_UtilityWorkerDesc</li>
+					<li>AA_NoRanged</li>
+				</statDescriptions>
+					
+			</li>
+		</modExtensions>
 
 		<tradeTags>
 			<li>AnimalExotic</li>
@@ -338,7 +380,27 @@
 			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 
 		</race>
-
+		<modExtensions>
+			<li Class="AnimalBehaviours.AnimalStatExtension">
+				
+				<statToAdd>
+					
+					<li>AA_PrimaryRole</li>
+					<li>AA_RangedAttacks</li>					
+				</statToAdd>
+				<statValues>
+					
+					<li>AA_Utility</li>
+					<li>AA_No</li>					
+				</statValues>
+				<statDescriptions>
+					
+					<li>AA_UtilityWorkerDesc</li>
+					<li>AA_NoRanged</li>
+				</statDescriptions>
+					
+			</li>
+		</modExtensions>
 		<tradeTags>
 			<li>AnimalExotic</li>
 		</tradeTags>

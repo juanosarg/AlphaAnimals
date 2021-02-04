@@ -77,6 +77,27 @@
 		<tradeTags>
 			<li>AnimalCommon</li>
 		</tradeTags>
+		<modExtensions>
+			<li Class="AnimalBehaviours.AnimalStatExtension">
+
+				<statToAdd>
+					
+					<li>AA_PrimaryRole</li>
+					<li>AA_RangedAttacks</li>					
+				</statToAdd>
+				<statValues>
+				
+					<li>AA_Larva</li>
+					<li>AA_No</li>					
+				</statValues>
+				<statDescriptions>
+					
+					<li>AA_LarvaDesc</li>
+					<li>AA_NoRanged</li>
+				</statDescriptions>
+
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">
@@ -223,6 +244,27 @@
 			<li>AnimalExotic</li>
 			<li>AnimalAlpha</li>
 		</tradeTags>
+		<modExtensions>
+			<li Class="AnimalBehaviours.AnimalStatExtension">
+
+				<statToAdd>
+
+					<li>AA_PrimaryRole</li>
+					<li>AA_RangedAttacks</li>					
+				</statToAdd>
+				<statValues>
+
+					<li>AA_Tank</li>
+					<li>AA_No</li>					
+				</statValues>
+				<statDescriptions>
+
+					<li>AA_VenomousTankDesc</li>
+					<li>AA_NoRanged</li>
+				</statDescriptions>
+
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">
