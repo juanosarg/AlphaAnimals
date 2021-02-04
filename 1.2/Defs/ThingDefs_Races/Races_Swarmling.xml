@@ -115,6 +115,27 @@
 		<tradeTags>
 			<li>AnimalCommon</li>
 		</tradeTags>
+		<modExtensions>
+			<li Class="AnimalBehaviours.AnimalStatExtension">
+
+				<statToAdd>
+
+					<li>AA_PrimaryRole</li>
+					<li>AA_RangedAttacks</li>					
+				</statToAdd>
+				<statValues>
+
+					<li>AA_Pest</li>
+					<li>AA_No</li>					
+				</statValues>
+				<statDescriptions>
+
+					<li>AA_PestDesc</li>
+					<li>AA_NoRanged</li>
+				</statDescriptions>
+
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">

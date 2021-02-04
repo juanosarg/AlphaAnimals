@@ -102,15 +102,15 @@
 		</comps>
 		<race>
 			<wildBiomes>
-			
-		
+
+
 				<TemperateSwamp>0.15</TemperateSwamp>
 				<TropicalSwamp>0.15</TropicalSwamp>
 				<TemperateForest>0.07</TemperateForest>
 				<TropicalRainforest>0.15</TropicalRainforest>
-     
+
 			</wildBiomes>
-						<canBePredatorPrey>false</canBePredatorPrey>
+			<canBePredatorPrey>false</canBePredatorPrey>
 
 			<predator>true</predator>
 			<body>AA_Arachnid</body>
@@ -120,7 +120,7 @@
 			<baseHealthScale>1.2</baseHealthScale>
 			<leatherDef>Leather_Chitin</leatherDef>
 			<bloodDef>Filth_BloodInsect</bloodDef>
-      <useMeatFrom>Megaspider</useMeatFrom>
+			<useMeatFrom>Megaspider</useMeatFrom>
 			<foodType>OmnivoreAnimal, AnimalProduct</foodType>
 			<wildness>0.985</wildness>
 			<trainability>Advanced</trainability>
@@ -162,6 +162,27 @@
 		<tradeTags>
 			<li>AnimalExotic</li>
 		</tradeTags>
+		<modExtensions>
+			<li Class="AnimalBehaviours.AnimalStatExtension">
+
+				<statToAdd>
+					<li>AA_SecondaryRole</li>
+					<li>AA_PrimaryRole</li>
+					<li>AA_RangedAttacks</li>					
+				</statToAdd>
+				<statValues>
+					<li>AA_Farm</li>
+					<li>AA_ParalizingRanged</li>
+					<li>AA_Yes</li>					
+				</statValues>
+				<statDescriptions>
+					<li>AA_FarmWoolDesc</li>
+					<li>AA_ParalyzingRangedDesc</li>
+					<li>AA_Ranged</li>
+				</statDescriptions>
+
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">
@@ -290,7 +311,7 @@
 		</verbs>
 		<comps>
 
-			
+
 			<li Class="CompProperties_EggLayer">
 				<eggUnfertilizedDef>AA_FeraliskSuperEggFertilized</eggUnfertilizedDef>
 				<eggFertilizedDef>AA_FeraliskSuperEggFertilized</eggFertilizedDef>
@@ -314,7 +335,7 @@
 			<baseHealthScale>3</baseHealthScale>
 			<leatherDef>Leather_Chitin</leatherDef>
 			<bloodDef>Filth_BloodInsect</bloodDef>
-      <useMeatFrom>Megaspider</useMeatFrom>
+			<useMeatFrom>Megaspider</useMeatFrom>
 			<foodType>OmnivoreAnimal, AnimalProduct</foodType>
 			<wildness>3</wildness>
 			<trainability>Advanced</trainability>
@@ -357,6 +378,27 @@
 			<li>AnimalExotic</li>
 			<li>AnimalAlpha</li>
 		</tradeTags>
+		<modExtensions>
+			<li Class="AnimalBehaviours.AnimalStatExtension">
+
+				<statToAdd>
+					<li>AA_SecondaryRole</li>
+					<li>AA_PrimaryRole</li>
+					<li>AA_RangedAttacks</li>					
+				</statToAdd>
+				<statValues>
+					<li>AA_Farm</li>
+					<li>AA_ParalizingRanged</li>
+					<li>AA_Yes</li>					
+				</statValues>
+				<statDescriptions>
+					<li>AA_FarmWoolDesc</li>
+					<li>AA_ParalyzingRangedDesc</li>
+					<li>AA_Ranged</li>
+				</statDescriptions>
+
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">
@@ -365,7 +407,7 @@
 		<label>feralisk clutch mother</label>
 		<combatPower>600</combatPower>
 		<ecoSystemWeight>0.2</ecoSystemWeight>
-   		<canArriveManhunter>false</canArriveManhunter>
+		<canArriveManhunter>false</canArriveManhunter>
 
 		<lifeStages>
 			<li>

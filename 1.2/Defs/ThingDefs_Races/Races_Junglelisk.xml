@@ -154,6 +154,27 @@
 			<li>AnimalExotic</li>
 			<li>AnimalAlpha</li>
 		</tradeTags>
+		<modExtensions>
+			<li Class="AnimalBehaviours.AnimalStatExtension">
+
+				<statToAdd>
+					<li>AA_SecondaryRole</li>
+					<li>AA_PrimaryRole</li>
+					<li>AA_RangedAttacks</li>					
+				</statToAdd>
+				<statValues>
+					<li>AA_Farm</li>
+					<li>AA_ParalizingRanged</li>
+					<li>AA_Yes</li>					
+				</statValues>
+				<statDescriptions>
+					<li>AA_FarmWoolDesc</li>
+					<li>AA_ParalyzingRangedDesc</li>
+					<li>AA_Ranged</li>
+				</statDescriptions>
+
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">

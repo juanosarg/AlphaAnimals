@@ -55,13 +55,13 @@
 			<foodType>OmnivoreAnimal, AnimalProduct</foodType>
 			<wildness>0.95</wildness>
 			<trainability>Simple</trainability>
-			 <useMeatFrom>Megaspider</useMeatFrom>
-	  <leatherDef>Leather_BlackChitin</leatherDef>
+			<useMeatFrom>Megaspider</useMeatFrom>
+			<leatherDef>Leather_BlackChitin</leatherDef>
 			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.10</manhunterOnDamageChance>
-		
+
 			<lifeExpectancy>20</lifeExpectancy>
-			
+
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>
@@ -74,10 +74,10 @@
 				<li>
 					<def>AnimalAdult</def>
 					<minAge>.5</minAge>
-					 <soundWounded>Pawn_BigInsect_Pain</soundWounded>
-          <soundDeath>Pawn_BigInsect_Death</soundDeath>
-          <soundCall>Pawn_BigInsect_Call</soundCall>
-          <soundAngry>Pawn_BigInsect_Angry</soundAngry>
+					<soundWounded>Pawn_BigInsect_Pain</soundWounded>
+					<soundDeath>Pawn_BigInsect_Death</soundDeath>
+					<soundCall>Pawn_BigInsect_Call</soundCall>
+					<soundAngry>Pawn_BigInsect_Angry</soundAngry>
 				</li>
 			</lifeStageAges>
 			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
@@ -90,6 +90,27 @@
 			<li>AnimalUncommon</li>
 			<li>AnimalFighter</li>
 		</tradeTags>
+		<modExtensions>
+			<li Class="AnimalBehaviours.AnimalStatExtension">
+
+				<statToAdd>
+
+					<li>AA_PrimaryRole</li>
+					<li>AA_RangedAttacks</li>					
+				</statToAdd>
+				<statValues>
+
+					<li>AA_ShockTroop</li>
+					<li>AA_No</li>					
+				</statValues>
+				<statDescriptions>
+
+					<li>AA_ShockTroopDesc</li>
+					<li>AA_NoRanged</li>
+				</statDescriptions>
+
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">

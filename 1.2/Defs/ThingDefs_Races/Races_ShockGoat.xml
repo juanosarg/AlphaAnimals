@@ -114,7 +114,29 @@
 		</race>
 		<tradeTags>
 			<li>AnimalCommon</li>
-			<li>AnimalFarm</li>    </tradeTags>
+			<li>AnimalFarm</li>
+		</tradeTags>
+		<modExtensions>
+			<li Class="AnimalBehaviours.AnimalStatExtension">
+
+				<statToAdd>
+					<li>AA_SecondaryRole</li>
+					<li>AA_PrimaryRole</li>
+					<li>AA_RangedAttacks</li>					
+				</statToAdd>
+				<statValues>
+					<li>AA_Farm</li>
+					<li>AA_ParalyzingShockTroop</li>
+					<li>AA_No</li>					
+				</statValues>
+				<statDescriptions>
+					<li>AA_FarmMilkDesc</li>
+					<li>AA_ParalyzingShockTroopDesc</li>
+					<li>AA_NoRanged</li>
+				</statDescriptions>
+
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">

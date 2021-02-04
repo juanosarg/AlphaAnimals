@@ -107,6 +107,27 @@
 		<tradeTags>
 			<li>AnimalExotic</li>
 		</tradeTags>
+		<modExtensions>
+			<li Class="AnimalBehaviours.AnimalStatExtension">
+
+				<statToAdd>
+					
+					<li>AA_PrimaryRole</li>
+					<li>AA_RangedAttacks</li>					
+				</statToAdd>
+				<statValues>
+				
+					<li>AA_Boomer</li>
+					<li>AA_Yes</li>					
+				</statValues>
+				<statDescriptions>
+					
+					<li>AA_BoomerDesc</li>
+					<li>AA_Ranged</li>
+				</statDescriptions>
+
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">

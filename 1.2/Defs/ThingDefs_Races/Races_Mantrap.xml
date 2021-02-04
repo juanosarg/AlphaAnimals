@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!-- ============================================================ -->
-  
-<ThingDef ParentName="AnimalThingBase">
+	<!-- ============================================================ -->
+
+	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_Mantrap</defName>
 		<label>mantrap</label>
 		<description>Project Apricus was a classified scientific endeavour on one of the RimWorlds aiming to discover new ways to fight the Mechanoid menace using nature. The mantrap was created as an attempt to weaponize a mutated Dionaea muscipula (Venus flytrap) by implanting concentrated formic acid spit launchers on its jaws. This strong acid was theorically powerful enough to corrode the plasteel on Mechanoid carapaces.\n\nProject Apricus was invaded by a huge Mechanoid host shortly thereafter, most of its personnel slain, and most of the projects left to fend for themselves.</description>
@@ -16,7 +16,7 @@
 			<MeatAmount>0</MeatAmount>
 
 		</statBases>
-			
+
 		<tools>
 			<li>
 				<label>razor barbs</label>
@@ -34,10 +34,10 @@
 				<cooldownTime>1.35</cooldownTime>
 				<linkedBodyPartsGroup>AA_Mouth</linkedBodyPartsGroup>
 			</li>
-			 <li>
+			<li>
 				<label>head</label>
 				<capacities>
-				  <li>Blunt</li>
+					<li>Blunt</li>
 				</capacities>
 				<power>4</power>
 				<cooldownTime>2</cooldownTime>
@@ -46,7 +46,7 @@
 				<chanceFactor>0.1</chanceFactor>
 			</li>
 		</tools>
-			<verbs>
+		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<accuracyTouch>1</accuracyTouch>
@@ -68,24 +68,24 @@
 
 		</verbs>
 		<comps>		
-		<li Class="AlphaBehavioursAndEvents.CompProperties_LightSustenance">
-			
-        </li>
-    </comps>
+			<li Class="AlphaBehavioursAndEvents.CompProperties_LightSustenance">
+
+			</li>
+		</comps>
 		<race>
-      <wildBiomes>
-        <Desert>0.01</Desert>
-        <ExtremeDesert>0.01</ExtremeDesert>
-        <AridShrubland>0.1</AridShrubland>
-		<TemperateForest>0.05</TemperateForest>
-		<TemperateSwamp>0.07</TemperateSwamp>
-		<BorealForest>0.01</BorealForest>
-		<TropicalRainforest>0.1</TropicalRainforest>
-		<TropicalSwamp>0.1</TropicalSwamp>
-		<ColdBog>0.05</ColdBog>
-      </wildBiomes>
+			<wildBiomes>
+				<Desert>0.01</Desert>
+				<ExtremeDesert>0.01</ExtremeDesert>
+				<AridShrubland>0.1</AridShrubland>
+				<TemperateForest>0.05</TemperateForest>
+				<TemperateSwamp>0.07</TemperateSwamp>
+				<BorealForest>0.01</BorealForest>
+				<TropicalRainforest>0.1</TropicalRainforest>
+				<TropicalSwamp>0.1</TropicalSwamp>
+				<ColdBog>0.05</ColdBog>
+			</wildBiomes>
 			<predator>true</predator>
-	        <maxPreyBodySize>1</maxPreyBodySize>
+			<maxPreyBodySize>1</maxPreyBodySize>
 			<body>AA_FlyTrap</body>
 			<herdAnimal>true</herdAnimal>
 			<baseBodySize>2</baseBodySize>
@@ -129,54 +129,75 @@
 		<butcherProducts>
 			<AA_CactusMeat>2</AA_CactusMeat>
 		</butcherProducts>
-				<tradeTags>
+		<tradeTags>
 			<li>AnimalUncommon</li>
-      <li>AnimalFighter</li>
+			<li>AnimalFighter</li>
 		</tradeTags>
-</ThingDef>
+		<modExtensions>
+			<li Class="AnimalBehaviours.AnimalStatExtension">
 
-<PawnKindDef ParentName="AnimalKindBase">
-    <defName>AA_Mantrap</defName>
-    <race>AA_Mantrap</race>
-    <label>mantrap</label>
-    <combatPower>200</combatPower>
-    <ecoSystemWeight>0.5</ecoSystemWeight>
-    <wildGroupSize>
-      <min>1</min>
-      <max>4</max>
-    </wildGroupSize>
-    <lifeStages>
-      <li>
-        <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/AA_Mantrap/AA_Mantrap</texPath>
-          <drawSize>1.5</drawSize>
-        </bodyGraphicData>
-        <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/AA_Mantrap/AA_Dessicated_Mantrap</texPath>
-          <drawSize>1.5</drawSize>
-        </dessicatedBodyGraphicData>
-      </li>
-      <li>
-        <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/AA_Mantrap/AA_Mantrap</texPath>
-          <drawSize>1.75</drawSize>
-        </bodyGraphicData>
-        <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/AA_Mantrap/AA_Dessicated_Mantrap</texPath>
-          <drawSize>1.75</drawSize>
-        </dessicatedBodyGraphicData>
-      </li>
-      <li>
-        <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/AA_Mantrap/AA_Mantrap</texPath>
-          <drawSize>2</drawSize>
-        </bodyGraphicData>
-        <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/AA_Mantrap/AA_Dessicated_Mantrap</texPath>
-          <drawSize>2</drawSize>
-        </dessicatedBodyGraphicData>
-      </li>
-    </lifeStages>
-</PawnKindDef>
+				<statToAdd>
+
+					<li>AA_PrimaryRole</li>
+					<li>AA_RangedAttacks</li>					
+				</statToAdd>
+				<statValues>
+
+					<li>AA_DamageRangedDOT</li>
+					<li>AA_Yes</li>					
+				</statValues>
+				<statDescriptions>
+
+					<li>AA_DamageRangedDOTDesc</li>
+					<li>AA_Ranged</li>
+				</statDescriptions>
+
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>AA_Mantrap</defName>
+		<race>AA_Mantrap</race>
+		<label>mantrap</label>
+		<combatPower>200</combatPower>
+		<ecoSystemWeight>0.5</ecoSystemWeight>
+		<wildGroupSize>
+			<min>1</min>
+			<max>4</max>
+		</wildGroupSize>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_Mantrap/AA_Mantrap</texPath>
+					<drawSize>1.5</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_Mantrap/AA_Dessicated_Mantrap</texPath>
+					<drawSize>1.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_Mantrap/AA_Mantrap</texPath>
+					<drawSize>1.75</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_Mantrap/AA_Dessicated_Mantrap</texPath>
+					<drawSize>1.75</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_Mantrap/AA_Mantrap</texPath>
+					<drawSize>2</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_Mantrap/AA_Dessicated_Mantrap</texPath>
+					<drawSize>2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
 
 </Defs>

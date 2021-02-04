@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!-- ============================================================ -->
-  
-<ThingDef ParentName="AnimalThingBase">
+	<!-- ============================================================ -->
+
+	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_Needlepost</defName>
 		<label>needlepost</label>
 		<description>A cactus genetically modified to give it sentience. The first iteration of this creature was supposed to be a stationary tactical deterrent (the Whip Cactus), but having no intelligence or mobility crippled its effectiveness. With a little genetic engineering, it was given a mobile body, an infantile intelligence, and toxic barbs for good measure. The result backfired as commands proved ineffective. The facility was promptly overrun by the experiments; and a horde of angry cactuses escaped into the wilderness.\n\nNeedleposts can derive nutrition from very small amounts of rotting vegetables, but they need a huge amount of sunlight (or equivalent) over anything else. Nights won't affect them, but a solar eclipse is usually fatal to them.</description>
@@ -16,7 +16,7 @@
 			<MeatAmount>0</MeatAmount>
 
 		</statBases>
-			<tickerType>Normal</tickerType>
+		<tickerType>Normal</tickerType>
 
 		<tools>
 			<li>
@@ -35,19 +35,19 @@
 				<cooldownTime>1.35</cooldownTime>
 				<linkedBodyPartsGroup>AA_Mouth</linkedBodyPartsGroup>
 			</li>
-			 <li>
-        <label>head</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>4</power>
-        <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-        <chanceFactor>0.1</chanceFactor>
-      </li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>4</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.1</chanceFactor>
+			</li>
 		</tools>
-			<verbs>
+		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<accuracyTouch>1</accuracyTouch>
@@ -69,23 +69,23 @@
 
 		</verbs>
 		<comps>		
-		<li Class="AlphaBehavioursAndEvents.CompProperties_LightSustenance">
-			
-        </li>
-    </comps>
+			<li Class="AlphaBehavioursAndEvents.CompProperties_LightSustenance">
+
+			</li>
+		</comps>
 		<race>
-      <wildBiomes>
-        <Desert>0.1</Desert>
-        <ExtremeDesert>0.04</ExtremeDesert>
-        <AridShrubland>0.07</AridShrubland>
-      </wildBiomes>
-      <predator>false</predator>
+			<wildBiomes>
+				<Desert>0.1</Desert>
+				<ExtremeDesert>0.04</ExtremeDesert>
+				<AridShrubland>0.07</AridShrubland>
+			</wildBiomes>
+			<predator>false</predator>
 			<body>AA_SentientPlant</body>
 			<herdAnimal>true</herdAnimal>
 			<baseBodySize>0.79</baseBodySize>
 			<baseHungerRate>0.05</baseHungerRate>
 			<baseHealthScale>2.2</baseHealthScale>
-      		<foodType>VegetarianRoughAnimal</foodType>
+			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>Leather_Cactus</leatherDef>
 			<wildness>0.6</wildness>
 			<trainability>Intermediate</trainability>
@@ -123,53 +123,74 @@
 		<butcherProducts>
 			<AA_CactusMeat>2</AA_CactusMeat>
 		</butcherProducts>
-				<tradeTags>
+		<tradeTags>
 			<li>AnimalExotic</li>
 		</tradeTags>
-</ThingDef>
+		<modExtensions>
+			<li Class="AnimalBehaviours.AnimalStatExtension">
 
-<PawnKindDef ParentName="AnimalKindBase">
-    <defName>AA_Needlepost</defName>
-    <race>AA_Needlepost</race>
-    <label>needlepost</label>
-    <combatPower>90</combatPower>
-    <ecoSystemWeight>1</ecoSystemWeight>
-    <wildGroupSize>
-      <min>6</min>
-      <max>10</max>
-    </wildGroupSize>
-    <lifeStages>
-      <li>
-        <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/AA_NeedlePost/AA_NeedlePost</texPath>
-          <drawSize>0.8</drawSize>
-        </bodyGraphicData>
-        <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/AA_NeedlePost/AA_Dessicated_NeedlePost</texPath>
-          <drawSize>0.8</drawSize>
-        </dessicatedBodyGraphicData>
-      </li>
-      <li>
-        <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/AA_NeedlePost/AA_NeedlePost</texPath>
-          <drawSize>1.4</drawSize>
-        </bodyGraphicData>
-        <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/AA_NeedlePost/AA_Dessicated_NeedlePost</texPath>
-          <drawSize>1.4</drawSize>
-        </dessicatedBodyGraphicData>
-      </li>
-      <li>
-        <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/AA_NeedlePost/AA_NeedlePost</texPath>
-          <drawSize>1.8</drawSize>
-        </bodyGraphicData>
-        <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/AA_NeedlePost/AA_Dessicated_NeedlePost</texPath>
-          <drawSize>1.8</drawSize>
-        </dessicatedBodyGraphicData>
-      </li>
-    </lifeStages>
-</PawnKindDef>
+				<statToAdd>
+
+					<li>AA_PrimaryRole</li>
+					<li>AA_RangedAttacks</li>					
+				</statToAdd>
+				<statValues>
+
+					<li>AA_DamageRangedPoison</li>
+					<li>AA_Yes</li>					
+				</statValues>
+				<statDescriptions>
+
+					<li>AA_DamageRangedPoisonDesc</li>
+					<li>AA_Ranged</li>
+				</statDescriptions>
+
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>AA_Needlepost</defName>
+		<race>AA_Needlepost</race>
+		<label>needlepost</label>
+		<combatPower>90</combatPower>
+		<ecoSystemWeight>1</ecoSystemWeight>
+		<wildGroupSize>
+			<min>6</min>
+			<max>10</max>
+		</wildGroupSize>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_NeedlePost/AA_NeedlePost</texPath>
+					<drawSize>0.8</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_NeedlePost/AA_Dessicated_NeedlePost</texPath>
+					<drawSize>0.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_NeedlePost/AA_NeedlePost</texPath>
+					<drawSize>1.4</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_NeedlePost/AA_Dessicated_NeedlePost</texPath>
+					<drawSize>1.4</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_NeedlePost/AA_NeedlePost</texPath>
+					<drawSize>1.8</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_NeedlePost/AA_Dessicated_NeedlePost</texPath>
+					<drawSize>1.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
 
 </Defs>

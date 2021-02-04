@@ -159,6 +159,27 @@
 
 
 		</verbs>
+		<modExtensions>
+			<li Class="AnimalBehaviours.AnimalStatExtension">
+
+				<statToAdd>
+					<li>AA_SecondaryRole</li>
+					<li>AA_PrimaryRole</li>
+					<li>AA_RangedAttacks</li>					
+				</statToAdd>
+				<statValues>
+					<li>AA_DamageRangedPoison</li>
+					<li>AA_MountFast</li>
+					<li>AA_Yes</li>					
+				</statValues>
+				<statDescriptions>
+					<li>AA_DamageRangedPoisonDesc</li>
+					<li>AA_MountFastDesc</li>
+					<li>AA_Ranged</li>
+				</statDescriptions>
+
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">

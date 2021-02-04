@@ -93,7 +93,7 @@
 		</comps>
 		<race>
 			<wildBiomes>
-			
+
 				<Tundra>0.01</Tundra>
 				<ColdBog>0.01</ColdBog>
 				<TropicalSwamp>0.01</TropicalSwamp>
@@ -142,6 +142,27 @@
 			<li>AnimalUncommon</li>
 			<li>AnimalFighter</li>
 		</tradeTags>
+		<modExtensions>
+			<li Class="AnimalBehaviours.AnimalStatExtension">
+
+				<statToAdd>
+
+					<li>AA_PrimaryRole</li>
+					<li>AA_RangedAttacks</li>					
+				</statToAdd>
+				<statValues>
+
+					<li>AA_ShockTroop</li>
+					<li>AA_No</li>					
+				</statValues>
+				<statDescriptions>
+
+					<li>AA_ShockTroopDesc</li>
+					<li>AA_NoRanged</li>
+				</statDescriptions>
+
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">

@@ -20,7 +20,7 @@
 				</capacities>
 				<power>25</power>
 				<cooldownTime>1.9</cooldownTime>
-				
+
 				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>
@@ -30,20 +30,20 @@
 					</extraMeleeDamages>
 				</surpriseAttack>
 			</li>
-			
+
 		</tools>
-		
-		  <comps>
-   
-	 
+
+		<comps>
+
+
 			<li Class="CompProperties_Milkable">
 				<milkDef>AA_BlueMilk</milkDef>
 				<milkIntervalDays>1</milkIntervalDays>
 				<milkAmount>15</milkAmount>
 			</li>
-    </comps>
+		</comps>
 		<race>
-			
+
 			<herdAnimal>true</herdAnimal>
 			<body>AA_WormWithArmor</body>
 			<baseBodySize>3.00</baseBodySize>
@@ -51,10 +51,10 @@
 			<baseHealthScale>3.0</baseHealthScale>
 			<fleshType>Insectoid</fleshType>
 			<bloodDef>Filth_BloodInsect</bloodDef>
-            <useMeatFrom>Megaspider</useMeatFrom>
+			<useMeatFrom>Megaspider</useMeatFrom>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>Leather_Chitin</leatherDef>
-				        
+
 			<wildness>0.45</wildness>
 			<trainability>Simple</trainability>
 			<litterSizeCurve>
@@ -87,10 +87,31 @@
 			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
-		    <tradeTags>
-		<li>AnimalUncommon</li>
-        
-	  </tradeTags>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+
+		</tradeTags>
+		<modExtensions>
+			<li Class="AnimalBehaviours.AnimalStatExtension">
+
+				<statToAdd>
+					<li>AA_SecondaryRole</li>
+					<li>AA_PrimaryRole</li>
+					<li>AA_RangedAttacks</li>					
+				</statToAdd>
+				<statValues>
+					<li>AA_Farm</li>
+					<li>AA_Tank</li>
+					<li>AA_No</li>					
+				</statValues>
+				<statDescriptions>
+					<li>AA_FarmMilkDesc</li>
+					<li>AA_ArmouredTankDesc</li>
+					<li>AA_NoRanged</li>
+				</statDescriptions>
+
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">
@@ -99,7 +120,7 @@
 		<label>frostbound behemoth</label>
 		<combatPower>180</combatPower>
 		<ecoSystemWeight>0.2</ecoSystemWeight>
-		
+
 		<wildGroupSize>
 			<min>3</min>
 			<max>5</max>

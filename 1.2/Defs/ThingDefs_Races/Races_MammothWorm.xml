@@ -19,7 +19,7 @@
 				</capacities>
 				<power>30</power>
 				<cooldownTime>1.9</cooldownTime>
-				
+
 				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>
@@ -38,18 +38,18 @@
 				<linkedBodyPartsGroup>TuskAttackTool</linkedBodyPartsGroup>
 			</li>
 		</tools>
-		
-		  <comps>
-   
-	 
+
+		<comps>
+
+
 			<li Class="CompProperties_EggLayer">
 				<eggUnfertilizedDef>AA_MammothWormEggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizedDef>AA_MammothWormEggFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
 				<eggLayIntervalDays>45</eggLayIntervalDays>
-				
+
 			</li>
-    </comps>
+		</comps>
 		<race>
 			<wildBiomes>
 				<AridShrubland>0.03</AridShrubland>
@@ -63,10 +63,10 @@
 			<baseHealthScale>3.0</baseHealthScale>
 			<fleshType>Insectoid</fleshType>
 			<bloodDef>Filth_BloodInsect</bloodDef>
-            <useMeatFrom>Megaspider</useMeatFrom>
+			<useMeatFrom>Megaspider</useMeatFrom>
 			<foodType>OmnivoreRoughAnimal</foodType>
 			<leatherDef>Leather_BlackChitin</leatherDef>
-				        <packAnimal>true</packAnimal>
+			<packAnimal>true</packAnimal>
 
 			<wildness>0.9</wildness>
 			<trainability>Intermediate</trainability>
@@ -100,10 +100,31 @@
 			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
-		    <tradeTags>
-		<li>AnimalUncommon</li>
-      <li>AnimalFighter</li>
-	  </tradeTags>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+			<li>AnimalFighter</li>
+		</tradeTags>
+		<modExtensions>
+			<li Class="AnimalBehaviours.AnimalStatExtension">
+
+				<statToAdd>
+
+					<li>AA_PrimaryRole</li>
+					<li>AA_RangedAttacks</li>					
+				</statToAdd>
+				<statValues>
+
+					<li>AA_MountArmoured</li>
+					<li>AA_No</li>					
+				</statValues>
+				<statDescriptions>
+
+					<li>AA_MountArmouredDesc</li>
+					<li>AA_NoRanged</li>
+				</statDescriptions>
+
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">
@@ -112,7 +133,7 @@
 		<label>mammoth worm</label>
 		<combatPower>200</combatPower>
 		<ecoSystemWeight>0.2</ecoSystemWeight>
-		
+
 		<wildGroupSize>
 			<min>3</min>
 			<max>5</max>

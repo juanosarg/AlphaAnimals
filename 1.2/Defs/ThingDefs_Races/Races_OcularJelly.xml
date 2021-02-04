@@ -4,7 +4,7 @@
 		<defName>AA_OcularJelly</defName>
 		<label>ocular jelly</label>
 		<description>The Rim is filled with creatures that might be the product of either alien ecologies, or, more often, of ancient human genetic engineering gone awry. The ocular jelly, however, is so fundamentally weird that some scientists have speculated about a possible extra-dimensional origin. Or perhaps it is just some cruel, if elaborate, practical joke.\n\nIt seems to have some biological similarities with the Aerofleet, being filled with a buoyant gas, but its effects on terrestrial ecosystems are incredibly unusual: the creature releases clouds of a reddish gas that is harmless to animals. However, when flora is exposed to it, it mutates and turns into strange specimens that share 98% of its genome with the jelly. This flora is almost inedible, and its relationship with the ocular jelly remains as of yet unexplained. As a floating creature, Ocular Jellies ignore terrain movement costs.</description>
-		
+
 		<statBases>
 			<MoveSpeed>2</MoveSpeed>
 			<ComfyTemperatureMin>-35</ComfyTemperatureMin>
@@ -29,7 +29,7 @@
 				<power>4</power>
 				<cooldownTime>1.2</cooldownTime>
 				<linkedBodyPartsGroup>Arms</linkedBodyPartsGroup>
-				
+
 			</li>
 		</tools>
 		<verbs>
@@ -62,7 +62,7 @@
 				<customString>Asexual fission in: </customString>
 
 			</li>
-			
+
 			<li Class="AlphaBehavioursAndEvents.CompProperties_GasProducer">
 				<gasType>AA_OcularGas</gasType>
 				<rate>0.5</rate>
@@ -74,12 +74,12 @@
 				<canCrossWater>true</canCrossWater>
 
 			</li>
-		
+
 
 		</comps>
 		<race>
-		   
-			
+
+
 			<herdAnimal>true</herdAnimal>
 			<body>AA_OcularJellyBody</body>
 			<baseBodySize>0.5</baseBodySize>
@@ -90,7 +90,7 @@
 			<leatherDef>Leather_Light</leatherDef>
 			<wildness>0.8</wildness>
 			<trainability>Simple</trainability>
-			
+
 			<mateMtbHours>10000</mateMtbHours>
 			<gestationPeriodDays>10000</gestationPeriodDays>
 			<lifeExpectancy>4</lifeExpectancy>
@@ -131,6 +131,27 @@
 		<tradeTags>
 			<li>AnimalExotic</li>
 		</tradeTags>
+		<modExtensions>
+			<li Class="AnimalBehaviours.AnimalStatExtension">
+
+				<statToAdd>
+
+					<li>AA_PrimaryRole</li>
+					<li>AA_RangedAttacks</li>					
+				</statToAdd>
+				<statValues>
+
+					<li>AA_Pest</li>
+					<li>AA_Yes</li>					
+				</statValues>
+				<statDescriptions>
+
+					<li>AA_PestDesc</li>
+					<li>AA_Ranged</li>
+				</statDescriptions>
+
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">
@@ -138,7 +159,7 @@
 		<label>ocular jelly</label>
 		<race>AA_OcularJelly</race>
 		<combatPower>35</combatPower>
-		
+
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
@@ -172,8 +193,8 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
-	
-	
+
+
 
 
 </Defs>
