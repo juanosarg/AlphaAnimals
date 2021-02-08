@@ -34,22 +34,30 @@
 					<depth>Inside</depth>
 				</li>
 				<li>
-					<def>Eye</def>
-					<customLabel>left eye spot</customLabel>
+					<def>Head</def>
+
 					<coverage>0.05</coverage>
+					<parts>
+						<li>
+							<def>Eye</def>
+							<customLabel>left eye spot</customLabel>
+							<coverage>0.05</coverage>
+						</li>
+						<li>
+							<def>Eye</def>
+							<customLabel>right eye spot</customLabel>
+							<coverage>0.05</coverage>
+						</li>
+						<li>
+							<def>AnimalJaw</def>
+							<coverage>0.02</coverage>
+							<groups>
+								<li>Teeth</li>
+							</groups>
+						</li>
+					</parts>
 				</li>
-				<li>
-					<def>Eye</def>
-					<customLabel>right eye spot</customLabel>
-					<coverage>0.05</coverage>
-				</li>
-				<li>
-					<def>AnimalJaw</def>
-					<coverage>0.02</coverage>
-					<groups>
-						<li>Teeth</li>
-					</groups>
-				</li>
+
 				<li>
 					<def>AA_JellyfishTentacle</def>
 					<customLabel>first tentacle</customLabel>
