@@ -349,6 +349,7 @@
     <Compile Include="Comps\CompThoughtEffecter.cs" />
     <Compile Include="Comps\CompUntameable.cs" />
     <Compile Include="Def\ToggleableSpawnDef.cs" />
+    <Compile Include="Dev Mode\FixedColonyAnimalsDebug.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_Berserk.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_ExtraDamageInsectoids.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_ExtraDamageMechanoids.cs" />

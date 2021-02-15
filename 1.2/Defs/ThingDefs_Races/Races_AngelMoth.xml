@@ -85,17 +85,17 @@
 			<li Class="AnimalBehaviours.AnimalStatExtension">
 
 				<statToAdd>
-					
+
 					<li>AA_PrimaryRole</li>
 					<li>AA_RangedAttacks</li>					
 				</statToAdd>
 				<statValues>
-				
+
 					<li>AA_Larva</li>
 					<li>AA_No</li>					
 				</statValues>
 				<statDescriptions>
-					
+
 					<li>AA_LarvaDesc</li>
 					<li>AA_NoRanged</li>
 				</statDescriptions>
@@ -174,7 +174,7 @@
 			<li Class="AlphaBehavioursAndEvents.CompProperties_EatWeirdFood">
 
 				<customThingToEat>
-				
+
 					<li>Apparel_TribalA</li>
 					<li>Apparel_Parka</li>
 					<li>Apparel_Pants</li>
@@ -225,13 +225,13 @@
 					<li>VAE_Headgear_ChefsToque</li>					
 					<li>Plant_Grass</li>
 					<li>Plant_TallGrass</li>
-					
+
 				</customThingToEat>
 				<nutrition>1</nutrition>
 				<digThingIfMapEmpty>false</digThingIfMapEmpty>
 				<fullyDestroyThing>false</fullyDestroyThing>
 				<percentageOfDestruction>0.5</percentageOfDestruction>
-				
+
 			</li>
 			<li Class="AlphaBehavioursAndEvents.CompProperties_AnimalProduct">
 				<resourceDef>AA_MothSilk</resourceDef>
@@ -243,7 +243,7 @@
 
 		</comps>
 		<race>
-		<wildBiomes>
+			<wildBiomes>
 				<BorealForest>0.05</BorealForest>				
 				<TemperateForest>0.07</TemperateForest>
 				<TemperateSwamp>0.07</TemperateSwamp>
@@ -292,23 +292,23 @@
 		</race>
 		<tradeTags>
 			<li>AnimalUncommon</li>
-			
+
 		</tradeTags>
 		<modExtensions>
 			<li Class="AnimalBehaviours.AnimalStatExtension">
 
 				<statToAdd>
-					
+
 					<li>AA_PrimaryRole</li>
 					<li>AA_RangedAttacks</li>					
 				</statToAdd>
 				<statValues>
-				
+
 					<li>AA_Utility</li>
 					<li>AA_No</li>					
 				</statValues>
 				<statDescriptions>
-					
+
 					<li>AA_UtilityRecycling</li>
 					<li>AA_NoRanged</li>
 				</statDescriptions>
@@ -323,6 +323,20 @@
 		<race>AA_AngelMoth</race>
 		<combatPower>75</combatPower>
 		<ecoSystemWeight>0.25</ecoSystemWeight>
+
+		<alternateGraphicChance>1</alternateGraphicChance>
+		<alternateGraphics>
+			<li>
+				<texPath>Things/Pawn/Animal/AA_AngelMoth/AA_AngelMoth</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/AA_AngelMoth/AA_AngelMoth2</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/AA_AngelMoth/AA_AngelMoth3</texPath>
+			</li>
+
+		</alternateGraphics>
 		<lifeStages>
 
 			<li>

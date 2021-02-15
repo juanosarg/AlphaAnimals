@@ -161,7 +161,7 @@
 
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/AA_ShockGoat/AA_Dessicated_ShockGoat</texPath>
-					<drawSize>0.9</drawSize>
+					<drawSize>1.2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
@@ -176,7 +176,7 @@
 
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/AA_ShockGoat/AA_Dessicated_ShockGoat</texPath>
-					<drawSize>1.3</drawSize>
+					<drawSize>1.6</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
@@ -191,7 +191,7 @@
 
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/AA_ShockGoat/AA_Dessicated_ShockGoat</texPath>
-					<drawSize>1.75</drawSize>
+					<drawSize>2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>

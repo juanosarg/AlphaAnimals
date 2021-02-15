@@ -188,7 +188,7 @@
 		<graphicData>
 			<texPath>Things/Item/Resource/AA_Chitin</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
-			<color>(26,12,16)</color>
+			<color>(66,57,60)</color>
 		</graphicData>
 		<statBases>
 			<MarketValue>4.2</MarketValue>

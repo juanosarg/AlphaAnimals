@@ -5,7 +5,7 @@
     <defName>AA_SlurrypedeBody</defName>
     <label>mechanical centipede</label>
     <corePart>
-      <def>MechanicalCentipedeBodyFirstRing</def>
+      <def>Body</def>
       <height>Middle</height>
       <depth>Outside</depth>
       <parts>

@@ -162,8 +162,12 @@
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/AA_DevilSheep/AA_Dessicated_DevilSheep</texPath>
-					<drawSize>0.8</drawSize>
+					<drawSize>0.9</drawSize>
 				</dessicatedBodyGraphicData>
+				<femaleDessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_DevilSheep/AA_Dessicated_DevilSheepFemale</texPath>
+					<drawSize>0.8</drawSize>
+				</femaleDessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
@@ -185,8 +189,12 @@
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/AA_DevilSheep/AA_Dessicated_DevilSheep</texPath>
-					<drawSize>1</drawSize>
+					<drawSize>1.1</drawSize>
 				</dessicatedBodyGraphicData>
+				<femaleDessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_DevilSheep/AA_Dessicated_DevilSheepFemale</texPath>
+					<drawSize>1</drawSize>
+				</femaleDessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
@@ -208,8 +216,12 @@
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/AA_DevilSheep/AA_Dessicated_DevilSheep</texPath>
-					<drawSize>1.4</drawSize>
+					<drawSize>1.5</drawSize>
 				</dessicatedBodyGraphicData>
+				<femaleDessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_DevilSheep/AA_Dessicated_DevilSheepFemale</texPath>
+					<drawSize>1.4</drawSize>
+				</femaleDessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
 	</PawnKindDef>

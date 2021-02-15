@@ -171,6 +171,20 @@
 		<race>AA_CrystalMit</race>
 		<combatPower>50</combatPower>	
 		<ecoSystemWeight>0.2</ecoSystemWeight>
+		
+		<alternateGraphicChance>1</alternateGraphicChance>
+		<alternateGraphics>
+			<li>
+				<texPath>Things/Pawn/Animal/AA_CrystalMit/AA_CrystalMit</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/AA_CrystalMit/AA_CrystalMit2</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/AA_CrystalMit/AA_CrystalMit3</texPath>
+			</li>
+
+		</alternateGraphics>
 
 		<lifeStages>
 			<li>

@@ -164,6 +164,20 @@
 		<race>AA_SandLion</race>
 		<combatPower>300</combatPower>
 		<ecoSystemWeight>0.5</ecoSystemWeight>
+		<alternateGraphicChance>1</alternateGraphicChance>
+		<alternateGraphics>
+			<li>
+				<texPath>Things/Pawn/Animal/AA_SandLion/AA_SandLion</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/AA_SandLion/AA_SandLion2</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/AA_SandLion/AA_SandLion3</texPath>
+			</li>
+
+		</alternateGraphics>
+
 		<lifeStages>
 			<li>
 				<label>sand lion cub</label>

@@ -116,6 +116,31 @@
 		<race>AA_BlackScarab</race>
 		<combatPower>50</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
+		<alternateGraphicChance>1</alternateGraphicChance>
+		<alternateGraphics>
+			<li>
+				<texPath>Things/Pawn/Animal/AA_BlackScarab/AA_BlackScarab</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/AA_BlackScarab/AA_BlackScarab</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/AA_BlackScarab/AA_BlackScarab</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/AA_BlackScarab/AA_BlackScarab2</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/AA_BlackScarab/AA_BlackScarab3</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/AA_BlackScarab/AA_BlackScarab4</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/AA_BlackScarab/AA_BlackScarab5</texPath>
+			</li>
+
+		</alternateGraphics>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
@@ -275,6 +300,33 @@
 		<race>AA_BlackSpelopede</race>
 		<combatPower>85</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
+		
+		<alternateGraphicChance>1</alternateGraphicChance>
+		<alternateGraphics>
+			<li>
+				<texPath>Things/Pawn/Animal/AA_BlackSpelopede/AA_BlackSpelopede</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/AA_BlackSpelopede/AA_BlackSpelopede</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/AA_BlackSpelopede/AA_BlackSpelopede</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/AA_BlackSpelopede/AA_BlackSpelopede2</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/AA_BlackSpelopede/AA_BlackSpelopede3</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/AA_BlackSpelopede/AA_BlackSpelopede4</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/AA_BlackSpelopede/AA_BlackSpelopede5</texPath>
+			</li>
+
+		</alternateGraphics>
+		
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
@@ -434,6 +486,34 @@
 		<race>AA_BlackSpider</race>
 		<combatPower>175</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
+		
+		<alternateGraphicChance>1</alternateGraphicChance>
+		<alternateGraphics>
+			<li>
+				<texPath>Things/Pawn/Animal/AA_BlackSpider/AA_BlackSpider</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/AA_BlackSpider/AA_BlackSpider</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/AA_BlackSpider/AA_BlackSpider</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/AA_BlackSpider/AA_BlackSpider2</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/AA_BlackSpider/AA_BlackSpider3</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/AA_BlackSpider/AA_BlackSpider4</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/AA_BlackSpider/AA_BlackSpider5</texPath>
+			</li>
+
+		</alternateGraphics>
+		
+		
 		<lifeStages>
 			<li>
 				<bodyGraphicData>

@@ -166,6 +166,19 @@
 		<label>blood shrimp</label>
 		<combatPower>150</combatPower>
 		<ecoSystemWeight>0.5</ecoSystemWeight>
+		<alternateGraphicChance>1</alternateGraphicChance>
+		<alternateGraphics>
+			<li>
+				<texPath>Things/Pawn/Animal/AA_BloodShrimp/AA_BloodShrimp</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/AA_BloodShrimp/AA_BloodShrimp2</texPath>
+			</li>
+			<li>
+				<texPath>Things/Pawn/Animal/AA_BloodShrimp/AA_BloodShrimp3</texPath>
+			</li>
+
+		</alternateGraphics>
 		
 		<lifeStages>
 			<li>
