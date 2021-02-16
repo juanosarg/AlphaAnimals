@@ -134,7 +134,7 @@
 
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AA_DevilSheep</defName>
-		<label>devilSheep</label>
+		<label>devil sheep</label>
 		<race>AA_DevilSheep</race>
 		<combatPower>30</combatPower>
 
