@@ -158,6 +158,7 @@
 	<AA_ParalizingRanged>Paralyzing Ranged</AA_ParalizingRanged>
 	<AA_DamageRanged>Ranged Attacker</AA_DamageRanged>
 	<AA_DamageRangedPoison>Poison Ranged Attacker</AA_DamageRangedPoison>
+	<AA_DamageRangedElectric>Electric Ranged Attacker</AA_DamageRangedElectric>
 	<AA_DamageRangedFire>Firey Ranged Attacker</AA_DamageRangedFire>
 	<AA_DamageRangedDOT>DOT Ranged Attacker</AA_DamageRangedDOT>
 	
@@ -193,6 +194,7 @@
 	<AA_DamageRangedFireDesc>This animal uses ranged attacks to damage attackers. These attacks set enemies on fire.Having them in melee might not be the best use for them.</AA_DamageRangedFireDesc>
 	<AA_DamageRangedDOTDesc>This animal uses ranged attacks to damage attackers. These attacks cause damage over time. Having them in melee might not be the best use for them.</AA_DamageRangedDOTDesc>
 	<AA_DamageRangedPoisonDesc>This animal uses ranged attacks to damage attackers. These attacks cause toxic damage. Having them in melee might not be the best use for them.</AA_DamageRangedPoisonDesc>
+	<AA_DamageRangedElectricDesc>This animal uses ranged attacks to damage attackers. These attacks cause electric damage, which can cause heart attacks. Having them in melee might not be the best use for them.</AA_DamageRangedElectricDesc>
 	
 	<AA_FarmMilkDesc>This is a farm animal that produces milk.</AA_FarmMilkDesc>
 	<AA_FarmFoodDesc>This is a farm animal that produces food items.</AA_FarmFoodDesc>

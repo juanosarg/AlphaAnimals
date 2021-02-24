@@ -106,6 +106,22 @@
 			<speed>25</speed>
 		</projectile>
 	</ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>AA_ElectricBolt</defName>
+		<label>electric bolt</label>
+		<thingClass>AlphaBehavioursAndEvents.Electric_Projectile</thingClass>
+		<graphicData>
+			<texPath>Things/Pawn/Animal/AA_ArcticLion/AA_ArcticLion_Invisible</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<flyOverhead>false</flyOverhead>
+			<damageDef>AA_Electric</damageDef>
+			<damageAmountBase>10</damageAmountBase>
+			<speed>75</speed>
+		</projectile>
+	</ThingDef>
 
 	<ThingDef ParentName="BaseBullet">
 		<defName>AA_Quill</defName>

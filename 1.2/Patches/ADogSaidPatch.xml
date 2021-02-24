@@ -4004,7 +4004,7 @@
 									<filter>
 										<thingDefs>
 											<li>Corpse_AA_TetraSlug</li>
-											
+
 										</thingDefs>
 									</filter>
 									<count>1</count>
@@ -4059,6 +4059,185 @@
 					</value>
 				</li>
 
+				<!-- Bioelectric Organ -->
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<HediffDef ParentName="ImplantHediffBase">
+							<defName>AA_BioelectricOrganImplant</defName>
+							<label>bioelectric organ implant</label>
+							<labelNoun>a bioelectric organ implant</labelNoun>
+							<description>An installed bioelectric organ implant. This implant will allow this creature to use a powerful ranged electric attack that may paralyze and cause heart attacks.\n\nNote that installing this on a creature that already has a bioelectric organ will have no effect.</description>
+							<descriptionHyperlinks>
+								<ThingDef>AA_BioelectricOrganImplant</ThingDef>
+							</descriptionHyperlinks>
+							<spawnThingOnRemoved>AA_BioelectricOrganImplant</spawnThingOnRemoved>
+							<comps>
+								<li Class="MVCF.Comps.HediffCompProperties_ExtendedVerbGiver">
+									<verbs>
+										<li>
+											<verbClass>Verb_Shoot</verbClass>
+											<accuracyTouch>1</accuracyTouch>
+											<accuracyShort>1</accuracyShort>
+											<accuracyMedium>1</accuracyMedium>
+											<accuracyLong>1</accuracyLong>
+											<hasStandardCommand>true</hasStandardCommand>
+											<defaultProjectile>AA_ElectricBolt</defaultProjectile>
+											<warmupTime>5</warmupTime>
+											<burstShotCount>1</burstShotCount>
+											<minRange>2</minRange>
+											<range>15</range>
+											<soundCast>AA_PoisonBolt</soundCast>
+											<muzzleFlashScale>0</muzzleFlashScale>
+											<label>electric bolt</label>
+											<commonality>.8</commonality>
+										</li>
+									</verbs>
+									<verbProps>
+										<li>
+											<label>electric bolt</label> 
+											<draw>false</draw>
+											<canBeToggled>true</canBeToggled>											
+											<canFireIndependently>false</canFireIndependently>
+										</li>
+									</verbProps>
+								</li>
+							</comps>
+							<addedPartProps>
+								<solid>true</solid>								
+								<betterThanNatural>true</betterThanNatural>
+							</addedPartProps>
+						</HediffDef>
+
+						<ThingDef ParentName="VEF_AdvancedBaseADS">
+							<defName>AA_BioelectricOrganImplant</defName>
+							<label>bioelectric organ implant</label>							
+							<description>An installed bioelectric organ implant. This implant will allow this creature to use a powerful ranged electric attack that may paralyze and cause heart attacks.\n\nNote that installing this on a creature that already has a bioelectric organ will have no effect.</description>
+							<descriptionHyperlinks>
+								<RecipeDef>AA_InstallBioelectricOrganImplant</RecipeDef>
+							</descriptionHyperlinks>
+							<statBases>
+								<MarketValue>800</MarketValue>
+								<Mass>2</Mass>
+							</statBases>
+
+						</ThingDef>
+
+						<RecipeDef ParentName="VEF_AdvancedSurgeryInstallImplantBase">
+							<defName>AA_InstallBioelectricOrganImplant</defName>
+							<label>install bioelectric organ implant</label>
+							<description>Install a bioelectric organ. This implant will allow this creature to use a powerful ranged electric attack that may paralyze and cause heart attacks.\n\nNote that installing this on a creature that already has a bioelectric organ will have no effect.</description>
+							<descriptionHyperlinks>
+								<ThingDef>AA_BioelectricOrganImplant</ThingDef>
+								<HediffDef>AA_BioelectricOrganImplant</HediffDef>
+							</descriptionHyperlinks>
+							<jobString>Installing bioelectric organ implant.</jobString>
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>AA_BioelectricOrganImplant</li>
+										</thingDefs>
+									</filter>
+									<count>1</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>AA_BioelectricOrganImplant</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<appliedOnFixedBodyParts>
+								<li>Body</li>								
+								<li>SnakeBody</li>
+								<li>AA_JellyfishMainBody</li>
+								<li>AA_Protoplasm</li>
+								<li>AA_Thorax</li>
+								<li>AA_SentientPlantBody</li>
+								<li>AA_SlugBody</li>
+							</appliedOnFixedBodyParts>
+							<addsHediff>AA_BioelectricOrganImplant</addsHediff>
+						</RecipeDef>
+
+						<RecipeDef>
+							<defName>AA_MakeBioelectricOrganImplant</defName>
+							<label>make a bioelectric organ implant</label>
+							<description>Make a bioelectric organ implant from a Thunderbeast corpse. This implant will allow this creature to use a powerful ranged electric attack that may paralyze and cause heart attacks.\n\nNote that installing this on a creature that already has a bioelectric organ will have no effect.</description>
+							<jobString>Making bioelectric organ implant</jobString>							
+							<workAmount>15000</workAmount>		
+							<recipeUsers>
+								<li>VEF_AdvancedAnimalImplantsTable</li>
+							</recipeUsers>		
+							<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+							<workSkill>Crafting</workSkill>
+							<effectWorking>Smith</effectWorking>
+							<soundWorking>Recipe_Smith</soundWorking>
+							<skillRequirements>
+								<Crafting>10</Crafting>
+							</skillRequirements>
+							<unfinishedThingDef>UnfinishedAnimalPart</unfinishedThingDef>
+							<researchPrerequisite>VEF_AdvancedAnimalImplants</researchPrerequisite>							
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>Corpse_AA_Thunderbeast</li>
+
+										</thingDefs>
+									</filter>
+									<count>1</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>Plasteel</li>											
+										</thingDefs>
+									</filter>
+									<count>50</count>
+								</li>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>ComponentSpacer</li>										
+										</thingDefs>
+									</filter>
+									<count>5</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>Corpse_AA_Thunderbeast</li>
+									<li>Plasteel</li>
+									<li>ComponentSpacer</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<defaultIngredientFilter>
+								<thingDefs>
+									<li>Corpse_AA_Thunderbeast</li>
+									<li>Plasteel</li>
+									<li>ComponentSpacer</li>
+								</thingDefs>
+							</defaultIngredientFilter>
+							<products>
+								<AA_BioelectricOrganImplant>1</AA_BioelectricOrganImplant>
+							</products>
+						</RecipeDef>
+
+						<RecipeDef ParentName="SurgeryRemoveImplantBase">
+							<defName>AA_RemoveBioelectricOrganImplant</defName>
+							<label>remove bioelectric organ implant</label>
+							<description>Remove bioelectric organ implant.</description>
+							<descriptionHyperlinks>
+								<ThingDef>AA_BioelectricOrganImplant</ThingDef>
+								<HediffDef>AA_BioelectricOrganImplant</HediffDef>
+							</descriptionHyperlinks>
+							<jobString>Removing bioelectric organ implant.</jobString>
+							<removesHediff>AA_BioelectricOrganImplant</removesHediff>
+						</RecipeDef>
+					</value>
+				</li>
+
 
 				<!-- Final patch to vanilla to ensure these operations appear in all animals when they should -->
 
@@ -4088,6 +4267,8 @@
 						<li>AA_RemoveBarbedQuillThrowerImplant</li>
 						<li>AA_InstallQuadTeslaCannonImplant</li>
 						<li>AA_RemoveQuadTeslaCannonImplant</li>
+						<li>AA_InstallBioelectricOrganImplant</li>
+						<li>AA_RemoveBioelectricOrganImplant</li>
 
 
 
