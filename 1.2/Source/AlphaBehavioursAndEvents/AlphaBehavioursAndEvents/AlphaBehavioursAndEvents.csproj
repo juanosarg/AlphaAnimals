@@ -366,11 +366,13 @@
     <Compile Include="Harmony\SappersUtility_IsGoodSapper.cs" />
     <Compile Include="Harmony\Thing_ButcherProducts.cs" />
     <Compile Include="Harmony\WildAnimalSpawner_SpawnRandomWildAnimalAt.cs" />
+    <Compile Include="Hediffs\HediffCompProperties\HediffCompProperties_AnoleGrown.cs" />
     <Compile Include="Hediffs\HediffCompProperties\HediffCompProperties_AutoPermanentInjury.cs" />
     <Compile Include="Hediffs\HediffCompProperties\HediffCompProperties_ExplodeOnDowned.cs" />
     <Compile Include="Hediffs\HediffCompProperties\HediffCompProperties_Mime.cs" />
     <Compile Include="Hediffs\HediffCompProperties\HediffCompProperties_Resurrect.cs" />
     <Compile Include="Hediffs\HediffCompProperties\HediffCompProperties_TurnsWhenDead.cs" />
+    <Compile Include="Hediffs\HediffComp_AnoleGrown.cs" />
     <Compile Include="Hediffs\HediffComp_AutoPermanentInjury.cs" />
     <Compile Include="Hediffs\HediffComp_ExplodeOnDowned.cs" />
     <Compile Include="Hediffs\HediffComp_Mime.cs" />
@@ -444,6 +446,7 @@
     <Compile Include="Jobs\JobGiver_MineOld.cs" />
     <Compile Include="Jobs\JobGiver_PsionicNuzzle.cs" />
     <Compile Include="Harmony\HarmonyPatchers.cs" />
+    <Compile Include="PawnClasses\Pawn_GrowOnCombat.cs" />
     <Compile Include="PawnClasses\Pawn_SwallowWhole.cs" />
     <Compile Include="Projectiles\Electric_Projectile.cs" />
     <Compile Include="Projectiles\Siege_Projectile.cs" />

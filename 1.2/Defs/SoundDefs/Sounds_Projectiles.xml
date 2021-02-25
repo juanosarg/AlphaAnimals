@@ -28,6 +28,60 @@
 		</subSounds>
 	</SoundDef>
 	
+		<!-- ======================== Electric Bolt ======================== -->
+
+	<SoundDef>
+		<defName>AA_ElectricBolt</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>AA_ElectricBolt</clipFolderPath>
+					</li>
+				</grains>
+
+				<pitchRange>
+					<min>0.9770588</min>
+					<max>1.137647</max>
+				</pitchRange>
+				<distRange>
+					<min>0</min>
+					<max>50.40025</max>
+				</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+			<!-- ======================== Laser Bullet ======================== -->
+
+	<SoundDef>
+		<defName>AA_LaserBullet</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>AA_LaserBullet</clipFolderPath>
+					</li>
+				</grains>
+
+				<pitchRange>
+					<min>0.9770588</min>
+					<max>1.137647</max>
+				</pitchRange>
+				<distRange>
+					<min>0</min>
+					<max>50.40025</max>
+				</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
 		<!-- ======================== Cryogun ======================== -->
 
 	<SoundDef>

@@ -70,5 +70,15 @@
             </li>
         </value>
     </Operation>
+	
+	<!-- Crystalline Caracal -->
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ThingDef[defName="AA_CrystallineCaracal"]</xpath>
+        <value>
+            <li Class="NocturnalAnimals.ExtendedRaceProperties">
+                <bodyClock>Nocturnal</bodyClock>
+            </li>
+        </value>
+    </Operation>
 
 </Patch>

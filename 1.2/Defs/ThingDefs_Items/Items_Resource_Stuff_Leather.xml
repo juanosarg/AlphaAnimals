@@ -411,6 +411,23 @@
     </thingCategories>
     
   </ThingDef>
+  
+  <ThingDef ParentName="WoolBase">
+    <defName>AA_GreyCoatedMouflonWool</defName>
+    <label>grey-coated mouflon wool</label>
+    <description>grey-coated mouflon's wool. It provides good insulation.</description>
+    <graphicData>
+      <color>(62,62,64)</color>
+    </graphicData>
+    <statBases>
+      <StuffPower_Insulation_Cold>29</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(62,62,64)</color>
+      <commonality>0.05</commonality>
+    </stuffProps>
+  </ThingDef>
 
 
 

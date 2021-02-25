@@ -60,7 +60,7 @@
 				<burstShotCount>1</burstShotCount>
 				<minRange>2</minRange>
 				<range>15</range>
-				<soundCast>AA_PoisonBolt</soundCast>
+				<soundCast>AA_ElectricBolt</soundCast>
 				<muzzleFlashScale>0</muzzleFlashScale>
 				<label>electric bolt</label>
 				<commonality>.8</commonality>
