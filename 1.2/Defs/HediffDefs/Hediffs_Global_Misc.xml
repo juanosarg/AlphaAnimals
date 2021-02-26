@@ -791,7 +791,7 @@
 		<defName>AA_AnoleGrown</defName>
 		<hediffClass>HediffWithComps</hediffClass>
 		<label>explosive growth</label>
-		<description>.</description>
+		<description>An unstable cocktail of growth hormones and biomechanical mechanites is causing a runaway growth of this creature's cells. This will greatly increase its metabolism, fighting power and resistance for a few hours. Afterwards it will be exhausted and require some extra food to recover its energy.</description>
 		<defaultLabelColor>(1,1,0.5)</defaultLabelColor>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
@@ -805,7 +805,7 @@
 						<capacities>
 							<li>Scratch</li>
 						</capacities>
-						<power>30</power>
+						<power>26</power>
 						<cooldownTime>2</cooldownTime>
 						<soundMeleeHit>MeleeHit_BionicPunch</soundMeleeHit>
 						<soundMeleeMiss>MeleeMiss_BionicPunch</soundMeleeMiss>
@@ -821,15 +821,20 @@
 		</comps>
 		<stages>
 			<li>
+				<statOffsets>
+					<ArmorRating_Blunt>0.75</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+
+				</statOffsets>
 				<painFactor>0.1</painFactor>
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
-						<offset>0.10</offset>
+						<offset>0.30</offset>
 					</li>
 					<li>
 						<capacity>Moving</capacity>
-						<offset>0.05</offset>
+						<offset>0.30</offset>
 					</li>
 					<li>
 						<capacity>Sight</capacity>
@@ -837,21 +842,47 @@
 					</li>
 					<li>
 						<capacity>BloodFiltration</capacity>
-						<offset>0.70</offset>
+						<offset>2</offset>
 					</li>
 					<li>
 						<capacity>BloodPumping</capacity>
-						<offset>0.15</offset>
+						<offset>2</offset>
 					</li>
 					<li>
 						<capacity>Metabolism</capacity>
-						<offset>0.20</offset>
+						<offset>0.50</offset>
 					</li>
 					<li>
 						<capacity>Breathing</capacity>
 						<offset>0.10</offset>
 					</li>
 				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	
+	
+	<HediffDef>
+		<defName>AA_AnoleGrownExhausted</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>explosive growth (exhausted)</label>
+		<description>This creature has recently been subject to anomalous growth, exhausting it and making it ravenously hungry. It won't be able to activate this explosive growth again until this condition has passed.</description>
+		<defaultLabelColor>(1,1,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			
+			
+			<li Class="HediffCompProperties_Immunizable">
+				<severityPerDayNotImmune>-1</severityPerDayNotImmune>
+			</li>
+			
+		</comps>
+		<stages>
+			<li>
+				<hungerRateFactorOffset>4</hungerRateFactorOffset>
 			</li>
 		</stages>
 	</HediffDef>

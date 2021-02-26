@@ -776,7 +776,7 @@
 				<buttonCancelLabel>AA_CancelDestroyFlamingoEggsLabel</buttonCancelLabel>
 				<buttonCancelDesc>AA_CancelDestroyFlamingoEggsDesc</buttonCancelDesc>
 				<buttonCancelIcon>UI/AA_CancelDestroyJungleliskEgg</buttonCancelIcon>
-							
+
 			</li>
 		</comps>
 	</ThingDef>
@@ -1115,7 +1115,7 @@
 			</li>
 		</comps>
 	</ThingDef>
-	
+
 	<!-- =============== Flamingo Phoenix Egg =============== -->
 
 
@@ -1143,12 +1143,34 @@
 				<buttonCancelLabel>AA_CancelDestroyFlamingoEggsLabel</buttonCancelLabel>
 				<buttonCancelDesc>AA_CancelDestroyFlamingoEggsDesc</buttonCancelDesc>
 				<buttonCancelIcon>UI/AA_CancelDestroyFlamingoEgg</buttonCancelIcon>
-							
+
 			</li>
 		</comps>
 		<thingSetMakerTags>
 			<li>NotForGuests</li>
 		</thingSetMakerTags>
+	</ThingDef>
+
+	<!-- =============== Crescendo Anole Egg =============== -->
+
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>AA_EggCrescendoAnoleFertilized</defName>
+		<label>crescendo anole egg (fert.)</label>
+		<description>Fertilized crescendo anole egg. If all goes well, it should hatch into a crescendo anole. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AA_EggCrescendoAnole</texPath>			
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>9</MarketValue>
+		</statBases>		
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>4</hatcherDaystoHatch>
+				<hatcherPawn>AA_CrescendoAnole</hatcherPawn>
+			</li>
+		</comps>
 	</ThingDef>
 
 

@@ -74,5 +74,42 @@ namespace AlphaBehavioursAndEvents
             });
 
         }
+
+        public override void CompPostPostRemoved()
+        {
+            ReturnToOriginalGraphics();
+            Pawn pawn = this.parent.pawn as Pawn;
+            BodyPartRecord part = pawn.RaceProps.body.GetPartsWithDef(BodyPartDefOf.Body).FirstOrDefault();
+            pawn.health.AddHediff(HediffDef.Named("AA_AnoleGrownExhausted"), part);
+        }
+
+        public override void Notify_PawnDied()
+        {
+            ReturnToOriginalGraphics();
+        }
+
+        public void ReturnToOriginalGraphics()
+        {
+            Pawn pawn = this.parent.pawn as Pawn;
+            Vector2 vector = pawn.ageTracker.CurKindLifeStage.bodyGraphicData.drawSize;
+
+            LongEventHandler.ExecuteWhenFinished(delegate
+            {
+                if (this.pawn_renderer != null)
+                {
+                    try
+                    {
+                        Graphic_Multi nakedGraphic = (Graphic_Multi)GraphicDatabase.Get<Graphic_Multi>(pawn.ageTracker.CurKindLifeStage.bodyGraphicData.texPath, ShaderDatabase.Cutout, vector, Color.white);
+                        this.pawn_renderer.graphics.ResolveAllGraphics();
+                        this.pawn_renderer.graphics.nakedGraphic = nakedGraphic;
+                        (this.pawn_renderer.graphics.nakedGraphic.data = new GraphicData()).shadowData = pawn.ageTracker.CurKindLifeStage.bodyGraphicData.shadowData;
+
+
+                    }
+                    catch (NullReferenceException) { }
+                }
+
+            });
+        }
     }
 }
