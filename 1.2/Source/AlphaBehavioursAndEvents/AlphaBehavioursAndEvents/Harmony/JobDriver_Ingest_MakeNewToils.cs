@@ -24,7 +24,7 @@ namespace AlphaBehavioursAndEvents
             if (__instance.pawn.def.defName == "AA_Erin")
             {
                 if (__instance.job.GetTarget(TargetIndex.A).Thing is Corpse) {
-                    Log.Message("Nom nom");
+                    __instance.pawn.health.AddHediff(HediffDef.Named("AA_EatenACorpse"));
                 }
             } 
 
