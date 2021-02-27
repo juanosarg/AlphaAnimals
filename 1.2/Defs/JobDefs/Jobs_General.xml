@@ -7,6 +7,13 @@
 		<reportString>destroying an item.</reportString>
 	</JobDef>
 
+	<JobDef>
+		<defName>AA_PlantAnimaTreeJob</defName>
+		<driverClass>AlphaBehavioursAndEvents.JobDriver_PlantAnimaTree</driverClass>
+		<reportString>planting anima tree.</reportString>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+
 
 
 

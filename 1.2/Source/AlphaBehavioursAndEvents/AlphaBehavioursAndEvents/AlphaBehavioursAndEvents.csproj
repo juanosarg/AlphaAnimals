@@ -346,6 +346,7 @@
     <Compile Include="Comps\CompProperties\CompProperties_Untameable.cs" />
     <Compile Include="Comps\CompStateAfterHealthLoss.cs" />
     <Compile Include="Comps\CompSummonOnSpawn.cs" />
+    <Compile Include="Comps\CompTargetable_Ground.cs" />
     <Compile Include="Comps\CompThoughtEffecter.cs" />
     <Compile Include="Comps\CompUntameable.cs" />
     <Compile Include="Def\ToggleableSpawnDef.cs" />
@@ -365,6 +366,7 @@
     <Compile Include="Harmony\QuestManager_Notify_ThingsProduced_Patch.cs" />
     <Compile Include="Harmony\SappersUtility_IsGoodSapper.cs" />
     <Compile Include="Harmony\Thing_ButcherProducts.cs" />
+    <Compile Include="Harmony\JobDriver_Ingest_MakeNewToils.cs" />
     <Compile Include="Harmony\WildAnimalSpawner_SpawnRandomWildAnimalAt.cs" />
     <Compile Include="Hediffs\HediffCompProperties\HediffCompProperties_AnoleGrown.cs" />
     <Compile Include="Hediffs\HediffCompProperties\HediffCompProperties_AutoPermanentInjury.cs" />
@@ -387,6 +389,7 @@
     <Compile Include="Jobs\JobDriver_AnimalResource.cs" />
     <Compile Include="Jobs\JobDriver_DestroyItem.cs" />
     <Compile Include="Jobs\JobDriver_IngestWeird.cs" />
+    <Compile Include="Jobs\JobDriver_PlantAnimaTree.cs" />
     <Compile Include="Jobs\JobGiver_GetWeirdFood.cs" />
     <Compile Include="Jobs\JobGiver_TryQuarryJob.cs" />
     <Compile Include="Jobs\WorkGiver_AnimalResource.cs" />

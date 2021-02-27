@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_MycoidColossus</defName>
 		<label>mycoid colossus</label>
-		<description>The Mycoid Colossus is a variant of the Overgrown colossus native to a mycotic jungle.\n\nIt seems to be reptilian in nature, with cold blood, a slow metabolism, and a very weird body plan: it has six legs, two intertwined spines and six eyes. It has a symbiotic relationship with fungi, with several mutant Agarilux mushrooms growing on its back. These fungi trap insects and seem to provide substenance in a symbiotic relationship with the colossus. Weirdly enough, this colossus reproduces by sporulation, instead of being a viviparous creature, so its children are completely wild and independent from it, with no concept of parenthood.\n\nWhen tamed, the Mycoid Colossus can be periodically "trimmed" to obtain raw agarilux mushrooms.</description>
+		<description>The Mycoid Colossus is a variant of the Overgrown colossus native to a mycotic jungle.\n\nIt seems to be reptilian in nature, with cold blood, a slow metabolism, and a very weird body plan: it has six legs, two intertwined spines and six eyes. It has a symbiotic relationship with fungi, with several mutant Agarilux mushrooms growing on its back. These fungi trap insects and seem to provide sustenance in a symbiotic relationship with the colossus. Weirdly enough, this colossus reproduces by sporulation, instead of being a viviparous creature, so its children are completely wild and independent from it, with no concept of parenthood.\n\nWhen tamed, the Mycoid Colossus can be periodically "trimmed" to obtain raw agarilux mushrooms.</description>
 		<statBases>
 			<MoveSpeed>2.00</MoveSpeed>
 			<ComfyTemperatureMin>-30</ComfyTemperatureMin>

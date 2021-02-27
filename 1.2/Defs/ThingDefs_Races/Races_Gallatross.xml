@@ -100,6 +100,7 @@
 			<willNeverEat>
 				<li MayRequire="Ludeon.RimWorld.Royalty">Plant_TreeAnima</li>
 			</willNeverEat>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<wildness>0.99</wildness>
 			<manhunterOnDamageChance>1.0</manhunterOnDamageChance>
 			<manhunterOnTameFailChance>0.3</manhunterOnTameFailChance>
@@ -320,6 +321,7 @@
 			<willNeverEat>
 				<li MayRequire="Ludeon.RimWorld.Royalty">Plant_TreeAnima</li>
 			</willNeverEat>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<wildness>0.99</wildness>
 			<manhunterOnDamageChance>1.0</manhunterOnDamageChance>
 			<manhunterOnTameFailChance>0.4</manhunterOnTameFailChance>
