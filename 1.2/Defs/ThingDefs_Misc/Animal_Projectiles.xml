@@ -313,6 +313,34 @@
 		</projectile>
 	</VFECore.ExpandableProjectileDef>
 	
+	<VFECore.ExpandableProjectileDef ParentName="BaseBullet">
+		<defName>AA_AcidicVomit</defName>
+		<label>acidic vomit</label>
+		<thingClass>VFECore.ExpandableProjectile</thingClass>
+		<graphicData>
+			<texPath>Things/Projectiles/Proj_LiquidStream</texPath>			
+			<shaderType>MoteGlow</shaderType>
+		</graphicData>
+		<drawOffscreen>true</drawOffscreen>
+		<lifeTimeDuration>50</lifeTimeDuration>
+		<widthScaleFactor>1</widthScaleFactor>
+		<heightScaleFactor>1</heightScaleFactor>
+		<startingPositionOffset>(0, 0, -1)</startingPositionOffset>
+		<totalSizeScale>2</totalSizeScale>
+		<tickFrameRate>4</tickFrameRate>
+		<finalTickFrameRate>5</finalTickFrameRate>
+		<tickDamageRate>20</tickDamageRate>
+		<dealsDamageOnce>true</dealsDamageOnce>
+		<minDistanceToAffect>2</minDistanceToAffect>
+		<projectile>
+			<damageDef>AA_AcidSpit</damageDef>		
+			<flyOverhead>false</flyOverhead>
+			<damageAmountBase>15</damageAmountBase>
+			<stoppingPower>1.5</stoppingPower>			
+			<speed>20</speed>
+		</projectile>
+	</VFECore.ExpandableProjectileDef>
+	
 
 
 

@@ -906,40 +906,21 @@
 		<stages>
 			<li>
 				<statOffsets>
-					<ArmorRating_Blunt>0.75</ArmorRating_Blunt>
-					<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.35</ArmorRating_Sharp>
 
 				</statOffsets>
-				<painFactor>0.1</painFactor>
+				<painFactor>0.75</painFactor>
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
-						<offset>0.30</offset>
+						<offset>0.25</offset>
 					</li>
 					<li>
 						<capacity>Moving</capacity>
-						<offset>0.30</offset>
+						<offset>0.2</offset>
 					</li>
-					<li>
-						<capacity>Sight</capacity>
-						<offset>0.15</offset>
-					</li>
-					<li>
-						<capacity>BloodFiltration</capacity>
-						<offset>2</offset>
-					</li>
-					<li>
-						<capacity>BloodPumping</capacity>
-						<offset>2</offset>
-					</li>
-					<li>
-						<capacity>Metabolism</capacity>
-						<offset>0.50</offset>
-					</li>
-					<li>
-						<capacity>Breathing</capacity>
-						<offset>0.10</offset>
-					</li>
+					
 				</capMods>
 			</li>
 		</stages>

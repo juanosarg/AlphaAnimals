@@ -79,6 +79,27 @@
 				<chanceFactor>0.2</chanceFactor>
 			</li>
 		</tools>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<accuracyTouch>1</accuracyTouch>
+				<accuracyShort>1</accuracyShort>
+				<accuracyMedium>0.8</accuracyMedium>
+				<accuracyLong>0.75</accuracyLong>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AA_AcidicVomit</defaultProjectile>
+				<warmupTime>5</warmupTime>
+				<burstShotCount>1</burstShotCount>
+				<minRange>1</minRange>
+				<range>7</range>
+				<soundCast>AA_PoisonBolt</soundCast>
+				<muzzleFlashScale>0</muzzleFlashScale>
+				<label>acidic vomit</label>
+				<commonality>.8</commonality>
+			</li>
+
+
+		</verbs>
 		
 		<race>
 			<wildBiomes>
