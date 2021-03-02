@@ -318,7 +318,8 @@
 		<label>acidic vomit</label>
 		<thingClass>VFECore.ExpandableProjectile</thingClass>
 		<graphicData>
-			<texPath>Things/Projectiles/Proj_LiquidStream</texPath>			
+			<texPath>Things/Projectiles/Proj_LiquidStream</texPath>		
+			<texPathFadeOut>Things/Projectiles/Proj_LiquidStream</texPathFadeOut>			
 			<shaderType>MoteGlow</shaderType>
 		</graphicData>
 		<drawOffscreen>true</drawOffscreen>
