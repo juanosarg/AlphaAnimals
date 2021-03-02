@@ -5,14 +5,14 @@
 	<AlphaBehavioursAndEvents.ToggleableSpawnDef>
 		<defName>AA_ToggleableAnimals</defName>
 		<toggleablePawns>			
-			<li>AA_Aerofleet</li>	
 			<li>AA_AcanthamoebaGiganteaSmall</li>
+			<li>AA_Aerofleet</li>	
 			<li>AA_Agaripawn</li>
 			<li>AA_Agaripod</li>
 			<li>AA_AngelMoth</li>
+			<li>AA_AnimaColossus</li>
 			<li>AA_AnimusVox</li>
 			<li>AA_ArcticLion</li>
-			<li>AA_LarvalAtispec</li>
 			<li>AA_Barbslinger</li>
 			<li>AA_BedBug</li>
 			<li>AA_Blizzarisk</li>
@@ -24,16 +24,20 @@
 			<li>AA_ChemfuelMyrmidon</li>
 			<li>AA_Cinderlisk</li>
 			<li>AA_CrepuscularBeetle</li>
+			<li>AA_CrescendoAnole</li>
 			<li>AA_CrystalMit</li>
+			<li>AA_CrystallineCaracal</li>
 			<li>AA_DecayDrake</li>
 			<li>AA_DesertAve</li>
 			<li>AA_Drainer</li>
 			<li>AA_DrainerLarva</li>
 			<li>AA_Dunealisk</li>
 			<li>AA_DuskRat</li>
+			<li>AA_Erin</li>
 			<li>AA_Feralisk</li>
 			<li>AA_FireWasp</li>
 			<li>AA_FissionMouse</li>
+			<li>AA_FlamingoPhoenix</li>
 			<li>AA_FrostAve</li>
 			<li>AA_FrostboundBehemoth</li>
 			<li>AA_Frostling</li>
@@ -43,12 +47,15 @@
 			<li>AA_Gigantelope</li>
 			<li>AA_GreatDevourer</li>
 			<li>AA_GreenGoo</li>
+			<li>AA_GreyCoatedMouflon</li>
 			<li>AA_Groundrunner</li>
 			<li>AA_Helixien</li>
 			<li>AA_InfectedAerofleet</li>
 			<li>AA_IronhuskBeetle</li>
 			<li>AA_Junglelisk</li>
+			<li>AA_LarvalAtispec</li>
 			<li>AA_Lockjaw</li>
+			<li>AA_LuciferBug</li>
 			<li>AA_MammothWorm</li>
 			<li>AA_Mantrap</li>
 			<li>AA_MatureFleshbeast</li>
@@ -77,6 +84,7 @@
 			<li>AA_RoughPlatedMonitor</li>
 			<li>AA_RoyalAve</li>
 			<li>AA_SandLion</li>
+			<li>AA_SandProwler</li>
 			<li>AA_SandSquid</li>
 			<li>AA_ShockGoat</li>
 			<li>AA_Slurrypede</li>
@@ -84,14 +92,12 @@
 			<li>AA_Swarmling</li>
 			<li>AA_TarGuzzler</li>
 			<li>AA_TeratogenicOriginator</li>
+			<li>AA_Terramorph</li>
 			<li>AA_TetraSlug</li>
 			<li>AA_Thermadon</li>
+			<li>AA_Thunderbeast</li>
 			<li>AA_Wildpawn</li>
 			<li>AA_Wildpod</li>
-			<li>AA_SandProwler</li>
-			<li>AA_FlamingoPhoenix</li>
-			<li>AA_Terramorph</li>
-			<li>AA_LuciferBug</li>
 		</toggleablePawns>							
 	</AlphaBehavioursAndEvents.ToggleableSpawnDef>
 
