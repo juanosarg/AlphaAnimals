@@ -57,6 +57,7 @@
 				<thingToDigIfMapEmpty>ChunkSlagSteel</thingToDigIfMapEmpty>		
 				<fullyDestroyThing>false</fullyDestroyThing>
 				<percentageOfDestruction>0.2</percentageOfDestruction>
+				<needsWater>false</needsWater>
 
 
 			</li>

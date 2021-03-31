@@ -25,6 +25,7 @@ namespace AlphaBehavioursAndEvents
         public bool fissionOnlyIfTamed = true;
         public bool drainBattery = false;
         public float percentageDrain = 0.1f;
+        public bool needsWater = true;
 
 
         public CompProperties_EatWeirdFood()

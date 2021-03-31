@@ -167,6 +167,7 @@
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>Impassable</passability>
 		<blockWind>true</blockWind>
+
 		<scatterableOnMapGen>false</scatterableOnMapGen>
 		<fillPercent>1</fillPercent>
 		<blockLight>true</blockLight>
@@ -191,6 +192,7 @@
 				<basePowerConsumption>-25000</basePowerConsumption>
 				<transmitsPower>true</transmitsPower>
 			</li>
+			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Refuelable">
 				<fuelConsumptionRate>1.65</fuelConsumptionRate>
 				<fuelCapacity>50.0</fuelCapacity>
@@ -199,18 +201,24 @@
 						<li>AA_HexagelCore</li>
 					</thingDefs>
 				</fuelFilter>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+				<consumeFuelOnlyWhenUsed>false</consumeFuelOnlyWhenUsed>
 			</li>
 			<li Class="CompProperties_Glower">
 				<glowRadius>8</glowRadius>
 				<glowColor>(98,218,242,0)</glowColor>
 			</li>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>CompHeatPusherPowered</compClass>
+				<heatPerSecond>6</heatPerSecond>
+			</li>
 			<li Class="CompProperties_Breakdownable"/>
-			<li Class="CompProperties_Flickable"/>
+
 		</comps>
 		<rotatable>false</rotatable>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<designationCategory>Power</designationCategory>
-		
+
 		<building>
 			<ai_chillDestination>false</ai_chillDestination>
 			<soundAmbient>GeothermalPlant_Ambience</soundAmbient>

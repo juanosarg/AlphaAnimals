@@ -49,7 +49,7 @@
 				<advanceLifeStage>true</advanceLifeStage>
 				<advanceAfterXFeedings>10</advanceAfterXFeedings>
 				<defToAdvanceTo>AA_AcanthamoebaGiganteaLarge</defToAdvanceTo>
-
+				<needsWater>false</needsWater>
 			</li>
 
 

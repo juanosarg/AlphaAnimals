@@ -1588,24 +1588,27 @@
 									<drawRotated>false</drawRotated>
 								</graphicDataDefault>
 								<allVariants>
-									<li>
-										<texPath>Things/Pawn/Animal/Saddles/AA_RoyalAve-saddle_south</texPath>
-									</li>
-									<li>
-										<texPath>Things/Pawn/Animal/Saddles/AA_RoyalAveGreen-saddle_south</texPath>
-									</li>
-									<li>
-										<texPath>Things/Pawn/Animal/Saddles/AA_RoyalAveOrange-saddle_south</texPath>
-									</li>
-									<li>
-										<texPath>Things/Pawn/Animal/Saddles/AA_RoyalAveRainbow-saddle_south</texPath>
-									</li>
-									<li>
-										<texPath>Things/Pawn/Animal/Saddles/AA_RoyalAveRed-saddle_south</texPath>
-									</li>
-									<li>
-										<texPath>Things/Pawn/Animal/Saddles/AA_RoyalAveYellow-saddle_south</texPath>
-									</li>
+									<li><texPath>Things/Pawn/Animal/Saddles/AA_RoyalAve-saddle_south</texPath></li>
+									<li><texPath>Things/Pawn/Animal/Saddles/AA_RoyalAveGreen-saddle_south</texPath></li>
+									<li><texPath>Things/Pawn/Animal/Saddles/AA_RoyalAveOrange-saddle_south</texPath></li>
+									<li><texPath>Things/Pawn/Animal/Saddles/AA_RoyalAveRainbow-saddle_south</texPath></li>
+									<li><texPath>Things/Pawn/Animal/Saddles/AA_RoyalAveRed-saddle_south</texPath></li>
+									<li><texPath>Things/Pawn/Animal/Saddles/AA_RoyalAveYellow-saddle_south</texPath></li>
+									<li><texPath>Things/Pawn/Animal/Saddles/AA_RoyalAve1-saddle_south</texPath></li>
+									<li><texPath>Things/Pawn/Animal/Saddles/AA_RoyalAve2-saddle_south</texPath></li>
+									<li><texPath>Things/Pawn/Animal/Saddles/AA_RoyalAve3-saddle_south</texPath></li>
+									<li><texPath>Things/Pawn/Animal/Saddles/AA_RoyalAve4-saddle_south</texPath></li>
+									<li><texPath>Things/Pawn/Animal/Saddles/AA_RoyalAve5-saddle_south</texPath></li>
+									<li><texPath>Things/Pawn/Animal/Saddles/AA_RoyalAve6-saddle_south</texPath></li>
+									<li><texPath>Things/Pawn/Animal/Saddles/AA_RoyalAve7-saddle_south</texPath></li>
+									<li><texPath>Things/Pawn/Animal/Saddles/AA_RoyalAve8-saddle_south</texPath></li>
+									<li><texPath>Things/Pawn/Animal/Saddles/AA_RoyalAve9-saddle_south</texPath></li>
+									<li><texPath>Things/Pawn/Animal/Saddles/AA_RoyalAve10-saddle_south</texPath></li>
+									<li><texPath>Things/Pawn/Animal/Saddles/AA_RoyalAve11-saddle_south</texPath></li>
+									<li><texPath>Things/Pawn/Animal/Saddles/AA_RoyalAve12-saddle_south</texPath></li>
+									<li><texPath>Things/Pawn/Animal/Saddles/AA_RoyalAve13-saddle_south</texPath></li>
+
+
 									
 
 

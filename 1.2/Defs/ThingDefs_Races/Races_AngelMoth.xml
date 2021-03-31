@@ -231,6 +231,7 @@
 				<digThingIfMapEmpty>false</digThingIfMapEmpty>
 				<fullyDestroyThing>false</fullyDestroyThing>
 				<percentageOfDestruction>0.5</percentageOfDestruction>
+				<needsWater>true</needsWater>
 
 			</li>
 			<li Class="AlphaBehavioursAndEvents.CompProperties_AnimalProduct">

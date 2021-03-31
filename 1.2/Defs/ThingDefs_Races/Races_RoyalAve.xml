@@ -167,24 +167,25 @@
 		<combatPower>55</combatPower>
 		<alternateGraphicChance>1</alternateGraphicChance>
 		<alternateGraphics>
-			<li>
-				<texPath>Things/Pawn/Animal/AA_RoyalAve/AA_RoyalAve</texPath>
-			</li>
-			<li>
-				<texPath>Things/Pawn/Animal/AA_RoyalAve/AA_RoyalAveGreen</texPath>
-			</li>
-			<li>
-				<texPath>Things/Pawn/Animal/AA_RoyalAve/AA_RoyalAveOrange</texPath>
-			</li>
-			<li>
-				<texPath>Things/Pawn/Animal/AA_RoyalAve/AA_RoyalAveRed</texPath>
-			</li>
-			<li>
-				<texPath>Things/Pawn/Animal/AA_RoyalAve/AA_RoyalAveYellow</texPath>
-			</li>
-			<li>
-				<texPath>Things/Pawn/Animal/AA_RoyalAve/AA_RoyalAveRainbow</texPath>
-			</li>
+			<li><texPath>Things/Pawn/Animal/AA_RoyalAve/AA_RoyalAve</texPath></li>
+			<li><texPath>Things/Pawn/Animal/AA_RoyalAve/AA_RoyalAveGreen</texPath></li>
+			<li><texPath>Things/Pawn/Animal/AA_RoyalAve/AA_RoyalAveOrange</texPath></li>
+			<li><texPath>Things/Pawn/Animal/AA_RoyalAve/AA_RoyalAveRed</texPath></li>
+			<li><texPath>Things/Pawn/Animal/AA_RoyalAve/AA_RoyalAveYellow</texPath></li>
+			<li><texPath>Things/Pawn/Animal/AA_RoyalAve/AA_RoyalAveRainbow</texPath></li>
+			<li><texPath>Things/Pawn/Animal/AA_RoyalAve/AA_RoyalAve1</texPath></li>
+			<li><texPath>Things/Pawn/Animal/AA_RoyalAve/AA_RoyalAve2</texPath></li>
+			<li><texPath>Things/Pawn/Animal/AA_RoyalAve/AA_RoyalAve3</texPath></li>
+			<li><texPath>Things/Pawn/Animal/AA_RoyalAve/AA_RoyalAve4</texPath></li>
+			<li><texPath>Things/Pawn/Animal/AA_RoyalAve/AA_RoyalAve5</texPath></li>
+			<li><texPath>Things/Pawn/Animal/AA_RoyalAve/AA_RoyalAve6</texPath></li>
+			<li><texPath>Things/Pawn/Animal/AA_RoyalAve/AA_RoyalAve7</texPath></li>
+			<li><texPath>Things/Pawn/Animal/AA_RoyalAve/AA_RoyalAve8</texPath></li>
+			<li><texPath>Things/Pawn/Animal/AA_RoyalAve/AA_RoyalAve9</texPath></li>
+			<li><texPath>Things/Pawn/Animal/AA_RoyalAve/AA_RoyalAve10</texPath></li>
+			<li><texPath>Things/Pawn/Animal/AA_RoyalAve/AA_RoyalAve11</texPath></li>
+			<li><texPath>Things/Pawn/Animal/AA_RoyalAve/AA_RoyalAve12</texPath></li>
+			<li><texPath>Things/Pawn/Animal/AA_RoyalAve/AA_RoyalAve13</texPath></li>
 
 		</alternateGraphics>
 		<wildGroupSize>

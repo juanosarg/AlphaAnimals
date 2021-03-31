@@ -193,7 +193,7 @@
 		<statBases>
 			<MarketValue>4.2</MarketValue>
 			<StuffPower_Armor_Sharp>1.75</StuffPower_Armor_Sharp>
-			<StuffPower_Armor_Blunt>1</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Blunt>0.54</StuffPower_Armor_Blunt>
 			<StuffPower_Insulation_Cold>10</StuffPower_Insulation_Cold>
 			<StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
 		</statBases>

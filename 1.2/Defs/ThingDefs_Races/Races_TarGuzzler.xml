@@ -91,6 +91,7 @@
 				<nutrition>1</nutrition>
 				<digThingIfMapEmpty>false</digThingIfMapEmpty>
 				<fullyDestroyThing>true</fullyDestroyThing>
+				<needsWater>false</needsWater>
 				
 			</li>
 
