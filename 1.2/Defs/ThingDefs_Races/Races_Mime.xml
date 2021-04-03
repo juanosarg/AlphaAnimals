@@ -91,6 +91,7 @@
 			<foodType>OmnivoreHuman</foodType>
 			<baseHungerRate>3</baseHungerRate>
 			<wildness>1</wildness>
+			<fleshType>AA_HumanMeat</fleshType>
 			<herdMigrationAllowed>false</herdMigrationAllowed>			
 			<thinkTreeMain>Animal</thinkTreeMain>
 			<thinkTreeConstant>AnimalConstant</thinkTreeConstant>

@@ -697,7 +697,7 @@
 		<stages>
 			<li>
 				<becomeVisible>false</becomeVisible>
-				<hungerRateFactorOffset>2</hungerRateFactorOffset>
+				<hungerRateFactorOffset>0</hungerRateFactorOffset>
 			</li>
 		</stages>
 	</HediffDef>

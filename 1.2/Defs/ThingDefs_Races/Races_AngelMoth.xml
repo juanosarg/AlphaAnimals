@@ -55,6 +55,7 @@
 			<baseHealthScale>0.3</baseHealthScale>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<wildness>0.7</wildness> 
+			<fleshType>Insectoid</fleshType>
 			<useMeatFrom>Megaspider</useMeatFrom>
 			<leatherDef>Leather_Chitin</leatherDef>
 			<trainability>None</trainability>
@@ -264,6 +265,8 @@
 			<leatherDef>Leather_Chitin</leatherDef>
 			<useMeatFrom>Megaspider</useMeatFrom>
 			<wildness>0.65</wildness>
+			
+			<fleshType>Insectoid</fleshType>
 			<manhunterOnDamageChance>0.1</manhunterOnDamageChance>
 			<manhunterOnTameFailChance>0.02</manhunterOnTameFailChance>
 			<trainability>Intermediate</trainability>

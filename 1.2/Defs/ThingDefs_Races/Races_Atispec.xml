@@ -51,6 +51,7 @@
 			<baseHealthScale>0.1</baseHealthScale>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<wildness>0.80</wildness> 
+			<fleshType>Insectoid</fleshType>
 			<useMeatFrom>Megaspider</useMeatFrom>
 			<leatherDef>Leather_Chitin</leatherDef>
 			<trainability>None</trainability>

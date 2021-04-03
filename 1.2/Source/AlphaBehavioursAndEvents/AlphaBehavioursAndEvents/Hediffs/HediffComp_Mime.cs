@@ -22,10 +22,14 @@ namespace AlphaBehavioursAndEvents
 
         public int ticksWithMalnutrition = 1;
         public bool naturalDeath = true;
+        public int ticksToGetHungry;
+        public int hungerTicks = 0;
 
         public override void CompExposeData()
         {
             Scribe_Values.Look<int>(ref this.ticksWithMalnutrition, "ticksWithMalnutrition", 1, false);
+            Scribe_Values.Look<int>(ref this.hungerTicks, "hungerTicks", 0, false);
+            Scribe_Values.Look<int>(ref this.ticksToGetHungry, "ticksToGetHungry", 0, false);
             Scribe_Values.Look<bool>(ref this.naturalDeath, "naturalDeath", true, false);
 
 
@@ -35,23 +39,33 @@ namespace AlphaBehavioursAndEvents
         {
             base.CompPostMake();
             ticksWithMalnutrition = Props.malnutritionTrigger;
+            ticksToGetHungry = Rand.RangeInclusive(Props.minToGetHungry, Props.maxToGetHungry);
         }
 
         public override void CompPostTick(ref float severityAdjustment)
         {
             base.CompPostTick(ref severityAdjustment);
-            if (this.parent.pawn.IsHashIntervalTick(250))
+            hungerTicks++;
+            if (hungerTicks > ticksToGetHungry)
             {
-                if (this.parent.pawn.health.hediffSet.HasHediff(HediffDef.Named("Malnutrition")))
+                this.parent.CurStage.hungerRateFactorOffset = 2;
+                hungerTicks = ticksToGetHungry;
+                if (this.parent.pawn.IsHashIntervalTick(250))
                 {
-                    ticksWithMalnutrition--;
-                    if (ticksWithMalnutrition <= 0)
+                    if (this.parent.pawn.health.hediffSet.HasHediff(HediffDef.Named("Malnutrition"))&&!this.parent.pawn.Downed && this.parent.pawn.Awake())
                     {
-                        naturalDeath = false;
-                        this.parent.pawn.Kill(null);
+                        ticksWithMalnutrition--;
+                        if (ticksWithMalnutrition <= 0)
+                        {
+                            naturalDeath = false;
+                            this.parent.pawn.Kill(null);
+                        }
                     }
                 }
+
             }
+
+            
         }
 
 
