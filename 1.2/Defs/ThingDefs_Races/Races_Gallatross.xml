@@ -158,6 +158,8 @@
 					<li>AA_ArtilleryDesc</li>
 					<li>AA_Ranged</li>
 				</statDescriptions>
+				<showImageInInfoCard>true</showImageInInfoCard>
+				<ImageToShowInInfoCard>Art/GallatrossArt</ImageToShowInInfoCard>
 
 			</li>
 		</modExtensions>
