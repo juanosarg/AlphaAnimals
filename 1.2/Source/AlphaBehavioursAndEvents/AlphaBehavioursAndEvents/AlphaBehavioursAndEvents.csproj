@@ -307,7 +307,6 @@
     <Compile Include="Comps\CompChangeDefSappers.cs" />
     <Compile Include="Comps\CompChangeDef.cs" />
     <Compile Include="Comps\CompCorpseDecayer.cs" />
-    <Compile Include="Comps\CompFeminism.cs" />
     <Compile Include="Comps\CompGraphicByTerrain.cs" />
     <Compile Include="Comps\CompHediffEffecter.cs" />
     <Compile Include="Comps\CompInfecter.cs" />
@@ -317,7 +316,6 @@
     <Compile Include="Comps\CompProperties\CompProperties_ChangeDefSappers.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_ChangeDef.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_CorpseDecayer.cs" />
-    <Compile Include="Comps\CompProperties\CompProperties_Feminism.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_HediffEffecter.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_Infecter.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_Metamorphosis.cs" />
@@ -374,11 +372,9 @@
     <Compile Include="Buildings\Building_BlackHiveMound.cs" />
     <Compile Include="Buildings\Building_Overgrown_DropPod.cs" />
     <Compile Include="PawnClasses\ChameleonSkins.cs" />
-    <Compile Include="Comps\CompFertilizer.cs" />
     <Compile Include="Comps\CompGasProducer.cs" />
     <Compile Include="Comps\CompInitialHediff.cs" />
     <Compile Include="Comps\CompNearbyEffecter.cs" />
-    <Compile Include="Comps\CompProperties\CompProperties_Fertilizer.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_GasProducer.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_InitialHediff.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_NearbyEffecter.cs" />

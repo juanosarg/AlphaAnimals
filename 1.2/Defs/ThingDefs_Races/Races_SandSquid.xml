@@ -39,9 +39,10 @@
 		</tools>
 
 		<comps>		
-			<li Class="AlphaBehavioursAndEvents.CompProperties_Fertilizer">
+			<li Class="AnimalBehaviours.CompProperties_TerrainChanger">
 				<FirstStageTerrain>Sand</FirstStageTerrain>
 				<SecondStageTerrain>AA_FertilizedSand</SecondStageTerrain>
+				<doThirdStage>true</doThirdStage>
 				<ThirdStageTerrain>AA_SuperiorFertilizedSand</ThirdStageTerrain>
 			</li>
 		</comps>	
