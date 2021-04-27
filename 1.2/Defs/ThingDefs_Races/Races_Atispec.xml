@@ -188,10 +188,7 @@
 
 		</tools>
 		<comps>
-			<li Class="AlphaBehavioursAndEvents.CompProperties_Floating">
-
-				<isFloater>true</isFloater>
-				<canCrossWater>true</canCrossWater>
+			<li Class="AnimalBehaviours.CompProperties_Floating">
 
 			</li>
 			<li Class="CompProperties_EggLayer">

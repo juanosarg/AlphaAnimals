@@ -6,7 +6,7 @@
 	<ThingDef ParentName="BaseMechanoid">
 		<defName>AA_Goliath</defName>
 		<label>goliath</label>
-		<description>The Goliath is a heavy combat mechanoid with a humanoid body plan. They are faster than centipedes, and are usually armed with heavy mechanoid weapons or needle guns.\n\nNOTE: all Alpha Mechanoids can be disabled from raids, ships and clusters by Mod Options. This can be used even if they have already spawned.</description>
+		<description>The Goliath is a heavy combat mechanoid with a humanoid body plan. They are faster than centipedes, and are usually armed with heavy mechanoid weapons or needle guns.\n\nNOTE: all Alpha Mechanoids can be disabled from raids, ships and clusters by Mod Options. This can be used even if they have already spawned. In any case, they have very similar stats to base game mechanoids, so don't let their appearance intimidate you into thinking they are much harder!</description>
 		<statBases>
 			<MoveSpeed>2.5</MoveSpeed>
 			<ArmorRating_Blunt>0.20</ArmorRating_Blunt>

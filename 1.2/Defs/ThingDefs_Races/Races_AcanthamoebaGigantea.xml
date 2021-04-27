@@ -30,7 +30,7 @@
 		<tickerType>Normal</tickerType>
 		<comps>
 
-			<li Class="AlphaBehavioursAndEvents.CompProperties_EatWeirdFood">
+			<li Class="AnimalBehaviours.CompProperties_EatWeirdFood">
 
 				<customThingToEat>
 
@@ -57,7 +57,7 @@
 
 		</comps>
 		<race>
-			<thinkTreeMain>AA_AnimalWeirdEater</thinkTreeMain>
+			<thinkTreeMain>VEF_AnimalWeirdEater</thinkTreeMain>
 			<deathActionWorkerClass>AlphaBehavioursAndEvents.DeathActionWorker_AcidExplosion</deathActionWorkerClass>
 			<executionRange>4</executionRange>
 			<herdAnimal>false</herdAnimal>
@@ -179,7 +179,7 @@
 		<tickerType>Normal</tickerType>
 		<comps>
 
-			<li Class="AlphaBehavioursAndEvents.CompProperties_EatWeirdFood">
+			<li Class="AnimalBehaviours.CompProperties_EatWeirdFood">
 
 				<customThingToEat>
 
@@ -206,7 +206,7 @@
 
 		</comps>
 		<race>
-			<thinkTreeMain>AA_AnimalWeirdEater</thinkTreeMain>
+			<thinkTreeMain>VEF_AnimalWeirdEater</thinkTreeMain>
 			<deathActionWorkerClass>AlphaBehavioursAndEvents.DeathActionWorker_AcidExplosion</deathActionWorkerClass>
 			<executionRange>6</executionRange>
 			<herdAnimal>false</herdAnimal>
@@ -318,7 +318,7 @@
 		<tickerType>Normal</tickerType>
 		<comps>
 
-			<li Class="AlphaBehavioursAndEvents.CompProperties_EatWeirdFood">
+			<li Class="AnimalBehaviours.CompProperties_EatWeirdFood">
 
 				<customThingToEat>
 
@@ -348,7 +348,7 @@
 
 		</comps>
 		<race>
-			<thinkTreeMain>AA_AnimalWeirdEater</thinkTreeMain>
+			<thinkTreeMain>VEF_AnimalWeirdEater</thinkTreeMain>
 			<deathActionWorkerClass>AlphaBehavioursAndEvents.DeathActionWorker_AcidExplosion</deathActionWorkerClass>
 			<executionRange>8</executionRange>
 			<herdAnimal>false</herdAnimal>

@@ -59,7 +59,7 @@
 		</verbs>
 		<comps>
 
-			<li Class="AlphaBehavioursAndEvents.CompProperties_Electrified">
+			<li Class="AnimalBehaviours.CompProperties_Electrified">
 				<electroRate>40</electroRate>
 				<electroRadius>5</electroRadius>
 				<batteriesToAffect>

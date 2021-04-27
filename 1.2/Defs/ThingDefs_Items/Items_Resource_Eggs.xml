@@ -769,7 +769,7 @@
 				<hatcherDaystoHatch>12</hatcherDaystoHatch>
 				<hatcherPawn>AA_Junglelisk</hatcherPawn>
 			</li>
-			<li Class="AlphaBehavioursAndEvents.CompProperties_DestroyThisItem">
+			<li Class="AnimalBehaviours.CompProperties_DestroyThisItem">
 				<buttonLabel>AA_DestroyFlamingoEggsLabel</buttonLabel>
 				<buttonDesc>AA_DestroyFlamingoEggsDesc</buttonDesc>
 				<buttonIcon>UI/AA_DestroyJungleliskEgg</buttonIcon>
@@ -951,7 +951,7 @@
 			<li>NotForGuests</li>
 		</thingSetMakerTags>
 		<comps>
-			<li Class="AlphaBehavioursAndEvents.CompProperties_ExplodingHatcher">
+			<li Class="AnimalBehaviours.CompProperties_ExplodingHatcher">
 				<hatcherDaystoHatch>2</hatcherDaystoHatch>
 				<hatcherPawn>AA_RoughPlatedMonitor</hatcherPawn>
 				<range>3</range>
@@ -1136,7 +1136,7 @@
 				<hatcherDaystoHatch>2</hatcherDaystoHatch>
 				<hatcherPawn>AA_FlamingoPhoenix</hatcherPawn>
 			</li>
-			<li Class="AlphaBehavioursAndEvents.CompProperties_DestroyThisItem">
+			<li Class="AnimalBehaviours.CompProperties_DestroyThisItem">
 				<buttonLabel>AA_DestroyFlamingoEggsLabel</buttonLabel>
 				<buttonDesc>AA_DestroyFlamingoEggsDesc</buttonDesc>
 				<buttonIcon>UI/AA_DestroyFlamingoEgg</buttonIcon>

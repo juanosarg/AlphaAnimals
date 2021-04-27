@@ -88,7 +88,7 @@
 				<ticksConversionRate>10000</ticksConversionRate>
 
 			</li>
-			<li Class="AlphaBehavioursAndEvents.CompProperties_EatWeirdFood">
+			<li Class="AnimalBehaviours.CompProperties_EatWeirdFood">
 
 				<customThingToEat>
 				
@@ -139,7 +139,7 @@
 				<ColdBog>0.02</ColdBog>
 				<TemperateForest>0.005</TemperateForest>
 			</wildBiomes>
-			<thinkTreeMain>AA_AnimalWeirdEater</thinkTreeMain>
+			<thinkTreeMain>VEF_AnimalWeirdEater</thinkTreeMain>
 			<body>AA_WingedQuadrupedAnimalWithPawsAndTail</body>
 			<baseBodySize>1</baseBodySize>
 			<baseHealthScale>2</baseHealthScale>

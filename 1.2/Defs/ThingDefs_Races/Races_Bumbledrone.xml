@@ -47,10 +47,7 @@
 
 		</tools>
 		<comps>
-			<li Class="AlphaBehavioursAndEvents.CompProperties_Floating">
-
-				<isFloater>true</isFloater>
-				<canCrossWater>true</canCrossWater>
+			<li Class="AnimalBehaviours.CompProperties_Floating">
 
 			</li>
 		</comps>
@@ -249,10 +246,7 @@
 
 		</tools>
 		<comps>
-			<li Class="AlphaBehavioursAndEvents.CompProperties_Floating">
-
-				<isFloater>true</isFloater>
-				<canCrossWater>true</canCrossWater>
+			<li Class="AnimalBehaviours.CompProperties_Floating">
 
 			</li>
 		</comps>
@@ -460,10 +454,7 @@
 				<eggLayFemaleOnly>false</eggLayFemaleOnly>
 
 			</li>
-			<li Class="AlphaBehavioursAndEvents.CompProperties_Floating">
-
-				<isFloater>true</isFloater>
-				<canCrossWater>true</canCrossWater>
+			<li Class="AnimalBehaviours.CompProperties_Floating">
 
 			</li>
 

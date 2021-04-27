@@ -6,7 +6,7 @@
 	<ThingDef ParentName="BaseMechanoid">
 		<defName>AA_Fireworm</defName>
 		<label>fireworm</label>
-		<description>A huge mechanical worm armed with a dangerous chemfuel flamethrower. Their weapon has a very short range, so don't let a fireworm approach your defenses!\n\nThe fireworm superficially resembles a Frostbound Behemoth. A coincidence? Or perhaps mechanoids take living things as a blueprint for their units. If so, you wouldn't want to see what a biological scyther looks like...\n\nNOTE: all Alpha Mechanoids can be disabled from raids, ships and clusters by Mod Options. This can be used even if they have already spawned.</description>
+		<description>A huge mechanical worm armed with a dangerous chemfuel flamethrower. Their weapon has a very short range, so don't let a fireworm approach your defenses!\n\nThe fireworm superficially resembles a Frostbound Behemoth. A coincidence? Or perhaps mechanoids take living things as a blueprint for their units. If so, you wouldn't want to see what a biological scyther looks like...\n\nNOTE: all Alpha Mechanoids can be disabled from raids, ships and clusters by Mod Options. This can be used even if they have already spawned. In any case, they have very similar stats to base game mechanoids, so don't let their appearance intimidate you into thinking they are much harder!</description>
 		<statBases>
 			<MoveSpeed>2.2</MoveSpeed>
 			<ArmorRating_Blunt>0.20</ArmorRating_Blunt>

@@ -96,10 +96,10 @@
 		<workerClass>DamageWorker_AddInjury</workerClass>
 		<externalViolence>true</externalViolence>
 		<deathMessage>{0} has been corroded to death.</deathMessage>
-		<hediff>AA_AcidBurn</hediff>
+		<hediff>VEF_AcidBurn</hediff>
 		<additionalHediffs>
 			<li>
-				<hediff>AA_AcidBuildup</hediff>
+				<hediff>VEF_AcidBuildup</hediff>
 				<severityPerDamageDealt>0.01</severityPerDamageDealt>
 
 			</li>
@@ -115,7 +115,7 @@
 		<workerClass>DamageWorker_AddInjury</workerClass>
 		<externalViolence>true</externalViolence>
 		<deathMessage>{0} has been overdosed to death.</deathMessage>
-		<hediff>AA_AcidBurn</hediff>
+		<hediff>VEF_AcidBurn</hediff>
 		<additionalHediffs>
 			<li>
 				<hediff>LuciferiumAddiction</hediff>
@@ -141,10 +141,10 @@
 		<workerClass>DamageWorker_AddInjury</workerClass>
 		<externalViolence>true</externalViolence>
 		<deathMessage>{0} has been corroded to death.</deathMessage>
-		<hediff>AA_AcidBurn</hediff>
+		<hediff>VEF_AcidBurn</hediff>
 		<additionalHediffs>
 			<li>
-				<hediff>AA_AcidBuildup</hediff>
+				<hediff>VEF_AcidBuildup</hediff>
 				<severityPerDamageDealt>0.01</severityPerDamageDealt>
 
 			</li>
@@ -154,17 +154,7 @@
 		<armorCategory>Heat</armorCategory>
 	</DamageDef>
 
-	<DamageDef>
-		<defName>AA_SecondaryAcidBurn</defName>
-		<label>acid burn</label>
-		<workerClass>DamageWorker_AddInjury</workerClass>
-		<externalViolence>true</externalViolence>
-		<deathMessage>{0} has been corroded to death.</deathMessage>
-		<hediff>AA_AcidBurn</hediff>
-
-		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
-		<armorCategory>Heat</armorCategory>
-	</DamageDef>
+	
 
 	<DamageDef>
 		<defName>AA_VeryToxicSting</defName>

@@ -33,14 +33,14 @@
 			
 	<comps>
 
-			<li Class="AlphaBehavioursAndEvents.CompProperties_AsexualReproduction">
+			<li Class="AnimalBehaviours.CompProperties_AsexualReproduction">
 
 				<reproductionIntervalDays>120</reproductionIntervalDays>
 				<customString>Cloning in: </customString>
 				
 
 			</li>
-			<li Class="AlphaBehavioursAndEvents.CompProperties_AnimalProduct">
+			<li Class="AnimalBehaviours.CompProperties_AnimalProduct">
 				
 				<gatheringIntervalDays>20</gatheringIntervalDays>
 				<resourceAmount>1</resourceAmount>

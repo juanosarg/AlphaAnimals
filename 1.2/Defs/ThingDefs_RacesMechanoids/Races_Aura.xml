@@ -6,7 +6,7 @@
   <ThingDef ParentName="BaseMechanoidWalker">
     <defName>AA_Aura</defName>
     <label>aura</label>
-    <description>The Aura, also known as Avenging Angels, are angel-shaped mechanoids surrounded by a whirling cloud of six levitating metallic blades. They favour close combat, approaching their victims and engulfing them in an eviscerating whirlwind of slashing death. They also have the ability to regenerate their wounds with fast acting mechanites.\n\nNOTE: all Alpha Mechanoids can be disabled from raids, ships and clusters by Mod Options. This can be used even if they have already spawned.</description>
+    <description>The Aura, also known as Avenging Angels, are angel-shaped mechanoids surrounded by a whirling cloud of six levitating metallic blades. They favour close combat, approaching their victims and engulfing them in an eviscerating whirlwind of slashing death. They also have the ability to regenerate their wounds with fast acting mechanites.\n\nNOTE: all Alpha Mechanoids can be disabled from raids, ships and clusters by Mod Options. This can be used even if they have already spawned. In any case, they have very similar stats to base game mechanoids, so don't let their appearance intimidate you into thinking they are much harder!</description>
     <tools>
       <li>
         <label>wing blade</label>

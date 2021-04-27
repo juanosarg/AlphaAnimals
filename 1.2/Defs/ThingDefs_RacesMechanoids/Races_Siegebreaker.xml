@@ -6,7 +6,7 @@
 	<ThingDef ParentName="BaseMechanoid">
 		<defName>AA_Siegebreaker</defName>
 		<label>siegebreaker</label>
-		<description>The siegebreaker is a particularly dangerous tank-shaped mechanoid. Armed with a Siegebreaker Cannon that fires explosives shells, they can detect a hostile presence from hundreds of meters away, acting as unrelenting siege weapons that can obliterate even the strongest defense. Their movement is incredibly slow, and their cannon takes a very long time to recharge, but they should be treated as priority targets in most cases.\n\nNOTE: all Alpha Mechanoids can be disabled from raids, ships and clusters by Mod Options. This can be used even if they have already spawned.</description>
+		<description>The siegebreaker is a particularly dangerous tank-shaped mechanoid. Armed with a Siegebreaker Cannon that fires explosives shells, they can detect a hostile presence from hundreds of meters away, acting as unrelenting siege weapons that can obliterate even the strongest defense. Their movement is incredibly slow, and their cannon takes a very long time to recharge, but they should be treated as priority targets in most cases.\n\nNOTE: all Alpha Mechanoids can be disabled from raids, ships and clusters by Mod Options. This can be used even if they have already spawned. In any case, they have very similar stats to base game mechanoids, so don't let their appearance intimidate you into thinking they are much harder!</description>
 		<statBases>
 			<MoveSpeed>1</MoveSpeed>
 			<ArmorRating_Blunt>0.50</ArmorRating_Blunt>

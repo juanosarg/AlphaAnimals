@@ -40,7 +40,7 @@
 
 		<comps>
 
-			<li Class="AlphaBehavioursAndEvents.CompProperties_AsexualReproduction">
+			<li Class="AnimalBehaviours.CompProperties_AsexualReproduction">
 
 				<reproductionIntervalDays>85</reproductionIntervalDays>
 				<customString>Dispersing spores in: </customString>
@@ -49,7 +49,7 @@
 
 			</li>
 
-			<li Class="AlphaBehavioursAndEvents.CompProperties_AnimalProduct">
+			<li Class="AnimalBehaviours.CompProperties_AnimalProduct">
 				<resourceDef>AA_AgariluxRawFungus</resourceDef>
 				<gatheringIntervalDays>10</gatheringIntervalDays>
 				<resourceAmount>100</resourceAmount>

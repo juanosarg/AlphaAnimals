@@ -71,7 +71,7 @@
 		</tools>
 		<comps>
 
-			<li Class="AlphaBehavioursAndEvents.CompProperties_AsexualReproduction">
+			<li Class="AnimalBehaviours.CompProperties_AsexualReproduction">
 
 				<reproductionIntervalDays>25</reproductionIntervalDays>
 				<customString>Dispersing spores in: </customString>
@@ -83,7 +83,7 @@
 				<hediffToInflict>AA_PermanentBurn</hediffToInflict>
 
 			</li>
-			<li Class="AlphaBehavioursAndEvents.CompProperties_AnimalProduct">
+			<li Class="AnimalBehaviours.CompProperties_AnimalProduct">
 				<resourceDef>RawFungus</resourceDef>
 				<gatheringIntervalDays>10</gatheringIntervalDays>
 				<resourceAmount>20</resourceAmount>

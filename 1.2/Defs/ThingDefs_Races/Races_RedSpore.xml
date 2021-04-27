@@ -58,10 +58,7 @@
 				<rate>0.5</rate>
 				<radius>2</radius>
 			</li>
-			<li Class="AlphaBehavioursAndEvents.CompProperties_Floating">
-
-				<isFloater>true</isFloater>
-				<canCrossWater>true</canCrossWater>
+			<li Class="AnimalBehaviours.CompProperties_Floating">
 
 			</li>
 		

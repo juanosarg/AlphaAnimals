@@ -6,7 +6,7 @@
 	<ThingDef ParentName="BaseMechanoid">
 		<defName>AA_Demolisher</defName>
 		<label>demolisher</label>
-		<description>The strange demolisher mechanoid looks like a weird amalgamation of a deep sea crab, a star-nosed mole and an armoured combat vehicle. Demolishers are armed with a very dangerous short range turret that fires demolisher charges, capable of blowing up even the strongest walls in two or three hits. Once they have ruptured a colony's outer defenses, their enormous plasteel reinforced claws can make short work of anyone foolish enough to stay in their way.\n\nNOTE: all Alpha Mechanoids can be disabled from raids, ships and clusters by Mod Options. This can be used even if they have already spawned.</description>
+		<description>The strange demolisher mechanoid looks like a weird amalgamation of a deep sea crab, a star-nosed mole and an armoured combat vehicle. Demolishers are armed with a very dangerous short range turret that fires demolisher charges, capable of blowing up even the strongest walls in two or three hits. Once they have ruptured a colony's outer defenses, their enormous plasteel reinforced claws can make short work of anyone foolish enough to stay in their way.\n\nNOTE: all Alpha Mechanoids can be disabled from raids, ships and clusters by Mod Options. This can be used even if they have already spawned. In any case, they have very similar stats to base game mechanoids, so don't let their appearance intimidate you into thinking they are much harder!</description>
 		<statBases>
 			<MoveSpeed>2.5</MoveSpeed>
 			<ArmorRating_Blunt>0.75</ArmorRating_Blunt>

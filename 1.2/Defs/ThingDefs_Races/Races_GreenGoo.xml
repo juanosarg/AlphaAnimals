@@ -50,7 +50,7 @@
 		<tickerType>Normal</tickerType>
 		<comps>
 
-			<li Class="AlphaBehavioursAndEvents.CompProperties_AsexualReproduction">
+			<li Class="AnimalBehaviours.CompProperties_AsexualReproduction">
 
 				<reproductionIntervalDays>10</reproductionIntervalDays>
 				<customString>Cloning in: </customString>

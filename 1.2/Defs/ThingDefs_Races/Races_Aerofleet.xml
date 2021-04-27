@@ -33,19 +33,16 @@
 		</tools>
 		<comps>
 
-			<li Class="AlphaBehavioursAndEvents.CompProperties_Floating">
-
-				<isFloater>true</isFloater>
-				<canCrossWater>true</canCrossWater>
+			<li Class="AnimalBehaviours.CompProperties_Floating">
 
 			</li>
 
-			<li Class="AlphaBehavioursAndEvents.CompProperties_AsexualReproduction">
+			<li Class="AnimalBehaviours.CompProperties_AsexualReproduction">
 				<reproductionIntervalDays>9</reproductionIntervalDays>
 				<customString>Asexual fission in: </customString>
 			</li>
 
-			<li Class="AlphaBehavioursAndEvents.CompProperties_AnimalProduct">
+			<li Class="AnimalBehaviours.CompProperties_AnimalProduct">
 				<resourceDef>AA_BlueGel</resourceDef>
 				<gatheringIntervalDays>3</gatheringIntervalDays>
 				<resourceAmount>6</resourceAmount>
@@ -202,19 +199,16 @@
 			<MeatAmount>0</MeatAmount>
 		</statBases>
 		<comps>
-			<li Class="AlphaBehavioursAndEvents.CompProperties_Floating">
-
-				<isFloater>true</isFloater>
-				<canCrossWater>true</canCrossWater>
+			<li Class="AnimalBehaviours.CompProperties_Floating">
 
 			</li>
-			<li Class="AlphaBehavioursAndEvents.CompProperties_AnimalProduct">
+			<li Class="AnimalBehaviours.CompProperties_AnimalProduct">
 				<resourceDef>AA_BlueGel</resourceDef>
 				<gatheringIntervalDays>5</gatheringIntervalDays>
 				<resourceAmount>100</resourceAmount>
 				<customResourceString>AA_BlueGel</customResourceString>
 			</li>
-			<li Class="AlphaBehavioursAndEvents.CompProperties_AsexualReproduction">
+			<li Class="AnimalBehaviours.CompProperties_AsexualReproduction">
 				<reproductionIntervalDays>25</reproductionIntervalDays>
 				<customString>Asexual fission in: </customString>
 				<convertsIntoAnotherDef>true</convertsIntoAnotherDef>

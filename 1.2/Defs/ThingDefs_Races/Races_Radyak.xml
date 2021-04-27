@@ -60,7 +60,7 @@
 				<milkIntervalDays>6</milkIntervalDays>
 				<milkAmount>15</milkAmount>
 			</li>
-			<li Class="AlphaBehavioursAndEvents.CompProperties_AnimalProduct">
+			<li Class="AnimalBehaviours.CompProperties_AnimalProduct">
 				<resourceDef>AA_UraniumCrystals</resourceDef>
 				<gatheringIntervalDays>10</gatheringIntervalDays>
 				<resourceAmount>1</resourceAmount>

@@ -79,11 +79,11 @@
 		</tools>
 		<comps>
 
-			<li Class="AlphaBehavioursAndEvents.CompProperties_AcidImmunity">
+			<li Class="AnimalBehaviours.CompProperties_AcidImmunity">
 
 
 			</li>
-			<li Class="CompProperties_EggLayer">
+			<li Class="AnimalBehaviours.CompProperties_ExplodingEggLayer">
 				<eggFertilizedDef>AA_EggRoughPlatedMonitorFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
 				<eggLayIntervalDays>20</eggLayIntervalDays>

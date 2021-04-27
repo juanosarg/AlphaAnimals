@@ -44,7 +44,7 @@
 		<comps>
 
 
-			<li Class="AlphaBehavioursAndEvents.CompProperties_EatWeirdFood">
+			<li Class="AnimalBehaviours.CompProperties_EatWeirdFood">
 
 				<customThingToEat>
 
@@ -85,7 +85,7 @@
 				<ExtremeDesert>0.05</ExtremeDesert>      
 
 			</wildBiomes>
-			<thinkTreeMain>AA_AnimalWeirdEater</thinkTreeMain>
+			<thinkTreeMain>VEF_AnimalWeirdEater</thinkTreeMain>
 			<herdAnimal>false</herdAnimal>
 			<predator>false</predator>
 			<useMeatFrom>AA_PebbleMit</useMeatFrom>

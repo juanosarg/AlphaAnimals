@@ -82,7 +82,7 @@
 		</verbs>
 		<comps>
 
-			<li Class="AlphaBehavioursAndEvents.CompProperties_AnimalProduct">
+			<li Class="AnimalBehaviours.CompProperties_AnimalProduct">
 				<resourceDef>Synthread</resourceDef>
 				<gatheringIntervalDays>22</gatheringIntervalDays>
 				<resourceAmount>33</resourceAmount>
@@ -96,7 +96,7 @@
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
 				<eggCountRange>1~2</eggCountRange>
 			</li>
-			<li Class="AlphaBehavioursAndEvents.CompProperties_EatWeirdFood">
+			<li Class="AnimalBehaviours.CompProperties_EatWeirdFood">
 
 				<customThingToEat>
 					<li>Plant_GrassAnima</li>
@@ -115,7 +115,7 @@
 			</li>
 		</comps>
 		<race>
-			<thinkTreeMain>AA_AnimalWeirdEater</thinkTreeMain>
+			<thinkTreeMain>VEF_AnimalWeirdEater</thinkTreeMain>
 			<canBePredatorPrey>true</canBePredatorPrey>			
 			<body>AA_Arachnid</body>
 			<herdAnimal>true</herdAnimal>

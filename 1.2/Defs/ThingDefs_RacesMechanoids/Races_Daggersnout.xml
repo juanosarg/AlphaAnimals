@@ -6,7 +6,7 @@
   <ThingDef ParentName="BaseMechanoidWalker">
     <defName>AA_Daggersnout</defName>
     <label>daggersnout</label>
-    <description>The daggersnout is a fast, insectlike combat mechanoid armed with a vicious sharp blade on its head. It isn't as dangerous as other close-ranged mechanoids, such as scythers, but they usually appear in greater numbers.\n\nNOTE: all Alpha Mechanoids can be disabled from raids, ships and clusters by Mod Options. This can be used even if they have already spawned.</description>
+    <description>The daggersnout is a fast, insectlike combat mechanoid armed with a vicious sharp blade on its head. It isn't as dangerous as other close-ranged mechanoids, such as scythers, but they usually appear in greater numbers.\n\nNOTE: all Alpha Mechanoids can be disabled from raids, ships and clusters by Mod Options. This can be used even if they have already spawned. In any case, they have very similar stats to base game mechanoids, so don't let their appearance intimidate you into thinking they are much harder!</description>
     <tools>
       <li>
         <label>snout blade</label>

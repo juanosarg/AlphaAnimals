@@ -59,7 +59,7 @@
 				<milkIntervalDays>2</milkIntervalDays>
 				<milkAmount>12</milkAmount>
 			</li>
-			<li Class="AlphaBehavioursAndEvents.CompProperties_AnimalProduct">
+			<li Class="AnimalBehaviours.CompProperties_AnimalProduct">
 
 				<gatheringIntervalDays>25</gatheringIntervalDays>
 				<resourceAmount>100</resourceAmount>

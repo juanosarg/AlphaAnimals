@@ -6,7 +6,7 @@
 	<ThingDef ParentName="BaseMechanoid">
 		<defName>AA_Phalanx</defName>
 		<label>phalanx</label>
-		<description>A bulking mechanoid based on a rhinoceros beetle body plan. The phalanx's plasteel carapace hides a very powerful cryogenic engine capable of constantly producing compacted pellets of supercooled gas. These are fired from an aperture at the mechanoid's head.\n\nThis cryo-weapon has a very low range, but it can be very dangerous for beings susceptible to frostbite.\n\nNOTE: all Alpha Mechanoids can be disabled from raids, ships and clusters by Mod Options. This can be used even if they have already spawned.</description>
+		<description>A hulking mechanoid based on a rhinoceros beetle body plan. The phalanx's plasteel carapace hides a very powerful cryogenic engine capable of constantly producing compacted pellets of supercooled gas. These are fired from an aperture at the mechanoid's head.\n\nThis cryo-weapon has a very low range, but it can be very dangerous for beings susceptible to frostbite.\n\nNOTE: all Alpha Mechanoids can be disabled from raids, ships and clusters by Mod Options. This can be used even if they have already spawned. In any case, they have very similar stats to base game mechanoids, so don't let their appearance intimidate you into thinking they are much harder!</description>
 		<statBases>
 			<MoveSpeed>2.5</MoveSpeed>
 			<ArmorRating_Blunt>0.35</ArmorRating_Blunt>

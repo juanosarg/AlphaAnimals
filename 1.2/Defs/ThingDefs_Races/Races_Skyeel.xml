@@ -46,10 +46,7 @@
 				<rateInTicks>100</rateInTicks>
 
 			</li>
-			<li Class="AlphaBehavioursAndEvents.CompProperties_Floating">
-
-				<isFloater>true</isFloater>
-				<canCrossWater>true</canCrossWater>
+			<li Class="AnimalBehaviours.CompProperties_Floating">
 
 			</li>
 

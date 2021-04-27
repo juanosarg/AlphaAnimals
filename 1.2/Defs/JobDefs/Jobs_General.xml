@@ -1,11 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<JobDef>
-		<defName>AA_DestroyItem</defName>
-		<driverClass>AlphaBehavioursAndEvents.JobDriver_DestroyItem</driverClass>
-		<reportString>destroying an item.</reportString>
-	</JobDef>
+	
 
 	<JobDef>
 		<defName>AA_PlantAnimaTreeJob</defName>

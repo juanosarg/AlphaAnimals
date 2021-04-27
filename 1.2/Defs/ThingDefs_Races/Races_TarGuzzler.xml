@@ -80,7 +80,7 @@
 		</tools>
 		<comps>
 
-			<li Class="AlphaBehavioursAndEvents.CompProperties_EatWeirdFood">
+			<li Class="AnimalBehaviours.CompProperties_EatWeirdFood">
 
 				<customThingToEat>
 				
@@ -97,7 +97,7 @@
 
 		</comps>
 		<race>
-			<thinkTreeMain>AA_AnimalWeirdEater</thinkTreeMain>
+			<thinkTreeMain>VEF_AnimalWeirdEater</thinkTreeMain>
 			<body>AA_TentacledQuadruped</body>
 			<baseBodySize>2</baseBodySize>
 			<herdMigrationAllowed>false</herdMigrationAllowed>
