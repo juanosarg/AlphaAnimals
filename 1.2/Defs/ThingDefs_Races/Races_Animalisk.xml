@@ -175,6 +175,8 @@
 					<li>AA_ParalyzingRangedDesc</li>
 					<li>AA_Ranged</li>
 				</statDescriptions>
+				<showImageInInfoCard>true</showImageInInfoCard>
+				<ImageToShowInInfoCard>Art/AA_AnimaliskArt2</ImageToShowInInfoCard>
 
 			</li>
 		</modExtensions>

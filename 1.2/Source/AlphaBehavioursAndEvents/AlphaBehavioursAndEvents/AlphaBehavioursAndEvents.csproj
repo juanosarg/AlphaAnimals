@@ -380,6 +380,7 @@
     <Compile Include="PawnClasses\Pawn_GrowOnCombat.cs" />
     <Compile Include="PawnClasses\Pawn_SwallowWhole.cs" />
     <Compile Include="Projectiles\Electric_Projectile.cs" />
+    <Compile Include="Projectiles\Web_Projectile.cs" />
     <Compile Include="Projectiles\Siege_Projectile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Incidents\ThingSetMaker_SpecialMeteorite.cs" />
