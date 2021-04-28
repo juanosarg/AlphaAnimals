@@ -78,7 +78,7 @@
 
 		<comps>
 
-			<li Class="AlphaBehavioursAndEvents.CompProperties_InitialHediff">
+			<li Class="AnimalBehaviours.CompProperties_InitialHediff">
 				<hediffname>AA_Resurrection</hediffname>
 				<hediffseverity>1</hediffseverity>
 

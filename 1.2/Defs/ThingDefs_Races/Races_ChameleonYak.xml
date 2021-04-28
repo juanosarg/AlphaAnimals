@@ -61,7 +61,7 @@
 			</li>
 			<li Class="AnimalBehaviours.CompProperties_AnimalProduct">
 
-				<gatheringIntervalDays>25</gatheringIntervalDays>
+				<gatheringIntervalDays>1</gatheringIntervalDays>
 				<resourceAmount>100</resourceAmount>
 				<customResourceString>AA_SeasonalWoolDesc</customResourceString>
 
@@ -73,6 +73,63 @@
 				</seasonalItems>
 
 			</li>
+			<li Class="AnimalBehaviours.CompProperties_GraphicByTerrain">
+				
+				<changeGraphicsInterval>240</changeGraphicsInterval>
+				<dessicatedTxt>Things/Pawn/Animal/AA_ChameleonYak/AA_Dessicated_ChameleonYak</dessicatedTxt>
+				<terrains>
+					<li>Ice</li>
+					<li>MossyTerrain</li>
+					<li>MarshyTerrain</li>
+					<li>SoilRich</li>
+					<li>Sand</li>
+					<li>SoftSand</li>					
+				</terrains>
+				<suffix>
+					<li>_Winter</li>
+					<li>_Jungle</li>
+					<li>_Jungle</li>
+					<li>_Jungle</li>
+					<li>_Desert</li>
+					<li>_Desert</li>					
+				</suffix>
+				<hediffToApply>
+					<li>AA_WinterPelt</li>
+					<li>AA_JunglePelt</li>
+					<li>AA_JunglePelt</li>
+					<li>AA_JunglePelt</li>
+					<li>AA_DesertPelt</li>
+					<li>AA_DesertPelt</li>
+				</hediffToApply>
+				
+				<waterOverride>true</waterOverride>
+				<waterSuffix>_Jungle</waterSuffix>
+				<waterHediffToApply>AA_JunglePelt</waterHediffToApply>
+				<waterSeasonalItemsIndex>2</waterSeasonalItemsIndex>
+				
+				<lowTemperatureOverride>true</lowTemperatureOverride>
+				<temperatureThreshold>-10</temperatureThreshold>
+				<lowTemperatureSuffix>_Winter</lowTemperatureSuffix>
+				<lowTemperatureHediffToApply>AA_WinterPelt</lowTemperatureHediffToApply>
+				<lowTemperatureSeasonalItemsIndex>1</lowTemperatureSeasonalItemsIndex>
+				
+				<snowOverride>true</snowOverride>
+				<snowySuffix>_Winter</snowySuffix>
+				<snowyHediffToApply>AA_WinterPelt</snowyHediffToApply>
+				<snowySeasonalItemsIndex>1</snowySeasonalItemsIndex>
+				
+				<provideSeasonalItems>true</provideSeasonalItems>
+				<seasonalItemsIndexes>
+					<li>1</li>
+					<li>2</li>
+					<li>2</li>
+					<li>2</li>
+					<li>3</li>
+					<li>3</li>					
+				</seasonalItemsIndexes>
+
+			</li>
+			
 		</comps>
 		<race>
 			<herdAnimal>true</herdAnimal>

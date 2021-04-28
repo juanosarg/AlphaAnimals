@@ -36,7 +36,7 @@
 
 		<comps>
 
-			<li Class="AlphaBehavioursAndEvents.CompProperties_InitialHediff">
+			<li Class="AnimalBehaviours.CompProperties_InitialHediff">
 				<hediffname>AA_LowRest</hediffname>
 				<hediffseverity>1</hediffseverity>
 

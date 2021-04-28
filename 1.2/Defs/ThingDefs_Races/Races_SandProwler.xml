@@ -76,8 +76,8 @@
 			</li>
 		</tools>
 		<comps>
-			<li Class="AlphaBehavioursAndEvents.CompProperties_GraphicByTerrain">
-				<suffix>_Hidden</suffix>
+			<li Class="AnimalBehaviours.CompProperties_GraphicByTerrain">
+				
 				<changeGraphicsInterval>240</changeGraphicsInterval>
 				<dessicatedTxt>Things/Pawn/Animal/AA_SandProwler/AA_Dessicated_SandProwler</dessicatedTxt>
 				<terrains>
@@ -91,7 +91,28 @@
 					<li>GU_AlienSandFine</li>
 					<li>AB_GrassySand</li>
 				</terrains>
-				<hediffToApply>AA_BurrowingUnderSand</hediffToApply>
+				<suffix>
+					<li>_Hidden</li>
+					<li>_Hidden</li>
+					<li>_Hidden</li>
+					<li>_Hidden</li>
+					<li>_Hidden</li>
+					<li>_Hidden</li>
+					<li>_Hidden</li>
+					<li>_Hidden</li>
+					<li>_Hidden</li>
+				</suffix>
+				<hediffToApply>
+					<li>AA_BurrowingUnderSand</li>
+					<li>AA_BurrowingUnderSand</li>
+					<li>AA_BurrowingUnderSand</li>
+					<li>AA_BurrowingUnderSand</li>
+					<li>AA_BurrowingUnderSand</li>
+					<li>AA_BurrowingUnderSand</li>
+					<li>AA_BurrowingUnderSand</li>
+					<li>AA_BurrowingUnderSand</li>
+					<li>AA_BurrowingUnderSand</li>
+				</hediffToApply>
 
 			</li>
 

@@ -79,7 +79,7 @@
 				<eggDef>AA_WildpawnSpores</eggDef>
 
 			</li>
-			<li Class="AlphaBehavioursAndEvents.CompProperties_HighlyFlammable">
+			<li Class="AnimalBehaviours.CompProperties_HighlyFlammable">
 				<hediffToInflict>AA_PermanentBurn</hediffToInflict>
 
 			</li>

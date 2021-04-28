@@ -66,16 +66,14 @@ namespace AlphaBehavioursAndEvents
         public  bool flagAerofleets = true;
         public  bool flagGallatross = true;
         public  bool flagSummitCrab = true;
-        public  bool flagBumbledrones = true;
-        public  bool flagFrostmites = true;
+        public  bool flagBumbledrones = true;      
         public  bool flagAsteroids = true;
         public  bool flagAnimalisk = true;
         public  bool flagMime = true;
         public bool flagFungalHusk = true;
         public bool flagAlphaMechanoids = true;
         public  bool flagAlphaMechanoidsSappers = true;
-        public  bool flagHelixienCorpseEffect = true;
-        public  bool removeAnimalParticles = false;
+      
 
 
         public override void ExposeData()
@@ -89,16 +87,14 @@ namespace AlphaBehavioursAndEvents
             Scribe_Values.Look(ref flagAerofleets, "flagAerofleets", true, true);
             Scribe_Values.Look(ref flagGallatross, "flagGallatross", true, true);
             Scribe_Values.Look(ref flagSummitCrab, "flagSummitCrab", true, true);
-            Scribe_Values.Look(ref flagBumbledrones, "flagBumbledrones", true, true);
-            Scribe_Values.Look(ref flagFrostmites, "flagFrostmites", true, true);
+            Scribe_Values.Look(ref flagBumbledrones, "flagBumbledrones", true, true);         
             Scribe_Values.Look(ref flagAsteroids, "flagAsteroid", true, true);
             Scribe_Values.Look(ref flagAnimalisk, "flagAnimalisk", true, true);
             Scribe_Values.Look(ref flagMime, "flagMime", true, true);
             Scribe_Values.Look(ref flagFungalHusk, "flagFungalHusk", true, true);
             Scribe_Values.Look(ref flagAlphaMechanoids, "flagAlphaMechanoids", true, true);
             Scribe_Values.Look(ref flagAlphaMechanoidsSappers, "flagAlphaMechanoidsSappers", true, true);
-            Scribe_Values.Look(ref flagHelixienCorpseEffect, "flagHelixienCorpseEffect", true, true);
-            Scribe_Values.Look(ref removeAnimalParticles, "removeAnimalParticles", false, true);
+          
 
 
 
@@ -128,9 +124,7 @@ namespace AlphaBehavioursAndEvents
            
             ls.CheckboxLabeled("allowSummitCrab".Translate(), ref flagSummitCrab, null);
           
-            ls.CheckboxLabeled("allowBumbledrones".Translate(), ref flagBumbledrones, null);
-         
-            ls.CheckboxLabeled("allowFrostmiteCorpses".Translate(), ref flagFrostmites, null);
+            ls.CheckboxLabeled("allowBumbledrones".Translate(), ref flagBumbledrones, null);       
           
             ls.CheckboxLabeled("allowAsteroids".Translate(), ref flagAsteroids, null);
             
@@ -143,10 +137,8 @@ namespace AlphaBehavioursAndEvents
             ls.CheckboxLabeled("allowAlphaMechanoids".Translate(), ref flagAlphaMechanoids, null);
           
             ls.CheckboxLabeled("allowMechanoidSappers".Translate(), ref flagAlphaMechanoidsSappers, null);
+                      
            
-            ls.CheckboxLabeled("allowHelixienCorpseEffect".Translate(), ref flagHelixienCorpseEffect, null);
-           
-            ls.CheckboxLabeled("removeAnimalParticles".Translate(), ref removeAnimalParticles, null);
             ls.End();
         }
 

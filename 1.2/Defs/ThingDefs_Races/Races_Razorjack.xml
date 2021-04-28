@@ -81,7 +81,7 @@
 			</li>
 		</tools>
 		<comps>
-			<li Class="AlphaBehavioursAndEvents.CompProperties_Infecter">
+			<li Class="AnimalBehaviours.CompProperties_Infecter">
 				<infectionChance>40</infectionChance>
 				
 			</li>

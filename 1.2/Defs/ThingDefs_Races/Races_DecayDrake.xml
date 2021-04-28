@@ -81,11 +81,52 @@
 		</tools>
 		<comps>
 
-			<li Class="AlphaBehavioursAndEvents.CompProperties_NearbyEffecter">
-				<thingToAffect>Plant_Grass</thingToAffect>
-				<secondaryThingToAffect>Plant_TallGrass</secondaryThingToAffect>
-				<thingToTurnTo>AA_RottingMoundItem</thingToTurnTo>
+			<li Class="AnimalBehaviours.CompProperties_NearbyEffecter">
+				
+				
+				
+				<thingsToAffect>
+					<li>Plant_Grass</li>
+					<li>Plant_TallGrass</li>
+					<li>Plant_Brambles</li>
+					<li>Plant_HealrootWild</li>
+					<li>Plant_PincushionCactus</li>
+					<li>AB_TinkleGrass</li>
+					<li>AB_GlowingGrass</li>
+					<li>AB_HardyGrass</li>
+					<li>AB_TallSlimyGrass</li>
+					<li>AB_AlienGrass</li>
+					<li>Plant_Agave</li>
+					<li>Plant_Bush</li>
+					<li>Plant_Berry</li>
+					<li>Plant_Alocasia</li>
+					<li>Plant_Clivia</li>
+					<li>Plant_Rafflesia</li>
+					<li>AB_GreenRockFern</li>
+					
+				</thingsToAffect>
+				<thingsToConvertTo>
+					<li>AA_RottingMoundItem</li>
+					<li>AA_RottingMoundItem</li>
+					<li>AA_RottingMoundItem</li>
+					<li>AA_RottingMoundItem</li>
+					<li>AA_RottingMoundItem</li>
+					<li>AA_RottingMoundItem</li>
+					<li>AA_RottingMoundItem</li>
+					<li>AA_RottingMoundItem</li>
+					<li>AA_RottingMoundItem</li>
+					<li>AA_RottingMoundItem</li>
+					<li>AA_RottingMoundItem</li>
+					<li>AA_RottingMoundItem</li>
+					<li>AA_RottingMoundItem</li>
+					<li>AA_RottingMoundItem</li>
+					<li>AA_RottingMoundItem</li>
+					<li>AA_RottingMoundItem</li>
+					<li>AA_RottingMoundItem</li>
+				</thingsToConvertTo>
 				<ticksConversionRate>10000</ticksConversionRate>
+				<radius>2</radius>
+				
 
 			</li>
 			<li Class="AnimalBehaviours.CompProperties_EatWeirdFood">

@@ -39,7 +39,7 @@
 
 		<comps>
 
-			<li Class="AlphaBehavioursAndEvents.CompProperties_CorpseDecayer">
+			<li Class="AnimalBehaviours.CompProperties_CorpseDecayer">
 				<radius>5</radius>
 				<tickInterval>500</tickInterval>
 				<decayOnHitPoints>2</decayOnHitPoints>
@@ -48,7 +48,7 @@
 
 
 			</li>
-			<li Class="AlphaBehavioursAndEvents.CompProperties_ThoughtEffecter">
+			<li Class="AnimalBehaviours.CompProperties_ThoughtEffecter">
 				<radius>10</radius>
 				<tickInterval>500</tickInterval>
 				<thoughtDef>AA_Disgust</thoughtDef>

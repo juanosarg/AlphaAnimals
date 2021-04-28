@@ -37,7 +37,7 @@
 				<!-- Change to this pawn if Allow Alpha mechanoids is disabled in options -->
 				<defToChangeTo>Mech_Scyther</defToChangeTo>
 			</li>
-			<li Class="AlphaBehavioursAndEvents.CompProperties_Regeneration">
+			<li Class="AnimalBehaviours.CompProperties_Regeneration">
 				<rateInTicks>30</rateInTicks>
 
 			</li>

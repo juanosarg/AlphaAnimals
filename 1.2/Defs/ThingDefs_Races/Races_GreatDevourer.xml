@@ -52,7 +52,7 @@
 				<eggLayIntervalDays>25</eggLayIntervalDays>
 
 			</li>
-			<li Class="AlphaBehavioursAndEvents.CompProperties_Regeneration">
+			<li Class="AnimalBehaviours.CompProperties_Regeneration">
 				<rateInTicks>50</rateInTicks>
 
 			</li>

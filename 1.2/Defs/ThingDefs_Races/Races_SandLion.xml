@@ -80,7 +80,7 @@
 
 
 
-			<li Class="AlphaBehavioursAndEvents.CompProperties_GasProducer">
+			<li Class="AnimalBehaviours.CompProperties_GasProducer">
 				<gasType>AA_SandPuff</gasType>
 				<rate>0.2</rate>
 				<radius>2</radius>

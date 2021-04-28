@@ -47,10 +47,12 @@
 		</tools>
 		<comps>
 
-			<li Class="AlphaBehavioursAndEvents.CompProperties_DigWhenHungry">
+			<li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
 
-				<customThingToDig>AA_Corpse</customThingToDig>
+				
 				<isFrostmite>true</isFrostmite>
+				<spawnForbidden>true</spawnForbidden>
+				<digAnywayEveryXTicks>false</digAnywayEveryXTicks>
 
 			</li>
 

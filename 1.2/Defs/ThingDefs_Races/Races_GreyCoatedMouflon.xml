@@ -59,7 +59,7 @@
 				<shearIntervalDays>10</shearIntervalDays>
 				<woolAmount>45</woolAmount>
 			</li>
-			<li Class="AlphaBehavioursAndEvents.CompProperties_ThoughtEffecter">
+			<li Class="AnimalBehaviours.CompProperties_ThoughtEffecter">
 				<radius>15</radius>
 				<tickInterval>1000</tickInterval>
 				<thoughtDef>AA_PsychicHarmonyGood</thoughtDef>

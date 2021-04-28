@@ -7,7 +7,7 @@
 		<defName>AA_Terramorph</defName>
 
 		<label>terramorph</label>
-		<description>This strange looking crustacean was created with a single goal in mind: mineral processing. The Terramorph can feed on iron compounds, and process them chemically to slowly turn them into a hardened mineral usually know as "sky steel", that is normally only found in asteroids.\n\nThe transmutation process is very slow, so the Terramorph needs to spend quite a lot of time surrounded by mined Steel lumps or slag chunks.</description>
+		<description>This strange looking crustacean was created with a single goal in mind: mineral processing. The Terramorph can feed on iron compounds, and process them chemically to slowly turn them into a hardened mineral usually know as "sky steel", that is normally only found in asteroids.\n\nThe transmutation process is very slow, so the Terramorph needs to spend quite a lot of time surrounded by mined Steel lumps. The Terramorph can also slowly consume, but not convert, steel slag chunks.</description>
 		<statBases>
 			<MoveSpeed>1.8</MoveSpeed>
 			<ComfyTemperatureMin>-40</ComfyTemperatureMin>
@@ -61,11 +61,16 @@
 
 
 			</li>
-			<li Class="AlphaBehavioursAndEvents.CompProperties_NearbyEffecter">
-				<thingToAffect>Steel</thingToAffect>				
-				<thingToTurnTo>AA_SkySteel</thingToTurnTo>
+			<li Class="AnimalBehaviours.CompProperties_NearbyEffecter">
+				
 				<ticksConversionRate>40000</ticksConversionRate>
-				<radius>6</radius>
+				<radius>6</radius>				
+				<thingsToAffect>
+					<li>Steel</li>										
+				</thingsToAffect>
+				<thingsToConvertTo>
+					<li>AA_SkySteel</li>					
+				</thingsToConvertTo>
 
 			</li>
 

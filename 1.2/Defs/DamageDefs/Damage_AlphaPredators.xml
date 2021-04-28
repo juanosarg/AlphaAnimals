@@ -44,7 +44,7 @@
 	<DamageDef ParentName="CutBase">
 		<defName>AA_InfectedClaws</defName>
 		<label>infected claws</label>
-		<workerClass>AlphaBehavioursAndEvents.DamageWorker_ExtraInfecter</workerClass>
+		<workerClass>AnimalBehaviours.DamageWorker_ExtraInfecter</workerClass>
 		<additionalHediffs>
 			<li>
 				<hediff>AA_ToxicBuildup</hediff>

@@ -1,6 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
+	<HediffDef ParentName="InjuryBase">
+		<defName>AA_PermanentBurn</defName>
+		<label>permanent burn</label>
+		<description>A permanent burn scar that cannot be treated.</description>
+		<labelNoun>a permanent burn</labelNoun>
+		<comps>
+			<li Class="HediffCompProperties_Infecter">
+				<infectionChance>0.30</infectionChance>
+			</li>
+			<li Class="HediffCompProperties_GetsPermanent">
+				<permanentLabel>permanent burn</permanentLabel>
+				<becomePermanentChanceFactor>100</becomePermanentChanceFactor>
+			</li>
+			<li Class="AlphaBehavioursAndEvents.HediffCompProperties_AutoPermanentInjury">
+        
+      </li>
+		</comps>
+		<injuryProps>
+			<painPerSeverity>0.10</painPerSeverity>
+			<averagePainPerSeverityPermanent>0.05</averagePainPerSeverityPermanent>
+			<canMerge>true</canMerge>
+			<destroyedLabel>Burned off</destroyedLabel>
+			<destroyedOutLabel>Burned out</destroyedOutLabel>
+		</injuryProps>
+	</HediffDef>
 	<HediffDef>
 		<defName>AA_InvisibleArcticLion</defName>
 		<hediffClass>AlphaBehavioursAndEvents.Hediff_Stalking</hediffClass>
@@ -23,7 +47,6 @@
 			</li>
 		</stages>
 	</HediffDef>
-
 	<HediffDef>
 		<defName>AA_CrushingEverything</defName>
 		<hediffClass>AlphaBehavioursAndEvents.Hediff_Crushing</hediffClass>
@@ -32,14 +55,12 @@
 		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
-
 		<stages>
 			<li>
 
 			</li>
 		</stages>
 	</HediffDef>
-
 	<HediffDef>
 		<defName>AA_Nocturnal</defName>
 		<hediffClass>AlphaBehavioursAndEvents.Hediff_NocturnalAnimal</hediffClass>
@@ -48,14 +69,12 @@
 		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
-
 		<stages>
 			<li>
 
 			</li>
 		</stages>
 	</HediffDef>
-
 	<HediffDef ParentName="InfectionBase">
 		<defName>AA_LockJawDisease</defName>
 		<hediffClass>HediffWithComps</hediffClass>
@@ -86,7 +105,6 @@
 			</li>
 		</comps>
 	</HediffDef>
-
 	<HediffDef ParentName="DiseaseBase">
 		<defName>AA_Paralysis</defName>
 		<description>A fast acting toxin is coursing through this creature's veins, paralyzing his muscles. It will wear off after a while.</description>
@@ -113,7 +131,6 @@
 			<li>
 				<label>stunned</label>
 				<minSeverity>0.2</minSeverity>
-
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
@@ -124,7 +141,6 @@
 			<li>
 				<label>very stunned</label>
 				<minSeverity>0.5</minSeverity>
-
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
@@ -135,7 +151,6 @@
 			<li>
 				<label>paralysed</label>
 				<minSeverity>0.8</minSeverity>
-
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
@@ -145,7 +160,6 @@
 			</li>
 		</stages>
 	</HediffDef>
-
 	<HediffDef ParentName="DiseaseBase">
 		<defName>AA_Electric</defName>
 		<description>A dangerous electric shock. It might have damaged the heart, and the higher the intensity the hgher the possibility of a heart attack.</description>
@@ -178,7 +192,6 @@
 			<li>
 				<label>shocked</label>
 				<minSeverity>0.2</minSeverity>
-
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
@@ -198,7 +211,6 @@
 			<li>
 				<label>very shocked</label>
 				<minSeverity>0.5</minSeverity>
-
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
@@ -218,7 +230,6 @@
 			<li>
 				<label>paralysed</label>
 				<minSeverity>0.8</minSeverity>
-
 				<capMods>
 					<li>
 						<capacity>Consciousness</capacity>
@@ -237,7 +248,6 @@
 			</li>
 		</stages>
 	</HediffDef>
-
 	<HediffDef>
 		<defName>AA_ToxicBuildup</defName>
 		<hediffClass>HediffWithComps</hediffClass>
@@ -258,7 +268,6 @@
 		<stages>
 			<li>
 				<label>initial</label>
-
 			</li>
 			<li>
 				<label>initial</label>
@@ -357,26 +366,19 @@
 			</li>
 		</stages>
 	</HediffDef>
-
-	
-
 	<HediffDef>
 		<defName>AA_LowRest</defName>
 		<description>This creature has very little need for sleep, and can stay awake for a long time.</description>
-
 		<label>needs very little sleep</label>
 		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
-
 		<stages>
 			<li>
 				<restFallFactor>0.4</restFallFactor>
-
 			</li>
 		</stages>
 	</HediffDef>
-
 	<HediffDef>
 		<defName>AA_PsionicallyNuzzled</defName>
 		<description>Blessed by an Animus Vox.</description>
@@ -396,7 +398,6 @@
 			</li>
 		</stages>
 	</HediffDef>
-
 	<HediffDef>
 		<defName>AA_GatheredResource</defName>
 		<description>This colonist has recently gathered an animal resource.</description>
@@ -416,7 +417,6 @@
 			</li>
 		</stages>
 	</HediffDef>
-
 	<HediffDef>
 		<defName>AA_CorpseFeast</defName>
 		<description>This Helixien slug has recently fed on human corpses. The tastiest meat.</description>
@@ -436,7 +436,6 @@
 			</li>
 		</stages>
 	</HediffDef>
-
 	<HediffDef>
 		<defName>AA_AteFinestClothes</defName>
 		<description>This Angel Moth has recently consumed clothes of Legendary quality.</description>
@@ -456,7 +455,6 @@
 			</li>
 		</stages>
 	</HediffDef>
-
 	<HediffDef>
 		<defName>AA_RechargingBatteries</defName>
 		<description>This TetraSlug has recently recharged a nearby battery.</description>
@@ -476,7 +474,6 @@
 			</li>
 		</stages>
 	</HediffDef>
-
 	<HediffDef>
 		<defName>AA_FertilizedTerrain</defName>
 		<description>This Sand Squid has recently fertilized some sandy terrain.</description>
@@ -496,12 +493,10 @@
 			</li>
 		</stages>
 	</HediffDef>
-
 	<HediffDef ParentName="InfectionBase">
 		<defName>AA_SwarmlingImplantation</defName>
 		<label>swarmling implantation</label>
 		<description>Affected by Swarmling implantation. If the disease is not properly treated, or if the creature dies when it is sufficiently advanced, Swarmling larvae will devour it from inside and hatch from its corpse.</description>
-
 		<makesSickThought>true</makesSickThought>
 		<lethalSeverity>1</lethalSeverity>
 		<tendable>true</tendable>
@@ -519,22 +514,19 @@
 				<severityToTurn>0.15</severityToTurn>
 				<isHostile>false</isHostile>
 				<keepGender>false</keepGender>
-
 			</li>
 			<li Class="HediffCompProperties_Immunizable">
 				<severityPerDayNotImmune>0.84</severityPerDayNotImmune>
 				<immunityPerDaySick>0.6441</immunityPerDaySick>
 				<severityPerDayImmune>-0.70</severityPerDayImmune>
 				<immunityPerDayNotSick>-0.40</immunityPerDayNotSick>
-
 			</li>
-
 		</comps>
 		<stages>
 			<li>
 				<label>minor</label>
 				<painOffset>0.05</painOffset>
-			</li> 
+			</li>
 			<li>
 				<minSeverity>0.33</minSeverity>
 				<label>major</label>
@@ -570,9 +562,6 @@
 			</li>
 		</stages>
 	</HediffDef>
-
-	
-
 	<HediffDef>
 		<defName>AA_Resurrection</defName>
 		<isBad>false</isBad>
@@ -583,13 +572,9 @@
 		<maxSeverity>1.0</maxSeverity>
 		<hediffClass>HediffWithComps</hediffClass>
 		<comps>
-
 			<li Class="AlphaBehavioursAndEvents.HediffCompProperties_Resurrect">
 				<livesLeft>9</livesLeft>
-
 			</li>
-
-
 		</comps>
 		<stages>
 			<li>
@@ -597,7 +582,6 @@
 			</li>
 		</stages>
 	</HediffDef>
-
 	<HediffDef>
 		<defName>AA_MimeHediff</defName>
 		<isBad>false</isBad>
@@ -608,13 +592,10 @@
 		<maxSeverity>1.0</maxSeverity>
 		<hediffClass>HediffWithComps</hediffClass>
 		<comps>
-
 			<li Class="AlphaBehavioursAndEvents.HediffCompProperties_Mime">
 				<malnutritionTrigger>30</malnutritionTrigger>
 				<turnTo>AA_Mime</turnTo>
 			</li>
-
-
 		</comps>
 		<stages>
 			<li>
@@ -623,9 +604,6 @@
 			</li>
 		</stages>
 	</HediffDef>
-
-
-
 	<HediffDef>
 		<defName>AA_BurrowingUnderSand</defName>
 		<description>This Sand Prowler is burrowing under the sand, making it very resistant to damage. I hate sand. Its course, and ruff, and irritating. And it gets everywhere.</description>
@@ -634,19 +612,15 @@
 		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
-
 		<stages>
-			<li>   
+			<li>
 				<statOffsets>
 					<ArmorRating_Blunt>0.75</ArmorRating_Blunt>
 					<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
-
 				</statOffsets>
-
 			</li>
 		</stages>
 	</HediffDef>
-
 	<HediffDef ParentName="InfectionBase">
 		<defName>AA_VirulentFungalInfection</defName>
 		<label>virulent fungal infection</label>
@@ -666,13 +640,12 @@
 				<severityPerDayImmune>-1</severityPerDayImmune>
 				<immunityPerDayNotSick>-3</immunityPerDayNotSick>
 			</li>
-
 		</comps>
 		<stages>
 			<li>
 				<label>minor</label>
 				<painOffset>0.15</painOffset>
-			</li> 
+			</li>
 			<li>
 				<minSeverity>0.33</minSeverity>
 				<label>major</label>
@@ -708,7 +681,6 @@
 			</li>
 		</stages>
 	</HediffDef>
-
 	<HediffDef>
 		<defName>AA_AnoleGrown</defName>
 		<hediffClass>HediffWithComps</hediffClass>
@@ -719,7 +691,6 @@
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
 		<comps>
-			
 			<li Class="HediffCompProperties_VerbGiver">
 				<tools>
 					<li>
@@ -746,7 +717,6 @@
 				<statOffsets>
 					<ArmorRating_Blunt>0.75</ArmorRating_Blunt>
 					<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
-
 				</statOffsets>
 				<painFactor>0.1</painFactor>
 				<capMods>
@@ -782,9 +752,6 @@
 			</li>
 		</stages>
 	</HediffDef>
-	
-	
-	
 	<HediffDef>
 		<defName>AA_AnoleGrownExhausted</defName>
 		<hediffClass>HediffWithComps</hediffClass>
@@ -795,12 +762,9 @@
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
 		<comps>
-			
-			
 			<li Class="HediffCompProperties_Immunizable">
 				<severityPerDayNotImmune>-1</severityPerDayNotImmune>
 			</li>
-			
 		</comps>
 		<stages>
 			<li>
@@ -808,7 +772,6 @@
 			</li>
 		</stages>
 	</HediffDef>
-	
 	<HediffDef>
 		<defName>AA_EatenACorpse</defName>
 		<hediffClass>HediffWithComps</hediffClass>
@@ -819,18 +782,15 @@
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>
 		<comps>
-						
 			<li Class="HediffCompProperties_Immunizable">
 				<severityPerDayNotImmune>-1</severityPerDayNotImmune>
 			</li>
-			
 		</comps>
 		<stages>
 			<li>
 				<statOffsets>
 					<ArmorRating_Blunt>0.35</ArmorRating_Blunt>
 					<ArmorRating_Sharp>0.35</ArmorRating_Sharp>
-
 				</statOffsets>
 				<painFactor>0.75</painFactor>
 				<capMods>
@@ -842,11 +802,76 @@
 						<capacity>Moving</capacity>
 						<offset>0.2</offset>
 					</li>
-					
 				</capMods>
 			</li>
 		</stages>
 	</HediffDef>
-
-
+	
+	<HediffDef>
+		<defName>AA_WinterPelt</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>winter pelt</label>
+		<description>This animal is sporting a nice winter pelt, giving it good resistance against the cold.</description>
+		<defaultLabelColor>(1,1,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<stages>
+			<li>
+				
+				<statOffsets>
+					<ComfyTemperatureMax>-25</ComfyTemperatureMax>	
+					<ComfyTemperatureMin>-50</ComfyTemperatureMin>
+										
+				</statOffsets>
+				 
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>AA_JunglePelt</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>jungle pelt</label>
+		<description>This animal is sporting a nice jungle pelt, giving it slight resistance against the heat.</description>
+		<defaultLabelColor>(1,1,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<stages>
+			<li>
+				
+				<statOffsets>
+					<ComfyTemperatureMax>10</ComfyTemperatureMax>	
+									
+				</statOffsets>
+			 
+			</li>
+		</stages>
+	</HediffDef>
+	
+	
+	
+	<HediffDef>
+		<defName>AA_DesertPelt</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>desert pelt</label>
+		<description>This animal is sporting a nice desert pelt, giving it great resistance against the heat.</description>
+		<defaultLabelColor>(1,1,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<stages>
+			<li>
+			
+				<statOffsets>
+					<ComfyTemperatureMin>10</ComfyTemperatureMin>
+					<ComfyTemperatureMax>30</ComfyTemperatureMax>	
+									
+				</statOffsets>
+			
+			</li>
+		</stages>
+	</HediffDef>
+	
 </Defs>

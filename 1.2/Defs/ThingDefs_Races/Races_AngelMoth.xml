@@ -28,7 +28,7 @@
 			</li>
 		</tools>
 		<comps>
-			<li Class="AlphaBehavioursAndEvents.CompProperties_Metamorphosis">
+			<li Class="AnimalBehaviours.CompProperties_Metamorphosis">
 				<timeInYears>0.4</timeInYears>
 				<pawnToTurnInto>AA_AngelMoth</pawnToTurnInto>
 

@@ -34,7 +34,7 @@ namespace AlphaBehavioursAndEvents
         {
             settings = GetSettings<AlphaAnimals_Settings>();
         }
-        public override string SettingsCategory() => "Alpha Animals";
+        public override string SettingsCategory() => "Alpha Animals, Spawn Toggles";
 
         public override void DoSettingsWindowContents(Rect inRect)
         {

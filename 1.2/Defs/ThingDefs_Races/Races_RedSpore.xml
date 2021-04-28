@@ -53,7 +53,7 @@
 
 			
 			
-			<li Class="AlphaBehavioursAndEvents.CompProperties_GasProducer">
+			<li Class="AnimalBehaviours.CompProperties_GasProducer">
 				<gasType>AA_RedGas</gasType>
 				<rate>0.5</rate>
 				<radius>2</radius>

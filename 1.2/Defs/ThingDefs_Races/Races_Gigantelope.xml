@@ -60,9 +60,10 @@
 				<milkIntervalDays>4</milkIntervalDays>
 				<milkAmount>15</milkAmount>
 			</li>
-			<li Class="AlphaBehavioursAndEvents.CompProperties_InitialHediff">
+			<li Class="AnimalBehaviours.CompProperties_InitialHediff">
 				<hediffname>AA_CarryWeight</hediffname>
 				<hediffseverity>1</hediffseverity>
+				<addRandomHediffs>true</addRandomHediffs>
 				<numberOfHediffs>7</numberOfHediffs>
 			</li>
 		</comps>

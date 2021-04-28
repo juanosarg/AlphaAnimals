@@ -73,7 +73,7 @@
 			</li>
 		</tools>
 		<comps>
-			<li Class="AlphaBehavioursAndEvents.CompProperties_Untameable">
+			<li Class="AnimalBehaviours.CompProperties_Untameable">
 				<message>AA_MimeNotTameable</message>
 				<sendMessage>true</sendMessage>
 				<goesManhunter>true</goesManhunter>
