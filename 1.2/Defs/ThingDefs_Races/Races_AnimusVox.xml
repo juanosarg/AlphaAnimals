@@ -4,7 +4,7 @@
 		<defName>AA_AnimusVox</defName>
 		<label>animus vox</label>
 
-		<description>The Animus Vox is a small canine with latent psionic abilities. Like all canines, it is quite intelligent for an animal, but not intelligent enough to properly use psionics. It will however quickly bond with human beings and reach with its mind to make happy everyone that treats it well.\n\nAnimus Voxes can often be seen on the Rim as pets, though some wander the wilderness, looking for someone to bond to.</description>
+		<description>The Animus Vox is a small canine with latent psionic abilities. Like all canines, it is quite intelligent for an animal, but not intelligent enough to properly use psionics. It will however quickly bond with human beings and reach with its mind to make happy everyone that treats it well.\n\nAnimus Voxes can often be seen on the Rim as pets, though some wander the wilderness, looking for someone to bond to.\n\nArt by Ferox (check her Instagram at https://www.instagram.com/feroxiious/).</description>
 
 		<statBases>
 			<MoveSpeed>4.6</MoveSpeed>
@@ -156,6 +156,8 @@
 					<li>AA_UtilityMoodDesc</li>
 					<li>AA_NoRanged</li>
 				</statDescriptions>
+				<showImageInInfoCard>true</showImageInInfoCard>
+				<ImageToShowInInfoCard>Art/AA_VoxArt</ImageToShowInInfoCard>
 
 			</li>
 		</modExtensions>

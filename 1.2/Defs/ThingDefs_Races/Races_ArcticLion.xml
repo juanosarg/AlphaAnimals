@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_ArcticLion</defName>
 		<label>arctic lion</label>
-		<description>These large descendants of the now almost extinct lion were specifically engineered as ambush units by the navy for extreme low temp environments. Its fur is prized throughout the black market for its unique light reflecting ability and its tough leather provides surprisingly high thermal insulation.\n\nEven though its danger and capabilities are common knowledge; many still attempt to bag its head. Those who try usually end up losing theirs.</description>
+		<description>These large descendants of the now almost extinct lion were specifically engineered as ambush units by the navy for extreme low temp environments. Its fur is prized throughout the black market for its unique light reflecting ability and its tough leather provides surprisingly high thermal insulation.\n\nEven though its danger and capabilities are common knowledge; many still attempt to bag its head. Those who try usually end up losing theirs.\n\nConcept and art by A_Friend (aka SentientLine), the original Alpha Animals artist.</description>
 		<statBases>
 			<MoveSpeed>6</MoveSpeed>
 			<ComfyTemperatureMin>-70</ComfyTemperatureMin>
@@ -148,6 +148,8 @@
 					<li>AA_ShockTroopDesc</li>
 					<li>AA_NoRanged</li>
 				</statDescriptions>
+				<showImageInInfoCard>true</showImageInInfoCard>
+				<ImageToShowInInfoCard>Art/AA_ArcticLionArt</ImageToShowInInfoCard>
 
 			</li>
 		</modExtensions>
