@@ -35,6 +35,44 @@ namespace AlphaBehavioursAndEvents
 
         }
 
+        public override void PostSpawnSetup(bool respawningAfterLoad)
+        {
+            if (this.parent.Map != null)
+            {
+                MapRoomUpdater mapComp = this.parent.Map.GetComponent<MapRoomUpdater>();
+                if (mapComp != null)
+                {
+                    mapComp.AddObjectToMap(this.parent);
+                }
+            }
+
+        }
+
+        public override void PostDeSpawn(Map map)
+        {
+            if (map != null)
+            {
+                MapRoomUpdater mapComp = map.GetComponent<MapRoomUpdater>();
+                if (mapComp != null)
+                {
+                    mapComp.RemoveObjectFromMap(this.parent);
+                }
+            }
+        }
+
+        public override void PostDestroy(DestroyMode mode, Map previousMap)
+        {
+            if (previousMap != null)
+            {
+                MapRoomUpdater mapComp = previousMap.GetComponent<MapRoomUpdater>();
+                if (mapComp != null)
+                {
+                    mapComp.RemoveObjectFromMap(this.parent);
+                }
+            }
+
+        }
+
 
 
 
