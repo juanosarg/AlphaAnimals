@@ -308,7 +308,9 @@
     <Compile Include="Comps\CompChangeDef.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_ChangeDefSappers.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_ChangeDef.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_UpdateRoomStats.cs" />
     <Compile Include="Comps\CompTargetable_Ground.cs" />
+    <Compile Include="Comps\CompUpdateRoomStats.cs" />
     <Compile Include="Def\ToggleableSpawnDef.cs" />
     <Compile Include="Dev Mode\FixedColonyAnimalsDebug.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_Berserk.cs" />
@@ -322,6 +324,7 @@
     <Compile Include="ExplosionsAndDamage\DeathActionWorker_GargantuanExplosion.cs" />
     <Compile Include="ExplosionsAndDamage\DeathActionWorker_SummonFlashstorm.cs" />
     <Compile Include="Harmony\QuestManager_Notify_ThingsProduced_Patch.cs" />
+    <Compile Include="Harmony\RoomStatWorker_Beauty_GetScore_Patch.cs" />
     <Compile Include="Harmony\SappersUtility_IsGoodSapper.cs" />
     <Compile Include="Harmony\Thing_ButcherProducts.cs" />
     <Compile Include="Harmony\JobDriver_Ingest_MakeNewToils.cs" />

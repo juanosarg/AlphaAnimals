@@ -11,7 +11,7 @@ using Verse.AI;
 
 namespace AlphaBehavioursAndEvents
 {
-    /*This Harmony Prefix avoids the creature trying to eat normal food
+    /*This Harmony Postfix allows Demolishers to use the sapper AI
     */
     [HarmonyPatch(typeof(SappersUtility))]
     [HarmonyPatch("IsGoodSapper")]

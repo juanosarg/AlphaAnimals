@@ -1172,6 +1172,28 @@
 			</li>
 		</comps>
 	</ThingDef>
+	
+	<!-- =============== Pedigreed Raptor Egg =============== -->
+
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>AA_EggPedigreedRaptorFertilized</defName>
+		<label>pedigreed raptor egg (fert.)</label>
+		<description>Fertilized pedigreed raptor egg. If all goes well, it should hatch into a pedigreed raptor. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AA_PedigreedRaptorEgg</texPath>			
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>45</MarketValue>
+		</statBases>		
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>10</hatcherDaystoHatch>
+				<hatcherPawn>AA_PedigreedRaptor</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
 
 
 

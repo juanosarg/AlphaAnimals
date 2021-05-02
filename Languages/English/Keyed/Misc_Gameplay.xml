@@ -171,6 +171,7 @@
 	<AA_Larva>Larva</AA_Larva>
 	<AA_PackAnimal>Pack Animal</AA_PackAnimal>
 	<AA_Pest>Pest</AA_Pest>
+	<AA_Pet>Pet</AA_Pet>
 
 	
 	<!-- Roles Descriptions -->
@@ -213,6 +214,7 @@
 	
 	<AA_UtilityMoodDesc>This animal is not suited for combat, being quite physically weak. It will however increase the mood of your colonists, either through nuzzling or other alternative abilities.</AA_UtilityMoodDesc>
 	<AA_UtilityWorkerDesc>This animal is not suited for combat, being quite physically weak. It will however help your colonists with certain tasks (Mining, Harvesting, Cleaning, etc), reducing their work load considerably.</AA_UtilityWorkerDesc>
+	<AA_UtilityWorkerDesc>This animal is not suited for combat, being quite physically weak. It will however increase the beauty of your colony.</AA_UtilityWorkerDesc>
 	<AA_UtilityHealthDesc>This animal is not suited for combat, being quite physically weak. It will however help your colonists' health, either by healing wounds or somehow strengthening them.</AA_UtilityHealthDesc>
 	<AA_UtilityTemperatureDesc>This animal is not suited for combat, being quite physically weak. It will however help you control your colony's heat.</AA_UtilityTemperatureDesc>
 	<AA_UtilityPowerDesc>This animal is not suited for combat, being quite physically weak. It will however produce items that can be used to build power generators.</AA_UtilityPowerDesc>
@@ -222,6 +224,7 @@
 	<AA_LarvaDesc>This animal is a larval form, not suited for combat. You should keep it well defended if you want it to transform into its adult form.</AA_LarvaDesc>
 	<AA_PackAnimalDesc>This is a pack animal, and can carry more weight in caravans than usual.</AA_PackAnimalDesc>
 	<AA_PestDesc>This animal is generally considered a pest, and not useful at all to have around the colony. It either has effects that are purely detrimental, or needs that outweight its usefulness. You may find a niche use for them, though!</AA_PestDesc>
+	<AA_PetDesc>This animal is a pet. Isn't he cute?</AA_PetDesc>
 
 
 
