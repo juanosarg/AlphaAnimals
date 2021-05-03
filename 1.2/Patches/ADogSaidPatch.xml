@@ -129,9 +129,9 @@
 						<li>AA_CrystallineCaracal</li>
 						<li>AA_Erin</li>
 						
-
-
-
+						<li>AA_Darkbeast</li>
+						<li>AA_Skiphound</li>
+						<li>AA_PedigreedRaptor</li>
 
 
 
@@ -255,6 +255,10 @@
 						<li>AA_GreyCoatedMouflon</li>
 						<li>AA_CrystallineCaracal</li>
 						<li>AA_Erin</li>
+						
+						<li>AA_Darkbeast</li>
+						<li>AA_Skiphound</li>
+						<li>AA_PedigreedRaptor</li>
 
 					</value>
 				</li>
@@ -356,6 +360,10 @@
 						<li>AA_GreyCoatedMouflon</li>
 						<li>AA_CrystallineCaracal</li>
 						<li>AA_Erin</li>
+						
+						<li>AA_Darkbeast</li>
+						<li>AA_Skiphound</li>
+						<li>AA_PedigreedRaptor</li>
 
 					</value>
 				</li>
@@ -457,6 +465,10 @@
 						<li>AA_GreyCoatedMouflon</li>
 						<li>AA_CrystallineCaracal</li>
 						<li>AA_Erin</li>
+						
+						<li>AA_Darkbeast</li>
+						<li>AA_Skiphound</li>
+						<li>AA_PedigreedRaptor</li>
 
 					</value>
 				</li>
@@ -557,6 +569,10 @@
 						<li>AA_GreyCoatedMouflon</li>
 						<li>AA_CrystallineCaracal</li>
 						<li>AA_Erin</li>
+						
+						<li>AA_Darkbeast</li>
+						<li>AA_Skiphound</li>
+						<li>AA_PedigreedRaptor</li>
 
 					</value>
 				</li>
@@ -672,6 +688,10 @@
 						<li>AA_GreyCoatedMouflon</li>
 						<li>AA_CrystallineCaracal</li>
 						<li>AA_Erin</li>
+						
+						<li>AA_Darkbeast</li>
+						<li>AA_Skiphound</li>
+						<li>AA_PedigreedRaptor</li>
 					</value>
 				</li>
 
@@ -782,6 +802,10 @@
 						<li>AA_GreyCoatedMouflon</li>
 						<li>AA_CrystallineCaracal</li>
 						<li>AA_Erin</li>
+						
+						<li>AA_Darkbeast</li>
+						<li>AA_Skiphound</li>
+						<li>AA_PedigreedRaptor</li>
 					</value>
 				</li>
 
@@ -854,6 +878,10 @@
 						<li>AA_GreyCoatedMouflon</li>
 						<li>AA_CrystallineCaracal</li>
 						<li>AA_Erin</li>
+						
+						<li>AA_Darkbeast</li>
+						<li>AA_Skiphound</li>
+						<li>AA_PedigreedRaptor</li>
 
 					</value>
 				</li>
@@ -968,6 +996,10 @@
 						<li>AA_GreyCoatedMouflon</li>
 						<li>AA_CrystallineCaracal</li>
 						<li>AA_Erin</li>
+						
+						<li>AA_Darkbeast</li>
+						<li>AA_Skiphound</li>
+						<li>AA_PedigreedRaptor</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
@@ -1063,6 +1095,10 @@
 						<li>AA_GreyCoatedMouflon</li>
 						<li>AA_CrystallineCaracal</li>
 						<li>AA_Erin</li>
+						
+						<li>AA_Darkbeast</li>
+						<li>AA_Skiphound</li>
+						<li>AA_PedigreedRaptor</li>
 
 
 					</value>
@@ -1166,6 +1202,10 @@
 						<li>AA_GreyCoatedMouflon</li>
 						<li>AA_CrystallineCaracal</li>
 						<li>AA_Erin</li>
+						
+						<li>AA_Darkbeast</li>
+						<li>AA_Skiphound</li>
+						<li>AA_PedigreedRaptor</li>
 
 					</value>
 				</li>
@@ -1239,8 +1279,10 @@
 						<li>AA_GreyCoatedMouflon</li>
 						<li>AA_CrystallineCaracal</li>
 						<li>AA_Erin</li>
-
-
+						
+						<li>AA_Darkbeast</li>
+						<li>AA_Skiphound</li>
+						
 					</value>
 				</li>
 
@@ -1337,6 +1379,10 @@
 						<li>AA_GreyCoatedMouflon</li>
 						<li>AA_CrystallineCaracal</li>
 						<li>AA_Erin</li>
+						
+						<li>AA_Darkbeast</li>
+						<li>AA_Skiphound</li>
+						<li>AA_PedigreedRaptor</li>
 
 					</value>
 				</li>
@@ -1417,6 +1463,10 @@
 						
 						<li>AA_CrystallineCaracal</li>
 						<li>AA_Erin</li>
+						
+					
+						<li>AA_Skiphound</li>
+						<li>AA_PedigreedRaptor</li>
 
 
 

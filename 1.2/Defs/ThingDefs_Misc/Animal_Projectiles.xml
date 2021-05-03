@@ -122,6 +122,22 @@
 			<speed>75</speed>
 		</projectile>
 	</ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>AA_DarkBolt</defName>
+		<label>dark bolt</label>
+		
+		<graphicData>
+			<texPath>Things/Projectiles/AA_DarkBall</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<flyOverhead>false</flyOverhead>
+			<damageDef>Flame</damageDef>
+			<damageAmountBase>10</damageAmountBase>
+			<speed>30</speed>
+		</projectile>
+	</ThingDef>
 
 	<ThingDef ParentName="BaseBullet">
 		<defName>AA_Quill</defName>

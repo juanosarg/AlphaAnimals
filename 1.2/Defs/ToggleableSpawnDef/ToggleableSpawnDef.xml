@@ -27,6 +27,7 @@
 			<li>AA_CrescendoAnole</li>
 			<li>AA_CrystalMit</li>
 			<li>AA_CrystallineCaracal</li>
+			<li>AA_Darkbeast</li>
 			<li>AA_DecayDrake</li>
 			<li>AA_DesertAve</li>
 			<li>AA_Drainer</li>
@@ -72,6 +73,7 @@
 			<li>AA_OcularJelly</li>
 			<li>AA_OvergrownColossus</li>
 			<li>AA_PebbleMit</li>
+			<li>AA_PedigreedRaptor</li>
 			<li>AA_PhoenixOwlcat</li>		
 			<li>AA_Plasmorph</li>
 			<li>AA_Radyak</li>
@@ -87,6 +89,7 @@
 			<li>AA_SandProwler</li>
 			<li>AA_SandSquid</li>
 			<li>AA_ShockGoat</li>
+			<li>AA_Skiphound</li>
 			<li>AA_Slurrypede</li>
 			<li>AA_SpinedGow</li>
 			<li>AA_Swarmling</li>
@@ -96,6 +99,7 @@
 			<li>AA_TetraSlug</li>
 			<li>AA_Thermadon</li>
 			<li>AA_Thunderbeast</li>
+			<li>AA_WaywardMobileAssembler</li>
 			<li>AA_Wildpawn</li>
 			<li>AA_Wildpod</li>
 		</toggleablePawns>							

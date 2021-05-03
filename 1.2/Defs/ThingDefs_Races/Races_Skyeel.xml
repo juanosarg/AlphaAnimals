@@ -7,7 +7,7 @@
 		<defName>AA_Skyeel</defName>
 		<label>arcturan sky eel</label>
 
-		<description>The Arcturan Sky Eel is a weird space-borne creature that inhabits the asteroids of a system's asteroid belt. They are usually not found on a planet's surface, unless they are somehow brought to it. The body of a sky eel is surprisingly light, and they have no problems flying through a terrestrial atmosphere. They also have electricity based defense mechanisms, and a faint regenerative ability.\n\nSky eels require very little sustenance, and they can be trained as simple, if somewhat affectionate, pets. As a floating creature, Sky Eels ignore terrain movement costs.\n\nArt by Ferox (check her Instagram at https://www.instagram.com/feroxiious/).</description>
+		<description>The Arcturan Sky Eel is a weird space-borne creature that inhabits the asteroids of a system's asteroid belt. They are usually not found on a planet's surface, unless they are somehow brought to it. The body of a sky eel is surprisingly light, and they have no problems flying through a terrestrial atmosphere. They also have electricity based defense mechanisms, and a faint regenerative ability.\n\nSky eels require very little sustenance, and they can be trained as simple, if somewhat affectionate, pets. As a floating creature, Sky Eels ignore terrain movement costs.\n\nArt by Feroxiious (check her Instagram at https://www.instagram.com/feroxiious/).</description>
 		<statBases>
 			<MoveSpeed>3.5</MoveSpeed>
 			<MarketValue>150</MarketValue>

@@ -584,5 +584,39 @@
 		</tags>
 	</BodyPartDef>
 
+	<BodyPartDef>
+		<defName>AA_MechanicalBodyCarapace</defName>
+		<label>metal carapace</label>
+		<hitPoints>45</hitPoints>
+		
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+		<skinCovered>false</skinCovered>
+		<solid>true</solid>
+		<alive>false</alive>
+		<bleedRate>0</bleedRate>
+		<tags>
+			
+			<li>ManipulationLimbCore</li>
+		</tags>
+	</BodyPartDef>
+	
+	<BodyPartDef>
+		<defName>AA_HoverEngineNozzle</defName>
+		<label>hover engine nozzle</label>
+		<hitPoints>25</hitPoints>
+		
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+		<skinCovered>false</skinCovered>
+		<solid>true</solid>
+		<alive>false</alive>
+		<bleedRate>0</bleedRate>
+		<tags>
+			<li>MovingLimbCore</li>
+		
+		</tags>
+	</BodyPartDef>
+
+	
+
 
 </Defs>

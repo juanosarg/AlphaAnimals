@@ -16,6 +16,7 @@ namespace AlphaBehavioursAndEvents
 
         public HashSet<Thing> raptors_InMap = new HashSet<Thing>();
         public int tickCounter = 0;
+        public int tickInterval = 2000;
 
 
         public MapRoomUpdater(Map map) : base(map)
@@ -52,10 +53,13 @@ namespace AlphaBehavioursAndEvents
         {
            
             tickCounter++;
-            if (tickCounter > Props.timer)
+            if ((tickCounter > tickInterval)&& raptors_InMap.Count>0)
             {
-
-                this.parent.GetRoom().Notify_TerrainChanged();
+              
+                foreach (Room room in this.map.regionGrid.allRooms) {
+                    room.Notify_TerrainChanged();
+                }
+              
                 tickCounter = 0;
             }
 

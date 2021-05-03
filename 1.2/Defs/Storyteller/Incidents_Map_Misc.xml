@@ -172,7 +172,7 @@
 		<earliestDay>15</earliestDay>
 		<tale>Raid</tale>
 	</IncidentDef>
-	
+
 	<IncidentDef>
 		<defName>AA_Incident_MechSappers</defName>
 		<label>mechanoid sappers</label>
@@ -214,7 +214,7 @@
 		<workerClass>AlphaBehavioursAndEvents.IncidentWorker_AlphaResourcePodCrash</workerClass>
 		<baseChance>0</baseChance>
 	</IncidentDef>
-	
+
 	<IncidentDef>
 		<defName>AA_IncidentFungalHusk</defName>
 		<label>fungal husks</label>
@@ -229,6 +229,35 @@
 		<earliestDay>30</earliestDay>
 
 	</IncidentDef>
+
+	<IncidentDef>
+		<defName>AA_Eclipse</defName>
+		<label>mechanite eclipse</label>
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>IncidentWorker_MakeGameCondition</workerClass>
+		<gameCondition>AA_Eclipse</gameCondition>
+		<letterLabel>Mechanite Eclipse</letterLabel>
+		
+		<letterDef>NegativeEvent</letterDef>
+		<baseChance>0</baseChance>
+
+		<durationDays>0.35~0.75</durationDays>
+		<tale>Eclipse</tale>
+	</IncidentDef>
+
+	<GameConditionDef>
+		<defName>AA_Eclipse</defName>
+		<conditionClass>GameCondition_NoSunlight</conditionClass>
+		<label>mechanite eclipse</label>
+		<description>A cloud of sun-blocking mechanites is shadowing the surface. It will be dark, even during the daytime.</description>
+		<endMessage>The cloud of sun-blocking mechanites is dissipating.</endMessage>
+		<letterText>A Darkbeast has died nearby, releasing a cloud of sun-blocking mechanites.\n\nThese mechanites will block sunlight, plunging the whole region into darkness. They will eventually dissipate and it will thankfully last less than a natural eclipse.</letterText>
+		<letterDef>NegativeEvent</letterDef>
+		<canBePermanent>true</canBePermanent>
+	</GameConditionDef>
 
 
 

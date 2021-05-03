@@ -24,8 +24,13 @@ namespace AlphaBehavioursAndEvents
             
             if (room.ContainsThing(ThingDef.Named("AA_PedigreedRaptor")))
             {
-               
-                __result *= 1.15f;
+                if (__result>0) {
+                    __result *= 1.15f;
+                }
+                else {
+                    __result = __result +(-__result * 0.15f);
+                }
+                
             }
 
         }

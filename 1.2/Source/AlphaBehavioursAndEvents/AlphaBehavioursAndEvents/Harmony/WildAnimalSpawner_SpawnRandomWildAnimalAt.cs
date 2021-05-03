@@ -47,7 +47,7 @@ namespace AlphaBehavioursAndEvents
         {
             if (theCreature != null)
             {
-                if (!AlphaAnimalsEvents_Mod.settings.flagVanillaAnimals)
+                if (!AlphaAnimals_Mod.settings.flagVanillaAnimals)
                 {
                     ToggleableSpawnDef toggleablespawndef = (from k in DefDatabase<ToggleableSpawnDef>.AllDefsListForReading
                                                              where k.defName == "AA_VanillaAnimalToggles"

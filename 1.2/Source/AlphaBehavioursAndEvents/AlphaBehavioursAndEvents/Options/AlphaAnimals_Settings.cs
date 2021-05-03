@@ -12,12 +12,13 @@ namespace AlphaBehavioursAndEvents
     {
         private static Vector2 scrollPosition = Vector2.zero;
         public Dictionary<string, bool> pawnSpawnStates = new Dictionary<string, bool>();
+        public bool flagVanillaAnimals = true;
         public override void ExposeData()
         {
             base.ExposeData();
             Scribe_Collections.Look(ref pawnSpawnStates, "pawnSpawnStates", LookMode.Value, LookMode.Value, ref pawnKeys, ref boolValues);
+            Scribe_Values.Look(ref flagVanillaAnimals, "flagVanillaAnimals", true, true);
 
-          
 
 
         }
@@ -36,9 +37,10 @@ namespace AlphaBehavioursAndEvents
             Widgets.BeginScrollView(rect, ref scrollPosition, rect2, true);
             ls.ColumnWidth = rect2.width / 2.2f;
             ls.Begin(rect2);
+            ls.CheckboxLabeled("allowVanillaAnimals".Translate(), ref flagVanillaAnimals, null);
             for (int num = keys.Count - 1; num >= 0; num--)
             {
-                if (num == keys.Count/2-1) { ls.NewColumn(); }
+                if (num == keys.Count/2) { ls.NewColumn(); }
                 bool test = pawnSpawnStates[keys[num]];
                 ls.CheckboxLabeled("AA_DisableAnimal".Translate(PawnKindDef.Named(keys[num]).LabelCap), ref test);
                 pawnSpawnStates[keys[num]] = test;
@@ -58,7 +60,7 @@ namespace AlphaBehavioursAndEvents
 
     {
 
-        public  bool flagVanillaAnimals = true;
+        
         public  bool flagBlackHiveRaids = true;
         public  bool flagStalkingLions = true;
         public  bool flagCactipineDroppods = true;
@@ -79,7 +81,7 @@ namespace AlphaBehavioursAndEvents
         public override void ExposeData()
         {
             base.ExposeData();
-            Scribe_Values.Look(ref flagVanillaAnimals, "flagVanillaAnimals", true, true);
+          
             Scribe_Values.Look(ref flagBlackHiveRaids, "flagBlackHiveRaids", true, true);
             Scribe_Values.Look(ref flagStalkingLions, "flagStalkingLions", true, true);
             Scribe_Values.Look(ref flagCactipineDroppods, "flagCactipineDroppods", true, true);
@@ -108,7 +110,7 @@ namespace AlphaBehavioursAndEvents
 
             ls.Begin(inRect);
             ls.Gap(10f);
-            ls.CheckboxLabeled("allowVanillaAnimals".Translate(), ref flagVanillaAnimals, null);
+           
            
             ls.CheckboxLabeled("allowBlackHive".Translate(), ref flagBlackHiveRaids, null);
            

@@ -100,6 +100,7 @@
 						<li>Corpse_AA_Siegebreaker</li>
 						<li>Corpse_AA_Demolisher</li>
 						<li>Corpse_AA_Phalanx</li>
+						<li>Corpse_AA_WaywardMobileAssembler</li>
 
 
 					</value>
@@ -116,6 +117,7 @@
 						<li>Corpse_AA_Siegebreaker</li>
 						<li>Corpse_AA_Demolisher</li>
 						<li>Corpse_AA_Phalanx</li>
+						<li>Corpse_AA_WaywardMobileAssembler</li>
 					</value>
 				</li>
 
@@ -228,6 +230,7 @@
 						<li>Corpse_AA_RayHound</li>
 						<li>Corpse_AA_CrescendoAnole</li>
 						<li>Corpse_AA_Erin</li>
+						<li>Corpse_AA_PedigreedRaptor</li>
 						
 					
 
@@ -243,6 +246,7 @@
 						<li>Corpse_AA_RayHound</li>
 						<li>Corpse_AA_CrescendoAnole</li>
 						<li>Corpse_AA_Erin</li>
+						<li>Corpse_AA_PedigreedRaptor</li>
 
 					</value>
 				</li>	
@@ -252,6 +256,7 @@
 					<value>
 						<li>Corpse_AA_AnimusVox</li>
 						<li>Corpse_AA_RipperHound</li>
+						<li>Corpse_AA_Skiphound</li>
 
 
 					</value>
@@ -262,6 +267,7 @@
 					<value>
 						<li>Corpse_AA_AnimusVox</li>
 						<li>Corpse_AA_RipperHound</li>
+						<li>Corpse_AA_Skiphound</li>
 
 
 

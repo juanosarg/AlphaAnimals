@@ -9,7 +9,7 @@
 		<defName>AA_Barbslinger</defName>
 		<label>barbslinger</label>
 
-		<description>A large genetically-modified scorpion. No one really knows where they came from, but judging by its ability to rip apart living things within reach and shish kebab those outside of it, it’s a monster made for war.\n\nArt by Ferox (check her Instagram at https://www.instagram.com/feroxiious/).</description>
+		<description>A large genetically-modified scorpion. No one really knows where they came from, but judging by its ability to rip apart living things within reach and shish kebab those outside of it, it’s a monster made for war.\n\nArt by Feroxiious (check her Instagram at https://www.instagram.com/feroxiious/).</description>
 		<statBases>
 			<MoveSpeed>4.00</MoveSpeed>
 			<ComfyTemperatureMin>-2</ComfyTemperatureMin>

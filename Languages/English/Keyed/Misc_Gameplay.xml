@@ -98,6 +98,7 @@
 	<AA_MothSilkDesc>Moth silk production</AA_MothSilkDesc>
 	<AA_BlueGel>Blue Gel production</AA_BlueGel>
 	<AA_Luciferium>Luciferium production</AA_Luciferium>
+	<AA_RandomItems>Resource assembly in</AA_RandomItems>
 
 
 
@@ -105,7 +106,7 @@
 
 	<!-- Mod Settings -->
 
-	<allowVanillaAnimals>Allow spawning all base game animals (affects only wild spawns)</allowVanillaAnimals>
+	<allowVanillaAnimals>Allow base game animals (affects only wild spawns)</allowVanillaAnimals>
 	<allowBlackHive>Allow Black Hive raids</allowBlackHive>
 	<allowStalkingLions>Allow Stalking Arctic Lion attacks</allowStalkingLions>
 	<allowCactipineDroppods>Allow Cactipine droppod event</allowCactipineDroppods>
@@ -192,7 +193,7 @@
 	
 	<AA_DamageRangedDesc>This animal uses ranged attacks to damage attackers. Having them in melee might not be the best use for them.</AA_DamageRangedDesc>
 	<AA_ParalyzingRangedDesc>"Paralyzing Ranged" animals use ranged attacks to immobilize attackers. Having them in melee might not be the best use for them.</AA_ParalyzingRangedDesc>	
-	<AA_DamageRangedFireDesc>This animal uses ranged attacks to damage attackers. These attacks set enemies on fire.Having them in melee might not be the best use for them.</AA_DamageRangedFireDesc>
+	<AA_DamageRangedFireDesc>This animal uses ranged attacks to damage attackers. These attacks set enemies on fire. Having them in melee might not be the best use for them.</AA_DamageRangedFireDesc>
 	<AA_DamageRangedDOTDesc>This animal uses ranged attacks to damage attackers. These attacks cause damage over time. Having them in melee might not be the best use for them.</AA_DamageRangedDOTDesc>
 	<AA_DamageRangedPoisonDesc>This animal uses ranged attacks to damage attackers. These attacks cause toxic damage. Having them in melee might not be the best use for them.</AA_DamageRangedPoisonDesc>
 	<AA_DamageRangedElectricDesc>This animal uses ranged attacks to damage attackers. These attacks cause electric damage, which can cause heart attacks. Having them in melee might not be the best use for them.</AA_DamageRangedElectricDesc>
@@ -207,6 +208,7 @@
 	<AA_FarmMedicineDesc>This is a farm animal that produces medicines.</AA_FarmMedicineDesc>
 	<AA_FarmDrugsDesc>This is a farm animal that produces drugs.</AA_FarmDrugsDesc>
 	<AA_FarmImplantsDesc>This is a farm animal that produces implants.</AA_FarmImplantsDesc>
+	<AA_FarmRandomDesc>This is a farm animal that produces random things.</AA_FarmRandomDesc>
 	
 	<AA_MountFastDesc>This animal can be mounted by colonists, providing a considerable speed boost, as well as being able to attack in melee along with its rider. Bear in mind that this whole interaction is only available if you have the Giddy Up! mod installed. And if you don't, what are you waiting for?</AA_MountFastDesc>
 	<AA_MountArmouredDesc>This animal can be mounted by colonists, providing a considerable defense boost due to extra armour, as well as being able to attack in melee along with its rider. Bear in mind that this whole interaction is only available if you have the Giddy Up! mod installed. And if you don't, what are you waiting for?</AA_MountArmouredDesc>

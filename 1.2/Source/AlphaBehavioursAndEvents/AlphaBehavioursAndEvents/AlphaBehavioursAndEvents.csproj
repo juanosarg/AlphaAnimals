@@ -311,6 +311,7 @@
     <Compile Include="Comps\CompProperties\CompProperties_UpdateRoomStats.cs" />
     <Compile Include="Comps\CompTargetable_Ground.cs" />
     <Compile Include="Comps\CompUpdateRoomStats.cs" />
+    <Compile Include="DeathActionWorkers\DeathActionWorker_SummonEclipse.cs" />
     <Compile Include="Def\ToggleableSpawnDef.cs" />
     <Compile Include="Dev Mode\FixedColonyAnimalsDebug.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_Berserk.cs" />
@@ -319,10 +320,10 @@
     <Compile Include="ExplosionsAndDamage\DamageWorker_SwallowWhole.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_FeedingFlame.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_Vampiric.cs" />
-    <Compile Include="ExplosionsAndDamage\DeathActionWorker_LuciferiumExplosion.cs" />
-    <Compile Include="ExplosionsAndDamage\DeathActionWorker_ExplodeAndSpawnEggs.cs" />
-    <Compile Include="ExplosionsAndDamage\DeathActionWorker_GargantuanExplosion.cs" />
-    <Compile Include="ExplosionsAndDamage\DeathActionWorker_SummonFlashstorm.cs" />
+    <Compile Include="DeathActionWorkers\DeathActionWorker_LuciferiumExplosion.cs" />
+    <Compile Include="DeathActionWorkers\DeathActionWorker_ExplodeAndSpawnEggs.cs" />
+    <Compile Include="DeathActionWorkers\DeathActionWorker_GargantuanExplosion.cs" />
+    <Compile Include="DeathActionWorkers\DeathActionWorker_SummonFlashstorm.cs" />
     <Compile Include="Harmony\QuestManager_Notify_ThingsProduced_Patch.cs" />
     <Compile Include="Harmony\RoomStatWorker_Beauty_GetScore_Patch.cs" />
     <Compile Include="Harmony\SappersUtility_IsGoodSapper.cs" />
@@ -356,10 +357,10 @@
     <Compile Include="Buildings\Building_Overgrown_DropPod.cs" />
     <Compile Include="PawnClasses\ChameleonSkins.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_Siege.cs" />
-    <Compile Include="ExplosionsAndDamage\DeathActionWorker_SmallRedAcidExplosion.cs" />
-    <Compile Include="ExplosionsAndDamage\DeathActionWorker_RedAcidExplosion.cs" />
-    <Compile Include="ExplosionsAndDamage\DeathActionWorker_AcidExplosion.cs" />
-    <Compile Include="ExplosionsAndDamage\DeathActionWorker_MouseFission.cs" />
+    <Compile Include="DeathActionWorkers\DeathActionWorker_SmallRedAcidExplosion.cs" />
+    <Compile Include="DeathActionWorkers\DeathActionWorker_RedAcidExplosion.cs" />
+    <Compile Include="DeathActionWorkers\DeathActionWorker_AcidExplosion.cs" />
+    <Compile Include="DeathActionWorkers\DeathActionWorker_MouseFission.cs" />
     <Compile Include="Gases\Gas_Ocular.cs" />
     <Compile Include="Hediffs\Hediff_Crushing.cs" />
     <Compile Include="Hediffs\Hediff_NocturnalAnimal.cs" />
@@ -388,6 +389,7 @@
     <Compile Include="Projectiles\Siege_Projectile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Incidents\ThingSetMaker_SpecialMeteorite.cs" />
+    <Compile Include="Recipes\Recipe_ShutDown.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
