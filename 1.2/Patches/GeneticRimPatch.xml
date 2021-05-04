@@ -59,7 +59,7 @@
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/ThingDef[defName = "GR_AberrantFleshbeast"]/comps</xpath>
 				<value>
-					<li Class="AlphaBehavioursAndEvents.CompProperties_Metamorphosis">
+					<li Class="AnimalBehaviours.CompProperties_Metamorphosis">
 						<timeInYears>0.25</timeInYears>
 						<pawnToTurnInto>AA_MatureFleshbeast</pawnToTurnInto>
 					</li>
