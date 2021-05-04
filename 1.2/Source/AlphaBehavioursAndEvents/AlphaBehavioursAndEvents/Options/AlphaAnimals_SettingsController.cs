@@ -17,7 +17,7 @@ namespace AlphaBehavioursAndEvents
         {
             settings = GetSettings<AlphaAnimalsEvents_Settings>();
         }
-        public override string SettingsCategory() => "Alpha Animals, Events";
+        public override string SettingsCategory() => "Alpha Animals, General Options";
 
         public override void DoSettingsWindowContents(Rect inRect)
         {

@@ -324,6 +324,7 @@
     <Compile Include="DeathActionWorkers\DeathActionWorker_ExplodeAndSpawnEggs.cs" />
     <Compile Include="DeathActionWorkers\DeathActionWorker_GargantuanExplosion.cs" />
     <Compile Include="DeathActionWorkers\DeathActionWorker_SummonFlashstorm.cs" />
+    <Compile Include="Harmony\BiomeDef_CommonalityOfAnimal_patch.cs" />
     <Compile Include="Harmony\QuestManager_Notify_ThingsProduced_Patch.cs" />
     <Compile Include="Harmony\RoomStatWorker_Beauty_GetScore_Patch.cs" />
     <Compile Include="Harmony\SappersUtility_IsGoodSapper.cs" />

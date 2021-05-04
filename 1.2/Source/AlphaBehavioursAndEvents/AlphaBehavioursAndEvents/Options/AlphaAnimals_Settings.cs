@@ -3,6 +3,7 @@ using UnityEngine;
 using Verse;
 using System.Collections.Generic;
 using System.Linq;
+using System;
 
 
 namespace AlphaBehavioursAndEvents
@@ -75,7 +76,10 @@ namespace AlphaBehavioursAndEvents
         public bool flagFungalHusk = true;
         public bool flagAlphaMechanoids = true;
         public  bool flagAlphaMechanoidsSappers = true;
-      
+
+        public const float alphaAnimalSpawnMultiplierBase = 1;
+        public float alphaAnimalSpawnMultiplier = alphaAnimalSpawnMultiplierBase;
+
 
 
         public override void ExposeData()
@@ -139,8 +143,15 @@ namespace AlphaBehavioursAndEvents
             ls.CheckboxLabeled("allowAlphaMechanoids".Translate(), ref flagAlphaMechanoids, null);
           
             ls.CheckboxLabeled("allowMechanoidSappers".Translate(), ref flagAlphaMechanoidsSappers, null);
-                      
-           
+
+            ls.Label("AA_AlphaAnimalSpawnMultiplier".Translate() + ": " + alphaAnimalSpawnMultiplier, -1, "AA_AlphaAnimalSpawnMultiplierTooltip".Translate());
+            alphaAnimalSpawnMultiplier = (float)Math.Round(ls.Slider(alphaAnimalSpawnMultiplier, 0.1f, 2f), 2);
+            if (ls.ButtonText("AA_Reset".Translate()))
+            {
+                alphaAnimalSpawnMultiplier = alphaAnimalSpawnMultiplierBase;
+            }
+
+
             ls.End();
         }
 
