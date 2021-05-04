@@ -56,7 +56,7 @@
 									<defToChangeTo>VFE_Mech_Scyther</defToChangeTo>
 									<factionToChangeTo>VFE_Mechanoid</factionToChangeTo>
 								</li>
-								<li Class="AlphaBehavioursAndEvents.CompProperties_Regeneration">
+								<li Class="AnimalBehaviours.CompProperties_Regeneration">
 									<rateInTicks>30</rateInTicks>
 
 								</li>
@@ -516,7 +516,7 @@
 									<defToChangeTo>VFE_Mech_AdvancedScyther</defToChangeTo>
 									<factionToChangeTo>VFE_Mechanoid</factionToChangeTo>
 								</li>
-								<li Class="AlphaBehavioursAndEvents.CompProperties_Regeneration">
+								<li Class="AnimalBehaviours.CompProperties_Regeneration">
 									<rateInTicks>30</rateInTicks>
 
 								</li>
