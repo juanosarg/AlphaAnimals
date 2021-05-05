@@ -595,6 +595,8 @@
 			<li Class="AlphaBehavioursAndEvents.HediffCompProperties_Mime">
 				<malnutritionTrigger>30</malnutritionTrigger>
 				<turnTo>AA_Mime</turnTo>
+				<minToGetHungry>60000</minToGetHungry>
+				<maxToGetHungry>600000</maxToGetHungry>
 			</li>
 		</comps>
 		<stages>
