@@ -61,7 +61,7 @@
 			</li>
 			<li Class="AnimalBehaviours.CompProperties_AnimalProduct">
 
-				<gatheringIntervalDays>1</gatheringIntervalDays>
+				<gatheringIntervalDays>25</gatheringIntervalDays>
 				<resourceAmount>100</resourceAmount>
 				<customResourceString>AA_SeasonalWoolDesc</customResourceString>
 

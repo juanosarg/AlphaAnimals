@@ -117,6 +117,7 @@
 			<thinkTreeMain>AA_AnimalPassive</thinkTreeMain>
 			<thinkTreeConstant>AA_AnimalConstantPassive</thinkTreeConstant>     
 			<herdAnimal>false</herdAnimal>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<predator>false</predator>
 			<body>AA_Assembler</body>
 			<baseBodySize>2</baseBodySize>
