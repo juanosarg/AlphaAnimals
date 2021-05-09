@@ -24,11 +24,15 @@ namespace AlphaBehavioursAndEvents
         public override void CompTick()
         {
             base.CompTick();
-            tickCounter++;
-            if (tickCounter > Props.timer){
+            if (this.parent.Map != null)
+            {
+                tickCounter++;
+                if (tickCounter > Props.timer)
+                {
 
-                this.parent.GetRoom().Notify_TerrainChanged();
-                tickCounter = 0;
+                    this.parent.GetRoom().Notify_TerrainChanged();
+                    tickCounter = 0;
+                }
             }
             
 

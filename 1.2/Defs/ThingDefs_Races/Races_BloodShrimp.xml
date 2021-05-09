@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_BloodShrimp</defName>
 		<label>blood shrimp</label>
-		<description>A smaller relative of the Raptor Shrimp, the Blood Shrimp lacks the impressive regenerative abilities of its larger counterpart. Blood Shrimp compensate this disadvantage by being faster and more agile.\n\nBlood Shrimps are vampiric, feeding on blood and being able to regenerate their wounds when drinking the blood of live animals.</description>
+		<description>A smaller relative of the Raptor Shrimp, the Blood Shrimp lacks the impressive regenerative abilities of its larger counterpart. Blood Shrimp compensate this disadvantage by being faster and more agile.\n\nBlood Shrimps are vampiric, feeding on blood and being able to regenerate their wounds when drinking the blood of live animals.\n\nArt by Feroxiious (check her Instagram at https://www.instagram.com/feroxiious/).</description>
 		<statBases>
 			<MoveSpeed>5.5</MoveSpeed>
 			<ComfyTemperatureMin>0</ComfyTemperatureMin>
@@ -155,7 +155,8 @@
 					<li>AA_RegeneratingShockTroopDesc</li>
 					<li>AA_NoRanged</li>
 				</statDescriptions>
-
+				<showImageInInfoCard>true</showImageInInfoCard>
+				<ImageToShowInInfoCard>Art/AA_BloodShrimpArt</ImageToShowInInfoCard>
 			</li>
 		</modExtensions>
 	</ThingDef>
