@@ -357,6 +357,7 @@
     <Compile Include="Options\AlphaAnimals_Settings.cs" />
     <Compile Include="Buildings\Building_BlackHiveMound.cs" />
     <Compile Include="Buildings\Building_Overgrown_DropPod.cs" />
+    <Compile Include="Options\SettingsHelper.cs" />
     <Compile Include="PawnClasses\ChameleonSkins.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_Siege.cs" />
     <Compile Include="DeathActionWorkers\DeathActionWorker_SmallRedAcidExplosion.cs" />

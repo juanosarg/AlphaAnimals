@@ -126,7 +126,7 @@
 	<allowFungalHusk>Allow Fungal Husk attack event</allowFungalHusk>
 	<AA_AlphaAnimalSpawnMultiplier>Alpha Animals spawn commonality multiplier</AA_AlphaAnimalSpawnMultiplier>
 	<AA_AlphaAnimalSpawnMultiplierTooltip>This multiplier will affect the spawn changes (commonalities) of ALL animals in this mod. For example, if set to 0.5 animals from the mod will spawn half as much as default (which is 1). If set to 2, you'll get twice as many as default, and so on. This only affects wild spawns.</AA_AlphaAnimalSpawnMultiplierTooltip>
-	<AA_Reset>Reset</AA_Reset>
+	<AA_Reset>Reset multiplier</AA_Reset>
 
 
 	<!-- Mod Settings, animal toggles -->

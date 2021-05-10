@@ -100,7 +100,9 @@ namespace AlphaBehavioursAndEvents
             Scribe_Values.Look(ref flagFungalHusk, "flagFungalHusk", true, true);
             Scribe_Values.Look(ref flagAlphaMechanoids, "flagAlphaMechanoids", true, true);
             Scribe_Values.Look(ref flagAlphaMechanoidsSappers, "flagAlphaMechanoidsSappers", true, true);
-          
+            Scribe_Values.Look(ref alphaAnimalSpawnMultiplier, "alphaAnimalSpawnMultiplier", 1, true);
+
+
 
 
 
@@ -146,7 +148,8 @@ namespace AlphaBehavioursAndEvents
 
             ls.Label("AA_AlphaAnimalSpawnMultiplier".Translate() + ": " + alphaAnimalSpawnMultiplier, -1, "AA_AlphaAnimalSpawnMultiplierTooltip".Translate());
             alphaAnimalSpawnMultiplier = (float)Math.Round(ls.Slider(alphaAnimalSpawnMultiplier, 0.1f, 2f), 2);
-            if (ls.ButtonText("AA_Reset".Translate()))
+
+            if (ls.Settings_Button("AA_Reset".Translate(), new Rect(0f, ls.CurHeight, 180f, 29f)))
             {
                 alphaAnimalSpawnMultiplier = alphaAnimalSpawnMultiplierBase;
             }
