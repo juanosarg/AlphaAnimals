@@ -35,7 +35,7 @@ namespace AlphaBehavioursAndEvents
             {
                 return false;
             }
-            List<Pawn> list = ManhunterPackIncidentUtility.GenerateAnimals(pawnKindDef, map.Tile, 300);
+            List<Pawn> list = ManhunterPackIncidentUtility.GenerateAnimals_NewTmp(pawnKindDef, map.Tile, 300,1);
             Rot4 rot = Rot4.FromAngleFlat((map.Center - intVec).AngleFlat);
             for (int i = 0; i < list.Count; i++)
             {
