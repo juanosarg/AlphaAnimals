@@ -7,7 +7,7 @@
 		<defName>AA_CrystalMit</defName>
 
 		<label>crystalmit</label>
-		<description>A Crystalmit is a Pebblemit that has been genetically modified to feed on minerals. Crystalmits have a partly silicon-based biology, so they can derive substenance from eating scattered rocks.\n\nCrystalmits were created as a quick way of removing rock rubble from mining operations, but wild ones may prove to be a nuisance for colonies who'd rather use rocks for something useful.</description>
+		<description>A Crystalmit is a Pebblemit that has been genetically modified to feed on minerals. Crystalmits have a partly silicon-based biology, so they can derive substenance from eating scattered rocks.\n\nCrystalmits were created as a quick way of removing rock rubble from mining operations, but wild ones may prove to be a nuisance for colonies who'd rather use rocks for something useful.\n\nArt by Feroxiious (check her Instagram at https://www.instagram.com/feroxiious/).</description>
 		<statBases>
 			<MoveSpeed>1.8</MoveSpeed>
 			<ComfyTemperatureMin>-65</ComfyTemperatureMin>
@@ -161,7 +161,8 @@
 					<li>AA_ArmouredTankDesc</li>
 					<li>AA_NoRanged</li>
 				</statDescriptions>
-
+				<showImageInInfoCard>true</showImageInInfoCard>
+				<ImageToShowInInfoCard>Art/AA_CrystalmitArt</ImageToShowInInfoCard>
 			</li>
 		</modExtensions>
 	</ThingDef>

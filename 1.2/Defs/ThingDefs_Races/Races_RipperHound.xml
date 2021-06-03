@@ -4,7 +4,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_RipperHound</defName>
 		<label>ripper hound</label>
-		<description>Ripper Hounds were created as a purely biological defense against Insectoids, a genetically engineered species bred for hunting and defeating them. These hulking canines sport two viciously sharp claws specially designed to attach to chitinoid plates and rip them apart.\n\nDespite their fearsome appearance, Ripper Hounds can be extremely affectionate and loyal, and they love to be pet by those they trust.</description>
+		<description>Ripper Hounds were created as a purely biological defense against Insectoids, a genetically engineered species bred for hunting and defeating them. These hulking canines sport two viciously sharp claws specially designed to attach to chitinoid plates and rip them apart.\n\nDespite their fearsome appearance, Ripper Hounds can be extremely affectionate and loyal, and they love to be pet by those they trust.\n\nArt by PaptrishA (check out her Twitter at https://twitter.com/PaptrishA)</description>
 		<statBases>
 			<MoveSpeed>5.00</MoveSpeed>
 			<ComfyTemperatureMin>-20</ComfyTemperatureMin>
@@ -140,7 +140,8 @@
 					<li>AA_AntiInsectoidShockTroopDesc</li>
 					<li>AA_NoRanged</li>
 				</statDescriptions>
-
+				<showImageInInfoCard>true</showImageInInfoCard>
+				<ImageToShowInInfoCard>Art/AA_RipperhoundArt</ImageToShowInInfoCard>
 			</li>
 		</modExtensions>
 	</ThingDef>

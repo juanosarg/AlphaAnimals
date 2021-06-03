@@ -4,7 +4,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_RayHound</defName>
 		<label>ray-hound</label>
-		<description>Ray-hounds (&lt;i&gt;Salvator Electricus&lt;/i&gt;), also called Reptile Hounds, are a genetically engineered species based on the Argentine black and white tegu, with several traits from the common electric eel. The pair of fleshy tentacles extending from a ray-hound's skull are electrogenic, and are used by the animal as a defense mechanism against predators. In practice, Ray-hounds were created as an easily trainable biological defense against mechanoids, since an electrical discharge from a ray-hound's tentacles can easily disable electronic circuits.\n\nRay-hounds make amenable pets, as they tend to become acclimated to their owners and are generally quite docile as adults.</description>
+		<description>Ray-hounds (&lt;i&gt;Salvator Electricus&lt;/i&gt;), also called Reptile Hounds, are a genetically engineered species based on the Argentine black and white tegu, with several traits from the common electric eel. The pair of fleshy tentacles extending from a ray-hound's skull are electrogenic, and are used by the animal as a defense mechanism against predators. In practice, Ray-hounds were created as an easily trainable biological defense against mechanoids, since an electrical discharge from a ray-hound's tentacles can easily disable electronic circuits.\n\nRay-hounds make amenable pets, as they tend to become acclimated to their owners and are generally quite docile as adults.\n\nArt by MahrimbArt (check his Instagram at https://www.instagram.com/mahrimb.art/)</description>
 		<statBases>
 			<MoveSpeed>3.00</MoveSpeed>
 			<ComfyTemperatureMin>0</ComfyTemperatureMin>
@@ -142,7 +142,8 @@
 					<li>AA_EMPShockTroopDesc</li>
 					<li>AA_NoRanged</li>
 				</statDescriptions>
-
+				<showImageInInfoCard>true</showImageInInfoCard>
+				<ImageToShowInInfoCard>Art/AA_RayHoundArt</ImageToShowInInfoCard>
 			</li>
 		</modExtensions>
 	</ThingDef>

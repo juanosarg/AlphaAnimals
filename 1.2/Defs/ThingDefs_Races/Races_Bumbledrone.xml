@@ -4,7 +4,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_Bumbledrone</defName>
 		<label>bumbledrone</label>	  
-		<description>The Bumbledrone is a mutant wasp-like creature, probably the result of ancient genetic engineering long ago released into the wild. On its own, a Bumbledrone isn't very powerful, more a nuisance than a threat, but if threatened in big numbers their stingers carry a very powerful toxin that could down even the biggest foe. "Luckily", since they are not carnivorous, they use this as a deterrent, rather than as a hunting method. As a floating creature, Bumbledrones ignore terrain movement costs.</description>
+		<description>The Bumbledrone is a mutant wasp-like creature, probably the result of ancient genetic engineering long ago released into the wild. On its own, a Bumbledrone isn't very powerful, more a nuisance than a threat, but if threatened in big numbers their stingers carry a very powerful toxin that could down even the biggest foe. "Luckily", since they are not carnivorous, they use this as a deterrent, rather than as a hunting method. As a floating creature, Bumbledrones ignore terrain movement costs.\n\nArt by Feroxiious (check her Instagram at https://www.instagram.com/feroxiious/).</description>
 		<statBases>
 			<MoveSpeed>5.0</MoveSpeed>
 			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
@@ -136,7 +136,8 @@
 					<li>AA_PoisonShockTroopDesc</li>
 					<li>AA_NoRanged</li>
 				</statDescriptions>
-
+				<showImageInInfoCard>true</showImageInInfoCard>
+				<ImageToShowInInfoCard>Art/AA_BumbledroneArt</ImageToShowInInfoCard>
 			</li>
 		</modExtensions>
 
@@ -398,7 +399,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_BumbledroneQueen</defName>
 		<label>bumbledrone queen</label>	  
-		<description>The Bumbledrone is a mutant wasp-like creature, probably the result of ancient genetic engineering long ago released into the wild. On its own, a Bumbledrone isn't very powerful, more a nuisance than a threat, but if threatened in big numbers their stingers carry a very powerful toxin that could down even the biggest foe. "Luckily", since they are not carnivorous, they use this as a deterrent, rather than as a hunting method.\n\nThis particular bumbledrone seems to be a "queen", so called because it seems to deposit eggs from which other bumbledrones may hatch. It tends to do this specially once it has settled into an environment it considers safe, so it might be a really useful asset to tame it.</description>
+		<description>The Bumbledrone is a mutant wasp-like creature, probably the result of ancient genetic engineering long ago released into the wild. On its own, a Bumbledrone isn't very powerful, more a nuisance than a threat, but if threatened in big numbers their stingers carry a very powerful toxin that could down even the biggest foe. "Luckily", since they are not carnivorous, they use this as a deterrent, rather than as a hunting method.\n\nThis particular bumbledrone seems to be a "queen", so called because it seems to deposit eggs from which other bumbledrones may hatch. It tends to do this specially once it has settled into an environment it considers safe, so it might be a really useful asset to tame it.\n\nArt by Feroxiious (check her Instagram at https://www.instagram.com/feroxiious/).</description>
 		<statBases>
 			<MoveSpeed>4.0</MoveSpeed>
 			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
@@ -537,7 +538,8 @@
 					<li>AA_PoisonShockTroopDesc</li>
 					<li>AA_NoRanged</li>
 				</statDescriptions>
-
+				<showImageInInfoCard>true</showImageInInfoCard>
+				<ImageToShowInInfoCard>Art/AA_BumbledroneQueenArt</ImageToShowInInfoCard>
 			</li>
 		</modExtensions>
 

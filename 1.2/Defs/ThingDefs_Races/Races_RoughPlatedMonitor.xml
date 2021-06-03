@@ -7,7 +7,7 @@
 		<defName>AA_RoughPlatedMonitor</defName>
 		<label>rough-plated monitor</label>
 
-		<description>The Rough-Plated Monitor, &lt;i&gt;Varanus Bracteatus&lt;/i&gt;, is a large monitor lizard adapted to life in extreme conditions. Their whole body and metabolism are adapted to environments of higher than normal acidity, thriving around acidic volcanic lakes with a water pH of 2 to 3. This immunity to acid allows them to prey on other creatures that use acid to deter predators.\n\nThe Rough-plated Monitor lays eggs that have a tendency to suddenly explode in a dangerous splash of acid when hatching.</description>
+		<description>The Rough-Plated Monitor, &lt;i&gt;Varanus Bracteatus&lt;/i&gt;, is a large monitor lizard adapted to life in extreme conditions. Their whole body and metabolism are adapted to environments of higher than normal acidity, thriving around acidic volcanic lakes with a water pH of 2 to 3. This immunity to acid allows them to prey on other creatures that use acid to deter predators.\n\nThe Rough-plated Monitor lays eggs that have a tendency to suddenly explode in a dangerous splash of acid when hatching.\n\nArt by MahrimbArt (check his Instagram at https://www.instagram.com/mahrimb.art/)</description>
 		<statBases>
 			<MoveSpeed>3.00</MoveSpeed>
 			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
@@ -160,7 +160,8 @@
 					<li>AA_ShockTroopDesc</li>
 					<li>AA_NoRanged</li>
 				</statDescriptions>
-
+				<showImageInInfoCard>true</showImageInInfoCard>
+				<ImageToShowInInfoCard>Art/AA_RoughPlatedArt</ImageToShowInInfoCard>
 			</li>
 		</modExtensions>
 	</ThingDef>

@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_CrystallineCaracal</defName>
 		<label>crystalline caracal</label>
-		<description>A heavily modified medium-sized wild cat, the crystalline caracal can often be seen lazying around in the sun, recharging its internal energies. It can later use this stored energy to release a powerful blast of concentrated light. Typically nocturnal, the crystalline caracal is highly secretive and difficult to observe. It is territorial, and lives mainly alone or in pairs.\n\nContrary to other purely photosynthetic creatures, the caracal can also hunt small prey, and it needs both kinds of sustenance to survive.</description>
+		<description>A heavily modified medium-sized wild cat, the crystalline caracal can often be seen lazying around in the sun, recharging its internal energies. It can later use this stored energy to release a powerful blast of concentrated light. Typically nocturnal, the crystalline caracal is highly secretive and difficult to observe. It is territorial, and lives mainly alone or in pairs.\n\nContrary to other purely photosynthetic creatures, the caracal can also hunt small prey, and it needs both kinds of sustenance to survive.\n\nArt by Feroxiious (check her Instagram at https://www.instagram.com/feroxiious/).</description>
 		<statBases>
 			<MoveSpeed>5</MoveSpeed>
 			<ComfyTemperatureMin>-40</ComfyTemperatureMin>
@@ -175,7 +175,8 @@
 					<li>AA_DamageRangedFireDesc</li>
 					<li>AA_Ranged</li>
 				</statDescriptions>
-
+				<showImageInInfoCard>true</showImageInInfoCard>
+				<ImageToShowInInfoCard>Art/AA_CaracalArt</ImageToShowInInfoCard>
 			</li>
 		</modExtensions>
 	</ThingDef>
