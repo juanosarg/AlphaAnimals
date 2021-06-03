@@ -64,6 +64,10 @@
 				<hediffname>AA_NoPain</hediffname>
 				<hediffseverity>1</hediffseverity>
 			</li>
+			<li Class="AnimalBehaviours.CompProperties_DiseaseImmunity">
+				<hediffsToRemove><li>Animal_Plague</li><li>Animal_Flu</li><li>AB_AnimalSporesAllergy</li></hediffsToRemove>
+				<tickInterval>2000</tickInterval>
+			</li>
 			<li Class="AnimalBehaviours.CompProperties_AnimalProduct">
 				
 				<gatheringIntervalDays>4</gatheringIntervalDays>
