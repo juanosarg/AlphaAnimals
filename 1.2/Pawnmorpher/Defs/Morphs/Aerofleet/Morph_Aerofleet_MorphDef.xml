@@ -1,0 +1,39 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Schemas/MorphDef.xsd">
+	
+	
+	<Pawnmorph.AnimalClassDef>
+        <defName>AA_AerofleetAnimal</defName>
+        <label>aerofleet</label>
+        <parent>Invertebrates</parent>
+    </Pawnmorph.AnimalClassDef>
+	
+	
+	<Pawnmorph.MorphDef>
+		<defName>AA_AerofleetMorph</defName>
+		<label>aerofleetmorph</label>
+		<description>.</description>
+		<race>AA_AerofleetMorph</race>
+		<classification>AA_AerofleetAnimal</classification>
+		<categories>
+			<li>Pet</li>
+		</categories>
+		<fullTransformation>AA_PawnmorphAerofleetTF</fullTransformation>
+		<partialTransformation>AA_PawnmorphAerofleetTFPartial</partialTransformation>
+		<raceSettings>
+			<graphicsSettings>
+				<skinColorOverride>(150,181,194)</skinColorOverride>
+				<hairColorOverride>(0,0,0,0)</hairColorOverride>
+			</graphicsSettings>
+			<explicitHybridRace>AA_AerofleetMorph</explicitHybridRace>
+			<transferHumanBodyAddons>true</transferHumanBodyAddons>
+			<requiredMutations>
+				<li>AA_AerofleetEyes</li>
+				<li>AA_AerofleetFuzz</li>
+			</requiredMutations>
+		</raceSettings>
+		<transformSettings>
+			<transformationMemory>AA_AerofleetTransformationMemory</transformationMemory>
+			<revertedMemory>AA_AerofleetRevertedMemory</revertedMemory>
+		</transformSettings>
+	</Pawnmorph.MorphDef>
+</Defs>

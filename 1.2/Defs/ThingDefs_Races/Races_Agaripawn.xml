@@ -101,6 +101,7 @@
 		</comps>
 
 		<race>
+			<deathActionWorkerClass>AnimalBehaviours.DeathActionWorker_DropOnDeath</deathActionWorkerClass>
 			<herdAnimal>false</herdAnimal>
 			<body>QuadrupedAnimalWithPaws</body>
 			<baseBodySize>1.4</baseBodySize>

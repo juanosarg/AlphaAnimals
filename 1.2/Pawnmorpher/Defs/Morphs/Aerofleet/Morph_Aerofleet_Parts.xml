@@ -1,0 +1,94 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Schemas/MutationDef.xsd">
+
+
+	<Pawnmorph.Hediffs.MutationDef Name="AA_AerofleetPart" ParentName="PawnmorphPart" Abstract="true">
+		<classInfluence>AA_AerofleetAnimal</classInfluence>
+	</Pawnmorph.Hediffs.MutationDef>
+
+	<Pawnmorph.Hediffs.MutationDef ParentName="AA_AerofleetPart">
+		<defName>AA_AerofleetEyes</defName>
+		<label>extra eyes</label>
+		<description>A slimy, tentacular visage now makes itself apparent over the entirety of [PAWN_nameDef]'s face. With stalk eyes and weird, moving mouth bits it's quite a sight!</description>
+		<mutationTale>AA_GrewAerofleetEyes</mutationTale>
+		<mutationMemory>AA_AerofleetEyes</mutationMemory>
+		
+		<stages>
+			<li>
+				
+				<statOffsets>
+					<SocialImpact>-0.10</SocialImpact>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>1</minSeverity>
+				<capMods>
+					
+					<li>
+						<capacity>Sight</capacity>
+						<offset>0.30</offset>
+					</li>
+				</capMods>
+				<label>adapted</label>
+				<statOffsets>
+					<SocialImpact>-0.10</SocialImpact>
+				</statOffsets>
+			</li>
+		</stages>
+		<comps>
+			
+			<li Class="Pawnmorph.Hediffs.CompProperties_MutationSeverityAdjust">
+				<severityPerDay>0.25</severityPerDay>
+				<!-- takes 4 days to progress -->
+			</li>
+		</comps>
+		<parts>
+			<li>Head</li>
+		</parts>
+	</Pawnmorph.Hediffs.MutationDef>
+	
+	<Pawnmorph.Hediffs.MutationDef ParentName="PawnmorphSkinPart" Name="AA_AerofleetFuzzMutation">
+		<defName>AA_AerofleetFuzz</defName>
+		<label>aerofleet fuzz</label>
+		<description>Tough fibers have spread through this skin, weaving together into a hard shell.</description>
+		<classInfluence>AA_AerofleetAnimal</classInfluence>
+		<mutationMemory>AA_AerofleetFuzz</mutationMemory>
+		<parts>
+			<li>Torso</li>
+			
+			<li>Ear</li>
+			<li>Arm</li>
+			<li>Hand</li>
+			<li>Leg</li>
+			<li>Foot</li>
+			
+		</parts>
+		<comps>
+			<li Class="Pawnmorph.Hediffs.CompProperties_MutationSeverityAdjust">
+				<severityPerDay>0.33</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<labelOverride>thin fuzz</labelOverride>
+				<description>The skin here has started to stiffen and darken. Disturbing, but it does provide some measure of protection.</description>
+				<minSeverity>0</minSeverity>
+				<statOffsets>
+					<ArmorRating_Sharp>0.005</ArmorRating_Sharp>
+				</statOffsets>
+			</li>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<labelOverride>dense fuzz</labelOverride>
+				<description>The skin here has hardened further as tough fibers weave together beneath.</description>
+				<minSeverity>0.4</minSeverity>
+				<statOffsets>
+					<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+				</statOffsets>
+			</li>
+			
+		</stages>
+	</Pawnmorph.Hediffs.MutationDef>
+
+	
+	
+	
+</Defs>

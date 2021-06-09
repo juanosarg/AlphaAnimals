@@ -1,0 +1,16 @@
+<loadFolders>
+	<v1.0>
+		<li>/</li>
+		<li>1.0</li>		
+	</v1.0>
+	<v1.1>
+		<li>/</li>
+		<li>1.1</li>		
+	</v1.1>
+	<v1.2>
+		<li>/</li>
+		<li>1.2</li>
+		<!--<li IfModActive="tachyonite.pawnmorpherpublic">1.2/Pawnmorpher</li>	
+		<li IfModActive="tachyonite.pawnmorpherpublic_copy">1.2/Pawnmorpher</li>-->		
+	</v1.2>
+</loadFolders>

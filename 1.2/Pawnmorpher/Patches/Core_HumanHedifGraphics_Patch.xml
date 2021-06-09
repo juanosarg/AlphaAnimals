@@ -1,0 +1,8 @@
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart="Head"]/hediffGraphics</xpath>
+		<value>
+			<AA_AerofleetEyes>Parts/Aerofleetmorph/aerofleetmorph_head</AA_AerofleetEyes>
+		</value>
+	</Operation>
+</Patch>
