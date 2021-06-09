@@ -90,6 +90,13 @@
 				<customResourceString>RawMushrooms</customResourceString>
 
 			</li>
+			
+			<li Class="AnimalBehaviours.CompProperties_DropOnDeath">
+				<resourceDef>AA_AgariluxRawFungus</resourceDef>
+				<resourceAmount>1</resourceAmount>
+				<dropChance>0.5</dropChance>
+				
+			</li>
 
 		</comps>
 
