@@ -1,8 +1,44 @@
 <Patch>
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart="Head"]/hediffGraphics</xpath>
+		<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons</xpath>
 		<value>
-			<AA_AerofleetEyes>Parts/Aerofleetmorph/aerofleetmorph_head</AA_AerofleetEyes>
+			<!--<AA_AerofleetEyes>Parts/Aerofleetmorph/aerofleetmorph_head</AA_AerofleetEyes>-->
+			<li>
+				
+				<debug>false</debug>
+				<path>Parts/None/None</path>
+				<bodyPart>Head</bodyPart>
+				<inFrontOfBody>true</inFrontOfBody>
+				<layerOffset>-0.26</layerOffset>
+				<layerInvert>false</layerInvert>
+				<shaderType>CutoutComplex</shaderType>
+				<hediffGraphics>
+					<AA_AerofleetEyes>Parts/Aerofleetmorph/aerofleetmorph_head</AA_AerofleetEyes>
+				</hediffGraphics>
+				<offsets>
+                                <south />
+                                <north>
+                                    <bodyTypes>
+                                        <Male>(0,0.40)</Male>
+                                        <Female>(0,0.4)</Female>
+                                        <Thin>(0,0.4)</Thin>
+                                        <Hulk>(0,0.4)</Hulk>
+                                        <Fat>(0,0.4)</Fat>
+                                    </bodyTypes>
+                                </north>
+                                <east>
+                                    <bodyTypes>
+                                        <Male>(-0.20,-0.02)</Male>
+                                        <Female>(-0.24,-0.09)</Female>
+                                        <Thin>(-0.25,-0.02)</Thin>
+                                        <Hulk>(-0.06,-0.23)</Hulk>
+                                        <Fat>(0.02,-0.05)</Fat>
+                                    </bodyTypes>
+                                </east>
+                            </offsets>
+			</li>
+			
+			
 		</value>
 	</Operation>
 </Patch>

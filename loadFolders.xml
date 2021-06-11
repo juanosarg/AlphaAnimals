@@ -10,7 +10,9 @@
 	<v1.2>
 		<li>/</li>
 		<li>1.2</li>
-		<!--<li IfModActive="tachyonite.pawnmorpherpublic">1.2/Pawnmorpher</li>	
-		<li IfModActive="tachyonite.pawnmorpherpublic_copy">1.2/Pawnmorpher</li>-->		
+		<li IfModActive="tachyonite.pawnmorpherpublic">1.2/Pawnmorpher</li>	
+		<li IfModActive="tachyonite.pawnmorpherpublic_copy">1.2/Pawnmorpher</li>
+		<li IfModActive="tachyonite.pawnmorpher">1.2/Pawnmorpher</li>	
+		<li IfModActive="tachyonite.pawnmorpher_copy">1.2/Pawnmorpher</li>
 	</v1.2>
 </loadFolders>

@@ -2,7 +2,7 @@
 
 
 	<Pawnmorph.Hediffs.MutationDef Name="AA_AerofleetPart" ParentName="PawnmorphPart" Abstract="true">
-		<classInfluence>AA_AerofleetAnimal</classInfluence>
+		<classInfluence>AA_AerofleetMorph</classInfluence>
 	</Pawnmorph.Hediffs.MutationDef>
 
 	<Pawnmorph.Hediffs.MutationDef ParentName="AA_AerofleetPart">
@@ -46,11 +46,52 @@
 		</parts>
 	</Pawnmorph.Hediffs.MutationDef>
 	
+	<Pawnmorph.Hediffs.MutationDef ParentName="AA_AerofleetPart">
+		<defName>AA_AerofleetVacuoles</defName>
+		<label>gas vacuole</label>
+		<description>An aggregate of hollow cylindrical structures called gas vesicles, this vacuole can be inflated and deflated with gas to provide buoyancy.</description>
+		
+		<stages>
+			<li>
+				<label>internal itch</label>
+				<statOffsets>
+					<SocialImpact>-0.10</SocialImpact>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>1</minSeverity>
+				<capMods>
+					
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.05</offset>
+					</li>
+				</capMods>
+				<label>adapted</label>
+				<statOffsets>
+					<SocialImpact>-0.10</SocialImpact>
+				</statOffsets>
+			</li>
+		</stages>
+		<comps>
+			
+			<li Class="Pawnmorph.Hediffs.CompProperties_MutationSeverityAdjust">
+				<severityPerDay>0.5</severityPerDay>
+				<!-- takes 2 days to progress -->
+			</li>
+		</comps>
+		<parts>
+			<li>Lung</li>
+			<li>Kidney</li>
+			<li>Liver</li>
+		</parts>
+	</Pawnmorph.Hediffs.MutationDef>
+	
 	<Pawnmorph.Hediffs.MutationDef ParentName="PawnmorphSkinPart" Name="AA_AerofleetFuzzMutation">
 		<defName>AA_AerofleetFuzz</defName>
 		<label>aerofleet fuzz</label>
 		<description>Tough fibers have spread through this skin, weaving together into a hard shell.</description>
-		<classInfluence>AA_AerofleetAnimal</classInfluence>
+		<classInfluence>AA_AerofleetMorph</classInfluence>
 		<mutationMemory>AA_AerofleetFuzz</mutationMemory>
 		<parts>
 			<li>Torso</li>

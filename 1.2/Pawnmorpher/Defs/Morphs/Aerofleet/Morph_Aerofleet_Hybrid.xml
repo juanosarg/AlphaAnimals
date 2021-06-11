@@ -424,7 +424,7 @@
         <description>TODO</description>
         <statBases>
             <MarketValue>1750</MarketValue>
-            <MoveSpeed>4.6</MoveSpeed>
+            <MoveSpeed>0.1</MoveSpeed>
             <Flammability>1.0</Flammability>
             <ComfyTemperatureMin>16</ComfyTemperatureMin>
             <ComfyTemperatureMax>26</ComfyTemperatureMax>

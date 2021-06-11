@@ -12,7 +12,7 @@
 		<defName>AA_AerofleetMorph</defName>
 		<label>aerofleetmorph</label>
 		<description>.</description>
-		<race>AA_AerofleetMorph</race>
+		<race>AA_Aerofleet</race>
 		<classification>AA_AerofleetAnimal</classification>
 		<categories>
 			<li>Pet</li>
@@ -21,14 +21,15 @@
 		<partialTransformation>AA_PawnmorphAerofleetTFPartial</partialTransformation>
 		<raceSettings>
 			<graphicsSettings>
-				<skinColorOverride>(150,181,194)</skinColorOverride>
-				<hairColorOverride>(0,0,0,0)</hairColorOverride>
+				<skinColorOverride>(158,200,218)</skinColorOverride>
+				<hairColorOverride>(158,200,218)</hairColorOverride>
 			</graphicsSettings>
 			<explicitHybridRace>AA_AerofleetMorph</explicitHybridRace>
 			<transferHumanBodyAddons>true</transferHumanBodyAddons>
 			<requiredMutations>
 				<li>AA_AerofleetEyes</li>
-				<li>AA_AerofleetFuzz</li>
+				<li>AA_AerofleetVacuoles</li>
+				
 			</requiredMutations>
 		</raceSettings>
 		<transformSettings>
