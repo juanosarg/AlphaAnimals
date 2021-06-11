@@ -20,10 +20,7 @@
 		<fullTransformation>AA_PawnmorphAerofleetTF</fullTransformation>
 		<partialTransformation>AA_PawnmorphAerofleetTFPartial</partialTransformation>
 		<raceSettings>
-			<graphicsSettings>
-				<skinColorOverride>(158,200,218)</skinColorOverride>
-				<hairColorOverride>(158,200,218)</hairColorOverride>
-			</graphicsSettings>
+			
 			<explicitHybridRace>AA_AerofleetMorph</explicitHybridRace>
 			<transferHumanBodyAddons>true</transferHumanBodyAddons>
 			<requiredMutations>
