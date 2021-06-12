@@ -4,22 +4,22 @@
         <stages>
             <li>
                 <label>morphed</label>
-                <description>I'm slimy, and my mouth waters upsettingly every time I see a dead thing.</description>
+                <description>I feel bloated, as if my whole body had been suddenly filled with gas.</description>
                 <baseMoodEffect>-3</baseMoodEffect>
             </li>
             <li>
                 <label>morphed</label>
-                <description>It's slime time, baby!</description>
+                <description>Squish, squish!</description>
                 <baseMoodEffect>+3</baseMoodEffect>
             </li>
             <li>
                 <label>morphed</label>
-                <description>Helixiens are disgusting enough as it is, now I have to see one every time I look in the mirror!</description>
+                <description>I am a disgusting, exploding ball of gas!</description>
                 <baseMoodEffect>-5</baseMoodEffect>
             </li>
             <li>
                 <label>morphed</label>
-                <description>I'm kind of digging the wild field of vision, but people keep making salt jokes around me.</description>
+                <description>I can float above obstacles, but I still feel as if my whole body was bloated.</description>
                 <baseMoodEffect>+1</baseMoodEffect>
             </li>
         </stages>
@@ -30,17 +30,17 @@
         <stages>
             <li>
                 <label>reverted</label>
-                <description>I'm dry again, and my eyes are back where nature intended.</description>
+                <description>Oh, I can feel my internal organs again...</description>
                 <baseMoodEffect>3</baseMoodEffect>
             </li>
             <li>
                 <label>reverted</label>
-                <description>Eugh, corpses smell so bad now, and my skin feels so dry!</description>
+                <description>I miss being able to float all over!</description>
                 <baseMoodEffect>-3</baseMoodEffect>
             </li>
             <li>
                 <label>reverted</label>
-                <description>No more wool! Oh, skin, how I missed seeing you...</description>
+                <description>Gods, I don't miss being a ball of explosive gas...</description>
                 <baseMoodEffect>10</baseMoodEffect>
             </li>
             <li>
@@ -57,20 +57,20 @@
         <defName>AA_AerofleetEyes</defName>
         <stages>
             <li>
-                <label>Slug face</label>
-                <description>Eugh, the way these eyestalks swing around makes me feel queasy.</description>
+                <label>Gasbag face</label>
+                <description>Eugh, I can't get used to having four eyes.</description>
                 <visible>true</visible>
                 <baseMoodEffect>-1</baseMoodEffect>
             </li>
             <li>
-                <label>Slug face</label>
+                <label>Gasbag face</label>
                 <description>I can see forever!</description>
                 <visible>true</visible>
                 <baseMoodEffect>2</baseMoodEffect>
             </li>
             <li>
-                <label>Slug face</label>
-                <description>Nobody is gonna want to kiss this face! And with this rasping tongue I don't blame them!</description>
+                <label>Gasbag face</label>
+                <description>Nobody is gonna want to kiss this face! And the constant squishing sound is disgusting!</description>
                 <visible>true</visible>
                 <baseMoodEffect>-3</baseMoodEffect>
             </li>
@@ -82,20 +82,20 @@
         <defName>AA_AerofleetFuzz</defName>
         <stages>
             <li>
-                <label>Fuzz face</label>
-                <description>Eugh, the way these eyestalks swing around makes me feel queasy.</description>
+                <label>Fuzz everywhere</label>
+                <description>A disgusting blue fuzz is growing all over my body!</description>
                 <visible>true</visible>
                 <baseMoodEffect>-1</baseMoodEffect>
             </li>
             <li>
-                <label>Fuzz face</label>
-                <description>I can see forever!</description>
+                <label>Fuzz everywhere</label>
+                <description>With this blue fuzz I suddenly feel very protected.</description>
                 <visible>true</visible>
                 <baseMoodEffect>2</baseMoodEffect>
             </li>
             <li>
-                <label>Fuzz face</label>
-                <description>Nobody is gonna want to kiss this face! And with this rasping tongue I don't blame them!</description>
+                <label>Fuzz everywhere</label>
+                <description>This thin blue fuzz is horribly disgusting! It itches!</description>
                 <visible>true</visible>
                 <baseMoodEffect>-3</baseMoodEffect>
             </li>

@@ -11,7 +11,7 @@
 	<Pawnmorph.MorphDef>
 		<defName>AA_AerofleetMorph</defName>
 		<label>aerofleetmorph</label>
-		<description>.</description>
+		<description>A hybrid animal / humanoid with Aerofleet characteristics.\n\nAs a floating creature, Aerofleetmorphs ignore terrain movement costs. Aerofleetmorphs slowly produce a thick, gelatinous substance known as Blue Gel. This syrupy residue can be collected and refined into an energy-dense compound, and potentially used to build powerful batteries and generators, with the appropiate research (Biofuel refining, Batteries and Advanced Fabrication).</description>
 		<race>AA_Aerofleet</race>
 		<classification>AA_AerofleetAnimal</classification>
 		<categories>

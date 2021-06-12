@@ -7,8 +7,8 @@
 
 	<Pawnmorph.Hediffs.MutationDef ParentName="AA_AerofleetPart">
 		<defName>AA_AerofleetEyes</defName>
-		<label>extra eyes</label>
-		<description>A slimy, tentacular visage now makes itself apparent over the entirety of [PAWN_nameDef]'s face. With stalk eyes and weird, moving mouth bits it's quite a sight!</description>
+		<label>aerofleet hood</label>
+		<description>Two new eyes have appeared on [PAWN_nameDef]'s face, and the entirety of [PAWN_possessive] face has been surrounded by a gelatinous membrane.</description>
 		<mutationTale>AA_GrewAerofleetEyes</mutationTale>
 		<mutationMemory>AA_AerofleetEyes</mutationMemory>
 		
@@ -27,6 +27,10 @@
 						<capacity>Sight</capacity>
 						<offset>0.30</offset>
 					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>0.30</offset>
+					</li>
 				</capMods>
 				<label>adapted</label>
 				<statOffsets>
@@ -39,6 +43,21 @@
 			<li Class="Pawnmorph.Hediffs.CompProperties_MutationSeverityAdjust">
 				<severityPerDay>0.25</severityPerDay>
 				<!-- takes 4 days to progress -->
+			</li>
+			<li Class="Pawnmorph.HediffCompProperties_Production">
+			
+				<jobGiver>Pawnmorph.Jobs.Giver_LayEgg</jobGiver>
+				
+				<stages>
+					
+					<li>
+						<daysToProduce>1</daysToProduce>
+						<amount>10</amount>
+						<resource>AA_BlueGel</resource>					
+						<chance>100</chance>
+						
+					</li>
+				</stages>
 			</li>
 		</comps>
 		<parts>
@@ -90,7 +109,7 @@
 	<Pawnmorph.Hediffs.MutationDef ParentName="PawnmorphSkinPart" Name="AA_AerofleetFuzzMutation">
 		<defName>AA_AerofleetFuzz</defName>
 		<label>aerofleet fuzz</label>
-		<description>Tough fibers have spread through this skin, weaving together into a hard shell.</description>
+		<description>A fuzzy, soft layer of short, thin hairs</description>
 		<classInfluence>AA_AerofleetMorph</classInfluence>
 		<mutationMemory>AA_AerofleetFuzz</mutationMemory>
 		<parts>
@@ -111,7 +130,7 @@
 		<stages>
 			<li Class="Pawnmorph.Hediffs.MutationStage">
 				<labelOverride>thin fuzz</labelOverride>
-				<description>The skin here has started to stiffen and darken. Disturbing, but it does provide some measure of protection.</description>
+				<description>A fuzzy, soft layer of short, thin hairs</description>
 				<minSeverity>0</minSeverity>
 				<statOffsets>
 					<ArmorRating_Sharp>0.005</ArmorRating_Sharp>
@@ -119,7 +138,7 @@
 			</li>
 			<li Class="Pawnmorph.Hediffs.MutationStage">
 				<labelOverride>dense fuzz</labelOverride>
-				<description>The skin here has hardened further as tough fibers weave together beneath.</description>
+				<description>A fuzzy, soft layer of short, thin hairs. This fuzz has thickened a bit.</description>
 				<minSeverity>0.4</minSeverity>
 				<statOffsets>
 					<ArmorRating_Sharp>0.01</ArmorRating_Sharp>

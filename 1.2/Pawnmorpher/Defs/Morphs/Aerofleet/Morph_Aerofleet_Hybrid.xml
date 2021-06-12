@@ -412,20 +412,36 @@
 						<li>Waist</li>
 					</groups>
 				</li>
+				<li>
+					<def>AA_JellyfishTentacle</def>
+					<coverage>0.1</coverage>
+					<height>Bottom</height>
+					<groups>
+						<li>AA_TentacleAttackTool</li>
+					</groups>
+				</li>
+				<li>
+					<def>AA_JellyfishTentacle</def>
+					<coverage>0.1</coverage>
+					<height>Bottom</height>
+					<groups>
+						<li>AA_TentacleAttackTool</li>
+					</groups>
+				</li>
 			</parts>
 		</corePart>
 	</BodyDef>
 	<ThingDef Class="AlienRace.ThingDef_AlienRace" ParentName="HumanRace">
 		<defName>AA_AerofleetMorph</defName>
 		<label>aerofleetmorph</label>
-		<description>TODO</description>
+		<description>A hybrid animal / humanoid with Aerofleet characteristics.\n\nAs a floating creature, Aerofleetmorphs ignore terrain movement costs. Aerofleetmorphs slowly produce a thick, gelatinous substance known as Blue Gel. This syrupy residue can be collected and refined into an energy-dense compound, and potentially used to build powerful batteries and generators, with the appropiate research (Biofuel refining, Batteries and Advanced Fabrication). Aerofleetmorphs will explode on death.</description>
 		<statBases>
 			<MarketValue>1750</MarketValue>
-			<MoveSpeed>0.1</MoveSpeed>
+			<MoveSpeed>4</MoveSpeed>
 			<Flammability>1.0</Flammability>
 			<ComfyTemperatureMin>16</ComfyTemperatureMin>
 			<ComfyTemperatureMax>26</ComfyTemperatureMax>
-			<LeatherAmount>0</LeatherAmount>
+			<LeatherAmount>100</LeatherAmount>
 			<RoyalFavorValue>4</RoyalFavorValue>
 		</statBases>
 		<tools>
@@ -486,16 +502,19 @@
 			</li>
 		</tools>
 		<race>
+			<deathActionWorkerClass>DeathActionWorker_SmallExplosion</deathActionWorkerClass>
+			<executionRange>2</executionRange>
 			<thinkTreeMain>Humanlike</thinkTreeMain>
 			<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
 			<intelligence>Humanlike</intelligence>
-			<makesFootprints>true</makesFootprints>
+			<makesFootprints>false</makesFootprints>
 			<lifeExpectancy>80</lifeExpectancy>
 			<nameCategory>HumanStandard</nameCategory>
 			<body>AA_AerofleetHybridBody</body>
 			<baseBodySize>1</baseBodySize>
 			<baseHealthScale>1</baseHealthScale>
 			<foodType>OmnivoreHuman</foodType>
+			<leatherDef>AA_Leather_Aerofleet</leatherDef>
 			<gestationPeriodDays>45</gestationPeriodDays>
 			<meatMarketValue>0.8</meatMarketValue>
 			<manhunterOnDamageChance>0.20</manhunterOnDamageChance>
@@ -504,78 +523,102 @@
 			<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
 		</race>
+		<comps>
+
+			<li Class="AnimalBehaviours.CompProperties_Floating">
+
+			</li>
+
+
+
+		</comps>
 		<alienRace>
 			<generalSettings>
 				<humanRecipeImport>true</humanRecipeImport>
 				<alienPartGenerator>
 					<aliencrowntypes>
-						<li>Average_Normal</li>
-						<li>Average_Wide</li>
-						<li>Average_Pointy</li>
-						<li>Narrow_Normal</li>
-						<li>Narrow_Pointy</li>
-						<li>Narrow_Wide</li>
+						<li>Normal</li>
+						
 					</aliencrowntypes>
-					<bodyAddons>
-						<li>
-							<!-- Body Tails -->
-							<path>Parts/None/None</path>
-							<bodyPart>Head</bodyPart>
-							<inFrontOfBody>true</inFrontOfBody>
-							<layerInvert>false</layerInvert>
-							<drawnInBed>true</drawnInBed>
-							<hediffGraphics>
-								<AA_AerofleetEyes>Parts/Aerofleetmorph/aerofleetmorph_head</AA_AerofleetEyes>
-							</hediffGraphics>
-							<layerOffset>-0.29</layerOffset>
-							<offsets>
-								<south/>
-								<north>
-									<bodyTypes>
-										<Male>(0,0.40)</Male>
-										<Female>(0,0.4)</Female>
-										<Thin>(0,0.4)</Thin>
-										<Hulk>(0,0.4)</Hulk>
-										<Fat>(0,0.4)</Fat>
-									</bodyTypes>
-								</north>
-								<east>
-									<bodyTypes>
-										<Male>(-0.20,-0.02)</Male>
-										<Female>(-0.24,-0.09)</Female>
-										<Thin>(-0.25,-0.02)</Thin>
-										<Hulk>(-0.06,-0.23)</Hulk>
-										<Fat>(0.02,-0.05)</Fat>
-									</bodyTypes>
-								</east>
-							</offsets>
-						</li>
-					</bodyAddons>
 					<colorChannels>
 						<li>
 							<name>skin</name>
 							<first Class="ColorGenerator_Options">
 								<options>
 									<li>
-										<weight>10</weight>
-										<only>RGBA(158,200,218, 255)</only>
+										<weight>1000</weight>
+										<only>RGB(158,200,218)</only>
 									</li>
 								</options>
 							</first>
 							<second Class="ColorGenerator_Options">
 								<options>
 									<li>
-										<weight>10</weight>
-										<only>RGBA(158,200,218, 255)</only>
+										<weight>1000</weight>
+										<only>RGB(158,200,218)</only>
 									</li>
 								</options>
 							</second>
 						</li>
 					</colorChannels>
+					<bodyAddons>
+						<li>
+							<path>Parts/None/None</path>
+							<bodyPart>Head</bodyPart>
+							<inFrontOfBody>true</inFrontOfBody>
+							<layerInvert>false</layerInvert>
+							<drawnInBed>true</drawnInBed>
+							
+							<hediffGraphics>
+								<AA_AerofleetEyes>Parts/Aerofleetmorph/aerofleetmorph_head</AA_AerofleetEyes>
+							</hediffGraphics>
+							<shaderType>CutoutComplex</shaderType>
+							<layerOffset>-0.27</layerOffset>
+							
+							<offsets>
+								<south>
+									<bodyTypes>
+										<Male>(-.425,.6)</Male>
+										<Female>(-.425,.6)</Female>
+										<Thin>(-.425,.6)</Thin>
+										<Hulk>(-.425,.6)</Hulk>
+										<Fat>(-.425,.6)</Fat>
+									</bodyTypes>
+								</south>
+								<north>
+									<bodyTypes>
+										<Male>(0,.9)</Male>
+										<Female>(0,.9)</Female>
+										<Thin>(0,.9)</Thin>
+										<Hulk>(0,.9)</Hulk>
+										<Fat>(0,.9)</Fat>
+									</bodyTypes>
+								</north>
+								<east>
+									<bodyTypes>
+										<Male>(-.425,.6)</Male>
+										<Female>(-.425,.6)</Female>
+										<Thin>(-.425,.6)</Thin>
+										<Hulk>(-.425,.6)</Hulk>
+										<Fat>(-.425,.6)</Fat>
+									</bodyTypes>
+								</east>
+							</offsets>
+						</li>
+					</bodyAddons>
 				</alienPartGenerator>
 			</generalSettings>
-			<graphicPaths/>
-			<hairSettings/>
+			<graphicPaths>
+			<li>
+              
+                <head>Parts/Aerofleetmorph/</head>
+               
+            </li>
+			
+			</graphicPaths>
+			<hairSettings>
+			<hasHair>false</hasHair>
+			</hairSettings>
 			<thoughtSettings>
 				<cannotReceiveThoughts/>
 				<canStillReceiveThoughts/>
