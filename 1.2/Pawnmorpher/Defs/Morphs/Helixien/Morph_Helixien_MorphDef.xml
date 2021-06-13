@@ -9,7 +9,7 @@
 	<Pawnmorph.MorphDef>
 		<defName>AA_HelixienMorph</defName>
 		<label>helixienmorph</label>
-		<description>Alpacamorphs are rather woolly herbivorous humanoids who often have hooves. They produce good amounts of soft wool, which they can shave off themselves... and they don't need your help, thank you.</description>
+		<description>The Helixienmorph is a hybrid Leopard Slug / humanoid. The Helixienmorph constantly secretes a foul-smelling, corrosive gas that produces an uncomfortable, itchy sensation in living beings. This gas is mostly harmless, unless it comes into contact with decaying organic matter: it greatly accelerates corpse rotting, liberating a black putrid liquid known as "purge fluid" or corpse bile. The helixienmorph feeds on this liquid sludge, although it can also feed on other organic matter if needed.\n\nThe sight of a Helixienmorph is quite revolting, and watching one wallowing in a pile of human corpses is, to say the least, a deeply traumatizing experience.</description>
 		<race>AA_Helixien</race>
 		<classification>AA_HelixienAnimal</classification>
 		<categories>

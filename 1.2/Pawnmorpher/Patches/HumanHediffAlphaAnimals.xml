@@ -1,4 +1,27 @@
 <Patch>
+
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart="left ear" and inFrontOfBody="true"]/hediffGraphics</xpath>
+		<value>
+			<AA_AnimusVoxEar>Parts/Animusmorph/AnimusVox_Ear_Left</AA_AnimusVoxEar>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart="left ear" and inFrontOfBody="false"]/hediffGraphics</xpath>
+		<value>
+			<AA_AnimusVoxEar>Parts/Animusmorph/AnimusVox_Ear_Left_Behind</AA_AnimusVoxEar>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart="Jaw"]/hediffGraphics</xpath>
+		<value>
+			<AA_AnimusVoxSnout>Parts/Animusmorph/AnimusVox_Snout</AA_AnimusVoxSnout>
+		</value>
+	</Operation>
+
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons</xpath>
 		<value>
