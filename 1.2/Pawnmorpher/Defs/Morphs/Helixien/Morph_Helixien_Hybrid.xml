@@ -514,6 +514,12 @@
                 <tickInterval>500</tickInterval>
                 <thoughtDef>AA_Disgust</thoughtDef>
             </li>
+			<li Class="AnimalBehaviours.CompProperties_FilthProducer">
+				<filthType>Filth_Slime</filthType> 
+				<rate>0.3</rate> 
+				<radius>1</radius> 
+				<ticksToCreateFilth>1200</ticksToCreateFilth>
+			</li>
         </comps>
         <race>
             <thinkTreeMain>Humanlike</thinkTreeMain>
@@ -580,7 +586,7 @@
                                 <AA_EtherHelixienTail>Parts/Helixienmorph/Helixien_Tail</AA_EtherHelixienTail>
                                 
                             </hediffGraphics>
-                            <layerOffset>-0.29</layerOffset>
+                            <layerOffset>-0.28</layerOffset>
                             <offsets>
                                 <south />
                                 <north>
@@ -611,7 +617,34 @@
 			<hasHair>false</hasHair>
 			</hairSettings>
             <thoughtSettings>
-                <cannotReceiveThoughts></cannotReceiveThoughts>
+			
+				<replacerList>
+					<li>
+						<original>SoakingWet</original>
+						<replacer>AA_SoakingWetHelixien</replacer> 
+					</li>
+					<li>
+						<original>ObservedLayingCorpse</original>
+						<replacer>AA_SoakingWetHelixien</replacer> 
+					</li>
+					<li>
+						<original>ObservedLayingRottingCorpse</original>
+						<replacer>AA_ObservedLayingRottingCorpseHelixien</replacer> 
+					</li>
+					<li>
+						<original>WitnessedDeathAlly</original>
+						<replacer>AA_WitnessedDeathAllyHelixien</replacer> 
+					</li>
+					<li>
+						<original>WitnessedDeathNonAlly</original>
+						<replacer>AA_WitnessedDeathNonAllyHelixien</replacer> 
+					</li>
+					<li>
+						<original>ColonistLeftUnburied</original>
+						<replacer>AA_ColonistLeftUnburiedHelixien</replacer> 
+					</li>
+				</replacerList>
+                <cannotReceiveThoughts><li>AA_Disgust</li></cannotReceiveThoughts>
                 <canStillReceiveThoughts></canStillReceiveThoughts>
             </thoughtSettings>
             <relationSettings>

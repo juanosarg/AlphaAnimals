@@ -9,6 +9,20 @@
 	</Operation>
 	
 	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart="right ear" and inFrontOfBody="false"]/hediffGraphics</xpath>
+		<value>
+			<AA_AnimusVoxEar>Parts/Animusmorph/AnimusVox_Ear_Right_Behind</AA_AnimusVoxEar>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart="right ear" and inFrontOfBody="true"]/hediffGraphics</xpath>
+		<value>
+			<AA_AnimusVoxEar>Parts/Animusmorph/AnimusVox_Ear_Right</AA_AnimusVoxEar>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[bodyPart="left ear" and inFrontOfBody="false"]/hediffGraphics</xpath>
 		<value>
 			<AA_AnimusVoxEar>Parts/Animusmorph/AnimusVox_Ear_Left_Behind</AA_AnimusVoxEar>
@@ -21,6 +35,62 @@
 			<AA_AnimusVoxSnout>Parts/Animusmorph/AnimusVox_Snout</AA_AnimusVoxSnout>
 		</value>
 	</Operation>
+	
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons</xpath>
+		<value>
+			
+			<li>
+				
+				<path>Parts/None/None</path>
+				<bodyPart>tail</bodyPart>
+				<inFrontOfBody>true</inFrontOfBody>
+				<layerOffset>-0.2</layerOffset>
+				<layerInvert>false</layerInvert>
+				<drawnInBed>false</drawnInBed>
+<shaderType>CutoutComplex</shaderType>				<drawForFemale>true</drawForFemale>
+				<hediffGraphics>
+					<AA_AnimusVoxTail>Parts/Animusmorph/AnimusVox_Tail</AA_AnimusVoxTail>
+				</hediffGraphics>
+				
+				<offsets>
+					<south>
+						<bodyTypes>
+							<Male>(0,0)</Male>
+							<Female>(0,0)</Female>
+							<Thin>(0,0)</Thin>
+							<Hulk>(0,0)</Hulk>
+							<Fat>(0,0)</Fat>
+						</bodyTypes>
+						
+					</south>
+					<north>
+						<bodyTypes>
+							<Male>(0,0)</Male>
+							<Female>(0,0)</Female>
+							<Thin>(0,0)</Thin>
+							<Hulk>(0,0)</Hulk>
+							<Fat>(0,0)</Fat>
+						</bodyTypes>
+						
+					</north >
+					<east>
+						<bodyTypes>
+							<Male>(-0.1,0)</Male>
+							<Female>(-0.1,0)</Female>
+							<Thin>(-0.1,0)</Thin>
+							<Hulk>(0,0)</Hulk>
+							<Fat>(0,0)</Fat>
+						</bodyTypes>
+						
+					</east>
+				</offsets>
+			</li>
+			
+		</value>
+	</Operation>
+	
 
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Human"]/alienRace/generalSettings/alienPartGenerator/bodyAddons</xpath>
@@ -154,7 +224,8 @@
 				<hediffGraphics>
 					<AA_EtherHelixienTail>Parts/Helixienmorph/Helixien_Tail</AA_EtherHelixienTail>
 				</hediffGraphics>
-				<layerOffset>-0.29</layerOffset>
+				
+				<layerOffset>-0.28</layerOffset>
 				<offsets>
 					<south />
 					<north>

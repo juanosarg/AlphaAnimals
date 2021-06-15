@@ -126,6 +126,7 @@
 				</thingsToConvertTo>
 				<ticksConversionRate>10000</ticksConversionRate>
 				<radius>2</radius>
+				<isForbidden>true</isForbidden>
 				
 
 			</li>

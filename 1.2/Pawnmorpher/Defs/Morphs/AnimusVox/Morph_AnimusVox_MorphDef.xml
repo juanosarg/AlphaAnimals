@@ -17,10 +17,10 @@
 		<fullTransformation>AA_PawnmorphAnimusVoxTF</fullTransformation>
 		<partialTransformation>AA_PawnmorphAnimusVoxTFPartial</partialTransformation>
 		<raceSettings>
-			<!--<graphicsSettings>
-				<skinColorOverride>(168,106,86)</skinColorOverride>
-				<hairColorOverride>(0,0,0,0)</hairColorOverride>
-			</graphicsSettings>-->
+			<graphicsSettings>
+				<skinColorOverride>(246,246,246)</skinColorOverride>
+				
+			</graphicsSettings>
 			
 			<requiredMutations>
 				<li>AA_AnimusVoxSnout</li>

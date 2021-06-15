@@ -568,9 +568,52 @@
 							<inFrontOfBody>true</inFrontOfBody>
 							<layerInvert>false</layerInvert>
 							<drawnInBed>true</drawnInBed>
-							
+							<drawForFemale>false</drawForFemale>
 							<hediffGraphics>
-								<AA_AerofleetEyes>Parts/Aerofleetmorph/aerofleetmorph_head</AA_AerofleetEyes>
+								<AA_AerofleetEyes>Parts/Aerofleetmorph/Aerofleetmorph_Head_Male</AA_AerofleetEyes>
+							</hediffGraphics>
+							<shaderType>CutoutComplex</shaderType>
+							<layerOffset>-0.27</layerOffset>
+							
+							<offsets>
+								<south>
+									<bodyTypes>
+										<Male>(-.425,.6)</Male>
+										<Female>(-.425,.6)</Female>
+										<Thin>(-.425,.6)</Thin>
+										<Hulk>(-.425,.6)</Hulk>
+										<Fat>(-.425,.6)</Fat>
+									</bodyTypes>
+								</south>
+								<north>
+									<bodyTypes>
+										<Male>(0,.9)</Male>
+										<Female>(0,.9)</Female>
+										<Thin>(0,.9)</Thin>
+										<Hulk>(0,.9)</Hulk>
+										<Fat>(0,.9)</Fat>
+									</bodyTypes>
+								</north>
+								<east>
+									<bodyTypes>
+										<Male>(-.425,.6)</Male>
+										<Female>(-.425,.6)</Female>
+										<Thin>(-.425,.6)</Thin>
+										<Hulk>(-.425,.6)</Hulk>
+										<Fat>(-.425,.6)</Fat>
+									</bodyTypes>
+								</east>
+							</offsets>
+						</li>
+						<li>
+							<path>Parts/None/None</path>
+							<bodyPart>Head</bodyPart>
+							<inFrontOfBody>true</inFrontOfBody>
+							<layerInvert>false</layerInvert>
+							<drawnInBed>true</drawnInBed>
+							<drawForMale>false</drawForMale>
+							<hediffGraphics>
+								<AA_AerofleetEyes>Parts/Aerofleetmorph/Aerofleetmorph_Head_Female</AA_AerofleetEyes>
 							</hediffGraphics>
 							<shaderType>CutoutComplex</shaderType>
 							<layerOffset>-0.27</layerOffset>

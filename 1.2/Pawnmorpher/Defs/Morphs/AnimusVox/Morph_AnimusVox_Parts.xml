@@ -3,7 +3,7 @@
 		<defName>AA_AnimusVoxSnout</defName>
 		<classInfluence>AA_AnimusMorph</classInfluence>
 		<label>animus vox snout</label>
-		<description>A snout graces [PAWN_nameDef]'s face, like that of a fox. [PAWN_possessive] teeth are pointed to suit; speaking is more difficult, but eating is easier.</description>
+		<description>An adorable little snout graces [PAWN_nameDef]'s face, so cute!</description>
 		<initialSeverity>0</initialSeverity>
 		<parts>
 			<li>Jaw</li>
@@ -101,6 +101,14 @@
 			<li Class="Pawnmorph.Hediffs.CompProperties_MutationSeverityAdjust">
 				<severityPerDay>0.25</severityPerDay>
 			</li>
+			
+			<li Class="AnimalBehaviours.HediffCompProperties_ThoughtEffecter">
+				<radius>10</radius>
+				<tickInterval>2000</tickInterval>
+				<thoughtDef>AA_BeenPsionicallyNuzzled</thoughtDef>
+			</li>
+		
+		
 		</comps>
 	</Pawnmorph.Hediffs.MutationDef>
 	
@@ -108,7 +116,7 @@
 		<defName>AA_AnimusVoxEar</defName>
 		<classInfluence>AA_AnimusMorph</classInfluence>
 		<description>A large and sensitive ear, normally belonging to a fox.</description>
-		<label>vulpine</label>
+		<label>animus vox ear</label>
 		<initialSeverity>0</initialSeverity>
 		<parts>
 			<li>Ear</li>
@@ -132,6 +140,31 @@
 				<severityPerDay>0.8</severityPerDay>
 			</li>
 		</comps>
+	</Pawnmorph.Hediffs.MutationDef>
+	
+	<Pawnmorph.Hediffs.MutationDef ParentName="PawnmorphPart">
+		<defName>AA_AnimusVoxTail</defName>
+		<label>animus vox tail</label>
+		<classInfluence>AA_AnimusMorph</classInfluence>
+		<description>A wonderfully fluffy fox tail drapes from [PAWN_nameDef]'s spine. Was that a small wag just then?</description>
+		<parts>
+			<li>Tail</li>
+			<li>MorphTail</li>
+		</parts>
+		<stages>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<statOffsets>
+					<SocialImpact>+0.30</SocialImpact>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.02</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		
 	</Pawnmorph.Hediffs.MutationDef>
 	
 	
