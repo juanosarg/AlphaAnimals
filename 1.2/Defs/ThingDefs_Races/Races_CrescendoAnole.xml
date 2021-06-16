@@ -7,7 +7,7 @@
 		<defName>AA_CrescendoAnole</defName>
 		<label>crescendo anole</label>
 		<thingClass>AlphaBehavioursAndEvents.Pawn_GrowOnCombat</thingClass>
-		<description>Most of the time, the Crescendo Anole is a harmless iguanian lizard that feeds on vegetation and small arthropods. They are unusually intelligent, and can be kept as pets. However, when the anole becomes aggressive in any way, usually in self defense, an unstable cocktail of growth hormones and biomechanical mechanites causes a runaway growth of the creature's cells, turning it into a hulking crocodilian nightmare.\n\nThis effect is temporary, lasting a few hours, and afterwards the anole must recover its strength to be able to go through it again, becoming extremely hungry in the interim.</description>
+		<description>Most of the time, the Crescendo Anole is a harmless iguanian lizard that feeds on vegetation and small arthropods. They are unusually intelligent, and can be kept as pets. However, when the anole becomes aggressive in any way, usually in self defense, an unstable cocktail of growth hormones and biomechanical mechanites causes a runaway growth of the creature's cells, turning it into a hulking crocodilian nightmare.\n\nThis effect is temporary, lasting a few hours, and afterwards the anole must recover its strength to be able to go through it again, becoming extremely hungry in the interim.\n\nArt by Feroxiious (check her Instagram at https://www.instagram.com/feroxiious/).</description>
 		<statBases>
 			<MoveSpeed>3.00</MoveSpeed>
 			<ComfyTemperatureMin>0</ComfyTemperatureMin>
@@ -131,7 +131,8 @@
 					<li>AA_ShockTroopDesc</li>
 					<li>AA_NoRanged</li>
 				</statDescriptions>
-
+				<showImageInInfoCard>true</showImageInInfoCard>
+				<ImageToShowInInfoCard>Art/AA_AnoleArt</ImageToShowInInfoCard>
 			</li>
 		</modExtensions>
 	</ThingDef>

@@ -5,7 +5,7 @@
 		<defName>AA_ChameleonYak</defName>
 		<thingClass>AlphaBehavioursAndEvents.ChameleonSkins</thingClass>
 		<label>chameleon yak</label>
-		<description>The Chameleon Yak is a long-haired domesticated bovid that has evolved a fascinating survival mechanism involving camouflage, similar to the way a chameleon changes its skin colour in response to different stimuli. The Chameleon Yak takes this a step further, changing its very metabolism according to the environment it is inhabiting at the time.\n\nChameleon Yaks will change their temperature tolerance depending on their environment, and even produce different types of wool. This change occurs at the cellular level and is very fast, but doesn't harm the animal in the slightest.</description>
+		<description>The Chameleon Yak is a long-haired domesticated bovid that has evolved a fascinating survival mechanism involving camouflage, similar to the way a chameleon changes its skin colour in response to different stimuli. The Chameleon Yak takes this a step further, changing its very metabolism according to the environment it is inhabiting at the time.\n\nChameleon Yaks will change their temperature tolerance depending on their environment, and even produce different types of wool. This change occurs at the cellular level and is very fast, but doesn't harm the animal in the slightest.\n\nArt by Feroxiious (check her Instagram at https://www.instagram.com/feroxiious/).</description>
 		<statBases>
 			<MoveSpeed>4</MoveSpeed>
 			<MarketValue>350</MarketValue>
@@ -201,7 +201,8 @@
 					<li>AA_FarmWoolAndMilkDesc</li>
 					<li>AA_NoRanged</li>
 				</statDescriptions>
-
+				<showImageInInfoCard>true</showImageInInfoCard>
+				<ImageToShowInInfoCard>Art/AA_YakArt</ImageToShowInInfoCard>
 			</li>
 		</modExtensions>
 	</ThingDef>
