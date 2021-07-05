@@ -48,7 +48,7 @@
 			<herdAnimal>true</herdAnimal>
 			<body>AA_WormWithArmor</body>
 			<baseBodySize>3.00</baseBodySize>
-			<baseHungerRate>0.45</baseHungerRate>
+			<baseHungerRate>0.225</baseHungerRate>
 			<baseHealthScale>3.0</baseHealthScale>
 			<fleshType>Insectoid</fleshType>
 			<bloodDef>Filth_BloodInsect</bloodDef>

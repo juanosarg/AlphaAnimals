@@ -62,7 +62,7 @@
 			<body>BeetleLike</body>
 			<baseBodySize>2.5</baseBodySize>
 			<baseHealthScale>1.5</baseHealthScale>
-			<baseHungerRate>0.95</baseHungerRate>
+			<baseHungerRate>0.535</baseHungerRate>
 			<foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
 			<leatherDef>Leather_IronChitin</leatherDef>
 			<fleshType>Insectoid</fleshType>

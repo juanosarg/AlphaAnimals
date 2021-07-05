@@ -74,7 +74,7 @@
 			<predator>false</predator>
 			<body>AA_SixEyedGoat</body>
 			<baseBodySize>0.65</baseBodySize>
-			<baseHungerRate>0.45</baseHungerRate>
+			<baseHungerRate>0.225</baseHungerRate>
 			<baseHealthScale>1.0</baseHealthScale>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>Leather_Plain</leatherDef>

@@ -85,7 +85,7 @@
 			<predator>false</predator>
 			<body>QuadrupedAnimalWithHooves</body>
 			<baseBodySize>2</baseBodySize>
-			<baseHungerRate>0.85</baseHungerRate>
+			<baseHungerRate>0.535</baseHungerRate>
 			<baseHealthScale>1.75</baseHealthScale>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>Leather_Heavy</leatherDef>

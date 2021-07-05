@@ -81,7 +81,7 @@
 			<predator>false</predator>
 			<body>QuadrupedAnimalWithHoovesAndHorn</body>
 			<baseBodySize>0.8</baseBodySize>
-			<baseHungerRate>0.75</baseHungerRate>
+			<baseHungerRate>0.225</baseHungerRate>
 			<baseHealthScale>1.5</baseHealthScale>
 			<useMeatFrom>Sheep</useMeatFrom>
 			<foodType>VegetarianRoughAnimal</foodType>

@@ -67,7 +67,7 @@
 			<body>QuadrupedAnimalWithHooves</body>
 			<baseBodySize>2.75</baseBodySize>
 			<baseHealthScale>1.95</baseHealthScale>
-			<baseHungerRate>0.95</baseHungerRate>
+			<baseHungerRate>0.535</baseHungerRate>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>Leather_Heavy</leatherDef>
 			<gestationPeriodDays>6.66</gestationPeriodDays>

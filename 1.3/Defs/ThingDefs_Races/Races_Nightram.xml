@@ -74,7 +74,7 @@
 			<body>AA_NightRamBody</body>
 
 			<baseBodySize>2.5</baseBodySize>
-			<baseHungerRate>0.4</baseHungerRate>
+			<baseHungerRate>0.225</baseHungerRate>
 			<baseHealthScale>2</baseHealthScale>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>Leather_Night</leatherDef>

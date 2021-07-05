@@ -70,7 +70,7 @@
 			<predator>false</predator>
 			<body>QuadrupedAnimalWithHooves</body>
 			<baseBodySize>0.5</baseBodySize>
-			<baseHungerRate>0.5</baseHungerRate>
+			<baseHungerRate>0.225</baseHungerRate>
 			<baseHealthScale>1.0</baseHealthScale>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>Leather_Plain</leatherDef>

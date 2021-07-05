@@ -77,7 +77,7 @@
 			<herdAnimal>true</herdAnimal>
 			<baseBodySize>2.8</baseBodySize>
 			<baseHealthScale>1.75</baseHealthScale>
-			<baseHungerRate>0.3</baseHungerRate>
+			<baseHungerRate>0.225</baseHungerRate>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>Leather_Night</leatherDef>
 			<meatLabel>dark marbled steak</meatLabel>

@@ -111,7 +111,7 @@
 			<predator>false</predator>
 			<body>AA_ArmouredSlug</body>
 			<baseBodySize>5.00</baseBodySize>
-			<baseHungerRate>0.3</baseHungerRate>
+			<baseHungerRate>0.15</baseHungerRate>
 			<baseHealthScale>10</baseHealthScale>
 			<foodType>OmnivoreRoughAnimal</foodType>
 			<useMeatFrom>AA_Helixien</useMeatFrom>

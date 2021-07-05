@@ -93,7 +93,7 @@
 			<predator>false</predator>
 			<body>QuadrupedAnimalWithHoovesAndHorn</body>
 			<baseBodySize>6.00</baseBodySize>
-			<baseHungerRate>5.0</baseHungerRate>
+			<baseHungerRate>2.5</baseHungerRate>
 			<baseHealthScale>40</baseHealthScale>
 			<foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
 			<leatherDef>Leather_Gallatross</leatherDef>

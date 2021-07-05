@@ -91,7 +91,7 @@
 			<predator>false</predator>
 			<body>QuadrupedAnimalWithPawsAndTail</body>
 			<baseBodySize>2</baseBodySize>
-			<baseHungerRate>1</baseHungerRate>
+			<baseHungerRate>0.535</baseHungerRate>
 			<baseHealthScale>3</baseHealthScale>
 			<foodType>OmnivoreRoughAnimal</foodType>
 			<leatherDef>Leather_Plain</leatherDef>

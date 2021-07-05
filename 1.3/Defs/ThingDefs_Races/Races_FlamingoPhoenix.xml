@@ -32,7 +32,7 @@
 			<body>Bird</body>
 			<baseBodySize>0.6</baseBodySize>
 			<baseHealthScale>0.6</baseHealthScale>
-			<baseHungerRate>0.50</baseHungerRate>
+			<baseHungerRate>0.28</baseHungerRate>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<wildness>0.4</wildness>
 			<canBePredatorPrey>false</canBePredatorPrey>
