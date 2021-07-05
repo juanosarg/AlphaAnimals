@@ -325,6 +325,11 @@
 				<eggLayFemaleOnly>false</eggLayFemaleOnly>
 
 			</li>
+			<li Class="AnimalBehaviours.CompProperties_Untameable">
+				<message>AA_ClutchmotherNotTameable</message>
+				<sendMessage>true</sendMessage>
+				<goesManhunter>true</goesManhunter>
+			</li>
 		</comps>
 		<race>
 
