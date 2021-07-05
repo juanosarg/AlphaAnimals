@@ -139,18 +139,7 @@
 					<coverage>0.06</coverage>
 					<height>Bottom</height>
 				</li>
-				<li>
-					<def>InsectLeg</def>
-					<customLabel>left fourth leg</customLabel>
-					<coverage>0.06</coverage>
-					<height>Bottom</height>
-				</li>
-				<li>
-					<def>InsectLeg</def>
-					<customLabel>right fourth leg</customLabel>
-					<coverage>0.06</coverage>
-					<height>Bottom</height>
-				</li>
+				
 			</parts>
 		</corePart>
 	</BodyDef>
