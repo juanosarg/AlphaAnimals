@@ -1,0 +1,49 @@
+<Defs>
+	<HediffDef>
+		<defName>AA_PawnmorphAnimusVoxTFPartial</defName>
+		<label>animus vox partial</label>
+		<description>This person has mechanites in their blood that are providing them with animus vox-esque mutations.</description>
+		<stages>
+			<li Class="Pawnmorph.Hediffs.MorphTransformationStage">
+				<painOffset>0.1</painOffset>
+				<vomitMtbDays>1</vomitMtbDays>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.05</offset>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>-0.05</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.05</offset>
+					</li>
+				</capMods>
+				<morph>AA_AnimusMorph</morph>
+			</li>
+		</stages>
+		
+		<hediffClass>Pawnmorph.Hediffs.MorphTf</hediffClass>
+		<defaultLabelColor>(77,68,179)</defaultLabelColor>
+		
+		
+		
+		<scenarioCanAdd>true</scenarioCanAdd>
+		<isBad>false</isBad>
+		<maxSeverity>1</maxSeverity>
+		<initialSeverity>1</initialSeverity>
+		<comps>
+			<li Class="Pawnmorph.HediffCompProperties_Single" />
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.1</severityPerDay>
+			</li>
+			<li Class="Pawnmorph.Hediffs.CompProperties_CheckRace">
+				<triggerStage>1</triggerStage> <!-- This is the index of the stage that will trigger the check when the hediff enters it -->
+			</li> 
+			<li Class="HediffCompProperties_Immunizable"/>
+			<li Class="Pawnmorph.Hediffs.CompProps_TfStageConfigChecker"/> <!-- This comp is just here to check for errors in transformation stages. -->
+		</comps>
+	</HediffDef>
+</Defs>
