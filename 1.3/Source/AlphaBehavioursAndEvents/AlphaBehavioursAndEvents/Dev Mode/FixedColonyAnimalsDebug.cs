@@ -24,7 +24,8 @@ namespace AlphaBehavioursAndEvents
             }
         }
 
-        [DebugAction("Autotests", "Make colony (animals, fixed)", allowedGameStates = AllowedGameStates.PlayingOnMap)]
+        [DebugAction("Autotests", "Make colony (animals, fixed)", false, false, allowedGameStates = AllowedGameStates.PlayingOnMap)]
+       
         private static void MakeColonyAnimals()
         {
             FixedColonyAnimalsDebug.MakeColony(new ColonyMakerFlag[1]);
