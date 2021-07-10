@@ -6,7 +6,7 @@ using RimWorld;
 using System.Collections.Generic;
 
 namespace AchievementsExpanded
-{
+{/*
     public class KillTrackerWithOr : KillTracker
     {
         public KillTrackerWithOr()
@@ -53,7 +53,7 @@ namespace AchievementsExpanded
 
         Dictionary<PawnKindDef, int> kindDefList = new Dictionary<PawnKindDef, int>();
        
-    }
+    }*/
 }
 
 
