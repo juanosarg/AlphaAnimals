@@ -12,7 +12,7 @@ namespace AlphaBehavioursAndEvents
        
         protected override Job TryGiveJob(Pawn pawn)
         {
-            if (!ModLister.HasActiveModWithName("Quarry 1.1"))
+            if (!ModLister.HasActiveModWithName("Quarry"))
             {
                 return null;
             }
