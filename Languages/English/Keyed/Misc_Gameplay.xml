@@ -78,6 +78,9 @@
 	
 	<AA_LetterLabelFungalHusk>Fungal Husks</AA_LetterLabelFungalHusk>
 	<AA_LetterFungalHusk>Bloating, shambling corpses animated by a terrible weaponized fungus have entered this territory!\n\nDon't let them attack your colonists, or they will be afflicted by a fast acting fungal infection that can kill quickly if untreated.</AA_LetterFungalHusk>
+	
+	<AA_LetterLabelMime>Mime revealed</AA_LetterLabelMime>
+	<AA_LetterMime>{0} was a Mime all along! {0_possessive} extreme hunger was too much for {0_objective}, and {0_pronoun} will attack the rest of the colonists to try to satiate it.</AA_LetterMime>
 
 	<!-- Animal Products -->
 

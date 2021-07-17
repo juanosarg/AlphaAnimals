@@ -57,6 +57,9 @@ namespace AlphaBehavioursAndEvents
                         ticksWithMalnutrition--;
                         if (ticksWithMalnutrition <= 0)
                         {
+
+                            Find.LetterStack.ReceiveLetter("AA_LetterLabelMime".Translate(), "AA_LetterMime".Translate(this.parent.pawn), LetterDefOf.ThreatBig, null, null, null);
+                            Find.TickManager.slower.SignalForceNormalSpeedShort();
                             naturalDeath = false;
                             this.parent.pawn.Kill(null);
                         }
