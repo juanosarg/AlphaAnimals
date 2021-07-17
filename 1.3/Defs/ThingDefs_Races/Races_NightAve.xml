@@ -5,7 +5,7 @@
 		<defName>AA_NightAve</defName>
 		<label>night ave</label>
 
-		<description>A large flightless bird, black as night. It seems to share part of its phenotype with the Nightling, hinting that they both originate from the same planet: a RimWorld orbiting a very faint star -the native planet of an elusive alien species know as Forsakens-. Night Aves have adapted to environments with very low sunlight, and they are purely nocturnal animals.\n\nNight Aves are amazing mounts, much faster than horses, and if properly trained they can be ridden into battle at incredible speeds (this interaction needs the Giddy-Up, combat mounts mod, and it will make the Night Aves move 50% faster when used as mounts).</description>
+		<description>A large flightless bird, black as night. It seems to share part of its phenotype with the Nightling, hinting that they both originate from the same planet: a RimWorld orbiting a very faint star -the native planet of an elusive race known as Forsakens-. Night Aves have adapted to environments with very low sunlight, and they are purely nocturnal animals.\n\nNight Aves are amazing mounts, much faster than horses, and if properly trained they can be ridden into battle at incredible speeds (this interaction needs the Giddy-Up, combat mounts mod, and it will make the Night Aves move 50% faster when used as mounts).</description>
 		<statBases>
 			<MoveSpeed>7.0</MoveSpeed>
 			<ComfyTemperatureMin>-25</ComfyTemperatureMin>

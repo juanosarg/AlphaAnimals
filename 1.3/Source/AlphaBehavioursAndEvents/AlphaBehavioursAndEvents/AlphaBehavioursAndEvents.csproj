@@ -344,6 +344,7 @@
     <Compile Include="Incidents\IncidentWorker_Animalisk.cs" />
     <Compile Include="Incidents\IncidentWorker_MechanoidSappers.cs" />
     <Compile Include="Incidents\IncidentWorker_MimeWandererJoin.cs" />
+    <Compile Include="Incidents\QuestNode_Root_MimeWandererJoin_WalkIn.cs" />
     <Compile Include="Incidents\ThingSetMaker_AlphaResourcePod.cs" />
     <Compile Include="Jobs\JobDriver_PlantAnimaTree.cs" />
     <Compile Include="Jobs\JobGiver_TryQuarryJob.cs" />

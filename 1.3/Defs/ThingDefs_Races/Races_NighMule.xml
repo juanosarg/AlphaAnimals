@@ -4,7 +4,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_NightMule</defName>
 		<label>nightmule</label>
-		<description>The Nightmule is a hardy pack beast, used for transporting loads or doing other heavy work. Nightmules originate from a RimWorld orbiting a very faint star -the native planet of an elusive alien spacies know as Forsakens- so they have adapted to environments with low sunlight. They were domesticated by the Forsakens millenia ago, and can be found roaming around some other planets in the Rim.\n\nNightmules are stronger than muffalos, though they produce a very low amount of milk, and no wool. Similar to the Nightling, another creature from the Forsakens' planet, their back is crowned by dangerous quills, though the Nightmule lacks the capacity to throw them as defensive weapons.</description>
+		<description>The Nightmule is a hardy pack beast, used for transporting loads or doing other heavy work. Nightmules originate from a RimWorld orbiting a very faint star -the native planet of an elusive race know as Forsakens- so they have adapted to environments with low sunlight. They were domesticated by the Forsakens hundreds of years ago, and can be found roaming around some other planets in the Rim.\n\nNightmules are stronger than muffalos, though they produce a very low amount of milk, and no wool. Similar to the Nightling, another creature from the Forsakens' planet, their back is crowned by dangerous quills, though the Nightmule lacks the capacity to throw them as defensive weapons.</description>
 		<statBases>
 			<MoveSpeed>4.5</MoveSpeed>
 			<ComfyTemperatureMin>-55</ComfyTemperatureMin>

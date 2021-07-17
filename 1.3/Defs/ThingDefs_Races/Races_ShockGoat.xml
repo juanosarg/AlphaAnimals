@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_ShockGoat</defName>
 		<label>shock goat</label>
-		<description>Shock goats are domesticated alien animals, renowned for their capacity to store static electricity on their bony structures, and releasing it as a defensive measure. Interestingly enough, the shock goat has characteristics common to many alien species, such as three pairs of eyes, and characteristics typical of Earth goats, such as the horns. This points to the conclusion that shock goats are actually a fertile cross-bred of two different creatures, created in the past by some human colony, and released in the wild for unknown reason.\n\nWhatever the mystery behind their origins, nowadays they are commonly seen in farming communities in several Rim worlds, because they produce decent amounts of milk.</description>
+		<description>Shock goats are domesticated cattle, renowned for their capacity to store static electricity on their bony structures, and releasing it as a defensive measure. Interestingly enough, the shock goat has characteristics common to many other Rim species, such as three pairs of eyes, and characteristics typical of Earth goats, such as the horns. This points to the conclusion that shock goats are actually a fertile cross-bred of two different creatures, created in the past by some human colony, and released in the wild for unknown reason.\n\nWhatever the mystery behind their origins, nowadays they are commonly seen in farming communities in several Rim worlds, because they produce decent amounts of milk.</description>
 		<statBases>
 			<MoveSpeed>3.5</MoveSpeed>
 			<ComfyTemperatureMin>-5</ComfyTemperatureMin>
