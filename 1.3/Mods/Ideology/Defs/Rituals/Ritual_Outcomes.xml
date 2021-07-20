@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+  <RitualOutcomeEffectDef>
+    <defName>AA_OcularWarping</defName>
+    <description>Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days.</description>
+    <workerClass>AlphaBehavioursAndEvents.RitualOutcomeEffectWorker_Warping</workerClass>
+    
+    <comps>
+      
+     
+      
+     <li Class="RitualOutcomeComp_ParticipantCount">
+        <label>participant count</label>
+        <curve>
+          <points>
+            <li>(1, 0.18)</li>
+            <li>(4, 0.4)</li>
+            <li>(7, 0.65)</li>
+            <li>(10, 0.8)</li>
+          </points>
+        </curve>
+      </li>
+      <li Class="RitualOutcomeComp_RitualTargetDefs">
+        <defs>
+          <li>Ideogram</li>
+        </defs>
+        <allowAltars>true</allowAltars>
+        <label>started at altar or ideogram</label>
+        <qualityOffset>0.2</qualityOffset>
+        <expectedThingLabelTip>an altar or an ideogram</expectedThingLabelTip>
+      </li>
+    </comps>
+    <outcomeChances>
+      <li>
+        <label>Terrible</label>
+        <chance>0.05</chance>
+        <memory>TerribleSacrifice</memory>
+        <description>The {0} was shit!</description>
+        <positivityIndex>-2</positivityIndex>
+      </li>
+      <li>
+        <label>Boring</label>
+        <chance>0.15</chance>
+        <memory>BoringSacrifice</memory>
+        <description>The {0} was boring shit.</description>
+        <positivityIndex>-1</positivityIndex>
+      </li>
+      <li>
+        <label>Satisfying</label>
+        <chance>0.6</chance>
+        <memory>SatisfyingSacrifice</memory>
+        <description>The {0} was satisfying shit</description>
+        <potentialExtraOutcomeDesc>There's a 5% chance that a random participant gets an inspiration.</potentialExtraOutcomeDesc>
+        <positivityIndex>1</positivityIndex>
+      </li>
+      <li>
+        <label>Spectacular</label>
+        <chance>0.2</chance>
+        <memory>SpectacularSacrifice</memory>
+        <description>The {0} was spectacular shit!</description>
+        <potentialExtraOutcomeDesc>There's a 10% chance that a random participant gets an inspiration.</potentialExtraOutcomeDesc>
+        <positivityIndex>2</positivityIndex>
+      </li>
+    </outcomeChances>
+  </RitualOutcomeEffectDef>
+
+ 
+
+</Defs>

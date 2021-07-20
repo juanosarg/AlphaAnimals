@@ -895,4 +895,27 @@
 		</stages>
 	</HediffDef>
 	
+	<HediffDef>
+		<defName>AA_Kamikaze</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+		<label>sudden detonation</label>
+		<description>Boom.</description>
+		<lethalSeverity>0.05</lethalSeverity>
+		<makesSickThought>true</makesSickThought>
+		<scenarioCanAdd>false</scenarioCanAdd>
+
+		<stages>
+			<li>
+				<label>initial-hidden</label>
+			</li>
+			<li>
+				<label>critical</label>
+				<minSeverity>0.04</minSeverity>
+
+			</li>
+
+		</stages>
+	</HediffDef>
+	
 </Defs>

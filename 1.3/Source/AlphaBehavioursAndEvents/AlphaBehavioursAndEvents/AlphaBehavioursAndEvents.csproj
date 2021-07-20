@@ -300,16 +300,22 @@
     <Compile Include="Achievements\ItemCraftTrackerWithIngredients.cs" />
     <Compile Include="Achievements\KillTrackerWithOr.cs" />
     <Compile Include="Buildings\Building_AncientAssembler.cs" />
+    <Compile Include="Comps\CompAbilityOcularConversion.cs" />
+    <Compile Include="Comps\CompCorruptedPod.cs" />
+    <Compile Include="Comps\CompGauranlenGrassGraphicChanger.cs" />
+    <Compile Include="Comps\CompGauranlenGraphicChanger.cs" />
     <Compile Include="Comps\CompChangeDefSappers.cs" />
     <Compile Include="Comps\CompChangeDef.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_AbilityOcularConversion.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_ChangeDefSappers.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_ChangeDef.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_GauranlenGrassGraphicChanger.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_GauranlenGraphicChanger.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_UpdateRoomStats.cs" />
     <Compile Include="Comps\CompTargetable_Ground.cs" />
     <Compile Include="Comps\CompUpdateRoomStats.cs" />
     <Compile Include="DeathActionWorkers\DeathActionWorker_SummonEclipse.cs" />
     <Compile Include="Debug\FixedColonyAnimalsDebug.cs" />
-    <Compile Include="DefModExtensions\ExtendedMemeProperties.cs" />
     <Compile Include="Def\ToggleableSpawnDef.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_Berserk.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_ExtraDamageInsectoids.cs" />
@@ -321,7 +327,6 @@
     <Compile Include="DeathActionWorkers\DeathActionWorker_ExplodeAndSpawnEggs.cs" />
     <Compile Include="DeathActionWorkers\DeathActionWorker_GargantuanExplosion.cs" />
     <Compile Include="DeathActionWorkers\DeathActionWorker_SummonFlashstorm.cs" />
-    <Compile Include="Harmony\Dialog_ChooseMemes_GetFirstIncompatibleMemePair_Patch.cs" />
     <Compile Include="Harmony\BiomeDef_CommonalityOfAnimal_Patch.cs" />
     <Compile Include="Harmony\QuestManager_Notify_ThingsProduced_Patch.cs" />
     <Compile Include="Harmony\RoomStatWorker_Beauty_GetScore_Patch.cs" />
@@ -348,7 +353,9 @@
     <Compile Include="Incidents\IncidentWorker_MimeWandererJoin.cs" />
     <Compile Include="Incidents\QuestNode_Root_MimeWandererJoin_WalkIn.cs" />
     <Compile Include="Incidents\ThingSetMaker_AlphaResourcePod.cs" />
+    <Compile Include="Jobs\JobDriver_MergeIntoCorruptedPod.cs" />
     <Compile Include="Jobs\JobDriver_PlantAnimaTree.cs" />
+    <Compile Include="Jobs\JobGiver_MergeIntoGaumakerPodCorruptor.cs" />
     <Compile Include="Jobs\JobGiver_TryQuarryJob.cs" />
     <Compile Include="MapComponents\MapRoomUpdater.cs" />
     <Compile Include="Options\AlphaAnimals_SettingsController.cs" />
@@ -383,6 +390,7 @@
     <Compile Include="Jobs\JobGiver_MineOld.cs" />
     <Compile Include="Jobs\JobGiver_PsionicNuzzle.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />
+    <Compile Include="PawnClasses\Pawn_Detonator.cs" />
     <Compile Include="PawnClasses\Pawn_GrowOnCombat.cs" />
     <Compile Include="PawnClasses\Pawn_SwallowWhole.cs" />
     <Compile Include="Projectiles\Electric_Projectile.cs" />
@@ -391,6 +399,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Incidents\ThingSetMaker_SpecialMeteorite.cs" />
     <Compile Include="Recipes\Recipe_ShutDown.cs" />
+    <Compile Include="Rituals\RitualOutcomeEffectWorker_Warping.cs" />
+    <Compile Include="Rituals\RitualRoleDryad.cs" />
+    <Compile Include="Rituals\RitualStage_InteractWithDryad.cs" />
+    <Compile Include="ThoughtWorkers\ThoughtWorker_OcularTrees.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

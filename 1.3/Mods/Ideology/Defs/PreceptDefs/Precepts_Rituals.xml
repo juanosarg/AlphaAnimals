@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+
+
+  <PreceptDef>
+    <defName>AA_OcularWarping</defName>
+    <label>ocular warping</label>
+    <tipLabelOverride>Ocular warping</tipLabelOverride>
+    <description>The ocular priest will use one of the colony's ocular dryads to warp a creature into an ocular monster.</description>
+    <iconPath>UI/Rituals/AA_WarpingRitual</iconPath>
+    <issue>Ritual</issue>
+    <preceptClass>Precept_Ritual</preceptClass>
+    <ritualPatternBase>AA_OcularWarping</ritualPatternBase>
+    <classic>false</classic>
+    <visible>true</visible>
+    <countsTowardsPreceptLimit>false</countsTowardsPreceptLimit>
+    <selectionWeight>1.0</selectionWeight>
+    <capitalizeAsTitle>false</capitalizeAsTitle>
+  </PreceptDef>
+
+  
+  
+</Defs>

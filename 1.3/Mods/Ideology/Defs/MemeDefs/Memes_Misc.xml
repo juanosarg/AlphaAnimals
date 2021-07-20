@@ -28,20 +28,20 @@
 				<li>memeConcept->corruption</li>
 				<li>memeConcept->mutation</li>
 				<li>memeLeaderNoun->oculist</li>
-				<li>memeMoralist->ocular priest</li>
-			
+				<li>memeMoralist->ocular zealot</li>
+
 			</rulesStrings>
 		</generalRules>
 		<descriptionMaker>
 			<rules>
 				<rulesStrings>
-					
+
 					<!-- alienist -->
 					<li>alienistProphecy(tag=meme_BiologicalCorruptors)->We shall pervert and corrupt these creations to fit our goals. Only by twisting them according to our needs will we succeed.</li>
 				</rulesStrings>
 			</rules>
 		</descriptionMaker>
-		
+
 		<symbolPacks>
 			<li>
 				<ideoName>Corruption</ideoName>
@@ -49,17 +49,28 @@
 				<adjective>corrupt</adjective>
 				<member>corruptor</member>
 			</li>
-			
+
 		</symbolPacks>
-		
-		 <modExtensions>
-            <li Class="AlphaBehavioursAndEvents.ExtendedMemeProperties">
-                <neededMeme>AA_Structure_Alienism</neededMeme>
-            </li>
-        </modExtensions>
+		<requiredRituals>
+			<li>
+				<precept>AA_OcularWarping</precept>
+				<pattern>AA_OcularWarping</pattern>
+			</li>
+		</requiredRituals>
+		<thingStyleCategories>
+			<li>
+				<category>AA_Ocular</category>
+				<priority>4</priority>
+			</li>
+		</thingStyleCategories>
+		<modExtensions>
+			<li Class="VanillaMemesExpanded.ExtendedMemeProperties">
+				<neededMeme>AA_Structure_Alienism</neededMeme>
+			</li>
+		</modExtensions>
 	</MemeDef>
-	
-	<MemeDef>
+
+	<!--<MemeDef>
 		<defName>AA_BiologicalReconstructors</defName>
 		<label>biological reconstructors</label>
 		<exclusionTags>
@@ -86,7 +97,7 @@
 			<rules>
 				<rulesStrings>
 					
-					<!-- alienist -->
+					
 					<li>alienistProphecy(tag=meme_BiologicalReconstructors)->We will create and breed as many new creatures as possible, and use them to repopulate the vast ecospheres of the Rim.</li>
 				</rulesStrings>
 			</rules>
@@ -103,10 +114,10 @@
 		</symbolPacks>
 		
 		 <modExtensions>
-            <li Class="AlphaBehavioursAndEvents.ExtendedMemeProperties">
+            <li Class="VanillaMemesExpanded.ExtendedMemeProperties">
                 <neededMeme>AA_Structure_Alienism</neededMeme>
             </li>
         </modExtensions>
-	</MemeDef>
-	
+	</MemeDef>-->
+
 </Defs>

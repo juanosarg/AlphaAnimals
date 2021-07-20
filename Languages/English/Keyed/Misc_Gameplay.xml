@@ -31,6 +31,11 @@
 	<AA_CancelDestroyFlamingoEggsDesc>Cancel a work order to smash this egg as soon as possible</AA_CancelDestroyFlamingoEggsDesc>
 
 	<AA_HuskNotTameable>The Fungal Husk only exists to spread its fungal infection, it can't be tamed</AA_HuskNotTameable>
+	
+	<AA_Detonate>Detonate</AA_Detonate>
+	<AA_DetonateDesc>Force this animal to detonate. This will kill the animal and cause an explosion.</AA_DetonateDesc>
+	<AA_MessageRitualRoleNeedsDryad>Your colony needs to have an ocular dryad from a corrupted Gauranlen tree to start this ritual.</AA_MessageRitualRoleNeedsDryad>
+
 
 	<!-- Incidents -->
 	<LetterLabelColossalAerofleetPasses>Colossal Aerofleet</LetterLabelColossalAerofleetPasses>
