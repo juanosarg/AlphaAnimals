@@ -70,6 +70,16 @@
 
 		</tags>
 	</BodyPartDef>
+	
+	<BodyPartDef>
+		<defName>AA_EyeBody</defName>
+		<label>eye</label>
+		<hitPoints>30</hitPoints>
+		<skinCovered>true</skinCovered>
+		<tags>
+			<li>MovingLimbCore</li>
+		</tags>
+	</BodyPartDef>
 
 	<!-- Mantrap parts -->
 

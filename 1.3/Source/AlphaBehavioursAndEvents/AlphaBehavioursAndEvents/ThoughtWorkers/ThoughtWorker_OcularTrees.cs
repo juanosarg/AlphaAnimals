@@ -39,15 +39,15 @@ namespace AlphaBehavioursAndEvents
             if (numberOfOcularTrees == 0)
             {
                 return 0;
-            } else if (numberOfOcularTrees < 20)
+            } else if (numberOfOcularTrees < 50)
             {
                 return 1;
             }
-            else if (numberOfOcularTrees < 100)
+            else if (numberOfOcularTrees < 500)
             {
                 return 2;
             }
-            else if (numberOfOcularTrees < 250)
+            else if (numberOfOcularTrees < 1000)
             {
                 return 3;
             }

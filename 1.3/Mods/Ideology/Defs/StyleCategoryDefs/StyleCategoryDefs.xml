@@ -7,8 +7,8 @@
     <defName>AA_Ocular</defName>
     <label>ocular</label>
     <iconPath>UI/StyleCategories/AA_StyleOcular</iconPath>
-    <soundOngoingRitual>RitualSustainer_Morbid</soundOngoingRitual>
-    <ritualVisualEffectDef>Morbid</ritualVisualEffectDef>
+    <soundOngoingRitual>AA_RitualSustainer_Ocular</soundOngoingRitual>
+    <ritualVisualEffectDef>AA_Ocular</ritualVisualEffectDef>
     <thingDefStyles>
       <li>
         <thingDef>SculptureSmall</thingDef>

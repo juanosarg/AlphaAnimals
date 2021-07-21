@@ -7,7 +7,7 @@
     <defName>AA_OcularWarping</defName>
     <label>ocular warping</label>
     <tipLabelOverride>Ocular warping</tipLabelOverride>
-    <description>The ocular priest will use one of the colony's ocular dryads to warp a creature into an ocular monster.</description>
+    <description>The ocular priest will use one of the colony's ocular dryads to warp a creature into an ocular monster. Depending on the ritual's outcome and the sacrificed creature's body size, a correspondingly stronger ocular monster will be summoned.</description>
     <iconPath>UI/Rituals/AA_WarpingRitual</iconPath>
     <issue>Ritual</issue>
     <preceptClass>Precept_Ritual</preceptClass>

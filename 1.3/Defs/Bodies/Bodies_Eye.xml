@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<BodyDef>
-		<defName>AA_OcularJellyBody</defName>
-		<label>ocular jelly</label>
+		<defName>AA_EyeBody</defName>
+		<label>eye</label>
 		<corePart>
-			<def>AA_JellyfishMainBody</def>
+			<def>AA_EyeBody</def>
 			<height>Middle</height>
 			<depth>Outside</depth>
 			<parts>
@@ -21,52 +21,16 @@
 					<depth>Inside</depth>
 				</li>
 				<li>
-					<def>AA_HydrogenSac</def>
-					<customLabel>left hydrogen sac</customLabel>
-					<coverage>0.03</coverage>
-					<depth>Inside</depth>
-				</li>
-				<li>
-					<def>AA_HydrogenSac</def>
-					<customLabel>right hydrogen sac</customLabel>
-					<coverage>0.03</coverage>
-					<depth>Inside</depth>
-				</li>
-				<li>
 					<def>Head</def>
+					<groups>
+						<li>HeadAttackTool</li>
+					</groups>
 					<coverage>0.05</coverage>
 					<parts>
 						<li>
 							<def>Eye</def>
-							<customLabel>first eye spot</customLabel>
-							<coverage>0.02</coverage>
-						</li>
-						<li>
-							<def>Eye</def>
-							<customLabel>second eye spot</customLabel>
-							<coverage>0.02</coverage>
-						</li>
-						<li>
-							<def>Eye</def>
-							<customLabel>third eye spot</customLabel>
-							<coverage>0.02</coverage>
-						</li>
-						<li>
-							<def>Eye</def>
-							<customLabel>fourth eye spot</customLabel>
-							<coverage>0.02</coverage>
-						</li>
-						<li>
-							<def>Eye</def>
-							<customLabel>fifth eye spot</customLabel>
-							<coverage>0.02</coverage>
-						</li>
-						<li>
-							<def>AnimalJaw</def>
-							<coverage>0.02</coverage>
-							<groups>
-								<li>Teeth</li>
-							</groups>
+							<customLabel>eye</customLabel>
+							<coverage>.9</coverage>
 						</li>
 					</parts>
 				</li>

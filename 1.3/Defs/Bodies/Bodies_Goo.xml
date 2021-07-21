@@ -19,6 +19,12 @@
 					<depth>Inside</depth>
 				</li>
 				
+				<li>
+					<def>Head</def>
+					<customLabel>membrane</customLabel>
+					<coverage>0.05</coverage>
+					<depth>Inside</depth>
+				</li>
 				
 				
 				<li>

@@ -5,13 +5,15 @@
 
   <RitualOutcomeEffectDef>
     <defName>AA_OcularWarping</defName>
-    <description>Depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days.</description>
+    <description>Also, depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days.</description>
     <workerClass>AlphaBehavioursAndEvents.RitualOutcomeEffectWorker_Warping</workerClass>
     
     <comps>
       
      
-      
+       <li Class="RitualOutcomeComp_RitualSeatPresent">
+        <qualityOffset>0.15</qualityOffset>
+      </li>
      <li Class="RitualOutcomeComp_ParticipantCount">
         <label>participant count</label>
         <curve>
@@ -36,33 +38,41 @@
     <outcomeChances>
       <li>
         <label>Terrible</label>
-        <chance>0.05</chance>
-        <memory>TerribleSacrifice</memory>
-        <description>The {0} was shit!</description>
+        <chance>0.15</chance>
+       
+        <description>The {0} was terrible! A weak ocular monster has joined the colony</description>
         <positivityIndex>-2</positivityIndex>
       </li>
       <li>
         <label>Boring</label>
-        <chance>0.15</chance>
-        <memory>BoringSacrifice</memory>
-        <description>The {0} was boring shit.</description>
+        <chance>0.25</chance>
+       
+        <description>The {0} was incredibly boring.</description>
         <positivityIndex>-1</positivityIndex>
       </li>
       <li>
         <label>Satisfying</label>
-        <chance>0.6</chance>
-        <memory>SatisfyingSacrifice</memory>
+        <chance>0.4</chance>
+       
         <description>The {0} was satisfying shit</description>
-        <potentialExtraOutcomeDesc>There's a 5% chance that a random participant gets an inspiration.</potentialExtraOutcomeDesc>
+        
         <positivityIndex>1</positivityIndex>
       </li>
       <li>
         <label>Spectacular</label>
-        <chance>0.2</chance>
-        <memory>SpectacularSacrifice</memory>
+        <chance>0.18</chance>
+      
         <description>The {0} was spectacular shit!</description>
-        <potentialExtraOutcomeDesc>There's a 10% chance that a random participant gets an inspiration.</potentialExtraOutcomeDesc>
+        
         <positivityIndex>2</positivityIndex>
+      </li>
+	  <li>
+        <label>Sublime</label>
+        <chance>0.02</chance>
+       
+        <description>The {0} was sublime shit!</description>
+        
+        <positivityIndex>3</positivityIndex>
       </li>
     </outcomeChances>
   </RitualOutcomeEffectDef>

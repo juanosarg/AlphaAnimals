@@ -39,18 +39,96 @@ namespace AlphaBehavioursAndEvents
 			}
 			
 			Log.Message(outcome.positivityIndex.ToString());
+			Pawn sacrifice = jobRitual.PawnWithRole("animal");
+			float size = sacrifice.RaceProps.baseBodySize;
+			PawnGenerationRequest request = new PawnGenerationRequest();
+			string str = outcome.label +" "+ jobRitual.Ritual.Label;
+			TaggedString taggedString = outcome.description.Formatted(jobRitual.Ritual.Label);
+			switch (outcome.positivityIndex) { 
 
-			Log.Message("Should be spawning now");
-			PawnGenerationRequest request = new PawnGenerationRequest(PawnKindDef.Named("AA_FissionMouseSecond"), Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true, false, 1f, false, true, true, false, false);
-			Pawn pawn = PawnGenerator.GeneratePawn(request);
-			GenSpawn.Spawn(pawn, jobRitual.selectedTarget.Cell, jobRitual.Map, WipeMode.Vanish);
+				case -2:
+					if (size < 0.5)
+                    {
+						request = new PawnGenerationRequest(PawnKindDef.Named("AA_Eyeling"), Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true, false, 1f, false, true, true, false, false);
+						
+					}
+					else if (size < 1.5)
+					{
+						request = new PawnGenerationRequest(PawnKindDef.Named("AA_Eyeling"), Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true, false, 1f, false, true, true, false, false);
 
-			if (outcome.positivityIndex == -1)
-			{
-			
+					}
+					else
+                    {
+						request = new PawnGenerationRequest(PawnKindDef.Named("AA_RedGoo"), Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true, false, 1f, false, true, true, false, false);
 
+					}
+					break;
+				case -1:
+					if (size < 0.5)
+					{
+						request = new PawnGenerationRequest(PawnKindDef.Named("AA_RedGoo"), Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true, false, 1f, false, true, true, false, false);
+
+					}
+					else if (size < 1.5)
+					{
+						request = new PawnGenerationRequest(PawnKindDef.Named("AA_OcularJelly"), Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true, false, 1f, false, true, true, false, false);
+
+					}
+					else
+					{
+						request = new PawnGenerationRequest(PawnKindDef.Named("AA_OcularJelly"), Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true, false, 1f, false, true, true, false, false);
+
+					}
+					break;
+				case 1:
+					if (size < 0.5)
+					{
+						request = new PawnGenerationRequest(PawnKindDef.Named("AA_RedSpore"), Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true, false, 1f, false, true, true, false, false);
+
+					}
+					else if (size < 1.5)
+					{
+						request = new PawnGenerationRequest(PawnKindDef.Named("AA_OcularNightling"), Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true, false, 1f, false, true, true, false, false);
+
+					}
+					else
+					{
+						request = new PawnGenerationRequest(PawnKindDef.Named("AA_OcularJelly"), Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true, false, 1f, false, true, true, false, false);
+
+					}
+					break;
+				case 2:
+					if (size < 0.5)
+					{
+						request = new PawnGenerationRequest(PawnKindDef.Named("AA_OcularJelly"), Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true, false, 1f, false, true, true, false, false);
+
+					}
+					else if (size < 1.5)
+					{
+						request = new PawnGenerationRequest(PawnKindDef.Named("AA_OcularJelly"), Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true, false, 1f, false, true, true, false, false);
+
+					}
+					else
+					{
+						request = new PawnGenerationRequest(PawnKindDef.Named("AA_OcularJelly"), Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true, false, 1f, false, true, true, false, false);
+
+					}
+					break;
+				default:
+					request = new PawnGenerationRequest(PawnKindDef.Named("AA_OcularJelly"), Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true, false, 1f, false, true, true, false, false);
+
+					break;
 
 			}
+			
+				Pawn pawn = PawnGenerator.GeneratePawn(request);
+				GenSpawn.Spawn(pawn, jobRitual.selectedTarget.Cell, jobRitual.Map, WipeMode.Vanish);
+				ChoiceLetter let = LetterMaker.MakeLetter(str, taggedString, LetterDefOf.RitualOutcomePositive, lookTargets, null, null, null);
+				Find.LetterStack.ReceiveLetter(let, null);
+
+
+
+
 		}
 
 		
