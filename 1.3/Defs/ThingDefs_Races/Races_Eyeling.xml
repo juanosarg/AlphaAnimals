@@ -9,6 +9,7 @@
 			<MarketValue>100</MarketValue>
 			<ComfyTemperatureMin>0</ComfyTemperatureMin>
 			<ComfyTemperatureMax>60</ComfyTemperatureMax>
+			<MeatAmount>0</MeatAmount>
 		</statBases>
 		<tools>
 			<li>
@@ -31,6 +32,7 @@
 			<foodType>OmnivoreRoughAnimal</foodType>
 			<leatherDef>Leather_Light</leatherDef>
 			<wildness>0.2</wildness>
+			<useMeatFrom>Pig</useMeatFrom>
 			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<trainability>None</trainability>
 			<lifeExpectancy>12</lifeExpectancy>

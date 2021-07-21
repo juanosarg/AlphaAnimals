@@ -54,7 +54,7 @@
         <label>Satisfying</label>
         <chance>0.4</chance>
        
-        <description>The {0} was satisfying shit</description>
+        <description>The {0} was satisfying</description>
         
         <positivityIndex>1</positivityIndex>
       </li>
@@ -62,7 +62,7 @@
         <label>Spectacular</label>
         <chance>0.18</chance>
       
-        <description>The {0} was spectacular shit!</description>
+        <description>The {0} was spectacular!</description>
         
         <positivityIndex>2</positivityIndex>
       </li>
@@ -70,7 +70,7 @@
         <label>Sublime</label>
         <chance>0.02</chance>
        
-        <description>The {0} was sublime shit!</description>
+        <description>The {0} was sublime!</description>
         
         <positivityIndex>3</positivityIndex>
       </li>

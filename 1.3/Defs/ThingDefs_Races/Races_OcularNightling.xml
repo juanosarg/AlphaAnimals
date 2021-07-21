@@ -109,6 +109,7 @@
 			<gestationPeriodDays>10</gestationPeriodDays>
 			<nameOnTameChance>1</nameOnTameChance>
 			<wildness>0.75</wildness>
+			<useMeatFrom>AA_Nightling</useMeatFrom>
 			<manhunterOnDamageChance>1</manhunterOnDamageChance>
 			<manhunterOnTameFailChance>0.018</manhunterOnTameFailChance>
 			<nuzzleMtbHours>25</nuzzleMtbHours>
