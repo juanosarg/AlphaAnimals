@@ -5,7 +5,7 @@
 
   <RitualOutcomeEffectDef>
     <defName>AA_OcularWarping</defName>
-    <description>Also, depending on ritual quality, participants will get between {MINMOOD} and {MAXMOOD} mood for {MOODDAYS} days.</description>
+    <description>The ocular priest will use one of the colony's ocular dryads to warp a creature into an ocular monster. Depending on the ritual's outcome and the sacrificed creature's body size, a correspondingly stronger ocular monster will be summoned.</description>
     <workerClass>AlphaBehavioursAndEvents.RitualOutcomeEffectWorker_Warping</workerClass>
     
     <comps>
@@ -40,21 +40,21 @@
         <label>Terrible</label>
         <chance>0.15</chance>
        
-        <description>The {0} was terrible! A weak ocular monster has joined the colony</description>
+        <description>The {0} was terrible! A very weak ocular monster has joined the colony.</description>
         <positivityIndex>-2</positivityIndex>
       </li>
       <li>
         <label>Boring</label>
         <chance>0.25</chance>
        
-        <description>The {0} was incredibly boring.</description>
+        <description>The {0} was incredibly boring. A weak ocular monster has joined the colony.</description>
         <positivityIndex>-1</positivityIndex>
       </li>
       <li>
         <label>Satisfying</label>
         <chance>0.4</chance>
        
-        <description>The {0} was satisfying</description>
+        <description>The {0} was satisfying. A medium sized ocular monster has joined the colony.</description>
         
         <positivityIndex>1</positivityIndex>
       </li>
@@ -62,7 +62,7 @@
         <label>Spectacular</label>
         <chance>0.18</chance>
       
-        <description>The {0} was spectacular!</description>
+        <description>The {0} was spectacular! A large ocular monster has joined the colony.</description>
         
         <positivityIndex>2</positivityIndex>
       </li>
@@ -70,7 +70,7 @@
         <label>Sublime</label>
         <chance>0.02</chance>
        
-        <description>The {0} was sublime!</description>
+        <description>The {0} was sublime! An Unblinking Eye has pledged its servitude to the colony.</description>
         
         <positivityIndex>3</positivityIndex>
       </li>
