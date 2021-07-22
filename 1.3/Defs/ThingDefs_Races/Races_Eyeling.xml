@@ -34,7 +34,7 @@
 			<wildness>0.2</wildness>
 			<useMeatFrom>Pig</useMeatFrom>
 			<herdMigrationAllowed>false</herdMigrationAllowed>
-			<trainability>None</trainability>
+			<trainability>Intermediate</trainability>
 			<lifeExpectancy>12</lifeExpectancy>
 			<lifeStageAges>
 				<li>

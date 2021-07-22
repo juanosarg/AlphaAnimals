@@ -70,7 +70,7 @@
 			<useMeatFrom>AA_Helixien</useMeatFrom>
 			<maxPreyBodySize>0.3</maxPreyBodySize>
 			<wildness>0.7</wildness>
-			<trainability>None</trainability>
+			<trainability>Intermediate</trainability>
 			<gestationPeriodDays>12</gestationPeriodDays>
 			<litterSizeCurve>
 				<points>

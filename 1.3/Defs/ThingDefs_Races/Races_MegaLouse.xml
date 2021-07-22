@@ -73,7 +73,7 @@
 			<foodType>OmnivoreAnimal, AnimalProduct</foodType>
 			<leatherDef>Leather_BlackChitin</leatherDef>
 			<wildness>0.9</wildness>
-			<trainability>None</trainability>
+			<trainability>Intermediate</trainability>
 			<manhunterOnDamageChance>1.0</manhunterOnDamageChance>
 			<manhunterOnTameFailChance>0.2</manhunterOnTameFailChance>
 			<litterSizeCurve>

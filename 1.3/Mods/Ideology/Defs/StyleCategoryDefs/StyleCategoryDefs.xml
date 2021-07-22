@@ -91,6 +91,10 @@
         <styleDef>AA_Ocular_IdeogramB</styleDef>
       </li>
     </thingDefStyles>
+	 <addDesignatorGroups>
+      <li>AA_Floor_Ocular_Stone</li>
+      
+    </addDesignatorGroups>
     
   </StyleCategoryDef>
   

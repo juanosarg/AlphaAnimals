@@ -169,7 +169,7 @@
 		<defName>AA_Skiphound</defName>
 		<label>skiphound</label>
 		<race>AA_Skiphound</race>
-		<combatPower>350</combatPower>
+		<combatPower>700</combatPower>
 		<lifeStages>
 			<li>
 				<label>skiphound puppy</label>

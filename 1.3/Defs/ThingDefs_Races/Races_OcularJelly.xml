@@ -86,7 +86,7 @@
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>Leather_Light</leatherDef>
 			<wildness>0.8</wildness>
-			<trainability>None</trainability>
+			<trainability>Intermediate</trainability>
 			<useMeatFrom>Pig</useMeatFrom>
 			
 			<lifeExpectancy>4</lifeExpectancy>
