@@ -17,6 +17,9 @@
     <countsTowardsPreceptLimit>false</countsTowardsPreceptLimit>
     <selectionWeight>1.0</selectionWeight>
     <capitalizeAsTitle>false</capitalizeAsTitle>
+	<requiredMemes>
+      <li>AA_BiologicalCorruptors</li>
+    </requiredMemes>
   </PreceptDef>
 
   

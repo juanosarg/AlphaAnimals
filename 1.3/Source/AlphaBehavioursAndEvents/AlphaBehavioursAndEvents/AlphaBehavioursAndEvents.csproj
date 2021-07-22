@@ -402,6 +402,7 @@
     <Compile Include="Rituals\RitualOutcomeEffectWorker_Warping.cs" />
     <Compile Include="Rituals\RitualRoleDryad.cs" />
     <Compile Include="Rituals\RitualStage_InteractWithDryad.cs" />
+    <Compile Include="ThingSetMakers\ThingSetMaker_Eyelings.cs" />
     <Compile Include="ThoughtWorkers\ThoughtWorker_OcularTrees.cs" />
   </ItemGroup>
   <ItemGroup>

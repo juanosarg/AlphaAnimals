@@ -10,6 +10,14 @@
             </li>
         </value>
     </Operation>
+	<Operation Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ThingDef[defName="AA_OcularNightling"]</xpath>
+        <value>
+            <li Class="NocturnalAnimals.ExtendedRaceProperties">
+                <bodyClock>Nocturnal</bodyClock>
+            </li>
+        </value>
+    </Operation>
 	
 	 <!-- Nightram -->
     <Operation Class="PatchOperationAddModExtension">

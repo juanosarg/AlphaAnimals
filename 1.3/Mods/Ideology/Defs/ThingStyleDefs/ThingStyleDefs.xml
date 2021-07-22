@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
 	<!-- ====== Ocular ======== -->
-
 	<ThingStyleDef ParentName="IdeoTableStyleBase">
 		<defName>AA_Ocular_Table1x2c</defName>
 		<graphicData>
@@ -10,7 +8,6 @@
 			<drawSize>(3,4)</drawSize>
 		</graphicData>
 	</ThingStyleDef>
-
 	<ThingStyleDef ParentName="IdeoTableStyleBase">
 		<defName>AA_Ocular_Table2x2c</defName>
 		<graphicData>
@@ -18,7 +15,6 @@
 			<drawSize>(4,4)</drawSize>
 		</graphicData>
 	</ThingStyleDef>
-
 	<ThingStyleDef ParentName="IdeoTableStyleBase">
 		<defName>AA_Ocular_Table2x4c</defName>
 		<graphicData>
@@ -26,7 +22,6 @@
 			<drawSize>(4,6)</drawSize>
 		</graphicData>
 	</ThingStyleDef>
-
 	<ThingStyleDef ParentName="IdeoTableStyleBase">
 		<defName>AA_Ocular_Table3x3c</defName>
 		<graphicData>
@@ -34,7 +29,6 @@
 			<drawSize>(5,5)</drawSize>
 		</graphicData>
 	</ThingStyleDef>
-
 	<ThingStyleDef>
 		<defName>AA_Ocular_SculptureSmall</defName>
 		<graphicData>
@@ -42,7 +36,6 @@
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 	</ThingStyleDef>
-
 	<ThingStyleDef>
 		<defName>AA_Ocular_SculptureLarge</defName>
 		<graphicData>
@@ -51,7 +44,6 @@
 			<drawSize>(3,3)</drawSize>
 		</graphicData>
 	</ThingStyleDef>
-
 	<ThingStyleDef>
 		<defName>AA_Ocular_SculptureGrand</defName>
 		<graphicData>
@@ -60,7 +52,6 @@
 			<drawSize>(4,4)</drawSize>
 		</graphicData>
 	</ThingStyleDef>
-
 	<ThingStyleDef>
 		<defName>AA_Ocular_AltarSmall</defName>
 		<graphicData>
@@ -71,7 +62,6 @@
 			</shadowData>
 		</graphicData>
 	</ThingStyleDef>
-
 	<ThingStyleDef>
 		<defName>AA_Ocular_AltarMedium</defName>
 		<graphicData>
@@ -83,7 +73,6 @@
 			</shadowData>
 		</graphicData>
 	</ThingStyleDef>
-
 	<ThingStyleDef>
 		<defName>AA_Ocular_AltarLarge</defName>
 		<graphicData>
@@ -95,7 +84,6 @@
 			</shadowData>
 		</graphicData>
 	</ThingStyleDef>
-
 	<ThingStyleDef>
 		<defName>AA_Ocular_AltarGrand</defName>
 		<graphicData>
@@ -107,9 +95,6 @@
 			</shadowData>
 		</graphicData>
 	</ThingStyleDef>
-
-
-
 	<ThingStyleDef Name="AA_Ocular_StandingLamp">
 		<defName>AA_Ocular_StandingLamp</defName>
 		<graphicData>
@@ -117,19 +102,15 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 	</ThingStyleDef>
-
 	<ThingStyleDef ParentName="AA_Ocular_StandingLamp">
 		<defName>AA_Ocular_StandingLamp_Red</defName>
 	</ThingStyleDef>
-
 	<ThingStyleDef ParentName="AA_Ocular_StandingLamp">
 		<defName>AA_Ocular_StandingLamp_Blue</defName>
 	</ThingStyleDef>
-
 	<ThingStyleDef ParentName="AA_Ocular_StandingLamp">
 		<defName>AA_Ocular_StandingLamp_Green</defName>
 	</ThingStyleDef>
-
 	<ThingStyleDef>
 		<defName>AA_Ocular_DarklampStanding</defName>
 		<graphicData>
@@ -137,7 +118,6 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 	</ThingStyleDef>
-
 	<ThingStyleDef>
 		<defName>AA_Ocular_TorchLamp</defName>
 		<graphicData>
@@ -146,7 +126,6 @@
 		</graphicData>
 		<uiIconPath>Things/Building/BuildingStyles/Ocular/AA_OcularTorchLamp_MenuIcon</uiIconPath>
 	</ThingStyleDef>
-
 	<ThingStyleDef>
 		<defName>AA_Ocular_IdeogramA</defName>
 		<graphicData>
@@ -155,7 +134,6 @@
 			<drawSize>(3,3)</drawSize>
 		</graphicData>
 	</ThingStyleDef>
-
 	<ThingStyleDef>
 		<defName>AA_Ocular_IdeogramB</defName>
 		<graphicData>
@@ -164,13 +142,25 @@
 			<drawSize>(3,3)</drawSize>
 		</graphicData>
 	</ThingStyleDef>
-
-	
-
-
-
-
-
-
-
+	<ThingStyleDef>
+		<defName>AA_Ocular_Club</defName>
+		<graphicData>
+			<texPath>Things/Item/AA_OcularClub</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef>
+		<defName>AA_Ocular_Mace</defName>
+		<graphicData>
+			<texPath>Things/Item/AA_OcularMace</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef>
+		<defName>AA_Ocular_EltexStaff</defName>
+		<graphicData>
+			<texPath>Things/Item/AA_OcularEltexStaff</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
 </Defs>

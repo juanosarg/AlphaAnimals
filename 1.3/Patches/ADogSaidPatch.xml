@@ -132,6 +132,11 @@
 						<li>AA_Darkbeast</li>
 						<li>AA_Skiphound</li>
 						<li>AA_PedigreedRaptor</li>
+						
+						<li>AA_Eyeling</li>
+						<li>AA_UnblinkingEye</li>
+						<li>AA_EngorgedTentacularAberration</li>
+						<li>AA_OcularNightling</li>
 
 
 
@@ -259,6 +264,11 @@
 						<li>AA_Darkbeast</li>
 						<li>AA_Skiphound</li>
 						<li>AA_PedigreedRaptor</li>
+						
+						<li>AA_Eyeling</li>
+						<li>AA_UnblinkingEye</li>
+						
+						<li>AA_OcularNightling</li>
 
 					</value>
 				</li>
@@ -364,6 +374,8 @@
 						<li>AA_Darkbeast</li>
 						<li>AA_Skiphound</li>
 						<li>AA_PedigreedRaptor</li>
+					
+						<li>AA_OcularNightling</li>
 
 					</value>
 				</li>
@@ -469,6 +481,8 @@
 						<li>AA_Darkbeast</li>
 						<li>AA_Skiphound</li>
 						<li>AA_PedigreedRaptor</li>
+						
+						<li>AA_OcularNightling</li>
 
 					</value>
 				</li>
@@ -573,6 +587,8 @@
 						<li>AA_Darkbeast</li>
 						<li>AA_Skiphound</li>
 						<li>AA_PedigreedRaptor</li>
+					
+						<li>AA_OcularNightling</li>
 
 					</value>
 				</li>
@@ -692,6 +708,10 @@
 						<li>AA_Darkbeast</li>
 						<li>AA_Skiphound</li>
 						<li>AA_PedigreedRaptor</li>
+						<li>AA_Eyeling</li>
+						<li>AA_UnblinkingEye</li>
+						
+						<li>AA_OcularNightling</li>
 					</value>
 				</li>
 
@@ -806,6 +826,8 @@
 						<li>AA_Darkbeast</li>
 						<li>AA_Skiphound</li>
 						<li>AA_PedigreedRaptor</li>
+						
+						<li>AA_OcularNightling</li>
 					</value>
 				</li>
 
@@ -882,6 +904,8 @@
 						<li>AA_Darkbeast</li>
 						<li>AA_Skiphound</li>
 						<li>AA_PedigreedRaptor</li>
+						
+						<li>AA_OcularNightling</li>
 
 					</value>
 				</li>
@@ -1000,6 +1024,9 @@
 						<li>AA_Darkbeast</li>
 						<li>AA_Skiphound</li>
 						<li>AA_PedigreedRaptor</li>
+						
+						<li>AA_EngorgedTentacularAberration</li>
+						<li>AA_OcularNightling</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
@@ -1099,6 +1126,8 @@
 						<li>AA_Darkbeast</li>
 						<li>AA_Skiphound</li>
 						<li>AA_PedigreedRaptor</li>
+						
+						<li>AA_OcularNightling</li>
 
 
 					</value>
@@ -1206,6 +1235,10 @@
 						<li>AA_Darkbeast</li>
 						<li>AA_Skiphound</li>
 						<li>AA_PedigreedRaptor</li>
+						<li>AA_Eyeling</li>
+						<li>AA_UnblinkingEye</li>
+						
+						<li>AA_OcularNightling</li>
 
 					</value>
 				</li>
@@ -1282,6 +1315,8 @@
 						
 						<li>AA_Darkbeast</li>
 						<li>AA_Skiphound</li>
+					
+						<li>AA_OcularNightling</li>
 						
 					</value>
 				</li>
@@ -1383,6 +1418,8 @@
 						<li>AA_Darkbeast</li>
 						<li>AA_Skiphound</li>
 						<li>AA_PedigreedRaptor</li>
+						
+						<li>AA_OcularNightling</li>
 
 					</value>
 				</li>
@@ -1467,6 +1504,8 @@
 					
 						<li>AA_Skiphound</li>
 						<li>AA_PedigreedRaptor</li>
+						
+						<li>AA_OcularNightling</li>
 
 
 

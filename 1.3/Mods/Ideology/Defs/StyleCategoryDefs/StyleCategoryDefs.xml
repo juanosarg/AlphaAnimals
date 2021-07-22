@@ -90,6 +90,18 @@
         <thingDef>Ideogram</thingDef>
         <styleDef>AA_Ocular_IdeogramB</styleDef>
       </li>
+	  <li>
+        <thingDef>MeleeWeapon_Club</thingDef>
+        <styleDef>AA_Ocular_Club</styleDef>
+      </li>
+	   <li>
+        <thingDef>MeleeWeapon_Mace</thingDef>
+        <styleDef>AA_Ocular_Mace</styleDef>
+      </li>
+	  <li MayRequire="Ludeon.RimWorld.Royalty">
+        <thingDef>MeleeWeapon_PsyfocusStaff</thingDef>
+        <styleDef>AA_Ocular_EltexStaff</styleDef>
+      </li>
     </thingDefStyles>
 	 <addDesignatorGroups>
       <li>AA_Floor_Ocular_Stone</li>

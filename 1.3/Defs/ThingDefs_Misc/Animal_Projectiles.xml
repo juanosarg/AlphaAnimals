@@ -360,6 +360,35 @@
 		</projectile>
 	</VFECore.ExpandableProjectileDef>
 	
+	<VFECore.ExpandableProjectileDef ParentName="BaseBullet">
+		<defName>AA_GazeAttack</defName>
+		<label>melting gaze</label>
+		<thingClass>VFECore.ExpandableProjectile</thingClass>
+		<graphicData>
+			<texPath>Things/Projectiles/Proj_YellowBeam</texPath>
+			<texPathFadeOut>Things/Projectiles/Proj_YellowBeamFadeOut</texPathFadeOut>
+			<shaderType>MoteGlow</shaderType>
+		</graphicData>
+		<drawOffscreen>true</drawOffscreen>
+		<lifeTimeDuration>50</lifeTimeDuration>
+		<widthScaleFactor>0.45</widthScaleFactor>
+		<heightScaleFactor>1</heightScaleFactor>
+		<startingPositionOffset>(0, 0, 0)</startingPositionOffset>
+		<totalSizeScale>1.5</totalSizeScale>
+		<tickFrameRate>4</tickFrameRate>
+		<finalTickFrameRate>5</finalTickFrameRate>
+		<tickDamageRate>20</tickDamageRate>
+		<dealsDamageOnce>true</dealsDamageOnce>
+		<minDistanceToAffect>2</minDistanceToAffect>
+		<projectile>
+			<damageDef>AA_AcidSpit</damageDef>		
+			<flyOverhead>false</flyOverhead>
+			<damageAmountBase>20</damageAmountBase>
+			<stoppingPower>1.5</stoppingPower>
+			
+			<speed>20</speed>
+		</projectile>
+	</VFECore.ExpandableProjectileDef>
 
 
 

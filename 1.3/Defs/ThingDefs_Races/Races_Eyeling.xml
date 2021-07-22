@@ -17,7 +17,7 @@
 				<capacities>
 					<li>AA_ToxicSting</li>
 				</capacities>
-				<power>15</power>
+				<power>8</power>
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>

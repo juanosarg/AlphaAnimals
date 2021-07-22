@@ -23,7 +23,7 @@
 					
 					<li>Blunt</li>
 				</capacities>
-				<power>40</power>
+				<power>25</power>
 				<cooldownTime>1.85</cooldownTime>
 				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 				<chanceFactor>0.6</chanceFactor>

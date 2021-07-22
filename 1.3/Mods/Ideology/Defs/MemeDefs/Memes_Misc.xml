@@ -14,7 +14,7 @@
 			<li>AnimalTreatment</li>
 			<li>TreeConnectionExclusion</li>
 		</exclusionTags>
-		<description>Life is a tool that should be twisted and turned until it does what we want. There is no sanctity of life, and it is our right to do with it as we see fit.</description>
+		<description>Life is a tool that should be twisted and turned until it does what we want. There is no sanctity of life, and it is our right to do with it as we see fit, harnessing powerful extradimensional energies to do our bidding.\n\n&lt;color=#33d733&gt;This meme revolves around "corrupting" the Gauranlen trees, getting access to new Dryad varieties, and using the Ocular Warping ritual to summon powerful mutated creatures to help the colony.&lt;/color&gt;</description>
 		<iconPath>UI/Memes/AA_Corruptors</iconPath>
 		<groupDef>AA_Biological</groupDef>
 		<impact>2</impact>
@@ -69,6 +69,8 @@
 			</li>
 		</modExtensions>
 	</MemeDef>
+	
+	<!-- For the future -->
 
 	<!--<MemeDef>
 		<defName>AA_BiologicalReconstructors</defName>

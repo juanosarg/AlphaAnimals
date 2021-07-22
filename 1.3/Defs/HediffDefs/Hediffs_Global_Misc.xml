@@ -499,6 +499,7 @@
 		<description>Affected by Swarmling implantation. If the disease is not properly treated, or if the creature dies when it is sufficiently advanced, Swarmling larvae will devour it from inside and hatch from its corpse.</description>
 		<makesSickThought>true</makesSickThought>
 		<lethalSeverity>1</lethalSeverity>
+		<scenarioCanAdd>false</scenarioCanAdd>
 		<tendable>true</tendable>
 		<comps>
 			<li Class="HediffCompProperties_TendDuration">
@@ -629,6 +630,7 @@
 		<labelNoun>a virulent fungal infection</labelNoun>
 		<description>Fungal infection in a wound. Without treatment, the infection will advance at an astonishing rate, killing the afflicted in a few hours. Luckily, it is very easy to treat, and it will be kept contained and disappear as long as a medic treats it fast and with a decent treatment quality.</description>
 		<makesSickThought>true</makesSickThought>
+		<scenarioCanAdd>false</scenarioCanAdd>
 		<lethalSeverity>1</lethalSeverity>
 		<tendable>true</tendable>
 		<comps>

@@ -37,9 +37,33 @@
 			<li Class="AnimalBehaviours.CompProperties_Floating">
 
 			</li>
+			<li Class="AnimalBehaviours.CompProperties_Regeneration">
+				<rateInTicks>100</rateInTicks>
+
+			</li>
 			
 			
 		</comps>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<accuracyTouch>1</accuracyTouch>
+				<accuracyShort>1</accuracyShort>
+				<accuracyMedium>1</accuracyMedium>
+				<accuracyLong>1</accuracyLong>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AA_GazeAttack</defaultProjectile>
+				<warmupTime>1</warmupTime>				
+				<burstShotCount>1</burstShotCount>
+				<minRange>1</minRange>
+				<range>20</range>
+				<label>melting gaze</label>	
+				<muzzleFlashScale>0</muzzleFlashScale>				
+				<commonality>1</commonality>
+			</li>
+
+
+		</verbs>
 		<race>
 
 			<herdAnimal>false</herdAnimal>
