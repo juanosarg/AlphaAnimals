@@ -24,6 +24,7 @@
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
 		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
 		<li>brrainz.harmony</li>
         <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
 		<li>vanillaexpanded.achievements</li>
@@ -78,6 +79,7 @@ Fireball Graphic created by StarsteelGaming at OpenGameArt.org (2018)
 Using NocturnalAnimals DLL by XeoNovaDan
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
+v3.6: Added new Ideology, 8 new animals (22/07/21)
 v3.4: RimWorld 1.3 update. (05/07/21)
 v3.34: Added 4 new animals. Added fanart to the animal info cards (04/05/21)
 v3.31: bugfixing and added Royal Ave colours (31/03/21)
