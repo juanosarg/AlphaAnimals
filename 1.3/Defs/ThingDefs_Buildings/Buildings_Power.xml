@@ -6,6 +6,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>AA_BlueGelBattery</defName>
 		<label>blue gel battery</label>
+		<drawerType>MapMeshAndRealTime</drawerType>
 		<description>Can store more electricity than regular batteries thanks to the energetic make up of blue gel. As a downside, they are highly flammable. Charged blue gel batteries explode when exposed to rain or fire.</description>
 		<thingClass>Building_Battery</thingClass>
 		<graphicData>
@@ -74,6 +75,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>AA_HexaGelBattery</defName>
 		<label>hexagel battery</label>
+		<drawerType>MapMeshAndRealTime</drawerType>
 		<description>Can store more electricity than blue gel batteries. As a downside, they are highly flammable, and they will violently explode if destroyed. Charged hexagel batteries explode when exposed to rain or fire.</description>
 		<thingClass>Building_Battery</thingClass>
 		<graphicData>
