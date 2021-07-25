@@ -46,7 +46,7 @@
 				<path>Parts/None/None</path>
 				<bodyPart>tail</bodyPart>
 				<inFrontOfBody>true</inFrontOfBody>
-				<layerOffset>-0.2</layerOffset>
+				
 				<layerInvert>false</layerInvert>
 				<drawnInBed>false</drawnInBed>
 <shaderType>CutoutComplex</shaderType>				<drawForFemale>true</drawForFemale>
@@ -101,7 +101,7 @@
 				<path>Parts/None/None</path>
 				<bodyPart>Head</bodyPart>
 				<inFrontOfBody>true</inFrontOfBody>
-				<layerOffset>-0.26</layerOffset>
+				
 				<drawForFemale>false</drawForFemale>
 				<hediffGraphics>
 					<AA_EtherHelixienFace>Parts/Helixienmorph/Helixien_Face</AA_EtherHelixienFace>
@@ -110,11 +110,11 @@
 				<offsets>
 					<south>
 						<bodyTypes>
-							<Male>(-0.42,0.56)</Male>
-							<Female>(-0.42,0.56)</Female>
-							<Thin>(-0.42,0.56)</Thin>
-							<Hulk>(-0.42,0.56)</Hulk>
-							<Fat>(-0.42,0.56)</Fat>
+							<Male>(0,0.4)</Male>
+							<Female>(0,0.4)</Female>
+							<Thin>(0,0.4)</Thin>
+							<Hulk>(0,0.4)</Hulk>
+							<Fat>(0,0.4)</Fat>
 						</bodyTypes>
 						<crownTypes>
 							<Average_Wide>(-0.01,0.005)</Average_Wide>
@@ -123,11 +123,11 @@
 					</south>
 					<north>
 						<bodyTypes>
-							<Male>(0.0,0.8)</Male>
-							<Female>(0.0,0.8)</Female>
-							<Thin>(0.0,0.8)</Thin>
-							<Hulk>(0.0,0.8)</Hulk>
-							<Fat>(0.0,0.8)</Fat>
+							<Male>(0.0,0.4)</Male>
+							<Female>(0.0,0.4)</Female>
+							<Thin>(0.0,0.4)</Thin>
+							<Hulk>(0.0,0.4)</Hulk>
+							<Fat>(0.0,0.4)</Fat>
 						</bodyTypes>
 						<crownTypes>
 							<Average_Wide>(-0.01,0.005)</Average_Wide>
@@ -136,11 +136,11 @@
 					</north >
 					<east>
 						<bodyTypes>
-							<Male>(-0.46,0.56)</Male>
-							<Female>(-0.52,0.56)</Female>
-							<Thin>(-0.51,0.56)</Thin>
-							<Hulk>(-0.52,0.56)</Hulk>
-							<Fat>(-0.51,0.56)</Fat>
+							<Male>(-0.1,0.4)</Male>
+							<Female>(-0.1,0.4)</Female>
+							<Thin>(-0.1,0.4)</Thin>
+							<Hulk>(-0.1,0.4)</Hulk>
+							<Fat>(-0.1,0.4)</Fat>
 						</bodyTypes>
 						<crownTypes>
 							<Average_Wide>(-0.01,0)</Average_Wide>
@@ -157,7 +157,7 @@
 				<path>Parts/None/None</path>
 				<bodyPart>Head</bodyPart>
 				<inFrontOfBody>true</inFrontOfBody>
-				<layerOffset>-0.26</layerOffset>
+				
 				<drawForMale>false</drawForMale>
 				<hediffGraphics>
 					<AA_EtherHelixienFace>Parts/Helixienmorph/Helixien_Face</AA_EtherHelixienFace>
@@ -166,11 +166,11 @@
 				<offsets>
 					<south>
 						<bodyTypes>
-							<Male>(-0.42,0.56)</Male>
-							<Female>(-0.42,0.56)</Female>
-							<Thin>(-0.42,0.56)</Thin>
-							<Hulk>(-0.42,0.56)</Hulk>
-							<Fat>(-0.42,0.56)</Fat>
+							<Male>(0,0.4)</Male>
+							<Female>(0,0.4)</Female>
+							<Thin>(0,0.4)</Thin>
+							<Hulk>(0,0.4)</Hulk>
+							<Fat>(0,0.4)</Fat>
 						</bodyTypes>
 						<crownTypes>
 							<Average_Pointy>(-0.01,0)</Average_Pointy>
@@ -181,11 +181,11 @@
 					</south>
 					<north>
 						<bodyTypes>
-							<Male>(0.0,0.8)</Male>
-							<Female>(0.0,0.8)</Female>
-							<Thin>(0.0,0.8)</Thin>
-							<Hulk>(0.0,0.8)</Hulk>
-							<Fat>(0.0,0.8)</Fat>
+							<Male>(0,0.4)</Male>
+							<Female>(0,0.4)</Female>
+							<Thin>(0,0.4)</Thin>
+							<Hulk>(0,0.4)</Hulk>
+							<Fat>(0,0.4)</Fat>
 						</bodyTypes>
 						<crownTypes>
 							<Average_Pointy>(-0.01,0)</Average_Pointy>
@@ -196,11 +196,11 @@
 					</north>
 					<east>
 						<bodyTypes>
-							<Male>(-0.46,0.56)</Male>
-							<Female>(-0.52,0.56)</Female>
-							<Thin>(-0.51,0.56)</Thin>
-							<Hulk>(-0.52,0.56)</Hulk>
-							<Fat>(-0.51,0.56)</Fat>
+							<Male>(-0.1,0.4)</Male>
+							<Female>(-0.1,0.4)</Female>
+							<Thin>(-0.1,0.4)</Thin>
+							<Hulk>(-0.1,0.4)</Hulk>
+							<Fat>(-0.1,0.4)</Fat>
 						</bodyTypes>
 						<crownTypes>
 							<Average_Normal>(0.03,0.01)</Average_Normal>
@@ -225,25 +225,25 @@
 					<AA_EtherHelixienTail>Parts/Helixienmorph/Helixien_Tail</AA_EtherHelixienTail>
 				</hediffGraphics>
 				
-				<layerOffset>-0.28</layerOffset>
+				
 				<offsets>
 					<south />
 					<north>
 						<bodyTypes>
-							<Male>(0,0.20)</Male>
-							<Female>(0,0.16)</Female>
-							<Thin>(0,0.20)</Thin>
-							<Hulk>(0,0)</Hulk>
-							<Fat>(0,0.16)</Fat>
+							<Male>(0,-0.40)</Male>
+							<Female>(0,-0.40)</Female>
+							<Thin>(0,-0.40)</Thin>
+							<Hulk>(0,-0.40)</Hulk>
+							<Fat>(0,-0.40)</Fat>
 						</bodyTypes>
 					</north>
 					<east>
 						<bodyTypes>
-							<Male>(-0.20,-0.02)</Male>
-							<Female>(-0.24,-0.09)</Female>
-							<Thin>(-0.25,-0.02)</Thin>
-							<Hulk>(-0.06,-0.23)</Hulk>
-							<Fat>(0.02,-0.05)</Fat>
+							<Male>(0.3,-0.2)</Male>
+							<Female>(0.3,-0.2)</Female>
+							<Thin>(0.3,-0.2)</Thin>
+							<Hulk>(0.3,-0.2)</Hulk>
+							<Fat>(0.3,-0.2)</Fat>
 						</bodyTypes>
 					</east>
 				</offsets>

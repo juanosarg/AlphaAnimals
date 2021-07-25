@@ -586,36 +586,34 @@
                                 <AA_EtherHelixienTail>Parts/Helixienmorph/Helixien_Tail</AA_EtherHelixienTail>
                                 
                             </hediffGraphics>
-                            <layerOffset>-0.28</layerOffset>
-                            <offsets>
-                                <south />
-                                <north>
-                                    <bodyTypes>
-                                        <Male>(0,0.20)</Male>
-                                        <Female>(0,0.16)</Female>
-                                        <Thin>(0,0.20)</Thin>
-                                        <Hulk>(0,0)</Hulk>
-                                        <Fat>(0,0.16)</Fat>
-                                    </bodyTypes>
-                                </north>
-                                <east>
-                                    <bodyTypes>
-                                        <Male>(-0.20,-0.02)</Male>
-                                        <Female>(-0.24,-0.09)</Female>
-                                        <Thin>(-0.25,-0.02)</Thin>
-                                        <Hulk>(-0.06,-0.23)</Hulk>
-                                        <Fat>(0.02,-0.05)</Fat>
-                                    </bodyTypes>
-                                </east>
-                            </offsets>
+                           
+                           <offsets>
+					<south />
+					<north>
+						<bodyTypes>
+							<Male>(0,-0.40)</Male>
+							<Female>(0,-0.40)</Female>
+							<Thin>(0,-0.40)</Thin>
+							<Hulk>(0,-0.40)</Hulk>
+							<Fat>(0,-0.40)</Fat>
+						</bodyTypes>
+					</north>
+					<east>
+						<bodyTypes>
+							<Male>(0.3,-0.2)</Male>
+							<Female>(0.3,-0.2)</Female>
+							<Thin>(0.3,-0.2)</Thin>
+							<Hulk>(0.3,-0.2)</Hulk>
+							<Fat>(0.3,-0.2)</Fat>
+						</bodyTypes>
+					</east>
+				</offsets>
                         </li>
                     </bodyAddons>
                 </alienPartGenerator>
             </generalSettings>
             <graphicPaths Inherit="False" ></graphicPaths>
-            <hairSettings>
-			<hasHair>false</hasHair>
-			</hairSettings>
+           
             <thoughtSettings>
 			
 				<replacerList>
