@@ -239,11 +239,11 @@
 					</north>
 					<east>
 						<bodyTypes>
-							<Male>(0.3,-0.2)</Male>
-							<Female>(0.3,-0.2)</Female>
-							<Thin>(0.3,-0.2)</Thin>
-							<Hulk>(0.3,-0.2)</Hulk>
-							<Fat>(0.3,-0.2)</Fat>
+							<Male>(0.3,-0.3)</Male>
+							<Female>(0.3,-0.3)</Female>
+							<Thin>(0.3,-0.3)</Thin>
+							<Hulk>(0.3,-0.3)</Hulk>
+							<Fat>(0.3,-0.3)</Fat>
 						</bodyTypes>
 					</east>
 				</offsets>
