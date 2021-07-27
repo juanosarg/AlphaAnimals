@@ -28,10 +28,16 @@
 		<techLevel>Animal</techLevel>
 		<permanentEnemy>true</permanentEnemy>
 		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+		<hostileToFactionlessHumanlikes>true</hostileToFactionlessHumanlikes>
+		<canSiege>false</canSiege>
+		<canStageAttacks>false</canStageAttacks>
 		<allowedArrivalTemperatureRange>
 			<min>-30</min>
 			<max>60</max>
 		</allowedArrivalTemperatureRange>
+		<modExtensions>
+			<li Class="VFECore.ExcludeFromQuestsExtension" />
+		</modExtensions>
 		
 	</FactionDef>
 
