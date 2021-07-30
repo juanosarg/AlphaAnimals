@@ -35,6 +35,8 @@
 	<AA_Detonate>Detonate</AA_Detonate>
 	<AA_DetonateDesc>Force this animal to detonate. This will kill the animal and cause an explosion.</AA_DetonateDesc>
 	<AA_MessageRitualRoleNeedsDryad>Your colony needs to have an ocular dryad from a corrupted Gauranlen tree to start this ritual.</AA_MessageRitualRoleNeedsDryad>
+	<AA_DryadUnlinked>The ocular dryad needs to be linked to a Gauranlen tree.</AA_DryadUnlinked>
+	<AA_AnimalDoingWeirdJob>Animal is busy doing a job.</AA_AnimalDoingWeirdJob>
 
 
 	<!-- Incidents -->

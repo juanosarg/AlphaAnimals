@@ -5,7 +5,7 @@
 
   <RitualOutcomeEffectDef>
     <defName>AA_OcularWarping</defName>
-    <description>The ocular priest will use one of the colony's ocular dryads to warp a creature into an ocular monster. Depending on the ritual's outcome and the sacrificed creature's body size, a correspondingly stronger ocular monster will be summoned.</description>
+    <description>A sublime quality result will always result in an Unblinking Eye.</description>
     <workerClass>AlphaBehavioursAndEvents.RitualOutcomeEffectWorker_Warping</workerClass>
     
     <comps>

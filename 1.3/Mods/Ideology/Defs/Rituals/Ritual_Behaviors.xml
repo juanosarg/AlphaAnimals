@@ -42,9 +42,9 @@
 	 <spectatorsLabel>Participants</spectatorsLabel>
     <spectatorGerund>participate</spectatorGerund>
     <stages Inherit="False">
-      <li Class="RitualStage_InteractWithAnimal">
+      <li Class="AlphaBehavioursAndEvents.RitualStage_InteractWithAnimalNotDryad">
         <defaultDuty>Spectate</defaultDuty>
-		
+		<essential>True</essential>
         <endTriggers>
           <li Class="StageEndTrigger_PawnDeliveredOrNotValid"/>
         </endTriggers>
@@ -72,7 +72,7 @@
       </li>
 	  <li Class="AlphaBehavioursAndEvents.RitualStage_InteractWithDryad">
         <defaultDuty>Spectate</defaultDuty>
-		
+		<essential>True</essential>
         <endTriggers>
           <li Class="StageEndTrigger_PawnDeliveredOrNotValid"/>
         </endTriggers>
@@ -100,7 +100,7 @@
       </li>
       <li>
         <defaultDuty>Spectate</defaultDuty>
-		
+		<essential>True</essential>
         <endTriggers>
           <li Class="StageEndTrigger_DurationPercentage">
             <percentage>0.3</percentage>
@@ -128,7 +128,7 @@
           </li>
         </roleBehaviors>
       </li>
-      <li Class="RitualStage_InteractWithAnimal">
+      <li Class="AlphaBehavioursAndEvents.RitualStage_InteractWithAnimalNotDryad">
         <defaultDuty>Spectate</defaultDuty>
         <essential>True</essential>
         <endTriggers>

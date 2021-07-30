@@ -35,6 +35,15 @@ namespace AlphaBehavioursAndEvents
 				}
 				return false;
 			}
+
+			if (p.connections == null || !p.connections.ConnectedThings.Any<Thing>())
+			{
+				if (!skipReason)
+				{
+					reason = "AA_DryadUnlinked".Translate();
+				}
+				return false;
+			}
 			if (!p.Faction.IsPlayerSafe())
 			{
 				if (!skipReason)
