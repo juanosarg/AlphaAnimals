@@ -3,9 +3,9 @@
 
  
 
-  <RitualBehaviorDef>
+  <RitualBehaviorDef ParentName="SacrificeBehaviorBase">
     <defName>AA_OcularWarping</defName>
-   
+    <durationTicks>7500</durationTicks>
     <preceptRequirements><li Class="PreceptRequirement_Altar"/></preceptRequirements>
     <useVisualEffectsFromRoleIdIdeo>executioner</useVisualEffectsFromRoleIdIdeo>
     <roles Inherit="False">
@@ -41,10 +41,10 @@
     </roles>
 	 <spectatorsLabel>Participants</spectatorsLabel>
     <spectatorGerund>participate</spectatorGerund>
-    <stages>
+    <stages Inherit="False">
       <li Class="RitualStage_InteractWithAnimal">
         <defaultDuty>Spectate</defaultDuty>
-		<essential>True</essential>
+		
         <endTriggers>
           <li Class="StageEndTrigger_PawnDeliveredOrNotValid"/>
         </endTriggers>
@@ -72,7 +72,7 @@
       </li>
 	  <li Class="AlphaBehavioursAndEvents.RitualStage_InteractWithDryad">
         <defaultDuty>Spectate</defaultDuty>
-		<essential>True</essential>
+		
         <endTriggers>
           <li Class="StageEndTrigger_PawnDeliveredOrNotValid"/>
         </endTriggers>
@@ -100,7 +100,7 @@
       </li>
       <li>
         <defaultDuty>Spectate</defaultDuty>
-		<essential>True</essential>
+		
         <endTriggers>
           <li Class="StageEndTrigger_DurationPercentage">
             <percentage>0.3</percentage>
