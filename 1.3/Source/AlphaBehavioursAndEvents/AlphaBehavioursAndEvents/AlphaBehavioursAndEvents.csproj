@@ -403,7 +403,6 @@
     <Compile Include="Rituals\RitualRoleDryad.cs" />
     <Compile Include="Rituals\RitualStage_InteractWithAnimalNotDryad.cs" />
     <Compile Include="Rituals\RitualStage_InteractWithDryad.cs" />
-    <Compile Include="Rituals\StageEndTrigger_PawnDeliveredOrNotValidDebug.cs" />
     <Compile Include="ThingSetMakers\ThingSetMaker_Eyelings.cs" />
     <Compile Include="ThoughtWorkers\ThoughtWorker_OcularTrees.cs" />
   </ItemGroup>
