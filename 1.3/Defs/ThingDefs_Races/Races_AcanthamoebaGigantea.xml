@@ -3,7 +3,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_AcanthamoebaGiganteaSmall</defName>
 		<label>acanthamoeba gigantea, small</label>
-		<description>Literally the "giant spiked amoeba", this strange creature is a huge unicellular organism genetically modified to serve as a biological cleaning machine. Acanthamoebas will happily feed on most types of non-metallic trash, engorging themselves in the process.\n\nAfter a certain amount of feedings, Acanthamoebas will increase in size and, after reaching a threshold, they will split into two different individuals.\n\nArt by Feroxiious (check her Instagram at https://www.instagram.com/feroxiious/).</description>
+		<description>Literally the "giant spiked amoeba", this strange creature is a huge unicellular organism genetically modified to serve as a biological cleaning machine. Acanthamoebas will happily feed on most types of non-metallic trash, engorging themselves in the process.\n\nAfter a certain amount of feedings, Acanthamoebas will increase in size and, after reaching a threshold, they will split into two different individuals. Note that asexual creatures can't be sterilized.\n\nArt by Feroxiious (check her Instagram at https://www.instagram.com/feroxiious/).</description>
 
 		<statBases>
 			<MoveSpeed>1.5</MoveSpeed>
@@ -152,7 +152,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_AcanthamoebaGiganteaLarge</defName>
 		<label>acanthamoeba gigantea, large</label>
-		<description>Literally the "giant spiked amoeba", this strange creature is a huge unicellular organism genetically modified to serve as a biological cleaning machine. Acanthamoebas will happily feed on most types of non-metallic trash, engorging themselves in the process.\n\nAfter a certain amount of feedings, Acanthamoebas will increase in size and, after reaching a threshold, they will split into two different individuals.\n\nArt by Feroxiious (check her Instagram at https://www.instagram.com/feroxiious/).</description>
+		<description>Literally the "giant spiked amoeba", this strange creature is a huge unicellular organism genetically modified to serve as a biological cleaning machine. Acanthamoebas will happily feed on most types of non-metallic trash, engorging themselves in the process.\n\nAfter a certain amount of feedings, Acanthamoebas will increase in size and, after reaching a threshold, they will split into two different individuals. Note that asexual creatures can't be sterilized.\n\nArt by Feroxiious (check her Instagram at https://www.instagram.com/feroxiious/).</description>
 
 		<statBases>
 			<MoveSpeed>1.75</MoveSpeed>
@@ -291,7 +291,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_AcanthamoebaGiganteaHuge</defName>
 		<label>acanthamoeba gigantea, huge</label>
-		<description>Literally the "giant spiked amoeba", this strange creature is a huge unicellular organism genetically modified to serve as a biological cleaning machine. Acanthamoebas will happily feed on most types of non-metallic trash, engorging themselves in the process.\n\nAfter a certain amount of feedings, Acanthamoebas will increase in size and, after reaching a threshold, they will split into two different individuals.\n\nArt by Feroxiious (check her Instagram at https://www.instagram.com/feroxiious/).</description>
+		<description>Literally the "giant spiked amoeba", this strange creature is a huge unicellular organism genetically modified to serve as a biological cleaning machine. Acanthamoebas will happily feed on most types of non-metallic trash, engorging themselves in the process.\n\nAfter a certain amount of feedings, Acanthamoebas will increase in size and, after reaching a threshold, they will split into two different individuals. Note that asexual creatures can't be sterilized.\n\nArt by Feroxiious (check her Instagram at https://www.instagram.com/feroxiious/).</description>
 
 		<statBases>
 			<MoveSpeed>2</MoveSpeed>

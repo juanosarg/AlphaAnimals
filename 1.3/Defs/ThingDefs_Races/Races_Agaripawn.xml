@@ -4,7 +4,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_Agaripawn</defName>
 		<label>agaripawn</label>
-		<description>The Agaripawn is a subspecies of the Wildpawn that has grown in the secluded environment of a Mycotic Jungle. It's body is covered by Agarilux mushrooms that seem to be in a state of symbiosis. Agaripawns are less resistant to gunfire than Agaripods, but retain the weakness to fire of their bigger brethren. Agaripawns reproduce asexually by releasing clumps of spores every few weeks, so their children are completely wild and independent from them, with no concept of parenthood.\n\nAlthough risky, the Agaripawn can be hunted or farmed for small amounts of edible raw agarilux, which can be eaten raw and lasts a bit more than regular fungus.</description>
+		<description>The Agaripawn is a subspecies of the Wildpawn that has grown in the secluded environment of a Mycotic Jungle. It's body is covered by Agarilux mushrooms that seem to be in a state of symbiosis. Agaripawns are less resistant to gunfire than Agaripods, but retain the weakness to fire of their bigger brethren. Agaripawns reproduce asexually by releasing clumps of spores every few weeks, so their children are completely wild and independent from them, with no concept of parenthood. Note that asexual creatures can't be sterilized.\n\nAlthough risky, the Agaripawn can be hunted or farmed for small amounts of edible raw agarilux, which can be eaten raw and lasts a bit more than regular fungus.</description>
 		<statBases>
 			<MoveSpeed>4</MoveSpeed>
 			<ComfyTemperatureMin>-15</ComfyTemperatureMin>

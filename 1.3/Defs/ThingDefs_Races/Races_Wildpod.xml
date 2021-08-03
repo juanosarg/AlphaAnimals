@@ -4,7 +4,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_Wildpod</defName>
 		<label>wildpod</label>
-		<description>This lumbering mass of apparently decomposing plant matter is a Wildpod, a sentient mycoid creature native to some jungle infested planet on the Rim. The Wildpod is almost impervious to gunfire, with bullets simply being absorbed into its mass without doing much damage, but very weak to fire. Interestingly, it reproduces asexually by releasing clumps of spores every few weeks, so its children are completely wild and independent from it, with no concept of parenthood.\n\nAlthough risky, the Wildpod can be hunted or farmed for decent amounts of edible raw fungus.</description>
+		<description>This lumbering mass of apparently decomposing plant matter is a Wildpod, a sentient mycoid creature native to some jungle infested planet on the Rim. The Wildpod is almost impervious to gunfire, with bullets simply being absorbed into its mass without doing much damage, but very weak to fire. Interestingly, it reproduces asexually by releasing clumps of spores every few weeks, so its children are completely wild and independent from it, with no concept of parenthood. Note that asexual creatures can't be sterilized.\n\nAlthough risky, the Wildpod can be hunted or farmed for decent amounts of edible raw fungus.</description>
 		<statBases>
 			<MoveSpeed>3</MoveSpeed>
 			<ComfyTemperatureMin>-15</ComfyTemperatureMin>
