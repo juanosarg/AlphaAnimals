@@ -237,6 +237,59 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
+	
+	<!-- Tumorous -->
+
+	<ThingDef ParentName="DryadBase">
+		<defName>AA_Dryad_Tumorous</defName>
+		<label>tumorous dryad</label>
+		<description>A corrupted dryad covered in tumorous growths that constantly appear over its whole body. These growths are edible, and can be used as a meat substitute of... questionable origins to say the least.\n\nIn general, dryads are mammal-like creatures that have a symbiotic relationship with the Gauranlen tree. They reproduce together with their tree, which contains a hidden dryad queen. Dryads can morph into various specialized castes.</description>
+		<statBases>
+			<MoveSpeed>2</MoveSpeed>
+		</statBases>
+		<uiIconScale>1.25</uiIconScale>
+		<race>
+			<useMeatFrom>Dryad_Basic</useMeatFrom>
+			<lifeStageAges>
+				<li>
+					<def>AnimalAdult</def>
+					<soundWounded>AA_OcularJelly_Wounded</soundWounded>
+					<soundDeath>AA_OcularJelly_Death</soundDeath>
+					<soundCall>AA_OcularJelly_Call</soundCall>
+					<soundAngry>AA_OcularJelly_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			
+		</race>
+
+		<comps>
+			<li Class="CompProperties_Spawner">
+				<thingToSpawn>Meat_Dryad_Basic</thingToSpawn>
+				<spawnCount>40</spawnCount>
+				<spawnIntervalRange>120000</spawnIntervalRange>
+				<writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+				<showMessageIfOwned>true</showMessageIfOwned>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<PawnKindDef ParentName="DryadKindBase">
+		<defName>AA_Dryad_Tumorous</defName>
+		<label>tumorous dryad</label>
+		<race>AA_Dryad_Tumorous</race>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_Dryad_Tumorous/AA_Dryad_Tumorous</texPath>
+					<drawSize>1.5</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Dryad_Basic/Dessicated_DryadBasic</texPath>
+					<drawSize>1.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
 
 
 

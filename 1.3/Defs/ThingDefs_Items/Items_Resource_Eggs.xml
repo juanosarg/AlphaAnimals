@@ -1194,6 +1194,32 @@
 			</li>
 		</comps>
 	</ThingDef>
+	
+	<!-- =============== Empress Butterfly Egg =============== -->
+
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>AA_EmpressButterflyEggFertilized</defName>
+		<label>empress butterfly egg (fert.)</label>
+		<description>Fertilized empress butterfly egg. If all goes well, it should hatch into an empress butterfly larva. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AA_EggBeetle</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(21,28,94)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.5</MarketValue>
+		</statBases>
+		<thingSetMakerTags>
+			<li>NotForGuests</li>
+		</thingSetMakerTags>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>5</hatcherDaystoHatch>
+				<hatcherPawn>AA_EmpressButterflyLarva</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
 
 
 

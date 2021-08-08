@@ -137,6 +137,10 @@
 						<li>AA_UnblinkingEye</li>
 						<li>AA_EngorgedTentacularAberration</li>
 						<li>AA_OcularNightling</li>
+						
+						<li>AA_AuroraSylph</li>
+						<li>AA_EmpressButterflyLarva</li>
+						<li>AA_EmpressButterfly</li>
 
 
 
@@ -269,6 +273,10 @@
 						<li>AA_UnblinkingEye</li>
 						
 						<li>AA_OcularNightling</li>
+						
+						<li>AA_AuroraSylph</li>
+					
+						<li>AA_EmpressButterfly</li>
 
 					</value>
 				</li>
@@ -712,6 +720,9 @@
 						<li>AA_UnblinkingEye</li>
 						
 						<li>AA_OcularNightling</li>
+						
+						<li>AA_AuroraSylph</li>						
+						<li>AA_EmpressButterfly</li>
 					</value>
 				</li>
 
@@ -828,6 +839,9 @@
 						<li>AA_PedigreedRaptor</li>
 						
 						<li>AA_OcularNightling</li>
+						
+						<li>AA_AuroraSylph</li>
+						<li>AA_EmpressButterfly</li>
 					</value>
 				</li>
 
@@ -1027,6 +1041,9 @@
 						
 						<li>AA_EngorgedTentacularAberration</li>
 						<li>AA_OcularNightling</li>
+						
+						<li>AA_AuroraSylph</li>
+						<li>AA_EmpressButterfly</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
@@ -1128,6 +1145,9 @@
 						<li>AA_PedigreedRaptor</li>
 						
 						<li>AA_OcularNightling</li>
+						
+						<li>AA_AuroraSylph</li>
+						<li>AA_EmpressButterfly</li>
 
 
 					</value>
@@ -1239,6 +1259,9 @@
 						<li>AA_UnblinkingEye</li>
 						
 						<li>AA_OcularNightling</li>
+						
+						<li>AA_AuroraSylph</li>
+						<li>AA_EmpressButterfly</li>
 
 					</value>
 				</li>
@@ -1317,6 +1340,8 @@
 						<li>AA_Skiphound</li>
 					
 						<li>AA_OcularNightling</li>
+						<li>AA_AuroraSylph</li>
+						<li>AA_EmpressButterfly</li>
 						
 					</value>
 				</li>

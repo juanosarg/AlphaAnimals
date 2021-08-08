@@ -62,10 +62,22 @@
   </GauranlenTreeModeDef>
   
   <GauranlenTreeModeDef>
+    <defName>AA_Tumorous</defName>
+    <label>tumorous</label>
+    <description>A dryad caste specialized in creating meat. Together with its Gauranlen tree, this dryad can generate harvestable meat on an ongoing basis. However, it is slow and ineffective at work or combat.</description>
+    <drawPosition>(0.833, 0.5)</drawPosition>
+    <pawnKindDef>AA_Dryad_Tumorous</pawnKindDef>
+    <displayedStats>
+      <li>MaxHitPoints</li>
+      <li>MoveSpeed</li>
+    </displayedStats>
+  </GauranlenTreeModeDef>
+  
+  <GauranlenTreeModeDef>
     <defName>AA_Corruptor</defName>
     <label>corruptor dryad</label>
     <description>A dryad caste with the unique ability to produce corrupted Gauranlen pods and reproduce the Gauranlen tree along with its symbiote, the dryad queen. To do this, three corruptor dryads must slowly merge.</description>
-    <drawPosition>(0.833, 0.5)</drawPosition>
+    <drawPosition>(0.833, 0.665)</drawPosition>
     <pawnKindDef>AA_Dryad_Corruptor</pawnKindDef>
     <displayedStats>
       <li>MaxHitPoints</li>
