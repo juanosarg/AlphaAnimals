@@ -71,6 +71,9 @@
       <li>MaxHitPoints</li>
       <li>MoveSpeed</li>
     </displayedStats>
+	<requiredMemes>
+      <li>AA_BiologicalCorruptors</li>
+    </requiredMemes>
   </GauranlenTreeModeDef>
   
   <GauranlenTreeModeDef>
