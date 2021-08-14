@@ -12,6 +12,7 @@
 			<MarketValue>150</MarketValue>
 			<MeatAmount>0</MeatAmount>
 			<LeatherAmount>0</LeatherAmount>
+			<FilthRate>0</FilthRate>
 		</statBases>
 		<tools>
 
@@ -161,6 +162,7 @@
 			<MarketValue>350</MarketValue>
 			<MeatAmount>0</MeatAmount>
 			<LeatherAmount>0</LeatherAmount>
+			<FilthRate>0</FilthRate>
 		</statBases>
 		<tools>
 
@@ -300,6 +302,7 @@
 			<MarketValue>700</MarketValue>
 			<MeatAmount>0</MeatAmount>
 			<LeatherAmount>0</LeatherAmount>
+			<FilthRate>0</FilthRate>
 		</statBases>
 		<tools>
 
