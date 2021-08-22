@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="BaseInsect">
+	<ThingDef ParentName="AA_AlphaBaseInsect">
 		<defName>AA_Animalisk</defName>
 		<label>animalisk</label>
 		<description>The Animalisk is a psionically gifted variation of the Feralisk, most likely artificially mutated, adapted to living in the very rare Anima forests. Animalisks are the only herbivorous species of Lisks, so they aren't as dangerous to colonies as the rest of their kin. They are however very fond of Anima grass and Anima trees, and as such can be quite obnoxious if they are not quickly controlled.\n\nAnimalisks defend themselves by throwing spider webs at their harassers. These huge webs stun anyone they touch, allowing the Animalisk to close in and finish the kill with their fearsome venom laced fangs.\n\nArt by Feroxiious (check her Instagram at https://www.instagram.com/feroxiious/).</description>

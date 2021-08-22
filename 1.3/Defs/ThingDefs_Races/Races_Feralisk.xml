@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="BaseInsect">
+	<ThingDef ParentName="AA_AlphaBaseInsect">
 		<defName>AA_Feralisk</defName>
 		<label>feralisk</label>
 		<description>Someone once thought that creating supersized spiders for synthread-web production was a good idea. Their home planet is now reduced to a Marble World; a world completely purged by atomic fire.\n\nFeralisks attack by throwing spider webs at their prey. These huge webs stun anyone they touch, allowing the Feralisk to close in and finish the kill with their fearsome venom laced fangs.</description>
@@ -231,7 +231,7 @@
 		</lifeStages>
 	</PawnKindDef>
 
-	<ThingDef ParentName="BaseInsect">
+	<ThingDef ParentName="AA_AlphaBaseInsect">
 		<defName>AA_FeraliskClutchMother</defName>
 		<label>feralisk clutch mother</label>
 		<description>Someone once thought that creating supersized spiders for synthread-web production was a good idea. Their home planet is now reduced to a Marble World; a world completely purged by atomic fire.\n\nFeralisks attack by throwing spider webs at their prey. These huge webs stun anyone they touch, allowing the Feralisk to close in and finish the kill with their fearsome venom laced fangs.\n\nThis Feralisk seems to be of much larger size than usual, and is carrying a clutch of eggs on its back. This sounds like a recipe for disaster if not dealt with quickly.</description>

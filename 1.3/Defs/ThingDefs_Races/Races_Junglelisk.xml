@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="BaseInsect">
+	<ThingDef ParentName="AA_AlphaBaseInsect">
 		<defName>AA_Junglelisk</defName>
 		<label>junglelisk</label>
 		<description>The Junglelisk is a mutant variation of the Feralisk, adapted to living in the deepest, darkest jungles of the Rim. Some even say that the Junglelisk is the original breed of Lisks from which all the others originate. They certainly reproduce fast enough for this to be the case, and female junglelisks can be fertilized once and store the genetic material to lay eggs for quite a long time.\n\nJunglelisks attack by throwing spider webs at their prey. These huge webs stun and cover with acid anyone they touch, allowing the Junglelisk to close in and finish the kill with their fearsome venom laced fangs.</description>

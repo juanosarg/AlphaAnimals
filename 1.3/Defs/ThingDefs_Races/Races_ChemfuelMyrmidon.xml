@@ -5,7 +5,7 @@
 
 
 
-	<ThingDef ParentName="BaseInsect">
+	<ThingDef ParentName="AA_AlphaBaseInsect">
 		<defName>AA_ChemfuelMyrmidon</defName>
 		<label>chemfuel myrmidon</label>
 		<description>This ant-like creature was created as a replacement for the ubiquitous boomalope. Chemfuel Myrmidons consume both meat and vegetables and ferment them into a powerful chemfuel mixture, which can be periodically extracted from the animal. Contrary to the Boomalope, Myrmidons are quite resistant to damage, specially damage caused by high temperatures. They are perfectly content living in red-hot semi liquid ground.\n\nUnfortunately, their irascible temperament didn't make them as popular as their more fragile predecessors.</description>

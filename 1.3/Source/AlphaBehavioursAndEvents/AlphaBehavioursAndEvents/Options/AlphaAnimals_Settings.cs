@@ -147,7 +147,7 @@ namespace AlphaBehavioursAndEvents
             ls.CheckboxLabeled("allowMechanoidSappers".Translate(), ref flagAlphaMechanoidsSappers, null);
 
             ls.Label("AA_AlphaAnimalSpawnMultiplier".Translate() + ": " + alphaAnimalSpawnMultiplier, -1, "AA_AlphaAnimalSpawnMultiplierTooltip".Translate());
-            alphaAnimalSpawnMultiplier = (float)Math.Round(ls.Slider(alphaAnimalSpawnMultiplier, 0.1f, 2f), 2);
+            alphaAnimalSpawnMultiplier = (float)Math.Round(ls.Slider(alphaAnimalSpawnMultiplier, 0.1f, 5f), 2);
 
             if (ls.Settings_Button("AA_Reset".Translate(), new Rect(0f, ls.CurHeight, 180f, 29f)))
             {

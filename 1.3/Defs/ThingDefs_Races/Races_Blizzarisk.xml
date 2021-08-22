@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="BaseInsect">
+	<ThingDef ParentName="AA_AlphaBaseInsect">
 		<defName>AA_Blizzarisk</defName>
 		<label>blizzarisk</label>
 
@@ -249,7 +249,7 @@
 		</lifeStages>
 	</PawnKindDef>
 
-	<ThingDef ParentName="BaseInsect">
+	<ThingDef ParentName="AA_AlphaBaseInsect">
 		<defName>AA_BlizzariskClutchMother</defName>
 		<label>blizzarisk clutch mother</label>
 		<description>Someone once thought that creating supersized spiders for hyperweave-webs production was a good idea. Their home planet is now reduced to a Marble World; a world completely purged by atomic fire. The Blizzarisk is a mutant variation of the Feralisk that has adapted to extremely cold climates\n\nBlizzarisks attack by throwing spider webs at their prey. These huge webs both stun and freeze anyone they touch, allowing the Blizzarisk to close in and finish the kill with their fearsome venom laced fangs.\n\nThis Blizzarisk seems to be of much larger size than usual, and is carrying a clutch of eggs on its back. This sounds like a recipe for disaster if not dealt with quickly.\n\nArt by Feroxiious (check her Instagram at https://www.instagram.com/feroxiious/).</description>

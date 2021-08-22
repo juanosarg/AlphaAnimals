@@ -5,7 +5,7 @@
 
 	<!-- ============================================================ -->
 
-	<ThingDef ParentName="BaseInsect">
+	<ThingDef ParentName="AA_AlphaBaseInsect">
 		<defName>AA_Barbslinger</defName>
 		<label>barbslinger</label>
 

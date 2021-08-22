@@ -185,7 +185,7 @@
 		</targetTags>
 		<workerClass>IncidentWorker_GiveQuest</workerClass>
 		<questScriptDef>AA_MimeWandererJoins</questScriptDef>
-		<baseChance>0.4</baseChance>
+		<baseChance>0.1</baseChance>
 		<pawnKind>Villager</pawnKind>
 		<populationEffect>IncreaseEasy</populationEffect>
 	</IncidentDef>

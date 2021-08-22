@@ -15,14 +15,14 @@
 				<li>
 					<def>AA_Nucleus</def>
 					<customLabel>nucleus</customLabel>
-					<coverage>0.2</coverage>
+					<coverage>0.01</coverage>
 					<depth>Inside</depth>
 				</li>
 				
 				<li>
 					<def>Head</def>
 					<customLabel>membrane</customLabel>
-					<coverage>0.05</coverage>
+					<coverage>0.2</coverage>
 					<depth>Inside</depth>
 				</li>
 				

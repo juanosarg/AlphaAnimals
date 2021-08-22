@@ -24,7 +24,8 @@ namespace AlphaBehavioursAndEvents
 
             if (animalDef.defName.Contains("AA_"))
             {
-                __result *= AlphaAnimalsEvents_Mod.settings.alphaAnimalSpawnMultiplier;
+                float TotalMultiplier = AlphaAnimalsEvents_Mod.settings.alphaAnimalSpawnMultiplier * 0.5f;
+                __result *= TotalMultiplier;
 
             }
             

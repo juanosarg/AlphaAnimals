@@ -5,7 +5,7 @@
 
 
 
-	<ThingDef ParentName="BaseInsect">
+	<ThingDef ParentName="AA_AlphaBaseInsect">
 		<defName>AA_Thermadon</defName>
 		<label>thermadon</label>
 		<description>The Thermadon is a large Blackspider that has been biologically augmented with volatile chemical glands. Originally, the Thermadon was bred by the long forgotten creators of the Black Hive as a fearsome fire-breathing shock trooper, using thermal grenades capable of affecting even fire-resistant Mechanoids, the primary objective of the Black Hive. Mechanoids however managed to adapt to these biological grenades quickly, and thus the Thermadon project was scrapped.\n\nApparently, some of them managed to escape into the wild.\n\nJust... don't attack this thing if your base is made of wood, mmkay?</description>
