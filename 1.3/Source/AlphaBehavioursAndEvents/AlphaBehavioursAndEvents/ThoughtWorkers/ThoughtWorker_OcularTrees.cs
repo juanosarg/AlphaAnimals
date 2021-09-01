@@ -28,9 +28,9 @@ namespace AlphaBehavioursAndEvents
             int numberOfOcularTrees = 0;
             if (p.Map != null) {
                 numberOfOcularTrees = p.Map.listerThings.ThingsOfDef(DefDatabase<ThingDef>.GetNamedSilentFail("AA_AlienTree")).Count;
-                if (DefDatabase<ThingDef>.GetNamedSilentFail("GU_AlienTree") != null)
+                if (DefDatabase<ThingDef>.GetNamedSilentFail("AB_AlienTree") != null)
                 {
-                    numberOfOcularTrees += p.Map.listerThings.ThingsOfDef(DefDatabase<ThingDef>.GetNamedSilentFail("GU_AlienTree")).Count;
+                    numberOfOcularTrees += p.Map.listerThings.ThingsOfDef(DefDatabase<ThingDef>.GetNamedSilentFail("AB_AlienTree")).Count;
 
                 }
             }
