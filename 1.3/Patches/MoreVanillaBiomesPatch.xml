@@ -501,7 +501,7 @@
 					<xpath>/Defs/ThingDef[defName="AA_Needlepost"]/race/wildBiomes</xpath>
 					<value>
 
-						<ZBiome_CoastalDunes>0.05/ZBiome_CoastalDunes>
+						<ZBiome_CoastalDunes>0.05</ZBiome_CoastalDunes>
 						<ZBiome_DesertOasis>0.1</ZBiome_DesertOasis>
 
 					</value>
@@ -879,56 +879,6 @@
 
 					</value>
 				</li>
-				
-
-				<!-- Caravan animals -->
-
-
-				<li Class="PatchOperationAdd"> 
-					<xpath>/Defs/BiomeDef[defName="AB_RockyCrags"]/allowedPackAnimals</xpath>
-					<value>
-
-						<li>AA_NightMule</li>
-						<li>AA_CrepuscularBeetle</li>
-
-					</value>
-				</li>
-				
-				<li Class="PatchOperationAdd"> 
-					<xpath>/Defs/BiomeDef[defName="AB_PyroclasticConflagration"]/allowedPackAnimals</xpath>
-					<value>
-
-						<li>AA_SpinedGow</li>
-						
-
-					</value>
-				</li>
-
-				<li Class="PatchOperationAdd"> 
-					<xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/pawnGroupMakers/li[kindDef="Trader"]/carriers</xpath>
-					<value>
-
-						<AA_NightMule>10</AA_NightMule>
-						<AA_CrepuscularBeetle>10</AA_CrepuscularBeetle>
-						<AA_SpinedGow>10</AA_SpinedGow>
-
-					</value>
-				</li>
-				<li Class="PatchOperationAdd"> 
-					<xpath>/Defs/FactionDef[@Name="TribeBase"]/pawnGroupMakers/li[kindDef="Trader"]/carriers</xpath>
-					<value>
-
-						<AA_NightMule>10</AA_NightMule>
-						<AA_CrepuscularBeetle>10</AA_CrepuscularBeetle>
-						<AA_SpinedGow>10</AA_SpinedGow>
-
-
-					</value>
-				</li>
-
-
-
-
 
 			</operations>
 		</match>
