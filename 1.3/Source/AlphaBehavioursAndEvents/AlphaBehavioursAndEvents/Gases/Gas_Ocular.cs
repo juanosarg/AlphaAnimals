@@ -31,14 +31,14 @@ namespace AlphaBehavioursAndEvents
                             bool flag = (plant != null);
                             if (flag)
                             {
-                               if (plant.IsTree && (current.def.defName != "GU_AlienTree")&& (current.def.defName != "AA_AlienTree") && (current.def.defName != "Plant_TreeAnima"))
+                               if (plant.IsTree && (current.def.defName != "GU_AlienTree")&& (current.def.defName != "AA_AlienTree") && (current.def.defName != "Plant_TreeAnima") && (current.def.defName != "Plant_TreeGauranlen"))
                                {
                                     Plant thing2 = (Plant)GenSpawn.Spawn(ThingDef.Named("AA_AlienTree"), this.Position, this.Map, WipeMode.Vanish);
                                     Plant thingToDestroy = (Plant)current;
                                     thing2.Growth = thingToDestroy.Growth;
                                     current.Destroy();
                                } else if (!plant.IsTree && (current.def.defName != "GU_AlienGrass")&&(current.def.defName != "GU_RedLeaves") && (current.def.defName != "GU_RedPlantsTall")
-                                    &&(current.def.defName != "AA_AlienGrass") && (current.def.defName != "AA_RedLeaves") && (current.def.defName != "AA_RedPlantsTall") && (current.def.defName != "Plant_GrassAnima")
+                                    &&(current.def.defName != "AA_AlienGrass") && (current.def.defName != "AA_RedLeaves") && (current.def.defName != "AA_RedPlantsTall") && (current.def.defName != "Plant_GrassAnima") && (current.def.defName != "Plant_MossGauranlen")
                                     )
                                 {
                                     if (rand.NextDouble() < 0.4)

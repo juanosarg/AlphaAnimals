@@ -8,7 +8,7 @@
 		<label>lockjaw</label>
 
 
-		<description>A very large animal native to this planet’s tropical regions. Nicknamed Lockjaws both for their incredibly strong bite force and for the disease they transmit, which afflicts its victims with a moderate facial paralysis that makes eating extremely uncomfortable.\n\nDespite having a guillotine for a mouth, the Lockjaw does not seem to be an overly aggressive creature; Preferring to prey on the local wildlife rather than the local populace.</description>
+		<description>A very large animal native to this planet’s tropical regions. Nicknamed Lockjaws both for their incredibly strong bite force and for the disease they transmit, which afflicts its victims with a moderate facial paralysis that makes eating extremely uncomfortable.\n\nDespite having a guillotine for a mouth, the Lockjaw does not seem to be an overly aggressive creature; Preferring to prey on the local wildlife rather than the local populace.\n\nArt by Feroxiious (check her Instagram at https://www.instagram.com/feroxiious/).</description>
 		<statBases>
 			<MoveSpeed>3.00</MoveSpeed>
 			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
@@ -102,7 +102,8 @@
 					<li>AA_ParalyzingShockTroopDesc</li>
 					<li>AA_NoRanged</li>
 				</statDescriptions>
-
+				<showImageInInfoCard>true</showImageInInfoCard>
+				<ImageToShowInInfoCard>Art/AA_LockJawArt</ImageToShowInInfoCard>
 			</li>
 		</modExtensions>
 	</ThingDef>

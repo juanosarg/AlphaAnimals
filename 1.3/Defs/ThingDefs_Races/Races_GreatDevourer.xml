@@ -6,7 +6,7 @@
 		<label>great devourer</label>
 
 
-		<description>Great Devourers are armoured worms known for their unquenchable appetite. Once a Great Devourer arrives, it will proceed to gorge itself on small prey, and total ecosystem collapse is almost a certainty.\n\nLuckily, they won't attack large creatures, including humans, unless provoked. Their whole name is in fact a pun, since they are not very resilient and are easily dispatched. They have however slow regenerative capabilities.</description>
+		<description>Great Devourers are armoured worms known for their unquenchable appetite. Once a Great Devourer arrives, it will proceed to gorge itself on small prey, and total ecosystem collapse is almost a certainty.\n\nLuckily, they won't attack large creatures, including humans, unless provoked. Their whole name is in fact a pun, since they are not very resilient and are easily dispatched. They have however slow regenerative capabilities.\n\nArt by Feroxiious (check her Instagram at https://www.instagram.com/feroxiious/).</description>
 		<statBases>
 			<MoveSpeed>2.8</MoveSpeed>
 			<ComfyTemperatureMin>-5</ComfyTemperatureMin>
@@ -126,7 +126,8 @@
 					<li>AA_RegeneratingShockTroopDesc</li>
 					<li>AA_NoRanged</li>
 				</statDescriptions>
-
+				<showImageInInfoCard>true</showImageInInfoCard>
+				<ImageToShowInInfoCard>Art/AA_GreatDevourerArt</ImageToShowInInfoCard>
 			</li>
 		</modExtensions>
 	</ThingDef>

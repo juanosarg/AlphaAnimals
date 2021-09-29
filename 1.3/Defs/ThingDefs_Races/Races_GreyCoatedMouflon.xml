@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_GreyCoatedMouflon</defName>
 		<label>Grey-Coated Mouflon</label>
-		<description>The Grey-Coated Mouflon (Ovis Cinerea) is a genetically modified variant of wild sheep that produces a thick grey wool that acts as a great insulator. This isn't however their most interesting ability: Grey-Coated Mouflons were created with a specialized organ capable of amplifying human brainwaves, acting as a biological psychic harmonizer.\n\nIf the Mouflon is happy, meaning not feeling hunger or pain, it will provide a mood bonus to nearby human beings. However, if the Mouflon is somehow suffering it will psychically affect everyone around it.</description>
+		<description>The Grey-Coated Mouflon (Ovis Cinerea) is a genetically modified variant of wild sheep that produces a thick grey wool that acts as a great insulator. This isn't however their most interesting ability: Grey-Coated Mouflons were created with a specialized organ capable of amplifying human brainwaves, acting as a biological psychic harmonizer.\n\nIf the Mouflon is happy, meaning not feeling hunger or pain, it will provide a mood bonus to nearby human beings. However, if the Mouflon is somehow suffering it will psychically affect everyone around it.\n\nArt by Feroxiious (check her Instagram at https://www.instagram.com/feroxiious/).</description>
 		<statBases>
 			<MoveSpeed>2</MoveSpeed>
 			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
@@ -145,7 +145,8 @@
 					<li>AA_UtilityMoodDesc</li>
 					<li>AA_NoRanged</li>
 				</statDescriptions>
-
+				<showImageInInfoCard>true</showImageInInfoCard>
+				<ImageToShowInInfoCard>Art/AA_GreyCoatedMouflonArt</ImageToShowInInfoCard>
 			</li>
 		</modExtensions>
 	</ThingDef>

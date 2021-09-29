@@ -3,7 +3,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_Darkbeast</defName>
 		<label>darkbeast</label>
-		<description>The darkbeast is a mechanoid-infused variant of the thunderbeast, in which the bioelectric organs have been removed and replaced with metallic spikes housing a distributed cloud of sun-blocking mechanites.\n\nThese deployable mechanite clouds can cover a huge region, blanketing it in darkness, and it is thought that the darkbeast was created as a terrorist weapon that attacks settlements by depriving them of sunlight, affecting their agricultural yields. Darkbeasts have naturally evolved over the centuries making them extremely unstable, and they will only release enough mechanites upon death. Thankfully, predators usually give them a wide berth.</description>
+		<description>The darkbeast is a mechanoid-infused variant of the thunderbeast, in which the bioelectric organs have been removed and replaced with metallic spikes housing a distributed cloud of sun-blocking mechanites.\n\nThese deployable mechanite clouds can cover a huge region, blanketing it in darkness, and it is thought that the darkbeast was created as a terrorist weapon that attacks settlements by depriving them of sunlight, affecting their agricultural yields. Darkbeasts have naturally evolved over the centuries making them extremely unstable, and they will only release enough mechanites upon death. Thankfully, predators usually give them a wide berth.\n\nArt by Feroxiious (check her Instagram at https://www.instagram.com/feroxiious/).</description>
 		<statBases>
 			<MoveSpeed>4.00</MoveSpeed>
 			<ComfyTemperatureMin>-80</ComfyTemperatureMin>
@@ -137,6 +137,8 @@
 					<li>AA_DamageRangedFireDesc</li>
 					<li>AA_Ranged</li>
 				</statDescriptions>
+				<showImageInInfoCard>true</showImageInInfoCard>
+				<ImageToShowInInfoCard>Art/AA_DarkbeastArt</ImageToShowInInfoCard>
 			</li>
 		</modExtensions>
 	</ThingDef>

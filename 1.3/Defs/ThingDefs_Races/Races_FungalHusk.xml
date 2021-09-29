@@ -4,7 +4,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_FungalHusk</defName>
 		<label>fungal husk</label>
-		<description>A bloated, shambling corpse animated by a genetically modified strain of caterpillar fungus, used as a biological weapon.\n\nFungal husks serve as ambulatory delivery systems for the fungus, attempting to reach and maul any living animals nearby to spread the fungal infection. This infection is extremely virulent, able to kill a human being in a few hours. However, it is very easy to treat, and it will be kept contained and disappear as long as a medic treats it fast and with a decent treatment quality. Luckily, the fungus has mutated from its original weaponized effects, and a person or animal dying from the infection won't transform into another fungal husk.</description>		
+		<description>A bloated, shambling corpse animated by a genetically modified strain of caterpillar fungus, used as a biological weapon.\n\nFungal husks serve as ambulatory delivery systems for the fungus, attempting to reach and maul any living animals nearby to spread the fungal infection. This infection is extremely virulent, able to kill a human being in a few hours. However, it is very easy to treat, and it will be kept contained and disappear as long as a medic treats it fast and with a decent treatment quality. Luckily, the fungus has mutated from its original weaponized effects, and a person or animal dying from the infection won't transform into another fungal husk.\n\nArt by Feroxiious (check her Instagram at https://www.instagram.com/feroxiious/).</description>		
 		<statBases>
 			<MoveSpeed>4.6</MoveSpeed>
 			<ComfyTemperatureMin>-100</ComfyTemperatureMin>
@@ -135,7 +135,8 @@
 					
 					<li>AA_NoRanged</li>
 				</statDescriptions>
-
+				<showImageInInfoCard>true</showImageInInfoCard>
+				<ImageToShowInInfoCard>Art/AA_FungalHuskArt</ImageToShowInInfoCard>
 			</li>
 		</modExtensions>
 		

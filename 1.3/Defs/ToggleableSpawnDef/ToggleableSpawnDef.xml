@@ -31,6 +31,7 @@
 			<li>AA_CrystallineCaracal</li>
 			<li>AA_Darkbeast</li>
 			<li>AA_DecayDrake</li>
+			<li>AA_DevilSheep</li>
 			<li>AA_DesertAve</li>
 			<li>AA_Drainer</li>
 			<li>AA_DrainerLarva</li>
@@ -38,7 +39,9 @@
 			<li>AA_DuskRat</li>
 			<li>AA_EmpressButterflyLarva</li>
 			<li>AA_EmpressButterfly</li>
+			<li>AA_EngorgedTentacularAberration</li>
 			<li>AA_Erin</li>
+			<li>AA_Eyeling</li>
 			<li>AA_Feralisk</li>
 			<li>AA_FireWasp</li>
 			<li>AA_FissionMouse</li>
@@ -75,7 +78,9 @@
 			<li>AA_NightRam</li>
 			<li>AA_Nightling</li>
 			<li>AA_OcularJelly</li>
+			<li>AA_OcularNightling</li>
 			<li>AA_OvergrownColossus</li>
+			<li>AA_UnblinkingEye</li>
 			<li>AA_PebbleMit</li>
 			<li>AA_PedigreedRaptor</li>
 			<li>AA_PhoenixOwlcat</li>		

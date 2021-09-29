@@ -4,7 +4,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_FissionMouse</defName>
 		<label>fission mouse</label>
-		<description>Even though this creature is usually called a mouse, it has more traits in common with the banner-tailed kangaroo rat, such as a jumping bipedal locomotion.\n\nThe fission mouse is yet another example of human genetic engineering gone terribly wrong. Presumably, the objective was to make the mice more useful as laboratory animals by increasing their resistance and longevity. The unexpected result is a sterile creature with neither attribute, but a really strange side effect: when the animal dies, three duplicates are created, sharing all memories of its parent.\n\nRapid successive fission events are also harmful to the creature itself. If less than a few years pass between events, the mouse eventually perishes, unable to sustain its life cycle.</description>
+		<description>Even though this creature is usually called a mouse, it has more traits in common with the banner-tailed kangaroo rat, such as a jumping bipedal locomotion.\n\nThe fission mouse is yet another example of human genetic engineering gone terribly wrong. Presumably, the objective was to make the mice more useful as laboratory animals by increasing their resistance and longevity. The unexpected result is a sterile creature with neither attribute, but a really strange side effect: when the animal dies, three duplicates are created, sharing all memories of its parent.\n\nRapid successive fission events are also harmful to the creature itself. If less than a few years pass between events, the mouse eventually perishes, unable to sustain its life cycle.\n\nArt by Feroxiious (check her Instagram at https://www.instagram.com/feroxiious/).</description>
 		<statBases>
 			<MoveSpeed>5</MoveSpeed>
 			<MarketValue>35</MarketValue>
@@ -118,6 +118,8 @@
 					<li>AA_PestDesc</li>
 					<li>AA_NoRanged</li>
 				</statDescriptions>
+				<showImageInInfoCard>true</showImageInInfoCard>
+				<ImageToShowInInfoCard>Art/AA_FissionMouseArt</ImageToShowInInfoCard>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -163,7 +165,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_FissionMouseSecond</defName>
 		<label>fission mouse, second generation</label>
-		<description>Even though this creature is usually called a mouse, it has more traits in common with the banner-tailed kangaroo rat, such as a jumping bipedal locomotion.\n\nThe fission mouse is yet another example of human genetic engineering gone terribly wrong. Presumably, the objective was to make the mice more useful as laboratory animals by increasing their resistance and longevity. The unexpected result is a sterile creature with neither attribute, but a really unexpected side effect: when the animal dies, three duplicates are created, sharing all memories of its parent.\n\nRapid successive fission events are also harmful to the creature itself. If less than a few years pass between events, the mouse eventually perishes, unable to sustain its life cycle.\n\nThis fission mouse is of second generation, indicating the fission process has happened once recently, making it weaker.</description>
+		<description>Even though this creature is usually called a mouse, it has more traits in common with the banner-tailed kangaroo rat, such as a jumping bipedal locomotion.\n\nThe fission mouse is yet another example of human genetic engineering gone terribly wrong. Presumably, the objective was to make the mice more useful as laboratory animals by increasing their resistance and longevity. The unexpected result is a sterile creature with neither attribute, but a really unexpected side effect: when the animal dies, three duplicates are created, sharing all memories of its parent.\n\nRapid successive fission events are also harmful to the creature itself. If less than a few years pass between events, the mouse eventually perishes, unable to sustain its life cycle.\n\nThis fission mouse is of second generation, indicating the fission process has happened once recently, making it weaker.\n\nArt by Feroxiious (check her Instagram at https://www.instagram.com/feroxiious/).</description>
 		<statBases>
 			<MoveSpeed>4.5</MoveSpeed>
 			<MarketValue>35</MarketValue>
@@ -255,6 +257,8 @@
 					<li>AA_PestDesc</li>
 					<li>AA_NoRanged</li>
 				</statDescriptions>
+				<showImageInInfoCard>true</showImageInInfoCard>
+				<ImageToShowInInfoCard>Art/AA_FissionMouseArt</ImageToShowInInfoCard>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -280,7 +284,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_FissionMouseThird</defName>
 		<label>fission mouse, third generation</label>
-		<description>Even though this creature is usually called a mouse, it has more traits in common with the banner-tailed kangaroo rat, such as a jumping bipedal locomotion.\n\nThe fission mouse is yet another example of human genetic engineering gone terribly wrong. Presumably, the objective was to make the mice more useful as laboratory animals by increasing their resistance and longevity. The unexpected result is a sterile creature with neither attribute, but a really unexpected side effect: when the animal dies, three duplicates are created, sharing all memories of its parent.\n\nRapid successive fission events are also harmful to the creature itself. If less than a few years pass between events, the mouse eventually perishes, unable to sustain its life cycle.\n\nThis fission mouse is of third generation, indicating the fission process has happened twice recently, making it weaker. A third fission event will probably kill the creature for good.</description>
+		<description>Even though this creature is usually called a mouse, it has more traits in common with the banner-tailed kangaroo rat, such as a jumping bipedal locomotion.\n\nThe fission mouse is yet another example of human genetic engineering gone terribly wrong. Presumably, the objective was to make the mice more useful as laboratory animals by increasing their resistance and longevity. The unexpected result is a sterile creature with neither attribute, but a really unexpected side effect: when the animal dies, three duplicates are created, sharing all memories of its parent.\n\nRapid successive fission events are also harmful to the creature itself. If less than a few years pass between events, the mouse eventually perishes, unable to sustain its life cycle.\n\nThis fission mouse is of third generation, indicating the fission process has happened twice recently, making it weaker. A third fission event will probably kill the creature for good.\n\nArt by Feroxiious (check her Instagram at https://www.instagram.com/feroxiious/).</description>
 		<statBases>
 			<MoveSpeed>4</MoveSpeed>
 			<MarketValue>35</MarketValue>
@@ -371,6 +375,8 @@
 					<li>AA_PestDesc</li>
 					<li>AA_NoRanged</li>
 				</statDescriptions>
+				<showImageInInfoCard>true</showImageInInfoCard>
+				<ImageToShowInInfoCard>Art/AA_FissionMouseArt</ImageToShowInInfoCard>
 			</li>
 		</modExtensions>
 	</ThingDef>

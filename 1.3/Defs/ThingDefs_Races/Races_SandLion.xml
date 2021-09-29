@@ -166,6 +166,7 @@
 		<combatPower>300</combatPower>
 		<ecoSystemWeight>0.5</ecoSystemWeight>
 		<alternateGraphicChance>1</alternateGraphicChance>
+		<canArriveManhunter>false</canArriveManhunter>
 		<alternateGraphics>
 			<li>
 				<texPath>Things/Pawn/Animal/AA_SandLion/AA_SandLion</texPath>

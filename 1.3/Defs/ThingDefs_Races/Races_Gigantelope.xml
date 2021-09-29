@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_Gigantelope</defName>
 		<label>gigantelope</label>
-		<description>Gigantelopes were once designed as bigger, more powerful variants of the muffalo. An ideal pack beast that carries more weight than their body mass would usually allow. While they are mammals, Gigantelopes have pneumatized bones, meaning they have hollow spaces within them: pneumatized bones are strong, dense and sturdy without being heavy.\n\nThe gigantelope has a variable carrying capacity, set by their genome at birth, and colonies around the Rim have been breeding gigantelopes for decades to achieve the perfect specimen.</description>
+		<description>Gigantelopes were once designed as bigger, more powerful variants of the muffalo. An ideal pack beast that carries more weight than their body mass would usually allow. While they are mammals, Gigantelopes have pneumatized bones, meaning they have hollow spaces within them: pneumatized bones are strong, dense and sturdy without being heavy.\n\nThe gigantelope has a variable carrying capacity, set by their genome at birth, and colonies around the Rim have been breeding gigantelopes for decades to achieve the perfect specimen.\n\nArt by Feroxiious (check her Instagram at https://www.instagram.com/feroxiious/).</description>
 		<statBases>
 			<MoveSpeed>4.5</MoveSpeed>
 			<ComfyTemperatureMin>-15</ComfyTemperatureMin>
@@ -142,6 +142,8 @@
 					<li>AA_PackAnimalDesc</li>
 					<li>AA_NoRanged</li>
 				</statDescriptions>
+				<showImageInInfoCard>true</showImageInInfoCard>
+				<ImageToShowInInfoCard>Art/AA_GigantelopeArt</ImageToShowInInfoCard>
 
 			</li>
 		</modExtensions>

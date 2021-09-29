@@ -7,7 +7,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_Helixien</defName>
 		<label>helixien</label>
-		<description>The Helixien Slug is a genetically modified strain of the Leopard Slug, intended as a fast corpse disposal aid. Aside from the obvious size alteration, the Helixien constantly secretes a foul-smelling, corrosive gas that produces an uncomfortable, itchy sensation in living beings. This gas is mostly harmless, unless it comes into contact with decaying organic matter: it greatly accelerates corpse rotting, liberating a black putrid liquid known as "purge fluid" or corpse bile. The helixien happily feeds on this liquid sludge, although it can also feed on other organic matter if needed.\n\nThe sight of a Helixien Slug is quite revolting, and watching one wallowing in a pile of human corpses is, to say the least, a deeply traumatizing experience.</description>
+		<description>The Helixien Slug is a genetically modified strain of the Leopard Slug, intended as a fast corpse disposal aid. Aside from the obvious size alteration, the Helixien constantly secretes a foul-smelling, corrosive gas that produces an uncomfortable, itchy sensation in living beings. This gas is mostly harmless, unless it comes into contact with decaying organic matter: it greatly accelerates corpse rotting, liberating a black putrid liquid known as "purge fluid" or corpse bile. The helixien happily feeds on this liquid sludge, although it can also feed on other organic matter if needed.\n\nThe sight of a Helixien Slug is quite revolting, and watching one wallowing in a pile of human corpses is, to say the least, a deeply traumatizing experience.\n\nArt by Feroxiious (check her Instagram at https://www.instagram.com/feroxiious/).</description>
 		<statBases>
 			<MoveSpeed>0.6</MoveSpeed>
 			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
@@ -131,7 +131,8 @@
 					<li>AA_UtilityWorkerDesc</li>
 					<li>AA_NoRanged</li>
 				</statDescriptions>
-
+				<showImageInInfoCard>true</showImageInInfoCard>
+				<ImageToShowInInfoCard>Art/AA_HelixienArt</ImageToShowInInfoCard>
 			</li>
 		</modExtensions>
 	</ThingDef>

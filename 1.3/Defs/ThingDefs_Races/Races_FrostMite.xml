@@ -7,7 +7,7 @@
 		<defName>AA_Frostmite</defName>
 		<label>frostmite</label>
 
-		<description>A large parasite usually found in cold places. They sweep the cold barren lands in search of corpses buried in the snow, eating the preserved flesh and leaving a ravaged skeleton in its place; devoid of their former identity.</description>
+		<description>A large parasite usually found in cold places. They sweep the cold barren lands in search of corpses buried in the snow, eating the preserved flesh and leaving a ravaged skeleton in its place; devoid of their former identity.\n\nArt by Feroxiious (check her Instagram at https://www.instagram.com/feroxiious/).</description>
 		<statBases>
 			<MoveSpeed>6.00</MoveSpeed>
 			<ComfyTemperatureMin>-80</ComfyTemperatureMin>
@@ -132,6 +132,8 @@
 					<li>AA_PestDesc</li>
 					<li>AA_NoRanged</li>
 				</statDescriptions>
+				<showImageInInfoCard>true</showImageInInfoCard>
+				<ImageToShowInInfoCard>Art/AA_FrostmiteArt</ImageToShowInInfoCard>
 
 			</li>
 		</modExtensions>

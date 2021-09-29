@@ -5,7 +5,7 @@
 		<defName>AA_DesertAve</defName>
 		<label>desert ave</label>
 
-		<description>The Desert Ave is a large flightless bird adapted to living in very arid terrains. Large bony plates cover its neck, giving it a much needed defense both from predators and from the scalding heat of the desert sun. Compared to their more common Meadow Ave relatives, Desert Aves are less temperamental, but their slightly smaller size makes them less useful as pack animals.\n\nDesert Aves are amazing mounts, much faster than horses, and if properly trained they can be ridden into battle at incredible speeds (this interaction needs the Giddy-Up, combat mounts mod, and it will make the Desert Aves move 50% faster when used as mounts).</description>
+		<description>The Desert Ave is a large flightless bird adapted to living in very arid terrains. Large bony plates cover its neck, giving it a much needed defense both from predators and from the scalding heat of the desert sun. Compared to their more common Meadow Ave relatives, Desert Aves are less temperamental, but their slightly smaller size makes them less useful as pack animals.\n\nDesert Aves are amazing mounts, much faster than horses, and if properly trained they can be ridden into battle at incredible speeds (this interaction needs the Giddy-Up, combat mounts mod, and it will make the Desert Aves move 50% faster when used as mounts).\n\nArt by Feroxiious (check her Instagram at https://www.instagram.com/feroxiious/).</description>
 		<statBases>
 			<MoveSpeed>7.0</MoveSpeed>
 			<ComfyTemperatureMin>0</ComfyTemperatureMin>
@@ -151,7 +151,8 @@
 					<li>AA_MountFastDesc</li>
 					<li>AA_NoRanged</li>
 				</statDescriptions>
-
+				<showImageInInfoCard>true</showImageInInfoCard>
+				<ImageToShowInInfoCard>Art/AA_DesertAveArt</ImageToShowInInfoCard>
 			</li>
 		</modExtensions>
 	</ThingDef>

@@ -4,7 +4,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_FrostAve</defName>
 		<label>frost ave</label>
-		<description>The Frost Ave is a large flightless bird adapted to living in very cold terrains. A dense plumage covers all its body, keeping it warm and protected from intense winds. Compared to their more common Meadow Ave relatives, Frost Aves are ovoviviparous, a mode of reproduction in which embryos develop inside eggs that remain in the mother's body until they are ready to hatch. They are slightly larger than Meadow Aves\n\nFrost Aves are amazing mounts, much faster than horses, and if properly trained they can be ridden into battle at incredible speeds (this interaction needs the Giddy-Up, combat mounts mod, and it will make the Frost Aves move 50% faster when used as mounts).</description>
+		<description>The Frost Ave is a large flightless bird adapted to living in very cold terrains. A dense plumage covers all its body, keeping it warm and protected from intense winds. Compared to their more common Meadow Ave relatives, Frost Aves are ovoviviparous, a mode of reproduction in which embryos develop inside eggs that remain in the mother's body until they are ready to hatch. They are slightly larger than Meadow Aves\n\nFrost Aves are amazing mounts, much faster than horses, and if properly trained they can be ridden into battle at incredible speeds (this interaction needs the Giddy-Up, combat mounts mod, and it will make the Frost Aves move 50% faster when used as mounts).\n\nArt by Feroxiious (check her Instagram at https://www.instagram.com/feroxiious/).</description>
 		<statBases>
 			<MoveSpeed>7.0</MoveSpeed>
 			<ComfyTemperatureMin>-75</ComfyTemperatureMin>
@@ -146,7 +146,8 @@
 					<li>AA_MountFastDesc</li>
 					<li>AA_NoRanged</li>
 				</statDescriptions>
-
+				<showImageInInfoCard>true</showImageInInfoCard>
+				<ImageToShowInInfoCard>Art/AA_FrostAveArt</ImageToShowInInfoCard>
 			</li>
 		</modExtensions>
 	</ThingDef>

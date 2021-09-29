@@ -4,7 +4,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_DrainerLarva</defName>									
 		<label>drainer larva</label>
-		<description>A mostly harmless, cat-sized lepidopteran with brightly coloured wings. Drainers were originally blue morpho butterflies that mutated due to exposure to high levels of radiation in some wretched planet of the Rim. Though they can feed on grass if there is no other food available, they are actually electrovores, feeding on any available source of electricity. Unfortunately for colonies on the Rim, this means batteries...\n\nDrainers undergo metamorphosis like most other lepidopterans, though their larval stage is pretty short, and doesn't have the energy draining abilities of the adults.</description>
+		<description>A mostly harmless, cat-sized lepidopteran with brightly coloured wings. Drainers were originally blue morpho butterflies that mutated due to exposure to high levels of radiation in some wretched planet of the Rim. Though they can feed on grass if there is no other food available, they are actually electrovores, feeding on any available source of electricity. Unfortunately for colonies on the Rim, this means batteries...\n\nDrainers undergo metamorphosis like most other lepidopterans, though their larval stage is pretty short, and doesn't have the energy draining abilities of the adults.\n\nArt by Feroxiious (check her Instagram at https://www.instagram.com/feroxiious/).</description>
 		<statBases>
 			<MoveSpeed>1.2</MoveSpeed>
 			<MarketValue>15</MarketValue>
@@ -99,7 +99,8 @@
 					<li>AA_LarvaDesc</li>
 					<li>AA_NoRanged</li>
 				</statDescriptions>
-
+				<showImageInInfoCard>true</showImageInInfoCard>
+				<ImageToShowInInfoCard>Art/AA_DrainerLarvaArt</ImageToShowInInfoCard>
 			</li>
 		</modExtensions>
 	</ThingDef>
@@ -133,7 +134,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_Drainer</defName>
 		<label>drainer</label>
-		<description>A mostly harmless, cat-sized lepidopteran with brightly coloured wings. Drainers were originally blue morpho butterflies that mutated due to exposure to high levels of radiation in some wretched planet of the Rim. Though they can feed on grass if there is no other food available, they are actually electrovores, feeding on any available source of electricity. Unfortunately for colonies on the Rim, this means batteries...\n\nDrainers undergo metamorphosis like most other lepidopterans, though their larval stage is pretty short, and doesn't have the energy draining abilities of the adults.</description>
+		<description>A mostly harmless, cat-sized lepidopteran with brightly coloured wings. Drainers were originally blue morpho butterflies that mutated due to exposure to high levels of radiation in some wretched planet of the Rim. Though they can feed on grass if there is no other food available, they are actually electrovores, feeding on any available source of electricity. Unfortunately for colonies on the Rim, this means batteries...\n\nDrainers undergo metamorphosis like most other lepidopterans, though their larval stage is pretty short, and doesn't have the energy draining abilities of the adults.\n\nArt by Feroxiious (check her Instagram at https://www.instagram.com/feroxiious/).</description>
 		<statBases>
 			<MoveSpeed>3</MoveSpeed>
 			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
@@ -271,7 +272,8 @@
 					<li>AA_PestDesc</li>
 					<li>AA_NoRanged</li>
 				</statDescriptions>
-
+				<showImageInInfoCard>true</showImageInInfoCard>
+				<ImageToShowInInfoCard>Art/AA_DrainerArt</ImageToShowInInfoCard>
 			</li>
 		</modExtensions>
 	</ThingDef>

@@ -3,7 +3,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_MammothWorm</defName>
 		<label>Mammoth Worm</label>
-		<description>An extremely large, genetically-engineered worm. Despite its incredibly intimidating size and arsenal, these huge creatures are rather quite peaceful. It was once part of the worker caste of an artificial ecosystem of insectoids designed to fight mechanoid invasions. It carried and moved things that its little cousins cannot.\n\nWhile generally peaceful, if provoked, it becomes a terrifying force that can rival those of mechanoid Centipedes.\n\nOriginally, the Mammoth Worm was specifically bred as a living siege engine to destroy mechanoid structures, and as such it can be extremely effective.\n\nMammoth Worms are also pretty good mounts, they will move slightly faster when mounted, and shrug off incoming projectiles (this interaction needs the Giddy-Up, combat mounts mod, and it will make the Mammoth Worm move 25% faster when used as mounts and increase their armor by 50%).</description>
+		<description>An extremely large, genetically-engineered worm. Despite its incredibly intimidating size and arsenal, these huge creatures are rather quite peaceful. It was once part of the worker caste of an artificial ecosystem of insectoids designed to fight mechanoid invasions. It carried and moved things that its little cousins cannot.\n\nWhile generally peaceful, if provoked, it becomes a terrifying force that can rival those of mechanoid Centipedes.\n\nOriginally, the Mammoth Worm was specifically bred as a living siege engine to destroy mechanoid structures, and as such it can be extremely effective.\n\nMammoth Worms are also pretty good mounts, they will move slightly faster when mounted, and shrug off incoming projectiles (this interaction needs the Giddy-Up, combat mounts mod, and it will make the Mammoth Worm move 25% faster when used as mounts and increase their armor by 50%).\n\nArt by Feroxiious (check her Instagram at https://www.instagram.com/feroxiious/).</description>
 		<statBases>
 			<MoveSpeed>2.0</MoveSpeed>
 			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
@@ -123,7 +123,8 @@
 					<li>AA_MountArmouredDesc</li>
 					<li>AA_NoRanged</li>
 				</statDescriptions>
-
+				<showImageInInfoCard>true</showImageInInfoCard>
+				<ImageToShowInInfoCard>Art/AA_MammothWormArt</ImageToShowInInfoCard>
 			</li>
 		</modExtensions>
 	</ThingDef>
