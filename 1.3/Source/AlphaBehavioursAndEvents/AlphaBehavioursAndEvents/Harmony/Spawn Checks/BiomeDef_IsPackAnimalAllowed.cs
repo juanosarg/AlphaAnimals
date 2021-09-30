@@ -10,7 +10,7 @@ namespace AlphaBehavioursAndEvents
         [HarmonyPostfix]
         public static void Listener(ThingDef pawn, ref bool __result)
         {
-            if (SpawnFilterPatchUtility.ShouldBeFiltered(pawn.defName))
+            if (pawn != null && SpawnFilterPatchUtility.ShouldBeFiltered(pawn.defName))
                 __result = false;
         }
     }
