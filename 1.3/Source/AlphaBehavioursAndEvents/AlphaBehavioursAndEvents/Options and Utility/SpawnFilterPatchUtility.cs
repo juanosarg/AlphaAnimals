@@ -10,6 +10,9 @@ namespace AlphaBehavioursAndEvents
     {
         public static bool ShouldBeFiltered(string defName)
         {
+            if (defName == null)
+                return false;
+
             if (defName == "AA_Skyeel" || defName == "AA_SkyeelRavenous") // Either this or additional switches for these
                 return AlphaAnimalsEvents_Mod.settings.flagAsteroids;
 
