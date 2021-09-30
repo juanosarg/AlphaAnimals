@@ -4,7 +4,7 @@ using Verse;
 
 namespace AlphaBehavioursAndEvents
 {
-    [HarmonyPatch(typeof(StockGenerator_Animals)), HarmonyPatch("PawnKindAllowed")]
+  /*  [HarmonyPatch(typeof(StockGenerator_Animals)), HarmonyPatch("PawnKindAllowed")]
     class TraderFilter
     {
         [HarmonyPostfix]
@@ -15,5 +15,5 @@ namespace AlphaBehavioursAndEvents
             if (kind != null && SpawnFilterPatchUtility.ShouldBeFiltered(kind.defName))
                 __result = false;
         }
-    }
+    }*/
 }
