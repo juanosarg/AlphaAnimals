@@ -187,7 +187,7 @@
 	<ThingDef ParentName="DryadBase">
 		<defName>AA_Dryad_Unstable</defName>
 		<label>unstable dryad</label>
-		<description>A dangerous dryad caste that will ecplode with acid when dead. They can be commanded to explode... for the good of the tree.\n\nIn general, dryads are mammal-like creatures that have a symbiotic relationship with the Gauranlen tree. They reproduce together with their tree, which contains a hidden dryad queen. Dryads can morph into various specialized castes.</description>
+		<description>A dangerous dryad caste that will explode with acid when dead. They can be commanded to explode... for the good of the tree.\n\nIn general, dryads are mammal-like creatures that have a symbiotic relationship with the Gauranlen tree. They reproduce together with their tree, which contains a hidden dryad queen. Dryads can morph into various specialized castes.</description>
 		<statBases>
 			<MoveSpeed>3.2</MoveSpeed>
 
