@@ -138,6 +138,29 @@
 			<speed>30</speed>
 		</projectile>
 	</ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>AA_WindBolt</defName>
+		<label>wind blast</label>
+		
+		<graphicData>
+		<drawSize>3</drawSize>
+			<graphicClass>Graphic_MotePulse</graphicClass>
+      <texPath>Things/Mote/PsychicConditionCauserMask</texPath>
+      <shaderType>MotePsychicConditionCauser</shaderType>
+			<shaderParameters>
+        <_distortionIntensity>0.015</_distortionIntensity>
+        <_brightnessMultiplier>1.1</_brightnessMultiplier>
+        <_distortionScale>40</_distortionScale>
+      </shaderParameters>
+		</graphicData>
+		<projectile>
+			<flyOverhead>false</flyOverhead>
+			<damageDef>Blunt</damageDef>
+			<damageAmountBase>25</damageAmountBase>
+			<speed>20</speed>
+		</projectile>
+	</ThingDef>
 
 	<ThingDef ParentName="BaseBullet">
 		<defName>AA_Quill</defName>

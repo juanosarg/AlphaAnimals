@@ -315,6 +315,7 @@
     <Compile Include="Comps\CompTargetable_Ground.cs" />
     <Compile Include="Comps\CompUpdateRoomStats.cs" />
     <Compile Include="DeathActionWorkers\DeathActionWorker_SummonEclipse.cs" />
+    <Compile Include="DeathActionWorkers\DeathActionWorker_SummonTornado.cs" />
     <Compile Include="Debug\FixedColonyAnimalsDebug.cs" />
     <Compile Include="Def\ToggleableSpawnDef.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_Berserk.cs" />
