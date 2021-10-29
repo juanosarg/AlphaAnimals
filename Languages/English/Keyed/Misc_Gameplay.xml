@@ -217,6 +217,7 @@
 	<AA_FarmWoolDesc>This is a farm animal that produces wool / textiles.</AA_FarmWoolDesc>
 	<AA_FarmChemfuelDesc>This is a farm animal that produces chemfuel.</AA_FarmChemfuelDesc>
 	<AA_FarmWoolAndMilkDesc>This is a farm animal that produces wool / textiles and milk.</AA_FarmWoolAndMilkDesc>
+	<AA_FarmWoolAndEggsDesc>This is a farm animal that produces wool / textiles and eggs.</AA_FarmWoolAndEggsDesc>
 	<AA_FarmBuildingAndMilkDesc>This is a farm animal that produces building materials and milk.</AA_FarmBuildingAndMilkDesc>
 	<AA_FarmBuildingDesc>This is a farm animal that produces building materials.</AA_FarmBuildingDesc>
 	<AA_FarmMedicineDesc>This is a farm animal that produces medicines.</AA_FarmMedicineDesc>

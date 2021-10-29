@@ -99,6 +99,7 @@
 			<leatherDef>Leather_Gallatross</leatherDef>
 			<willNeverEat>
 				<li MayRequire="Ludeon.RimWorld.Royalty">Plant_TreeAnima</li>
+				<li MayRequire="Ludeon.RimWorld.Ideology">Plant_TreeGauranlen</li>
 			</willNeverEat>
 			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<wildness>0.99</wildness>

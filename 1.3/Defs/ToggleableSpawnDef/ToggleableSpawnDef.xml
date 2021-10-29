@@ -52,6 +52,7 @@
 			<li>AA_Frostmite</li>
 			<li>AA_Gallatross</li>
 			<li>AA_GallatrossMoribund</li>
+			<li>AA_GiantCrownedSilkie</li>
 			<li>AA_Gigantelope</li>
 			<li>AA_GreatDevourer</li>
 			<li>AA_GreenGoo</li>
@@ -111,6 +112,7 @@
 			<li>AA_WaywardMobileAssembler</li>
 			<li>AA_Wildpawn</li>
 			<li>AA_Wildpod</li>
+			<li>AA_WindBeast</li>
 		</toggleablePawns>							
 	</AlphaBehavioursAndEvents.ToggleableSpawnDef>
 

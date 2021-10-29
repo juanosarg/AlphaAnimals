@@ -1172,7 +1172,7 @@
 			</li>
 		</comps>
 	</ThingDef>
-	
+
 	<!-- =============== Pedigreed Raptor Egg =============== -->
 
 
@@ -1194,7 +1194,7 @@
 			</li>
 		</comps>
 	</ThingDef>
-	
+
 	<!-- =============== Empress Butterfly Egg =============== -->
 
 
@@ -1217,6 +1217,42 @@
 			<li Class="CompProperties_Hatcher">
 				<hatcherDaystoHatch>5</hatcherDaystoHatch>
 				<hatcherPawn>AA_EmpressButterflyLarva</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<!-- =============== Giant Crowned Silkie Egg =============== -->
+
+
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>AA_EggGiantCrownedSilkieUnfertilized</defName>
+		<label>giant crowned silkie egg (unfert.)</label>
+		<description>An unfertilized giant crowned silkie egg. It can be eaten raw, but it's much, much better cooked.</description>
+		<graphicData>
+			<color>(230,230,230)</color>
+			<drawSize>1.3</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>9.0</MarketValue>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>AA_EggGiantCrownedSilkieFertilized</defName>
+		<label>giant crowned silkie egg (fert.)</label>
+		<description>A fertilized giant crowned silkie egg. If all goes well, it should hatch into a giant crowned silkie. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<color>(230,230,230)</color>
+			<drawSize>1.3</drawSize>
+		</graphicData>
+		<statBases>
+			<Nutrition>0.3</Nutrition>
+			<MarketValue>9.0</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>6</hatcherDaystoHatch>
+				<hatcherPawn>AA_GiantCrownedSilkie</hatcherPawn>
 			</li>
 		</comps>
 	</ThingDef>
