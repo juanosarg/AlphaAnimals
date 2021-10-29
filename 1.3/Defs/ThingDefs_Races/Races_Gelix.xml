@@ -4,13 +4,13 @@
 	<!-- ============================================================ -->
 
 	<ThingDef ParentName="AnimalThingBase">
-		<defName>AA_SandLion</defName>
-		<label>sand lion</label>
+		<defName>AA_Genix</defName>
+		<label>genix</label>
 		<description>The Sand Lion is a variant of the genetically modified arctic lion, specifically engineered as ambush units by the navy for extreme high temperature environments. Instead of a light reflecting pelt, the sand lion has the unique ability of constantly digging into sand, producing dense clouds of particulate matter that obscures line of sight of its prey, making it easier for the lion to attack them.\n\nDue to this ability, attacking a sand lion with guns is not really advisable, unless they are VERY big guns.</description>
 		<statBases>
-			<MoveSpeed>6</MoveSpeed>
-			<ComfyTemperatureMin>10</ComfyTemperatureMin>
-			<ComfyTemperatureMax>100</ComfyTemperatureMax>
+			<MoveSpeed>4</MoveSpeed>
+			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
+			<ComfyTemperatureMax>40</ComfyTemperatureMax>
 			<MarketValue>600</MarketValue>
 			<FilthRate>2</FilthRate>
 		</statBases>
