@@ -1,11 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-
-
-
 	<!--========== AA leathers ============-->
-
 	<ThingDef ParentName="LeatherBase">
 		<defName>AA_Leather_Aerofleet</defName>
 		<label>aerofleet fur</label>
@@ -25,13 +20,10 @@
 			<commonality>0.001</commonality>
 			<statFactors>
 				<MaxHitPoints>1.5</MaxHitPoints>
-
 				<Beauty>1.7</Beauty>
-
 			</statFactors>
 		</stuffProps>
 	</ThingDef>
-
 	<ThingDef ParentName="LeatherBase">
 		<defName>AA_ArcticLion_Leather</defName>
 		<label>arctic lion fur</label>
@@ -50,13 +42,10 @@
 			<commonality>0.001</commonality>
 			<statFactors>
 				<MaxHitPoints>1.5</MaxHitPoints>
-
 				<Beauty>2.4</Beauty>
-
 			</statFactors>
 		</stuffProps>
 	</ThingDef>
-
 	<ThingDef ParentName="LeatherBase">
 		<defName>AA_SandLion_Leather</defName>
 		<label>sand lion fur</label>
@@ -75,13 +64,10 @@
 			<commonality>0.001</commonality>
 			<statFactors>
 				<MaxHitPoints>1.5</MaxHitPoints>
-
 				<Beauty>2</Beauty>
-
 			</statFactors>
 		</stuffProps>
 	</ThingDef>
-
 	<ThingDef ParentName="LeatherBase">
 		<defName>Leather_Chitin</defName>
 		<label>insect chitin</label>
@@ -102,11 +88,9 @@
 			<commonality>0.001</commonality>
 			<statFactors>
 				<MaxHitPoints>1.5</MaxHitPoints>
-
 			</statFactors>
 		</stuffProps>
 	</ThingDef>
-
 	<ThingDef ParentName="LeatherBase">
 		<defName>Leather_IronChitin</defName>
 		<label>iron chitin</label>
@@ -130,7 +114,6 @@
 			</statFactors>
 		</stuffProps>
 	</ThingDef>
-
 	<ThingDef ParentName="LeatherBase">
 		<defName>Leather_RaptorPlates</defName>
 		<label>hardened chitin</label>
@@ -154,13 +137,11 @@
 			</statFactors>
 		</stuffProps>
 	</ThingDef>
-
 	<ThingDef ParentName="LeatherBase">
 		<defName>Leather_Cactus</defName>
 		<label>sentient plant skin</label>
 		<description>This strange material seems to be part animal hide, part living plant tissue. It traps cold water inside, acting as an incredibly good thermal insulator for hot climates.</description>
 		<graphicData>
-
 			<color>(162,175,90)</color>
 		</graphicData>
 		<statBases>
@@ -174,13 +155,10 @@
 			<commonality>0.001</commonality>
 			<statFactors>
 				<MaxHitPoints>1.5</MaxHitPoints>
-
 				<Beauty>1.3</Beauty>
-
 			</statFactors>
 		</stuffProps>
 	</ThingDef>
-
 	<ThingDef ParentName="LeatherBase">
 		<defName>Leather_BlackChitin</defName>
 		<label>black insect chitin</label>
@@ -202,13 +180,10 @@
 			<commonality>0.001</commonality>
 			<statFactors>
 				<MaxHitPoints>1.5</MaxHitPoints>
-
 				<Beauty>1.7</Beauty>
-
 			</statFactors>
 		</stuffProps>
 	</ThingDef>
-
 	<ThingDef ParentName="LeatherBase">
 		<defName>Leather_Gallatross</defName>
 		<label>gallatross leather</label>
@@ -228,13 +203,10 @@
 			<commonality>0.0005</commonality>
 			<statFactors>
 				<MaxHitPoints>2.2</MaxHitPoints>
-
 				<Beauty>9</Beauty>
-
 			</statFactors>
 		</stuffProps>
 	</ThingDef>
-
 	<ThingDef ParentName="LeatherBase">
 		<defName>Leather_Night</defName>
 		<label>night leather</label>
@@ -253,13 +225,10 @@
 			<commonality>0.001</commonality>
 			<statFactors>
 				<MaxHitPoints>1.55</MaxHitPoints>
-
 				<Beauty>2.8</Beauty>
-
 			</statFactors>
 		</stuffProps>
 	</ThingDef>
-
 	<ThingDef ParentName="WoolBase">
 		<defName>AA_ChameleonYakWoolTemperate</defName>
 		<label>chameleon yak wool, temperate</label>
@@ -277,7 +246,6 @@
 			<commonality>0.001</commonality>
 		</stuffProps>
 	</ThingDef>
-
 	<ThingDef ParentName="WoolBase">
 		<defName>AA_ChameleonYakWoolWinter</defName>
 		<label>chameleon yak wool, winter</label>
@@ -295,7 +263,6 @@
 			<commonality>0.001</commonality>
 		</stuffProps>
 	</ThingDef>
-
 	<ThingDef ParentName="WoolBase">
 		<defName>AA_ChameleonYakWoolJungle</defName>
 		<label>chameleon yak wool, jungle</label>
@@ -313,7 +280,6 @@
 			<commonality>0.001</commonality>
 		</stuffProps>
 	</ThingDef>
-
 	<ThingDef ParentName="WoolBase">
 		<defName>AA_ChameleonYakWoolDesert</defName>
 		<label>chameleon yak wool, desert</label>
@@ -331,104 +297,122 @@
 			<commonality>0.001</commonality>
 		</stuffProps>
 	</ThingDef>
-	
-	
-  <ThingDef ParentName="ResourceBase">
-    <defName>AA_CinderSilk</defName>
-    <label>cindersilk</label>
-    <description>This silk is as strong as synthread, but it is also an excellent thermal insulator. It is completely non-flammable.</description>
-    <graphicData>
-      <texPath>Things/Item/Resource/AA_CinderSilk</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-	<tradeability>Sellable</tradeability>
-    <statBases>
-      <MaxHitPoints>150</MaxHitPoints>
-      <MarketValue>4</MarketValue>
-      <Mass>0.025</Mass>
-      <Flammability>0</Flammability>
-      <DeteriorationRate>3</DeteriorationRate>
-      <StuffPower_Armor_Sharp>0.94</StuffPower_Armor_Sharp>
-      <StuffPower_Armor_Blunt>0.26</StuffPower_Armor_Blunt>
-      <StuffPower_Armor_Heat>1.2</StuffPower_Armor_Heat>
-      <StuffPower_Insulation_Cold>22</StuffPower_Insulation_Cold>
-      <StuffPower_Insulation_Heat>28</StuffPower_Insulation_Heat>
-    </statBases>
-    <stuffProps>
-      <categories>
-        <li>Fabric</li>
-      </categories>
-      <commonality>0</commonality>
-      <color>(208,207,162)</color>
-      <statFactors>
-        <Flammability>0</Flammability>
-        <MaxHitPoints>1.3</MaxHitPoints>
-		 <Beauty>2.5</Beauty>
-      </statFactors>
-    </stuffProps>
-    <thingCategories>
-      <li>Textiles</li>
-    </thingCategories>
-  </ThingDef>
-  
-    <ThingDef ParentName="ResourceBase">
-    <defName>AA_MothSilk</defName>
-    <label>moth silk</label>
-    <description>A very tough silk extracted from Angel moths. Very poor insulator.</description>
-    <graphicData>
-      <texPath>Things/Item/Resource/AA_MothSilk</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <MarketValue>5.5</MarketValue>
-      <Mass>0.01</Mass>
-      <Flammability>1</Flammability>
-      <DeteriorationRate>5</DeteriorationRate>
-      <StuffPower_Armor_Sharp>1.40</StuffPower_Armor_Sharp>
-      <StuffPower_Armor_Blunt>0.36</StuffPower_Armor_Blunt>
-      <StuffPower_Armor_Heat>1</StuffPower_Armor_Heat>
-      <StuffPower_Insulation_Cold>16</StuffPower_Insulation_Cold>
-      <StuffPower_Insulation_Heat>16</StuffPower_Insulation_Heat>
-    </statBases>
-    <burnableByRecipe>true</burnableByRecipe>
-    <healthAffectsPrice>false</healthAffectsPrice>
-    <minRewardCount>30</minRewardCount>
-    <stuffProps>
-      <categories>
-        <li>Fabric</li>
-      </categories>
-      <commonality>0</commonality>
-      <color>(249,235,220)</color>
-      <statFactors>
-        <Flammability>1</Flammability>
-        <MaxHitPoints>1.3</MaxHitPoints>
-        <Beauty>3</Beauty>
-      </statFactors>
-    </stuffProps>
-    <thingCategories>
-      <li>Textiles</li>
-    </thingCategories>
-    
-  </ThingDef>
-  
-  <ThingDef ParentName="WoolBase">
-    <defName>AA_GreyCoatedMouflonWool</defName>
-    <label>grey-coated mouflon wool</label>
-    <description>grey-coated mouflon's wool. It provides good insulation.</description>
-    <graphicData>
-      <color>(62,62,64)</color>
-    </graphicData>
-    <statBases>
-      <StuffPower_Insulation_Cold>29</StuffPower_Insulation_Cold>
-      <StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
-    </statBases>
-    <stuffProps>
-      <color>(62,62,64)</color>
-      <commonality>0.05</commonality>
-    </stuffProps>
-  </ThingDef>
-
-
-
+	<ThingDef ParentName="ResourceBase">
+		<defName>AA_CinderSilk</defName>
+		<label>cindersilk</label>
+		<description>This silk is as strong as synthread, but it is also an excellent thermal insulator. It is completely non-flammable.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AA_CinderSilk</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<MarketValue>4</MarketValue>
+			<Mass>0.025</Mass>
+			<Flammability>0</Flammability>
+			<DeteriorationRate>3</DeteriorationRate>
+			<StuffPower_Armor_Sharp>0.94</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.26</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>1.2</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>22</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>28</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<categories>
+				<li>Fabric</li>
+			</categories>
+			<commonality>0</commonality>
+			<color>(208,207,162)</color>
+			<statFactors>
+				<Flammability>0</Flammability>
+				<MaxHitPoints>1.3</MaxHitPoints>
+				<Beauty>2.5</Beauty>
+			</statFactors>
+		</stuffProps>
+		<thingCategories>
+			<li>Textiles</li>
+		</thingCategories>
+	</ThingDef>
+	<ThingDef ParentName="ResourceBase">
+		<defName>AA_MothSilk</defName>
+		<label>moth silk</label>
+		<description>A very tough silk extracted from Angel moths. Very poor insulator.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AA_MothSilk</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>5.5</MarketValue>
+			<Mass>0.01</Mass>
+			<Flammability>1</Flammability>
+			<DeteriorationRate>5</DeteriorationRate>
+			<StuffPower_Armor_Sharp>1.40</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.36</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>1</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>16</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>16</StuffPower_Insulation_Heat>
+		</statBases>
+		<burnableByRecipe>true</burnableByRecipe>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<minRewardCount>30</minRewardCount>
+		<stuffProps>
+			<categories>
+				<li>Fabric</li>
+			</categories>
+			<commonality>0</commonality>
+			<color>(249,235,220)</color>
+			<statFactors>
+				<Flammability>1</Flammability>
+				<MaxHitPoints>1.3</MaxHitPoints>
+				<Beauty>3</Beauty>
+			</statFactors>
+		</stuffProps>
+		<thingCategories>
+			<li>Textiles</li>
+		</thingCategories>
+	</ThingDef>
+	<ThingDef ParentName="WoolBase">
+		<defName>AA_GiantCrownedSilkieSilk</defName>
+		<label>giant crowned silkie silk</label>
+		<description>A soft silk produced by the giant crowned silkie. Once woven it has a very similar texture to sheep wool, but softer. Considered a luxury item.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AA_SilkieSilk</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<MarketValue>4</MarketValue>
+			<Mass>0.02</Mass>
+			<StuffPower_Insulation_Cold>26</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<commonality>0</commonality>
+			<color>(81,89,106)</color>
+			<statFactors>
+				<Flammability>1.7</Flammability>
+				<MaxHitPoints>1.2</MaxHitPoints>
+				<Beauty>3</Beauty>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+	<ThingDef ParentName="WoolBase">
+		<defName>AA_GreyCoatedMouflonWool</defName>
+		<label>grey-coated mouflon wool</label>
+		<description>grey-coated mouflon's wool. It provides good insulation.</description>
+		<graphicData>
+			<color>(62,62,64)</color>
+		</graphicData>
+		<statBases>
+			<StuffPower_Insulation_Cold>29</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<color>(62,62,64)</color>
+			<commonality>0.05</commonality>
+		</stuffProps>
+	</ThingDef>
 </Defs>
