@@ -4,23 +4,12 @@
 		<mods>
 			<li>Vanilla Factions Expanded - Mechanoids</li>
 		</mods>
-
 		<match Class="PatchOperationSequence">
 			<operations>
-
-
-
-
-
-
-
-
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs</xpath>
 					<value>
-
 						<!-- Brand new mechs -->
-
 						<ThingDef ParentName="VFE_MechanoidWalker">
 							<defName>VFE_Mech_Aura</defName>
 							<label>aura</label>
@@ -37,7 +26,6 @@
 									<linkedBodyPartsGroup>AA_WingBlades</linkedBodyPartsGroup>
 									<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
 								</li>
-
 								<li>
 									<label>head</label>
 									<capacities>
@@ -58,10 +46,9 @@
 								</li>
 								<li Class="AnimalBehaviours.CompProperties_Regeneration">
 									<rateInTicks>30</rateInTicks>
-
 								</li>
 							</comps>
-							<race>								
+							<race>
 								<body>AA_AuraBody</body>
 								<baseHealthScale>1.5</baseHealthScale>
 								<soundMeleeHitPawn>Pawn_Melee_MechanoidSlash_HitPawn</soundMeleeHitPawn>
@@ -69,7 +56,6 @@
 								<soundMeleeMiss>Pawn_Melee_MechanoidSlash_Miss</soundMeleeMiss>
 							</race>
 						</ThingDef>
-
 						<PawnKindDef ParentName="VFE_MechanoidKind">
 							<defName>VFE_Mech_Aura</defName>
 							<label>aura</label>
@@ -92,7 +78,6 @@
 							<weaponTags>
 							</weaponTags>
 						</PawnKindDef>
-
 						<ThingDef ParentName="VFE_MechanoidWalker">
 							<defName>VFE_Mech_Daggersnout</defName>
 							<label>daggersnout</label>
@@ -109,7 +94,6 @@
 									<linkedBodyPartsGroup>AA_NoseBlade</linkedBodyPartsGroup>
 									<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
 								</li>
-
 								<li>
 									<label>head</label>
 									<capacities>
@@ -137,7 +121,6 @@
 								<soundMeleeMiss>Pawn_Melee_MechanoidSlash_Miss</soundMeleeMiss>
 							</race>
 						</ThingDef>
-
 						<PawnKindDef ParentName="VFE_MechanoidKind">
 							<defName>VFE_Mech_Daggersnout</defName>
 							<label>daggersnout</label>
@@ -160,7 +143,6 @@
 							<weaponTags>
 							</weaponTags>
 						</PawnKindDef>
-
 						<ThingDef ParentName="VFE_Mechanoid">
 							<defName>VFE_Mech_Fireworm</defName>
 							<label>fireworm</label>
@@ -216,7 +198,6 @@
 								<ComponentIndustrial>2</ComponentIndustrial>
 							</butcherProducts>
 						</ThingDef>
-
 						<PawnKindDef ParentName="VFE_MechanoidKind">
 							<defName>VFE_Mech_Fireworm</defName>
 							<label>fireworm</label>
@@ -239,7 +220,6 @@
 								<li>AA_MechanoidFlamethrower</li>
 							</weaponTags>
 						</PawnKindDef>
-
 						<ThingDef ParentName="VFE_Mechanoid">
 							<defName>VFE_Mech_Goliath</defName>
 							<label>goliath</label>
@@ -295,7 +275,6 @@
 								<ComponentIndustrial>2</ComponentIndustrial>
 							</butcherProducts>
 						</ThingDef>
-
 						<PawnKindDef ParentName="VFE_MechanoidKind">
 							<defName>VFE_Mech_Goliath</defName>
 							<label>goliath</label>
@@ -319,7 +298,6 @@
 								<li>MechanoidGunLongRange</li>
 							</weaponTags>
 						</PawnKindDef>
-
 						<ThingDef ParentName="VFE_Mechanoid">
 							<defName>VFE_Mech_Phalanx</defName>
 							<label>phalanx</label>
@@ -375,7 +353,6 @@
 								<ComponentIndustrial>1</ComponentIndustrial>
 							</butcherProducts>
 						</ThingDef>
-
 						<PawnKindDef ParentName="VFE_MechanoidKind">
 							<defName>VFE_Mech_Phalanx</defName>
 							<label>phalanx</label>
@@ -398,7 +375,6 @@
 								<li>AA_MechanoidCryoweapon</li>
 							</weaponTags>
 						</PawnKindDef>
-
 						<ThingDef ParentName="VFE_Mechanoid">
 							<defName>VFE_Mech_Siegebreaker</defName>
 							<label>siegebreaker</label>
@@ -454,7 +430,6 @@
 								<ComponentIndustrial>2</ComponentIndustrial>
 							</butcherProducts>
 						</ThingDef>
-
 						<PawnKindDef ParentName="VFE_MechanoidKind">
 							<defName>VFE_Mech_Siegebreaker</defName>
 							<label>siegebreaker</label>
@@ -477,10 +452,7 @@
 								<li>AA_MechanoidGun</li>
 							</weaponTags>
 						</PawnKindDef>
-
-
 						<!-- Advanced mechs -->
-
 						<ThingDef ParentName="VFE_AdvancedMechanoidWalker">
 							<defName>VFE_Mech_Advanced_Aura</defName>
 							<label>dominion</label>
@@ -497,7 +469,6 @@
 									<linkedBodyPartsGroup>AA_WingBlades</linkedBodyPartsGroup>
 									<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
 								</li>
-
 								<li>
 									<label>head</label>
 									<capacities>
@@ -518,10 +489,9 @@
 								</li>
 								<li Class="AnimalBehaviours.CompProperties_Regeneration">
 									<rateInTicks>30</rateInTicks>
-
 								</li>
 							</comps>
-							<race>								
+							<race>
 								<body>AA_AuraBody</body>
 								<baseHealthScale>1.5</baseHealthScale>
 								<soundMeleeHitPawn>Pawn_Melee_MechanoidSlash_HitPawn</soundMeleeHitPawn>
@@ -529,7 +499,6 @@
 								<soundMeleeMiss>Pawn_Melee_MechanoidSlash_Miss</soundMeleeMiss>
 							</race>
 						</ThingDef>
-
 						<PawnKindDef ParentName="VFE_AdvancedMechanoidKind">
 							<defName>VFE_Mech_Advanced_Aura</defName>
 							<label>dominion</label>
@@ -552,8 +521,6 @@
 							<weaponTags>
 							</weaponTags>
 						</PawnKindDef>
-
-
 						<ThingDef ParentName="VFE_AdvancedMechanoidWalker">
 							<defName>VFE_Mech_Advanced_Daggersnout</defName>
 							<label>eviscerator</label>
@@ -570,7 +537,6 @@
 									<linkedBodyPartsGroup>AA_NoseBlade</linkedBodyPartsGroup>
 									<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
 								</li>
-
 								<li>
 									<label>head</label>
 									<capacities>
@@ -598,7 +564,6 @@
 								<soundMeleeMiss>Pawn_Melee_MechanoidSlash_Miss</soundMeleeMiss>
 							</race>
 						</ThingDef>
-
 						<PawnKindDef ParentName="VFE_AdvancedMechanoidKind">
 							<defName>VFE_Mech_Advanced_Daggersnout</defName>
 							<label>eviscerator</label>
@@ -621,7 +586,6 @@
 							<weaponTags>
 							</weaponTags>
 						</PawnKindDef>
-
 						<ThingDef ParentName="VFE_AdvancedMechanoid">
 							<defName>VFE_Mech_Advanced_Fireworm</defName>
 							<label>incinerator</label>
@@ -677,7 +641,6 @@
 								<ComponentIndustrial>2</ComponentIndustrial>
 							</butcherProducts>
 						</ThingDef>
-
 						<PawnKindDef ParentName="VFE_AdvancedMechanoidKind">
 							<defName>VFE_Mech_Advanced_Fireworm</defName>
 							<label>incinerator</label>
@@ -700,7 +663,6 @@
 								<li>AA_MechanoidFlamethrower</li>
 							</weaponTags>
 						</PawnKindDef>
-
 						<ThingDef ParentName="VFE_AdvancedMechanoid">
 							<defName>VFE_Mech_Advanced_Goliath</defName>
 							<label>colossus</label>
@@ -756,7 +718,6 @@
 								<ComponentIndustrial>2</ComponentIndustrial>
 							</butcherProducts>
 						</ThingDef>
-
 						<PawnKindDef ParentName="VFE_AdvancedMechanoidKind">
 							<defName>VFE_Mech_Advanced_Goliath</defName>
 							<label>colossus</label>
@@ -780,7 +741,6 @@
 								<li>MechanoidGunLongRange</li>
 							</weaponTags>
 						</PawnKindDef>
-
 						<ThingDef ParentName="VFE_AdvancedMechanoid">
 							<defName>VFE_Mech_Advanced_Phalanx</defName>
 							<label>hoplite</label>
@@ -836,7 +796,6 @@
 								<ComponentIndustrial>1</ComponentIndustrial>
 							</butcherProducts>
 						</ThingDef>
-
 						<PawnKindDef ParentName="VFE_AdvancedMechanoidKind">
 							<defName>VFE_Mech_Advanced_Phalanx</defName>
 							<label>hoplite</label>
@@ -859,7 +818,6 @@
 								<li>AA_MechanoidCryoweapon</li>
 							</weaponTags>
 						</PawnKindDef>
-
 						<ThingDef ParentName="VFE_AdvancedMechanoid">
 							<defName>VFE_Mech_Advanced_Siegebreaker</defName>
 							<label>siegemaster</label>
@@ -915,7 +873,6 @@
 								<ComponentIndustrial>2</ComponentIndustrial>
 							</butcherProducts>
 						</ThingDef>
-
 						<PawnKindDef ParentName="VFE_AdvancedMechanoidKind">
 							<defName>VFE_Mech_Advanced_Siegebreaker</defName>
 							<label>siegemaster</label>
@@ -938,168 +895,144 @@
 								<li>AA_MechanoidGun</li>
 							</weaponTags>
 						</PawnKindDef>
-
-
+						<ThingDef ParentName="AnimalThingBase">
+							<defName>VFE_Mech_Slurrymaster</defName>
+							<label>slurrymaster</label>
+							<description>The Slurrymaster is an advanced version of the Slurrypede. This extremely rare bio-mechanical creature is the result of a batch of mechanoids receiving a hardware upgrade. The Slurrymaster is a modified bio-mechanoid capable of devouring almost anything and processing it into a homogeneous organic slurry. This slurry is virtually indistinguishable from nutrient paste produced in a nutrient paste dispenser.\n\nSlurrymasters are docile, almost never hostile, and in case a mechanoid landed ship is destroyed and one of them manages to survive, they tend to roam the wilderness aimlessly, consuming any organic material in their path and turning it into nutrient paste.</description>
+							<statBases>
+								<MoveSpeed>2.1</MoveSpeed>
+								<MarketValue>850</MarketValue>
+								<PsychicSensitivity>0</PsychicSensitivity>
+								<ToxicSensitivity>0</ToxicSensitivity>
+								<Flammability>0</Flammability>
+								<ComfyTemperatureMin>-100</ComfyTemperatureMin>
+								<ComfyTemperatureMax>250</ComfyTemperatureMax>
+								<MeatAmount>0</MeatAmount>
+								<ArmorRating_Blunt>0.60</ArmorRating_Blunt>
+								<ArmorRating_Sharp>0.80</ArmorRating_Sharp>
+							</statBases>
+							<tools>
+								<li>
+									<label>head</label>
+									<capacities>
+										<li>Blunt</li>
+									</capacities>
+									<power>8</power>
+									<cooldownTime>2.6</cooldownTime>
+									<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+									<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+								</li>
+							</tools>
+							<comps>
+								<li Class="AnimalBehaviours.CompProperties_AnimalProduct">
+									<resourceDef>MealNutrientPaste</resourceDef>
+									<gatheringIntervalDays>1</gatheringIntervalDays>
+									<resourceAmount>8</resourceAmount>
+									<customResourceString>AA_MealNutrientPaste</customResourceString>
+								</li>
+							</comps>
+							<race>
+								<wildBiomes>
+									<BorealForest>0.003</BorealForest>
+									<IceSheet>0.003</IceSheet>
+									<Tundra>0.003</Tundra>
+									<ColdBog>0.003</ColdBog>
+									<SeaIce>0.003</SeaIce>
+									<TemperateSwamp>0.003</TemperateSwamp>
+									<TropicalSwamp>0.003</TropicalSwamp>
+									<TemperateForest>0.003</TemperateForest>
+									<TropicalRainforest>0.003</TropicalRainforest>
+									<AridShrubland>0.003</AridShrubland>
+									<Desert>0.003</Desert>
+									<ExtremeDesert>0.003</ExtremeDesert>
+								</wildBiomes>
+								<herdAnimal>false</herdAnimal>
+								<predator>false</predator>
+								<body>AA_SlurrypedeBody</body>
+								<baseBodySize>2</baseBodySize>
+								<baseHungerRate>2</baseHungerRate>
+								<baseHealthScale>7</baseHealthScale>
+								<foodType>OmnivoreRoughAnimal,DendrovoreAnimal,OmnivoreAnimal,AnimalProduct</foodType>
+								<hasGenders>false</hasGenders>
+								<willNeverEat>
+									<li MayRequire="Ludeon.RimWorld.Royalty">Plant_TreeAnima</li>
+									<li MayRequire="Ludeon.RimWorld.Ideology">Plant_TreeGauranlen</li>
+								</willNeverEat>
+								<useMeatFrom>Pig</useMeatFrom>
+								<wildness>0.6</wildness>
+								<manhunterOnDamageChance>0.0</manhunterOnDamageChance>
+								<manhunterOnTameFailChance>0.0</manhunterOnTameFailChance>
+								<trainability>Intermediate</trainability>
+								<lifeExpectancy>3000</lifeExpectancy>
+								<lifeStageAges>
+									<li>
+										<def>AnimalAdult</def>
+										<minAge>0</minAge>
+										<soundWounded>Pawn_Mech_Centipede_Wounded</soundWounded>
+										<soundDeath>Pawn_Mech_Centipede_Death</soundDeath>
+										<soundCall>Pawn_Mech_Centipede_Call</soundCall>
+									</li>
+								</lifeStageAges>
+								<soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
+								<soundMeleeHitBuilding>Pawn_Melee_MechanoidBash_HitBuilding</soundMeleeHitBuilding>
+								<soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
+							</race>
+							<butcherProducts>
+								<Steel>30</Steel>
+								<Plasteel>30</Plasteel>
+								<ComponentIndustrial>2</ComponentIndustrial>
+							</butcherProducts>
+							<tradeTags>
+								<li>AnimalExotic</li>
+							</tradeTags>
+							<modExtensions>
+								<li Class="AnimalBehaviours.AnimalStatExtension">
+									<statToAdd>
+										<li>AA_PrimaryRole</li>
+										<li>AA_RangedAttacks</li>
+									</statToAdd>
+									<statValues>
+										<li>AA_Farm</li>
+										<li>AA_No</li>
+									</statValues>
+									<statDescriptions>
+										<li>AA_FarmFoodDesc</li>
+										<li>AA_NoRanged</li>
+									</statDescriptions>
+								</li>
+							</modExtensions>
+						</ThingDef>
+						<PawnKindDef ParentName="AnimalKindBase">
+							<defName>VFE_Mech_Slurrymaster</defName>
+							<label>slurrymaster</label>
+							<race>VFE_Mech_Slurrymaster</race>
+							<combatPower>130</combatPower>
+							<canArriveManhunter>false</canArriveManhunter>
+							<lifeStages>
+								<li>
+									<bodyGraphicData>
+										<texPath>Things/Pawn/Animal/AA_AdvancedSlurrypede/AA_AdvancedSlurrypede</texPath>
+										<drawSize>4.3</drawSize>
+										<shadowData>
+											<volume>(0.8, 0.6, 0.6)</volume>
+											<offset>(0,0,-0.3)</offset>
+										</shadowData>
+									</bodyGraphicData>
+									<dessicatedBodyGraphicData>
+										<texPath>Things/Pawn/Animal/AA_AdvancedSlurrypede/AA_Dessicated_AdvancedSlurrypede</texPath>
+										<drawSize>4.3</drawSize>
+									</dessicatedBodyGraphicData>
+								</li>
+							</lifeStages>
+						</PawnKindDef>
 					</value>
 				</li>
-
-				<ThingDef ParentName="AnimalThingBase">
-					<defName>VFE_Mech_Slurrymaster</defName>
-					<label>slurrymaster</label>
-					<description>The Slurrymaster is an advanced version of the Slurrypede. This extremely rare bio-mechanical creature is the result of a batch of mechanoids receiving a hardware upgrade. The Slurrymaster is a modified bio-mechanoid capable of devouring almost anything and processing it into a homogeneous organic slurry. This slurry is virtually indistinguishable from nutrient paste produced in a nutrient paste dispenser.\n\nSlurrymasters are docile, almost never hostile, and in case a mechanoid landed ship is destroyed and one of them manages to survive, they tend to roam the wilderness aimlessly, consuming any organic material in their path and turning it into nutrient paste.</description>
-					<statBases>
-						<MoveSpeed>2.1</MoveSpeed>
-						<MarketValue>850</MarketValue>
-						<PsychicSensitivity>0</PsychicSensitivity>
-						<ToxicSensitivity>0</ToxicSensitivity>
-						<Flammability>0</Flammability>
-						<ComfyTemperatureMin>-100</ComfyTemperatureMin>
-						<ComfyTemperatureMax>250</ComfyTemperatureMax>
-						<MeatAmount>0</MeatAmount>
-						<ArmorRating_Blunt>0.60</ArmorRating_Blunt>
-						<ArmorRating_Sharp>0.80</ArmorRating_Sharp>
-					</statBases>
-					<tools>
-
-						<li>
-							<label>head</label>
-							<capacities>
-								<li>Blunt</li>
-							</capacities>
-							<power>8</power>
-							<cooldownTime>2.6</cooldownTime>
-							<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-							<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-						</li>
-					</tools>
-
-
-					<comps>
-						<li Class="AnimalBehaviours.CompProperties_AnimalProduct">
-							<resourceDef>MealNutrientPaste</resourceDef>
-							<gatheringIntervalDays>1</gatheringIntervalDays>
-							<resourceAmount>8</resourceAmount>
-							<customResourceString>AA_MealNutrientPaste</customResourceString>
-
-						</li>
-
-
-					</comps>
-					<race>
-						<wildBiomes>
-							<BorealForest>0.003</BorealForest>
-							<IceSheet>0.003</IceSheet>
-							<Tundra>0.003</Tundra>
-							<ColdBog>0.003</ColdBog>
-							<SeaIce>0.003</SeaIce>
-							<TemperateSwamp>0.003</TemperateSwamp>
-							<TropicalSwamp>0.003</TropicalSwamp>
-							<TemperateForest>0.003</TemperateForest>
-							<TropicalRainforest>0.003</TropicalRainforest>
-							<AridShrubland>0.003</AridShrubland>
-							<Desert>0.003</Desert>
-							<ExtremeDesert>0.003</ExtremeDesert>
-						</wildBiomes>
-						<herdAnimal>false</herdAnimal>
-						<predator>false</predator>
-						<body>AA_SlurrypedeBody</body>
-						<baseBodySize>2</baseBodySize>
-						<baseHungerRate>2</baseHungerRate>
-						<baseHealthScale>7</baseHealthScale>
-						<foodType>OmnivoreRoughAnimal,DendrovoreAnimal,OmnivoreAnimal,AnimalProduct</foodType>
-						<hasGenders>false</hasGenders>
-
-						<willNeverEat>
-							<li MayRequire="Ludeon.RimWorld.Royalty">Plant_TreeAnima</li>
-							<li MayRequire="Ludeon.RimWorld.Ideology">Plant_TreeGauranlen</li>
-						</willNeverEat>
-						<useMeatFrom>Pig</useMeatFrom>
-						<wildness>0.6</wildness>
-						<manhunterOnDamageChance>0.0</manhunterOnDamageChance>
-						<manhunterOnTameFailChance>0.0</manhunterOnTameFailChance>
-						<trainability>Intermediate</trainability>
-						<lifeExpectancy>3000</lifeExpectancy>
-						<lifeStageAges>
-
-							<li>
-								<def>AnimalAdult</def>
-								<minAge>0</minAge>
-								<soundWounded>Pawn_Mech_Centipede_Wounded</soundWounded>
-								<soundDeath>Pawn_Mech_Centipede_Death</soundDeath>
-								<soundCall>Pawn_Mech_Centipede_Call</soundCall>
-							</li>
-						</lifeStageAges>
-						<soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
-						<soundMeleeHitBuilding>Pawn_Melee_MechanoidBash_HitBuilding</soundMeleeHitBuilding>
-						<soundMeleeMiss>Pawn_Melee_MechanoidBash_Miss</soundMeleeMiss>
-					</race>
-					<butcherProducts>
-						<Steel>30</Steel>
-						<Plasteel>30</Plasteel>
-						<ComponentIndustrial>2</ComponentIndustrial>
-					</butcherProducts>
-					<tradeTags>
-						<li>AnimalExotic</li>
-
-					</tradeTags>
-					<modExtensions>
-						<li Class="AnimalBehaviours.AnimalStatExtension">
-
-							<statToAdd>
-
-								<li>AA_PrimaryRole</li>
-								<li>AA_RangedAttacks</li>					
-							</statToAdd>
-							<statValues>
-
-								<li>AA_Farm</li>
-								<li>AA_No</li>					
-							</statValues>
-							<statDescriptions>
-
-								<li>AA_FarmFoodDesc</li>
-								<li>AA_NoRanged</li>
-							</statDescriptions>
-
-						</li>
-					</modExtensions>
-				</ThingDef>
-
-				<PawnKindDef ParentName="AnimalKindBase">
-					<defName>VFE_Mech_Slurrymaster</defName>
-					<label>slurrymaster</label>
-					<race>VFE_Mech_Slurrymaster</race>
-					<combatPower>130</combatPower>
-					<canArriveManhunter>false</canArriveManhunter>
-
-					<lifeStages>
-
-						<li>
-							<bodyGraphicData>
-								<texPath>Things/Pawn/Animal/AA_AdvancedSlurrypede/AA_AdvancedSlurrypede</texPath>
-								<drawSize>4.3</drawSize>
-								<shadowData>
-									<volume>(0.8, 0.6, 0.6)</volume>
-									<offset>(0,0,-0.3)</offset>
-								</shadowData>
-							</bodyGraphicData>
-							<dessicatedBodyGraphicData>
-								<texPath>Things/Pawn/Animal/AA_AdvancedSlurrypede/AA_Dessicated_AdvancedSlurrypede</texPath>
-								<drawSize>4.3</drawSize>
-							</dessicatedBodyGraphicData>
-						</li>
-					</lifeStages>
-				</PawnKindDef>
-
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs/AlphaBehavioursAndEvents.ToggleableSpawnDef[defName="AA_ToggleableAnimals"]/toggleablePawns</xpath>
 					<value>
 						<li>VFE_Mech_Slurrymaster</li>
 					</value>
-
 				</li>
-
-
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs/FactionDef[defName="VFE_Mechanoid"]/pawnGroupMakers/li[1]/options</xpath>
 					<value>
@@ -1110,9 +1043,7 @@
 						<VFE_Mech_Phalanx>5</VFE_Mech_Phalanx>
 						<VFE_Mech_Siegebreaker>5</VFE_Mech_Siegebreaker>
 					</value>
-
 				</li>
-
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs/FactionDef[defName="VFE_Mechanoid"]/pawnGroupMakers/li[2]/options</xpath>
 					<value>
@@ -1124,25 +1055,20 @@
 						<VFE_Mech_Siegebreaker>10</VFE_Mech_Siegebreaker>
 					</value>
 				</li>
-
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs/FactionDef[defName="VFE_Mechanoid"]/pawnGroupMakers/li[3]/options</xpath>
 					<value>
 						<VFE_Mech_Aura>10</VFE_Mech_Aura>
-						<VFE_Mech_Daggersnout>10</VFE_Mech_Daggersnout>						
+						<VFE_Mech_Daggersnout>10</VFE_Mech_Daggersnout>
 						<VFE_Mech_Goliath>3</VFE_Mech_Goliath>
-
 					</value>
 				</li>
-
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs/FactionDef[defName="VFE_Mechanoid"]/pawnGroupMakers/li[4]/options</xpath>
 					<value>
 						<VFE_Mech_Aura>10</VFE_Mech_Aura>
-
 					</value>
 				</li>
-
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs/FactionDef[defName="VFE_Mechanoid"]/pawnGroupMakers/li[5]/options</xpath>
 					<value>
@@ -1154,7 +1080,6 @@
 						<VFE_Mech_Siegebreaker>5</VFE_Mech_Siegebreaker>
 					</value>
 				</li>
-
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs/FactionDef[defName="VFE_Mechanoid"]/pawnGroupMakers/li[7]/options</xpath>
 					<value>
@@ -1166,16 +1091,14 @@
 						<VFE_Mech_Advanced_Siegebreaker>10</VFE_Mech_Advanced_Siegebreaker>
 					</value>
 				</li>
-
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs/FactionDef[defName="VFE_Mechanoid"]/pawnGroupMakers/li[8]/options</xpath>
 					<value>
 						<VFE_Mech_Advanced_Aura>10</VFE_Mech_Advanced_Aura>
-						<VFE_Mech_Advanced_Daggersnout>10</VFE_Mech_Advanced_Daggersnout>						
+						<VFE_Mech_Advanced_Daggersnout>10</VFE_Mech_Advanced_Daggersnout>
 						<VFE_Mech_Advanced_Goliath>10</VFE_Mech_Advanced_Goliath>
 					</value>
 				</li>
-
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs/FactionDef[defName="VFE_Mechanoid"]/pawnGroupMakers/li[9]/options</xpath>
 					<value>
@@ -1198,16 +1121,14 @@
 						<VFE_Mech_Advanced_Siegebreaker>10</VFE_Mech_Advanced_Siegebreaker>
 					</value>
 				</li>
-
 				<li Class="PatchOperationFindMod">
 					<mods>
 						<li>Genetic Rim</li>
 					</mods>
-
 					<match Class="PatchOperationSequence">
 						<success>Always</success>
 						<operations>
-							<li Class="PatchOperationAdd"> 
+							<li Class="PatchOperationAdd">
 								<success>Always</success>
 								<xpath>/Defs</xpath>
 								<value>
@@ -1226,11 +1147,8 @@
 											<li>Corpse_VFE_Mech_Advanced_Goliath</li>
 											<li>Corpse_VFE_Mech_Advanced_Phalanx</li>
 											<li>Corpse_VFE_Mech_Advanced_Siegebreaker</li>
-
-
 										</value>
 									</li>
-
 									<li Class="PatchOperationAdd">
 										<xpath>/Defs/RecipeDef[defName = "GR_ExtractGenesMechanoid"]/fixedIngredientFilter/thingDefs</xpath>
 										<value>
@@ -1248,19 +1166,13 @@
 											<li>Corpse_VFE_Mech_Advanced_Siegebreaker</li>
 										</value>
 									</li>
-
 								</value>
 							</li>
 						</operations>
 					</match>
 				</li>
-
-
-
 			</operations>
 		</match>
 	</Operation>
-
-
 </Patch>
 

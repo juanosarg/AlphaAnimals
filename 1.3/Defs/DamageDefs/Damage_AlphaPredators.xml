@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
 	<DamageDef Name="Sting">
 		<defName>AA_ToxicSting</defName>
 		<label>toxic sting</label>
@@ -20,7 +19,6 @@
 		<impactSoundType>Slice</impactSoundType>
 		<armorCategory>Sharp</armorCategory>
 	</DamageDef>
-
 	<DamageDef>
 		<defName>AA_ToxicBite</defName>
 		<label>toxic bite</label>
@@ -40,7 +38,6 @@
 		<impactSoundType>Slice</impactSoundType>
 		<armorCategory>Sharp</armorCategory>
 	</DamageDef>
-
 	<DamageDef ParentName="CutBase">
 		<defName>AA_InfectedClaws</defName>
 		<label>infected claws</label>
@@ -50,25 +47,19 @@
 				<hediff>AA_ToxicBuildup</hediff>
 				<severityPerDamageDealt>0.004</severityPerDamageDealt>
 				<victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
-
 			</li>
 		</additionalHediffs>
 	</DamageDef>
-
 	<DamageDef ParentName="CutBase">
 		<defName>AA_ExtraDamageInsectoidsClaws</defName>
 		<label>rending claws</label>
 		<workerClass>AlphaBehavioursAndEvents.DamageWorker_ExtraDamageInsectoids</workerClass>
-
 	</DamageDef>
-
 	<DamageDef ParentName="BluntBase">
 		<defName>AA_EMPBlunt</defName>
 		<label>EMP pulse</label>
 		<workerClass>AlphaBehavioursAndEvents.DamageWorker_ExtraDamageMechanoids</workerClass>
-
 	</DamageDef>
-
 	<DamageDef Name="StingBolt">
 		<defName>AA_ToxicBolt</defName>
 		<label>toxic sting</label>
@@ -89,7 +80,6 @@
 		<impactSoundType>Slice</impactSoundType>
 		<armorCategory>Sharp</armorCategory>
 	</DamageDef>
-
 	<DamageDef>
 		<defName>AA_AcidSpit</defName>
 		<label>acid spit</label>
@@ -101,14 +91,12 @@
 			<li>
 				<hediff>VEF_AcidBuildup</hediff>
 				<severityPerDamageDealt>0.01</severityPerDamageDealt>
-
 			</li>
 		</additionalHediffs>
 		<isRanged>true</isRanged>
 		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
 		<armorCategory>Heat</armorCategory>
 	</DamageDef>
-
 	<DamageDef>
 		<defName>AA_LuciferiumExplosion</defName>
 		<label>luciferium burst</label>
@@ -121,20 +109,17 @@
 				<hediff>LuciferiumAddiction</hediff>
 				<severityPerDamageDealt>0.01</severityPerDamageDealt>
 				<victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
-
 			</li>
 			<li>
 				<hediff>LuciferiumHigh</hediff>
 				<severityPerDamageDealt>0.01</severityPerDamageDealt>
 				<victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
-
 			</li>
 		</additionalHediffs>
 		<isRanged>true</isRanged>
 		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
 		<armorCategory>Heat</armorCategory>
 	</DamageDef>
-
 	<DamageDef>
 		<defName>AA_AcidRainDamage</defName>
 		<label>acid rain</label>
@@ -146,16 +131,12 @@
 			<li>
 				<hediff>VEF_AcidBuildup</hediff>
 				<severityPerDamageDealt>0.01</severityPerDamageDealt>
-
 			</li>
 		</additionalHediffs>
 		<isRanged>true</isRanged>
 		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
 		<armorCategory>Heat</armorCategory>
 	</DamageDef>
-
-
-
 	<DamageDef>
 		<defName>AA_VeryToxicSting</defName>
 		<label>very toxic sting</label>
@@ -175,7 +156,6 @@
 		<impactSoundType>Slice</impactSoundType>
 		<armorCategory>Sharp</armorCategory>
 	</DamageDef>
-
 	<DamageDef ParentName="Bite">
 		<defName>AA_ParalysingBite</defName>
 		<label>paralysing bite</label>
@@ -187,12 +167,10 @@
 			</li>
 		</additionalHediffs>
 	</DamageDef>
-
 	<DamageDef>
 		<defName>AA_Electric</defName>
 		<label>electric shock</label>
 		<hediff>Crush</hediff>
-
 		<additionalHediffs>
 			<li>
 				<hediff>AA_Electric</hediff>
@@ -217,7 +195,25 @@
 		<combatLogRules>Damage_Flame</combatLogRules>
 		<canUseDeflectMetalEffect>false</canUseDeflectMetalEffect>
 	</DamageDef>
-
+	<DamageDef>
+		<defName>AA_FrostBomb</defName>
+		<label>frost explosion</label>
+		<hediff>Frostbite</hediff>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<hasForcefulImpact>true</hasForcefulImpact>
+		<makesBlood>false</makesBlood>
+		<canInterruptJobs>true</canInterruptJobs>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been frozen to death.</deathMessage>
+		<armorCategory>Heat</armorCategory>
+		<minDamageToFragment>15</minDamageToFragment>
+		<defaultDamage>10</defaultDamage>
+		<defaultArmorPenetration>0</defaultArmorPenetration>
+		<explosionHeatEnergyPerCell>-15</explosionHeatEnergyPerCell>
+		<soundExplosion>Explosion_Stun</soundExplosion>
+		<combatLogRules>Damage_Flame</combatLogRules>
+		<canUseDeflectMetalEffect>false</canUseDeflectMetalEffect>
+	</DamageDef>
 	<DamageDef>
 		<defName>AA_SiegeBlunt</defName>
 		<label>crush</label>
@@ -231,10 +227,6 @@
 		<impactSoundType>Blunt</impactSoundType>
 		<armorCategory>Blunt</armorCategory>
 	</DamageDef>
-
-
-
-
 	<DamageDef>
 		<defName>AA_PermanentBurn</defName>
 		<label>permanent burn</label>
@@ -249,9 +241,7 @@
 		<defaultArmorPenetration>0</defaultArmorPenetration>
 		<armorCategory>Heat</armorCategory>
 		<combatLogRules>Damage_Flame</combatLogRules>
-
 	</DamageDef>
-
 	<DamageDef>
 		<defName>AA_BoulderScratch</defName>
 		<label>scratch</label>
@@ -265,8 +255,6 @@
 		<armorCategory>Sharp</armorCategory>
 		<overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
 	</DamageDef>
-
-
 	<DamageDef ParentName="Bite">
 		<defName>AA_LockJawDamage</defName>
 		<label>lockjaw bite</label>
@@ -278,7 +266,6 @@
 			</li>
 		</additionalHediffs>
 	</DamageDef>
-
 	<DamageDef>
 		<defName>AA_Pierce</defName>
 		<label>pierce</label>
@@ -291,7 +278,6 @@
 		<impactSoundType>Slice</impactSoundType>
 		<armorCategory>Sharp</armorCategory>
 	</DamageDef>
-
 	<DamageDef ParentName="Flame">
 		<defName>AA_BurningBite</defName>
 		<label>burning bite</label>
@@ -299,21 +285,52 @@
 		<impactSoundType>Slice</impactSoundType>
 		<armorCategory>Sharp</armorCategory>
 	</DamageDef>
-
-
-
+	<DamageDef>
+		<defName>Frostbite</defName>
+		<label>frostbite</label>
+		<workerClass>DamageWorker_Frostbite</workerClass>
+		<externalViolence>false</externalViolence>
+		<deathMessage>{0} has succumbed to frostbite.</deathMessage>
+		<hediff>Frostbite</hediff>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<canUseDeflectMetalEffect>false</canUseDeflectMetalEffect>
+	</DamageDef>
+	<DamageDef>
+		<defName>AA_FrostClaws</defName>
+		<label>frost claws</label>
+		<deathMessage>{0} has been frozen to death.</deathMessage>
+		<impactSoundType>Slice</impactSoundType>
+		<armorCategory>Sharp</armorCategory>
+		<workerClass>DamageWorker_Frostbite</workerClass>
+		<externalViolence>false</externalViolence>
+		<hediff>Frostbite</hediff>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<canUseDeflectMetalEffect>false</canUseDeflectMetalEffect>
+	</DamageDef>
+	<DamageDef>
+		<defName>AA_FrostBite</defName>
+		<label>frost bite</label>
+		<deathMessage>{0} has been frozen to death.</deathMessage>
+		<impactSoundType>Slice</impactSoundType>
+		<armorCategory>Sharp</armorCategory>
+		<workerClass>DamageWorker_Frostbite</workerClass>
+		<externalViolence>false</externalViolence>
+		<hediff>Frostbite</hediff>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<canUseDeflectMetalEffect>false</canUseDeflectMetalEffect>
+	</DamageDef>
 	<DamageDef>
 		<defName>AA_BurningAndFeedingBite</defName>
 		<label>burning attack</label>
 		<deathMessage>{0} has been burned and gored to death.</deathMessage>
 		<impactSoundType>Slice</impactSoundType>
 		<armorCategory>Sharp</armorCategory>
-		<workerClass>AlphaBehavioursAndEvents.DamageWorker_FeedingFlame</workerClass>   
+		<workerClass>AlphaBehavioursAndEvents.DamageWorker_FeedingFlame</workerClass>
 		<hasForcefulImpact>false</hasForcefulImpact>
 		<makesBlood>false</makesBlood>
 		<canInterruptJobs>false</canInterruptJobs>
-		<externalViolence>true</externalViolence>  
-		<hediff>Burn</hediff> 
+		<externalViolence>true</externalViolence>
+		<hediff>Burn</hediff>
 		<minDamageToFragment>15</minDamageToFragment>
 		<defaultDamage>10</defaultDamage>
 		<defaultArmorPenetration>0</defaultArmorPenetration>
@@ -324,12 +341,10 @@
 		<soundExplosion>Explosion_Flame</soundExplosion>
 		<combatLogRules>Damage_Flame</combatLogRules>
 	</DamageDef>
-
 	<DamageDef>
 		<defName>AA_RegenerativePierce</defName>
 		<label>vampiric stab</label>
 		<workerClass>AlphaBehavioursAndEvents.DamageWorker_Vampiric</workerClass>
-
 		<externalViolence>true</externalViolence>
 		<deathMessage>{0} has been gored to death.</deathMessage>
 		<hediff>Stab</hediff>
@@ -338,7 +353,6 @@
 		<impactSoundType>Slice</impactSoundType>
 		<armorCategory>Sharp</armorCategory>
 	</DamageDef>
-
 	<DamageDef>
 		<defName>AA_SwallowWhole</defName>
 		<label>swallow whole</label>
@@ -351,7 +365,6 @@
 		<impactSoundType>Slice</impactSoundType>
 		<armorCategory>Sharp</armorCategory>
 	</DamageDef>
-
 	<DamageDef>
 		<defName>BodyCrush</defName>
 		<label>crush</label>
@@ -365,7 +378,6 @@
 		<impactSoundType>Blunt</impactSoundType>
 		<armorCategory>Blunt</armorCategory>
 	</DamageDef>
-
 	<DamageDef ParentName="CutBase">
 		<defName>AA_SwarmlingClaws</defName>
 		<label>swarmling claws</label>
@@ -374,11 +386,9 @@
 				<hediff>AA_SwarmlingImplantation</hediff>
 				<severityPerDamageDealt>0.0001</severityPerDamageDealt>
 				<victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
-
 			</li>
 		</additionalHediffs>
 	</DamageDef>
-
 	<DamageDef ParentName="CutBase">
 		<defName>AA_FungalClaws</defName>
 		<label>infected claws</label>
@@ -387,17 +397,7 @@
 				<hediff>AA_VirulentFungalInfection</hediff>
 				<severityPerDamageDealt>0.0001</severityPerDamageDealt>
 				<victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
-
 			</li>
 		</additionalHediffs>
 	</DamageDef>
-
-
-
-
-
-
-
-
-
 </Defs>

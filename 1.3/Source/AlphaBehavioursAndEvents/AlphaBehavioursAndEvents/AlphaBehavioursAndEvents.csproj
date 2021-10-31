@@ -314,6 +314,7 @@
     <Compile Include="Comps\CompProperties\CompProperties_UpdateRoomStats.cs" />
     <Compile Include="Comps\CompTargetable_Ground.cs" />
     <Compile Include="Comps\CompUpdateRoomStats.cs" />
+    <Compile Include="DeathActionWorkers\DeathActionWorker_FrostbiteExplosion.cs" />
     <Compile Include="DeathActionWorkers\DeathActionWorker_SummonEclipse.cs" />
     <Compile Include="DeathActionWorkers\DeathActionWorker_SummonTornado.cs" />
     <Compile Include="Debug\FixedColonyAnimalsDebug.cs" />
@@ -328,6 +329,7 @@
     <Compile Include="DeathActionWorkers\DeathActionWorker_ExplodeAndSpawnEggs.cs" />
     <Compile Include="DeathActionWorkers\DeathActionWorker_GargantuanExplosion.cs" />
     <Compile Include="DeathActionWorkers\DeathActionWorker_SummonFlashstorm.cs" />
+    <Compile Include="Gases\Gas_Frost.cs" />
     <Compile Include="Harmony\BiomeDef_CommonalityOfAnimal_Patch.cs" />
     <Compile Include="Harmony\PawnUtility_IsFighting.cs" />
     <Compile Include="Harmony\QuestManager_Notify_ThingsProduced_Patch.cs" />

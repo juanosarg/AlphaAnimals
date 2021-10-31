@@ -64,6 +64,26 @@
     </gas>
   </ThingDef>
   
+    <ThingDef ParentName="BaseGas">
+    <defName>AA_FrostPuff</defName>
+	<thingClass>AlphaBehavioursAndEvents.Gas_Frost</thingClass>
+    <label>frosty air</label>
+    <graphicData>
+      <texPath>Things/Gas/AA_Frost</texPath>
+      <drawSize>0.75</drawSize>
+       <color>(255, 255, 255, 170)</color>
+    </graphicData>
+    <gas>
+      <expireSeconds>
+        <min>17</min>
+        <max>20</max>
+      </expireSeconds>
+      <blockTurretTracking>true</blockTurretTracking>
+      <accuracyPenalty>0.5</accuracyPenalty>
+      <rotationSpeed>10</rotationSpeed>
+    </gas>
+  </ThingDef>
+  
   <ThingDef ParentName="BaseGas">
     <defName>AA_Filth_Slime</defName>
     <label>slime</label>

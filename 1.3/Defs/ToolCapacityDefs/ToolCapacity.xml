@@ -47,6 +47,16 @@
 		<defName>AA_BurningBite</defName>
 		<label>burning bite</label>
 	</ToolCapacityDef>
+	
+	<ToolCapacityDef>
+		<defName>AA_FrostClaws</defName>
+		<label>frost claws</label>
+	</ToolCapacityDef>
+	
+	<ToolCapacityDef>
+		<defName>AA_FrostBite</defName>
+		<label>frost bite</label>
+	</ToolCapacityDef>
 
 	<ToolCapacityDef>
 		<defName>AA_BurningAndFeedingBite</defName>

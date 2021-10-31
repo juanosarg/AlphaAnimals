@@ -308,6 +308,31 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="BaseBullet">
+		<defName>AA_FrostBolt</defName>
+		<label>frost bolt</label>
+		
+		<graphicData>
+			<texPath>Things/Projectiles/AA_Cryo</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>2</drawSize>
+		</graphicData>
+		
+		<thingClass>Projectile_Explosive</thingClass>
+		
+		<projectile>
+			<flyOverhead>true</flyOverhead>
+			<explosionDelay>1</explosionDelay>
+			<explosionRadius>2.9</explosionRadius>
+			<damageDef>AA_FrostBomb</damageDef>
+			<damageAmountBase>10</damageAmountBase>
+			<postExplosionSpawnThingDef>AA_FrostPuff</postExplosionSpawnThingDef>
+			<postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+			<postExplosionSpawnChance>1</postExplosionSpawnChance>
+			<speed>20</speed>
+		</projectile>
+		
+	</ThingDef>
+	<ThingDef ParentName="BaseBullet">
 		<defName>AA_FireSpit</defName>
 		<label>fire spit</label>
 		
@@ -323,6 +348,8 @@
 			<speed>15</speed>
 		</projectile>
 	</ThingDef>
+	
+	
 	
 	<VFECore.ExpandableProjectileDef ParentName="BaseBullet">
 		<defName>AA_LaserBullet</defName>

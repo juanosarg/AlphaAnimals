@@ -141,7 +141,11 @@
 						<li>AA_AuroraSylph</li>
 						<li>AA_EmpressButterflyLarva</li>
 						<li>AA_EmpressButterfly</li>
-
+						
+						<li>AA_FrostLynx</li>
+						<li>AA_Genix</li>
+						<li>AA_GiantCrownedSilkie</li>
+						<li>AA_WindBeast</li>
 
 
 					</value>
@@ -277,6 +281,10 @@
 						<li>AA_AuroraSylph</li>
 					
 						<li>AA_EmpressButterfly</li>
+						<li>AA_FrostLynx</li>
+						<li>AA_Genix</li>
+						<li>AA_GiantCrownedSilkie</li>
+						<li>AA_WindBeast</li>
 
 					</value>
 				</li>
@@ -384,6 +392,10 @@
 						<li>AA_PedigreedRaptor</li>
 					
 						<li>AA_OcularNightling</li>
+						<li>AA_FrostLynx</li>
+						<li>AA_Genix</li>
+						<li>AA_GiantCrownedSilkie</li>
+						<li>AA_WindBeast</li>
 
 					</value>
 				</li>
@@ -491,6 +503,10 @@
 						<li>AA_PedigreedRaptor</li>
 						
 						<li>AA_OcularNightling</li>
+						<li>AA_FrostLynx</li>
+						<li>AA_Genix</li>
+						<li>AA_GiantCrownedSilkie</li>
+						<li>AA_WindBeast</li>
 
 					</value>
 				</li>
@@ -597,6 +613,10 @@
 						<li>AA_PedigreedRaptor</li>
 					
 						<li>AA_OcularNightling</li>
+						<li>AA_FrostLynx</li>
+						<li>AA_Genix</li>
+						<li>AA_GiantCrownedSilkie</li>
+						<li>AA_WindBeast</li>
 
 					</value>
 				</li>
@@ -723,6 +743,10 @@
 						
 						<li>AA_AuroraSylph</li>						
 						<li>AA_EmpressButterfly</li>
+						<li>AA_FrostLynx</li>
+						<li>AA_Genix</li>
+						<li>AA_GiantCrownedSilkie</li>
+						<li>AA_WindBeast</li>
 					</value>
 				</li>
 
@@ -842,6 +866,10 @@
 						
 						<li>AA_AuroraSylph</li>
 						<li>AA_EmpressButterfly</li>
+						<li>AA_FrostLynx</li>
+						<li>AA_Genix</li>
+						<li>AA_GiantCrownedSilkie</li>
+						<li>AA_WindBeast</li>
 					</value>
 				</li>
 
@@ -920,6 +948,10 @@
 						<li>AA_PedigreedRaptor</li>
 						
 						<li>AA_OcularNightling</li>
+						<li>AA_FrostLynx</li>
+						<li>AA_Genix</li>
+						<li>AA_GiantCrownedSilkie</li>
+						<li>AA_WindBeast</li>
 
 					</value>
 				</li>
@@ -1044,6 +1076,10 @@
 						
 						<li>AA_AuroraSylph</li>
 						<li>AA_EmpressButterfly</li>
+						<li>AA_FrostLynx</li>
+						<li>AA_Genix</li>
+						<li>AA_GiantCrownedSilkie</li>
+						<li>AA_WindBeast</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
@@ -1148,6 +1184,10 @@
 						
 						<li>AA_AuroraSylph</li>
 						<li>AA_EmpressButterfly</li>
+						<li>AA_FrostLynx</li>
+						<li>AA_Genix</li>
+						
+						<li>AA_WindBeast</li>
 
 
 					</value>
@@ -1262,6 +1302,10 @@
 						
 						<li>AA_AuroraSylph</li>
 						<li>AA_EmpressButterfly</li>
+						<li>AA_FrostLynx</li>
+						<li>AA_Genix</li>
+						<li>AA_GiantCrownedSilkie</li>
+						<li>AA_WindBeast</li>
 
 					</value>
 				</li>
@@ -1342,6 +1386,10 @@
 						<li>AA_OcularNightling</li>
 						<li>AA_AuroraSylph</li>
 						<li>AA_EmpressButterfly</li>
+						<li>AA_FrostLynx</li>
+						<li>AA_Genix</li>
+						
+						<li>AA_WindBeast</li>
 						
 					</value>
 				</li>
@@ -1445,6 +1493,10 @@
 						<li>AA_PedigreedRaptor</li>
 						
 						<li>AA_OcularNightling</li>
+						<li>AA_FrostLynx</li>
+						<li>AA_Genix</li>
+						<li>AA_GiantCrownedSilkie</li>
+						<li>AA_WindBeast</li>
 
 					</value>
 				</li>
@@ -1531,7 +1583,10 @@
 						<li>AA_PedigreedRaptor</li>
 						
 						<li>AA_OcularNightling</li>
-
+						<li>AA_FrostLynx</li>
+						<li>AA_Genix</li>
+						<li>AA_GiantCrownedSilkie</li>
+						
 
 
 					</value>
