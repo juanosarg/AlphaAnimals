@@ -5,10 +5,10 @@
 		<defName>AA_FrostLynx</defName>
 		<label>frost lynx</label>
 		
-		<description>A genetically altered hybrid of a lynx and a snow leopard, the Frost lynx shares its genetic template with the Genix, both having diverged due to environmental pressure after their creation.\n\n.</description>
+		<description>A genetically altered hybrid of a lynx and a snow leopard, the Frost lynx shares its genetic template with the Genix, both having diverged due to environmental pressure after their creation.\n\nThe Frost lynx was modified with hydrofluorocarbon-laced hemoglobin in its blood, allowing it to survive in extremely low temperatures, with a core body heat that would normally kill most creatures. As such, it is capable of using its low body heat to cause frostbite wounds in its victims, quickly incapacitating them. If it feels threatened, it can produce a ranged spit projectile containing particles of its blood, which explodes on impact and coves an area in dangerous freezing crystals.</description>
 		<statBases>
 			<MoveSpeed>5</MoveSpeed>
-			<ComfyTemperatureMin>-300</ComfyTemperatureMin>
+			<ComfyTemperatureMin>-200</ComfyTemperatureMin>
 			<ComfyTemperatureMax>40</ComfyTemperatureMax>
 			<MarketValue>375</MarketValue>
 			<FilthRate>2</FilthRate>

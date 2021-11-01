@@ -32,8 +32,9 @@
 		<li>tachyonite.pawnmorpherpublic</li>
 		<li>tachyonite.pawnmorpher</li>
 		<li>spoonshortage.ADogSaidAnimalProsthetics</li>
+		<li>Kompadt.Warhammer.Dryad</li>
 	</loadAfter>
-	<author>Sarg, AFriend, milon, Skullywag and kaptain_kavern</author>
+	<author>Sarg Bjornson, AFriend</author>
 
 	<packageId>sarg.alphaanimals</packageId>
 
@@ -78,6 +79,7 @@ Fireball Graphic created by StarsteelGaming at OpenGameArt.org (2018)
 Using NocturnalAnimals DLL by XeoNovaDan
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
+v3.8: Added 5 new animals (01/11/21)
 v3.7: Added 4 new animals (08/08/21)
 v3.6: Added new Ideology, 8 new animals (22/07/21)
 v3.4: RimWorld 1.3 update. (05/07/21)
