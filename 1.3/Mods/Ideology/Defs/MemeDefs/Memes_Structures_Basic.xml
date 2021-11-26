@@ -47,6 +47,13 @@
 				<member>alienist</member>
 			</li>
 		</symbolPacks>
+		<thingStyleCategories>
+			<li>
+				<category>AA_Ocular</category>
+				<priority>4</priority>
+			</li>
+		</thingStyleCategories>
+		
 		
 	</MemeDef>
 	

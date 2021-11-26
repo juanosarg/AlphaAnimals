@@ -63,63 +63,8 @@
 				<priority>4</priority>
 			</li>
 		</thingStyleCategories>
-		<modExtensions>
-			<li Class="VanillaMemesExpanded.ExtendedMemeProperties">
-				<neededMeme>AA_Structure_Alienism</neededMeme>
-			</li>
-		</modExtensions>
+		
 	</MemeDef>
 	
-	<!-- For the future -->
-
-	<!--<MemeDef>
-		<defName>AA_BiologicalReconstructors</defName>
-		<label>biological reconstructors</label>
-		<exclusionTags>
-			<li>AA_Biological</li>			
-		</exclusionTags>
-		<description>Life is precious, a gift from Old Earth. We shall try to replicate as much of it as possible and use it to populate the worlds of the Rim with a miriad lifeforms.</description>
-		<iconPath>UI/Memes/AA_Reconstructors</iconPath>
-		<groupDef>AA_Biological</groupDef>
-		<impact>2</impact>
-		<generalRules>
-			<rulesStrings>
-				<li>memeAdjective->zoological</li>
-				<li>memeAdjective->conservationist</li>
-				<li>memeAdjective->environmentalist</li>		
-				<li>memeAdjective->green</li>										
-				<li>memeConcept->conservation</li>
-				<li>memeHyphenPrefix->eco</li>	
-				<li>memeLeaderNoun->ecologist</li>
-				<li>memeMoralist->ecofreak</li>
-			
-			</rulesStrings>
-		</generalRules>
-		<descriptionMaker>
-			<rules>
-				<rulesStrings>
-					
-					
-					<li>alienistProphecy(tag=meme_BiologicalReconstructors)->We will create and breed as many new creatures as possible, and use them to repopulate the vast ecospheres of the Rim.</li>
-				</rulesStrings>
-			</rules>
-		</descriptionMaker>
-		
-		<symbolPacks>
-			<li>
-				<ideoName>Reconstruction</ideoName>
-				<theme>ecologism</theme>
-				<adjective>ecologist</adjective>
-				<member>eco-activist</member>
-			</li>
-			
-		</symbolPacks>
-		
-		 <modExtensions>
-            <li Class="VanillaMemesExpanded.ExtendedMemeProperties">
-                <neededMeme>AA_Structure_Alienism</neededMeme>
-            </li>
-        </modExtensions>
-	</MemeDef>-->
 
 </Defs>
