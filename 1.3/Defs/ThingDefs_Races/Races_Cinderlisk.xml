@@ -160,6 +160,7 @@
 		</race>
 		<tradeTags>
 			<li>AnimalExotic</li>
+			<li>AA_AlphaAnimalsLisk</li>
 		</tradeTags>
 		<modExtensions>
 			<li Class="AnimalBehaviours.AnimalStatExtension">
