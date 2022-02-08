@@ -19,14 +19,14 @@
 				<capacities>
 					<li>Scratch</li>
 				</capacities>
-				<power>13</power>
+				<power>9</power>
 				<cooldownTime>2.0</cooldownTime>
 				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
 				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>
 							<def>Stun</def>
-							<amount>21</amount>
+							<amount>12</amount>
 						</li>
 					</extraMeleeDamages>
 				</surpriseAttack>
@@ -36,14 +36,14 @@
 				<capacities>
 					<li>Scratch</li>
 				</capacities>
-				<power>13</power>
+				<power>9</power>
 				<cooldownTime>2.0</cooldownTime>
 				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
 				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>
 							<def>Stun</def>
-							<amount>21</amount>
+							<amount>12</amount>
 						</li>
 					</extraMeleeDamages>
 				</surpriseAttack>
@@ -52,14 +52,14 @@
 				<capacities>
 					<li>Bite</li>
 				</capacities>
-				<power>17</power>
+				<power>7</power>
 				<cooldownTime>1.65</cooldownTime>
 				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>
 							<def>Stun</def>
-							<amount>13</amount>
+							<amount>12</amount>
 						</li>
 					</extraMeleeDamages>
 				</surpriseAttack>
@@ -97,7 +97,7 @@
 			<leatherDef>Leather_Plain</leatherDef>
 			<wildness>0.3</wildness>
 			<trainability>Advanced</trainability>
-			<gestationPeriodDays>10</gestationPeriodDays>
+			<gestationPeriodDays>16</gestationPeriodDays>
 			<litterSizeCurve>
 				<points>
 					<li>(0.5, 0)</li>

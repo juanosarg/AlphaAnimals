@@ -79,7 +79,7 @@
 			<manhunterOnTameFailChance>0.3</manhunterOnTameFailChance>
 			<roamMtbDays>5</roamMtbDays>
 			<trainability>None</trainability>
-			<gestationPeriodDays>6.66</gestationPeriodDays>
+			<gestationPeriodDays>20</gestationPeriodDays>
 			<litterSizeCurve>
 				<points>
 					<li>(0.5, 0)</li>

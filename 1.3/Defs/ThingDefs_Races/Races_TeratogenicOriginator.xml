@@ -43,7 +43,7 @@
 			</li>
 			<li Class="AnimalBehaviours.CompProperties_AnimalProduct">
 
-				<gatheringIntervalDays>20</gatheringIntervalDays>
+				<gatheringIntervalDays>40</gatheringIntervalDays>
 				<resourceAmount>1</resourceAmount>
 				<customResourceString>AA_MutantImplantsDesc</customResourceString>
 				<isRandom>true</isRandom>

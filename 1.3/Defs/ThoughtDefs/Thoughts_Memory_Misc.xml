@@ -45,7 +45,7 @@
 			<li>
 				<label>psychic harmony (good)</label>
 				<description>A Grey-Coated Mouflon nearby is well fed and cared for.</description>
-				<baseMoodEffect>12</baseMoodEffect>
+				<baseMoodEffect>8</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>
@@ -62,7 +62,7 @@
 			<li>
 				<label>psychic harmony (bad)</label>
 				<description>A Grey-Coated Mouflon nearby is angry or hurt, creating psychic waves of agony that are extremely distracting...</description>
-				<baseMoodEffect>-12</baseMoodEffect>
+				<baseMoodEffect>-8</baseMoodEffect>
 			</li>
 		</stages>
 	</ThoughtDef>
