@@ -15,7 +15,7 @@
       <drawSize>0.80</drawSize>
     </graphicData>
     <thingCategories>
-      <li>BodyPartsNatural</li>
+      <li>AA_ImplantCategory</li>
     </thingCategories>
     <statBases>
       <DeteriorationRate>4.0</DeteriorationRate>
