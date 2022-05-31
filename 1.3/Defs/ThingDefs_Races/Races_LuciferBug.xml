@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_LuciferBug</defName>
 		<label>luciferbug</label>
-		<description>A small insectoid, genetically modified to produce small batches of Luciferium extract every few days.\n\nEven though they are useful as a source of the dangerous drug, the fact that Luciferium is a mechanite-based drug makes luciferbugs extremely unstable, and prone to violent detonation if damaged. This detonation releases all the Luciferium accumulating on their abdomens, subjecting any nearby creatures to a dangerous drug overdose. For this reason, luciferbugs should always be kep VERY FAR AWAY from any valuable members of the colony.\n\nArt by Feroxiious (check her Instagram at https://www.instagram.com/feroxiious/).</description>
+		<description>A small insectoid, genetically modified to produce small batches of Luciferium extract every few days.\n\nEven though they are useful as a source of the dangerous drug, the fact that Luciferium is a mechanite-based drug makes luciferbugs extremely unstable, and prone to violent detonation if damaged. This detonation releases all the Luciferium accumulating on their abdomens, subjecting any nearby creatures to a dangerous drug overdose. For this reason, luciferbugs should always be kept VERY FAR AWAY from any valuable members of the colony.\n\nArt by Feroxiious (check her Instagram at https://www.instagram.com/feroxiious/).</description>
 		<statBases>
 			<MoveSpeed>3.00</MoveSpeed>
 			<ComfyTemperatureMin>-20</ComfyTemperatureMin>
