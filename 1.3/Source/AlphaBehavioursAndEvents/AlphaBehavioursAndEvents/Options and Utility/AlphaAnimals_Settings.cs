@@ -43,8 +43,15 @@ namespace AlphaBehavioursAndEvents
             {
                 if (num == keys.Count/2) { ls.NewColumn(); }
                 bool test = pawnSpawnStates[keys[num]];
-                ls.CheckboxLabeled("AA_DisableAnimal".Translate(PawnKindDef.Named(keys[num]).LabelCap), ref test);
-                pawnSpawnStates[keys[num]] = test;
+                if (DefDatabase<PawnKindDef>.GetNamedSilentFail(keys[num]) == null)
+                {
+                    pawnSpawnStates.Remove(keys[num]);
+                }
+                else
+                {
+                    ls.CheckboxLabeled("AA_DisableAnimal".Translate(PawnKindDef.Named(keys[num]).LabelCap), ref test);
+                    pawnSpawnStates[keys[num]] = test;
+                }
             }
            
             ls.End();
