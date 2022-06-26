@@ -131,8 +131,12 @@
 		<label>bobeene</label>
 		<race>AA_Bobeene</race>
 		<combatPower>75</combatPower>
-		<ecoSystemWeight>1.1</ecoSystemWeight>
+		<ecoSystemWeight>0.4</ecoSystemWeight>
 		<canArriveManhunter>false</canArriveManhunter>
+		<wildGroupSize>
+			<min>2</min>
+			<max>6</max>
+		</wildGroupSize>
 		<lifeStages>
 			<li>
 				<label>bobeene calf</label>

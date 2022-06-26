@@ -20,9 +20,11 @@
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="AA_Bobeene"]/race/wildBiomes</xpath>
+					<xpath>/Defs/ThingDef[defName="AA_Bobeene"]/race</xpath>
 					<value>
-						<AB_IdyllicMeadows>2</AB_IdyllicMeadows>
+					<wildBiomes>
+						<AB_IdyllicMeadows>4</AB_IdyllicMeadows>
+						</wildBiomes>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
