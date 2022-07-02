@@ -1,10 +1,8 @@
-<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Schemas/MutationDef.xsd">
-	<Pawnmorph.Hediffs.MutationDef Name="HelixienPart" ParentName="PawnmorphPart" Abstract="true">
-		<classInfluence>AA_HelixienMorph</classInfluence>
-	</Pawnmorph.Hediffs.MutationDef>
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MutationDef.xsd">
 
-	<Pawnmorph.Hediffs.MutationDef ParentName="HelixienPart">
+	<Pawnmorph.Hediffs.MutationDef ParentName="PawnmorphPart">
 		<defName>AA_EtherHelixienFace</defName>
+		<classInfluence>AA_HelixienMorph</classInfluence>
 		<label>slug face</label>
 		<description>A slimy, tentacular visage now makes itself apparent over the entirety of [PAWN_nameDef]'s face. With stalk eyes and weird, moving mouth bits it's quite a sight!</description>
 		<mutationTale>AA_GrewHelixienFace</mutationTale>
@@ -76,10 +74,10 @@
 		</parts>
 	</Pawnmorph.Hediffs.MutationDef>
 
-	<Pawnmorph.Hediffs.MutationDef ParentName="HelixienPart">
+	<Pawnmorph.Hediffs.MutationDef ParentName="PawnmorphPart">
 		<defName>AA_EtherHelixienTail</defName>
+		<classInfluence>AA_HelixienMorph</classInfluence>
 		<label>slug tail</label>
-		
 		<description>A slimy tail, it feels slippery and reeks of bile. Amazing!</description>
 		<mutationTale>AA_GrewSlugTail</mutationTale>
 		<parts>
@@ -109,77 +107,64 @@
         </rulePack>
     </RulePackDef>
 
-	<Pawnmorph.Hediffs.MutationDef ParentName="PawnmorphSkinPart">
+	<Pawnmorph.Hediffs.MutationDef ParentName="PawnmorphSkinBasePart">
 		<defName>AA_EtherSlimyLimb</defName>
 		<label>slime</label>
 		<description>A layer of slime has spread over this limb that never seems to wash off no matter how hard [PAWN_nameDef] scrubs.</description>
 		<classInfluence>AA_HelixienMorph</classInfluence>
-		<parts>
-			<li>Torso</li>
-			<li>Head</li>
-			<li>Ear</li>
-			<li>Arm</li>
-			<li>Hand</li>
-			<li>Leg</li>
-			<li>Foot</li>
-			
-		</parts>
 		<mutationLogRulePack>AA_SlimeGrowthLogPack</mutationLogRulePack>
 		<countToAffect>2</countToAffect>
-		<categories>
-			<li>Minor</li>
-		</categories>
-		<comps>
-			<li Class="Pawnmorph.Hediffs.CompProperties_MutationSeverityAdjust">
-				<severityPerDay>0.33</severityPerDay>
+		<stagePatches>
+			<li function="modify">
+				<stageKey>light</stageKey>
+				<values>
+					<label>slime spots</label>
+					<description>There's a very thin layer of slime oozing out of the pores.</description>
+					<statOffsets>
+						<ArmorRating_Sharp>0.001</ArmorRating_Sharp>
+					</statOffsets>
+				</values>
 			</li>
-		</comps>
-		<stages>
-			<li Class="Pawnmorph.Hediffs.MutationStage">
-				<labelOverride>slime spots</labelOverride>
-				<description>There's a very thin layer of slime oozing out of the pores.</description>
-
-				<minSeverity>0</minSeverity>
-				<statOffsets>
-					<ArmorRating_Sharp>0.001</ArmorRating_Sharp>
-				</statOffsets>
+			<li function="modify">
+				<stageKey>dusting</stageKey>
+				<values>
+					<label>thin slime</label>
+					<description>The skin is covered in a very thin layer of slime.</description>
+					<statOffsets>
+						<ArmorRating_Sharp>0.005</ArmorRating_Sharp>
+					</statOffsets>
+				</values>
 			</li>
-			<li Class="Pawnmorph.Hediffs.MutationStage">
-				<labelOverride>thin slime</labelOverride>
-				<description>The skin is covered in a very thin layer of slime.</description>
-				<minSeverity>0.2</minSeverity>
-				<statOffsets>
-					<ArmorRating_Sharp>0.005</ArmorRating_Sharp>
-				</statOffsets>
+			<li function="modify">
+				<stageKey>thin</stageKey>
+				<values>
+					<label>slimy layer</label>
+					<description>This skin has a sticky layer of slime.</description>
+					<statOffsets>
+						<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+					</statOffsets>
+				</values>
 			</li>
-
-			<li Class="Pawnmorph.Hediffs.MutationStage">
-				<labelOverride>slimy layer</labelOverride>
-				<description>This skin has a sticky layer of slime.</description>
-				<minSeverity>0.4</minSeverity>
-				<statOffsets>
-					<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
-				</statOffsets>
+			<li function="modify">
+				<stageKey>patches</stageKey>
+				<values>
+					<label>dripping slime</label>
+					<description>The slime layer is thick enough that it sometimes drips onto the ground.</description>
+					<statOffsets>
+						<ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+					</statOffsets>
+				</values>
 			</li>
-			<li Class="Pawnmorph.Hediffs.MutationStage">
-				<labelOverride>dripping slime</labelOverride>
-				<description>The slime layer is thick enough that it sometimes drips onto the ground.</description>
-
-				<minSeverity>0.6</minSeverity>
-				<statOffsets>
-					<ArmorRating_Sharp>0.02</ArmorRating_Sharp>
-				</statOffsets>
+			<li function="modify">
+				<stageKey>full</stageKey>
+				<values>
+					<label>thick slime</label>
+					<description>The slime layer is so thick that blades and bullets have difficult penetrating it.</description>
+					<statOffsets>
+						<ArmorRating_Sharp>0.04</ArmorRating_Sharp>
+					</statOffsets>
+				</values>
 			</li>
-			<li Class="Pawnmorph.Hediffs.MutationStage">
-				<labelOverride>thick slime</labelOverride>
-				<description>The slime layer is so thick that blades and bullets have difficult penetrating it.</description>
-				<minSeverity>0.8</minSeverity>
-				<statOffsets>
-					<ArmorRating_Sharp>0.04</ArmorRating_Sharp>
-				</statOffsets>
-			</li>
-		</stages>
+		</stagePatches>
 	</Pawnmorph.Hediffs.MutationDef>
-	
-	
 </Defs>
