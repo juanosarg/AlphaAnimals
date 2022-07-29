@@ -1,20 +1,14 @@
-<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Schemas/MutationDef.xsd">
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/MutationDef.xsd">
 
-
-	<Pawnmorph.Hediffs.MutationDef Name="AA_AerofleetPart" ParentName="PawnmorphPart" Abstract="true">
-		<classInfluence>AA_AerofleetMorph</classInfluence>
-	</Pawnmorph.Hediffs.MutationDef>
-
-	<Pawnmorph.Hediffs.MutationDef ParentName="AA_AerofleetPart">
+	<Pawnmorph.Hediffs.MutationDef ParentName="PawnmorphPart">
 		<defName>AA_AerofleetEyes</defName>
+		<classInfluence>AA_AerofleetMorph</classInfluence>
 		<label>aerofleet hood</label>
 		<description>Two new eyes have appeared on [PAWN_nameDef]'s face, and the entirety of [PAWN_possessive] face has been surrounded by a gelatinous membrane.</description>
 		<mutationTale>AA_GrewAerofleetEyes</mutationTale>
 		<mutationMemory>AA_AerofleetEyes</mutationMemory>
-		
 		<stages>
 			<li>
-				
 				<statOffsets>
 					<SocialImpact>-0.10</SocialImpact>
 				</statOffsets>
@@ -22,7 +16,6 @@
 			<li>
 				<minSeverity>1</minSeverity>
 				<capMods>
-					
 					<li>
 						<capacity>Sight</capacity>
 						<offset>0.30</offset>
@@ -39,23 +32,18 @@
 			</li>
 		</stages>
 		<comps>
-			
 			<li Class="Pawnmorph.Hediffs.CompProperties_MutationSeverityAdjust">
 				<severityPerDay>0.25</severityPerDay>
 				<!-- takes 4 days to progress -->
 			</li>
 			<li Class="Pawnmorph.HediffCompProperties_Production">
-			
 				<jobGiver>Pawnmorph.Jobs.Giver_LayEgg</jobGiver>
-				
 				<stages>
-					
 					<li>
 						<daysToProduce>1</daysToProduce>
 						<amount>10</amount>
 						<resource>AA_BlueGel</resource>					
 						<chance>100</chance>
-						
 					</li>
 				</stages>
 			</li>
@@ -65,11 +53,11 @@
 		</parts>
 	</Pawnmorph.Hediffs.MutationDef>
 	
-	<Pawnmorph.Hediffs.MutationDef ParentName="AA_AerofleetPart">
+	<Pawnmorph.Hediffs.MutationDef ParentName="PawnmorphPart">
 		<defName>AA_AerofleetVacuoles</defName>
+		<classInfluence>AA_AerofleetMorph</classInfluence>
 		<label>gas vacuole</label>
 		<description>An aggregate of hollow cylindrical structures called gas vesicles, this vacuole can be inflated and deflated with gas to provide buoyancy.</description>
-		
 		<stages>
 			<li>
 				<label>internal itch</label>
@@ -80,7 +68,6 @@
 			<li>
 				<minSeverity>1</minSeverity>
 				<capMods>
-					
 					<li>
 						<capacity>Moving</capacity>
 						<offset>0.05</offset>
@@ -93,7 +80,6 @@
 			</li>
 		</stages>
 		<comps>
-			
 			<li Class="Pawnmorph.Hediffs.CompProperties_MutationSeverityAdjust">
 				<severityPerDay>0.5</severityPerDay>
 				<!-- takes 2 days to progress -->
@@ -106,49 +92,56 @@
 		</parts>
 	</Pawnmorph.Hediffs.MutationDef>
 	
-	<Pawnmorph.Hediffs.MutationDef ParentName="PawnmorphSkinPart" Name="AA_AerofleetFuzzMutation">
+	<Pawnmorph.Hediffs.MutationDef ParentName="AbstractFurredLimb" Name="AA_AerofleetFuzzMutation">
 		<defName>AA_AerofleetFuzz</defName>
+		<classInfluence>AA_AerofleetMorph</classInfluence>
 		<label>aerofleet fuzz</label>
 		<description>A fuzzy, soft layer of short, thin hairs</description>
-		<classInfluence>AA_AerofleetMorph</classInfluence>
 		<mutationMemory>AA_AerofleetFuzz</mutationMemory>
 		<parts>
 			<li>Torso</li>
-			
 			<li>Ear</li>
 			<li>Arm</li>
 			<li>Hand</li>
 			<li>Leg</li>
 			<li>Foot</li>
-			
 		</parts>
-		<comps>
-			<li Class="Pawnmorph.Hediffs.CompProperties_MutationSeverityAdjust">
-				<severityPerDay>0.33</severityPerDay>
+		<stagePatches>
+			<li function="modify">
+				<stageKey>dusting</stageKey>
+				<values>
+					<statOffsets>
+						<ArmorRating_Sharp>0.0025</ArmorRating_Sharp>
+					</statOffsets>
+				</values>
 			</li>
-		</comps>
-		<stages>
-			<li Class="Pawnmorph.Hediffs.MutationStage">
-				<labelOverride>thin fuzz</labelOverride>
-				<description>A fuzzy, soft layer of short, thin hairs</description>
-				<minSeverity>0</minSeverity>
-				<statOffsets>
-					<ArmorRating_Sharp>0.005</ArmorRating_Sharp>
-				</statOffsets>
+			<li function="modify">
+				<stageKey>thin</stageKey>
+				<values>
+					<description>A fuzzy, soft layer of short, thin hairs.</description>
+					<statOffsets>
+						<ArmorRating_Sharp>0.005</ArmorRating_Sharp>
+					</statOffsets>
+				</values>
 			</li>
-			<li Class="Pawnmorph.Hediffs.MutationStage">
-				<labelOverride>dense fuzz</labelOverride>
-				<description>A fuzzy, soft layer of short, thin hairs. This fuzz has thickened a bit.</description>
-				<minSeverity>0.4</minSeverity>
-				<statOffsets>
-					<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
-				</statOffsets>
+			<li function="modify">
+				<stageKey>patches</stageKey>
+				<values>
+					<description>A fuzzy, soft layer of short, thin hairs.</description>
+					<statOffsets>
+						<ArmorRating_Sharp>0.0075</ArmorRating_Sharp>
+					</statOffsets>
+				</values>
 			</li>
-			
-		</stages>
+			<li function="modify">
+				<stageKey>full</stageKey>
+				<values>
+					<description>A fuzzy, soft layer of short, thin hairs. This fuzz has thickened a bit.</description>
+					<statOffsets>
+						<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+					</statOffsets>
+				</values>
+			</li>
+		</stagePatches>
 	</Pawnmorph.Hediffs.MutationDef>
-
-	
-	
-	
 </Defs>

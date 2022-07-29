@@ -1,4 +1,4 @@
-<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Schemas/ThoughtDef.xsd">
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Tachyonite/Pawnmorpher/dev/Schemas/ThoughtDef.xsd">
 	<ThoughtDef ParentName="OutlookMemoryBase">
 		<defName>AA_HelixienTransformationMemory</defName>
 		<stages>
