@@ -295,29 +295,47 @@
       <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.XRModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="VFECore">
+      <HintPath>References\VFECore.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abilities\Ability_OnlyBlackHive.cs" />
+    <Compile Include="Abilities\Ability_Summon_BlackQueen.cs" />
+    <Compile Include="Abilities\Ability_Summon_BlackScarab.cs" />
+    <Compile Include="Abilities\Ability_Summon_Hive.cs" />
+    <Compile Include="Abilities\Ability_Summon_MammothWorm.cs" />
+    <Compile Include="Abilities\Ability_Summon_BlackSpider.cs" />
+    <Compile Include="Abilities\Ability_Summon_BlackSpelopede.cs" />
     <Compile Include="Achievements\ItemCraftTrackerWithIngredients.cs" />
     <Compile Include="Achievements\KillTrackerWithOr.cs" />
     <Compile Include="Buildings\Building_AncientAssembler.cs" />
     <Compile Include="Comps\CompAbilityOcularConversion.cs" />
+    <Compile Include="Comps\CompCocoon.cs" />
     <Compile Include="Comps\CompCorruptedPod.cs" />
     <Compile Include="Comps\CompGauranlenGrassGraphicChanger.cs" />
     <Compile Include="Comps\CompGauranlenGraphicChanger.cs" />
     <Compile Include="Comps\CompChangeDefSappers.cs" />
     <Compile Include="Comps\CompChangeDef.cs" />
+    <Compile Include="Comps\CompLarvaeToCocoon.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_AbilityOcularConversion.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_ChangeDefSappers.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_ChangeDef.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_GauranlenGrassGraphicChanger.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_GauranlenGraphicChanger.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_Cocoon.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_LarvaeToCocoon.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_SpawnLarvae.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_UpdateRoomStats.cs" />
+    <Compile Include="Comps\CompSpawnLarvae.cs" />
     <Compile Include="Comps\CompTargetable_Ground.cs" />
     <Compile Include="Comps\CompUpdateRoomStats.cs" />
     <Compile Include="DeathActionWorkers\DeathActionWorker_FrostbiteExplosion.cs" />
     <Compile Include="DeathActionWorkers\DeathActionWorker_SummonEclipse.cs" />
     <Compile Include="DeathActionWorkers\DeathActionWorker_SummonTornado.cs" />
     <Compile Include="Debug\FixedColonyAnimalsDebug.cs" />
+    <Compile Include="DefOfs\InternalDefOf.cs" />
     <Compile Include="Def\ToggleableSpawnDef.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_Berserk.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_ExtraDamageInsectoids.cs" />
@@ -362,6 +380,7 @@
     <Compile Include="Jobs\JobGiver_MergeIntoGaumakerPodCorruptor.cs" />
     <Compile Include="Jobs\JobGiver_TryQuarryJob.cs" />
     <Compile Include="MapComponents\MapRoomUpdater.cs" />
+    <Compile Include="MentalStates\MentalState_FriendlyManhunter.cs" />
     <Compile Include="Options and Utility\AlphaAnimals_SettingsController.cs" />
     <Compile Include="Options and Utility\AlphaAnimals_Settings.cs" />
     <Compile Include="Buildings\Building_BlackHiveMound.cs" />

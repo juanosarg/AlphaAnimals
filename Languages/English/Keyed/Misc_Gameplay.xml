@@ -243,8 +243,14 @@
 	<AA_PestDesc>This animal is generally considered a pest, and not useful at all to have around the colony. It either has effects that are purely detrimental, or needs that outweight its usefulness. You may find a niche use for them, though!</AA_PestDesc>
 	<AA_PetDesc>This animal is a pet. Isn't he cute?</AA_PetDesc>
 
+	<!-- Psycasts -->
 
-
+	<AA_OnlyBlackHive>This ability must target a Black Hive insect</AA_OnlyBlackHive>
+	<AA_OnlyOneHivePerMap>Only one hive entrance can be built</AA_OnlyOneHivePerMap>
+	<AA_NoMoreLarvaeAllowed>No more larvae can spawn, as the colony already has 4 Black Hive insectoids or more</AA_NoMoreLarvaeAllowed>
+	<AA_LarvaeTimeSpawn>Time to spawn new black larvae: {0}</AA_LarvaeTimeSpawn>
+	<AA_HiveInvalidPosition>A hive entrance can't be built here</AA_HiveInvalidPosition>
+	<AA_CocoonInsectSpawnIn>Insect emerging in: {0}</AA_CocoonInsectSpawnIn>
 
 
 

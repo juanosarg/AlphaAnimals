@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+
+
+
+	<AnimalBehaviours.AnimalsDisabledFromQuestsDef>
+		<defName>AA_DisabledAnimalToggles_psycasts</defName>
+		<disabledFromQuestsPawns>			
+			
+			<li>AA_BlackScarab_Temporary</li>
+			<li>AA_BlackSpider_Temporary</li>
+			<li>AA_BlackSpelopede_Temporary</li>
+			<li>AA_MammothWorm_Temporary</li>
+			
+			
+		</disabledFromQuestsPawns>							
+	</AnimalBehaviours.AnimalsDisabledFromQuestsDef>
+
+
+
+
+
+</Defs>
