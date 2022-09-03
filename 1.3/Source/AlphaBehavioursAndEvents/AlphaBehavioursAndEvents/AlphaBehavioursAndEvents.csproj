@@ -301,13 +301,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abilities\Ability_DestroyEyes.cs" />
+    <Compile Include="Abilities\Ability_OcularEruption.cs" />
     <Compile Include="Abilities\Ability_OnlyBlackHive.cs" />
-    <Compile Include="Abilities\Ability_Summon_BlackQueen.cs" />
-    <Compile Include="Abilities\Ability_Summon_BlackScarab.cs" />
+    <Compile Include="Abilities\Ability_Summon.cs" />
     <Compile Include="Abilities\Ability_Summon_Hive.cs" />
-    <Compile Include="Abilities\Ability_Summon_MammothWorm.cs" />
-    <Compile Include="Abilities\Ability_Summon_BlackSpider.cs" />
-    <Compile Include="Abilities\Ability_Summon_BlackSpelopede.cs" />
     <Compile Include="Achievements\ItemCraftTrackerWithIngredients.cs" />
     <Compile Include="Achievements\KillTrackerWithOr.cs" />
     <Compile Include="Buildings\Building_AncientAssembler.cs" />
@@ -335,6 +333,7 @@
     <Compile Include="DeathActionWorkers\DeathActionWorker_SummonEclipse.cs" />
     <Compile Include="DeathActionWorkers\DeathActionWorker_SummonTornado.cs" />
     <Compile Include="Debug\FixedColonyAnimalsDebug.cs" />
+    <Compile Include="DefExtensions\Ability_Summon_Extension.cs" />
     <Compile Include="DefOfs\InternalDefOf.cs" />
     <Compile Include="Def\ToggleableSpawnDef.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_Berserk.cs" />

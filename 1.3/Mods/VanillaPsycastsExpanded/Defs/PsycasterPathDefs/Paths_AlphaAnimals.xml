@@ -29,5 +29,15 @@
         <tab>Alpha Animals</tab>
         <tooltip>Equal parts psycaster and scientist, the alien consecrator dedicates their entire willpower to meditating and studying the intricate survival abilities developed and engineered on the strange creatures that populate the Rim.</tooltip>
     </VanillaPsycastsExpanded.PsycasterPathDef>
+	
+	<VanillaPsycastsExpanded.PsycasterPathDef>
+        <defName>AAVPE_Ravager</defName>
+        <label>ravager</label>
+        <description>An animalistic berserker that invokes the rage of the wild to strike his enemies in brutal, close quarters combat.</description>
+        <background>UI/Psycasts/PathBG_Ravager</background>
+        <altBackground>UI/Psycasts/PathBG_Ravager_Alternate</altBackground>
+        <tab>Alpha Animals</tab>
+        <tooltip>Warriors of great strength, ravager user their psychic abilities to attune themselves to animal spirits, acquiring their power to fight in a trance-like fury where they leave their humanity behind.</tooltip>
+    </VanillaPsycastsExpanded.PsycasterPathDef>
    
 </Defs>

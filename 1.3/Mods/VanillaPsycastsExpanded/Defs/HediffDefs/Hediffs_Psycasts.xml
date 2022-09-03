@@ -2,13 +2,13 @@
 <Defs>
 
 
-	
+
 	<HediffDef>
 		<defName>AAVPE_StrengthenBlackHive</defName>
 		<hediffClass>HediffWithComps</hediffClass>
 		<label>insectoid strengthened</label>
 		<description>This Black Hive insect has been strengthened and will be more proficient in combat.</description>
-		
+
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
 		<isBad>false</isBad>		
@@ -18,11 +18,11 @@
 					<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
 					<ArmorRating_Sharp>0.2</ArmorRating_Sharp>					
 					<InjuryHealingFactor>0.25</InjuryHealingFactor>					
-								
+
 				</statOffsets>
 				<painFactor>0.25</painFactor>
 				<capMods>
-					
+
 					<li>
 						<capacity>Manipulation</capacity>
 						<offset>0.5</offset>
@@ -35,11 +35,87 @@
 						<capacity>Moving</capacity>
 						<offset>0.4</offset>
 					</li>
-					
+
 				</capMods>
 			</li>
 		</stages>
 	</HediffDef>
-	
+
+	<HediffDef ParentName="InfectionBase">
+		<defName>AA_MalevolentEye</defName>
+		<label>malevolent eye</label>
+		<labelNoun>a malevolent eye</labelNoun>
+		<description>A malevolent looking, bloodshot eye is emerging from this wound, blinking and peering wildly around it. Without treatment, it will cause rotting of the local tissue, eventually causing blood poisoning and death. They will however allow the afflicted to see through them.</description>
+		<makesSickThought>true</makesSickThought>
+		<lethalSeverity>1</lethalSeverity>
+		 <woundAnchorRange>0</woundAnchorRange>
+    <displayWound>true</displayWound>
+		<tendable>true</tendable>
+		<comps>
+			<li Class="HediffCompProperties_TendDuration">
+				<baseTendDurationHours>12</baseTendDurationHours>
+				<severityPerDayTended>-0.53</severityPerDayTended>
+			</li>
+			<li Class="HediffCompProperties_Immunizable">
+				<severityPerDayNotImmune>0.84</severityPerDayNotImmune>
+				<immunityPerDaySick>0.6441</immunityPerDaySick>
+				<severityPerDayImmune>-0.70</severityPerDayImmune>
+				<immunityPerDayNotSick>-0.40</immunityPerDayNotSick>
+			</li>
+
+		</comps>
+		<stages>
+			<li>
+				<label>minor</label>
+				<painOffset>0.1</painOffset>
+				<capMods>
+					
+					<li>
+						<capacity>Sight</capacity>
+						<offset>0.15</offset>
+					</li>
+				</capMods>
+			</li> 
+			<li>
+				<minSeverity>0.33</minSeverity>
+				<label>major</label>
+				<painOffset>0.15</painOffset>
+				<capMods>
+					
+					<li>
+						<capacity>Sight</capacity>
+						<offset>0.2</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.78</minSeverity>
+				<label>extreme</label>
+				<lifeThreatening>true</lifeThreatening>
+				<painOffset>0.3</painOffset>
+				<capMods>
+					
+					<li>
+						<capacity>Sight</capacity>
+						<offset>0.25</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.87</minSeverity>
+				<label>extreme</label>
+				<lifeThreatening>true</lifeThreatening>
+				<painOffset>0.85</painOffset>
+				<capMods>
+					
+					<li>
+						<capacity>Sight</capacity>
+						<offset>0.25</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
 
 </Defs>
