@@ -16,6 +16,6 @@ namespace AlphaBehavioursAndEvents
             this.compClass = typeof(CompLarvaeToCocoon);
         }
 
-        public int ticksBeforeBecomingCocoon;
+        public int ticksBeforeBecomingCocoon = 5000;
     }
 }

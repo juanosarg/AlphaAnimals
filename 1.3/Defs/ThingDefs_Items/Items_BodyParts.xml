@@ -68,6 +68,97 @@
       <Mass>1</Mass>
     </statBases>
   </ThingDef>
+  
+  <ThingDef ParentName="AA_BodyPartMutantBase">
+    <defName>AA_TheOmniscientEye</defName>
+    <label>the omniscient eye</label>
+		<graphicData>
+      <texPath>Things/Item/Resource/AA_MutantEyeImplant</texPath>
+    </graphicData>
+    <description>A bloodshot eye with a triangular pupil. This horrible mutant eye confers the gift of an improved psychic sight.</description>
+    <statBases>
+      <MarketValue>100</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+  </ThingDef>
+  
+  <ThingDef ParentName="AA_BodyPartMutantBase">
+    <defName>AA_TheRecalcitrantEye</defName>
+    <label>the recalcitrant eye</label>
+		<graphicData>
+      <texPath>Things/Item/Resource/AA_MutantEyeImplant</texPath>
+    </graphicData>
+    <description>A weird mutant eye that is never fully open, being most of the time partially covered by a sickly looking eyelid. Strangely enough, it provides normal sight while at the same time protecting its host from psychic attacks.</description>
+    <statBases>
+      <MarketValue>100</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+  </ThingDef>
+  
+  <ThingDef ParentName="AA_BodyPartMutantBase">
+    <defName>AA_TheQuiescentEye</defName>
+    <label>the quiescent eye</label>
+		<graphicData>
+      <texPath>Things/Item/Resource/AA_MutantEyeImplant</texPath>
+    </graphicData>
+    <description>An eye that never blinks, keeping itself moist by unknown means. It pervades its host with a sense of preternatural calmness.</description>
+    <statBases>
+      <MarketValue>100</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+  </ThingDef>
+  
+  <ThingDef ParentName="AA_BodyPartMutantBase">
+    <defName>AA_TheNumbingEye</defName>
+    <label>the numbing eye</label>
+		<graphicData>
+      <texPath>Things/Item/Resource/AA_MutantEyeImplant</texPath>
+    </graphicData>
+    <description>This strange mutant eye is covered by dense plates of bone instead of a normal fleshy eyelid, and seems to be almost impervious to pain.</description>
+    <statBases>
+      <MarketValue>100</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+  </ThingDef>
+  
+  <ThingDef ParentName="AA_BodyPartMutantBase">
+    <defName>AA_TheSpasmodicEye</defName>
+    <label>the spasmodic eye</label>
+		<graphicData>
+      <texPath>Things/Item/Resource/AA_MutantEyeImplant</texPath>
+    </graphicData>
+    <description>An eye that can't stop blinking uncontrollably. While extremely distracting and disconcerting, it allows its host to cast more psychic powers before exhaustion.</description>
+    <statBases>
+      <MarketValue>100</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+  </ThingDef>
+  
+  <ThingDef ParentName="AA_BodyPartMutantBase">
+    <defName>AA_TheMeretriciousEye</defName>
+    <label>the meretricious eye</label>
+		<graphicData>
+      <texPath>Things/Item/Resource/AA_MutantEyeImplant</texPath>
+    </graphicData>
+    <description>This gaudy looking eye seems to have a life of its own, trying to catch the attention of other people with carefully directed winks and furtive, sultry glances that beckon with a false allure. It allows its host to recover quicker from psychic exhaustion.</description>
+    <statBases>
+      <MarketValue>100</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+  </ThingDef>
+  
+  <ThingDef ParentName="AA_BodyPartMutantBase">
+    <defName>AA_TheHeuristicEye</defName>
+    <label>the heuristic eye</label>
+		<graphicData>
+      <texPath>Things/Item/Resource/AA_MutantEyeImplant</texPath>
+    </graphicData>
+    <description>This eye analyzes its surroundings with carefully planned discipline, missing no details.</description>
+    <statBases>
+      <MarketValue>100</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+  </ThingDef>
 
  
   

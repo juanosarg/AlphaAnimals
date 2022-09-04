@@ -20,14 +20,13 @@
 		<plant>
 			<fertilityMin>0.05</fertilityMin>
 			<fertilitySensitivity>0.3</fertilitySensitivity>
-			<growDays>1</growDays>
+			<growDays>2.5</growDays>
 			<harvestWork>40</harvestWork>
 			<maxMeshCount>9</maxMeshCount>
 			<visualSizeRange>0.4~0.6</visualSizeRange>
 			<topWindExposure>0.4</topWindExposure>
 			<wildOrder>1</wildOrder>
-			<lifespanDaysPerGrowDays>1</lifespanDaysPerGrowDays>
-
+			
 		</plant>
 	</ThingDef>
 
@@ -49,14 +48,13 @@
 		<plant>
 			<fertilityMin>0.05</fertilityMin>
 			<fertilitySensitivity>0.1</fertilitySensitivity>
-			<growDays>1</growDays>
+			<growDays>2.5</growDays>
 			<harvestWork>40</harvestWork>
 			<maxMeshCount>1</maxMeshCount>
 			<visualSizeRange>1~1.6</visualSizeRange>
 			<topWindExposure>0.4</topWindExposure>
 			<wildOrder>1</wildOrder>
-			<lifespanDaysPerGrowDays>1</lifespanDaysPerGrowDays>
-
+			
 		</plant>
 	</ThingDef>
 
@@ -78,14 +76,13 @@
 		<plant>
 			<fertilityMin>0.05</fertilityMin>
 			<fertilitySensitivity>0.1</fertilitySensitivity>
-			<growDays>1</growDays>
+			<growDays>2.5</growDays>
 			<harvestWork>40</harvestWork>
 			<maxMeshCount>1</maxMeshCount>
 			<visualSizeRange>1~1.6</visualSizeRange>
 			<topWindExposure>0.4</topWindExposure>
 			<wildOrder>1</wildOrder>
-			<lifespanDaysPerGrowDays>1</lifespanDaysPerGrowDays>
-
+			
 		</plant>
 	</ThingDef>
 	<!--============================ Trees ============================-->

@@ -8,13 +8,10 @@ using Verse;
 
 namespace AlphaBehavioursAndEvents
 {
-    public class Ability_Summon_Extension : DefModExtension
-    {     
-        public PawnKindDef pawnToSpawn;
-        public bool enrage;
-        public bool playerFaction;
-        public FactionDef factionIfNotOfPlayer;
-        public int numberCreated;
+    public class Ability_SpawnOnRadius_Extension : DefModExtension
+    {
+        public ThingDef thingToSpawn;
+        public float probability;
         public bool allowAnAmount = false;
         public int allowedAmount;
     }
