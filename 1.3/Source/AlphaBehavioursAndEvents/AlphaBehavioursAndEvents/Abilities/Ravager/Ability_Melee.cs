@@ -69,13 +69,13 @@ namespace AlphaBehavioursAndEvents
                         if (extension.bodyPart != null)
                         {
                             bps = (from c in targetpawn?.health.hediffSet.GetNotMissingParts(BodyPartHeight.Undefined, BodyPartDepth.Undefined, null, null)
-                                   where c.def == extension.bodyPart && !c.def.conceptual
+                                   where c.def == extension.bodyPart && !c.def.conceptual && c.coverageAbs>0
                                    select c).ToList();
                         }
                         else
                         {
                             bps = (from c in targetpawn?.health.hediffSet.GetNotMissingParts(BodyPartHeight.Undefined, BodyPartDepth.Undefined, null, null)
-                                   where !c.def.conceptual
+                                   where !c.def.conceptual && c.coverageAbs > 0
                                    select c).ToList();
                         }
 
@@ -85,16 +85,20 @@ namespace AlphaBehavioursAndEvents
                             {
                                 if (extension.cleaveAttack)
                                 {
-                                    foreach (IntVec3 positionAround in GenRadial.RadialCellsAround(pawn.Position, 1, false).ToList())
+                                    targetpawn.TakeDamage(new DamageInfo(extension.damageDef, extension.damage, extension.armourPen, -1, targetpawn, bps.RandomElement(), pawn.equipment.Primary.def));
+
+                                    foreach (IntVec3 positionAround in GenRadial.RadialCellsAround(targetpawn.Position, 1.9f, false).ToList())
                                     {
-                                       
-                                        List<Pawn> pawnList = pawn.Map.mapPawns.AllPawns.ListFullCopy();
+                                        
+                                        List<Pawn> pawnList = targetpawn.Map.mapPawns.AllPawnsSpawned;
 
                                         foreach (Pawn possiblePawnAffected in pawnList)
                                         {
+                                          
                                             if (positionAround == possiblePawnAffected.Position)
                                             {
-                                                targetpawn.TakeDamage(new DamageInfo(extension.damageDef, extension.damage, extension.armourPen, -1, targetpawn, bps.RandomElement(), pawn.equipment.Primary.def));
+                                               
+                                                possiblePawnAffected.TakeDamage(new DamageInfo(extension.damageDef, extension.damage, extension.armourPen, -1, targetpawn, bps.RandomElement(), pawn.equipment.Primary.def));
                                             }
                                         }
                                     }

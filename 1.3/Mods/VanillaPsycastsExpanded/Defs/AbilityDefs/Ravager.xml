@@ -324,6 +324,7 @@
 				<jump>true</jump>
 				<repeatAmount>1</repeatAmount>
 				<mote>AA_SpinCut</mote>
+				<cleaveAttack>true</cleaveAttack>
 				<moteFailed>AA_SpinCutFailed</moteFailed>
 			</li>
 
