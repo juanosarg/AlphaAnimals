@@ -100,7 +100,7 @@
 			<li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
 				<path>AAVPE_Ravager</path>
 				<level>2</level>
-				<order>2</order>
+				<order>3</order>
 				<psyfocusCost>0.085</psyfocusCost>
 				<entropyGain>10</entropyGain>
 				<prerequisites>
@@ -164,8 +164,8 @@
 	</VFECore.Abilities.AbilityDef>
 	<VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
 		<defName>AAVPE_Charge</defName>
-		<label>charge</label>
-		<description>Performs a psychic jump that charges into the target, furiously striking it twice.</description>
+		<label>leaping charge</label>
+		<description>Channels the wild energy of felines to perform a psychic jump that charges into the target, furiously striking it twice.</description>
 		<iconPath>UI/Abilities/Ravager/AAVPE_Charge</iconPath>
 		<abilityClass>AlphaBehavioursAndEvents.Ability_Melee</abilityClass>
 		<targetMode>Pawn</targetMode>
@@ -309,7 +309,7 @@
 			<li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
 				<path>AAVPE_Ravager</path>
 				<level>4</level>
-				<order>2</order>
+				<order>3</order>
 				<psyfocusCost>0.05</psyfocusCost>
 				<entropyGain>20</entropyGain>
 				<prerequisites>
@@ -331,6 +331,131 @@
 		</modExtensions>
 	</VFECore.Abilities.AbilityDef>
 
+	<VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+		<defName>AAVPE_LegSkip</defName>
+		<label>leg skip</label>
+		<description>Charging their weapon with psychic energy, the caster teleports besides the target and mercilessly strikes at their legs, instantly destroying them. Likely -but not always- fatal.</description>
+		<iconPath>UI/Abilities/Ravager/AAVPE_LegSkip</iconPath>
+		<abilityClass>AlphaBehavioursAndEvents.Ability_Melee</abilityClass>
+		<targetMode>Pawn</targetMode>
+		<range>5</range>
+		<targetingParameters>
+			<canTargetPawns>true</canTargetPawns>
+			<canTargetSelf>false</canTargetSelf>
+		</targetingParameters>
+		<castTime>120</castTime>
+		<cooldownTime>1000</cooldownTime>
+		<castSound>AA_SlicePsycast</castSound>
+		<modExtensions>
+			<li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+				<path>AAVPE_Ravager</path>
+				<level>5</level>
+				<order>1</order>
+				<psyfocusCost>0.25</psyfocusCost>
+				<entropyGain>85</entropyGain>
+				<prerequisites>
+					<li>AAVPE_ChargeAndSkewer</li>
+				</prerequisites>
+			</li>
+			<li Class="AlphaBehavioursAndEvents.Ability_Damage_Extension">
+				<damageDef>Cut</damageDef>
+				<damage>9999</damage>
+				<armourPen>1</armourPen>
+				<bodyPart>Leg</bodyPart>
+				<repeatAmount>20</repeatAmount>
+				<teleport>true</teleport>
+				<mote>AA_LegSkip</mote>
+				<moteFailed>AA_LegSkipFailed</moteFailed>
 
+			</li>
+
+		</modExtensions>
+	</VFECore.Abilities.AbilityDef>
+
+	<VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+		<defName>AAVPE_KO</defName>
+		<label>KO</label>
+		<description>Imbues the caster's melee weapon with an overcharged pulse of psychic energy that will knock the target unconscious, with the goal of leaving no lasting damage.</description>
+		<iconPath>UI/Abilities/Ravager/AAVPE_KO</iconPath>
+		<abilityClass>AlphaBehavioursAndEvents.Ability_Melee</abilityClass>
+		<targetMode>Pawn</targetMode>
+		<range>1.9</range>
+		<targetingParameters>
+			<canTargetPawns>true</canTargetPawns>
+			<canTargetSelf>false</canTargetSelf>
+		</targetingParameters>
+		<castTime>10</castTime>
+		<cooldownTime>1000</cooldownTime>
+		<castSound>Explosion_EMP</castSound>
+		<modExtensions>
+			<li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+				<path>AAVPE_Ravager</path>
+				<level>5</level>
+				<order>2</order>
+				<psyfocusCost>0.3</psyfocusCost>
+				<entropyGain>85</entropyGain>
+				<prerequisites>
+					<li>AAVPE_ChargeAndSkewer</li>
+				</prerequisites>
+			</li>
+			<li Class="AlphaBehavioursAndEvents.Ability_Damage_Extension">
+				<damageDef>Cut</damageDef>
+				<damage>0</damage>
+				<armourPen>0</armourPen>				
+				<repeatAmount>1</repeatAmount>
+				<mote>AA_KO</mote>
+				<moteFailed>AA_KOFailed</moteFailed>
+
+			</li>
+			<li Class="VFECore.Abilities.AbilityExtension_Hediff">
+				<hediff>AAVPE_KO</hediff>
+				<durationMultiplier>PsychicSensitivity</durationMultiplier>
+			</li>
+			<li Class="VFECore.Abilities.AbilityExtension_FleckOnTarget">
+				<fleckDef>PsycastPsychicEffect</fleckDef>
+				<scale>0.5</scale>
+			</li>
+		</modExtensions>
+
+	</VFECore.Abilities.AbilityDef>
+
+	<VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
+		<defName>AAVPE_FatalBlow</defName>
+		<label>fatal blow</label>
+		<description>Calling upon the latent psychic potentials of wild animals, the caster analyzes their target to find their weakest point, striking it mercilessly and killing them on the spot.</description>
+		<iconPath>UI/Abilities/Ravager/AAVPE_FatalBlow</iconPath>
+		<abilityClass>AlphaBehavioursAndEvents.Ability_Melee</abilityClass>
+		<targetMode>Pawn</targetMode>
+		<range>1.9</range>
+		<targetingParameters>			
+			<canTargetPawns>true</canTargetPawns>
+			<canTargetSelf>false</canTargetSelf>
+		</targetingParameters>
+		<castTime>10</castTime>
+		<cooldownTime>1000</cooldownTime>
+		<castSound>AA_FatalBlowPsycast</castSound>
+		<modExtensions>
+			<li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">
+				<path>AAVPE_Ravager</path>
+				<level>5</level>
+				<order>3</order>
+				<psyfocusCost>0.5</psyfocusCost>
+				<entropyGain>75</entropyGain>
+				<prerequisites>
+					<li>AAVPE_SpinCut</li>
+				</prerequisites>
+
+			</li>
+			<li Class="AlphaBehavioursAndEvents.Ability_Damage_Extension">
+				<damageDef>Cut</damageDef>
+				<damage>1</damage>
+				<armourPen>1</armourPen>
+				<instakill>true</instakill>
+				<mote>AA_SpinCut</mote>
+				<moteFailed>AA_SpinCutFailed</moteFailed>
+			</li>
+
+		</modExtensions>
+	</VFECore.Abilities.AbilityDef>
 
 </Defs>

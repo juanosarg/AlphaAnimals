@@ -20,7 +20,7 @@ namespace AlphaBehavioursAndEvents
         public string moteFailed;
         public BodyPartDef bodyPart = null;
         public bool cleaveAttack = false;
-
+        public bool instakill = false;
 
     }
 }

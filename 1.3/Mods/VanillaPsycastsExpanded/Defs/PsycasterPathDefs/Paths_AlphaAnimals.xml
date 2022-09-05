@@ -21,13 +21,13 @@
     </VanillaPsycastsExpanded.PsycasterPathDef>
 	
 	<VanillaPsycastsExpanded.PsycasterPathDef>
-        <defName>AAVPE_Animalist</defName>
-        <label>alien consecrator</label>
+        <defName>AAVPE_Xenoseer</defName>
+        <label>xeno-seer</label>
         <description>A psychic exo-biologist specialized in tapping into the strange abilities of genetically modified fauna.</description>
         <background>UI/Psycasts/PathBG_AlphaAnimals</background>
         <altBackground>UI/Psycasts/PathBG_AlphaAnimals_Alternate</altBackground>
         <tab>Alpha Animals</tab>
-        <tooltip>Equal parts psycaster and scientist, the alien consecrator dedicates their entire willpower to meditating and studying the intricate survival abilities developed and engineered on the strange creatures that populate the Rim.</tooltip>
+        <tooltip>Equal parts psycaster and scientist, the xeno-seer dedicates their entire willpower to meditating and studying the intricate survival abilities developed and engineered on the strange creatures that populate the Rim.</tooltip>
     </VanillaPsycastsExpanded.PsycasterPathDef>
 	
 	<VanillaPsycastsExpanded.PsycasterPathDef>

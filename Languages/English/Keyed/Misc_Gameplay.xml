@@ -271,6 +271,10 @@
 	<AA_EMPBlowFailed>EMP blow failed</AA_EMPBlowFailed>
 	<AA_SpinCut>Spin cut!</AA_SpinCut>
 	<AA_SpinCutFailed>Spin cut failed</AA_SpinCutFailed>
+	<AA_LegSkip>Leg skip!</AA_LegSkip>
+	<AA_LegSkipFailed>Leg skip failed</AA_LegSkipFailed>
+	<AA_KO>KO!</AA_KO>
+	<AA_KOFailed>KO faileed</AA_KOFailed>
 
 
 

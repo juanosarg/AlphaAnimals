@@ -2,48 +2,14 @@
 <Defs>
 
 	<SoundDef>
-		<defName>AA_DestroyEyes</defName>
+		<defName>AA_DestroyEyesPsycast</defName>
 		<context>MapOnly</context>
 		<maxSimultaneous>1</maxSimultaneous>
 		<subSounds>
 			<li>
 				<grains>
 					<li Class="AudioGrain_Clip">
-						<clipPath>AA_DestroyEyes</clipPath>
-					</li>
-				</grains>
-				<volumeRange>42</volumeRange>
-				<distRange>20~50</distRange>
-			</li>
-		</subSounds>
-	</SoundDef>
-	
-	<SoundDef>
-		<defName>AA_SlicePsycast</defName>
-		<context>MapOnly</context>
-		<maxSimultaneous>1</maxSimultaneous>
-		<subSounds>
-			<li>
-				<grains>
-					<li Class="AudioGrain_Clip">
-						<clipPath>AA_SlicePsycast</clipPath>
-					</li>
-				</grains>
-				<volumeRange>42</volumeRange>
-				<distRange>20~50</distRange>
-			</li>
-		</subSounds>
-	</SoundDef>
-	
-	<SoundDef>
-		<defName>AA_ClawFrenzyPsycast</defName>
-		<context>MapOnly</context>
-		<maxSimultaneous>1</maxSimultaneous>
-		<subSounds>
-			<li>
-				<grains>
-					<li Class="AudioGrain_Clip">
-						<clipPath>AA_ClawFrenzyPsycast</clipPath>
+						<clipPath>Psycasts/AA_DestroyEyesPsycast</clipPath>
 					</li>
 				</grains>
 				<volumeRange>42</volumeRange>
@@ -52,7 +18,41 @@
 		</subSounds>
 	</SoundDef>
 
-<SoundDef>
+	<SoundDef>
+		<defName>AA_SlicePsycast</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Psycasts/AA_SlicePsycast</clipPath>
+					</li>
+				</grains>
+				<volumeRange>42</volumeRange>
+				<distRange>20~50</distRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>AA_ClawFrenzyPsycast</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Psycasts/AA_ClawFrenzyPsycast</clipPath>
+					</li>
+				</grains>
+				<volumeRange>42</volumeRange>
+				<distRange>20~50</distRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
 		<defName>AA_BluntPsycast</defName>
 		<context>MapOnly</context>
 		<maxSimultaneous>1</maxSimultaneous>
@@ -60,7 +60,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Clip">
-						<clipPath>AA_BluntPsycast</clipPath>
+						<clipPath>Psycasts/AA_BluntPsycast</clipPath>
 					</li>
 				</grains>
 				<volumeRange>42</volumeRange>
@@ -76,7 +76,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Clip">
-						<clipPath>AA_SkewerPsycast</clipPath>
+						<clipPath>Psycasts/AA_SkewerPsycast</clipPath>
 					</li>
 				</grains>
 				<volumeRange>42</volumeRange>
@@ -92,7 +92,7 @@
 			<li>
 				<grains>
 					<li Class="AudioGrain_Clip">
-						<clipPath>AA_SpinCutPsycast</clipPath>
+						<clipPath>Psycasts/AA_SpinCutPsycast</clipPath>
 					</li>
 				</grains>
 				<volumeRange>42</volumeRange>
@@ -101,4 +101,120 @@
 		</subSounds>
 	</SoundDef>
 
+	<SoundDef>
+		<defName>AA_FatalBlowPsycast</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Psycasts/AA_FatalBlowPsycast</clipPath>
+					</li>
+				</grains>
+				<volumeRange>42</volumeRange>
+				<distRange>20~50</distRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	<SoundDef>
+		<defName>AA_ChemfuelNodulesPsycast</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Psycasts/AA_ChemfuelNodulesPsycast</clipPath>
+					</li>
+				</grains>
+				<volumeRange>42</volumeRange>
+				<distRange>20~50</distRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	<SoundDef>
+		<defName>AA_HoverPsycast</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Psycasts/AA_HoverPsycast</clipPath>
+					</li>
+				</grains>
+				<volumeRange>42</volumeRange>
+				<distRange>20~50</distRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	<SoundDef>
+		<defName>AA_FungalSkinPsycast</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Psycasts/AA_FungalSkinPsycast</clipPath>
+					</li>
+				</grains>
+				<volumeRange>42</volumeRange>
+				<distRange>20~50</distRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	<SoundDef>
+		<defName>AA_LightSustenancePsycast</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Psycasts/AA_LightSustenancePsycast</clipPath>
+					</li>
+				</grains>
+				<volumeRange>42</volumeRange>
+				<distRange>20~50</distRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>AA_ElectrifyPsycast</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Psycasts/AA_ElectrifyPsycast</clipPath>
+					</li>
+				</grains>
+				<volumeRange>42</volumeRange>
+				<distRange>20~50</distRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>AA_RegenerationPsycast</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>Psycasts/AA_RegenerationPsycast</clipPath>
+					</li>
+				</grains>
+				<volumeRange>42</volumeRange>
+				<distRange>20~50</distRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	
 </Defs>

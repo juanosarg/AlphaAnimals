@@ -85,27 +85,48 @@ namespace AlphaBehavioursAndEvents
                             {
                                 if (extension.cleaveAttack)
                                 {
-                                    targetpawn.TakeDamage(new DamageInfo(extension.damageDef, extension.damage, extension.armourPen, -1, targetpawn, bps.RandomElement(), pawn.equipment.Primary.def));
 
-                                    foreach (IntVec3 positionAround in GenRadial.RadialCellsAround(targetpawn.Position, 1.9f, false).ToList())
+                                    IntVec3 targetPawnPosition = targetpawn.Position;
+                                    targetpawn.TakeDamage(new DamageInfo(extension.damageDef, extension.damage, extension.armourPen, -1, targetpawn, bps.RandomElement(), pawn.equipment.Primary.def));
+                                    
+
+
+                                    foreach (IntVec3 positionAround in GenRadial.RadialCellsAround(targetPawnPosition, 1.9f, false).ToList())
                                     {
                                         
-                                        List<Pawn> pawnList = targetpawn.Map.mapPawns.AllPawnsSpawned;
+                                        List<Pawn> pawnList = pawn.Map.mapPawns.AllPawnsSpawned;
 
                                         foreach (Pawn possiblePawnAffected in pawnList)
                                         {
                                           
                                             if (positionAround == possiblePawnAffected.Position)
                                             {
-                                               
-                                                possiblePawnAffected.TakeDamage(new DamageInfo(extension.damageDef, extension.damage, extension.armourPen, -1, targetpawn, bps.RandomElement(), pawn.equipment.Primary.def));
+                                                if (extension.instakill)
+                                                {
+                                                    possiblePawnAffected.Kill(null);
+                                                }
+                                                else
+                                                {
+                                                    possiblePawnAffected.TakeDamage(new DamageInfo(extension.damageDef, extension.damage, extension.armourPen, -1, targetpawn, bps.RandomElement(), pawn.equipment.Primary.def));
+                                                }
                                             }
                                         }
+                                    }
+                                    if (extension.instakill && !targetpawn.Dead)
+                                    {
+                                        targetpawn.Kill(null);
                                     }
 
                                 }
                                 else {
-                                    targetpawn.TakeDamage(new DamageInfo(extension.damageDef, extension.damage, extension.armourPen, -1, targetpawn, bps.RandomElement(), pawn.equipment.Primary.def));
+                                    if (extension.instakill)
+                                    {
+                                        targetpawn.Kill(null);
+                                    }
+                                    else
+                                    {
+                                        targetpawn.TakeDamage(new DamageInfo(extension.damageDef, extension.damage, extension.armourPen, -1, targetpawn, bps.RandomElement(), pawn.equipment.Primary.def));
+                                    }
                                 }
 
 

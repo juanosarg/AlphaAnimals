@@ -104,7 +104,7 @@
 
 		<range>9.9</range>
 		<castTime>50</castTime>
-		<castSound>AA_DestroyEyes</castSound>
+		<castSound>AA_DestroyEyesPsycast</castSound>
 
 		<modExtensions>
 			<li Class="VanillaPsycastsExpanded.AbilityExtension_Psycast">

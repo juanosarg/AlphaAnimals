@@ -33,13 +33,10 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.InteropServices.RuntimeInformation" />
-    <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Xml" />
     <Reference Include="VFECore">
       <HintPath>References\VFECore.dll</HintPath>
       <Private>False</Private>
@@ -54,6 +51,7 @@
     <Compile Include="Abilities\Herald\Ability_Summon_Hive.cs" />
     <Compile Include="Abilities\Ravager\Ability_Melee.cs" />
     <Compile Include="Abilities\Ravager\JumpinPawnFlyer.cs" />
+    <Compile Include="Abilities\Xenoseer\Ability_ShootMultipleProjectile.cs" />
     <Compile Include="Achievements\ItemCraftTrackerWithIngredients.cs" />
     <Compile Include="Achievements\KillTrackerWithOr.cs" />
     <Compile Include="Buildings\Building_AncientAssembler.cs" />
@@ -83,6 +81,7 @@
     <Compile Include="DeathActionWorkers\DeathActionWorker_SummonEclipse.cs" />
     <Compile Include="DeathActionWorkers\DeathActionWorker_SummonTornado.cs" />
     <Compile Include="Debug\FixedColonyAnimalsDebug.cs" />
+    <Compile Include="DefExtensions\Ability_MultipleProjectile_Extension.cs" />
     <Compile Include="DefExtensions\Ability_SpawnOnRadius_Extension.cs" />
     <Compile Include="DefExtensions\Ability_Damage_Extension.cs" />
     <Compile Include="DefExtensions\Ability_Summon_Extension.cs" />
