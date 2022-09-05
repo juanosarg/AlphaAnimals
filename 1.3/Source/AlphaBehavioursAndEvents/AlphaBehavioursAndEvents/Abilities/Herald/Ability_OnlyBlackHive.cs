@@ -13,8 +13,8 @@ namespace AlphaBehavioursAndEvents
 
 
         private static readonly List<PawnKindDef> allowedTargets = new List<PawnKindDef>() { InternalDefOf.AA_BlackScarab,
-        InternalDefOf.AA_BlackSpelopede,InternalDefOf.AA_BlackSpider,InternalDefOf.AA_MammothWorm,InternalDefOf.AA_MegaLouse,PawnKindDef.Named("AA_BlackScarab_Temporary"),
-        PawnKindDef.Named("AA_BlackSpider_Temporary"),PawnKindDef.Named("AA_BlackSpelopede_Temporary"),PawnKindDef.Named("AA_MammothWorm_Temporary"),PawnKindDef.Named("AAVPE_BlackQueen")};
+        InternalDefOf.AA_BlackSpelopede,InternalDefOf.AA_BlackSpider,InternalDefOf.AA_MammothWorm,InternalDefOf.AA_MegaLouse,DefDatabase<PawnKindDef>.GetNamedSilentFail("AA_BlackScarab_Temporary"),
+        DefDatabase<PawnKindDef>.GetNamedSilentFail("AA_BlackSpider_Temporary"),DefDatabase<PawnKindDef>.GetNamedSilentFail("AA_BlackSpelopede_Temporary"),DefDatabase<PawnKindDef>.GetNamedSilentFail("AA_MammothWorm_Temporary"),DefDatabase<PawnKindDef>.GetNamedSilentFail("AAVPE_BlackQueen")};
 
         public override bool ValidateTarget(LocalTargetInfo target, bool showMessages = true)
         {

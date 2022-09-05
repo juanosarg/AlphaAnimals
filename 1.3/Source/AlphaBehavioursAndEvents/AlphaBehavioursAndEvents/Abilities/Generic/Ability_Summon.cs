@@ -33,7 +33,7 @@ namespace AlphaBehavioursAndEvents
                     GenSpawn.Spawn(pawnCreated, target.Cell, target.Map, Rot4.South);
                     if (extension.enrage)
                     {
-                        pawnCreated.mindState.mentalStateHandler.TryStartMentalState(InternalDefOf.AAVPE_Manhunter, null, true);
+                        pawnCreated.mindState.mentalStateHandler.TryStartMentalState(DefDatabase<MentalStateDef>.GetNamedSilentFail("AAVPE_Manhunter"), null, true);
                     }   
                 }            
             }

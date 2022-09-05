@@ -21,7 +21,5 @@ namespace AlphaBehavioursAndEvents
 
         
 
-        public static MentalStateDef AAVPE_Manhunter;
-
     }
 }
