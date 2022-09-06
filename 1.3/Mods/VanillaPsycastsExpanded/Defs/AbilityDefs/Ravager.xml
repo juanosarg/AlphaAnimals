@@ -15,6 +15,7 @@
 
 			<canTargetPawns>true</canTargetPawns>
 			<canTargetSelf>false</canTargetSelf>
+			<canTargetBuildings>false</canTargetBuildings>
 		</targetingParameters>
 		<castTime>120</castTime>
 		<cooldownTime>1000</cooldownTime>
@@ -52,6 +53,7 @@
 		<targetingParameters>			
 			<canTargetPawns>true</canTargetPawns>
 			<canTargetSelf>false</canTargetSelf>
+			<canTargetBuildings>false</canTargetBuildings>
 		</targetingParameters>
 		<castTime>10</castTime>
 		<cooldownTime>1000</cooldownTime>
@@ -92,6 +94,7 @@
 		<targetingParameters>			
 			<canTargetPawns>true</canTargetPawns>
 			<canTargetSelf>false</canTargetSelf>
+			<canTargetBuildings>false</canTargetBuildings>
 		</targetingParameters>
 		<castTime>10</castTime>
 		<cooldownTime>1000</cooldownTime>
@@ -133,6 +136,8 @@
 			<canTargetPawns>true</canTargetPawns>
 			<canTargetSelf>false</canTargetSelf>
 			<canTargetAnimals>false</canTargetAnimals>
+			<canTargetBuildings>false</canTargetBuildings>
+			<canTargetMechs>false</canTargetMechs>
 		</targetingParameters>
 		<castTime>10</castTime>
 		<cooldownTime>1000</cooldownTime>
@@ -173,7 +178,7 @@
 		<targetingParameters>			
 			<canTargetPawns>true</canTargetPawns>
 			<canTargetSelf>false</canTargetSelf>
-
+			<canTargetBuildings>false</canTargetBuildings>
 		</targetingParameters>
 		<castTime>10</castTime>
 		<cooldownTime>1000</cooldownTime>
@@ -217,6 +222,8 @@
 			<canTargetPawns>true</canTargetPawns>
 			<canTargetSelf>false</canTargetSelf>
 			<canTargetAnimals>false</canTargetAnimals>
+			<canTargetBuildings>false</canTargetBuildings>
+			<canTargetMechs>false</canTargetMechs>
 		</targetingParameters>
 		<castTime>10</castTime>
 		<cooldownTime>1000</cooldownTime>
@@ -261,6 +268,7 @@
 		<targetingParameters>			
 			<canTargetPawns>true</canTargetPawns>
 			<canTargetSelf>false</canTargetSelf>
+			<canTargetBuildings>false</canTargetBuildings>
 		</targetingParameters>
 		<castTime>10</castTime>
 		<cooldownTime>1000</cooldownTime>
@@ -301,6 +309,7 @@
 		<targetingParameters>			
 			<canTargetPawns>true</canTargetPawns>
 			<canTargetSelf>false</canTargetSelf>
+			<canTargetBuildings>false</canTargetBuildings>
 		</targetingParameters>
 		<castTime>120</castTime>
 		<cooldownTime>1000</cooldownTime>
@@ -342,6 +351,7 @@
 		<targetingParameters>
 			<canTargetPawns>true</canTargetPawns>
 			<canTargetSelf>false</canTargetSelf>
+			<canTargetBuildings>false</canTargetBuildings>
 		</targetingParameters>
 		<castTime>120</castTime>
 		<cooldownTime>1000</cooldownTime>
@@ -383,6 +393,7 @@
 		<targetingParameters>
 			<canTargetPawns>true</canTargetPawns>
 			<canTargetSelf>false</canTargetSelf>
+			<canTargetBuildings>false</canTargetBuildings>
 		</targetingParameters>
 		<castTime>10</castTime>
 		<cooldownTime>1000</cooldownTime>
@@ -430,6 +441,7 @@
 		<targetingParameters>			
 			<canTargetPawns>true</canTargetPawns>
 			<canTargetSelf>false</canTargetSelf>
+			<canTargetBuildings>false</canTargetBuildings>
 		</targetingParameters>
 		<castTime>10</castTime>
 		<cooldownTime>1000</cooldownTime>

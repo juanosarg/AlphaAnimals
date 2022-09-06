@@ -9,7 +9,7 @@
 		<abilityClass>AlphaBehavioursAndEvents.Ability_Summon</abilityClass>
 
 		<requireLineOfSight>false</requireLineOfSight>
-		<range>999</range>
+		<range>20</range>
 		<distanceToTarget>2.9</distanceToTarget>
 		<targetMode>Location</targetMode>
 		<castTime>360</castTime>
@@ -130,7 +130,7 @@
 			<canTargetBuildings>false</canTargetBuildings>
 			<canTargetSelf>true</canTargetSelf>
 		</targetingParameters>
-
+		<goodwillImpact>-15</goodwillImpact>
 		<range>9.9</range>
 		<castTime>50</castTime>
 		<castSound>AA_DestroyEyes</castSound>
@@ -158,7 +158,7 @@
 		<abilityClass>AlphaBehavioursAndEvents.Ability_Summon</abilityClass>
 
 		<requireLineOfSight>false</requireLineOfSight>
-		<range>999</range>
+		<range>20</range>
 		<distanceToTarget>2.9</distanceToTarget>
 		<targetMode>Location</targetMode>
 		<castTime>360</castTime>
@@ -214,7 +214,7 @@
 		<abilityClass>AlphaBehavioursAndEvents.Ability_Summon</abilityClass>
 
 		<requireLineOfSight>false</requireLineOfSight>
-		<range>999</range>
+		<range>20</range>
 		<distanceToTarget>2.9</distanceToTarget>
 		<targetMode>Location</targetMode>
 		<castTime>360</castTime>

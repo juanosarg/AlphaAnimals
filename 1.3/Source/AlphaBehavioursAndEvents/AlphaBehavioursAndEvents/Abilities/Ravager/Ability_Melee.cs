@@ -87,7 +87,8 @@ namespace AlphaBehavioursAndEvents
                                 {
 
                                     IntVec3 targetPawnPosition = targetpawn.Position;
-                                    targetpawn.TakeDamage(new DamageInfo(extension.damageDef, extension.damage, extension.armourPen, -1, targetpawn, bps.RandomElement(), pawn.equipment.Primary.def));
+                                    
+                                    targetpawn.TakeDamage(new DamageInfo(extension.damageDef, extension.damage, extension.armourPen, -1, pawn, bps.RandomElement(), pawn.equipment.Primary.def));
                                     
 
 
@@ -107,7 +108,7 @@ namespace AlphaBehavioursAndEvents
                                                 }
                                                 else
                                                 {
-                                                    possiblePawnAffected.TakeDamage(new DamageInfo(extension.damageDef, extension.damage, extension.armourPen, -1, targetpawn, bps.RandomElement(), pawn.equipment.Primary.def));
+                                                    possiblePawnAffected.TakeDamage(new DamageInfo(extension.damageDef, extension.damage, extension.armourPen, -1, pawn, bps.RandomElement(), pawn.equipment.Primary.def));
                                                 }
                                             }
                                         }

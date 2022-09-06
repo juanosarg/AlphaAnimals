@@ -53,7 +53,10 @@ namespace AlphaBehavioursAndEvents
 
                 if (pawnKindDefs.Count > 0)
                 {
-                    Pawn p = PawnGenerator.GeneratePawn(pawnKindDefs.RandomElementByWeight(x => x.combatPower / x.race.BaseMarketValue), Faction.OfPlayer);
+                    
+                    PawnGenerationRequest request = new PawnGenerationRequest(pawnKindDefs.RandomElementByWeight(x => x.combatPower / x.race.BaseMarketValue), Faction.OfPlayer, PawnGenerationContext.All, -1, forceGenerateNewPawn: true, newborn: true, allowDead: false, allowDowned: false, canGeneratePawnRelations: false, TutorSystem.TutorialMode, 20f);
+                    Pawn p = PawnGenerator.GeneratePawn(request);
+
                     p.ageTracker.AgeBiologicalTicks = 30000;
                     GenSpawn.Spawn(p, parent.Position, parent.Map);
                     List<Pawn> pawns = new List<Pawn> { p };

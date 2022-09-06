@@ -36,7 +36,7 @@
 		<abilityClass>AlphaBehavioursAndEvents.Ability_Summon</abilityClass>
 
 		<requireLineOfSight>false</requireLineOfSight>
-		<range>999</range>
+		<range>20</range>
 		<distanceToTarget>2.9</distanceToTarget>
 		<targetMode>Location</targetMode>
 		<castTime>360</castTime>
@@ -91,7 +91,7 @@
 		<abilityClass>AlphaBehavioursAndEvents.Ability_Summon</abilityClass>
 
 		<requireLineOfSight>false</requireLineOfSight>
-		<range>999</range>
+		<range>20</range>
 		<distanceToTarget>2.9</distanceToTarget>
 		<targetMode>Location</targetMode>
 		<castTime>500</castTime>
@@ -175,7 +175,7 @@
 		<abilityClass>AlphaBehavioursAndEvents.Ability_Summon</abilityClass>
 
 		<requireLineOfSight>false</requireLineOfSight>
-		<range>999</range>
+		<range>20</range>
 		<distanceToTarget>2.9</distanceToTarget>
 		<targetMode>Location</targetMode>
 		<castTime>500</castTime>
@@ -227,7 +227,7 @@
 		<abilityClass>AlphaBehavioursAndEvents.Ability_Summon</abilityClass>
 
 		<requireLineOfSight>false</requireLineOfSight>
-		<range>999</range>
+		<range>20</range>
 		<distanceToTarget>2.9</distanceToTarget>
 		<targetMode>Location</targetMode>
 		<castTime>500</castTime>
@@ -279,7 +279,7 @@
 		<abilityClass>AlphaBehavioursAndEvents.Ability_Summon</abilityClass>
 
 		<requireLineOfSight>false</requireLineOfSight>
-		<range>999</range>
+		<range>20</range>
 		<distanceToTarget>2.9</distanceToTarget>
 		<targetMode>Location</targetMode>
 		<castTime>750</castTime>
