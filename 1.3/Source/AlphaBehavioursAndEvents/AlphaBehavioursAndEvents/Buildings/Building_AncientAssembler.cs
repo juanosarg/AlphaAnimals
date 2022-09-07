@@ -67,7 +67,17 @@ namespace AlphaBehavioursAndEvents
                 base.Map.reachability.CanReach(c, this, PathEndMode.Touch, TraverseParms.For(TraverseMode.PassDoors, Danger.Deadly, false))),
                 base.Map, WipeMode.Vanish);
                 this.lord.AddPawn(pawn);
-                this.SpawnPawnsUntilPoints(10 , faction);
+
+                float points = StorytellerUtility.DefaultThreatPointsNow(this.Map);
+
+                int numberOfMechs = Mathf.Max(GenMath.RoundRandom(points / 220f), 1);
+
+                if (numberOfMechs > 10)
+                {
+                    numberOfMechs = 10;
+                }
+
+                this.SpawnPawnsUntilPoints(numberOfMechs, faction);
             }
         }
 
