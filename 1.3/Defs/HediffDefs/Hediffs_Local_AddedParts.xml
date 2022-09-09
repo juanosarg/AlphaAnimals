@@ -226,7 +226,7 @@
 					</li>
 				</capMods>
 				<statOffsets>
-					<PsychicEntropyMax>10</PsychicEntropyMax>
+					<PsychicEntropyMax MayRequire="Ludeon.RimWorld.Royalty">10</PsychicEntropyMax>
 
 				</statOffsets>
 			</li>
@@ -252,7 +252,7 @@
 					</li>
 				</capMods>
 				<statOffsets>
-					<PsychicEntropyRecoveryRate>0.1</PsychicEntropyRecoveryRate>
+					<PsychicEntropyRecoveryRate MayRequire="Ludeon.RimWorld.Royalty">0.1</PsychicEntropyRecoveryRate>
 
 				</statOffsets>
 			</li>
