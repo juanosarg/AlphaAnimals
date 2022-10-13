@@ -920,4 +920,29 @@
 		</stages>
 	</HediffDef>
 	
+	<HediffDef>
+		<defName>AA_AteBlackTruffleIngredient</defName>
+		<label>consumed black truffle (from meal)</label>
+		<makesSickThought>false</makesSickThought>
+		<description>Ate black truffles. A delicious and valuable variety of fungus.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(92,62,198)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="VanillaCookingExpanded.HediffCompProperties_WhileHavingThoughts">
+				<thoughtDefs>
+					<li>AA_AteBlackTruffleIngredient</li>
+				</thoughtDefs>
+			</li>
+		</comps>
+		<stages>
+			<li>   
+				
+			</li>
+		</stages>
+	</HediffDef>
+	
 </Defs>

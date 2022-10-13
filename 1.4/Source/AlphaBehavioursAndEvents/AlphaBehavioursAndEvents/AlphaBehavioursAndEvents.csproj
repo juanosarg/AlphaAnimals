@@ -364,6 +364,7 @@
     <Compile Include="Hediffs\HediffComp_Mime.cs" />
     <Compile Include="Hediffs\HediffComp_Resurrect.cs" />
     <Compile Include="Hediffs\HediffComp_TurnWhenDead.cs" />
+    <Compile Include="Incidents\IncidentWorker_BehemothPasses.cs" />
     <Compile Include="Incidents\IncidentWorker_FungalHusk.cs" />
     <Compile Include="Incidents\IncidentWorker_AlphaResourcePodCrash.cs" />
     <Compile Include="Incidents\IncidentWorker_Animalisk.cs" />

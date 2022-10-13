@@ -75,6 +75,7 @@ namespace AlphaBehavioursAndEvents
         public  bool flagSpiderClutchMothers = true;
         public  bool flagAerofleets = true;
         public  bool flagGallatross = true;
+        public bool flagBehemoth = true;
         public  bool flagSummitCrab = true;
         public  bool flagBumbledrones = true;      
         public  bool flagAsteroids = true;
@@ -98,6 +99,7 @@ namespace AlphaBehavioursAndEvents
             Scribe_Values.Look(ref flagSpiderClutchMothers, "flagSpiderClutchMothers", true, true);
             Scribe_Values.Look(ref flagAerofleets, "flagAerofleets", true, true);
             Scribe_Values.Look(ref flagGallatross, "flagGallatross", true, true);
+            Scribe_Values.Look(ref flagBehemoth, "flagBehemoth", true, true);
             Scribe_Values.Look(ref flagSummitCrab, "flagSummitCrab", true, true);
             Scribe_Values.Look(ref flagBumbledrones, "flagBumbledrones", true, true);         
             Scribe_Values.Look(ref flagAsteroids, "flagAsteroid", true, true);
@@ -134,7 +136,9 @@ namespace AlphaBehavioursAndEvents
             ls.CheckboxLabeled("allowAerofleet".Translate(), ref flagAerofleets, null);
            
             ls.CheckboxLabeled("allowGallatross".Translate(), ref flagGallatross, null);
-           
+
+            ls.CheckboxLabeled("allowBehemoth".Translate(), ref flagBehemoth, null);
+
             ls.CheckboxLabeled("allowSummitCrab".Translate(), ref flagSummitCrab, null);
           
             ls.CheckboxLabeled("allowBumbledrones".Translate(), ref flagBumbledrones, null);       

@@ -40,5 +40,18 @@
       </li>
     </stages>
   </ThoughtDef>
+  <ThoughtDef>
+		<defName>AA_AteBlackTruffleIngredient</defName>
+		<thoughtClass>VanillaCookingExpanded.Thought_Hediff</thoughtClass>
+		<hediff>AA_AteBlackTruffleIngredient</hediff>
+		<durationDays>1</durationDays>
+		<stages>
+			<li>
+				<label>ate black truffle</label>
+				<description>An absolute delicacy.</description>
+				<baseMoodEffect>3</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
 
 </Defs>

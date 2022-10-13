@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
 	<ThingDef Name="AA_MeatMealBase" Abstract="True">
 		<thingClass>ThingWithComps</thingClass>
 		<category>Item</category>
@@ -22,9 +21,9 @@
 		</thingCategories>
 		<alwaysHaulable>true</alwaysHaulable>
 		<comps>
-			<li Class="CompProperties_Forbiddable" />
-			<li Class="CompProperties_Ingredients" />
-			<li Class="CompProperties_FoodPoisonable" />
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Ingredients"/>
+			<li Class="CompProperties_FoodPoisonable"/>
 		</comps>
 		<pathCost>15</pathCost>
 		<resourceReadoutPriority>Last</resourceReadoutPriority>
@@ -36,7 +35,6 @@
 			<optimalityOffsetHumanlikes>16</optimalityOffsetHumanlikes>
 		</ingestible>
 	</ThingDef>
-
 	<ThingDef ParentName="AA_MeatMealBase" Name="AA_MeatMealRottable" Abstract="True">
 		<comps>
 			<li Class="CompProperties_Rottable">
@@ -46,10 +44,6 @@
 		</comps>
 		<tradeability>Sellable</tradeability>
 	</ThingDef>
-
-
-
-
 	<ThingDef ParentName="UnfinishedBase">
 		<defName>AA_RandomStones</defName>
 		<label>random stone</label>
@@ -60,7 +54,6 @@
 			<flipExtraRotation>80</flipExtraRotation>
 		</graphicData>
 	</ThingDef>
-
 	<ThingDef ParentName="UnfinishedBase">
 		<defName>AA_RandomBricks</defName>
 		<label>random bricks</label>
@@ -70,7 +63,6 @@
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 	</ThingDef>
-
 	<ThingDef ParentName="MedicineBase">
 		<defName>AA_CactipineQuill</defName>
 		<label>medicinal cactipine quill</label>
@@ -97,7 +89,6 @@
 			</li>
 		</comps>
 	</ThingDef>
-
 	<ThingDef ParentName="OrganicProductBase">
 		<defName>AA_BlueMilk</defName>
 		<label>blue milk</label>
@@ -128,7 +119,6 @@
 			<li>AnimalProductRaw</li>
 		</thingCategories>
 	</ThingDef>
-
 	<ThingDef ParentName="OrganicProductBase">
 		<defName>AA_GowMilk</defName>
 		<label>gow milk</label>
@@ -159,7 +149,6 @@
 			<li>AnimalProductRaw</li>
 		</thingCategories>
 	</ThingDef>
-
 	<ThingDef ParentName="AA_MeatMealRottable">
 		<defName>AA_DisgustingMealNutrientPaste</defName>
 		<label>disgusting nutrient paste meal</label>
@@ -173,7 +162,6 @@
 			<Nutrition>0.8</Nutrition>
 		</statBases>
 		<tradeability>Sellable</tradeability>
-
 		<ingestible>
 			<preferability>MealAwful</preferability>
 			<tasteThought>AA_AteSuperAwfulMeal</tasteThought>
@@ -181,7 +169,6 @@
 			<ingestSound>Meal_Eat</ingestSound>
 		</ingestible>
 	</ThingDef>
-
 	<ThingDef ParentName="ResourceVerbBase">
 		<defName>AA_GallatrossHorn</defName>
 		<label>gallatross horn</label>
@@ -229,8 +216,6 @@
 			<li>AnimalPart</li>
 		</thingSetMakerTags>
 	</ThingDef>
-
-
 	<ThingDef ParentName="ResourceVerbBase">
 		<defName>GU_RedWood</defName>
 		<label>red wood</label>
@@ -254,7 +239,6 @@
 		</statBases>
 		<stuffProps>
 			<stuffAdjective>red wooden</stuffAdjective>
-
 			<categories>
 				<li>Woody</li>
 			</categories>
@@ -267,13 +251,12 @@
 			<soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
 			<statFactors>
 				<Beauty>0.45</Beauty>
-				<MaxHitPoints>0.75</MaxHitPoints>    
+				<MaxHitPoints>0.75</MaxHitPoints>
 				<Flammability>0.75</Flammability>
 				<WorkToMake>0.6</WorkToMake>
 				<WorkToBuild>0.8</WorkToBuild>
 				<DoorOpenSpeed>1.0</DoorOpenSpeed>
 				<MeleeWeapon_CooldownMultiplier>1</MeleeWeapon_CooldownMultiplier>
-
 			</statFactors>
 		</stuffProps>
 		<thingCategories>
@@ -285,7 +268,6 @@
 		<tools>
 			<li>
 				<label>alien wood log</label>
-
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
@@ -294,7 +276,6 @@
 			</li>
 		</tools>
 	</ThingDef>
-
 	<ThingDef ParentName="ResourceBase">
 		<defName>AA_SkySteel</defName>
 		<label>sky steel</label>
@@ -317,11 +298,9 @@
 			<BluntDamageMultiplier>1.1</BluntDamageMultiplier>
 		</statBases>
 		<useHitPoints>false</useHitPoints>
-
 		<thingCategories>
 			<li>ResourcesRaw</li>
 		</thingCategories>
-
 		<stuffProps>
 			<categories>
 				<li>Metallic</li>
@@ -337,10 +316,8 @@
 				<Beauty>2</Beauty>
 				<Flammability>0.2</Flammability>
 			</statFactors>
-
 		</stuffProps>
 	</ThingDef>
-
 	<ThingDef ParentName="ResourceBase">
 		<defName>AA_UraniumCrystals</defName>
 		<label>unrefined uranium crystals</label>
@@ -357,17 +334,14 @@
 			<MarketValue>65</MarketValue>
 			<MaxHitPoints>100</MaxHitPoints>
 			<Mass>1.8</Mass>
-
 		</statBases>
 		<thingCategories>
 			<li>ResourcesRaw</li>
 		</thingCategories>
-
 		<tradeTags>
 			<li>Exotic</li>
 		</tradeTags>
 	</ThingDef>
-
 	<ThingDef ParentName="ResourceBase">
 		<defName>AA_BlueGel</defName>
 		<label>blue gel</label>
@@ -384,7 +358,6 @@
 			<MarketValue>1</MarketValue>
 			<MaxHitPoints>100</MaxHitPoints>
 			<Mass>0.05</Mass>
-
 		</statBases>
 		<thingCategories>
 			<li>ResourcesRaw</li>
@@ -435,14 +408,13 @@
 			</li>
 		</comps>
 	</ThingDef>
-
 	<ThingDef ParentName="ResourceBase">
 		<defName>AA_HexagelCore</defName>
 		<label>hexagel core</label>
 		<description>A hexagonal shaped energy core composed of -in itself highly unstable- hydrogen-rich blue gel stabilized within an uranium shell.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/AA_HexagelEnergyCore</texPath>
-			<graphicClass>Graphic_StackCount</graphicClass>			
+			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<stackLimit>75</stackLimit>
 		<statBases>
@@ -459,7 +431,6 @@
 			<li>ExoticMisc</li>
 		</tradeTags>
 	</ThingDef>
-
 	<ThingDef ParentName="PlantFoodRawBase">
 		<defName>AA_AgariluxRawFungus</defName>
 		<label>agarilux raw fungus</label>
@@ -483,7 +454,6 @@
 			<foodType>VegetableOrFruit</foodType>
 		</ingestible>
 	</ThingDef>
-
 	<ThingDef ParentName="PlantFoodRawBase">
 		<defName>AA_RottingMoundItem</defName>
 		<label>fermented rotting mound</label>
@@ -495,13 +465,11 @@
 			<MarketValue>1.45</MarketValue>
 			<Mass>0.027</Mass>
 		</statBases>
-
 		<graphicData>
 			<texPath>Things/Plants/AA_RottingMound</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-
-		<ingestible> 
+		<ingestible>
 			<foodType>Liquor</foodType>
 			<preferability>NeverForNutrition</preferability>
 			<tasteThought>AA_AteHorribleRot</tasteThought>
@@ -511,20 +479,16 @@
 					<severity>0.1</severity>
 					<toleranceChemical>Alcohol</toleranceChemical>
 				</li>
-
 			</outcomeDoers>
-		</ingestible> 
-
-
+		</ingestible>
 	</ThingDef>
-
 	<ThingDef ParentName="ResourceBase">
 		<defName>AA_HugeAnimaPearl</defName>
 		<label>huge anima pearl</label>
 		<description>This huge anima pearl seems to be bursting with barely contained living energy. It can be planted and an anima tree will grow from it.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/AA_HugeAnimaPearl</texPath>
-			<graphicClass>Graphic_Single</graphicClass>			
+			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<stackLimit>75</stackLimit>
 		<tradeability>Sellable</tradeability>
@@ -547,15 +511,60 @@
 				<useLabel>Plant huge anima pearl</useLabel>
 				<useDuration>0</useDuration>
 			</li>
-			 <li Class="CompProperties_Targetable">
+			<li Class="CompProperties_Targetable">
 				<compClass>AlphaBehavioursAndEvents.CompTargetable_Ground</compClass>
 			</li>
-			
-			
-			
 		</comps>
 	</ThingDef>
-
-
-
+	<ThingDef ParentName="OrganicProductBase">
+		<defName>AA_NightMilk</defName>
+		<label>night milk</label>
+		<description>Very nutritive but the colour is more than a little unsettling.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/FO_NightMilk</texPath>
+		</graphicData>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<statBases>
+			<MarketValue>4.5</MarketValue>
+			<Mass>0.045</Mass>
+			<MaxHitPoints>60</MaxHitPoints>
+			<Flammability>0.2</Flammability>
+			<Nutrition>0.065</Nutrition>
+			<FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>15</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<ingestible>
+			<preferability>RawTasty</preferability>
+			<foodType>AnimalProduct, Fluid</foodType>
+		</ingestible>
+		<thingCategories>
+			<li>AnimalProductRaw</li>
+		</thingCategories>
+	</ThingDef>
+	<ThingDef ParentName="PlantFoodRawBase">
+		<defName>AA_BlackTruffles</defName>
+		<label>black truffles</label>
+		<description>Raw black truffles. A delicious and valuable variety of fungus.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/FO_BlackTruffles</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>5.5</MarketValue>
+		</statBases>
+		<ingestible>
+			<foodType>VegetableOrFruit</foodType>
+			<specialThoughtAsIngredient>AA_AteBlackTruffleIngredient</specialThoughtAsIngredient>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>15</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
 </Defs>

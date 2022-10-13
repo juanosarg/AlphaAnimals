@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
 	<ThingDef ParentName="BaseBullet">
 		<defName>AA_Bullet_Barb</defName>
 		<label>thrown quill</label>
-		
 		<graphicData>
 			<texPath>Things/Projectiles/AA_Barb</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -16,11 +14,9 @@
 			<speed>64</speed>
 		</projectile>
 	</ThingDef>
-
 	<ThingDef ParentName="BaseBullet">
 		<defName>AA_PoisonBolt</defName>
 		<label>venomous spit</label>
-		
 		<graphicData>
 			<texPath>Things/Projectiles/AA_PoisonBolt</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -32,7 +28,6 @@
 			<speed>40</speed>
 		</projectile>
 	</ThingDef>
-
 	<ThingDef ParentName="BaseBullet">
 		<defName>AA_ToxicInk</defName>
 		<label>toxic ink spit</label>
@@ -42,7 +37,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
-			<explosionRadius>3</explosionRadius >
+			<explosionRadius>3</explosionRadius>
 			<flyOverhead>true</flyOverhead>
 			<damageDef>AA_ToxicBolt</damageDef>
 			<damageAmountBase>40</damageAmountBase>
@@ -55,11 +50,9 @@
 			<postExplosionSpawnChance>1</postExplosionSpawnChance>
 		</projectile>
 	</ThingDef>
-
 	<ThingDef ParentName="BaseBullet">
 		<defName>AA_AcidBolt</defName>
 		<label>acid spit</label>
-		
 		<graphicData>
 			<texPath>Things/Projectiles/AA_PoisonBolt</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -73,11 +66,9 @@
 			<speed>40</speed>
 		</projectile>
 	</ThingDef>
-
 	<ThingDef ParentName="BaseBullet">
 		<defName>AA_RedPoisonBolt</defName>
 		<label>red poison spit</label>
-		
 		<graphicData>
 			<texPath>Things/Projectiles/AA_PoisonBolt</texPath>
 			<color>(.8,0,0)</color>
@@ -90,11 +81,9 @@
 			<speed>40</speed>
 		</projectile>
 	</ThingDef>
-
 	<ThingDef ParentName="BaseBullet">
 		<defName>AA_Plasma</defName>
 		<label>plasma burst</label>
-		
 		<graphicData>
 			<texPath>Things/Projectiles/AA_Plasma</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -106,7 +95,6 @@
 			<speed>25</speed>
 		</projectile>
 	</ThingDef>
-	
 	<ThingDef ParentName="BaseBullet">
 		<defName>AA_ElectricBolt</defName>
 		<label>electric bolt</label>
@@ -122,11 +110,9 @@
 			<speed>75</speed>
 		</projectile>
 	</ThingDef>
-	
 	<ThingDef ParentName="BaseBullet">
 		<defName>AA_DarkBolt</defName>
 		<label>dark bolt</label>
-		
 		<graphicData>
 			<texPath>Things/Projectiles/AA_DarkBall</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -138,21 +124,19 @@
 			<speed>30</speed>
 		</projectile>
 	</ThingDef>
-	
 	<ThingDef ParentName="BaseBullet">
 		<defName>AA_WindBolt</defName>
 		<label>wind blast</label>
-		
 		<graphicData>
-		<drawSize>3</drawSize>
+			<drawSize>3</drawSize>
 			<graphicClass>Graphic_MotePulse</graphicClass>
-      <texPath>Things/Mote/PsychicConditionCauserMask</texPath>
-      <shaderType>MotePsychicConditionCauser</shaderType>
+			<texPath>Things/Mote/PsychicConditionCauserMask</texPath>
+			<shaderType>MotePsychicConditionCauser</shaderType>
 			<shaderParameters>
-        <_distortionIntensity>0.015</_distortionIntensity>
-        <_brightnessMultiplier>1.1</_brightnessMultiplier>
-        <_distortionScale>40</_distortionScale>
-      </shaderParameters>
+				<_distortionIntensity>0.015</_distortionIntensity>
+				<_brightnessMultiplier>1.1</_brightnessMultiplier>
+				<_distortionScale>40</_distortionScale>
+			</shaderParameters>
 		</graphicData>
 		<projectile>
 			<flyOverhead>false</flyOverhead>
@@ -161,11 +145,9 @@
 			<speed>20</speed>
 		</projectile>
 	</ThingDef>
-
 	<ThingDef ParentName="BaseBullet">
 		<defName>AA_Quill</defName>
 		<label>quill</label>
-		
 		<graphicData>
 			<texPath>Things/Projectiles/AA_Quill</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -177,17 +159,13 @@
 			<speed>20</speed>
 		</projectile>
 	</ThingDef>
-
-
 	<ThingDef ParentName="BaseBullet">
 		<defName>AA_Bullet_VenomBarb</defName>
 		<label>venomous barb</label>
-		
 		<graphicData>
 			<texPath>Things/Projectiles/AA_Barb</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<color>(174,188,98)</color>
-
 		</graphicData>
 		<projectile>
 			<flyOverhead>false</flyOverhead>
@@ -196,7 +174,6 @@
 			<speed>35</speed>
 		</projectile>
 	</ThingDef>
-
 	<ThingDef ParentName="BaseBullet">
 		<defName>AA_Bullet_Rock</defName>
 		<label>rock</label>
@@ -207,15 +184,12 @@
 		</graphicData>
 		<projectile>
 			<flyOverhead>true</flyOverhead>
-			<explosionRadius >1.9</explosionRadius >
+			<explosionRadius>1.9</explosionRadius>
 			<damageDef>Bomb</damageDef>
 			<damageAmountBase>40</damageAmountBase>
 			<speed>20</speed>
 		</projectile>
 	</ThingDef>
-
-
-
 	<ThingDef ParentName="BaseBullet">
 		<defName>AA_FrostWeb</defName>
 		<thingClass>AlphaBehavioursAndEvents.Web_Projectile</thingClass>
@@ -232,7 +206,6 @@
 			<speed>15</speed>
 		</projectile>
 	</ThingDef>
-
 	<ThingDef ParentName="BaseBullet">
 		<defName>AA_FireWeb</defName>
 		<thingClass>AlphaBehavioursAndEvents.Web_Projectile</thingClass>
@@ -249,7 +222,6 @@
 			<speed>15</speed>
 		</projectile>
 	</ThingDef>
-
 	<ThingDef ParentName="BaseBullet">
 		<defName>AA_AcidicWeb</defName>
 		<label>acidic web</label>
@@ -258,7 +230,6 @@
 			<texPath>Things/Projectiles/AA_Web</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>2</drawSize>
-
 		</graphicData>
 		<projectile>
 			<flyOverhead>false</flyOverhead>
@@ -267,11 +238,9 @@
 			<speed>15</speed>
 		</projectile>
 	</ThingDef>
-
 	<ThingDef ParentName="BaseBullet">
 		<defName>AA_Web</defName>
 		<label>web</label>
-		
 		<graphicData>
 			<texPath>Things/Projectiles/AA_Web</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -284,7 +253,6 @@
 			<speed>15</speed>
 		</projectile>
 	</ThingDef>
-	
 	<ThingDef ParentName="BaseBullet">
 		<defName>AA_PsyWeb</defName>
 		<label>psyweb</label>
@@ -301,7 +269,6 @@
 			<speed>15</speed>
 		</projectile>
 	</ThingDef>
-
 	<ThingDef ParentName="BaseBullet">
 		<defName>AA_IncendiaryMote</defName>
 		<label>thermal detonating spit</label>
@@ -320,22 +287,17 @@
 			<preExplosionSpawnChance>0.6</preExplosionSpawnChance>
 			<ai_IsIncendiary>true</ai_IsIncendiary>
 			<soundExplode>Interact_Ignite</soundExplode>
-
 		</projectile>
 	</ThingDef>
-	
 	<ThingDef ParentName="BaseBullet">
 		<defName>AA_FrostBolt</defName>
 		<label>frost bolt</label>
-		
 		<graphicData>
 			<texPath>Things/Projectiles/AA_Cryo</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>2</drawSize>
 		</graphicData>
-		
 		<thingClass>Projectile_Explosive</thingClass>
-		
 		<projectile>
 			<flyOverhead>true</flyOverhead>
 			<explosionDelay>1</explosionDelay>
@@ -347,12 +309,10 @@
 			<postExplosionSpawnChance>1</postExplosionSpawnChance>
 			<speed>20</speed>
 		</projectile>
-		
 	</ThingDef>
 	<ThingDef ParentName="BaseBullet">
 		<defName>AA_FireSpit</defName>
 		<label>fire spit</label>
-		
 		<graphicData>
 			<texPath>Things/Projectiles/AA_FieryProjectile</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -365,9 +325,6 @@
 			<speed>15</speed>
 		</projectile>
 	</ThingDef>
-	
-	
-	
 	<VFECore.ExpandableProjectileDef ParentName="BaseBullet">
 		<defName>AA_LaserBullet</defName>
 		<label>laser</label>
@@ -389,22 +346,21 @@
 		<dealsDamageOnce>true</dealsDamageOnce>
 		<minDistanceToAffect>2</minDistanceToAffect>
 		<projectile>
-			<damageDef>Flame</damageDef>		
+			<damageDef>Flame</damageDef>
 			<flyOverhead>false</flyOverhead>
 			<damageAmountBase>10</damageAmountBase>
-			<stoppingPower>1.5</stoppingPower>		
+			<stoppingPower>1.5</stoppingPower>
 			<ai_IsIncendiary>true</ai_IsIncendiary>
 			<speed>20</speed>
 		</projectile>
 	</VFECore.ExpandableProjectileDef>
-	
 	<VFECore.ExpandableProjectileDef ParentName="BaseBullet">
 		<defName>AA_AcidicVomit</defName>
 		<label>acidic vomit</label>
 		<thingClass>VFECore.ExpandableProjectile</thingClass>
 		<graphicData>
-			<texPath>Things/Projectiles/Proj_LiquidStream</texPath>		
-			<texPathFadeOut>Things/Projectiles/Proj_LiquidStream</texPathFadeOut>			
+			<texPath>Things/Projectiles/Proj_LiquidStream</texPath>
+			<texPathFadeOut>Things/Projectiles/Proj_LiquidStream</texPathFadeOut>
 			<shaderType>MoteGlow</shaderType>
 		</graphicData>
 		<drawOffscreen>true</drawOffscreen>
@@ -419,14 +375,13 @@
 		<dealsDamageOnce>true</dealsDamageOnce>
 		<minDistanceToAffect>2</minDistanceToAffect>
 		<projectile>
-			<damageDef>AA_AcidSpit</damageDef>		
+			<damageDef>AA_AcidSpit</damageDef>
 			<flyOverhead>false</flyOverhead>
 			<damageAmountBase>15</damageAmountBase>
-			<stoppingPower>1.5</stoppingPower>			
+			<stoppingPower>1.5</stoppingPower>
 			<speed>20</speed>
 		</projectile>
 	</VFECore.ExpandableProjectileDef>
-	
 	<VFECore.ExpandableProjectileDef ParentName="BaseBullet">
 		<defName>AA_GazeAttack</defName>
 		<label>melting gaze</label>
@@ -448,15 +403,40 @@
 		<dealsDamageOnce>true</dealsDamageOnce>
 		<minDistanceToAffect>2</minDistanceToAffect>
 		<projectile>
-			<damageDef>AA_AcidSpit</damageDef>		
+			<damageDef>AA_AcidSpit</damageDef>
 			<flyOverhead>false</flyOverhead>
 			<damageAmountBase>20</damageAmountBase>
 			<stoppingPower>1.5</stoppingPower>
-			
 			<speed>20</speed>
 		</projectile>
 	</VFECore.ExpandableProjectileDef>
-
-
-
+	<VFECore.ExpandableProjectileDef ParentName="BaseBullet">
+		<defName>FF_FlameBreathAnimated</defName>
+		<label>flame breath</label>
+		<thingClass>VFECore.FlamethrowProjectile</thingClass>
+		<graphicData>
+			<texPath>Things/Projectiles/Proj_FireStream</texPath>
+			<texPathFadeOut>Things/Projectiles/Proj_FireStreamFadeOut</texPathFadeOut>
+			<shaderType>MoteGlow</shaderType>
+		</graphicData>
+		<drawOffscreen>true</drawOffscreen>
+		<lifeTimeDuration>50</lifeTimeDuration>
+		<widthScaleFactor>0.65</widthScaleFactor>
+		<heightScaleFactor>1</heightScaleFactor>
+		<startingPositionOffset>(2,0,-2)</startingPositionOffset>
+		<totalSizeScale>2</totalSizeScale>
+		<tickFrameRate>4</tickFrameRate>
+		<finalTickFrameRate>5</finalTickFrameRate>
+		<tickDamageRate>20</tickDamageRate>
+		<dealsDamageOnce>true</dealsDamageOnce>
+		<minDistanceToAffect>2</minDistanceToAffect>
+		<projectile>
+			<damageDef>Flame</damageDef>
+			<flyOverhead>false</flyOverhead>
+			<damageAmountBase>10</damageAmountBase>
+			<stoppingPower>1.5</stoppingPower>
+			<ai_IsIncendiary>true</ai_IsIncendiary>
+			<speed>20</speed>
+		</projectile>
+	</VFECore.ExpandableProjectileDef>
 </Defs>

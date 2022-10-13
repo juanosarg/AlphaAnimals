@@ -2161,6 +2161,33 @@
 			</li>
 		</subSounds>
 	</SoundDef>
+	
+	<!-- ======================== Murkling ======================== -->
+	
+	<SoundDef>
+		<defName>FO_MurklingCorpseSound</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>FO_Corpse_Squish</clipPath>
+					</li>
+				</grains>
+
+				<pitchRange>
+					<min>0.9770588</min>
+					<max>1.137647</max>
+				</pitchRange>
+				<distRange>
+					<min>0</min>
+					<max>50.40025</max>
+				</distRange>
+				<sustainLoop>False</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
 
 
 </Defs>

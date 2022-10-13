@@ -89,6 +89,9 @@
 	<AA_LetterLabelMime>Mime revealed</AA_LetterLabelMime>
 	<AA_LetterMime>{0} was a Mime all along! {0_possessive} extreme hunger was too much for {0_objective}, and {0_pronoun} will attack the rest of the colonists to try to satiate it.</AA_LetterMime>
 
+	<AA_LetterLabelBehemothPasses>Rare behemoth</AA_LetterLabelBehemothPasses>
+	<AA_LetterBehemothPasses>A small herd of behemoth have wandered into the area.\n\nThese gargantuan creatures have a voracious appetite, and a very dangerous fire breath that could probably set a whole forest on fire.\n\nThey are commonly used as beasts of burden by a fearsome race known as Forsaken.</AA_LetterBehemothPasses>
+
 	<!-- Animal Products -->
 
 	<HyperweaveDesc>Hyperweave production</HyperweaveDesc>

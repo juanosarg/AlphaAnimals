@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-
-
 	<AlphaBehavioursAndEvents.ToggleableSpawnDef>
 		<defName>AA_ToggleableAnimals</defName>
-		<toggleablePawns>			
+		<toggleablePawns>
 			<li>AA_AcanthamoebaGiganteaSmall</li>
-			<li>AA_Aerofleet</li>	
+			<li>AA_Aerofleet</li>
 			<li>AA_Agaripawn</li>
 			<li>AA_Agaripod</li>
 			<li>AA_AngelMoth</li>
@@ -29,16 +27,18 @@
 			<li>AA_CrescendoAnole</li>
 			<li>AA_CrystalMit</li>
 			<li>AA_CrystallineCaracal</li>
+			<li>AA_DarkVandal</li>
 			<li>AA_Darkbeast</li>
 			<li>AA_DecayDrake</li>
-			<li>AA_DevilSheep</li>
 			<li>AA_DesertAve</li>
+			<li>AA_DevilSheep</li>
 			<li>AA_Drainer</li>
 			<li>AA_DrainerLarva</li>
 			<li>AA_Dunealisk</li>
+			<li>AA_DuskProwler</li>
 			<li>AA_DuskRat</li>
-			<li>AA_EmpressButterflyLarva</li>
 			<li>AA_EmpressButterfly</li>
+			<li>AA_EmpressButterflyLarva</li>
 			<li>AA_EngorgedTentacularAberration</li>
 			<li>AA_Erin</li>
 			<li>AA_Eyeling</li>
@@ -47,9 +47,9 @@
 			<li>AA_FissionMouse</li>
 			<li>AA_FlamingoPhoenix</li>
 			<li>AA_FrostAve</li>
+			<li>AA_FrostLynx</li>
 			<li>AA_FrostboundBehemoth</li>
 			<li>AA_Frostling</li>
-			<li>AA_FrostLynx</li>
 			<li>AA_Frostmite</li>
 			<li>AA_Gallatross</li>
 			<li>AA_GallatrossMoribund</li>
@@ -73,6 +73,7 @@
 			<li>AA_MeadowAve</li>
 			<li>AA_MegaLouse</li>
 			<li>AA_Metallovore</li>
+			<li>AA_Murkling</li>
 			<li>AA_MycoidColossus</li>
 			<li>AA_Needlepost</li>
 			<li>AA_Needleroll</li>
@@ -83,10 +84,9 @@
 			<li>AA_OcularJelly</li>
 			<li>AA_OcularNightling</li>
 			<li>AA_OvergrownColossus</li>
-			<li>AA_UnblinkingEye</li>
 			<li>AA_PebbleMit</li>
 			<li>AA_PedigreedRaptor</li>
-			<li>AA_PhoenixOwlcat</li>		
+			<li>AA_PhoenixOwlcat</li>
 			<li>AA_Plasmorph</li>
 			<li>AA_Radyak</li>
 			<li>AA_RaptorShrimp</li>
@@ -100,6 +100,7 @@
 			<li>AA_SandLion</li>
 			<li>AA_SandProwler</li>
 			<li>AA_SandSquid</li>
+			<li>AA_ShadowCharger</li>
 			<li>AA_ShockGoat</li>
 			<li>AA_Skiphound</li>
 			<li>AA_Slurrypede</li>
@@ -111,17 +112,18 @@
 			<li>AA_TetraSlug</li>
 			<li>AA_Thermadon</li>
 			<li>AA_Thunderbeast</li>
+			<li>AA_UnblinkingEye</li>
 			<li>AA_WaywardMobileAssembler</li>
 			<li>AA_Wildpawn</li>
 			<li>AA_Wildpod</li>
 			<li>AA_WindBeast</li>
-		</toggleablePawns>							
+			<li>AA_Thunderox</li>
+		</toggleablePawns>
 	</AlphaBehavioursAndEvents.ToggleableSpawnDef>
-
 	<AlphaBehavioursAndEvents.ToggleableSpawnDef>
 		<defName>AA_VanillaAnimalToggles</defName>
-		<toggleablePawns>			
-			<li>Muffalo</li>	
+		<toggleablePawns>
+			<li>Muffalo</li>
 			<li>Gazelle</li>
 			<li>Iguana</li>
 			<li>Dromedary</li>
@@ -175,12 +177,6 @@
 			<li>Fox_Fennec</li>
 			<li>Fox_Red</li>
 			<li>Fox_Arctic</li>
-
-		</toggleablePawns>							
+		</toggleablePawns>
 	</AlphaBehavioursAndEvents.ToggleableSpawnDef>
-
-
-
-
-
 </Defs>

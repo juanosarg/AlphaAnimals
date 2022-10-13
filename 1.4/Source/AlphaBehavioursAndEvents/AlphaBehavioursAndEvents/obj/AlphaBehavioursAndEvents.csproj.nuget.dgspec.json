@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimalsNew\\1.4\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj": {}
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.4\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj": {}
   },
   "projects": {
-    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimalsNew\\1.4\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj": {
+    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.4\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimalsNew\\1.4\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj",
+        "projectUniqueName": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.4\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj",
         "projectName": "AlphaBehavioursAndEvents",
-        "projectPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimalsNew\\1.4\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj",
+        "projectPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.4\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj",
         "packagesPath": "C:\\Users\\Sarg\\.nuget\\packages\\",
-        "outputPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimalsNew\\1.4\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\obj\\",
+        "outputPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.4\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [

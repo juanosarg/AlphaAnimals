@@ -112,6 +112,17 @@
 		<minRefireDays>30</minRefireDays>
 	</IncidentDef>
 	<IncidentDef>
+		<defName>AA_BehemothPasses</defName>
+		<label>behemoth wanders</label>
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>AlphaBehavioursAndEvents.IncidentWorker_BehemothPasses</workerClass>
+		<baseChance>0.25</baseChance>
+		<minRefireDays>40</minRefireDays>
+	</IncidentDef>
+	<IncidentDef>
 		<defName>AA_Incident_SkyMeteorite</defName>
 		<label>sky meteorite</label>
 		<category>Misc</category>
@@ -147,8 +158,6 @@
 		<earliestDay>15</earliestDay>
 		<tale>Raid</tale>
 	</IncidentDef>
-	
-	
 	<IncidentDef>
 		<defName>AA_MimeWandererJoinQuest</defName>
 		<label>wanderer join</label>

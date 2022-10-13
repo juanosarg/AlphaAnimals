@@ -10,6 +10,12 @@
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs/RecipeDef[@Name = "OldWoundsAnimal"]/recipeUsers</xpath>
 					<value>
+						<li>AA_Thunderox</li>
+						<li>AA_DuskProwler</li>
+						<li>AA_Murkling</li>
+						<li>AA_ShadowCharger</li>
+						<li>AA_DarkVandal</li>
+						<li>AA_Behemoth</li>
 						<li>AA_Aerofleet</li>
 						<li>AA_ColossalAerofleet</li>
 						<li>AA_BlackScarab</li>
@@ -133,6 +139,12 @@
 					<!-- "Inserting animal defNames into InstallBionicAnimalStomach surgery <recipeUsers>" -->
 					<xpath>/Defs/RecipeDef[defName = "InstallBionicAnimalStomach"]/recipeUsers</xpath>
 					<value>
+						<li>AA_Thunderox</li>
+						<li>AA_DuskProwler</li>
+						<li>AA_Murkling</li>
+						<li>AA_ShadowCharger</li>
+						<li>AA_DarkVandal</li>
+						<li>AA_Behemoth</li>
 						<li>AA_Aerofleet</li>
 						<li>AA_ColossalAerofleet</li>
 						<li>AA_BlackScarab</li>
@@ -249,6 +261,12 @@
 					<!-- "Inserting animal defNames into InstallBionicAnimalKidney surgery <recipeUsers>" -->
 					<xpath>/Defs/RecipeDef[defName = "InstallBionicAnimalKidney"]/recipeUsers</xpath>
 					<value>
+						<li>AA_Thunderox</li>
+						<li>AA_DuskProwler</li>
+						<li>AA_Murkling</li>
+						<li>AA_ShadowCharger</li>
+						<li>AA_DarkVandal</li>
+						<li>AA_Behemoth</li>
 						<li>AA_BlackScarab</li>
 						<li>AA_BlackSpelopede</li>
 						<li>AA_BlackSpider</li>
@@ -341,6 +359,12 @@
 					<!-- "Inserting animal defNames into InstallBionicAnimalLiver surgery <recipeUsers>" -->
 					<xpath>/Defs/RecipeDef[defName = "InstallBionicAnimalLiver"]/recipeUsers</xpath>
 					<value>
+						<li>AA_Thunderox</li>
+						<li>AA_DuskProwler</li>
+						<li>AA_Murkling</li>
+						<li>AA_ShadowCharger</li>
+						<li>AA_DarkVandal</li>
+						<li>AA_Behemoth</li>
 						<li>AA_BlackScarab</li>
 						<li>AA_BlackSpelopede</li>
 						<li>AA_BlackSpider</li>
@@ -433,6 +457,12 @@
 					<!-- "Inserting animal defNames into InstallBionicAnimalLung surgery <recipeUsers>" -->
 					<xpath>/Defs/RecipeDef[defName = "InstallBionicAnimalLung"]/recipeUsers</xpath>
 					<value>
+						<li>AA_Thunderox</li>
+						<li>AA_DuskProwler</li>
+						<li>AA_Murkling</li>
+						<li>AA_ShadowCharger</li>
+						<li>AA_DarkVandal</li>
+						<li>AA_Behemoth</li>
 						<li>AA_BlackScarab</li>
 						<li>AA_BlackSpelopede</li>
 						<li>AA_BlackSpider</li>
@@ -526,6 +556,12 @@
 					<!-- "Inserting animal defNames into InstallBionicAnimalHeart surgery <recipeUsers>" -->
 					<xpath>/Defs/RecipeDef[defName = "InstallBionicAnimalHeart"]/recipeUsers</xpath>
 					<value>
+						<li>AA_Thunderox</li>
+						<li>AA_DuskProwler</li>
+						<li>AA_Murkling</li>
+						<li>AA_ShadowCharger</li>
+						<li>AA_DarkVandal</li>
+						<li>AA_Behemoth</li>
 						<li>AA_Aerofleet</li>
 						<li>AA_ColossalAerofleet</li>
 						<li>AA_BlackScarab</li>
@@ -642,6 +678,12 @@
 					<!-- "Inserting animal defNames into InstallAnimalBrainStimulator surgery <recipeUsers>" -->
 					<xpath>/Defs/RecipeDef[defName = "InstallAnimalBrainStimulator"]/recipeUsers</xpath>
 					<value>
+						<li>AA_Thunderox</li>
+						<li>AA_DuskProwler</li>
+						<li>AA_Murkling</li>
+						<li>AA_ShadowCharger</li>
+						<li>AA_DarkVandal</li>
+						<li>AA_Behemoth</li>
 						<li>AA_BlackScarab</li>
 						<li>AA_BlackSpelopede</li>
 						<li>AA_BlackSpider</li>
@@ -751,6 +793,12 @@
 					<!-- "Inserting animal defNames into InstallSpineAnimalBionic surgery <recipeUsers>" -->
 					<xpath>/Defs/RecipeDef[defName = "InstallSpineAnimalBionic" or defName = "InstallSpineAnimalSimple"]/recipeUsers</xpath>
 					<value>
+						<li>AA_Thunderox</li>
+						<li>AA_DuskProwler</li>
+						<li>AA_Murkling</li>
+						<li>AA_ShadowCharger</li>
+						<li>AA_DarkVandal</li>
+						<li>AA_Behemoth</li>
 						<li>AA_ArcticLion</li>
 						<li>AA_BoulderMit</li>
 						<li>AA_Cactipine</li>
@@ -820,6 +868,12 @@
 					<!-- "Inserting animal defNames into InstallJawAnimalBionic surgery <recipeUsers> -->
 					<xpath>/Defs/RecipeDef[defName = "InstallJawAnimalBionic" or defName ="InstallJawAnimalSimple"]/recipeUsers</xpath>
 					<value>
+						<li>AA_Thunderox</li>
+						<li>AA_DuskProwler</li>
+						<li>AA_Murkling</li>
+						<li>AA_ShadowCharger</li>
+						<li>AA_DarkVandal</li>
+						<li>AA_Behemoth</li>
 						<li>AA_Aerofleet</li>
 						<li>AA_ColossalAerofleet</li>
 						<li>AA_BlackScarab</li>
@@ -950,6 +1004,12 @@
 					<!-- "Inserting animal defNames into InstallNoseAnimalSimple surgery <recipeUsers>" -->
 					<xpath>/Defs/RecipeDef[defName = "InstallNoseAnimalSimple"]/recipeUsers</xpath>
 					<value>
+						<li>AA_Thunderox</li>
+						<li>AA_DuskProwler</li>
+						<li>AA_Murkling</li>
+						<li>AA_ShadowCharger</li>
+						<li>AA_DarkVandal</li>
+						<li>AA_Behemoth</li>
 						<li>AA_ArcticLion</li>
 						<li>AA_BoulderMit</li>
 						<li>AA_Cactipine</li>
@@ -1025,6 +1085,12 @@
 					<!-- "Inserting animal defNames into InstallBionicEyeAnimal surgery <recipeUsers>" -->
 					<xpath>/Defs/RecipeDef[defName = "InstallBionicEyeAnimal"]/recipeUsers</xpath>
 					<value>
+						<li>AA_Thunderox</li>
+						<li>AA_DuskProwler</li>
+						<li>AA_Murkling</li>
+						<li>AA_ShadowCharger</li>
+						<li>AA_DarkVandal</li>
+						<li>AA_Behemoth</li>
 						<li>AA_Aerofleet</li>
 						<li>AA_ColossalAerofleet</li>
 						<li>AA_BlackScarab</li>
@@ -1136,6 +1202,12 @@
 					<!-- "Inserting animal defNames into InstallEarAnimalSimple surgery <recipeUsers>" -->
 					<xpath>/Defs/RecipeDef[defName = "InstallEarAnimalSimple" or defName ="InstallEarAnimalBionic"]/recipeUsers</xpath>
 					<value>
+						<li>AA_Thunderox</li>
+						<li>AA_DuskProwler</li>
+						<li>AA_Murkling</li>
+						<li>AA_ShadowCharger</li>
+						<li>AA_DarkVandal</li>
+						<li>AA_Behemoth</li>
 						<li>AA_ArcticLion</li>
 						<li>AA_BoulderMit</li>
 						<li>AA_Cactipine</li>
@@ -1200,6 +1272,12 @@
 					<!-- "Inserting animal defNames into InstallPegLegAnimal surgery <recipeUsers>" -->
 					<xpath>/Defs/RecipeDef[defName = "InstallPegLegAnimal" or defName ="InstallSimpleProstheticLegAnimal" or defName ="InstallBionicLegAnimal"]/recipeUsers</xpath>
 					<value>
+						<li>AA_Thunderox</li>
+						<li>AA_DuskProwler</li>
+						<li>AA_Murkling</li>
+						<li>AA_ShadowCharger</li>
+						<li>AA_DarkVandal</li>
+						<li>AA_Behemoth</li>
 						<li>AA_BlackScarab</li>
 						<li>AA_BlackSpelopede</li>
 						<li>AA_BlackSpider</li>
@@ -1297,6 +1375,9 @@
 					<!-- "Inserting animal defNames into InstallSimpleProstheticTailAnimal surgery <recipeUsers>" -->
 					<xpath>/Defs/RecipeDef[defName = "InstallSimpleProstheticTailAnimal"]/recipeUsers</xpath>
 					<value>
+						<li>AA_DuskProwler</li>
+						<li>AA_Murkling</li>
+						<li>AA_Behemoth</li>
 						<li>AA_ArcticLion</li>
 						<li>AA_Barbslinger</li>
 						<li>AA_BoulderMit</li>

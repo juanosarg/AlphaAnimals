@@ -19,7 +19,11 @@ namespace AlphaBehavioursAndEvents
         public static PawnKindDef AA_MammothWorm;
         public static PawnKindDef AA_MegaLouse;
 
-        
+        public static PawnKindDef AA_Behemoth;      
+
+        public static WeatherDef DryThunderstorm;
+
+
 
     }
 }

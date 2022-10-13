@@ -1,6 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<!--========== AA leathers ============-->
+	
+	
+	<ThingDef ParentName="LeatherBase">
+		<defName>AA_Leather_Behemoth</defName>
+		<label>behemoth scales</label>
+		<description>Hard overlapping scales of draconic chitin. It is exceptionally durable in combat, but provides little protection from weather.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AA_Chitin</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(45,45,57)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>6.2</MarketValue>
+			<StuffPower_Armor_Sharp>1.55</StuffPower_Armor_Sharp>
+			<StuffPower_Insulation_Cold>10</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>20</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<color>(45,45,57)</color>
+			<commonality>0</commonality>
+			<statFactors>
+				<MaxHitPoints>1.5</MaxHitPoints>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
 	<ThingDef ParentName="LeatherBase">
 		<defName>AA_Leather_Aerofleet</defName>
 		<label>aerofleet fur</label>
@@ -413,6 +438,27 @@
 		<stuffProps>
 			<color>(62,62,64)</color>
 			<commonality>0.05</commonality>
+		</stuffProps>
+	</ThingDef>
+	
+
+	<ThingDef ParentName="WoolBase">
+		<defName>AA_NightWool</defName>
+		<label>night wool</label>
+		<description>This dark hued wool is soft, light and provides very good insulation. Stronger than other similar wools.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/FO_NightWool</texPath>
+		</graphicData>
+		<statBases>
+			<StuffPower_Armor_Sharp>0.60</StuffPower_Armor_Sharp>
+		    <StuffPower_Armor_Blunt>0.25</StuffPower_Armor_Blunt>
+		    <StuffPower_Armor_Heat>1.20</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>30</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+		</statBases>
+		<stuffProps>
+			<commonality>0.025</commonality>
+			<color>(45,45,57)</color>
 		</stuffProps>
 	</ThingDef>
 </Defs>
