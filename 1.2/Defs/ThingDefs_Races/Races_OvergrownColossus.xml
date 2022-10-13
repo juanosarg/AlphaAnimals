@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_OvergrownColossus</defName>
 		<label>overgrown colossus</label>
-		<description>The Overgrown Colossus is a very strange beast. This gargantuan beast is one of the few creatures in the Rim that wasn't directly created by man's scientific curiosity, arising naturally in some remote swamp-filled planet, albeit from some original forgotten terran creature.\n\nIt seems to be reptilian in nature, with cold blood, a slow metabolism, and a very weird body plan: it has six legs, two intertwined spines and six eyes. It has a symbiotic relationship with vegetation, with several small trees growing on its back. These trees do photosynthesis and help provide nutrients for the Colossus.\n\nWhen tamed, the Overgrown Colossus can be periodically "trimmed" to obtain wood.</description>
+		<description>The Overgrown Colossus is a very strange beast. This gargantuan beast is one of the few creatures in the Rim that wasn't directly created by man's scientific curiosity, arising naturally in some remote swamp-filled planet, albeit from some original forgotten terran creature.\n\nIt seems to be reptilian in nature, with cold blood, a slow metabolism, and a very weird body plan: it has six legs, two intertwined spines and six eyes. It has a symbiotic relationship with vegetation, with several small trees growing on its back. These trees do photosynthesis and help provide nutrients for the Colossus.\n\nWhen tamed, the Overgrown Colossus can be periodically "trimmed" to obtain wood.\n\nBased on concept art by Arvalis: https://www.deviantart.com/arvalis/art/Overgrown-Colossus-Concept-Art-144699628</description>
 		<statBases>
 			<MoveSpeed>2.00</MoveSpeed>
 			<ComfyTemperatureMin>-30</ComfyTemperatureMin>

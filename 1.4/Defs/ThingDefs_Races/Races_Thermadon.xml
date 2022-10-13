@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+
+
+	<ThingDef ParentName="AA_AlphaBaseInsect">
+		<defName>AA_Thermadon</defName>
+		<label>thermadon</label>
+		<description>The Thermadon is a large Blackspider that has been biologically augmented with volatile chemical glands. Originally, the Thermadon was bred by the long forgotten creators of the Black Hive as a fearsome fire-breathing shock trooper, using thermal grenades capable of affecting even fire-resistant Mechanoids, the primary objective of the Black Hive. Mechanoids however managed to adapt to these biological grenades quickly, and thus the Thermadon project was scrapped.\n\nApparently, some of them managed to escape into the wild.\n\nJust... don't attack this thing if your base is made of wood, mmkay?</description>
+		<statBases>
+			<MoveSpeed>5</MoveSpeed>
+			<ComfyTemperatureMin>-40</ComfyTemperatureMin>
+			<MarketValue>650</MarketValue>
+			<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.4</ArmorRating_Sharp>
+			<Flammability>0</Flammability>
+			<FilthRate>2</FilthRate>
+
+		</statBases>
+		<tools>
+			<li>
+				<label>head claw</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>2.6</cooldownTime>
+				<linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<accuracyTouch>1</accuracyTouch>
+				<accuracyShort>1</accuracyShort>
+				<accuracyMedium>1</accuracyMedium>
+				<accuracyLong>1</accuracyLong>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>AA_IncendiaryMote</defaultProjectile>
+				<warmupTime>2</warmupTime>
+				<burstShotCount>1</burstShotCount>
+				<minRange>2</minRange>
+				<range>30</range>
+				<forcedMissRadius>2</forcedMissRadius>
+				<soundCast>AA_PoisonBolt</soundCast>
+				<muzzleFlashScale>0</muzzleFlashScale>
+				<label>thermal detonating spit</label>
+				<commonality>.9</commonality>
+			</li>
+
+
+		</verbs>
+		<race>
+			<wildBiomes>
+				<BorealForest>0.01</BorealForest>
+				<Tundra>0.05</Tundra>
+				<ColdBog>0.05</ColdBog>
+				<TemperateSwamp>0.01</TemperateSwamp>
+				<TropicalSwamp>0.01</TropicalSwamp>
+				<TemperateForest>0.01</TemperateForest>
+				<AridShrubland>0.01</AridShrubland>
+				<Desert>0.01</Desert>
+				<TropicalRainforest>0.01</TropicalRainforest>
+
+			</wildBiomes>
+			<body>BeetleLikeWithClaw</body>
+			<baseHungerRate>0.35</baseHungerRate>
+			<baseBodySize>1.5</baseBodySize>
+			<baseHealthScale>3</baseHealthScale>
+			<gestationPeriodDays>6.66</gestationPeriodDays>
+			<useMeatFrom>Megaspider</useMeatFrom>
+			<leatherDef>Leather_BlackChitin</leatherDef>
+			<wildness>0.9</wildness>
+			<trainability>Intermediate</trainability>
+			<lifeExpectancy>6</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>EusocialInsectLarva</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>EusocialInsectJuvenile</def>
+					<minAge>0.03</minAge>
+				</li>
+				<li>
+					<def>EusocialInsectAdult</def>
+					<minAge>0.2</minAge>
+					<soundWounded>Pawn_BigInsect_Pain</soundWounded>
+					<soundDeath>Pawn_BigInsect_Death</soundDeath>
+					<soundCall>Pawn_BigInsect_Call</soundCall>
+					<soundAngry>Pawn_BigInsect_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalInsect</li>
+		</tradeTags>
+		<modExtensions>
+			<li Class="AnimalBehaviours.AnimalStatExtension">
+
+				<statToAdd>
+					<li>AA_PrimaryRole</li>
+					<li>AA_RangedAttacks</li>					
+				</statToAdd>
+				<statValues>
+					<li>AA_DamageRangedFire</li>
+					<li>AA_Yes</li>					
+				</statValues>
+				<statDescriptions>
+					<li>AA_DamageRangedFireDesc</li>
+					<li>AA_Ranged</li>
+				</statDescriptions>
+
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>AA_Thermadon</defName>
+		<label>thermadon</label>
+		<race>AA_Thermadon</race>
+		<combatPower>175</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_Thermadon/AA_Thermadon</texPath>
+					<drawSize>1.2</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_Thermadon/AA_Dessicated_Thermadon</texPath>
+					<drawSize>1.2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_Thermadon/AA_Thermadon</texPath>
+					<drawSize>2</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_Thermadon/AA_Dessicated_Thermadon</texPath>
+					<drawSize>2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_Thermadon/AA_Thermadon</texPath>
+					<drawSize>3</drawSize>
+					<shadowData>
+						<volume>(0.5, 0.7, 0.43)</volume>
+						<offset>(0,0,-0.1)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_Thermadon/AA_Dessicated_Thermadon</texPath>
+					<drawSize>3</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+
+</Defs>

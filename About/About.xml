@@ -2,10 +2,9 @@
 <ModMetaData>
 	<name>Alpha Animals</name>
 	<supportedVersions>
-		<li>1.0</li>
-		<li>1.1</li>
 		<li>1.2</li>
 		<li>1.3</li>
+		<li>1.4</li>
 	</supportedVersions>
 	<modDependencies>
 		<li>
@@ -18,6 +17,7 @@
 			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
 			<displayName>Vanilla Expanded Framework</displayName>
 			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1854607105</steamWorkshopUrl>
+			<downloadUrl>https://github.com/Vanilla-Expanded/VanillaExpandedFramework</downloadUrl>
 		</li>
 	</modDependencies>
 
@@ -77,6 +77,7 @@ Ritual loop sounds by THXRTX  https://www.instagram.com/thxrtx/?hl=en
 Fireball Graphic created by StarsteelGaming at OpenGameArt.org (2018)
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
+v4.0: Updated to RW 1.4
 v3.9: Added Vanilla Psycasts Expanded compatibility (07/09/22)
 v3.8: Added 5 new animals (01/11/21)
 v3.7: Added 4 new animals (08/08/21)

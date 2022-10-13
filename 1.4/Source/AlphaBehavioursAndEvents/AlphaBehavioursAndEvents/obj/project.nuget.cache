@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "aCtNyDdGJLQ35qFq48A03ZMTDpchtSN22dYT9Jcwg4ucfdQ9CtDnk790a1SnXcdQyZJR/52+NgJZAJUIvrYYkA==",
+  "success": true,
+  "projectFilePath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimalsNew\\1.4\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sarg\\.nuget\\packages\\achievementsexpanded\\1.4.82\\achievementsexpanded.1.4.82.nupkg.sha512",
+    "C:\\Users\\Sarg\\.nuget\\packages\\lib.harmony\\2.2.2\\lib.harmony.2.2.2.nupkg.sha512"
+  ],
+  "logs": []
+}
