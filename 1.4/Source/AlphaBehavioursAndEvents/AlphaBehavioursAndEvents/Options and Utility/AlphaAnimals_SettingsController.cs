@@ -40,9 +40,7 @@ namespace AlphaBehavioursAndEvents
         {
             base.DoSettingsWindowContents(inRect);
 
-            ToggleableSpawnDef toggleablespawndef = (from k in DefDatabase<ToggleableSpawnDef>.AllDefsListForReading
-                                      where k.defName == "AA_ToggleableAnimals"
-                                      select k).RandomElement();
+            ToggleableSpawnDef toggleablespawndef = InternalDefOf.AA_ToggleableAnimals;
 
             
                 if (settings.pawnSpawnStates == null) settings.pawnSpawnStates = new Dictionary<string, bool>();

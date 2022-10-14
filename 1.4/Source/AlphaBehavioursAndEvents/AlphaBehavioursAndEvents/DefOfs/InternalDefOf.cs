@@ -23,6 +23,8 @@ namespace AlphaBehavioursAndEvents
 
         public static WeatherDef DryThunderstorm;
 
+        public static ToggleableSpawnDef AA_ToggleableAnimals;
+        public static ToggleableSpawnDef AA_VanillaAnimalToggles;
 
 
     }

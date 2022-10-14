@@ -351,7 +351,7 @@
     <Compile Include="Harmony\RoomStatWorker_Beauty_GetScore_Patch.cs" />
     <Compile Include="Harmony\Thing_ButcherProducts.cs" />
     <Compile Include="Harmony\JobDriver_Ingest_MakeNewToils.cs" />
-    <Compile Include="Harmony\Spawn Checks\WildAnimalSpawner_SpawnRandomWildAnimalAt.cs" />
+    <Compile Include="Harmony\MapTemperature_SeasonAcceptableFor_Patch.cs" />
     <Compile Include="Hediffs\HediffCompProperties\HediffCompProperties_AnoleGrown.cs" />
     <Compile Include="Hediffs\HediffCompProperties\HediffCompProperties_AutoPermanentInjury.cs" />
     <Compile Include="Hediffs\HediffCompProperties\HediffCompProperties_ExplodeOnDowned.cs" />
