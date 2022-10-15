@@ -48,30 +48,34 @@ namespace AlphaBehavioursAndEvents
         public override void CompPostMake()
         {
             Pawn pawn = this.parent.pawn as Pawn;
-            Pawn_DrawTracker drawtracker = ((Pawn_DrawTracker)typeof(Pawn).GetField("drawer", BindingFlags.Instance | BindingFlags.NonPublic).GetValue(pawn));
-            if (drawtracker != null)
-            {
-                this.pawn_renderer = drawtracker.renderer;
-            }
-            Vector2 vector = pawn.ageTracker.CurKindLifeStage.bodyGraphicData.drawSize*3;
-
-            LongEventHandler.ExecuteWhenFinished(delegate
-            {
-                if (this.pawn_renderer != null)
+            if(pawn.def == InternalDefOf.AA_CrescendoAnole) {
+                Pawn_DrawTracker drawtracker = ((Pawn_DrawTracker)typeof(Pawn).GetField("drawer", BindingFlags.Instance | BindingFlags.NonPublic).GetValue(pawn));
+                if (drawtracker != null)
                 {
-                    try
-                    {
-                        Graphic_Multi nakedGraphic = (Graphic_Multi)GraphicDatabase.Get<Graphic_Multi>(pawn.ageTracker.CurKindLifeStage.bodyGraphicData.texPath + "_Enlarged", ShaderDatabase.Cutout, vector, Color.white);                     
-                        this.pawn_renderer.graphics.ResolveAllGraphics();
-                        this.pawn_renderer.graphics.nakedGraphic = nakedGraphic;
-                        (this.pawn_renderer.graphics.nakedGraphic.data = new GraphicData()).shadowData = pawn.ageTracker.CurKindLifeStage.bodyGraphicData.shadowData;
-                      
-                       
-                    }
-                    catch (NullReferenceException) { }
+                    this.pawn_renderer = drawtracker.renderer;
                 }
+                Vector2 vector = pawn.ageTracker.CurKindLifeStage.bodyGraphicData.drawSize * 3;
 
-            });
+                LongEventHandler.ExecuteWhenFinished(delegate
+                {
+                    if (this.pawn_renderer != null)
+                    {
+                        try
+                        {
+                            Graphic_Multi nakedGraphic = (Graphic_Multi)GraphicDatabase.Get<Graphic_Multi>(pawn.ageTracker.CurKindLifeStage.bodyGraphicData.texPath + "_Enlarged", ShaderDatabase.Cutout, vector, Color.white);
+                            this.pawn_renderer.graphics.ResolveAllGraphics();
+                            this.pawn_renderer.graphics.nakedGraphic = nakedGraphic;
+                            (this.pawn_renderer.graphics.nakedGraphic.data = new GraphicData()).shadowData = pawn.ageTracker.CurKindLifeStage.bodyGraphicData.shadowData;
+
+
+                        }
+                        catch (NullReferenceException) { }
+                    }
+
+                });
+
+            }
+           
 
         }
 

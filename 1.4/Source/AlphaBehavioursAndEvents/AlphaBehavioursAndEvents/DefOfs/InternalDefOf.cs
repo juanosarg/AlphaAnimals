@@ -26,6 +26,8 @@ namespace AlphaBehavioursAndEvents
         public static ToggleableSpawnDef AA_ToggleableAnimals;
         public static ToggleableSpawnDef AA_VanillaAnimalToggles;
 
+        public static ThingDef AA_CrescendoAnole;
+
 
     }
 }
