@@ -557,7 +557,7 @@
 			<useMeatFrom>Megaspider</useMeatFrom>
 			<foodType>OmnivoreRoughAnimal</foodType>
 			<leatherDef>Leather_BlackChitin</leatherDef>
-			<packAnimal>true</packAnimal>
+			
 			<wildness>0.9</wildness>
 			<trainability>Intermediate</trainability>
 			<litterSizeCurve>
