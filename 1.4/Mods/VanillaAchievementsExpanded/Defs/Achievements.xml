@@ -380,7 +380,7 @@
 		<texPath>Achievements/AA_AchievementJellyfishSalad</texPath>
 		<points>10</points>
 	</AchievementsExpanded.AchievementDef>
-	<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
+	<!--<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 		<defName>AA_AchievementMechanoidSiege</defName>
 		<label>Mechanoid Siege</label>
 		<description>Destroy a Demolisher mechanoid</description>
@@ -390,7 +390,7 @@
 		</tracker>
 		<texPath>Achievements/AA_AchievementMechanoidSiege</texPath>
 		<points>10</points>
-	</AchievementsExpanded.AchievementDef>
+	</AchievementsExpanded.AchievementDef>-->
 	<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 		<defName>AA_AchievementDealWithTheDevil</defName>
 		<label>Deal With the Devil</label>
