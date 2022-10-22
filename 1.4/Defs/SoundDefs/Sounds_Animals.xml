@@ -182,32 +182,35 @@
 
 
 	<SoundDef>
-		<defName>AA_Rumbling</defName>  
-		<sustain>True</sustain>  
-		<context>MapOnly</context>
-		<eventNames />  
-		<maxSimultaneous>1</maxSimultaneous>  
-		<priorityMode>PrioritizeNearest</priorityMode>  
-		<subSounds>
-			<li>
-				<grains>
-					<li Class="AudioGrain_Folder">
-						<clipFolderPath>AA_Rumbling</clipFolderPath>
-					</li>
-				</grains>      
-				<volumeRange>
-					<min>30</min>        
-					<max>30</max>
-				</volumeRange>
-				<sustainAttack>2</sustainAttack>      
-				<sustainRelease>2</sustainRelease>
-				<distRange>
-					<min>20</min>
-					<max>50</max>
-				</distRange>
-			</li>
-		</subSounds>
-	</SoundDef>
+        <defName>AA_Rumbling</defName>  
+        <sustain>true</sustain> 
+        <context>MapOnly</context>
+        <eventNames />  
+        <maxSimultaneous>1</maxSimultaneous>  
+        <priorityMode>PrioritizeNearest</priorityMode>  
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Folder">
+                        <clipFolderPath>AA_Rumbling</clipFolderPath>
+                    </li>
+                </grains>      
+                <volumeRange>
+                    <min>30</min>        
+                    <max>30</max>
+                </volumeRange>
+                <sustainAttack>2</sustainAttack>      
+                <sustainRelease>2</sustainRelease>
+                <distRange>
+                    <min>20</min>
+                    <max>50</max>
+                </distRange>
+            <sustainLoop>true</sustainLoop>
+            <sustainLoopDurationRange>5~5</sustainLoopDurationRange>      
+        <sustainIntervalRange>-2.5~-2.5</sustainIntervalRange> 
+            </li>
+        </subSounds>
+    </SoundDef>
 
 
 	<!-- ======================== Green Goo ======================== -->
