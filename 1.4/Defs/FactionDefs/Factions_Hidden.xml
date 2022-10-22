@@ -10,8 +10,7 @@
 		<pawnsPlural>black hive insects</pawnsPlural>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
 		<fixedName>black hive</fixedName>
-		<maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
-		<configurationListOrderPriority>1500</configurationListOrderPriority>
+		
 		<factionIconPath>World/WorldObjects/Expanding/Sites/Manhunters</factionIconPath>
 		<colorSpectrum>
 			<li>(0.44, 0.41, 0.32)</li>
