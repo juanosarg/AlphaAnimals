@@ -221,8 +221,9 @@
 		<stages>
 			<li>
 				<minSeverity>0</minSeverity>
+				<hungerRateFactorOffset>-.9999</hungerRateFactorOffset>
 				<statOffsets>
-					<HungerRateMultiplier>-1000</HungerRateMultiplier>			
+						
 					<MentalBreakThreshold>0.2</MentalBreakThreshold>
 				</statOffsets>
 			</li>

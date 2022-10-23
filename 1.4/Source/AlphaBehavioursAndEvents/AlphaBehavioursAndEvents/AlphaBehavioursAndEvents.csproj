@@ -352,6 +352,7 @@
     <Compile Include="Harmony\Thing_ButcherProducts.cs" />
     <Compile Include="Harmony\JobDriver_Ingest_MakeNewToils.cs" />
     <Compile Include="Harmony\MapTemperature_SeasonAcceptableFor_Patch.cs" />
+    <Compile Include="Hediffs\HediffCompProperties\HediffCompProperties_RemoveFromMechs.cs" />
     <Compile Include="Hediffs\HediffCompProperties\HediffCompProperties_AnoleGrown.cs" />
     <Compile Include="Hediffs\HediffCompProperties\HediffCompProperties_AutoPermanentInjury.cs" />
     <Compile Include="Hediffs\HediffCompProperties\HediffCompProperties_ExplodeOnDowned.cs" />
@@ -362,6 +363,7 @@
     <Compile Include="Hediffs\HediffComp_AutoPermanentInjury.cs" />
     <Compile Include="Hediffs\HediffComp_ExplodeOnDowned.cs" />
     <Compile Include="Hediffs\HediffComp_Mime.cs" />
+    <Compile Include="Hediffs\HediffComp_RemoveFromMechs.cs" />
     <Compile Include="Hediffs\HediffComp_Resurrect.cs" />
     <Compile Include="Hediffs\HediffComp_TurnWhenDead.cs" />
     <Compile Include="Incidents\IncidentWorker_BehemothPasses.cs" />

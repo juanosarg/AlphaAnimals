@@ -103,6 +103,9 @@
 				<baseTendDurationHours>48</baseTendDurationHours>
 				<disappearsAtTotalTendQuality>3</disappearsAtTotalTendQuality>
 			</li>
+			<li Class="AlphaBehavioursAndEvents.HediffCompProperties_RemoveFromMechs">
+				
+			</li>
 		</comps>
 	</HediffDef>
 	<HediffDef ParentName="DiseaseBase">
@@ -116,6 +119,9 @@
 					<min>1000</min>
 					<max>1000</max>
 				</disappearsAfterTicks>
+			</li>
+			<li Class="AlphaBehavioursAndEvents.HediffCompProperties_RemoveFromMechs">
+				
 			</li>
 		</comps>
 		<stages>
@@ -522,6 +528,9 @@
 				<severityPerDayImmune>-0.70</severityPerDayImmune>
 				<immunityPerDayNotSick>-0.40</immunityPerDayNotSick>
 			</li>
+			<li Class="AlphaBehavioursAndEvents.HediffCompProperties_RemoveFromMechs">
+				
+			</li>
 		</comps>
 		<stages>
 			<li>
@@ -643,6 +652,9 @@
 				<immunityPerDaySick>0.2</immunityPerDaySick>
 				<severityPerDayImmune>-1</severityPerDayImmune>
 				<immunityPerDayNotSick>-3</immunityPerDayNotSick>
+			</li>
+			<li Class="AlphaBehavioursAndEvents.HediffCompProperties_RemoveFromMechs">
+				
 			</li>
 		</comps>
 		<stages>
