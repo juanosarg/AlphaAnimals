@@ -14,6 +14,7 @@
 			<MarketValue>750</MarketValue>
 			<LeatherAmount>0</LeatherAmount>
 			<FilthRate>8</FilthRate>
+			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">1</ToxicEnvironmentResistance>
 		</statBases>
 		<tools>
 
