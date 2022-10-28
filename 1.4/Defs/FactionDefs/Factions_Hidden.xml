@@ -36,6 +36,7 @@
 			<min>-30</min>
 			<max>60</max>
 		</allowedArrivalTemperatureRange>
+		<maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
 		<modExtensions>
 			<li Class="VFECore.ExcludeFromQuestsExtension" />
 		</modExtensions>
