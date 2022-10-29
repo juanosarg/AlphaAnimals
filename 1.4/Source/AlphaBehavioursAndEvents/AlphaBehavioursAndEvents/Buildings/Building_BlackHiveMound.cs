@@ -56,18 +56,16 @@ namespace AlphaBehavioursAndEvents
 
         private void SpawnInitialPawns(Faction faction)
         {
-            if (this.lord == null)
-            {
+            
                 IntVec3 invalid;
                 if (!CellFinder.TryFindRandomCellNear(this.Position, this.Map, 5, (IntVec3 c) => c.Standable(this.Map) && this.Map.reachability.CanReach(c, this, PathEndMode.Touch, TraverseParms.For(TraverseMode.PassDoors, Danger.Deadly, false)), out invalid, -1))
                 {
                     Log.Error("Found no place for insects to spawn " + this);
                     invalid = IntVec3.Invalid;
                 }
-                LordJob_AssaultColony lordJob = new LordJob_AssaultColony(this.Faction, false,false,true,false,false);
-                this.lord = LordMaker.MakeNewLord(this.Faction, lordJob, this.Map, null);
+                
                 this.SpawnPawnsUntilPoints(200f, faction);
-            }
+            
         }
 
         public void SpawnPawnsUntilPoints(float points, Faction faction)
@@ -84,7 +82,17 @@ namespace AlphaBehavioursAndEvents
                     Thing spawnedCreature=GenSpawn.Spawn(pawn, CellFinder.RandomClosewalkCellNear(base.Position, base.Map, 2, (IntVec3 c) => c.Standable(base.Map) &&
                     base.Map.reachability.CanReach(c, this, PathEndMode.Touch, TraverseParms.For(TraverseMode.PassDoors, Danger.Deadly, false))),
                     base.Map, WipeMode.Vanish);
-                    if (spawnedCreature != null) { this.lord.AddPawn(pawn); }
+                    if (this.lord == null)
+                    {
+                        List<Pawn> list = new List<Pawn>();
+                        list.Add(spawnedCreature as Pawn);
+                        LordJob_AssaultColony lordJob = new LordJob_AssaultColony(this.Faction, false, false, false, false, false);
+                        this.lord = LordMaker.MakeNewLord(this.Faction, lordJob, this.Map, list);
+                        
+                        
+                    }else { this.lord.AddPawn(pawn); }
+
+                   
                     
                     remaining -= (int)kindDef.combatPower;
 

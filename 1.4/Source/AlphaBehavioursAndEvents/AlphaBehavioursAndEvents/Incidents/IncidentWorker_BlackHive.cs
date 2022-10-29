@@ -16,7 +16,7 @@ namespace AlphaBehavioursAndEvents
             Map map = (Map)parms.target;
             IntVec3 intVec;
             return base.CanFireNowSub(parms) &&  map.mapTemperature.SeasonAndOutdoorTemperatureAcceptableFor(ThingDef.Named("AA_BlackScarab")) && 
-                this.TryFindEntryCell(map, out intVec) && AlphaAnimalsEvents_Mod.settings.flagBlackHiveRaids;
+                this.TryFindEntryCell(map, out intVec) && AlphaAnimalsEvents_Mod.settings.flagBlackHiveRaids && Find.FactionManager.FirstFactionOfDef(FactionDef.Named("AA_BlackHive"))!=null;
         }
 
         private bool TryFindEntryCell(Map map, out IntVec3 cell)
@@ -52,7 +52,7 @@ namespace AlphaBehavioursAndEvents
                 {
                     
                         thing = GenSpawn.Spawn(ThingMaker.MakeThing(ThingDef.Named("AA_BlackHiveMound"), null), loc2, map, WipeMode.FullRefund);
-                    
+                        thing.SetFaction(Find.FactionManager.FirstFactionOfDef(FactionDef.Named("AA_BlackHive")));
                 }
 
                
