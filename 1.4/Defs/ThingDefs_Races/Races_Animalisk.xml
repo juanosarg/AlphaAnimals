@@ -114,6 +114,9 @@
 				<percentageOfDestruction>0.1</percentageOfDestruction>
 				
 			</li>
+			<li Class="MVCF.Comps.CompProperties_RandomVerbs">
+				<meleeChance>0.2</meleeChance>
+			</li>
 		</comps>
 		<race>
 			<thinkTreeMain>VEF_AnimalWeirdEater</thinkTreeMain>

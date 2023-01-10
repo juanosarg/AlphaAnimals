@@ -103,6 +103,9 @@
 					<max>3</max>
 				</eggCountRange>
 			</li>
+			<li Class="MVCF.Comps.CompProperties_RandomVerbs">
+				<meleeChance>0.2</meleeChance>
+			</li>
 		</comps>
 		<race>
 			<wildBiomes>

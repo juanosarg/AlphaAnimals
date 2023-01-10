@@ -71,6 +71,9 @@
 			<li Class="AnimalBehaviours.CompProperties_Floating">
 
 			</li>
+			<li Class="MVCF.Comps.CompProperties_RandomVerbs">
+				<meleeChance>0.2</meleeChance>
+			</li>
 
 
 		</comps>

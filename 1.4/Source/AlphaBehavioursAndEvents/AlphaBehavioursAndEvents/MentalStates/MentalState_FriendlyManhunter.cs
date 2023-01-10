@@ -8,7 +8,7 @@ namespace AlphaBehavioursAndEvents
     {
         public override bool ForceHostileTo(Faction f)
         {
-            return false;
+            return pawn.Faction != f;
         }
 
         public override bool ForceHostileTo(Thing t)

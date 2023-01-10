@@ -198,6 +198,11 @@
 				<chanceFactor>0.2</chanceFactor>
 			</li>
 		</tools>
+		<comps>
+			<li Class="MVCF.Comps.CompProperties_RandomVerbs">
+				<meleeChance>0.2</meleeChance>
+			</li>
+		</comps>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
@@ -408,6 +413,12 @@
 
 
 		</verbs>
+		<comps>
+		
+			<li Class="MVCF.Comps.CompProperties_RandomVerbs">
+				<meleeChance>0.2</meleeChance>
+			</li>
+		</comps>
 		<race>
 			<body>BeetleLikeWithClaw</body>
 			<baseHungerRate>0.35</baseHungerRate>

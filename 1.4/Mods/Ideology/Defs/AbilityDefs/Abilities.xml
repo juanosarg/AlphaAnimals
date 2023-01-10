@@ -19,12 +19,12 @@
 		<iconPath>UI/Abilities/AA_OcularConversion</iconPath>
 		<uiOrder>1</uiOrder>
 		<statBases>
-			<Ability_EffectRadius>3.9</Ability_EffectRadius>
+			<Ability_EffectRadius>10.9</Ability_EffectRadius>
 		</statBases>
 		<verbProperties>
 			<verbClass>Verb_CastAbility</verbClass>
 			<warmupTime>5</warmupTime>
-			<range>10</range>
+			<range>30</range>
 			<targetParams>
 				<canTargetPlants>true</canTargetPlants>
 			

@@ -87,6 +87,11 @@
 
 
 		</verbs>
+		<comps>
+			<li Class="MVCF.Comps.CompProperties_RandomVerbs">
+				<meleeChance>0.2</meleeChance>
+			</li>
+		</comps>
 		<race>
 
 			<herdAnimal>false</herdAnimal>
