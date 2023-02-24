@@ -18,6 +18,7 @@
 							<useMetalArmor>false</useMetalArmor>
 						</li>
 						<li Class="GiddyUp.DrawInFront" />
+						<li Class="GiddyUp.Mountable"/>
 					</value>
 				</li>
 				<li Class="PatchOperationAddModExtension">
