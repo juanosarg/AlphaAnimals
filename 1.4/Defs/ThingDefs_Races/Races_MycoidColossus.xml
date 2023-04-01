@@ -11,7 +11,7 @@
 			<MoveSpeed>2.00</MoveSpeed>
 			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
 			<MarketValue>550</MarketValue>
-			<MeatAmount>0</MeatAmount>
+			
 			<LeatherAmount>0</LeatherAmount>
 			<FilthRate>16</FilthRate>
 
@@ -72,8 +72,9 @@
 			<hasGenders>false</hasGenders>
 			<trainability>Intermediate</trainability>
 			<manhunterOnDamageChance>.75</manhunterOnDamageChance>
-			<useMeatFrom>AA_OvergrownColossus</useMeatFrom>
+			
 			<lifeExpectancy>570</lifeExpectancy>
+			<specificMeatDef>AA_AgariluxRawFungus</specificMeatDef>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>
@@ -96,9 +97,7 @@
 			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 		</race>
-		<butcherProducts>
-			<AA_AgariluxRawFungus>2</AA_AgariluxRawFungus>
-		</butcherProducts>
+		
 		<tradeTags>
 			<li>AnimalUncommon</li>
 			<li>AnimalFighter</li>

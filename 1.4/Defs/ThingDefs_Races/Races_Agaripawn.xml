@@ -10,7 +10,7 @@
 			<ComfyTemperatureMin>-15</ComfyTemperatureMin>
 			<MarketValue>200</MarketValue>
 			<LeatherAmount>0</LeatherAmount>
-			<MeatAmount>0</MeatAmount>
+			
 			<ArmorRating_Blunt>.75</ArmorRating_Blunt>
 			<ArmorRating_Heat>-100</ArmorRating_Heat>
 			<ArmorRating_Sharp>.75</ArmorRating_Sharp>
@@ -114,7 +114,7 @@
 			<manhunterOnTameFailChance>0.018</manhunterOnTameFailChance>
 			<trainability>Intermediate</trainability>
 			<lifeExpectancy>35</lifeExpectancy>			
-			<useMeatFrom>Pig</useMeatFrom>
+			<specificMeatDef>AA_AgariluxRawFungus</specificMeatDef>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>
@@ -138,9 +138,7 @@
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 
 		</race>
-		<butcherProducts>
-			<AA_AgariluxRawFungus>2</AA_AgariluxRawFungus>
-		</butcherProducts>
+		
 		<tradeTags>
 			<li>AnimalExotic</li>
 		</tradeTags>

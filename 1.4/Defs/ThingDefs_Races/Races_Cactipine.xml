@@ -12,8 +12,7 @@
 			<ComfyTemperatureMin>-5</ComfyTemperatureMin>
 			<ComfyTemperatureMax>70</ComfyTemperatureMax>
 			<MarketValue>100</MarketValue>
-			<MeatAmount>0</MeatAmount>
-
+			
 		</statBases>
 		<tools>
 			<li>
@@ -85,7 +84,7 @@
 			<leatherDef>Leather_Cactus</leatherDef>
 			<foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
 			<wildness>0.75</wildness>
-			<useMeatFrom>Pig</useMeatFrom>
+			<specificMeatDef>AA_CactusMeat</specificMeatDef>	
 			<manhunterOnDamageChance>1.0</manhunterOnDamageChance>
 			<manhunterOnTameFailChance>0.2</manhunterOnTameFailChance>
 			<trainability>Intermediate</trainability>
@@ -122,9 +121,7 @@
 			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 		</race>
-		<butcherProducts>
-			<AA_CactusMeat>2</AA_CactusMeat>
-		</butcherProducts>
+		
 		<tradeTags>
 			<li>AnimalCommon</li>
 		</tradeTags>

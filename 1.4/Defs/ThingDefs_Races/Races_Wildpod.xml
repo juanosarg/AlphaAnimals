@@ -10,7 +10,7 @@
 			<ComfyTemperatureMin>-15</ComfyTemperatureMin>
 			<MarketValue>400</MarketValue>
 			<LeatherAmount>0</LeatherAmount>
-			<MeatAmount>0</MeatAmount>
+			
 			<ArmorRating_Blunt>1</ArmorRating_Blunt>
 			<ArmorRating_Heat>-100</ArmorRating_Heat>
 			<ArmorRating_Sharp>2</ArmorRating_Sharp>
@@ -107,7 +107,7 @@
 			<manhunterOnTameFailChance>0.018</manhunterOnTameFailChance>
 			<trainability>Intermediate</trainability>
 			<lifeExpectancy>70</lifeExpectancy>
-			<useMeatFrom>Pig</useMeatFrom>
+			<specificMeatDef>RawFungus</specificMeatDef>
 
 			<lifeStageAges>
 				<li>
@@ -140,9 +140,7 @@
 				<AridShrubland>0.05</AridShrubland>
 			</wildBiomes>
 		</race>
-		<butcherProducts>
-			<RawFungus>2</RawFungus>
-		</butcherProducts>
+		
 		<tradeTags>
 			<li>AnimalExotic</li>
 		</tradeTags>

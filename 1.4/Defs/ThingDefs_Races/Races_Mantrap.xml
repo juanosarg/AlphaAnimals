@@ -13,8 +13,7 @@
 			<ComfyTemperatureMax>70</ComfyTemperatureMax>
 			<MarketValue>450</MarketValue>
 			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
-			<MeatAmount>0</MeatAmount>
-
+			
 		</statBases>
 
 		<tools>
@@ -97,7 +96,7 @@
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>			
 			<leatherDef>Leather_Cactus</leatherDef>
 			<wildness>0.8</wildness>
-			<useMeatFrom>Rat</useMeatFrom>
+			<specificMeatDef>AA_CactusMeat</specificMeatDef>
 			<trainability>Intermediate</trainability>
 			<gestationPeriodDays>10</gestationPeriodDays>
 			<litterSizeCurve>
@@ -129,9 +128,7 @@
 			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
-		<butcherProducts>
-			<AA_CactusMeat>2</AA_CactusMeat>
-		</butcherProducts>
+		
 		<tradeTags>
 			<li>AnimalUncommon</li>
 			<li>AnimalFighter</li>

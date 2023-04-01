@@ -10,7 +10,7 @@
 			<ComfyTemperatureMin>-15</ComfyTemperatureMin>
 			<MarketValue>450</MarketValue>
 			<LeatherAmount>0</LeatherAmount>
-			<MeatAmount>0</MeatAmount>
+			
 			<ArmorRating_Blunt>1</ArmorRating_Blunt>
 			<ArmorRating_Heat>-100</ArmorRating_Heat>
 			<ArmorRating_Sharp>2</ArmorRating_Sharp>
@@ -100,7 +100,7 @@
 			<baseBodySize>4.0</baseBodySize>
 			<baseHealthScale>3.6</baseHealthScale>
 			<baseHungerRate>0.33</baseHungerRate>
-			<useMeatFrom>Pig</useMeatFrom>
+			<specificMeatDef>AA_AgariluxRawFungus</specificMeatDef>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<hasGenders>false</hasGenders>
 			<wildness>0.9</wildness>
@@ -130,9 +130,7 @@
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 
 		</race>
-		<butcherProducts>
-			<AA_AgariluxRawFungus>2</AA_AgariluxRawFungus>
-		</butcherProducts>
+		
 		<tradeTags>
 			<li>AnimalExotic</li>
 		</tradeTags>

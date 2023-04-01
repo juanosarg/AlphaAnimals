@@ -13,8 +13,7 @@
 			<ComfyTemperatureMax>70</ComfyTemperatureMax>
 			<MarketValue>630</MarketValue>
 			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
-			<MeatAmount>0</MeatAmount>
-
+			
 		</statBases>
 		<tickerType>Normal</tickerType>
 
@@ -91,7 +90,7 @@
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>Leather_Cactus</leatherDef>
 			<wildness>0.6</wildness>
-			<useMeatFrom>Pig</useMeatFrom>
+			<specificMeatDef>AA_CactusMeat</specificMeatDef>	
 			<trainability>Intermediate</trainability>
 			<gestationPeriodDays>10</gestationPeriodDays>
 			<litterSizeCurve>
@@ -124,9 +123,7 @@
 			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
-		<butcherProducts>
-			<AA_CactusMeat>2</AA_CactusMeat>
-		</butcherProducts>
+		
 		<tradeTags>
 			<li>AnimalExotic</li>
 		</tradeTags>

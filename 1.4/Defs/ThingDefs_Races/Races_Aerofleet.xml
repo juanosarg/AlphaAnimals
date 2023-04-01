@@ -9,7 +9,7 @@
 			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
 			<ComfyTemperatureMax>30</ComfyTemperatureMax>
 			<MarketValue>120</MarketValue>
-			<MeatAmount>0</MeatAmount>
+			
 		</statBases>
 		<tools>
 			<li>
@@ -63,7 +63,7 @@
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>AA_Leather_Aerofleet</leatherDef>
 			<wildness>0.60</wildness>
-			<useMeatFrom>Pig</useMeatFrom>
+			<specificMeatDef>AA_AerofleetMeat</specificMeatDef>
 			<canBePredatorPrey>false</canBePredatorPrey>
 			<trainability>None</trainability>			
 			<lifeExpectancy>9</lifeExpectancy>
@@ -101,9 +101,7 @@
 
 			</wildBiomes>
 		</race>
-		<butcherProducts>
-			<AA_AerofleetMeat>2</AA_AerofleetMeat>
-		</butcherProducts>
+		
 		<tradeTags>
 			<li>AnimalCommon</li>
 		</tradeTags>
@@ -198,7 +196,7 @@
 			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
 			<ComfyTemperatureMax>30</ComfyTemperatureMax>
 			<MarketValue>400</MarketValue>
-			<MeatAmount>0</MeatAmount>
+			
 		</statBases>
 		<comps>
 			<li Class="AnimalBehaviours.CompProperties_Floating">
@@ -252,7 +250,7 @@
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>AA_Leather_Aerofleet</leatherDef>
 			<wildness>0.80</wildness>
-			<useMeatFrom>Pig</useMeatFrom>			
+			<specificMeatDef>AA_AerofleetMeat</specificMeatDef>		
 			<lifeExpectancy>110</lifeExpectancy>
 			<lifeStageAges>
 				<li>
@@ -269,9 +267,7 @@
 			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 
 		</race>
-		<butcherProducts>
-			<AA_AerofleetMeat>2</AA_AerofleetMeat>
-		</butcherProducts>
+		
 		<tradeTags>
 			<li>AnimalExotic</li>
 			<li>AnimalAlpha</li>

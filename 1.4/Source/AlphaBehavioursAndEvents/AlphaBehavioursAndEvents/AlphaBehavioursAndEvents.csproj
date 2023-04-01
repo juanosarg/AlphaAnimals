@@ -349,7 +349,6 @@
     <Compile Include="Harmony\PawnUtility_IsFighting.cs" />
     <Compile Include="Harmony\QuestManager_Notify_ThingsProduced_Patch.cs" />
     <Compile Include="Harmony\RoomStatWorker_Beauty_GetScore_Patch.cs" />
-    <Compile Include="Harmony\Thing_ButcherProducts.cs" />
     <Compile Include="Harmony\JobDriver_Ingest_MakeNewToils.cs" />
     <Compile Include="Harmony\MapTemperature_SeasonAcceptableFor_Patch.cs" />
     <Compile Include="Hediffs\HediffCompProperties\HediffCompProperties_RemoveFromMechs.cs" />

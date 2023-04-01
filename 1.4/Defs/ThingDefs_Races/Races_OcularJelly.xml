@@ -10,7 +10,7 @@
 			<ComfyTemperatureMin>-35</ComfyTemperatureMin>
 			<ComfyTemperatureMax>40</ComfyTemperatureMax>
 			<MarketValue>250</MarketValue>
-			<MeatAmount>0</MeatAmount>
+			
 		</statBases>
 		<tools>
 			<li>
@@ -90,7 +90,7 @@
 			<leatherDef>Leather_Light</leatherDef>
 			<wildness>0.8</wildness>
 			<trainability>Intermediate</trainability>
-			<useMeatFrom>Pig</useMeatFrom>
+			<specificMeatDef>AA_OcularJellyMeat</specificMeatDef>
 			
 			<lifeExpectancy>4</lifeExpectancy>
 			<lifeStageAges>
@@ -124,9 +124,7 @@
 
 			</wildBiomes>
 		</race>
-		<butcherProducts>
-			<AA_OcularJellyMeat>2</AA_OcularJellyMeat>
-		</butcherProducts>
+		
 		<tradeTags>
 			<li>AnimalExotic</li>
 		</tradeTags>
