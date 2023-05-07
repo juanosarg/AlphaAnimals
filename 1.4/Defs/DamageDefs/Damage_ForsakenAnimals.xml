@@ -10,6 +10,8 @@
 			<li>
 				<hediff>Plague</hediff>
 				<severityPerDamageDealt>0.01</severityPerDamageDealt>
+				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
+				<inverseStatScaling>true</inverseStatScaling>
 			</li>
 		</additionalHediffs>
 	</DamageDef>
