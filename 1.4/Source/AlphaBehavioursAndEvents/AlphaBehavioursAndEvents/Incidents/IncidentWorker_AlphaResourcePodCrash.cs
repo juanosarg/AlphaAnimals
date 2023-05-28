@@ -14,7 +14,7 @@ namespace AlphaBehavioursAndEvents
         protected override bool TryExecuteWorker(IncidentParms parms)
         {
             Map map = (Map)parms.target;
-            List<Thing> things = DefDatabase<ThingSetMakerDef>.GetNamed("AA_AlphaResourcePod").root.Generate();
+            List<Thing> things = InternalDefOf.AA_AlphaResourcePod.root.Generate();
             IntVec3 intVec = DropCellFinder.RandomDropSpot(map);
             DropPodUtility.DropThingsNear(intVec, map, things, 110, false, true, true, true);
             base.SendStandardLetter("AA_LetterLabelAlphaCargoPodCrash".Translate(), "AA_AlphaCargoPodCrash".Translate(), LetterDefOf.PositiveEvent, parms, new TargetInfo(intVec, map, false), Array.Empty<NamedArgument>());

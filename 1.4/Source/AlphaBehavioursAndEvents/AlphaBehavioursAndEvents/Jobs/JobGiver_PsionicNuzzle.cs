@@ -25,7 +25,7 @@ namespace AlphaBehavioursAndEvents
             {
                 return null;
             }
-            return new Job(DefDatabase<JobDef>.GetNamed("AA_PsionicNuzzle", true), t)
+            return new Job(InternalDefOf.AA_PsionicNuzzle, t)
             {
                 locomotionUrgency = LocomotionUrgency.Walk,
                 expiryInterval = 3000

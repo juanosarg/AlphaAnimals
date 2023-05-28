@@ -407,7 +407,7 @@
 			<li>
 				
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AA_Gallatross/AA_Gallatross</texPath>
+					<texPath>Things/Pawn/Animal/AA_Gallatross/AA_Gallatross_Moribund</texPath>
 					<drawSize>2.0</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.3, 0.3)</volume>
@@ -422,7 +422,7 @@
 			<li>
 				
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AA_Gallatross/AA_Gallatross</texPath>
+					<texPath>Things/Pawn/Animal/AA_Gallatross/AA_Gallatross_Moribund</texPath>
 					<drawSize>2.7</drawSize>
 					<shadowData>
 						<volume>(0.6, 0.45, 0.45)</volume>
@@ -436,7 +436,7 @@
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AA_Gallatross/AA_Gallatross</texPath>
+					<texPath>Things/Pawn/Animal/AA_Gallatross/AA_Gallatross_Moribund</texPath>
 					<drawSize>4.5</drawSize>
 					<shadowData>
 						<volume>(0.8, 0.6, 0.6)</volume>

@@ -58,6 +58,7 @@
 							<!--Setting useMetalArmor to true, makes the animal's skin have the metal bounce of effect when hit when used as mount --> 
 							<useMetalArmor>false</useMetalArmor>
 						</li>
+						<li Class="GiddyUp.Mountable"/>
 					</value>
 				</li>			
 				<li Class="PatchOperationAddModExtension">

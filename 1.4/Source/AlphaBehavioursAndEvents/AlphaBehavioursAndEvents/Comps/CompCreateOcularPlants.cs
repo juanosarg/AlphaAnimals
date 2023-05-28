@@ -168,7 +168,7 @@ namespace AlphaBehavioursAndEvents
 				Random rand = new Random();
 				if (plant.def.plant.IsTree && !listOfUnaffectedTrees.Contains(plant.def.defName))
 				{
-					Plant thing2 = (Plant)GenSpawn.Spawn(ThingDef.Named("AA_AlienTree"), plant.Position, plant.Map, WipeMode.Vanish);
+					Plant thing2 = (Plant)GenSpawn.Spawn(InternalDefOf.AA_AlienTree, plant.Position, plant.Map, WipeMode.Vanish);
 					Plant thingToDestroy = plant;
 					thing2.Growth = thingToDestroy.Growth;
 					plant.Kill();
@@ -176,21 +176,21 @@ namespace AlphaBehavioursAndEvents
 				else if (!plant.def.plant.IsTree && !listOfUnaffectedCrops.Contains(plant.def.defName)){
 					if (rand.NextDouble() < 0.4)
 					{
-						Plant thing2 = (Plant)GenSpawn.Spawn(ThingDef.Named("AA_AlienGrass"), plant.Position, plant.Map, WipeMode.Vanish);
+						Plant thing2 = (Plant)GenSpawn.Spawn(InternalDefOf.AA_AlienGrass, plant.Position, plant.Map, WipeMode.Vanish);
 						Plant thingToDestroy = plant;
 						thing2.Growth = thingToDestroy.Growth;
 						plant.Kill();
 					}
 					else if (rand.NextDouble() > 0.4 && rand.NextDouble() < 0.7)
 					{
-						Plant thing2 = (Plant)GenSpawn.Spawn(ThingDef.Named("AA_RedLeaves"), plant.Position, plant.Map, WipeMode.Vanish);
+						Plant thing2 = (Plant)GenSpawn.Spawn(InternalDefOf.AA_RedLeaves, plant.Position, plant.Map, WipeMode.Vanish);
 						Plant thingToDestroy = plant;
 						thing2.Growth = thingToDestroy.Growth;
 						plant.Kill();
 					}
 					else if (rand.NextDouble() > 0.7)
 					{
-						Plant thing2 = (Plant)GenSpawn.Spawn(ThingDef.Named("AA_RedPlantsTall"), plant.Position, plant.Map, WipeMode.Vanish);
+						Plant thing2 = (Plant)GenSpawn.Spawn(InternalDefOf.AA_RedPlantsTall, plant.Position, plant.Map, WipeMode.Vanish);
 						Plant thingToDestroy = plant;
 						thing2.Growth = thingToDestroy.Growth;
 						plant.Kill();

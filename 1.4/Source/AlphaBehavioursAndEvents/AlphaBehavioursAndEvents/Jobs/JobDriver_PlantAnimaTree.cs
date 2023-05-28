@@ -45,7 +45,7 @@ namespace AlphaBehavioursAndEvents
             Toil createAnimaTree = new Toil();
             createAnimaTree.initAction = delegate ()
             {
-                Thing thing = ThingMaker.MakeThing(ThingDef.Named("Plant_TreeAnima"), null);
+                Thing thing = ThingMaker.MakeThing(ThingDefOf.Plant_TreeAnima, null);
                 thing.stackCount = 1;
                 Thing t;
                 GenPlace.TryPlaceThing(thing, TargetPosition, map, ThingPlaceMode.Direct, out t, null, null, default(Rot4));

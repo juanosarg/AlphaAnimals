@@ -26,10 +26,6 @@
 	<v1.4>
 		<li>/</li>
 		<li>1.4</li>
-		<li IfModActive="tachyonite.pawnmorpherpublic">1.4/Mods/Pawnmorpher</li>	
-		<li IfModActive="tachyonite.pawnmorpherpublic_copy">1.4/Mods/Pawnmorpher</li>
-		<li IfModActive="tachyonite.pawnmorpher">1.4/Mods/Pawnmorpher</li>	
-		<li IfModActive="tachyonite.pawnmorpher_copy">1.4/Mods/Pawnmorpher</li>
 		<li IfModActive="vanillaexpanded.achievements">1.4/Mods/VanillaAchievementsExpanded</li>	
 		<li IfModActive="vanillaexpanded.achievements_copy">1.4/Mods/VanillaAchievementsExpanded</li>
 		<li IfModActive="spoonshortage.ADogSaidAnimalProsthetics">1.4/Mods/ADogSaid</li>	

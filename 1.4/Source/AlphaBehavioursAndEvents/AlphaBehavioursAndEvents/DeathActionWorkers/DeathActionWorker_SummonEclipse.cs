@@ -13,7 +13,7 @@ namespace AlphaBehavioursAndEvents
         {
             if (corpse.Map != null)
             {
-                IncidentDef localDef = IncidentDef.Named("AA_Eclipse");
+                IncidentDef localDef = InternalDefOf.AA_Eclipse;
                 IncidentParms parms = StorytellerUtility.DefaultParmsNow(localDef.category, corpse.Map);
                 localDef.Worker.TryExecute(parms);
             }

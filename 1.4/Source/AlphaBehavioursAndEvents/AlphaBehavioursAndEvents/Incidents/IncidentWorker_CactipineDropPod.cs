@@ -23,7 +23,7 @@ namespace AlphaBehavioursAndEvents
         private bool TryFindAnimalKind(int tile, out PawnKindDef animalKind)
         {
             return (from k in DefDatabase<PawnKindDef>.AllDefs
-                    where Find.World.tileTemperatures.SeasonAndOutdoorTemperatureAcceptableFor(tile, ThingDef.Named("AA_Cactipine")) && k.defName == "AA_Cactipine"
+                    where Find.World.tileTemperatures.SeasonAndOutdoorTemperatureAcceptableFor(tile, InternalDefOf.AA_Cactipine.race) && k.defName == "AA_Cactipine"
                     select k).TryRandomElement(out animalKind);
         }
 
@@ -31,7 +31,7 @@ namespace AlphaBehavioursAndEvents
         {
             Map map = (Map)parms.target;
             IntVec3 intVec = DropCellFinder.RandomDropSpot(map);
-            Building_Overgrown_DropPod overgrown_DropPod = (Building_Overgrown_DropPod)ThingMaker.MakeThing(DefDatabase<ThingDef>.GetNamed("AA_Overgrown_DropPod", true));
+            Building_Overgrown_DropPod overgrown_DropPod = (Building_Overgrown_DropPod)ThingMaker.MakeThing(InternalDefOf.AA_Overgrown_DropPod);
 
             ActiveDropPodInfo activeDropPodInfo = new ActiveDropPodInfo();
             List<Thing> things = new List<Thing>();
@@ -43,7 +43,7 @@ namespace AlphaBehavioursAndEvents
             LookTargets lookie = new LookTargets(intVec,map);
             
             Find.LetterStack.ReceiveLetter("LetterLabelCactipinePod".Translate(), "CactipineDropPod".Translate(), LetterDefOf.NeutralEvent, lookie, null, null);
-            //GenSpawn.Spawn(overgrown_DropPod, intVec, map);
+          
             return true;
         }
     }

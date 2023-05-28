@@ -23,7 +23,7 @@ namespace AlphaBehavioursAndEvents
             {
                 return false;
             }
-            List<Thing> list = DefDatabase<ThingSetMakerDef>.GetNamed("AA_Meteorite").root.Generate();
+            List<Thing> list = InternalDefOf.AA_Meteorite.root.Generate();
             SkyfallerMaker.SpawnSkyfaller(ThingDefOf.MeteoriteIncoming, list, intVec, map);
             Find.LetterStack.ReceiveLetter("LetterLabelSkyAsteroid".Translate(), "LetterSkyAsteroid".Translate(), LetterDefOf.NeutralEvent, new TargetInfo(intVec, map, false), null, null);
 

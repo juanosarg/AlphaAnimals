@@ -12,7 +12,7 @@ namespace AlphaBehavioursAndEvents
         {
             Map map = base.Map;
             base.Impact(hitThing);
-            BattleLogEntry_RangedImpact battleLogEntry_RangedImpact = new BattleLogEntry_RangedImpact(this.launcher, hitThing, this.intendedTarget.Thing, ThingDef.Named("Gun_Autopistol"), this.def, this.targetCoverDef);
+            BattleLogEntry_RangedImpact battleLogEntry_RangedImpact = new BattleLogEntry_RangedImpact(this.launcher, hitThing, this.intendedTarget.Thing, InternalDefOf.Gun_Autopistol, this.def, this.targetCoverDef);
             Find.BattleLog.Add(battleLogEntry_RangedImpact);
             if (hitThing != null)
             {
@@ -47,7 +47,7 @@ namespace AlphaBehavioursAndEvents
                 }
                 if (this.def.defName == "AA_AcidicWeb")
                 {
-                    DamageInfo dinfo2 = new DamageInfo(DefDatabase<DamageDef>.GetNamed("AA_AcidSpit", true), amount / 2, armorPenetration, y, launcher, null, null, DamageInfo.SourceCategory.ThingOrUnknown, this.intendedTarget.Thing);
+                    DamageInfo dinfo2 = new DamageInfo(InternalDefOf.AA_AcidSpit, amount / 2, armorPenetration, y, launcher, null, null, DamageInfo.SourceCategory.ThingOrUnknown, this.intendedTarget.Thing);
                     hitThing.TakeDamage(dinfo2).AssociateWithLog(battleLogEntry_RangedImpact);
 
 

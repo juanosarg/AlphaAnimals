@@ -32,7 +32,7 @@ namespace AlphaBehavioursAndEvents
 				request = new PawnGenerationRequest(PawnKindDefOf.Villager, null, PawnGenerationContext.NonPlayer, -1, true, false, false, false, true,  20f, false, true, false, true, false, false, false, false,false, 0f, 0f,null, 1f, null, null, null, null, null, null, null, fixedGender, null, null, null);
 			}
 			Pawn pawn = PawnGenerator.GeneratePawn(request);
-            if (AlphaAnimalsEvents_Mod.settings.flagMime) { pawn.health.AddHediff(HediffDef.Named("AA_MimeHediff"), null, null, null); }
+            if (AlphaAnimalsEvents_Mod.settings.flagMime) { pawn.health.AddHediff(InternalDefOf.AA_MimeHediff, null, null, null); }
 			
 			if (!pawn.IsWorldPawn())
 			{

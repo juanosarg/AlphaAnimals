@@ -323,7 +323,7 @@
 		<label>unrefined uranium crystals</label>
 		<description>This crystal can be refined in a chemfuel refinery into uranium.</description>
 		<graphicData>
-			<texPath>Things/Item/Resource/AA_UraniumCrystals</texPath>
+			<texPath>Things/Item/Resource/AA_UraniumCrystalsNew</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<tradeability>Sellable</tradeability>
@@ -466,7 +466,7 @@
 			<Mass>0.027</Mass>
 		</statBases>
 		<graphicData>
-			<texPath>Things/Plants/AA_RottingMound</texPath>
+			<texPath>Things/Item/Resource/AA_RottingMound</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<ingestible>

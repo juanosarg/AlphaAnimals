@@ -30,7 +30,7 @@ namespace AlphaBehavioursAndEvents
             {
                 if (this.parent.pawn.Downed)
                 {
-                    if (!this.parent.pawn.health.hediffSet.HasHediff(HediffDef.Named("Anesthetic"))) {
+                    if (!this.parent.pawn.health.hediffSet.HasHediff(HediffDefOf.Anesthetic)) {
                         this.parent.pawn.Kill(null);
                     }
                     

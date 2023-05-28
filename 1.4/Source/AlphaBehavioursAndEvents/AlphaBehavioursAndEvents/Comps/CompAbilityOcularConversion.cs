@@ -16,7 +16,7 @@ namespace AlphaBehavioursAndEvents
 		{
 
             base.Apply(target, dest);
-            FleckMaker.Static(target.Cell, this.parent.pawn.Map, DefDatabase<FleckDef>.GetNamed("PsycastPsychicEffect"));
+            FleckMaker.Static(target.Cell, this.parent.pawn.Map, InternalDefOf.PsycastPsychicEffect);
 
             HashSet<Thing> hashSet = new HashSet<Thing>(target.Cell.GetThingList(this.parent.pawn.Map));
             if (hashSet != null)
@@ -36,7 +36,7 @@ namespace AlphaBehavioursAndEvents
                         {
                             if (plant.IsTree && (plantTarget.def.defName != "GU_AlienTree") && (plantTarget.def.defName != "AA_AlienTree") && (plantTarget.def.defName != "Plant_TreeAnima") && (plantTarget.def.defName != "Plant_TreeGauranlen"))
                             {
-                                Plant thing2 = (Plant)GenSpawn.Spawn(ThingDef.Named("AA_AlienTree"), plantTarget.Position, plantTarget.Map, WipeMode.Vanish);
+                                Plant thing2 = (Plant)GenSpawn.Spawn(InternalDefOf.AA_AlienTree, plantTarget.Position, plantTarget.Map, WipeMode.Vanish);
                                 Plant thingToDestroy = (Plant)plantTarget;
                                 thing2.Growth = thingToDestroy.Growth;
                                 plantTarget.Destroy();
@@ -47,21 +47,21 @@ namespace AlphaBehavioursAndEvents
                             {
                                 if (rand.NextDouble() < 0.4)
                                 {
-                                    Plant thing2 = (Plant)GenSpawn.Spawn(ThingDef.Named("AA_AlienGrass"), plantTarget.Position, plantTarget.Map, WipeMode.Vanish);
+                                    Plant thing2 = (Plant)GenSpawn.Spawn(InternalDefOf.AA_AlienGrass, plantTarget.Position, plantTarget.Map, WipeMode.Vanish);
                                     Plant thingToDestroy = (Plant)plantTarget;
                                     thing2.Growth = thingToDestroy.Growth;
                                     plantTarget.Destroy();
                                 }
                                 else if (rand.NextDouble() > 0.4 && rand.NextDouble() < 0.7)
                                 {
-                                    Plant thing2 = (Plant)GenSpawn.Spawn(ThingDef.Named("AA_RedLeaves"), plantTarget.Position, plantTarget.Map, WipeMode.Vanish);
+                                    Plant thing2 = (Plant)GenSpawn.Spawn(InternalDefOf.AA_RedLeaves, plantTarget.Position, plantTarget.Map, WipeMode.Vanish);
                                     Plant thingToDestroy = (Plant)plantTarget;
                                     thing2.Growth = thingToDestroy.Growth;
                                     plantTarget.Destroy();
                                 }
                                 else if (rand.NextDouble() > 0.7)
                                 {
-                                    Plant thing2 = (Plant)GenSpawn.Spawn(ThingDef.Named("AA_RedPlantsTall"), plantTarget.Position, plantTarget.Map, WipeMode.Vanish);
+                                    Plant thing2 = (Plant)GenSpawn.Spawn(InternalDefOf.AA_RedPlantsTall, plantTarget.Position, plantTarget.Map, WipeMode.Vanish);
                                     Plant thingToDestroy = (Plant)plantTarget;
                                     thing2.Growth = thingToDestroy.Growth;
                                     plantTarget.Destroy();

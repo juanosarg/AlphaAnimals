@@ -22,7 +22,7 @@ namespace AlphaBehavioursAndEvents
 
         {
             
-            if (room.ContainsThing(ThingDef.Named("AA_PedigreedRaptor")))
+            if (room.ContainsThing(InternalDefOf.AA_PedigreedRaptor))
             {
                 if (__result>0) {
                     __result *= 1.15f;

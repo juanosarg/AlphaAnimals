@@ -84,7 +84,7 @@ namespace AlphaBehavioursAndEvents
             ReturnToOriginalGraphics();
             Pawn pawn = this.parent.pawn as Pawn;
             BodyPartRecord part = pawn.RaceProps.body.GetPartsWithDef(BodyPartDefOf.Body).FirstOrDefault();
-            pawn.health.AddHediff(HediffDef.Named("AA_AnoleGrownExhausted"), part);
+            pawn.health.AddHediff(InternalDefOf.AA_AnoleGrownExhausted, part);
         }
 
         public override void Notify_PawnDied()

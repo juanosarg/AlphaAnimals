@@ -12,7 +12,7 @@ namespace AlphaBehavioursAndEvents
     {
         protected override void Generate(ThingSetMakerParams parms, List<Thing> outThings)
         {
-            PawnKindDef eyeling = PawnKindDef.Named("AA_Eyeling");
+            PawnKindDef eyeling = InternalDefOf.AA_Eyeling;
             
             PawnGenerationRequest request = new PawnGenerationRequest(eyeling, Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true,  1f);
             Pawn pawn = PawnGenerator.GeneratePawn(request);

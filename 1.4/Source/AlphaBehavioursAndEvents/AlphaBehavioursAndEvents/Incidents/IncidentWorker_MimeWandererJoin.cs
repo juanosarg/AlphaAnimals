@@ -48,7 +48,7 @@ namespace AlphaBehavioursAndEvents
             }
             Pawn pawn = this.GeneratePawn();
             this.SpawnJoiner(map, pawn);
-            pawn.health.AddHediff(HediffDef.Named("AA_MimeHediff"), null, null, null);
+            pawn.health.AddHediff(InternalDefOf.AA_MimeHediff, null, null, null);
             TaggedString baseLetterText =  this.def.letterText.Formatted(pawn.Named("PAWN")).AdjustedFor(pawn, "PAWN", true);
             TaggedString baseLetterLabel = this.def.letterLabel.Formatted(pawn.Named("PAWN")).AdjustedFor(pawn, "PAWN", true);
             PawnRelationUtility.TryAppendRelationsWithColonistsInfo(ref baseLetterText, ref baseLetterLabel, pawn);

@@ -32,7 +32,7 @@ namespace AlphaBehavioursAndEvents
                 {
                     numberOfEggs = 2;
                 }
-                Thing thing = ThingMaker.MakeThing(ThingDef.Named("AA_EggFlamingoPhoenixFertilized"), null);
+                Thing thing = ThingMaker.MakeThing(InternalDefOf.AA_EggFlamingoPhoenixFertilized, null);
                 thing.stackCount = numberOfEggs;
                 GenPlace.TryPlaceThing(thing, corpse.Position, corpse.Map, ThingPlaceMode.Near, null, null, default(Rot4));
 

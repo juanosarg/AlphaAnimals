@@ -24,7 +24,7 @@ namespace AlphaBehavioursAndEvents
                 {
                     attacker.needs.food.CurLevel = attacker.needs.food.MaxLevel;
                     HealthUtility.DamageUntilDowned(pawn);
-                    SoundDef.Named("AA_MatureFleshbeastSwallow").PlayOneShot(new TargetInfo(attacker.Position, attacker.Map, false));
+                    InternalDefOf.AA_MatureFleshbeastSwallow.PlayOneShot(new TargetInfo(attacker.Position, attacker.Map, false));
                     if (pawn!=null&&pawn.Faction!=null &&pawn.Faction.IsPlayer)
                     {
                         Find.LetterStack.ReceiveLetter("AA_LetterLabelMatureFleshbeast".Translate(), "AA_LetterMatureFleshbeast".Translate(pawn), LetterDefOf.ThreatBig, attacker, null, null);

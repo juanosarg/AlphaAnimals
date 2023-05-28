@@ -12,7 +12,7 @@ namespace AlphaBehavioursAndEvents
             Map map = (Map)parms.target;
             IntVec3 intVec;
             return !map.gameConditionManager.ConditionIsActive(GameConditionDefOf.ToxicFallout) &&
-                map.mapTemperature.SeasonAndOutdoorTemperatureAcceptableFor(ThingDef.Named("AA_Bumbledrone")) && 
+                map.mapTemperature.SeasonAndOutdoorTemperatureAcceptableFor(InternalDefOf.AA_Bumbledrone.race) && 
                 this.TryFindEntryCell(map, out intVec) && AlphaAnimalsEvents_Mod.settings.flagBumbledrones;
         }
 
@@ -24,8 +24,8 @@ namespace AlphaBehavioursAndEvents
             {
                 return false;
             }
-            PawnKindDef bumbledrone = PawnKindDef.Named("AA_Bumbledrone");
-            PawnKindDef bumbledronequeen = PawnKindDef.Named("AA_BumbledroneQueen");
+            PawnKindDef bumbledrone = InternalDefOf.AA_Bumbledrone;
+            PawnKindDef bumbledronequeen = InternalDefOf.AA_BumbledroneQueen;
 
             float num = StorytellerUtility.DefaultThreatPointsNow(map);
             int num2 = 1;

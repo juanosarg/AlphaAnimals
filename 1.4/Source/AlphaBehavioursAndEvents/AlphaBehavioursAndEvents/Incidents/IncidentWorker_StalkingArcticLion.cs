@@ -18,7 +18,7 @@ namespace AlphaBehavioursAndEvents
         {
             Map map = (Map)parms.target;
             IntVec3 intVec;
-            return map.mapTemperature.SeasonAndOutdoorTemperatureAcceptableFor(ThingDef.Named("AA_ArcticLion")) && this.TryFindEntryCell(map, out intVec) && AlphaAnimalsEvents_Mod.settings.flagStalkingLions ;
+            return map.mapTemperature.SeasonAndOutdoorTemperatureAcceptableFor(InternalDefOf.AA_ArcticLion.race) && this.TryFindEntryCell(map, out intVec) && AlphaAnimalsEvents_Mod.settings.flagStalkingLions ;
         }
 
         private bool TryFindEntryCell(Map map, out IntVec3 cell)
@@ -29,7 +29,7 @@ namespace AlphaBehavioursAndEvents
         protected override bool TryExecuteWorker(IncidentParms parms)
         {
             Map map = (Map)parms.target;
-            PawnKindDef pawnKindDef = PawnKindDef.Named("AA_ArcticLion");
+            PawnKindDef pawnKindDef = InternalDefOf.AA_ArcticLion;
             IntVec3 intVec;
             if (!RCellFinder.TryFindRandomPawnEntryCell(out intVec, map, CellFinder.EdgeRoadChance_Animal))
             {
@@ -44,7 +44,7 @@ namespace AlphaBehavioursAndEvents
                 GenSpawn.Spawn(pawn, loc, map, rot, WipeMode.Vanish, false);
                 pawn.mindState.mentalStateHandler.TryStartMentalState(MentalStateDefOf.ManhunterPermanent, null, false, false, null, false);
                 pawn.mindState.exitMapAfterTick = Find.TickManager.TicksGame + Rand.Range(60000, 120000);
-                pawn.health.AddHediff(HediffDef.Named("AA_InvisibleArcticLion"));
+                pawn.health.AddHediff(InternalDefOf.AA_InvisibleArcticLion);
             }
             Find.LetterStack.ReceiveLetter("LetterLabelManhuntingArcticLion".Translate(), "ManhuntingArcticLion".Translate(), LetterDefOf.ThreatBig, null, null, null);
             Find.TickManager.slower.SignalForceNormalSpeedShort();

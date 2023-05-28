@@ -27,7 +27,7 @@ namespace AlphaBehavioursAndEvents
 
 
 
-            GenExplosion.DoExplosion(corpse.Position, corpse.Map, radius, DamageDefOf.Frostbite, corpse.InnerPawn, 10, -1, SoundDef.Named("AA_IceCrash"), null, null, null, ThingDef.Named("AA_FrostPuff"), 1f, 1, null,false, null, 0f, 1);
+            GenExplosion.DoExplosion(corpse.Position, corpse.Map, radius, DamageDefOf.Frostbite, corpse.InnerPawn, 10, -1, InternalDefOf.AA_IceCrash, null, null, null, InternalDefOf.AA_FrostPuff, 1f, 1, null,false, null, 0f, 1);
         }
 
 

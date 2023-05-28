@@ -51,7 +51,7 @@ namespace AlphaBehavioursAndEvents
         {
             
           
-            Job job = JobMaker.MakeJob(DefDatabase<JobDef>.GetNamed("AA_PlantAnimaTreeJob"), this.target, this.parent);
+            Job job = JobMaker.MakeJob(InternalDefOf.AA_PlantAnimaTreeJob, this.target, this.parent);
             job.count = 1;
             user.jobs.TryTakeOrderedJob(job, JobTag.Misc);
           

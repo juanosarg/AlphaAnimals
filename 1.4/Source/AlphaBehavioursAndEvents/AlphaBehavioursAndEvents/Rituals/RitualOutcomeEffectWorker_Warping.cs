@@ -49,79 +49,79 @@ namespace AlphaBehavioursAndEvents
 				case -2:
 					if (size < 0.5)
                     {
-						request = new PawnGenerationRequest(PawnKindDef.Named("AA_Eyeling"), Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true,  1f, false, true, true, false, false);
+						request = new PawnGenerationRequest(InternalDefOf.AA_Eyeling, Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true,  1f, false, true, true, false, false);
 						
 					}
 					else if (size < 1.5)
 					{
-						request = new PawnGenerationRequest(PawnKindDef.Named("AA_Eyeling"), Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true,  1f, false, true, true, false, false);
+						request = new PawnGenerationRequest(InternalDefOf.AA_Eyeling, Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true,  1f, false, true, true, false, false);
 
 					}
 					else
                     {
-						request = new PawnGenerationRequest(PawnKindDef.Named("AA_RedGoo"), Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true,  1f, false, true, true, false, false);
+						request = new PawnGenerationRequest(InternalDefOf.AA_RedGoo, Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true,  1f, false, true, true, false, false);
 
 					}
 					break;
 				case -1:
 					if (size < 0.5)
 					{
-						request = new PawnGenerationRequest(PawnKindDef.Named("AA_RedGoo"), Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true,  1f, false, true, true, false, false);
+						request = new PawnGenerationRequest(InternalDefOf.AA_RedGoo, Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true,  1f, false, true, true, false, false);
 
 					}
 					else if (size < 1.5)
 					{
-						request = new PawnGenerationRequest(PawnKindDef.Named("AA_OcularJelly"), Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true,  1f, false, true, true, false, false);
+						request = new PawnGenerationRequest(InternalDefOf.AA_OcularJelly, Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true,  1f, false, true, true, false, false);
 
 					}
 					else
 					{
-						request = new PawnGenerationRequest(PawnKindDef.Named("AA_OcularNightling"), Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true,  1f, false, true, true, false, false);
+						request = new PawnGenerationRequest(InternalDefOf.AA_OcularNightling, Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true,  1f, false, true, true, false, false);
 
 					}
 					break;
 				case 1:
 					if (size < 0.5)
 					{
-						request = new PawnGenerationRequest(PawnKindDef.Named("AA_RedSpore"), Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true,  1f, false, true, true, false, false);
+						request = new PawnGenerationRequest(InternalDefOf.AA_RedSpore, Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true,  1f, false, true, true, false, false);
 
 					}
 					else if (size < 1.5)
 					{
-						request = new PawnGenerationRequest(PawnKindDef.Named("AA_OcularNightling"), Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true,  1f, false, true, true, false, false);
+						request = new PawnGenerationRequest(InternalDefOf.AA_OcularNightling, Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true,  1f, false, true, true, false, false);
 
 					}
 					else
 					{
-						request = new PawnGenerationRequest(PawnKindDef.Named("AA_EngorgedTentacularAberration"), Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true,  1f, false, true, true, false, false);
+						request = new PawnGenerationRequest(InternalDefOf.AA_EngorgedTentacularAberration, Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true,  1f, false, true, true, false, false);
 
 					}
 					break;
 				case 2:
 					if (size < 0.5)
 					{
-						request = new PawnGenerationRequest(PawnKindDef.Named("AA_OcularJelly"), Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true,  1f, false, true, true, false, false);
+						request = new PawnGenerationRequest(InternalDefOf.AA_OcularJelly, Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true,  1f, false, true, true, false, false);
 
 					}
 					else if (size < 1.5)
 					{
-						request = new PawnGenerationRequest(PawnKindDef.Named("AA_EngorgedTentacularAberration"), Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true,  1f, false, true, true, false, false);
+						request = new PawnGenerationRequest(InternalDefOf.AA_EngorgedTentacularAberration, Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true,  1f, false, true, true, false, false);
 
 					}
 					else
 					{
-						request = new PawnGenerationRequest(PawnKindDef.Named("AA_UnblinkingEye"), Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true,  1f, false, true, true, false, false);
+						request = new PawnGenerationRequest(InternalDefOf.AA_UnblinkingEye, Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true,  1f, false, true, true, false, false);
 
 					}
 					break;
 				case 3:
 					
-						request = new PawnGenerationRequest(PawnKindDef.Named("AA_UnblinkingEye"), Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true,  1f, false, true, true, false, false);
+						request = new PawnGenerationRequest(InternalDefOf.AA_UnblinkingEye, Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true,  1f, false, true, true, false, false);
 
 					
 					break;
 				default:
-					request = new PawnGenerationRequest(PawnKindDef.Named("AA_OcularJelly"), Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true,  1f, false, true, true, false, false);
+					request = new PawnGenerationRequest(InternalDefOf.AA_OcularJelly, Faction.OfPlayer, PawnGenerationContext.NonPlayer, -1, false, false, false, false, true,  1f, false, true, true, false, false);
 
 					break;
 

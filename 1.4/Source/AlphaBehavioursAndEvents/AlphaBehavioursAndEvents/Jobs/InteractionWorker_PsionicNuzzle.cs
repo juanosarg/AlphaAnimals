@@ -19,9 +19,9 @@ namespace AlphaBehavioursAndEvents
 
         private void AddNuzzledThought(Pawn initiator, Pawn recipient)
         {
-            Thought_Memory newThought = (Thought_Memory)ThoughtMaker.MakeThought(ThoughtDef.Named("AA_BeenPsionicallyNuzzled"));
+            Thought_Memory newThought = (Thought_Memory)ThoughtMaker.MakeThought(InternalDefOf.AA_BeenPsionicallyNuzzled);
             recipient.needs.mood.thoughts.memories.TryGainMemory(newThought, null);
-            recipient.health.AddHediff(HediffDef.Named("AA_PsionicallyNuzzled"));
+            recipient.health.AddHediff(InternalDefOf.AA_PsionicallyNuzzled);
 
         }
 

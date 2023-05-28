@@ -12,7 +12,7 @@ namespace AlphaBehavioursAndEvents
         public override void PawnDied(Corpse corpse)
         {
             if (corpse.Map != null) {
-                IncidentDef localDef = IncidentDef.Named("Flashstorm");
+                IncidentDef localDef = InternalDefOf.Flashstorm;
                 IncidentParms parms = StorytellerUtility.DefaultParmsNow(localDef.category, corpse.Map);
                 localDef.Worker.TryExecute(parms);
             }

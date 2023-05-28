@@ -50,7 +50,7 @@
 		</statBases>
 		<drawerType>MapMeshOnly</drawerType>
 		<graphicData>
-			<texPath>Things/Plants/AA_RottingMound</texPath>
+			<texPath>Things/Item/Resource/AA_RottingMound</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		

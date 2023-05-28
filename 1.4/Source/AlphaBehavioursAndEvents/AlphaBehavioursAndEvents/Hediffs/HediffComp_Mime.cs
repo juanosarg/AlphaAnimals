@@ -52,7 +52,7 @@ namespace AlphaBehavioursAndEvents
                 hungerTicks = ticksToGetHungry;
                 if (this.parent.pawn.IsHashIntervalTick(250))
                 {
-                    if (this.parent.pawn.health.hediffSet.HasHediff(HediffDef.Named("Malnutrition"))&&!this.parent.pawn.Downed && this.parent.pawn.Awake())
+                    if (this.parent.pawn.health.hediffSet.HasHediff(HediffDefOf.Malnutrition)&&!this.parent.pawn.Downed && this.parent.pawn.Awake())
                     {
                         ticksWithMalnutrition--;
                         if (ticksWithMalnutrition <= 0)
@@ -93,7 +93,7 @@ namespace AlphaBehavioursAndEvents
                     Pawn pawn = PawnGenerator.GeneratePawn(request);
                     PawnUtility.TrySpawnHatchedOrBornPawn(pawn, this.parent.pawn.Corpse);
                     pawn.gender = oldGender;
-                    pawn.mindState.mentalStateHandler.TryStartMentalState(DefDatabase<MentalStateDef>.GetNamed("ManhunterPermanent", true), null, true, false, null, false);
+                    pawn.mindState.mentalStateHandler.TryStartMentalState(MentalStateDefOf.ManhunterPermanent, null, true, false, null, false);
                     for (int i = 0; i < 20; i++)
                     {
                         IntVec3 c;

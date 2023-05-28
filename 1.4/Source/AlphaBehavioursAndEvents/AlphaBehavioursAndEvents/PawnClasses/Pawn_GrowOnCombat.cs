@@ -28,12 +28,12 @@ namespace AlphaBehavioursAndEvents
                 {
                     if (this.Map != null && this.jobs.curDriver != null && this.jobs.curDriver is JobDriver_AttackMelee)
                     {
-                        if(this.health.hediffSet.GetFirstHediffOfDef(HediffDef.Named("AA_AnoleGrown"))==null&&
-                            this.health.hediffSet.GetFirstHediffOfDef(HediffDef.Named("AA_AnoleGrownExhausted")) == null)
+                        if(this.health.hediffSet.GetFirstHediffOfDef(InternalDefOf.AA_AnoleGrown)==null&&
+                            this.health.hediffSet.GetFirstHediffOfDef(InternalDefOf.AA_AnoleGrownExhausted) == null)
                         {
                             BodyPartRecord part = this.RaceProps.body.GetPartsWithDef(BodyPartDefOf.Body).FirstOrDefault();
 
-                            this.health.AddHediff(HediffDef.Named("AA_AnoleGrown"), part);
+                            this.health.AddHediff(InternalDefOf.AA_AnoleGrown, part);
 
                         }
 

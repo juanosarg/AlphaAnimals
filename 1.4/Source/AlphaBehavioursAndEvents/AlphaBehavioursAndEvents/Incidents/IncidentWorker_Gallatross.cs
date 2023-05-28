@@ -12,7 +12,7 @@ namespace AlphaBehavioursAndEvents
             Map map = (Map)parms.target;
             IntVec3 intVec;
             return !map.gameConditionManager.ConditionIsActive(GameConditionDefOf.ToxicFallout) &&
-                map.mapTemperature.SeasonAndOutdoorTemperatureAcceptableFor(ThingDef.Named("AA_Gallatross")) &&
+                map.mapTemperature.SeasonAndOutdoorTemperatureAcceptableFor(InternalDefOf.AA_Gallatross.race) &&
                 this.TryFindEntryCell(map, out intVec) && AlphaAnimalsEvents_Mod.settings.flagGallatross;
         }
 
@@ -24,7 +24,7 @@ namespace AlphaBehavioursAndEvents
             {
                 return false;
             }
-            PawnKindDef gallatross = PawnKindDef.Named("AA_Gallatross");
+            PawnKindDef gallatross = InternalDefOf.AA_Gallatross;
             
             float num = StorytellerUtility.DefaultThreatPointsNow(map);
             int num2 = GenMath.RoundRandom(num / gallatross.combatPower);

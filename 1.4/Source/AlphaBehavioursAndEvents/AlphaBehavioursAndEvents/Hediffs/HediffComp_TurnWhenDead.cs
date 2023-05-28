@@ -41,7 +41,7 @@ namespace AlphaBehavioursAndEvents
                     }
                     if (Props.isHostile)
                     {
-                        pawn.mindState.mentalStateHandler.TryStartMentalState(DefDatabase<MentalStateDef>.GetNamed("ManhunterPermanent", true), null, true, false, null, false);
+                        pawn.mindState.mentalStateHandler.TryStartMentalState(MentalStateDefOf.ManhunterPermanent, null, true, false, null, false);
                     }
 
                 }

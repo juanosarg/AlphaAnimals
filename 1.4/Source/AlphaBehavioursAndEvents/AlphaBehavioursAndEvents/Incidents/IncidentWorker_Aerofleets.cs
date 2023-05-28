@@ -12,7 +12,7 @@ namespace AlphaBehavioursAndEvents
             Map map = (Map)parms.target;
             IntVec3 intVec;
             return !map.gameConditionManager.ConditionIsActive(GameConditionDefOf.ToxicFallout) &&
-                map.mapTemperature.SeasonAndOutdoorTemperatureAcceptableFor(ThingDef.Named("AA_Aerofleet")) && 
+                map.mapTemperature.SeasonAndOutdoorTemperatureAcceptableFor(InternalDefOf.AA_Aerofleet.race) && 
                 this.TryFindEntryCell(map, out intVec) && AlphaAnimalsEvents_Mod.settings.flagAerofleets;
         }
 
@@ -24,8 +24,8 @@ namespace AlphaBehavioursAndEvents
             {
                 return false;
             }
-            PawnKindDef aerofleet = PawnKindDef.Named("AA_Aerofleet");
-            PawnKindDef aerofleetcolossal = PawnKindDef.Named("AA_ColossalAerofleet");
+            PawnKindDef aerofleet = InternalDefOf.AA_Aerofleet;
+            PawnKindDef aerofleetcolossal = InternalDefOf.AA_ColossalAerofleet;
 
             float num = StorytellerUtility.DefaultThreatPointsNow(map);
             int num2 = GenMath.RoundRandom(num / aerofleetcolossal.combatPower);

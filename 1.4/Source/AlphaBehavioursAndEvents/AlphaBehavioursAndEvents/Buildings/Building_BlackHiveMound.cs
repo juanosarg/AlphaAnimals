@@ -27,11 +27,11 @@ namespace AlphaBehavioursAndEvents
         public static void ResetStaticData()
         {
             Building_BlackHiveMound.spawnablePawnKinds.Clear();
-            spawnablePawnKinds.Add(PawnKindDef.Named("AA_MegaLouse"));
-            spawnablePawnKinds.Add(PawnKindDef.Named("AA_MammothWorm"));
-            spawnablePawnKinds.Add(PawnKindDef.Named("AA_BlackScarab"));
-            spawnablePawnKinds.Add(PawnKindDef.Named("AA_BlackSpelopede"));
-            spawnablePawnKinds.Add(PawnKindDef.Named("AA_BlackSpider"));
+            spawnablePawnKinds.Add(InternalDefOf.AA_MegaLouse);
+            spawnablePawnKinds.Add(InternalDefOf.AA_MammothWorm);
+            spawnablePawnKinds.Add(InternalDefOf.AA_BlackScarab);
+            spawnablePawnKinds.Add(InternalDefOf.AA_BlackSpelopede);
+            spawnablePawnKinds.Add(InternalDefOf.AA_BlackSpider);
         }
 
         public override void SpawnSetup(Map map, bool respawningAfterLoad)
@@ -39,17 +39,17 @@ namespace AlphaBehavioursAndEvents
             base.SpawnSetup(map, respawningAfterLoad);
             if (base.Faction == null)
             {
-                spawnablePawnKinds.Add(PawnKindDef.Named("AA_MegaLouse"));
-                spawnablePawnKinds.Add(PawnKindDef.Named("AA_MammothWorm"));
-                spawnablePawnKinds.Add(PawnKindDef.Named("AA_BlackScarab"));
-                spawnablePawnKinds.Add(PawnKindDef.Named("AA_BlackSpelopede"));
-                spawnablePawnKinds.Add(PawnKindDef.Named("AA_BlackSpider"));
-                Faction faction = Find.FactionManager.FirstFactionOfDef(FactionDef.Named("AA_BlackHive"));
+                spawnablePawnKinds.Add(InternalDefOf.AA_MegaLouse);
+                spawnablePawnKinds.Add(InternalDefOf.AA_MammothWorm);
+                spawnablePawnKinds.Add(InternalDefOf.AA_BlackScarab);
+                spawnablePawnKinds.Add(InternalDefOf.AA_BlackSpelopede);
+                spawnablePawnKinds.Add(InternalDefOf.AA_BlackSpider);
+                Faction faction = Find.FactionManager.FirstFactionOfDef(InternalDefOf.AA_BlackHive);
                 this.SetFaction(faction, null);
             }
             if (!respawningAfterLoad)
             {
-                Faction faction = Find.FactionManager.FirstFactionOfDef(FactionDef.Named("AA_BlackHive"));
+                Faction faction = Find.FactionManager.FirstFactionOfDef(InternalDefOf.AA_BlackHive);
                 this.SpawnInitialPawns(faction);
             }
         }

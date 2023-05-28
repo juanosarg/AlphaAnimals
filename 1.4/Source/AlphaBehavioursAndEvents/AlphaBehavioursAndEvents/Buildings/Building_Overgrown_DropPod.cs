@@ -33,7 +33,7 @@ namespace AlphaBehavioursAndEvents
                 if (nextPawnSpawnTick > 7500)
                 {
                     Faction faction = Find.FactionManager.FirstFactionOfDef(FactionDefOf.Insect);
-                    Pawn pawn = PawnGenerator.GeneratePawn(PawnKindDef.Named("AA_Cactipine"), faction);
+                    Pawn pawn = PawnGenerator.GeneratePawn(InternalDefOf.AA_Cactipine, faction);
                    
                     GenSpawn.Spawn(pawn, CellFinder.RandomClosewalkCellNear(base.Position, base.Map, 1, null), base.Map, WipeMode.Vanish);
                     nextPawnSpawnTick = 0;
@@ -63,7 +63,7 @@ namespace AlphaBehavioursAndEvents
                     {
                         plant.Destroy(DestroyMode.Vanish);
                     }
-                    Thing thing2 = GenSpawn.Spawn(ThingDef.Named("AA_Heat_Ambrosia"), intVec, map, WipeMode.Vanish);
+                    Thing thing2 = GenSpawn.Spawn(InternalDefOf.AA_Heat_Ambrosia, intVec, map, WipeMode.Vanish);
                     if (thing == null)
                     {
                         thing = thing2;
@@ -80,7 +80,7 @@ namespace AlphaBehavioursAndEvents
 
         private bool CanSpawnAt(IntVec3 c, Map map)
         {
-            if (!c.Standable(map) || c.Fogged(map) || map.fertilityGrid.FertilityAt(c) < ThingDef.Named("AA_Heat_Ambrosia").plant.fertilityMin || !c.GetRoom(map).PsychologicallyOutdoors || c.GetEdifice(map) != null)
+            if (!c.Standable(map) || c.Fogged(map) || map.fertilityGrid.FertilityAt(c) < InternalDefOf.AA_Heat_Ambrosia.plant.fertilityMin || !c.GetRoom(map).PsychologicallyOutdoors || c.GetEdifice(map) != null)
             {
                 return false;
             }

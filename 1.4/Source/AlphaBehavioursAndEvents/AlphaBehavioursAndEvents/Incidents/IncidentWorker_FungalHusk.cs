@@ -24,7 +24,7 @@ namespace AlphaBehavioursAndEvents
             {
                 return false;
             }
-            PawnKindDef husk = PawnKindDef.Named("AA_FungalHusk");
+            PawnKindDef husk = InternalDefOf.AA_FungalHusk;
             
             float num = StorytellerUtility.DefaultThreatPointsNow(map);
             int num2 = GenMath.RoundRandom(num / husk.combatPower);           
@@ -38,7 +38,7 @@ namespace AlphaBehavioursAndEvents
                 IntVec3 loc = CellFinder.RandomClosewalkCellNear(intVec, map, 10, null);
                 pawn = PawnGenerator.GeneratePawn(husk, null);
                 GenSpawn.Spawn(pawn, loc, map, Rot4.Random, WipeMode.Vanish, false);
-                pawn.mindState.mentalStateHandler.TryStartMentalState(DefDatabase<MentalStateDef>.GetNamed("ManhunterPermanent", true), null, true, false, null, false);
+                pawn.mindState.mentalStateHandler.TryStartMentalState(MentalStateDefOf.ManhunterPermanent, null, true, false, null, false);
                 
             }
           

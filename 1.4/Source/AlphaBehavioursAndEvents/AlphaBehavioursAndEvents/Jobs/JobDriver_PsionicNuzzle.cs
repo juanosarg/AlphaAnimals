@@ -30,7 +30,7 @@ namespace AlphaBehavioursAndEvents
             yield return Toils_General.Do(delegate
             {
                 Pawn recipient = (Pawn)this.pawn.CurJob.targetA.Thing;
-                this.pawn.interactions.TryInteractWith(recipient, DefDatabase<InteractionDef>.GetNamed("AA_PsionicNuzzleInteraction", true));
+                this.pawn.interactions.TryInteractWith(recipient, InternalDefOf.AA_PsionicNuzzleInteraction);
             });
         }
     }

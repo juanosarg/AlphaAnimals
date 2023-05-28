@@ -29,7 +29,7 @@ namespace AlphaBehavioursAndEvents
                 building.canChangeTerrainOnDestroyed = false;
                 outThings.Add(building);
             }
-            PawnKindDef skyeel = PawnKindDef.Named("AA_Skyeel");
+            PawnKindDef skyeel = InternalDefOf.AA_Skyeel;
             Map mapPlayerHome = null;
             List<Map> maps = Find.Maps;
             for (int i = 0; i < maps.Count; i++)
@@ -56,7 +56,7 @@ namespace AlphaBehavioursAndEvents
 
         private ThingDef FindRandomMineableDef()
         {
-            return ThingDef.Named("AA_SkySteelClumps");
+            return InternalDefOf.AA_SkySteelClumps;
         }
 
         protected override IEnumerable<ThingDef> AllGeneratableThingsDebugSub(ThingSetMakerParams parms)

@@ -39,11 +39,15 @@ namespace AlphaBehavioursAndEvents
             {
                 if (this.sustainer == null)
                 {
-                    //Log.Error("Tornado sustainer is null.", false);
+                   
                     this.CreateSustainer();
                 }
-                this.sustainer.Maintain();
-               
+                if (!this.sustainer.Ended)
+                {
+                    this.sustainer.Maintain();
+
+                }
+
                 tickCounter++;
                 if (tickCounter > 30)
                 {
@@ -74,7 +78,7 @@ namespace AlphaBehavioursAndEvents
         {
             LongEventHandler.ExecuteWhenFinished(delegate
             {
-                SoundDef tornado = SoundDef.Named("AA_Rumbling");
+                SoundDef tornado = InternalDefOf.AA_Rumbling;
                 this.sustainer = tornado.TrySpawnSustainer(SoundInfo.InMap(this.pawn, MaintenanceType.PerTick));
                
             });
@@ -92,7 +96,7 @@ namespace AlphaBehavioursAndEvents
                         if (intVec.InBounds(pawn.Map))
                         {
 
-                            Thing thing = ThingMaker.MakeThing(ThingDef.Named("Filth_RubbleRock"), null);
+                            Thing thing = ThingMaker.MakeThing(ThingDefOf.Filth_RubbleRock, null);
 
                             GenSpawn.Spawn(thing, intVec, pawn.Map);
                         }
@@ -149,7 +153,7 @@ namespace AlphaBehavioursAndEvents
                         case ThingCategory.Pawn:
                             {
                                 Pawn pawn = (Pawn)Hediff_Crushing.tmpThings[i];
-                                battleLogEntry_DamageTaken = new BattleLogEntry_DamageTaken(pawn, RulePackDef.Named("AA_DamageEvent_Crushing"), null);
+                                battleLogEntry_DamageTaken = new BattleLogEntry_DamageTaken(pawn, InternalDefOf.AA_DamageEvent_Crushing, null);
                                 Find.BattleLog.Add(battleLogEntry_DamageTaken);
                                 if (pawn.RaceProps.baseHealthScale < 1f)
                                 {
@@ -177,7 +181,7 @@ namespace AlphaBehavioursAndEvents
                     }
                     int num2 = Mathf.Max(GenMath.RoundRandom(30f * damageFactor), 1);
                     Thing thingtoHurt = Hediff_Crushing.tmpThings[i];
-                    DamageDef boulderScratch = DefDatabase<DamageDef>.GetNamed("AA_BoulderScratch", true);
+                    DamageDef boulderScratch = InternalDefOf.AA_BoulderScratch;
                     float amount = (float)num2;
                     //float angle = num;
                     

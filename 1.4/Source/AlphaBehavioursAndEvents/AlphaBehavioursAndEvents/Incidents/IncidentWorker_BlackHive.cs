@@ -15,8 +15,8 @@ namespace AlphaBehavioursAndEvents
         {
             Map map = (Map)parms.target;
             IntVec3 intVec;
-            return base.CanFireNowSub(parms) &&  map.mapTemperature.SeasonAndOutdoorTemperatureAcceptableFor(ThingDef.Named("AA_BlackScarab")) && 
-                this.TryFindEntryCell(map, out intVec) && AlphaAnimalsEvents_Mod.settings.flagBlackHiveRaids && Find.FactionManager.FirstFactionOfDef(FactionDef.Named("AA_BlackHive"))!=null;
+            return base.CanFireNowSub(parms) &&  map.mapTemperature.SeasonAndOutdoorTemperatureAcceptableFor(InternalDefOf.AA_BlackScarab.race) && 
+                this.TryFindEntryCell(map, out intVec) && AlphaAnimalsEvents_Mod.settings.flagBlackHiveRaids && Find.FactionManager.FirstFactionOfDef(InternalDefOf.AA_BlackHive)!=null;
         }
 
         private bool TryFindEntryCell(Map map, out IntVec3 cell)
@@ -44,15 +44,15 @@ namespace AlphaBehavioursAndEvents
             {
                 return null;
             }
-            Thing thing = GenSpawn.Spawn(ThingMaker.MakeThing(ThingDef.Named("AA_BlackHiveMound"), null), loc, map, WipeMode.FullRefund);
+            Thing thing = GenSpawn.Spawn(ThingMaker.MakeThing(InternalDefOf.AA_BlackHiveMound, null), loc, map, WipeMode.FullRefund);
             for (int i = 0; i < hiveCount - 1; i++)
             {
                 if (CellFinder.TryFindRandomCellNear(loc, map, 8, (IntVec3 c) => c.Standable(map) &&
                     map.reachability.CanReach(c, thing, PathEndMode.Touch, TraverseParms.For(TraverseMode.PassDoors, Danger.Deadly, false)), out loc2, -1))
                 {
                     
-                        thing = GenSpawn.Spawn(ThingMaker.MakeThing(ThingDef.Named("AA_BlackHiveMound"), null), loc2, map, WipeMode.FullRefund);
-                        thing.SetFaction(Find.FactionManager.FirstFactionOfDef(FactionDef.Named("AA_BlackHive")));
+                        thing = GenSpawn.Spawn(ThingMaker.MakeThing(InternalDefOf.AA_BlackHiveMound, null), loc2, map, WipeMode.FullRefund);
+                        thing.SetFaction(Find.FactionManager.FirstFactionOfDef(InternalDefOf.AA_BlackHive));
                 }
 
                

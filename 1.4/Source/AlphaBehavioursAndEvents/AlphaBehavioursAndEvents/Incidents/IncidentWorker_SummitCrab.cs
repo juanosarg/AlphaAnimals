@@ -45,7 +45,7 @@ namespace AlphaBehavioursAndEvents
                 Pawn newThing = list[i];
                 IntVec3 loc = CellFinder.RandomClosewalkCellNear(intVec, map, 10, null);
                 GenSpawn.Spawn(newThing, loc, map, rot, WipeMode.Vanish, false);
-                newThing.health.AddHediff(HediffDef.Named("AA_CrushingEverything"));
+                newThing.health.AddHediff(InternalDefOf.AA_CrushingEverything);
                 Find.LetterStack.ReceiveLetter("LetterLabelSummitCrab".Translate(), "SummitCrab".Translate(), LetterDefOf.ThreatBig, newThing, null, null);
             }
             LordMaker.MakeNewLord(null, new LordJob_ExitMapNear(near, LocomotionUrgency.Walk, 12f, false, false), map, list);
@@ -56,7 +56,7 @@ namespace AlphaBehavioursAndEvents
         private bool TryFindAnimalKind(int tile, out PawnKindDef animalKind)
         {
             return (from k in DefDatabase<PawnKindDef>.AllDefs
-                    where Find.World.tileTemperatures.SeasonAndOutdoorTemperatureAcceptableFor(tile, ThingDef.Named("AA_SummitCrab")) && k.defName== "AA_SummitCrab"
+                    where Find.World.tileTemperatures.SeasonAndOutdoorTemperatureAcceptableFor(tile, InternalDefOf.AA_SummitCrab.race) && k.defName== "AA_SummitCrab"
                     select k).TryRandomElement(out animalKind);
         }
 

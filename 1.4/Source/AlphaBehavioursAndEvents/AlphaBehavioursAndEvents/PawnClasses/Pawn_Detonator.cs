@@ -33,8 +33,8 @@ namespace AlphaBehavioursAndEvents
                 action = delegate ()
                 {
                     
-                    this.health.AddHediff(HediffDef.Named("AA_Kamikaze"));
-                    HealthUtility.AdjustSeverity(this, HediffDef.Named("AA_Kamikaze"), 1);
+                    this.health.AddHediff(InternalDefOf.AA_Kamikaze);
+                    HealthUtility.AdjustSeverity(this, InternalDefOf.AA_Kamikaze, 1);
                 }
             };
             yield break;

@@ -12,7 +12,7 @@ namespace AlphaBehavioursAndEvents
         {
             Map map = base.Map;
             base.Impact(hitThing);
-            BattleLogEntry_RangedImpact battleLogEntry_RangedImpact = new BattleLogEntry_RangedImpact(this.launcher, hitThing, this.intendedTarget.Thing, ThingDef.Named("Gun_Autopistol"), this.def, this.targetCoverDef);
+            BattleLogEntry_RangedImpact battleLogEntry_RangedImpact = new BattleLogEntry_RangedImpact(this.launcher, hitThing, this.intendedTarget.Thing, InternalDefOf.Gun_Autopistol, this.def, this.targetCoverDef);
             Find.BattleLog.Add(battleLogEntry_RangedImpact);
             if (hitThing != null)
             {

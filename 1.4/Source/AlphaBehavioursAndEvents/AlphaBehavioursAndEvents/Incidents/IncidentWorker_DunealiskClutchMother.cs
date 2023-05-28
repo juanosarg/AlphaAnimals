@@ -15,7 +15,7 @@ namespace AlphaBehavioursAndEvents
         {
             Map map = (Map)parms.target;
             IntVec3 intVec;
-            return map.mapTemperature.SeasonAndOutdoorTemperatureAcceptableFor(ThingDef.Named("AA_DunealiskClutchMother")) && this.TryFindEntryCell(map, out intVec) && AlphaAnimalsEvents_Mod.settings.flagSpiderClutchMothers;
+            return map.mapTemperature.SeasonAndOutdoorTemperatureAcceptableFor(InternalDefOf.AA_DunealiskClutchMother.race) && this.TryFindEntryCell(map, out intVec) && AlphaAnimalsEvents_Mod.settings.flagSpiderClutchMothers;
         }
 
         private bool TryFindEntryCell(Map map, out IntVec3 cell)
@@ -26,7 +26,7 @@ namespace AlphaBehavioursAndEvents
         protected override bool TryExecuteWorker(IncidentParms parms)
         {
             Map map = (Map)parms.target;
-            PawnKindDef pawnKindDef = PawnKindDef.Named("AA_DunealiskClutchMother");
+            PawnKindDef pawnKindDef = InternalDefOf.AA_DunealiskClutchMother;
             IntVec3 intVec;
             if (!RCellFinder.TryFindRandomPawnEntryCell(out intVec, map, CellFinder.EdgeRoadChance_Animal))
             {

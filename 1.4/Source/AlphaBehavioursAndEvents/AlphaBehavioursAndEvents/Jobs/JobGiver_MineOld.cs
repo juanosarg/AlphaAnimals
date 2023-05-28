@@ -28,7 +28,7 @@ namespace AlphaBehavioursAndEvents
             TargetInfo targetInfo = TargetInfo.Invalid;
             WorkGiver_Scanner workGiver_Scanner = null;
 
-            WorkGiver workGiver = DefDatabase<WorkGiverDef>.GetNamed("Mine", true).Worker;
+            WorkGiver workGiver = InternalDefOf.Mine.Worker;
             if (workGiver.def.priorityInType != num && targetInfo.IsValid)
             {
                 // break;
