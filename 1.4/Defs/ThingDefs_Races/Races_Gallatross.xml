@@ -235,7 +235,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_GallatrossMoribund</defName>
 		<label>moribund gallatross</label>
-		<description>Gallatross are deeply intelligent creatures, and they can somehow ascertain when they are close to death. They'll then instinctively direct themselves to an arid shrubland known as the Gallatross Graveyard, and  die there alone, far from their group.\n\nOf course, the timescales involved are impressive for humans, and a Gallatross might expend as long as two decades roaming around a Graveyard.\n\nConcept and art by A_Friend (aka SentientLine), the original Alpha Animals artist.</description>
+		<description>Gallatross are deeply intelligent creatures, and they can somehow ascertain when they are close to death. They'll then instinctively direct themselves to an arid shrubland known as the Gallatross Graveyard, and die there alone, far from their group.\n\nOf course, the timescales involved are impressive for humans, and a Gallatross might expend as long as two decades roaming around a Graveyard.\n\nConcept and art by A_Friend (aka SentientLine), the original Alpha Animals artist.</description>
 		<statBases>
 			<MoveSpeed>5.7</MoveSpeed>
 			<ComfyTemperatureMin>-100</ComfyTemperatureMin>
