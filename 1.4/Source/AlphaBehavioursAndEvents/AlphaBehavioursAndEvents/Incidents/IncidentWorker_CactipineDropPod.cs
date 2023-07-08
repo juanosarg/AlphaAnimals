@@ -43,7 +43,7 @@ namespace AlphaBehavioursAndEvents
             LookTargets lookie = new LookTargets(intVec,map);
             
             Find.LetterStack.ReceiveLetter("LetterLabelCactipinePod".Translate(), "CactipineDropPod".Translate(), LetterDefOf.NeutralEvent, lookie, null, null);
-          
+            Find.TickManager.slower.SignalForceNormalSpeedShort();
             return true;
         }
     }
