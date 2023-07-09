@@ -128,6 +128,7 @@
 	<allowAerofleet>Allow colossal aerofleet migrations</allowAerofleet>
 	<allowGallatross>Allow gallatross migrations</allowGallatross>
 	<allowSummitCrab>Allow summit crab event</allowSummitCrab>
+	<allowBehemoth>Allow Behemoth wandering event</allowBehemoth>
 	<allowBumbledrones>Allow bumbledrone queen migrations</allowBumbledrones>
 	<allowFrostmiteCorpses>Allow frostmites digging corpses on their own</allowFrostmiteCorpses>
 	<allowAsteroids>Allow Arcturan Sky eel asteroids impacting</allowAsteroids>
