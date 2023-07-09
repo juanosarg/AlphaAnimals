@@ -367,17 +367,10 @@
 			</litterSizeCurve>
 			<lifeExpectancy>12</lifeExpectancy>
 			<lifeStageAges>
-				<li>
-					<def>AnimalBaby</def>
-					<minAge>0</minAge>
-				</li>
-				<li>
-					<def>AnimalJuvenile</def>
-					<minAge>0.24</minAge>
-				</li>
+				
 				<li>
 					<def>AnimalAdult</def>
-					<minAge>1.20</minAge>
+					<minAge>0</minAge>
 					<soundWounded>Pawn_Feralisk_Wounded</soundWounded>
 					<soundDeath>Pawn_Feralisk_Death</soundDeath>
 					<soundCall>Pawn_Feralisk_Call</soundCall>
@@ -425,26 +418,7 @@
 		<canArriveManhunter>false</canArriveManhunter>
 
 		<lifeStages>
-			<li>
-				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AA_Feralisk/AA_Feralisk</texPath>
-					<drawSize>1.2</drawSize>
-				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/AA_Feralisk/AA_Dessicated_Feralisk</texPath>
-					<drawSize>1.2</drawSize>
-				</dessicatedBodyGraphicData>
-			</li>
-			<li>
-				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AA_Feralisk/AA_Feralisk</texPath>
-					<drawSize>2.5</drawSize>
-				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/AA_Feralisk/AA_Dessicated_Feralisk</texPath>
-					<drawSize>2.5</drawSize>
-				</dessicatedBodyGraphicData>
-			</li>
+			
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/AA_Feralisk/AA_Feralisk</texPath>

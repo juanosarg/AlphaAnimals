@@ -4,7 +4,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_SpinedGow</defName>	
 		<label>spined gow</label>
-		<description>Spined Gows are farm animals with cow and goat characteristics, bred to survive in extreme environments.\n\nSpined Gows are herbivorous, happy to graze in any grassy meadow. However, their neural spine sails provide a different and aditional type of sustenance: when the creature is near a geologically active terrain, such as liquid lava, the sail absorbs part of the intense radiating heat and converts it into chemical energy.\n\nSpìned Gows provide a very nutritious milk.</description>
+		<description>Spined Gows are farm animals with cow and goat characteristics, bred to survive in extreme environments.\n\nSpined Gows are herbivorous, happy to graze in any grassy meadow. However, their neural spine sails provide a different and aditional type of sustenance: when the creature is near a geologically active terrain, such as liquid lava, the sail absorbs part of the intense radiating heat and converts it into chemical energy.\n\nSpìned Gows provide a very nutritious milk.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; The part about the sail absorbing heat is just fluff text, there is no real gameplay effect. Many people have tried to look for the code controlling that, when it's just some bullshit lore I cooked up in a couple minutes XD</description>
 		<statBases>
 			<MoveSpeed>3.9</MoveSpeed>
 			<MarketValue>350</MarketValue>

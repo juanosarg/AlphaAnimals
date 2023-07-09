@@ -77,6 +77,10 @@
 		<label>rending claws</label>
 	</ToolCapacityDef>
 	<ToolCapacityDef>
+		<defName>AA_ExtraDamageMechanoidsClaws</defName>
+		<label>rending claws</label>
+	</ToolCapacityDef>
+	<ToolCapacityDef>
 		<defName>BodyCrush</defName>
 		<label>crushing</label>
 	</ToolCapacityDef>

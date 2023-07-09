@@ -7,7 +7,7 @@
 		<defName>AA_Ravager</defName>
 		<label>ravager</label>
 
-		<description>This large, genetically-engineered insectoid was part of the Black Hive, an artifical ecosystem of insectoids designed to fight mechanoid invasions. The Ravager was conceived as a space-bound bioweapon. Drop pods filled to the brim with Ravagers would be launched towards unsuspecting mechanoid ships, and the fearsome insectoids would rip through the ship's plating and lay waste to any mechanoid inside. Ravagers proved to be too unreliable, though, and the geneline was scrapped.\n\nSeveral Ravagers can be seen today in derelict space ships, stations and asteroids. Luckily, they are adapted to life in space, so they don't mix with other insectoids in the Black Hive.</description>
+		<description>This large, genetically-engineered insectoid was part of the Black Hive, an artifical ecosystem of insectoids designed to fight mechanoid invasions. The Ravager was conceived as a space-bound bioweapon. Drop pods filled to the brim with Ravagers would be launched towards unsuspecting mechanoid ships, and the fearsome insectoids would rip through the ship's plating and lay waste to any mechanoid inside. Ravagers proved to be too unreliable, though, and the geneline was scrapped.\n\nSeveral Ravagers can be seen today in derelict space ships, stations and asteroids, as well as aimlessly roaming the countryside throughout the Rim. They are mostly adapted to their solitary life in space, so they don't mix with other insectoids in the Black Hive.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Causes additional damage when fighting against mechanoids.</description>
 		<statBases>
 			<MoveSpeed>5</MoveSpeed>
 			<MarketValue>150</MarketValue>
@@ -22,7 +22,7 @@
 			<li>
 				<label>triple maw</label>
 				<capacities>
-					<li>Cut</li>
+					<li>AA_ExtraDamageMechanoidsClaws</li>
 				</capacities>
 				<power>25</power>
 				<cooldownTime>2.6</cooldownTime>
@@ -44,7 +44,17 @@
 
 		<race>
 
-
+			<wildBiomes>
+				<BorealForest>0.01</BorealForest>
+				<Tundra>0.01</Tundra>
+				<ColdBog>0.01</ColdBog>
+				<TemperateForest>0.01</TemperateForest>
+				<TemperateSwamp>0.005</TemperateSwamp>
+				<TropicalRainforest>0.005</TropicalRainforest>
+				<TropicalSwamp>0.005</TropicalSwamp>
+				<AridShrubland>0.0025</AridShrubland>
+				<Desert>0.0025</Desert>
+			</wildBiomes>
 			<herdAnimal>false</herdAnimal>
 			<predator>true</predator>
 			<body>BeetleLikeWithClaw</body>

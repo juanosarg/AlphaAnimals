@@ -335,6 +335,7 @@
     <Compile Include="DefOfs\InternalDefOf.cs" />
     <Compile Include="Def\ToggleableSpawnDef.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_Berserk.cs" />
+    <Compile Include="ExplosionsAndDamage\DamageWorker_ExtraDamageMechanoidsPhysical.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_ExtraDamageInsectoids.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_ExtraDamageMechanoids.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_SwallowWhole.cs" />
