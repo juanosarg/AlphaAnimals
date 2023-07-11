@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ============================================================ -->
+	<ThingDef ParentName="BiomesCore_SaltWaterAnimal">
+		<defName>AA_Fangsquid</defName>
+		<label>fangsquid</label>
+		<description>A grotesque and terrifying creature born from the darkest depths of mutation. Resembling a mutated squid, its entire form is a nightmarish amalgamation of eyes, teeth, and tentacles. Its body is covered in a thick, slimy layer of oozing flesh, constantly secreting a sinister mixture of blood and viscera.\n\nThe Fangsquid possesses an uncanny ability to instill dread in anyone unfortunate enough to encounter it. The sheer sight of its grotesque visage and the eerie, unblinking gazes of its numerous eyes send shivers down the spines of nearby bystanders, invoking a primal sense of fear and terror.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Psychopaths and people with the Hemogenic gene will not be affected by the psychological dread caused by the squid. If you have Biotech, the squid can be farmed for Hemogen packs.</description>
+		<statBases>
+			<MoveSpeed>0</MoveSpeed>
+			<SwimSpeed>8</SwimSpeed>
+			<ComfyTemperatureMin>-15</ComfyTemperatureMin>
+			<ComfyTemperatureMax>55</ComfyTemperatureMax>
+			<MarketValue>1500</MarketValue>
+			<LeatherAmount>0</LeatherAmount>
+		</statBases>
+		<tools>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>2.1</cooldownTime>
+				<linkedBodyPartsGroup>AA_Mouth</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>tentacle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>AA_TentacleAttackTool</linkedBodyPartsGroup>
+			</li>
+		</tools>
+		<comps>		
+			
+			<li Class="AnimalBehaviours.CompProperties_ThoughtEffecter">
+				<radius>10</radius>
+				<tickInterval>200</tickInterval>
+				<thoughtDef>AA_HorrifyingDread</thoughtDef>
+				<showEffect>false</showEffect>
+			</li>
+		</comps>
+		<race>
+			<wildBiomes>
+				<TemperateForest>0.01</TemperateForest>
+				<BiomesIslands_TundraIsland>0.01</BiomesIslands_TundraIsland>
+				<BiomesIslands_TundraArchipelago>0.03</BiomesIslands_TundraArchipelago>
+				<BiomesIslands_BorealIsland>0.01</BiomesIslands_BorealIsland>
+				<BiomesIslands_BorealArchipelago>0.03</BiomesIslands_BorealArchipelago>
+				<BiomesIslands_DesertIsland>0.01</BiomesIslands_DesertIsland>
+				<BiomesIslands_DesertArchipelago>0.01</BiomesIslands_DesertArchipelago>
+				<BiomesIslands_TropicalIsland>0.1</BiomesIslands_TropicalIsland>
+				<BiomesIslands_TropicalArchipelago>0.1</BiomesIslands_TropicalArchipelago>
+				<BiomesIslands_Atoll>0.01</BiomesIslands_Atoll>
+			</wildBiomes>
+			<herdAnimal>false</herdAnimal>
+			<predator>false</predator>
+			<body>AA_Squid_NoShell</body>
+			<baseHungerRate>0.8</baseHungerRate>
+			<baseBodySize>2</baseBodySize>
+			<baseHealthScale>3.0</baseHealthScale>
+			<foodType>OmnivoreRoughAnimal</foodType>
+			<wildness>0.7</wildness>
+			<useMeatFrom>AA_SandSquid</useMeatFrom>
+			<trainability>None</trainability>
+			<gestationPeriodDays>12</gestationPeriodDays>
+			<lifeExpectancy>25</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AA_BiomesIslands_Fangsquid_Baby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AA_BiomesIslands_Fangsquid_Juvenile</def>
+					<minAge>.2</minAge>
+				</li>
+				<li>
+					<def>AA_BiomesIslands_Fangsquid_Adult</def>
+					<minAge>.3333</minAge>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+		</tradeTags>
+		<modExtensions>
+			<li Class="AnimalBehaviours.AnimalStatExtension">
+				<statToAdd>
+					<li>AA_PrimaryRole</li>
+					<li>AA_RangedAttacks</li>
+				</statToAdd>
+				<statValues>
+					<li>AA_Farm</li>
+					<li>AA_No</li>
+				</statValues>
+				<statDescriptions>
+					<li>AA_FarmBloodDesc</li>
+					<li>AA_NoRanged</li>
+				</statDescriptions>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>AA_Fangsquid</defName>
+		<label>fangsquid</label>
+		<race>AA_Fangsquid</race>
+		<combatPower>350</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>0.2</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<label>fangsquid tadpole</label>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_Fangsquid/AA_Fangsquid</texPath>
+					<drawSize>1.5</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_Fangsquid/AA_Fangsquid</texPath>
+					<drawSize>2</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.45, 0.45)</volume>
+						<offset>(0,0,-0.25)</offset>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_Fangsquid/AA_Fangsquid</texPath>
+					<drawSize>2.5</drawSize>
+					<shadowData>
+						<volume>(0.8, 0.6, 0.6)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+</Defs>

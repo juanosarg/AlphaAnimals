@@ -113,6 +113,7 @@
 	<AA_BlueGel>Blue Gel production</AA_BlueGel>
 	<AA_Luciferium>Luciferium production</AA_Luciferium>
 	<AA_RandomItems>Resource assembly in</AA_RandomItems>
+	<AA_HemogenPackDesc>Hemogen pack in</AA_HemogenPackDesc>
 
 
 
@@ -228,6 +229,7 @@
 	<AA_FarmDrugsDesc>This is a farm animal that produces drugs.</AA_FarmDrugsDesc>
 	<AA_FarmImplantsDesc>This is a farm animal that produces implants.</AA_FarmImplantsDesc>
 	<AA_FarmRandomDesc>This is a farm animal that produces random things.</AA_FarmRandomDesc>
+	<AA_FarmBloodDesc>This is a farm animal that produces hemogen packs.</AA_FarmBloodDesc>
 	
 	<AA_MountFastDesc>This animal can be mounted by colonists, providing a considerable speed boost, as well as being able to attack in melee along with its rider. Bear in mind that this whole interaction is only available if you have the Giddy Up! mod installed. And if you don't, what are you waiting for?</AA_MountFastDesc>
 	<AA_MountArmouredDesc>This animal can be mounted by colonists, providing a considerable defense boost due to extra armour, as well as being able to attack in melee along with its rider. Bear in mind that this whole interaction is only available if you have the Giddy Up! mod installed. And if you don't, what are you waiting for?</AA_MountArmouredDesc>
