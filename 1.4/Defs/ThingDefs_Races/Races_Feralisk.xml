@@ -421,7 +421,7 @@
 			
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AA_Feralisk/AA_Feralisk</texPath>
+					<texPath>Things/Pawn/Animal/AA_Feralisk/AA_Feralisk_Clutchmother</texPath>
 					<drawSize>3.5</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>

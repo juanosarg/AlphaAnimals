@@ -406,7 +406,7 @@
 			
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AA_Dunealisk/AA_Dunealisk</texPath>
+					<texPath>Things/Pawn/Animal/AA_Dunealisk/AA_Dunealisk_Clutchmother</texPath>
 					<drawSize>3.5</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>

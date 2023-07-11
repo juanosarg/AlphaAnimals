@@ -442,7 +442,7 @@
 			
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AA_Blizzarisk/AA_Blizzarisk</texPath>
+					<texPath>Things/Pawn/Animal/AA_Blizzarisk/AA_Blizzarisk_Clutchmother</texPath>
 					<drawSize>3.5</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>

@@ -307,7 +307,7 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AA_Aerofleet/AA_Aerofleet</texPath>
+					<texPath>Things/Pawn/Animal/AA_Aerofleet/AA_Aerofleet_Colossal</texPath>
 					<drawSize>2</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
