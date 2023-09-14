@@ -22,7 +22,8 @@
 		<li IfModActive="vanillaexpanded.achievements">1.4/Mods/VanillaAchievementsExpanded</li>	
 		<li IfModActive="spoonshortage.ADogSaidAnimalProsthetics">1.4/Mods/ADogSaid</li>	
 		<li IfModActive="Ludeon.RimWorld.Ideology">1.4/Mods/Ideology</li>	
-		<li IfModActive="VanillaExpanded.VPsycastsE">1.4/Mods/VanillaPsycastsExpanded</li>	
+		<li IfModActive="VanillaExpanded.VPsycastsE">1.4/Mods/VanillaPsycastsExpanded</li>
+		<li IfModActive="VanillaExpanded.VPsycastsE_steam">1.4/Mods/VanillaPsycastsExpanded</li>			
 		<li IfModActive="BiomesTeam.BiomesIslands">1.4/Mods/BiomesIslands</li>	
 	</v1.4>
 </loadFolders>
