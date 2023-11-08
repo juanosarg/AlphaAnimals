@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_OcularOriginator</defName>
 		<label>ocular originator</label>
-		<description>This amorphous translucent creature seems to lack everything but the most basic instincts, moving around slowly and sometimes devouring any plant it comes in contact with, incorporating it into its cytoplasm. To make its appearance even more unsettling, bloodshot eyes of various sizes float inside it, blinking spasmodically at random intervals.\n\nOcular originators are warped versions of the teratogenic originator, twisted by the strange energies of a perverse extra-dimensional realm of pure madness. The strange mutant eyes can be periodically excised from the creature and used at will. Ocular originators can't reproduce and only one will be present on a map at a given time.</description>
+		<description>This amorphous translucent creature seems to lack everything but the most basic instincts, moving around slowly and sometimes devouring any plant it comes in contact with, incorporating it into its cytoplasm. To make its appearance even more unsettling, bloodshot eyes of various sizes float inside it, blinking spasmodically at random intervals.\n\nOcular originators are warped versions of the teratogenic originator, twisted by the strange energies of a perverse extradimensional realm of pure madness. The strange mutant eyes can be periodically excised from the creature and used at will. Ocular originators can't reproduce and only one will be present on a map at a given time.</description>
 		<statBases>
 			<MoveSpeed>0.6</MoveSpeed>
 			<ComfyTemperatureMin>-80</ComfyTemperatureMin>

@@ -345,7 +345,7 @@
 	<ThingDef ParentName="ResourceBase">
 		<defName>AA_BlueGel</defName>
 		<label>blue gel</label>
-		<description>A syrupy residue extracted from Aerofleets, which can be refined into an energy-dense compound, and potentially used to build powerful batteries and generators, with the appropiate research (Biofuel refining to process it further, and Batteries).</description>
+		<description>A syrupy residue extracted from Aerofleets which can be refined into an energy-dense compound. It can be used to build powerful batteries and generators with the appropriate research (Biofuel refining to process it further, and Batteries).</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/AA_BlueGel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -369,7 +369,7 @@
 	<ThingDef ParentName="ResourceBase">
 		<defName>AA_Hexagel</defName>
 		<label>hexagel</label>
-		<description>A crystallized and condensed variety of blue gel. Hexagel is capable of storing much more energy than its non-refined cousin, but it also seems to be quite unstable. Hexagel can be used to build powerful batteries and generators, with the appropiate research (Batteries and Advanced Fabrication).</description>
+		<description>A crystallized and condensed variety of blue gel. Hexagel is capable of storing much more energy than its non-refined cousin, but it also seems to be quite unstable. It can be used to build powerful batteries and generators, with the appropriate research (Batteries and Advanced Fabrication).</description>
 		<tickerType>Normal</tickerType>
 		<graphicData>
 			<texPath>Things/Item/Resource/AA_HexaGel</texPath>
@@ -411,7 +411,7 @@
 	<ThingDef ParentName="ResourceBase">
 		<defName>AA_HexagelCore</defName>
 		<label>hexagel core</label>
-		<description>A hexagonal shaped energy core composed of -in itself highly unstable- hydrogen-rich blue gel stabilized within an uranium shell.</description>
+		<description>A hexagonal shaped energy core composed of -in itself highly unstable- hydrogen-rich blue gel stabilized within a uranium shell.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/AA_HexagelEnergyCore</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>

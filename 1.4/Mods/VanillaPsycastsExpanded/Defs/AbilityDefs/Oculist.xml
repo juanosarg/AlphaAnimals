@@ -122,7 +122,7 @@
 	<VFECore.Abilities.AbilityDef ParentName="VPE_PsycastBase">
 		<defName>AAVPE_EyeEruption</defName>
 		<label>ocular eruption</label>
-		<description>Channels a wave of psychic power to rip the flesh of the target and connect it to an extra-dimensional realm of pure madness. Bloated, malevolent looking eyes will tear through the skin in random places, causing an extreme amount of pain and suffering.\nThese eyes will however provide the afflicted with extra sight, making using this psycast on a friendly target a risky, but potentially very useful strategy, assuming they can be treated and removed afterwards.</description>
+		<description>Channels a wave of psychic power to rip the flesh of the target and connect it to an extradimensional realm of pure madness. Bloated, malevolent looking eyes will tear through the skin in random places, causing an extreme amount of pain and suffering.\nThese eyes will however provide the afflicted with extra sight, making using this psycast on a friendly target a risky, but potentially very useful strategy, assuming they can be treated and removed afterwards.</description>
 		<iconPath>UI/Abilities/Oculist/AAVPE_EyeEruption</iconPath>
 		<abilityClass>AlphaBehavioursAndEvents.Ability_OcularEruption</abilityClass>
 		<targetingParameters>

@@ -3,7 +3,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_DuskProwler</defName>
 		<label>dusk prowler</label>
-		<description>A result of failed animal weaponization trials, the dusk prowler is an ideal killing machine, built and modified to satisfy the requirements of fast paced warfare. The fierce nature of the prowler is reinforced further by the muscular protrusions on their back, which simultaneously act as both accelerators and as weapons. Their capability to overrun even the most well defended military facilities resulted in the systematic purge that was commissioned by the intergalactic federations centuries ago, in hopes of driving the prowlers to extinction. Thus, very few prowler sightings are reported across the Rim nowadays, with those who see one almost never making it out alive to tell the tale.</description>
+		<description>A result of failed animal weaponization trials, the dusk prowler is an ideal killing machine, built and modified to satisfy the requirements of fast-paced warfare. The fierce nature of the prowler is reinforced further by the muscular protrusions on their back, which simultaneously act as both accelerators and as weapons. Their capability to overrun even the most well defended military facilities resulted in the systematic purge that was commissioned by the intergalactic federations centuries ago, in hopes of driving the prowlers to extinction. Thus, very few prowler sightings are reported across the Rim nowadays, with those who see one almost never making it out alive to tell the tale.</description>
 		<statBases>
 			<MoveSpeed>6.00</MoveSpeed>
 			<ComfyTemperatureMin>-30</ComfyTemperatureMin>

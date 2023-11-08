@@ -3,7 +3,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_RedSpore</defName>
 		<label>red spore</label>
-		<description>Similar to the Ocular Jelly, this strange creature is of unknown origin. It doesn't even seem to be carbon based, instead using gallium as the basis of its structure and life functions. This is considered physically impossible under normal circumstances, so the red spore may perhaps come from a place where the rules are wildly different from this Universe.\n\nThis fact makes the red spore inherently unstable, with a low lifespan, prone to violently explode and unable to reproduce normally. As a floating creature, Red Spores ignore terrain movement costs.\n\nBased on Lost Planet 3 concept art, uncredited on their website: https://www.videogamesartwork.com/games/lost-planet-3/monster-concept</description>
+		<description>Similar to the Ocular Jelly, this strange creature is of unknown origin. It doesn't even seem to be carbon based, instead using gallium as the basis of its structure and life functions. This is considered physically impossible under normal circumstances, so the red spore may come from a place where the rules are wildly different from this Universe.\n\nThis fact makes the red spore inherently unstable, with a low lifespan, prone to violently explode and unable to reproduce normally. As a floating creature, Red Spores ignore terrain movement costs.\n\nBased on Lost Planet 3 concept art, uncredited on their website: https://www.videogamesartwork.com/games/lost-planet-3/monster-concept</description>
 		
 		<statBases>
 			<MoveSpeed>3.5</MoveSpeed>

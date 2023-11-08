@@ -75,7 +75,7 @@
 	<RecipeDef>
 		<defName>AA_Make_HexagelCore</defName>
 		<label>Make hexagel cores.</label>
-		<description>Craft hexagel cores using hexagel and uranium as a stabalizer.</description>
+		<description>Craft hexagel cores using hexagel and uranium as a stabilizer.</description>
 		<jobString>Crafting hexagel cores.</jobString>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>

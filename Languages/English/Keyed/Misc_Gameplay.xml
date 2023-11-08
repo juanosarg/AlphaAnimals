@@ -44,7 +44,7 @@
 	<LetterColossalAerofleetPasses>A strange floating creature bounces around in the distance, blundering around the landscape.\n\nA small horde of smaller specimens seem to be attracted to it, and follow it at a short distance.\n\nThey seem to be mostly harmless, and will probably leave the area when they have fed.</LetterColossalAerofleetPasses>
 
 	<LetterLabelSkyAsteroid>Strange asteroid</LetterLabelSkyAsteroid>
-	<LetterSkyAsteroid>A small, strange asteroid seems to have entered the atmosphere of this planet. Impact is inminent.</LetterSkyAsteroid>
+	<LetterSkyAsteroid>A small, strange asteroid seems to have entered the atmosphere of this planet. Impact is imminent.</LetterSkyAsteroid>
 
 	<LetterLabelBumbledroneMigration>Bumbledrone migration</LetterLabelBumbledroneMigration>
 	<LetterBumbledroneMigration>A small group of bumbledrones, led by a bumbledrone queen, has entered this area.\n\nBumbledrones are generally not aggressive, unless threatened.\n\nThey will probably leave this area after a while in search of a quieter place, since the colony is too noisy for them.</LetterBumbledroneMigration>
@@ -72,7 +72,7 @@
 	<CactipineDropPod>The air roars with the unmistakable sound of a drop pod during re-entry. Scanners detect life signs inside, but they are REALLY weird life signs, as if the scanner couldn't tell whether it is animal or plant life.</CactipineDropPod>
 
 	<LetterLabelGallatrossPasses>Gallatross wanders</LetterLabelGallatrossPasses>
-	<LetterGallatrossPasses>Legends tell of a creature so huge and powerful that entire tribes fled at the sight of it. Such legends were inspired by the Gallatross, an inmense creature with a ravenous appetite. Perhaps it is somehow related to the elusive Thrumbo? Such questions are probably impossible to answer.</LetterGallatrossPasses>
+	<LetterGallatrossPasses>Legends tell of a creature so huge and powerful that entire tribes fled at the sight of it. Such legends were inspired by the Gallatross, an immense creature with a ravenous appetite. Perhaps it is somehow related to the elusive Thrumbo? Such questions are probably impossible to answer.</LetterGallatrossPasses>
 
 	<LetterLabelBlackHiveAttack>Black hive attack</LetterLabelBlackHiveAttack>
 	<LetterBlackHiveAttack>Insectoids in the rim are genetically altered organisms designed to fight mechanoid invasions. The Black Hive was the best of the best, designed to be much more aggressive than usual, and capable of laying siege to impregnable mechanoid fortresses. Existing insectoid species were improved and several new species were created and added to the Hive to increase its lethality.\n\nA group of Black Hive insectoids has tunneled to this location, and will attack your base immediately.</LetterBlackHiveAttack>
@@ -158,7 +158,7 @@
 	<AA_Yes>Yes</AA_Yes>
 	<AA_No>No</AA_No>
 	<AA_NoRanged>This animal doesn't have ranged attacks. To order it to attack, it needs to be trained in Guard and Attack, then it needs to be assigned to follow a master when drafted and/or working. The "release" button on the master's commands bar will make the animal attack in melee.</AA_NoRanged>
-	<AA_Ranged>This animal uses ranged attacks, and will only use melee attacks if the enemy gets into melee range. To order it to attack, it needs to be trained in Guard and Attack, then it needs to be assigned to follow a master when drafted and/or working. The "release" button on the master's commands bar will make the animal search for appropiate cover and use its ranged attack.</AA_Ranged>
+	<AA_Ranged>This animal uses ranged attacks, and will only use melee attacks if the enemy gets into melee range. To order it to attack, it needs to be trained in Guard and Attack, then it needs to be assigned to follow a master when drafted and/or working. The "release" button on the master's commands bar will make the animal search for appropriate cover and use its ranged attack.</AA_Ranged>
 	
 	<!-- Roles -->
 
@@ -246,7 +246,7 @@
 	<AA_BoomerDesc>This animal explodes on death.</AA_BoomerDesc>
 	<AA_LarvaDesc>This animal is a larval form, not suited for combat. You should keep it well defended if you want it to transform into its adult form.</AA_LarvaDesc>
 	<AA_PackAnimalDesc>This is a pack animal, and can carry more weight in caravans than usual.</AA_PackAnimalDesc>
-	<AA_PestDesc>This animal is generally considered a pest, and not useful at all to have around the colony. It either has effects that are purely detrimental, or needs that outweight its usefulness. You may find a niche use for them, though!</AA_PestDesc>
+	<AA_PestDesc>This animal is generally considered a pest, and not useful at all to have around the colony. It either has effects that are purely detrimental, or needs that outweigh its usefulness. You may find a niche use for them, though!</AA_PestDesc>
 	<AA_PetDesc>This animal is a pet. Isn't he cute?</AA_PetDesc>
 
 	<!-- Psycasts -->
@@ -280,7 +280,7 @@
 	<AA_LegSkip>Leg skip!</AA_LegSkip>
 	<AA_LegSkipFailed>Leg skip failed</AA_LegSkipFailed>
 	<AA_KO>KO!</AA_KO>
-	<AA_KOFailed>KO faileed</AA_KOFailed>
+	<AA_KOFailed>KO failed</AA_KOFailed>
 
 
 

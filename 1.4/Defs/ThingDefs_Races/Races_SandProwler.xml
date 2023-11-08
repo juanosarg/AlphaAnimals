@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_SandProwler</defName>
 		<label>sand prowler</label>
-		<description>A genetic amalgamation possessing features of a lion, a shark and a sand skink, the Sand Prowler was originally created as a ferocious hunting animal for desertic planets.\n\n.The Sand Prowler can quickly burrow and "swim" through sand, hiding the bulk of its body and allowing it to strike its prey from relative safety. It is only able to burrow under loose sand, with other soils being too dense to traverse.\n\nArt by MahrimbArt (check his Instagram at https://www.instagram.com/mahrimb.art/)</description>
+		<description>A genetic amalgamation possessing features of a lion, a shark and a sand skink, the Sand Prowler was originally created as a ferocious hunting animal for desert planets.\n\n.The Sand Prowler can quickly burrow and "swim" through sand, hiding the bulk of its body and allowing it to strike its prey from relative safety. It is only able to burrow under loose sand, with other soils being too dense to traverse.\n\nArt by MahrimbArt (check his Instagram at https://www.instagram.com/mahrimb.art/)</description>
 		<statBases>
 			<MoveSpeed>4</MoveSpeed>
 			<ComfyTemperatureMin>0</ComfyTemperatureMin>

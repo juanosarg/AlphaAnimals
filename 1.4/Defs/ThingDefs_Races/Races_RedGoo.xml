@@ -3,7 +3,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_RedGoo</defName>
 		<label>red goo</label>
-		<description>This blob of bubbling organic matter seems to be an extension of the terrain itself, a disfigured excrescence given a semblance of life.\n\nThe red goo seem to thrive in the strangely bizarre environment of the ocular forest, nibbling on the aberrant vegetation and periodically cloning themselves. NOTE: due to gameplay constraints, red goo will only self-replicate until the map holds 15 creatures, cause I don't want to fry your computers. Note that asexual creatures can't be sterilized.</description>
+		<description>This blob of bubbling organic matter seems to be an extension of the terrain itself, a disfigured excrescence given a semblance of life.\n\nThe red goo seem to thrive in the strangely bizarre environment of the ocular forest, nibbling on the aberrant vegetation and periodically cloning themselves. NOTE: due to gameplay constraints, red goo will only self-replicate until the map holds 15 creatures, because I don't want to fry your computers. Note that asexual creatures can't be sterilized.</description>
 		
 		<statBases>
 			<MoveSpeed>1.5</MoveSpeed>

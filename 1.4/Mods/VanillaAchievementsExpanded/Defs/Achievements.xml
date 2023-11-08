@@ -38,7 +38,7 @@
 	<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 		<defName>AA_AchievementAerofleet</defName>
 		<label>Framerate? What Framerate?</label>
-		<description>Tame an Aerofleet, let it reproduce till you have 100. Then detonate them. Ok, that is optional, but come on.</description>
+		<description>Tame an Aerofleet, let it reproduce till you have 100. Then detonate them. OK, that is optional, but come on.</description>
 		<tracker Class="AchievementsExpanded.KindDefTracker">
 			<kindDefs>
 				<li>
@@ -405,7 +405,7 @@
 	<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 		<defName>AA_AchievementGoodestBoys</defName>
 		<label>The Goodest Boys</label>
-		<description>Assemble an strike team of a Ray Hound, a Razorjack and a Ripper Hound</description>
+		<description>Assemble a strike team of a Ray Hound, a Razorjack and a Ripper Hound</description>
 		<tracker Class="AchievementsExpanded.KindDefTracker">
 			<kindDefs>
 				<li>
@@ -462,7 +462,7 @@
 	<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 		<defName>AA_AchievementOmNomNom</defName>
 		<label>Om Nom Nom</label>
-		<description>Tame an Helixien slug and make it feed on human corpses</description>
+		<description>Tame a Helixien slug and make it feed on human corpses</description>
 		<tracker Class="AchievementsExpanded.HediffTracker">
 			<def>AA_CorpseFeast</def>
 			<count>1</count>

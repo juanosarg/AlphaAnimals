@@ -291,7 +291,7 @@
 	<ThingDef ParentName="WoolBase">
 		<defName>AA_ChameleonYakWoolJungle</defName>
 		<label>chameleon yak wool, jungle</label>
-		<description>A coarse green wool with long fibers intertwinned with a keratin like subtance. Super strong, but not very good for insulation.</description>
+		<description>A coarse green wool with long fibers intertwined with a keratin like substance. Super strong, but not very good for insulation.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/AA_ChameleonYakWoolJungle</texPath>
 		</graphicData>
@@ -427,7 +427,7 @@
 	<ThingDef ParentName="WoolBase">
 		<defName>AA_GreyCoatedMouflonWool</defName>
 		<label>grey-coated mouflon wool</label>
-		<description>grey-coated mouflon's wool. It provides good insulation.</description>
+		<description>Grey-coated mouflon wool. It provides good insulation.</description>
 		<graphicData>
 			<color>(62,62,64)</color>
 		</graphicData>

@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_Mantrap</defName>
 		<label>mantrap</label>
-		<description>Project Apricus was a classified scientific endeavour on one of the RimWorlds aiming to discover new ways to fight the Mechanoid menace using nature. The mantrap was created as an attempt to weaponize a mutated Dionaea muscipula (Venus flytrap) by implanting concentrated formic acid spit launchers on its jaws. This strong acid was theorically powerful enough to corrode the plasteel on Mechanoid carapaces.\n\nProject Apricus was invaded by a huge Mechanoid host shortly thereafter, most of its personnel slain, and most of the projects left to fend for themselves.</description>
+		<description>Project Apricus was a classified scientific endeavour on one of the RimWorlds aiming to discover new ways to fight the Mechanoid menace using nature. The mantrap was created as an attempt to weaponize a mutated Dionaea muscipula (Venus flytrap) by implanting concentrated formic acid spit launchers on its jaws. This strong acid was theoretically powerful enough to corrode the plasteel on Mechanoid carapaces.\n\nProject Apricus was invaded by a huge Mechanoid host shortly thereafter, most of its personnel slain, and most of the projects left to fend for themselves.</description>
 		<statBases>
 			<MoveSpeed>3.00</MoveSpeed>
 			<ComfyTemperatureMin>-10</ComfyTemperatureMin>

@@ -54,7 +54,7 @@
 		<description>A larve cocoon of the Black Hive.</description>
 		<thingClass>ThingWithComps</thingClass>
 		<graphicData>
-			<texPath>Things/Building/AA_BlackCoccoon</texPath>
+			<texPath>Things/Building/AA_BlackCocoon</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1.2</drawSize>
 		</graphicData>

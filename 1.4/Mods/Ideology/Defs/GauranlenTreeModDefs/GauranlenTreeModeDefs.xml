@@ -44,7 +44,7 @@
     <GauranlenTreeModeDef>
     <defName>AA_Unstable</defName>
     <label>unstable</label>
-    <description>A dangerous dryad caste that will ecplode with acid when dead. They can be commanded to explode... for the good of the tree.</description>
+    <description>A dangerous dryad caste that will explode with acid when dead. They can be commanded to explode... for the good of the tree.</description>
     <pawnKindDef>AA_Dryad_Unstable</pawnKindDef>
     <drawPosition>(0.833, 0.333)</drawPosition>
     <displayedStats>

@@ -5,7 +5,7 @@
 		<defName>AA_RoyalAve</defName>
 		<label>royal ave</label>
 
-		<description>Royal Aves are large flightless birds with colorful feathers. Royal Aves were originally wild Meadow Aves that have been crossbred for generations to reduce their stubbornness and increase their fluffiness. Some of these prized pets get freed into the wild, a life that they are poorly adapted for. Plummage in Royal Aves is more flamboyant than usual: if lucky you might get your hands on the incredibly rare Rainbow Ave, which does nothing special besides from looking bizarre.\n\nRoyal Aves are amazing mounts, much faster than horses, and if properly trained they can be ridden into battle at incredible speeds (this interaction needs the Giddy-Up, combat mounts mod, and it will make the Royal Aves move 50% faster when used as mounts).</description>
+		<description>Royal Aves are large flightless birds with colorful feathers. Royal Aves were originally wild Meadow Aves that have been crossbred for generations to reduce their stubbornness and increase their fluffiness. Some of these prized pets get freed into the wild, a life that they are poorly adapted for. Plumage in Royal Aves is more flamboyant than usual: if lucky you might get your hands on the incredibly rare Rainbow Ave, which does nothing special besides from looking bizarre.\n\nRoyal Aves are amazing mounts, much faster than horses, and if properly trained they can be ridden into battle at incredible speeds (this interaction needs the Giddy-Up, combat mounts mod, and it will make the Royal Aves move 50% faster when used as mounts).</description>
 		<statBases>
 			<MoveSpeed>6.0</MoveSpeed>
 			<ComfyTemperatureMin>-15</ComfyTemperatureMin>
