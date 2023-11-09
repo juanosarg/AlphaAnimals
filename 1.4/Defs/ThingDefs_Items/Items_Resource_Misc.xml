@@ -369,7 +369,7 @@
 	<ThingDef ParentName="ResourceBase">
 		<defName>AA_Hexagel</defName>
 		<label>hexagel</label>
-		<description>A crystallized and condensed variety of blue gel. Hexagel is capable of storing much more energy than its non-refined cousin, but it also seems to be quite unstable. It can be used to build powerful batteries and generators, with the appropriate research (Batteries and Advanced Fabrication).</description>
+		<description>A crystallized and condensed variety of blue gel. Hexagel is capable of storing much more energy than its non-refined cousin, but it also seems to be quite unstable. It can be used to build powerful batteries and generators with the appropriate research (Batteries and Advanced Fabrication).</description>
 		<tickerType>Normal</tickerType>
 		<graphicData>
 			<texPath>Things/Item/Resource/AA_HexaGel</texPath>
