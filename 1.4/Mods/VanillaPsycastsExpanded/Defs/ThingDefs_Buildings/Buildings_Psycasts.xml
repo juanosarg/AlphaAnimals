@@ -51,7 +51,7 @@
 	<ThingDef ParentName="BuildingNaturalBase">
 		<defName>AA_BlackCocoon</defName>
 		<label>black cocoon</label>
-		<description>A larve cocoon of the Black Hive.</description>
+		<description>A larvae cocoon of the Black Hive.</description>
 		<thingClass>ThingWithComps</thingClass>
 		<graphicData>
 			<texPath>Things/Building/AA_BlackCoccoon</texPath>

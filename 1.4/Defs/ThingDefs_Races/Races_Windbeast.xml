@@ -3,7 +3,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_WindBeast</defName>
 		<label>windbeast</label>
-		<description>The windbeast is a mechanoid-infused variant of the thunderbeast, in which the bioelectric organs have been removed and replaced with fleshy tentacles housing a distributed net of weather-affecting mechanites.\n\nThese deployable mechanite swarms have the ability to affect the weather in a localized manner, creating pressure gradients that may evolve into full blown hurricane winds. This effect is used offensively by the creature, and is specially dangerous if it is killed, as the large suddden release of all mechanites can cause a tornado. Thankfully, predators usually give them a wide berth and they are quite rare.</description>
+		<description>The windbeast is a mechanoid-infused variant of the thunderbeast, in which the bioelectric organs have been removed and replaced with fleshy tentacles housing a distributed net of weather-affecting mechanites.\n\nThese deployable mechanite swarms have the ability to affect the weather in a localized manner, creating pressure gradients that may evolve into full-blown hurricane winds. This effect is used offensively by the creature, and is specially dangerous if it is killed, as the large suddden release of all mechanites can cause a tornado. Thankfully, predators usually give them a wide berth and they are quite rare.</description>
 		<statBases>
 			<MoveSpeed>4.75</MoveSpeed>
 			<ComfyTemperatureMin>-80</ComfyTemperatureMin>

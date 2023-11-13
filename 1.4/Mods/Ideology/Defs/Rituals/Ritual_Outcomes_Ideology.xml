@@ -54,7 +54,7 @@
         <label>Satisfying</label>
         <chance>0.4</chance>
        
-        <description>The {0} was satisfying. A medium sized ocular monster has joined the colony.</description>
+        <description>The {0} was satisfying. A medium-sized ocular monster has joined the colony.</description>
         
         <positivityIndex>1</positivityIndex>
       </li>

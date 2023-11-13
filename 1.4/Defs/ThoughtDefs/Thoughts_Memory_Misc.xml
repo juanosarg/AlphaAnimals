@@ -44,7 +44,7 @@
 		<stages>
 			<li>
 				<label>psychic harmony (good)</label>
-				<description>A Grey-Coated Mouflon nearby is well fed and cared for.</description>
+				<description>A Grey-Coated Mouflon nearby is well-fed and cared for.</description>
 				<baseMoodEffect>8</baseMoodEffect>
 			</li>
 		</stages>

@@ -5,7 +5,7 @@
 	<FactionDef ParentName="FactionBase">
 		<defName>AA_BlackHive</defName>
 		<label>black hive</label>
-		<description>All insectoid were created to fight mechanoids. The Black Hive were the best of the best, an insectoid hive so vicious and so terrifying that any mechanoids with half a brain would just flee when encountering them. That, however, was many years ago. Nowadays remnants of the black hive roam in the Rim Worlds, a latent menace to anyone using advanced technology.</description>
+		<description>All insectoids were created to fight mechanoids. The Black Hive were the best of the best, an insectoid hive so vicious and so terrifying that any mechanoids with half a brain would just flee when encountering them. That, however, was many years ago. Nowadays remnants of the black hive roam in the Rim Worlds, a latent menace to anyone using advanced technology.</description>
 		<pawnSingular>black hive insect</pawnSingular>
 		<pawnsPlural>black hive insects</pawnsPlural>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>

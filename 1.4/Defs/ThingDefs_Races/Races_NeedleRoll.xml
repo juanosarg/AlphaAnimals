@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_Needleroll</defName>
 		<label>needleroll</label>
-		<description>Needlerolls are needleposts that have evolved to grow in the most arid and dry environments in the Rim.\n\nNeedleposts need almost no substenance, absorbing all the energy they need from sunlight and minute amounts of water that they extract from morning dew. Like needleposts, they need a huge amount of sunlight (or equivalent). Nights won't affect them, but a solar eclipse could be fatal to them.</description>
+		<description>Needlerolls are needleposts that have evolved to grow in the most arid and dry environments in the Rim.\n\nNeedleposts need almost no sustenance, absorbing all the energy they need from sunlight and minute amounts of water that they extract from morning dew. Like needleposts, they need a huge amount of sunlight (or equivalent). Nights won't affect them, but a solar eclipse could be fatal to them.</description>
 		<statBases>
 			<MoveSpeed>2.50</MoveSpeed>
 			<ComfyTemperatureMin>0</ComfyTemperatureMin>

@@ -6,7 +6,7 @@
   <ThingDef ParentName="BuildingNaturalBase">
     <defName>AA_Overgrown_DropPod</defName>
     <label>overgrown drop pod</label>
-    <description>This standard issue drop pod seems to have been modified to host a small self contained ecosystem. As soon as it impacted, strange creeping vines and weird creatures emerged from it. It seems to be some kind of terraforming machine.\n\nYou can destroy it to avoid release of hostile lifeforms into this region, or wait until its work is done to see what happens.</description>
+    <description>This standard issue drop pod seems to have been modified to host a small self-contained ecosystem. As soon as it impacted, strange creeping vines and weird creatures emerged from it. It seems to be some kind of terraforming machine.\n\nYou can destroy it to avoid release of hostile lifeforms into this region, or wait until its work is done to see what happens.</description>
     <thingClass>AlphaBehavioursAndEvents.Building_Overgrown_DropPod</thingClass>
     <graphicData>
       <texPath>Things/Building/AA_Overgrown_DropPod</texPath>

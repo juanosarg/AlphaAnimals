@@ -65,7 +65,7 @@
 		<defName>AA_Nocturnal</defName>
 		<hediffClass>AlphaBehavioursAndEvents.Hediff_NocturnalAnimal</hediffClass>
 		<label>nocturnal animal</label>
-		<description>Deprecated nocturnal animal Hediff. This shouldn't ever appear ingame.</description>
+		<description>Deprecated nocturnal animal Hediff. This shouldn't ever appear in-game.</description>
 		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<maxSeverity>1.0</maxSeverity>
@@ -78,7 +78,7 @@
 	<HediffDef ParentName="InfectionBase">
 		<defName>AA_LockJawDisease</defName>
 		<hediffClass>HediffWithComps</hediffClass>
-		<description>A painful and uncomfortable disease that inflamates the jaw, making it very hard to eat or talk. The disease will go away after it has been sucessfully treated a set number of times.</description>
+		<description>A painful and uncomfortable disease that inflames the jaw, making it very hard to eat or talk. The disease will go away after it has been successfully treated a set number of times.</description>
 		<label>lockjaw disease</label>
 		<makesSickThought>true</makesSickThought>
 		<tendable>true</tendable>
@@ -168,7 +168,7 @@
 	</HediffDef>
 	<HediffDef ParentName="DiseaseBase">
 		<defName>AA_Electric</defName>
-		<description>A dangerous electric shock. It might have damaged the heart, and the higher the intensity the hgher the possibility of a heart attack.</description>
+		<description>A dangerous electric shock. It might damage the heart, and higher intensities increase the possibility of a heart attack.</description>
 		<label>electric shock</label>
 		<isBad>true</isBad>
 		<comps>

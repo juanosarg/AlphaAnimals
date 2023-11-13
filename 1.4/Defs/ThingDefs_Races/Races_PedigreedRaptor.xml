@@ -4,7 +4,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_PedigreedRaptor</defName>
 		<label>pedigreed raptor</label>
-		<description>A genetically reconstructed dromaeosaurid, the pedigreed raptor is a perfect example of the decadence present in a lot of Glitterworlds. Commissioned by bored Glitterworld elites as a symbol of status and wealth, these beasts are made to compete in judged events where the owners win titles depending on how well their animals conform to their breed's standards.\n\nSet loose in the Rim, the raptors are usually short lived, since they depend on their human owners for survival, their violent instincts having been bred out of them long ago. They are however excellent companions, and they are quite pretty (mechanics-wise, a pedigreed raptor will increase by 15% the beauty of any room it is present at).</description>
+		<description>A genetically reconstructed dromaeosaurid, the pedigreed raptor is a perfect example of the decadence present in a lot of Glitterworlds. Commissioned by bored Glitterworld elites as a symbol of status and wealth, these beasts are made to compete in judged events where the owners win titles depending on how well their animals conform to their breed's standards.\n\nSet loose in the Rim, the raptors are usually short-lived, since they depend on their human owners for survival, their violent instincts having been bred out of them long ago. They are however excellent companions, and they are quite pretty (mechanics-wise, a pedigreed raptor will increase by 15% the beauty of any room it is present at).</description>
 		<statBases>
 			<MoveSpeed>5.0</MoveSpeed>
 			<ComfyTemperatureMin>-15</ComfyTemperatureMin>

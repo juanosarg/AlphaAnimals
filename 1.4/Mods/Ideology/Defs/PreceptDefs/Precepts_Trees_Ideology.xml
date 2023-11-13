@@ -48,7 +48,7 @@
 		<stages>
 			<li>
 				<label>no ocular trees</label>
-				<description>There are no ocular trees around, and I feel nervous being outside of their soothing gaze</description>
+				<description>There are no ocular trees around, and I feel nervous being outside of their soothing gaze.</description>
 				<baseMoodEffect>-5</baseMoodEffect>
 			</li>
 			<li>

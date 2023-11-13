@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_Metallovore</defName>
 		<label>metallovore</label>
-		<description>Metallovores are repulsive creatures genetically modified to fill a very specific niche: eating metals. The writhing tentacles in the animal's mouth secrete an organic substance that is capable of quickly rusting and disolving most common metals, turning them into small flakes that serve as sustenance for the metallovore. They prefer small chunks of metal, since they can be more easily digested, but they will resort to digging into rocks in search of new metal if they can find none available.\n\nPresumably, they were created to get rid of scrap metal, but they are mostly found wild now.</description>
+		<description>Metallovores are repulsive creatures genetically modified to fill a very specific niche: eating metals. The writhing tentacles in the animal's mouth secrete an organic substance that is capable of quickly rusting and dissolving most common metals, turning them into small flakes that serve as sustenance for the metallovore. They prefer small chunks of metal, since they can be more easily digested, but they will resort to digging into rocks in search of new metal if they can find none available.\n\nPresumably, they were created to get rid of scrap metal, but they are mostly found in the wild now.</description>
 		<statBases>
 			<MoveSpeed>2.00</MoveSpeed>
 			<ComfyTemperatureMin>-20</ComfyTemperatureMin>

@@ -345,7 +345,7 @@
 	<ThingDef ParentName="ResourceBase">
 		<defName>AA_BlueGel</defName>
 		<label>blue gel</label>
-		<description>A syrupy residue extracted from Aerofleets, which can be refined into an energy-dense compound, and potentially used to build powerful batteries and generators, with the appropiate research (Biofuel refining to process it further, and Batteries).</description>
+		<description>A syrupy residue extracted from Aerofleets which can be refined into an energy-dense compound. It can be used to build powerful batteries and generators with the appropriate research (Biofuel refining to process it further, and Batteries).</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/AA_BlueGel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -411,7 +411,7 @@
 	<ThingDef ParentName="ResourceBase">
 		<defName>AA_HexagelCore</defName>
 		<label>hexagel core</label>
-		<description>A hexagonal shaped energy core composed of -in itself highly unstable- hydrogen-rich blue gel stabilized within an uranium shell.</description>
+		<description>A hexagonal shaped energy core composed of -in itself highly unstable- hydrogen-rich blue gel stabilized within a uranium shell.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/AA_HexagelEnergyCore</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>

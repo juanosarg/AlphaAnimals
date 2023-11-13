@@ -4,7 +4,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_Agaripod</defName>
 		<label>agaripod</label>
-		<description>The Agaripod is a subspecies of the Wildpod that has grown in the secluded environment of a Mycotic Jungle. It's body is covered by Agarilux mushrooms that seem to be in a state of symbiosis. The Agaripod is almost impervious to gunfire, with bullets simply being absorbed into its mass without doing much damage, but very weak to fire. Interestingly, it reproduces asexually by releasing clumps of spores every few weeks, so its children are completely wild and independent from it, with no concept of parenthood. Note that asexual creatures can't be sterilized.\n\nAlthough risky, the Agaripod can be hunted or farmed for decent amounts of edible raw agarilux, which can be eaten raw and lasts a bit more than regular fungus.</description>
+		<description>The Agaripod is a subspecies of the Wildpod that has grown in the secluded environment of a Mycotic Jungle. Its body is covered by Agarilux mushrooms that seem to be in a state of symbiosis. The Agaripod is almost impervious to gunfire, with bullets simply being absorbed into its mass without doing much damage, but very weak to fire. Interestingly, it reproduces asexually by releasing clumps of spores every few weeks, so its children are completely wild and independent of it, with no concept of parenthood. Note that asexual creatures can't be sterilized.\n\nAlthough risky, the Agaripod can be hunted or farmed for decent amounts of edible raw agarilux, which can be eaten raw and lasts a bit more than regular fungus.</description>
 		<statBases>
 			<MoveSpeed>2.5</MoveSpeed>
 			<ComfyTemperatureMin>-15</ComfyTemperatureMin>

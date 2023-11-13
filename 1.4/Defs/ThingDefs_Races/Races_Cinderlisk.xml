@@ -5,7 +5,7 @@
 		<defName>AA_Cinderlisk</defName>
 		<label>cinderlisk</label>
 					
-		<description>Probably the most dangerous of the Feralisk variants, the Cinderlisk is a huge spider adapted to living close to the calderas of dormant volcanoes. Originally created to be exploited for their durable and heat-resistant silk, but once they escaped into the wild they began multiplying incontrollably.\n\nCinderlisks attack by throwing spider webs at their prey. These huge webs stun and burn anyone they touch, allowing the Cinderlisk to close in and finish the kill with their fearsome fangs. Their fangs are also burning-hot, so they tend to light things on fire.\n\nArt by Feroxiious (check her Instagram at https://www.instagram.com/feroxiious/).</description>
+		<description>Probably the most dangerous of the Feralisk variants, the Cinderlisk is a huge spider adapted to living close to the calderas of dormant volcanoes. Originally created to be exploited for their durable and heat-resistant silk, but once they escaped into the wild they began multiplying uncontrollably.\n\nCinderlisks attack by throwing spider webs at their prey. These huge webs stun and burn anyone they touch, allowing the Cinderlisk to close in and finish the kill with their fearsome fangs. Their fangs are also burning-hot, so they tend to light things on fire.\n\nArt by Feroxiious (check her Instagram at https://www.instagram.com/feroxiious/).</description>
 		<statBases>
 			<MoveSpeed>5</MoveSpeed>
 			<ComfyTemperatureMin>10</ComfyTemperatureMin>

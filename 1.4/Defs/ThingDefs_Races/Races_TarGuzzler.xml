@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_TarGuzzler</defName>
 		<label>tar guzzler</label>
-		<description>This menacing-looking beast might seem to be a truly alien creature, but in reality it was artificially created as living waste disposal. The tar guzzler creeps along the parched mud with six strong tentacles, avidly searching for its favourite food: puddles of viscuous tar.\n\nTar guzzlers have a very limited intelligence, and -being disgusting creatures- they don't have any natural predators, so they are usually content to just be left alone.</description>
+		<description>This menacing-looking beast might seem to be a truly alien creature, but in reality it was artificially created as living waste disposal. The tar guzzler creeps along the parched mud with six strong tentacles, avidly searching for its favourite food: puddles of viscous tar.\n\nTar guzzlers have a very limited intelligence, and -being disgusting creatures- they don't have any natural predators, so they are usually content to just be left alone.</description>
 		<statBases>
 			<MoveSpeed>2.00</MoveSpeed>
 			<ComfyTemperatureMin>-20</ComfyTemperatureMin>
