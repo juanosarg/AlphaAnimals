@@ -463,7 +463,7 @@
 	</HediffDef>
 	<HediffDef>
 		<defName>AA_RechargingBatteries</defName>
-		<description>This TetraSlug has recently recharged a nearby battery.</description>
+		<description>This creature has recently recharged a nearby battery.</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<label>recharging batteries</label>
 		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
