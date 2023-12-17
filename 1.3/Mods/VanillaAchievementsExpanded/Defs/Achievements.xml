@@ -384,7 +384,7 @@
 	<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 		<defName>AA_AchievementGreenestEnergy</defName>
 		<label>Greenest Energy</label>
-		<description>Tame a TetraSlug and make it recharge your batteries</description>
+		<description>Have a friendly creature (like a tame Tetra slug) recharge your batteries</description>
 
 		<tracker Class="AchievementsExpanded.HediffTracker">
 			<def>AA_RechargingBatteries</def>
