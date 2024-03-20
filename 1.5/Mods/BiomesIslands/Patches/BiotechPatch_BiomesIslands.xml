@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Biotech</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName = "AA_Fangsquid"]/comps</xpath>
+			<value>
+				<li Class="AnimalBehaviours.CompProperties_AnimalProduct">
+					<resourceDef>HemogenPack</resourceDef>
+					<gatheringIntervalDays>2</gatheringIntervalDays>
+					<resourceAmount>1</resourceAmount>
+					<customResourceString>AA_HemogenPackDesc</customResourceString>
+				</li>
+			</value>
+		</match>
+	</Operation>
+</Patch>
