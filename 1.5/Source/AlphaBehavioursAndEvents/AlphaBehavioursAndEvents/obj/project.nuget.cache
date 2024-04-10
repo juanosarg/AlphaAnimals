@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tYE8EgjQROSmA6CN4Crg+3K3xp02T5nKBzUWXUxTLfjGhKr+JXtGn4dOZtFcgtlWWOqfLM/vFLRa5Eay4I5z4Q==",
+  "dgSpecHash": "LFzX9/kaAMoZs4aP+LyK9j0slQ7wyTWFCqC3dkHlCqqmEHCduyJOODCu4Mjn4rmwcZoqWr2qZRPDumvm5vAt0A==",
   "success": true,
-  "projectFilePath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\15AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj",
+  "projectFilePath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sarg\\.nuget\\packages\\lib.harmony\\2.3.1.1\\lib.harmony.2.3.1.1.nupkg.sha512"
   ],

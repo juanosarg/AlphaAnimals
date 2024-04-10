@@ -34,7 +34,7 @@ namespace AlphaBehavioursAndEvents
         private Vector3 GetDrawPos()
         {
             var x = ticksFlying / (float)ticksFlightTime;
-            var drawPos = position;
+            var drawPos = GetDrawPos();
             drawPos.y = AltitudeLayer.Skyfaller.AltitudeFor();
             return drawPos + Vector3.forward * (x - Mathf.Pow(x, 2)) * 15f;
         }

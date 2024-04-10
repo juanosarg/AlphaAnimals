@@ -60,7 +60,7 @@ namespace AlphaBehavioursAndEvents
                             var map = Caster.Map;
                             var flyer = (JumpingPawn)PawnFlyer.MakeFlyer(ThingDef.Named("AAVPE_JumpingPawn"), CasterPawn, targets[0].Cell,null,null);
                             flyer.ability = this;
-                            flyer.target = targets[0].Cell.ToVector3Shifted();
+                            //flyer.target = targets[0].Cell.ToVector3Shifted();
                             GenSpawn.Spawn(flyer, Caster.Position, map);                         
 
                         }
