@@ -14,10 +14,10 @@ namespace AlphaBehavioursAndEvents
 {
     public class JumpingPawn : AbilityPawnFlyer
     {
-        protected override void DrawAt(Vector3 drawLoc, bool flip = false)
+        /*protected override void DrawAt(Vector3 drawLoc, bool flip = false)
         {
             FlyingPawn.DynamicDrawPhaseAt(DrawPhase.Draw,GetDrawPos(), flip);
-        }
+        }*/
 
         public override void Tick()
         {
@@ -25,9 +25,7 @@ namespace AlphaBehavioursAndEvents
             if (this.Map != null && Find.TickManager.TicksGame % 3 == 0)
             {
                 var map = this.Map;
-                //FleckCreationData data = FleckMaker.GetDataStatic(GetDrawPos(), map, VPE_DefOf.VPE_WarlordZap);
-                //data.rotation = Rand.Range(0f, 360f);
-                //map.flecks.CreateFleck(data);
+                
             }
         }
 
