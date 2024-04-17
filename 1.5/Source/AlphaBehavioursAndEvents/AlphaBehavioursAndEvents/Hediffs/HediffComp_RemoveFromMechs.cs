@@ -9,13 +9,13 @@ using UnityEngine;
 
 namespace AlphaBehavioursAndEvents
 {
-    class HediffComp_RemoveFromMechs : HediffComp
+    class HediffComp_RemoveFromMechsAndGhouls : HediffComp
     {
-        public HediffCompProperties_RemoveFromMechs Props
+        public HediffCompProperties_RemoveFromMechsAndGhouls Props
         {
             get
             {
-                return (HediffCompProperties_RemoveFromMechs)this.props;
+                return (HediffCompProperties_RemoveFromMechsAndGhouls)this.props;
             }
         }
 
@@ -25,6 +25,10 @@ namespace AlphaBehavioursAndEvents
         {
             base.CompPostMake();
             if (this.parent.pawn.RaceProps.IsMechanoid)
+            {
+                this.parent.pawn.health.RemoveHediff(this.parent);
+            }
+            if (this.parent.pawn.IsGhoul)
             {
                 this.parent.pawn.health.RemoveHediff(this.parent);
             }

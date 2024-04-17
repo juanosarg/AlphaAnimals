@@ -4,13 +4,13 @@ using System.Collections.Generic;
 
 namespace AlphaBehavioursAndEvents
 {
-    public class HediffCompProperties_RemoveFromMechs : HediffCompProperties
+    public class HediffCompProperties_RemoveFromMechsAndGhouls : HediffCompProperties
     {
         
 
-        public HediffCompProperties_RemoveFromMechs()
+        public HediffCompProperties_RemoveFromMechsAndGhouls()
         {
-            this.compClass = typeof(HediffComp_RemoveFromMechs);
+            this.compClass = typeof(HediffComp_RemoveFromMechsAndGhouls);
         }
     }
 }

@@ -103,7 +103,7 @@
 				<baseTendDurationHours>48</baseTendDurationHours>
 				<disappearsAtTotalTendQuality>3</disappearsAtTotalTendQuality>
 			</li>
-			<li Class="AlphaBehavioursAndEvents.HediffCompProperties_RemoveFromMechs">
+			<li Class="AlphaBehavioursAndEvents.HediffCompProperties_RemoveFromMechsAndGhouls">
 				
 			</li>
 		</comps>
@@ -120,7 +120,7 @@
 					<max>1000</max>
 				</disappearsAfterTicks>
 			</li>
-			<li Class="AlphaBehavioursAndEvents.HediffCompProperties_RemoveFromMechs">
+			<li Class="AlphaBehavioursAndEvents.HediffCompProperties_RemoveFromMechsAndGhouls">
 				
 			</li>
 		</comps>
@@ -528,7 +528,7 @@
 				<severityPerDayImmune>-0.70</severityPerDayImmune>
 				<immunityPerDayNotSick>-0.40</immunityPerDayNotSick>
 			</li>
-			<li Class="AlphaBehavioursAndEvents.HediffCompProperties_RemoveFromMechs">
+			<li Class="AlphaBehavioursAndEvents.HediffCompProperties_RemoveFromMechsAndGhouls">
 				
 			</li>
 		</comps>
@@ -653,7 +653,7 @@
 				<severityPerDayImmune>-1</severityPerDayImmune>
 				<immunityPerDayNotSick>-3</immunityPerDayNotSick>
 			</li>
-			<li Class="AlphaBehavioursAndEvents.HediffCompProperties_RemoveFromMechs">
+			<li Class="AlphaBehavioursAndEvents.HediffCompProperties_RemoveFromMechsAndGhouls">
 				
 			</li>
 		</comps>
