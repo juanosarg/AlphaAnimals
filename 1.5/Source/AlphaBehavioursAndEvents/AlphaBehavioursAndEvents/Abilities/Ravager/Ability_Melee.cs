@@ -95,7 +95,7 @@ namespace AlphaBehavioursAndEvents
                                     foreach (IntVec3 positionAround in GenRadial.RadialCellsAround(targetPawnPosition, 1.9f, false).ToList())
                                     {
                                         
-                                        IReadOnlyList<Pawn> pawnList = pawn.Map.mapPawns.AllPawnsSpawned;
+                                        IReadOnlyList<Pawn> pawnList = targetpawn.Map.mapPawns.AllPawnsSpawned;
 
                                         foreach (Pawn possiblePawnAffected in pawnList)
                                         {
