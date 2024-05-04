@@ -304,8 +304,6 @@
     <Compile Include="Abilities\Ravager\Ability_Melee.cs" />
     <Compile Include="Abilities\Ravager\JumpinPawnFlyer.cs" />
     <Compile Include="Abilities\Xenoseer\Ability_ShootMultipleProjectile.cs" />
-    <Compile Include="Achievements\ItemCraftTrackerWithIngredients.cs" />
-    <Compile Include="Achievements\KillTrackerWithOr.cs" />
     <Compile Include="Comps\CompCocoon.cs" />
     <Compile Include="Comps\CompCreateOcularPlants.cs" />
     <Compile Include="Comps\CompLarvaeToCocoon.cs" />
@@ -341,7 +339,6 @@
     <Compile Include="Gases\Gas_Frost.cs" />
     <Compile Include="Harmony\BiomeDef_CommonalityOfAnimal_Patch.cs" />
     <Compile Include="Harmony\PawnUtility_IsFighting.cs" />
-    <Compile Include="Harmony\QuestManager_Notify_ThingsProduced_Patch.cs" />
     <Compile Include="Harmony\RoomStatWorker_Beauty_GetScore_Patch.cs" />
     <Compile Include="Harmony\JobDriver_Ingest_MakeNewToils.cs" />
     <Compile Include="Harmony\MapTemperature_SeasonAcceptableFor_Patch.cs" />

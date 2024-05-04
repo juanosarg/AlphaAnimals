@@ -227,7 +227,7 @@
 	<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 		<defName>AA_AchievementNoChocobo</defName>
 		<label>Not a Chocobo</label>
-		<description>Acquire any kind of Ave and install Giddy-Up if you haven't</description>
+		<description>Acquire any kind of Ave and install Giddy-Up 2 if you haven't</description>
 		<tracker Class="AchievementsExpanded.KindDefTracker">
 			<kindDefs>
 				<li>
@@ -360,7 +360,7 @@
 		<defName>AA_AchievementGourmelette</defName>
 		<label>Gourmelette</label>
 		<description>Use an expensive Nightling Egg to create a Lavish Meal</description>
-		<tracker Class="AchievementsExpanded.ItemCraftTrackerWithIngredientsAlpha">
+		<tracker Class="AchievementsExpanded.ItemCraftTracker">
 			<def>MealLavish</def>
 			<includeingredient>AA_EggNightlingFertilized</includeingredient>
 			<count>1</count>
@@ -372,7 +372,7 @@
 		<defName>AA_AchievementJellyfishSalad</defName>
 		<label>Jellyfish salad</label>
 		<description>Make a Simple meal out of Aerofleet meat</description>
-		<tracker Class="AchievementsExpanded.ItemCraftTrackerWithIngredientsAlpha">
+		<tracker Class="AchievementsExpanded.ItemCraftTracker">
 			<def>MealSimple</def>
 			<includeingredient>AA_AerofleetMeat</includeingredient>
 			<count>1</count>
@@ -380,17 +380,7 @@
 		<texPath>Achievements/AA_AchievementJellyfishSalad</texPath>
 		<points>10</points>
 	</AchievementsExpanded.AchievementDef>
-	<!--<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
-		<defName>AA_AchievementMechanoidSiege</defName>
-		<label>Mechanoid Siege</label>
-		<description>Destroy a Demolisher mechanoid</description>
-		<tracker Class="AchievementsExpanded.KillTracker">
-			<kindDef>AA_Demolisher</kindDef>
-			<count>1</count>
-		</tracker>
-		<texPath>Achievements/AA_AchievementMechanoidSiege</texPath>
-		<points>10</points>
-	</AchievementsExpanded.AchievementDef>-->
+	
 	<AchievementsExpanded.AchievementDef ParentName="AA_AchievementParent">
 		<defName>AA_AchievementDealWithTheDevil</defName>
 		<label>Deal With the Devil</label>
