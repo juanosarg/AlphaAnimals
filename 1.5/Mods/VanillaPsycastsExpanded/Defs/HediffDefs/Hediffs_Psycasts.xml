@@ -284,6 +284,8 @@
 					<li>AA_HexaGelBattery</li>
 					<li>ShipCapacitor</li>
 					<li>ShipCapacitorSmall</li>
+					<li>Battery_II</li>
+					<li>PPC</li>
 				</batteriesToAffect>
 			</li>
 		</comps>
