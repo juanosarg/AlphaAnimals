@@ -14,8 +14,8 @@
 	<v1.5>
 		<li>/</li>
 		<li>1.5</li>
-
-		<li IfModActive="spoonshortage.ADogSaidAnimalProsthetics">1.5/Mods/ADogSaid</li>	
+		
+		
 		<li IfModActive="VanillaExpanded.VPsycastsE">1.5/Mods/VanillaPsycastsExpanded</li>
 		<li IfModActive="VanillaExpanded.VPsycastsE_steam">1.5/Mods/VanillaPsycastsExpanded</li>			
 		<li IfModActive="BiomesTeam.BiomesIslands">1.5/Mods/BiomesIslands</li>	
