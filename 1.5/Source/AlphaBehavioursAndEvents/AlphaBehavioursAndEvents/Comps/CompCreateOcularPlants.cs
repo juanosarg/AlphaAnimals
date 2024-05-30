@@ -141,7 +141,7 @@ namespace AlphaBehavioursAndEvents
 					else if (terrain == TerrainDefOf.Gravel || terrain.label.Contains("rough"))
 
 					{
-						parent.Map.terrainGrid.SetTerrain(c, TerrainDef.Named("GU_RedQuartzBase"));
+						parent.Map.terrainGrid.SetTerrain(c, TerrainDef.Named("GU_RoseQuartz_Rough"));
 					}
 					
 					else
