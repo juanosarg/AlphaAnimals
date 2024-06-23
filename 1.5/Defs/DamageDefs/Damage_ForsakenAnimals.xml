@@ -6,14 +6,8 @@
 	<DamageDef ParentName="Bite">
 		<defName>FO_PlaguedBite</defName>
 		<label>plagued bite</label>
-		<additionalHediffs>
-			<li>
-				<hediff>Plague</hediff>
-				<severityPerDamageDealt>0.01</severityPerDamageDealt>
-				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
-				<inverseStatScaling>true</inverseStatScaling>
-			</li>
-		</additionalHediffs>
+		<workerClass>AlphaBehavioursAndEvents.DamageWorker_PlaguedBite</workerClass>
+	
 	</DamageDef>
 	
 	

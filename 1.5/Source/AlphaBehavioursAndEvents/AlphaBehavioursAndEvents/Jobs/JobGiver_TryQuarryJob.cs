@@ -17,6 +17,11 @@ namespace AlphaBehavioursAndEvents
                 return null;
             }
 
+            if (pawn.Map == null)
+            {
+                return null;
+            }
+
             Building quarry = (Building) QuarriesInMap(pawn).RandomElement();
 
             if (quarry == null || quarry.IsForbidden(pawn))

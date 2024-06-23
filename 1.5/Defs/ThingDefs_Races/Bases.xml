@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
 	<ThingDef Abstract="True" ParentName="AnimalThingBase" Name="BaseInsect2">
 		<statBases>
 			<ToxicResistance>1</ToxicResistance>
 			<ComfyTemperatureMax>75</ComfyTemperatureMax>
+			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>
 		</statBases>
 		<race>
 			<fleshType>Insectoid</fleshType>
@@ -15,13 +15,17 @@
 			<manhunterOnDamageChance>0.95</manhunterOnDamageChance>
 			<manhunterOnTameFailChance>0.20</manhunterOnTameFailChance>
 		</race>
+		<ingredient>
+			<mergeCompatibilityTags>
+				<li MayRequire="Ludeon.RimWorld.Ideology">InsectMeat</li>
+			</mergeCompatibilityTags>
+		</ingredient>
 	</ThingDef>
-
 	<ThingDef Abstract="True" ParentName="AnimalThingBase" Name="AA_AlphaBaseInsect">
-		<devNote>insect</devNote>
 		<statBases>
 			<ToxicResistance>1</ToxicResistance>
 			<ComfyTemperatureMax>60</ComfyTemperatureMax>
+			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>
 		</statBases>
 		<race>
 			<fleshType>Insectoid</fleshType>
@@ -36,9 +40,5 @@
 				<li MayRequire="Ludeon.RimWorld.Ideology">InsectMeat</li>
 			</mergeCompatibilityTags>
 		</ingredient>
-
 	</ThingDef>
-
-
-
 </Defs>

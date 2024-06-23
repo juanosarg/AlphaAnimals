@@ -17,6 +17,10 @@ namespace AlphaBehavioursAndEvents
             {
                 return null;
             }
+            if (pawn.Map == null)
+            {
+                return null;
+            }
             List<Pawn> source = pawn.Map.mapPawns.SpawnedPawnsInFaction(pawn.Faction);
             Pawn t;
             if (!(from p in source

@@ -29,7 +29,7 @@ namespace AlphaBehavioursAndEvents
             WorkGiver_Scanner workGiver_Scanner = null;
 
             WorkGiver workGiver = InternalDefOf.Mine.Worker;
-            if (workGiver.def.priorityInType != num && targetInfo.IsValid)
+            if (workGiver.def.priorityInType != num && targetInfo.IsValid || pawn.Map==null)
             {
                 // break;
             }
@@ -44,6 +44,7 @@ namespace AlphaBehavioursAndEvents
                         {
                             return new ThinkResult(job2, this, new JobTag?(workGiver.def.tagToGive), false);
                         }
+                        
                         WorkGiver_Scanner scanner = workGiver as WorkGiver_Scanner;
                         if (scanner != null)
                         {
@@ -205,59 +206,7 @@ namespace AlphaBehavioursAndEvents
             return giver.MissingRequiredCapacity(pawn) == null && !giver.ShouldSkip(pawn);
         }
 
-        private Job GiverTryGiveJobPrioritized(Pawn pawn, WorkGiver giver, IntVec3 cell)
-        {
-            if (!this.PawnCanUseWorkGiver(pawn, giver))
-            {
-                return null;
-            }
-            try
-            {
-                Job job = giver.NonScanJob(pawn);
-                if (job != null)
-                {
-                    Job result = job;
-                    return result;
-                }
-                WorkGiver_Scanner scanner = giver as WorkGiver_Scanner;
-                if (scanner != null)
-                {
-                    if (giver.def.scanThings)
-                    {
-                        Predicate<Thing> predicate = (Thing t) => !t.IsForbidden(pawn) && scanner.HasJobOnThing(pawn, t, false);
-                        List<Thing> thingList = cell.GetThingList(pawn.Map);
-                        for (int i = 0; i < thingList.Count; i++)
-                        {
-                            Thing thing = thingList[i];
-                            if (scanner.PotentialWorkThingRequest.Accepts(thing) && predicate(thing))
-                            {
-                                //pawn.mindState.lastGivenWorkType = giver.def.workType;
-                                Job result = scanner.JobOnThing(pawn, thing, false);
-                                return result;
-                            }
-                        }
-                    }
-                    if (giver.def.scanCells && !cell.IsForbidden(pawn) && scanner.HasJobOnCell(pawn, cell, false))
-                    {
-                       // pawn.mindState.lastGivenWorkType = giver.def.workType;
-                        Job result = scanner.JobOnCell(pawn, cell, false);
-                        return result;
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                Log.Error(string.Concat(new object[]
-                {
-                    pawn,
-                    " threw exception in GiverTryGiveJobTargeted on WorkGiver ",
-                    giver.def.defName,
-                    ": ",
-                    ex.ToString()
-                }));
-            }
-            return null;
-        }
+       
     }
 }
 

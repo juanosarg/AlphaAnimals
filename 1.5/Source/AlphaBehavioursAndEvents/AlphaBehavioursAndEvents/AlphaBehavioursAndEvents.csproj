@@ -329,6 +329,7 @@
     <Compile Include="ExplosionsAndDamage\DamageWorker_ExtraDamageMechanoidsPhysical.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_ExtraDamageInsectoids.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_ExtraDamageMechanoids.cs" />
+    <Compile Include="ExplosionsAndDamage\DamageWorker_PlaguedBite.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_SwallowWhole.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_FeedingFlame.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_Vampiric.cs" />
@@ -397,7 +398,6 @@
     <Compile Include="Incidents\IncidentWorker_SummitCrab.cs" />
     <Compile Include="Jobs\InteractionWorker_PsionicNuzzle.cs" />
     <Compile Include="Jobs\JobDriver_PsionicNuzzle.cs" />
-    <Compile Include="Jobs\JobGiver_Mine.cs" />
     <Compile Include="Jobs\JobGiver_MineOld.cs" />
     <Compile Include="Jobs\JobGiver_PsionicNuzzle.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />

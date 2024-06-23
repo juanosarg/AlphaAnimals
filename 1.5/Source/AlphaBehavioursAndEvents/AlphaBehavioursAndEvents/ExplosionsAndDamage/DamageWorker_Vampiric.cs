@@ -24,7 +24,7 @@ namespace AlphaBehavioursAndEvents
                     {
                         foreach (Hediff_Injury injury in Utils.GetInjuriesTendable(attacker.health.hediffSet.hediffs))
                         {
-                            injury.Severity = injury.Severity - 15f;
+                            injury.Severity -= 0.15f;
                             break;
                         }
                     }

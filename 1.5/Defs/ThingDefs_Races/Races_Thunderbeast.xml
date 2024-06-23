@@ -3,7 +3,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_Thunderbeast</defName>
 		<label>thunderbeast</label>
-		<description>The thunderbeast is a swine-like mammal capable of generating large electric currents by way of a highly specialized nervous system that has the capacity to synchronize the activity of disc-shaped, electricity-producing cells packed into a specialized electric organ.\n\nThough they were initially created to serve as a way to generate bio-electricity similarly to Tetraslugs, thunderbeasts have naturally evolved over the centuries making them extremely unstable. Thunderbeasts can release jolts of electricity at great distances, and they will negatively affect weather if they are slaughtered. Thankfully, predators usually give them a wide berth.</description>
+		<description>The thunderbeast is a swine-like mammal capable of generating large electric currents by way of a highly specialized nervous system that has the capacity to synchronize the activity of disc-shaped, electricity-producing cells packed into a specialized electric organ.\n\nThough they were initially created to serve as a way to generate bio-electricity similarly to Tetra slugs, thunderbeasts have naturally evolved over the centuries making them extremely unstable. Thunderbeasts can release jolts of electricity at great distances, and they will negatively affect weather if they are slaughtered. Thankfully, predators usually give them a wide berth.</description>
 		<statBases>
 			<MoveSpeed>4.00</MoveSpeed>
 			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
