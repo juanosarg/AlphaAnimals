@@ -366,6 +366,7 @@
     <Compile Include="Incidents\ThingSetMaker_AlphaResourcePod.cs" />
     <Compile Include="Jobs\JobDriver_PlantAnimaTree.cs" />
     <Compile Include="Jobs\JobGiver_MergeIntoGaumakerPodCorruptor.cs" />
+    <Compile Include="Jobs\JobGiver_Mine.cs" />
     <Compile Include="Jobs\JobGiver_TryQuarryJob.cs" />
     <Compile Include="MapComponents\MapRoomUpdater.cs" />
     <Compile Include="MentalStates\MentalState_FriendlyManhunter.cs" />
