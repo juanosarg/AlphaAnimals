@@ -223,6 +223,7 @@
 			</li>
 		</tools>
 		<race>
+			<renderTree>AA_ColossalAerofleet</renderTree>
 			<deathAction>
 				<workerClass>DeathActionWorker_BigExplosion</workerClass>
 			</deathAction>
@@ -290,11 +291,11 @@
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/AA_Aerofleet/AA_Aerofleet_Colossal</texPath>
-					<drawSize>2</drawSize>
+					<drawSize>2.5</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/AA_Aerofleet/AA_Dessicated_Aerofleet</texPath>
-					<drawSize>1.8</drawSize>
+					<drawSize>2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>

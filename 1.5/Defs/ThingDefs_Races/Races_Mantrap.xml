@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
 	<!-- ============================================================ -->
-
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_Mantrap</defName>
 		<label>mantrap</label>
@@ -13,9 +11,7 @@
 			<ComfyTemperatureMax>70</ComfyTemperatureMax>
 			<MarketValue>450</MarketValue>
 			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
-			
 		</statBases>
-
 		<tools>
 			<li>
 				<label>razor barbs</label>
@@ -63,10 +59,8 @@
 				<label>acidic spit</label>
 				<commonality>.8</commonality>
 			</li>
-
-
 		</verbs>
-		<comps>		
+		<comps>
 			<li Class="AnimalBehaviours.CompProperties_LightSustenance">
 
 			</li>
@@ -75,6 +69,7 @@
 			</li>
 		</comps>
 		<race>
+			<renderTree>AA_Mantrap</renderTree>
 			<wildBiomes>
 				<Desert>0.01</Desert>
 				<ExtremeDesert>0.01</ExtremeDesert>
@@ -93,7 +88,7 @@
 			<baseBodySize>2</baseBodySize>
 			<baseHungerRate>0.35</baseHungerRate>
 			<baseHealthScale>1.5</baseHealthScale>
-			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>			
+			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_Cactus</leatherDef>
 			<wildness>0.8</wildness>
 			<specificMeatDef>AA_CactusMeat</specificMeatDef>
@@ -128,34 +123,27 @@
 			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
-		
 		<tradeTags>
 			<li>AnimalUncommon</li>
 			<li>AnimalFighter</li>
 		</tradeTags>
 		<modExtensions>
 			<li Class="AnimalBehaviours.AnimalStatExtension">
-
 				<statToAdd>
-
 					<li>AA_PrimaryRole</li>
-					<li>AA_RangedAttacks</li>					
+					<li>AA_RangedAttacks</li>
 				</statToAdd>
 				<statValues>
-
 					<li>AA_DamageRangedDOT</li>
-					<li>AA_Yes</li>					
+					<li>AA_Yes</li>
 				</statValues>
 				<statDescriptions>
-
 					<li>AA_DamageRangedDOTDesc</li>
 					<li>AA_Ranged</li>
 				</statDescriptions>
-
 			</li>
 		</modExtensions>
 	</ThingDef>
-
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AA_Mantrap</defName>
 		<race>AA_Mantrap</race>
@@ -199,5 +187,4 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
-
 </Defs>

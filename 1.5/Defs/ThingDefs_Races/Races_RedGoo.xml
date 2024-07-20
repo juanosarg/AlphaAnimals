@@ -54,6 +54,7 @@
 			</li>
 		</comps>
 		<race>
+			<renderTree>AA_RedGoo</renderTree>
 			<deathAction>
 				<workerClass>AlphaBehavioursAndEvents.DeathActionWorker_RedAcidExplosion</workerClass>
 			</deathAction>

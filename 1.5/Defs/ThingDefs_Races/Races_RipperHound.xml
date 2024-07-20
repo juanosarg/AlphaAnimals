@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_RipperHound</defName>
 		<label>ripper hound</label>
@@ -23,7 +22,6 @@
 				<power>16</power>
 				<cooldownTime>1.5</cooldownTime>
 				<linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
-
 			</li>
 			<li>
 				<label>right claw</label>
@@ -33,7 +31,6 @@
 				<power>16</power>
 				<cooldownTime>1.5</cooldownTime>
 				<linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
-
 			</li>
 			<li>
 				<capacities>
@@ -55,10 +52,8 @@
 				<chanceFactor>0.2</chanceFactor>
 			</li>
 		</tools>
-
-
-
 		<race>
+			<renderTree>AA_RipperHound</renderTree>
 			<wildBiomes>
 				<BorealForest>0.01</BorealForest>
 				<Tundra>0.01</Tundra>
@@ -68,11 +63,9 @@
 				<TropicalRainforest>0.005</TropicalRainforest>
 				<TropicalSwamp>0.01</TropicalSwamp>
 				<AridShrubland>0.05</AridShrubland>
-
-
 			</wildBiomes>
 			<body>AA_ExtraClawedQuadruped</body>
-			<predator>true</predator>      
+			<predator>true</predator>
 			<baseBodySize>1.5</baseBodySize>
 			<baseHungerRate>0.1</baseHungerRate>
 			<baseHealthScale>2</baseHealthScale>
@@ -117,7 +110,6 @@
 			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
 			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
-
 		</race>
 		<tradeTags>
 			<li>AnimalUncommon</li>
@@ -125,19 +117,15 @@
 		</tradeTags>
 		<modExtensions>
 			<li Class="AnimalBehaviours.AnimalStatExtension">
-
 				<statToAdd>
-
 					<li>AA_PrimaryRole</li>
-					<li>AA_RangedAttacks</li>					
+					<li>AA_RangedAttacks</li>
 				</statToAdd>
 				<statValues>
-
 					<li>AA_AntiInsectoidShockTroop</li>
-					<li>AA_No</li>					
+					<li>AA_No</li>
 				</statValues>
 				<statDescriptions>
-
 					<li>AA_AntiInsectoidShockTroopDesc</li>
 					<li>AA_NoRanged</li>
 				</statDescriptions>
@@ -146,7 +134,6 @@
 			</li>
 		</modExtensions>
 	</ThingDef>
-
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AA_RipperHound</defName>
 		<label>ripper hound</label>
@@ -194,9 +181,6 @@
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
-
 		<ecoSystemWeight>0.9</ecoSystemWeight>
-
 	</PawnKindDef>
-
 </Defs>
