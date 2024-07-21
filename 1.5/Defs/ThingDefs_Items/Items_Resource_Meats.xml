@@ -156,6 +156,7 @@
       <joyKind>Gluttonous</joyKind>
       <ingestEffect>EatVegetarian</ingestEffect>
       <ingestSound>Meal_Eat</ingestSound>
+	   <babiesCanIngest>true</babiesCanIngest>
     </ingestible>
     <thingCategories>
       <li>AnimalProductRaw</li>
