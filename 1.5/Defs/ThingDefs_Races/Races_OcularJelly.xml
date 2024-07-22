@@ -79,7 +79,7 @@
 		</comps>
 		<race>
 
-
+			<renderTree>AA_OcularJelly</renderTree>
 			<herdAnimal>true</herdAnimal>
 			<body>AA_OcularJellyBody</body>
 			<baseBodySize>0.5</baseBodySize>

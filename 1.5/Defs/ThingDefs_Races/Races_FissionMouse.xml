@@ -129,6 +129,7 @@
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AA_FissionMouse</defName>
 		<label>fission mouse</label>
+		<labelPlural>fission mice</labelPlural>
 		<race>AA_FissionMouse</race>
 		<combatPower>35</combatPower>
 		<ecoSystemWeight>0.2</ecoSystemWeight>
@@ -270,6 +271,7 @@
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AA_FissionMouseSecond</defName>
 		<label>fission mouse, second generation</label>
+		<labelPlural>fission mice, second generation</labelPlural>
 		<race>AA_FissionMouseSecond</race>
 		<combatPower>35</combatPower>
 		<ecoSystemWeight>0.2</ecoSystemWeight>
@@ -388,6 +390,7 @@
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AA_FissionMouseThird</defName>
 		<label>fission mouse, third generation</label>
+		<labelPlural>fission mice, third generation</labelPlural>
 		<race>AA_FissionMouseThird</race>
 		<combatPower>35</combatPower>
 		<ecoSystemWeight>0.2</ecoSystemWeight>

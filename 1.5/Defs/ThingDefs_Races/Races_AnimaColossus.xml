@@ -47,6 +47,10 @@
 				<resourceAmount>50</resourceAmount>
 				<customResourceString>AA_Wood</customResourceString>
 			</li>
+			<li Class="AnimalBehaviours.CompProperties_AttachEffecter">
+				<effecterDef>AA_AnimaLeaves</effecterDef>
+				
+			</li>
 
 		</comps>
 		<race>
