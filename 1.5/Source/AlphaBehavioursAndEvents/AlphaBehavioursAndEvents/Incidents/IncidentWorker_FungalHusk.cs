@@ -42,7 +42,7 @@ namespace AlphaBehavioursAndEvents
                 
             }
           
-            Find.LetterStack.ReceiveLetter("AA_LetterLabelFungalHusk".Translate(husk.label.CapitalizeFirst()), "AA_LetterFungalHusk".Translate(husk.label), LetterDefOf.NegativeEvent, pawn, null, null);
+            Find.LetterStack.ReceiveLetter("AA_LetterLabelFungalHusk".Translate(husk.label.CapitalizeFirst()), "AA_LetterFungalHusk".Translate(husk.label), LetterDefOf.ThreatBig, pawn, null, null);
             return true;
         }
 
