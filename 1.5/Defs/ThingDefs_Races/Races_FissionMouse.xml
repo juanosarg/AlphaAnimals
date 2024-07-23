@@ -133,6 +133,7 @@
 		<race>AA_FissionMouse</race>
 		<combatPower>35</combatPower>
 		<ecoSystemWeight>0.2</ecoSystemWeight>
+		<canArriveManhunter>false</canArriveManhunter>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
@@ -275,6 +276,7 @@
 		<race>AA_FissionMouseSecond</race>
 		<combatPower>35</combatPower>
 		<ecoSystemWeight>0.2</ecoSystemWeight>
+		<canArriveManhunter>false</canArriveManhunter>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
@@ -394,6 +396,7 @@
 		<race>AA_FissionMouseThird</race>
 		<combatPower>35</combatPower>
 		<ecoSystemWeight>0.2</ecoSystemWeight>
+		<canArriveManhunter>false</canArriveManhunter>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
