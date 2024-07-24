@@ -86,7 +86,7 @@
 					<nodeClass>PawnRenderNode_AnimalPart</nodeClass>
 					<useRottenColor>true</useRottenColor>
 					<children>
-						<li Class="AlphaBehavioursAndEvents.PawnRenderNodeProperties_SpasticScaledScaled">
+						<li Class="AlphaBehavioursAndEvents.PawnRenderNodeProperties_SpasticScaled">
 							<linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
 							<texPath>Things/Pawn/Animal/AA_RipperHound/AA_RipperHoundLeftClaw</texPath>
 							<rotDrawMode>Fresh, Rotting</rotDrawMode>
@@ -107,7 +107,7 @@
 								</dataWest>
 							</drawData>
 						</li>
-						<li Class="AlphaBehavioursAndEvents.PawnRenderNodeProperties_SpasticScaledScaled">
+						<li Class="AlphaBehavioursAndEvents.PawnRenderNodeProperties_SpasticScaled">
 							<linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
 							<texPath>Things/Pawn/Animal/AA_RipperHound/AA_RipperHoundRightClaw</texPath>
 							<rotDrawMode>Fresh, Rotting</rotDrawMode>
