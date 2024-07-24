@@ -405,8 +405,11 @@
     <Compile Include="PawnClasses\Pawn_Detonator.cs" />
     <Compile Include="PawnClasses\Pawn_GrowOnCombat.cs" />
     <Compile Include="PawnClasses\Pawn_SwallowWhole.cs" />
+    <Compile Include="PawnRenderNodes\PawnRenderNodeProperties_SpasticScaled.cs" />
+    <Compile Include="PawnRenderNodes\PawnRenderNodeWorker_SpasticScaled.cs" />
     <Compile Include="PawnRenderNodes\PawnRenderNode_ArcticLion.cs" />
     <Compile Include="PawnRenderNodes\PawnRenderNode_CrescendoAnole.cs" />
+    <Compile Include="PawnRenderNodes\PawnRenderNode_SpasticScaled.cs" />
     <Compile Include="Projectiles\Electric_Projectile.cs" />
     <Compile Include="Projectiles\Web_Projectile.cs" />
     <Compile Include="Projectiles\Siege_Projectile.cs" />

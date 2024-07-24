@@ -86,7 +86,7 @@
 					<nodeClass>PawnRenderNode_AnimalPart</nodeClass>
 					<useRottenColor>true</useRottenColor>
 					<children>
-						<li Class="PawnRenderNodeProperties_Spastic">
+						<li Class="AlphaBehavioursAndEvents.AlphaBehavioursAndEvents.PawnRenderNodeProperties_SpasticScaledScaled">
 							<linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
 							<texPath>Things/Pawn/Animal/AA_RipperHound/AA_RipperHoundLeftClaw</texPath>
 							<rotDrawMode>Fresh, Rotting</rotDrawMode>
@@ -107,7 +107,7 @@
 								</dataWest>
 							</drawData>
 						</li>
-						<li Class="PawnRenderNodeProperties_Spastic">
+						<li Class="AlphaBehavioursAndEvents.AlphaBehavioursAndEvents.PawnRenderNodeProperties_SpasticScaledScaled">
 							<linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
 							<texPath>Things/Pawn/Animal/AA_RipperHound/AA_RipperHoundRightClaw</texPath>
 							<rotDrawMode>Fresh, Rotting</rotDrawMode>
@@ -169,7 +169,7 @@
 					<nodeClass>PawnRenderNode_AnimalPart</nodeClass>
 					<useRottenColor>true</useRottenColor>
 					<children>
-						<li Class="PawnRenderNodeProperties_Spastic">
+						<li Class="AlphaBehavioursAndEvents.PawnRenderNodeProperties_SpasticScaled">
 							<linkedBodyPartsGroup>Arms</linkedBodyPartsGroup>
 							<texPath>Things/Pawn/Animal/AA_Aerofleet/AA_Aerofleet_Colossal_Tentacle1</texPath>
 							<rotDrawMode>Fresh, Rotting</rotDrawMode>
@@ -195,7 +195,7 @@
 								</dataWest>
 							</drawData>
 						</li>
-						<li Class="PawnRenderNodeProperties_Spastic">
+						<li Class="AlphaBehavioursAndEvents.PawnRenderNodeProperties_SpasticScaled">
 							<linkedBodyPartsGroup>Arms</linkedBodyPartsGroup>
 							<texPath>Things/Pawn/Animal/AA_Aerofleet/AA_Aerofleet_Colossal_Tentacle2</texPath>
 							<rotDrawMode>Fresh, Rotting</rotDrawMode>
@@ -221,7 +221,7 @@
 								</dataWest>
 							</drawData>
 						</li>
-						<li Class="PawnRenderNodeProperties_Spastic">
+						<li Class="AlphaBehavioursAndEvents.PawnRenderNodeProperties_SpasticScaled">
 							<linkedBodyPartsGroup>Arms</linkedBodyPartsGroup>
 							<texPath>Things/Pawn/Animal/AA_Aerofleet/AA_Aerofleet_Colossal_Tentacle3</texPath>
 							<rotDrawMode>Fresh, Rotting</rotDrawMode>
@@ -247,7 +247,7 @@
 								</dataWest>
 							</drawData>
 						</li>
-						<li Class="PawnRenderNodeProperties_Spastic">
+						<li Class="AlphaBehavioursAndEvents.PawnRenderNodeProperties_SpasticScaled">
 							<linkedBodyPartsGroup>Arms</linkedBodyPartsGroup>
 							<texPath>Things/Pawn/Animal/AA_Aerofleet/AA_Aerofleet_Colossal_Tentacle4</texPath>
 							<rotDrawMode>Fresh, Rotting</rotDrawMode>
@@ -318,7 +318,7 @@
 					<nodeClass>PawnRenderNode_AnimalPart</nodeClass>
 					<useRottenColor>true</useRottenColor>
 					<children>
-						<li Class="PawnRenderNodeProperties_Spastic">
+						<li Class="AlphaBehavioursAndEvents.PawnRenderNodeProperties_SpasticScaled">
 							<linkedBodyPartsGroup>Arms</linkedBodyPartsGroup>
 							<texPath>Things/Pawn/Animal/AA_GreenGoo/AA_GreenGoo_LeftTentacle</texPath>
 							<rotDrawMode>Fresh, Rotting</rotDrawMode>
@@ -337,7 +337,7 @@
 								</dataWest>
 							</drawData>
 						</li>
-						<li Class="PawnRenderNodeProperties_Spastic">
+						<li Class="AlphaBehavioursAndEvents.PawnRenderNodeProperties_SpasticScaled">
 							<linkedBodyPartsGroup>Arms</linkedBodyPartsGroup>
 							<texPath>Things/Pawn/Animal/AA_GreenGoo/AA_GreenGoo_RightTentacle</texPath>
 							<rotDrawMode>Fresh, Rotting</rotDrawMode>
@@ -400,7 +400,7 @@
 					<nodeClass>PawnRenderNode_AnimalPart</nodeClass>
 					<useRottenColor>true</useRottenColor>
 					<children>
-						<li Class="PawnRenderNodeProperties_Spastic">
+						<li Class="AlphaBehavioursAndEvents.PawnRenderNodeProperties_SpasticScaled">
 							<linkedBodyPartsGroup>Arms</linkedBodyPartsGroup>
 							<texPath>Things/Pawn/Animal/AA_RedGoo/AA_RedGoo_LeftTentacle</texPath>
 							<rotDrawMode>Fresh, Rotting</rotDrawMode>
@@ -419,7 +419,7 @@
 								</dataWest>
 							</drawData>
 						</li>
-						<li Class="PawnRenderNodeProperties_Spastic">
+						<li Class="AlphaBehavioursAndEvents.PawnRenderNodeProperties_SpasticScaled">
 							<linkedBodyPartsGroup>Arms</linkedBodyPartsGroup>
 							<texPath>Things/Pawn/Animal/AA_RedGoo/AA_RedGoo_RightTentacle</texPath>
 							<rotDrawMode>Fresh, Rotting</rotDrawMode>
@@ -482,7 +482,7 @@
 					<nodeClass>PawnRenderNode_AnimalPart</nodeClass>
 					<useRottenColor>true</useRottenColor>
 					<children>
-						<li Class="PawnRenderNodeProperties_Spastic">
+						<li Class="AlphaBehavioursAndEvents.PawnRenderNodeProperties_SpasticScaled">
 							<linkedBodyPartsGroup>Arms</linkedBodyPartsGroup>
 							<texPath>Things/Pawn/Animal/AA_Mantrap/AA_Mantrap_Tentacle1</texPath>
 							<rotDrawMode>Fresh, Rotting</rotDrawMode>
@@ -505,7 +505,7 @@
 								</dataNorth>
 							</drawData>
 						</li>
-						<li Class="PawnRenderNodeProperties_Spastic">
+						<li Class="AlphaBehavioursAndEvents.PawnRenderNodeProperties_SpasticScaled">
 							<linkedBodyPartsGroup>Arms</linkedBodyPartsGroup>
 							<texPath>Things/Pawn/Animal/AA_Mantrap/AA_Mantrap_Tentacle2</texPath>
 							<rotDrawMode>Fresh, Rotting</rotDrawMode>
@@ -531,7 +531,7 @@
 								</dataSouth>
 							</drawData>
 						</li>
-						<li Class="PawnRenderNodeProperties_Spastic">
+						<li Class="AlphaBehavioursAndEvents.PawnRenderNodeProperties_SpasticScaled">
 							<linkedBodyPartsGroup>Arms</linkedBodyPartsGroup>
 							<texPath>Things/Pawn/Animal/AA_Mantrap/AA_Mantrap_Tentacle3</texPath>
 							<rotDrawMode>Fresh, Rotting</rotDrawMode>
@@ -554,7 +554,7 @@
 								</dataNorth>
 							</drawData>
 						</li>
-						<li Class="PawnRenderNodeProperties_Spastic">
+						<li Class="AlphaBehavioursAndEvents.PawnRenderNodeProperties_SpasticScaled">
 							<linkedBodyPartsGroup>Arms</linkedBodyPartsGroup>
 							<texPath>Things/Pawn/Animal/AA_Mantrap/AA_Mantrap_Tentacle4</texPath>
 							<rotDrawMode>Fresh, Rotting</rotDrawMode>
@@ -624,7 +624,7 @@
 					<nodeClass>PawnRenderNode_AnimalPart</nodeClass>
 					<useRottenColor>true</useRottenColor>
 					<children>
-						<li Class="PawnRenderNodeProperties_Spastic">
+						<li Class="AlphaBehavioursAndEvents.PawnRenderNodeProperties_SpasticScaled">
 							<linkedBodyPartsGroup>Arms</linkedBodyPartsGroup>
 							<texPath>Things/Pawn/Animal/AA_OcularJelly/AA_OcularJelly_Tentacle1</texPath>
 							<rotDrawMode>Fresh, Rotting</rotDrawMode>
@@ -643,7 +643,7 @@
 								</dataWest>
 							</drawData>
 						</li>
-						<li Class="PawnRenderNodeProperties_Spastic">
+						<li Class="AlphaBehavioursAndEvents.PawnRenderNodeProperties_SpasticScaled">
 							<linkedBodyPartsGroup>Arms</linkedBodyPartsGroup>
 							<texPath>Things/Pawn/Animal/AA_OcularJelly/AA_OcularJelly_Tentacle2</texPath>
 							<rotDrawMode>Fresh, Rotting</rotDrawMode>
@@ -662,7 +662,7 @@
 								</dataWest>
 							</drawData>
 						</li>
-						<li Class="PawnRenderNodeProperties_Spastic">
+						<li Class="AlphaBehavioursAndEvents.PawnRenderNodeProperties_SpasticScaled">
 							<linkedBodyPartsGroup>Arms</linkedBodyPartsGroup>
 							<texPath>Things/Pawn/Animal/AA_OcularJelly/AA_OcularJelly_Tentacle3</texPath>
 							<rotDrawMode>Fresh, Rotting</rotDrawMode>
@@ -681,7 +681,7 @@
 								</dataWest>
 							</drawData>
 						</li>
-						<li Class="PawnRenderNodeProperties_Spastic">
+						<li Class="AlphaBehavioursAndEvents.PawnRenderNodeProperties_SpasticScaled">
 							<linkedBodyPartsGroup>Arms</linkedBodyPartsGroup>
 							<texPath>Things/Pawn/Animal/AA_OcularJelly/AA_OcularJelly_Tentacle4</texPath>
 							<rotDrawMode>Fresh, Rotting</rotDrawMode>
