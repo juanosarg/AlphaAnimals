@@ -14,6 +14,7 @@
 			<foodType>OmnivoreAnimal, AnimalProduct</foodType>
 			<manhunterOnDamageChance>0.95</manhunterOnDamageChance>
 			<manhunterOnTameFailChance>0.20</manhunterOnTameFailChance>
+			<soundEating>Insectoid_Eat</soundEating>
 		</race>
 		<ingredient>
 			<mergeCompatibilityTags>

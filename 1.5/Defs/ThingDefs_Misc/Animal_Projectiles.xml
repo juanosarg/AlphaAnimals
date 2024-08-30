@@ -29,6 +29,20 @@
 		</projectile>
 	</ThingDef>
 	<ThingDef ParentName="BaseBullet">
+		<defName>AA_BlackHiveBolt</defName>
+		<label>vile spit</label>
+		<graphicData>
+			<texPath>Things/Projectiles/AA_PoisonBolt</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<flyOverhead>false</flyOverhead>
+			<damageDef>AA_BlackHiveBolt</damageDef>
+			<damageAmountBase>8</damageAmountBase>
+			<speed>40</speed>
+		</projectile>
+	</ThingDef>
+	<ThingDef ParentName="BaseBullet">
 		<defName>AA_ToxicInk</defName>
 		<label>toxic ink spit</label>
 		<thingClass>Projectile_Explosive</thingClass>

@@ -19,6 +19,7 @@
 		<li IfModActive="VanillaExpanded.VPsycastsE">1.5/Mods/VanillaPsycastsExpanded</li>
 		<li IfModActive="VanillaExpanded.VPsycastsE_steam">1.5/Mods/VanillaPsycastsExpanded</li>			
 		<li IfModActive="BiomesTeam.BiomesIslands">1.5/Mods/BiomesIslands</li>	
+		<li IfModActive="OskarPotocki.VFE.Insectoid2">1.5/Mods/VFEInsectoids2</li>	
 	</v1.5>
 </loadFolders>
 

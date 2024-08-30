@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AlphaBehavioursAndEvents</RootNamespace>
     <AssemblyName>AlphaBehavioursAndEvents</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -293,6 +293,10 @@
       <HintPath>References\VFECore.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="VFEInsectoids">
+      <HintPath>References\VFEInsectoids.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abilities\Oculist\Ability_DestroyEyes.cs" />
@@ -304,9 +308,12 @@
     <Compile Include="Abilities\Ravager\Ability_Melee.cs" />
     <Compile Include="Abilities\Ravager\JumpinPawnFlyer.cs" />
     <Compile Include="Abilities\Xenoseer\Ability_ShootMultipleProjectile.cs" />
+    <Compile Include="Buildings\BlackCocoon.cs" />
+    <Compile Include="Comps\CompBlackSwarmlingToCocoon.cs" />
     <Compile Include="Comps\CompCocoon.cs" />
     <Compile Include="Comps\CompCreateOcularPlants.cs" />
     <Compile Include="Comps\CompLarvaeToCocoon.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_BlackSwarmlingToCocoon.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_CreateOcularPlants.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_Cocoon.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_LarvaeToCocoon.cs" />
@@ -326,6 +333,7 @@
     <Compile Include="DefOfs\InternalDefOf.cs" />
     <Compile Include="Def\ToggleableSpawnDef.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_Berserk.cs" />
+    <Compile Include="ExplosionsAndDamage\DamageWorker_ExtraDamageMechanoidsAcid.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_ExtraDamageMechanoidsPhysical.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_ExtraDamageInsectoids.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_ExtraDamageMechanoids.cs" />
@@ -357,6 +365,7 @@
     <Compile Include="Hediffs\HediffComp_RemoveFromMechs.cs" />
     <Compile Include="Hediffs\HediffComp_Resurrect.cs" />
     <Compile Include="Hediffs\HediffComp_TurnWhenDead.cs" />
+    <Compile Include="Hediffs\Hediff_OverpoweringAcidBuildup.cs" />
     <Compile Include="Incidents\IncidentWorker_BehemothPasses.cs" />
     <Compile Include="Incidents\IncidentWorker_FungalHusk.cs" />
     <Compile Include="Incidents\IncidentWorker_AlphaResourcePodCrash.cs" />

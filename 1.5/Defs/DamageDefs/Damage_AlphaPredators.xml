@@ -58,11 +58,43 @@
 		<label>rending claws</label>
 		<workerClass>AlphaBehavioursAndEvents.DamageWorker_ExtraDamageInsectoids</workerClass>
 	</DamageDef>
-	<DamageDef ParentName="CutBase">
+	<DamageDef ParentName="Bite">
 		<defName>AA_ExtraDamageMechanoidsClaws</defName>
 		<label>rending claws</label>
 		<workerClass>AlphaBehavioursAndEvents.DamageWorker_ExtraDamageMechanoidsPhysical</workerClass>
 	</DamageDef>
+	<DamageDef ParentName="Bite">
+		<defName>AA_ExtraDamageMechanoidsTusk</defName>
+		<label>rending tusk</label>
+		<workerClass>AlphaBehavioursAndEvents.DamageWorker_ExtraDamageMechanoidsPhysical</workerClass>
+	</DamageDef>
+	<DamageDef ParentName="CutBase">
+		<defName>AA_ExtraDamageMechanoidsBite</defName>
+		<label>rending bite</label>
+		<workerClass>AlphaBehavioursAndEvents.DamageWorker_ExtraDamageMechanoidsPhysical</workerClass>
+	</DamageDef>
+	<DamageDef>
+		<defName>AA_BlackHiveBolt</defName>
+		<label>vile spit</label>
+		<workerClass>AlphaBehavioursAndEvents.DamageWorker_ExtraDamageMechanoidsAcid</workerClass>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been poisoned to death.</deathMessage>
+		<hediff>Stab</hediff>
+		<hediffSolid>Crack</hediffSolid>
+		<additionalHediffs>
+			<li>
+				<hediff>AA_ToxicBuildup</hediff>
+				<severityPerDamageDealt>0.004</severityPerDamageDealt>
+				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
+				<inverseStatScaling>true</inverseStatScaling>
+			</li>
+		</additionalHediffs>
+		<isRanged>true</isRanged>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Slice</impactSoundType>
+		<armorCategory>Sharp</armorCategory>
+	</DamageDef>
+	
 	<DamageDef ParentName="BluntBase">
 		<defName>AA_EMPBlunt</defName>
 		<label>EMP pulse</label>

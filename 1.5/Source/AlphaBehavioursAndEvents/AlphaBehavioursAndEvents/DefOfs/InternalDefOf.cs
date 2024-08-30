@@ -18,6 +18,7 @@ namespace AlphaBehavioursAndEvents
         public static PawnKindDef AA_BlackSpider;
         public static PawnKindDef AA_MammothWorm;
         public static PawnKindDef AA_MegaLouse;
+        public static PawnKindDef AA_Ravager;
         public static PawnKindDef AA_Cactipine;
         public static PawnKindDef AA_FissionMouseSecond;
         public static PawnKindDef AA_FissionMouseThird;
@@ -108,6 +109,13 @@ namespace AlphaBehavioursAndEvents
         public static WorkGiverDef Mine;
 
         public static BodyPartDef Body;
+
+        [MayRequire("OskarPotocki.VFE.Insectoid2")]
+        public static HediffDef AA_AcidBuildup_AgainstMechs;
+        [MayRequire("OskarPotocki.VFE.Insectoid2")]
+        public static ThingDef VFEI2_BlackInsectoidCocoon;
+        [MayRequire("OskarPotocki.VFE.Insectoid2")]
+        public static DamageDef AA_OverpoweringSecondaryAcidBurn;
 
 
     }

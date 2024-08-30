@@ -36,6 +36,8 @@
 	<AA_DetonateDesc>Force this animal to detonate. This will kill the animal and cause an explosion.</AA_DetonateDesc>
 	
 	<AA_AnimalDoingWeirdJob>Animal is busy doing a job.</AA_AnimalDoingWeirdJob>
+	
+	<AA_VFEI_CreatingCocoon>{0} to create cocoon</AA_VFEI_CreatingCocoon>
 
 
 	<!-- Incidents -->
@@ -113,7 +115,7 @@
 	<AA_Luciferium>Luciferium production</AA_Luciferium>
 	<AA_RandomItems>Resource assembly in</AA_RandomItems>
 	<AA_HemogenPackDesc>Hemogen pack in</AA_HemogenPackDesc>
-
+	<VFEI2_BlackInsectJelly>Black insect jelly fullness:</VFEI2_BlackInsectJelly>
 
 
 

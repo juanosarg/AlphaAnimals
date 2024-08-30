@@ -46,7 +46,7 @@
 
     <ThingDef ParentName="BuildingNaturalBase">
     <defName>AA_BlackHiveMound</defName>
-    <label>black hive mound</label>
+    <label>huge black hive mound</label>
     <description>A hive of giant insects. This mound was used by the Black Hive to tunnel to this territory, and is now inert. It will erode in a few days.</description>
     <thingClass>AlphaBehavioursAndEvents.Building_BlackHiveMound</thingClass>
 
@@ -72,7 +72,7 @@
     <comps>
       <li Class="CompProperties_Spawner">
         <thingToSpawn>AA_BlackInsectJelly</thingToSpawn>
-        <spawnCount>10</spawnCount>
+        <spawnCount>2</spawnCount>
         <spawnIntervalRange>
           <min>26000</min>
           <max>30000</max>
@@ -82,7 +82,7 @@
         <saveKeysPrefix>jelly</saveKeysPrefix>
       </li>
       <li Class="CompProperties_Spawner">
-        <thingToSpawn>GlowPod</thingToSpawn>
+        <thingToSpawn>AA_DarkGlowPod</thingToSpawn>
         <spawnCount>1</spawnCount>
         <spawnIntervalRange>
           <min>30000</min>
@@ -105,6 +105,50 @@
         <lifespanTicks>120000</lifespanTicks>
       </li>
     </comps>
+  </ThingDef>
+  
+  	  <ThingDef ParentName="BuildingNaturalBase">
+    <defName>AA_DarkGlowPod</defName>
+    <label>dark glow pod</label>
+    <description>A darklight pod produced by giant insects. Glows under its own light for a long time, then dies.</description>
+    <thingClass>Building</thingClass>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <selectable>true</selectable>
+    <fillPercent>0.20</fillPercent>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <rotatable>false</rotatable>
+    <tickerType>Rare</tickerType>
+    <thingCategories>
+      <li>BuildingsSpecial</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Mass>4</Mass>
+      <Flammability>1.0</Flammability>
+      <MarketValue>50</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(78, 226, 229, 0)</glowColor><!-- This is a specific darklight color, make sure it matches DarklightUtility.IsDarklight -->
+      </li>
+      <li Class="CompProperties_Lifespan">
+        <lifespanTicks>1200000</lifespanTicks>
+      </li>
+    </comps>
+    <graphicData>
+      <texPath>Things/Building/AA_DarkGlowPod</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shadowData>
+        <volume>(0.3, 0.6, 0.3)</volume>
+        <offset>(0,0,-0.1)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
   </ThingDef>
   
   

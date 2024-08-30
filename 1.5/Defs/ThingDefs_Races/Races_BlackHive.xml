@@ -3,7 +3,7 @@
 	<ThingDef ParentName="BaseInsect2">
 		<defName>AA_BlackScarab</defName>
 		<label>black scarab</label>
-		<description>This large, genetically-engineered beetle is part of the Black Hive, an artificial ecosystem of insectoids designed to fight mechanoid invasions. The Black Hive was designed to be much more aggressive than usual, and several new species were created and added to the Hive to increase its lethality. Black scarabs are little more than cannon fodder, released ahead of the main insectoid horde to draw enemy fire. A eusocial creature, it cannot reproduce individually.\n\nArt by Feroxiious (check her Instagram at https://www.instagram.com/feroxiious/).</description>
+		<description>This large, genetically-engineered beetle is part of the Black Hive, an artificial ecosystem of insectoids designed to fight mechanoid invasions. The Black Hive was designed to be much more aggressive than usual, and several new species were created and added to the Hive to increase its lethality. Black scarabs are little more than cannon fodder, released ahead of the main insectoid horde to draw enemy fire. A eusocial creature, it cannot reproduce individually.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Causes additional damage when fighting against mechanoids.\n\nArt by Feroxiious (check her Instagram at https://www.instagram.com/feroxiious/).</description>
 		<statBases>
 			<MoveSpeed>4.5</MoveSpeed>
 			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
@@ -16,7 +16,7 @@
 			<li>
 				<label>mandibles</label>
 				<capacities>
-					<li>Bite</li>
+					<li>AA_ExtraDamageMechanoidsBite</li>
 				</capacities>
 				<power>7</power>
 				<cooldownTime>2</cooldownTime>
@@ -159,7 +159,7 @@
 	<ThingDef ParentName="BaseInsect2">
 		<defName>AA_BlackSpelopede</defName>
 		<label>black spelopede</label>
-		<description>A medium-sized bioengineered insectoid the size of a sheep that is part of the Black Hive, an artificial ecosystem of insectoids designed to fight mechanoid invasions. The Black Hive was designed to be much more aggressive than usual, and several new species were created and added to the Hive to increase its lethality. The spelopede is the middle caste of a hive, taking care of most work tasks as well as fighting with its digging claws. It's dangerous in combat, but slow on open ground.\n\nArt by Feroxiious (check her Instagram at https://www.instagram.com/feroxiious/).</description>
+		<description>A medium-sized bioengineered insectoid the size of a sheep that is part of the Black Hive, an artificial ecosystem of insectoids designed to fight mechanoid invasions. The Black Hive was designed to be much more aggressive than usual, and several new species were created and added to the Hive to increase its lethality. The spelopede is the middle caste of a hive, taking care of most work tasks as well as fighting with its digging claws. It's dangerous in combat, but slow on open ground.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Causes additional damage when fighting against mechanoids, with its ranged attacks causing acidic damage against mechanoids, and toxic against fleshy targets.\n\nArt by Feroxiious (check her Instagram at https://www.instagram.com/feroxiious/).</description>
 		<statBases>
 			<MoveSpeed>4</MoveSpeed>
 			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
@@ -171,7 +171,7 @@
 			<li>
 				<label>head claw</label>
 				<capacities>
-					<li>Cut</li>
+					<li>AA_ExtraDamageMechanoidsClaws</li>
 				</capacities>
 				<power>9</power>
 				<cooldownTime>2</cooldownTime>
@@ -202,7 +202,7 @@
 				<accuracyMedium>1</accuracyMedium>
 				<accuracyLong>1</accuracyLong>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>AA_PoisonBolt</defaultProjectile>
+				<defaultProjectile>AA_BlackHiveBolt</defaultProjectile>
 				<warmupTime>3</warmupTime>
 				<burstShotCount>1</burstShotCount>
 				<minRange>2</minRange>
@@ -340,7 +340,7 @@
 	<ThingDef ParentName="BaseInsect2">
 		<defName>AA_BlackSpider</defName>
 		<label>blackspider</label>
-		<description>Not actually a spider, the  blackspider is a genetically-engineered giant insectoid the size of a bear. This creature is part of the Black Hive, an artificial ecosystem of insectoids designed to fight mechanoid invasions. The Black Hive was designed to be much more aggressive than usual, and several new species were created and added to the Hive to increase its lethality. Designed for heavy work and combat, its thick chitinous armor makes it hard to kill, while its long ripper-blades make it deadly at close quarters.\n\nArt by Gon (check more at https://twitter.com/GON_again).</description>
+		<description>Not actually a spider, the  blackspider is a genetically-engineered giant insectoid the size of a bear. This creature is part of the Black Hive, an artificial ecosystem of insectoids designed to fight mechanoid invasions. The Black Hive was designed to be much more aggressive than usual, and several new species were created and added to the Hive to increase its lethality. Designed for heavy work and combat, its thick chitinous armor makes it hard to kill, while its long ripper-blades make it deadly at close quarters.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Causes additional damage when fighting against mechanoids, with its ranged attacks causing acidic damage against mechanoids, and toxic against fleshy targets.\n\nArt by Gon (check more at https://twitter.com/GON_again).</description>
 		<statBases>
 			<MoveSpeed>5</MoveSpeed>
 			<ComfyTemperatureMin>-40</ComfyTemperatureMin>
@@ -352,7 +352,7 @@
 			<li>
 				<label>head claw</label>
 				<capacities>
-					<li>Cut</li>
+					<li>AA_ExtraDamageMechanoidsClaws</li>
 				</capacities>
 				<power>14</power>
 				<cooldownTime>2.6</cooldownTime>
@@ -378,7 +378,7 @@
 				<accuracyMedium>1</accuracyMedium>
 				<accuracyLong>1</accuracyLong>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>AA_PoisonBolt</defaultProjectile>
+				<defaultProjectile>AA_BlackHiveBolt</defaultProjectile>
 				<warmupTime>2</warmupTime>
 				<burstShotCount>1</burstShotCount>
 				<minRange>2</minRange>
