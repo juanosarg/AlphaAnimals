@@ -95,8 +95,8 @@
 	</ThingDef>
 	<ThingDef ParentName="LeatherBase">
 		<defName>Leather_Chitin</defName>
-		<label>insect chitin</label>
-		<description>Hard overlapping scales of insectoid chitin. It is exceptionally durable in combat, but provides little protection from weather.</description>
+		<label>hard chitin</label>
+		<description>Hard overlapping scales of insect chitin. It is exceptionally durable in combat, but provides little protection from weather.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/AA_Chitin</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -119,7 +119,7 @@
 	<ThingDef ParentName="LeatherBase">
 		<defName>Leather_IronChitin</defName>
 		<label>iron chitin</label>
-		<description>Super hard overlapping scales of insectoid chitin. It seems to be reinforced with some kind of iron lattice.</description>
+		<description>Super hard overlapping scales of insect chitin. It seems to be reinforced with some kind of iron lattice.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/AA_Chitin</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
