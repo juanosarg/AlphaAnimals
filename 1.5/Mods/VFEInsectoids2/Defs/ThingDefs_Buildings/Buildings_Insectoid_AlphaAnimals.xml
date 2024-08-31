@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
 	<ThingDef ParentName="VFEI2_BuildingInsectoidBase">
 		<defName>VFEI2_AA_BlackHive</defName>
 		<label>black hive</label>
 		<description>A hive of giant insects of the Black Hive geneline. If activated, it will spawn additional insects and hives over time, as well as valuable black insect jelly. May explode if damaged.</description>
 		<thingClass>Hive</thingClass>
 		<graphicData>
-			 <texPath>Things/Building/AA_BlackHive</texPath>
+			<texPath>Things/Building/AA_BlackHive</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>2</drawSize>
 		</graphicData>
@@ -72,7 +71,7 @@
 				<heatPushMaxTemperature>38</heatPushMaxTemperature>
 			</li>
 			<li Class="CompProperties_SpawnerFilth">
-				<filthDef>Filth_Slime</filthDef>
+				<filthDef>AA_Filth_BlackJelly</filthDef>
 				<spawnCountOnSpawn>10</spawnCountOnSpawn>
 				<spawnMtbHours>4</spawnMtbHours>
 				<spawnRadius>5</spawnRadius>
@@ -85,14 +84,13 @@
 			</li>
 		</comps>
 	</ThingDef>
-	
 	<ThingDef ParentName="VFEI2_BuildingInsectoidBase">
 		<defName>VFEI2_AA_ArtificialBlackHive</defName>
 		<label>artificial black hive</label>
 		<description>An artificially constructed hive of giant insects. It is capable of spawning various Black Hive geneline insectoids over time, as well as some amount of black insect jelly. It requires regular maintenance, and constructing too many hives near each other will increase the maintenance required.</description>
 		<thingClass>VFEInsectoids.ArtificialHive</thingClass>
 		<graphicData>
-			 <texPath>Things/Building/AA_BlackHive</texPath>
+			<texPath>Things/Building/AA_BlackHive</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>2</drawSize>
 		</graphicData>
@@ -122,10 +120,6 @@
 				<li>VFEI_ArtificialHive</li>
 			</buildingTags>
 		</building>
-		
-		
-		
-		
 		<comps>
 			<li Class="VFEInsectoids.CompProperties_Hive">
 				<insectTypes>
@@ -190,7 +184,7 @@
 				<heatPushMaxTemperature>72</heatPushMaxTemperature>
 			</li>
 			<li Class="CompProperties_SpawnerFilth">
-				<filthDef>Filth_Slime</filthDef>
+				<filthDef>AA_Filth_BlackJelly</filthDef>
 				<spawnCountOnSpawn>10</spawnCountOnSpawn>
 				<spawnMtbHours>4</spawnMtbHours>
 				<spawnRadius>5</spawnRadius>
@@ -212,7 +206,6 @@
 			<li>VFEI2_ExoticHivetech</li>
 		</researchPrerequisites>
 	</ThingDef>
-	
 	<ThingDef ParentName="VFEI2_BuildingInsectoidBase" Name="VFEI2_InsectoidCocoon">
 		<defName>VFEI2_BlackInsectoidCocoon</defName>
 		<label>black insectoid cocoon</label>
@@ -241,10 +234,7 @@
 			<isEdifice>false</isEdifice>
 		</building>
 	</ThingDef>
-	
-
-  
-  <ThingDef ParentName="VFEI2_BuildingInsectoidBase">
+	<ThingDef ParentName="VFEI2_BuildingInsectoidBase">
 		<defName>AA_DarkLargeGlowPod</defName>
 		<label>large dark glow pod</label>
 		<description>A large darklight pod produced by giant insects. Glows under its own light and does not perish with time. Needs to be constructed on the creep.</description>
@@ -283,9 +273,10 @@
 		</statBases>
 		<comps>
 			<li Class="CompProperties_Glower">
-        <glowRadius>8.9</glowRadius>
-        <glowColor>(78, 226, 229, 0)</glowColor><!-- This is a specific darklight color, make sure it matches DarklightUtility.IsDarklight -->
-      </li>
+				<glowRadius>8.9</glowRadius>
+				<glowColor>(78, 226, 229, 0)</glowColor>
+				<!-- This is a specific darklight color, make sure it matches DarklightUtility.IsDarklight -->
+			</li>
 			<li Class="CompProperties_SelfhealHitpoints">
 				<ticksPerHeal>6000</ticksPerHeal>
 			</li>
@@ -334,9 +325,10 @@
 		</statBases>
 		<comps>
 			<li Class="CompProperties_Glower">
-        <glowRadius>15.9</glowRadius>
-        <glowColor>(78, 226, 229, 0)</glowColor><!-- This is a specific darklight color, make sure it matches DarklightUtility.IsDarklight -->
-      </li>
+				<glowRadius>15.9</glowRadius>
+				<glowColor>(78, 226, 229, 0)</glowColor>
+				<!-- This is a specific darklight color, make sure it matches DarklightUtility.IsDarklight -->
+			</li>
 			<li Class="CompProperties_SelfhealHitpoints">
 				<ticksPerHeal>6000</ticksPerHeal>
 			</li>
@@ -350,7 +342,6 @@
 		</researchPrerequisites>
 		<terrainAffordanceNeeded>VFEI2_Creep</terrainAffordanceNeeded>
 	</ThingDef>
-	
 	<ThingDef ParentName="VFEI2_BuildingInsectoidBase">
 		<defName>AA_BlackJellyMorpher</defName>
 		<label>black jelly morpher</label>
@@ -419,7 +410,6 @@
 		</researchPrerequisites>
 		<terrainAffordanceNeeded>VFEI2_Creep</terrainAffordanceNeeded>
 	</ThingDef>
-	
 	<ThingDef ParentName="VFEI2_BuildingInsectoidBase">
 		<defName>AA_FreezePod</defName>
 		<label>freeze pod</label>
@@ -451,7 +441,6 @@
 			<li Class="CompProperties_HeatPusher">
 				<heatPerSecond>-3.5</heatPerSecond>
 				<heatPushMinTemperature>-5</heatPushMinTemperature>
-				
 			</li>
 			<li Class="CompProperties_Lifespan">
 				<lifespanTicks>1200000</lifespanTicks>
@@ -476,8 +465,6 @@
 			</damageData>
 		</graphicData>
 	</ThingDef>
-	
-	
 	<ThingDef ParentName="VFEI2_TurretBase">
 		<defName>AA_BlackDefiler</defName>
 		<label>black defiler</label>
@@ -519,9 +506,6 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<verbs>
-		
-		
-		
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
@@ -536,9 +520,7 @@
 				<consumeFuelPerShot>0</consumeFuelPerShot>
 			</li>
 		</verbs>
-		
 	</ThingDef>
-	
 	<ThingDef ParentName="BaseBullet">
 		<defName>AA_BlackDefiler_Projectile</defName>
 		<label>black defiler projectile</label>
@@ -551,7 +533,6 @@
 		<projectile>
 			<speed>33</speed>
 			<explosionRadius>3.9</explosionRadius>
-		
 			<damageDef>AA_BlackHiveBolt</damageDef>
 			<damageAmountBase>20</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
@@ -563,7 +544,6 @@
 			<soundAmbient>MortarRound_Ambient</soundAmbient>
 		</projectile>
 	</ThingDef>
-	
 	<ThingDef ParentName="VFEI2_InsectoidWallBase">
 		<defName>AA_BlackJellyWall</defName>
 		<label>black jelly wall</label>
@@ -576,7 +556,6 @@
 			<MaxHitPoints>80</MaxHitPoints>
 			<WorkToBuild>2000</WorkToBuild>
 			<Flammability>0.3</Flammability>
-			
 		</statBases>
 		<building>
 			<blueprintGraphicData>
@@ -602,7 +581,225 @@
 			</li>
 		</comps>
 	</ThingDef>
-	
-	
-	
+	<ThingDef ParentName="VFEI2_BuildingInsectoidBase">
+		<defName>AA_FoamBelcher</defName>
+		<label>foam belcher</label>
+		<description>An organic, firefoam pod produced by giant insects. When it senses fire, the pod sprays a fire-retardant foam in a cone. Contrary to basic foam pods it won't be destroyed after some time, but needs to be built on the creep. Needs insect jelly to work.</description>
+		<thingClass>Building_TurretFoam</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<texPath>Things/Building/AA_FoamBelcher</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2, 2)</drawSize>
+		</graphicData>
+		<uiIconPath>Things/Building/AA_FoamBelcher</uiIconPath>
+		<altitudeLayer>Building</altitudeLayer>
+		<stealable>false</stealable>
+		<rotatable>false</rotatable>
+		<minifiedDef Inherit="False"/>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<WorkToBuild>2000</WorkToBuild>
+			<Mass>8</Mass>
+			<MarketValue>150</MarketValue>
+			<ShootingAccuracyTurret>1</ShootingAccuracyTurret>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Refuelable">
+				<fuelLabel>Insect jelly</fuelLabel>
+				<fuelGizmoLabel>Insect jelly</fuelGizmoLabel>
+				<outOfFuelMessage>No insect jelly</outOfFuelMessage>
+				<fuelFilter>
+					<thingDefs>
+						<li>InsectJelly</li>
+					</thingDefs>
+				</fuelFilter>
+				<fuelCapacity>10</fuelCapacity>
+				<initialFuelPercent>1</initialFuelPercent>
+				<autoRefuelPercent>0.1</autoRefuelPercent>
+				<showFuelGizmo>true</showFuelGizmo>
+				<minimumFueledThreshold>1</minimumFueledThreshold>
+				<factorByDifficulty>true</factorByDifficulty>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<fuelIconPath>Things/Item/Resource/AnimalProductRaw/InsectJelly/InsectJelly_c</fuelIconPath>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>3.48</glowRadius>
+				<glowColor>(113,141,117,0)</glowColor>
+			</li>
+		</comps>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<fillPercent>0.4</fillPercent>
+		<hasTooltip>true</hasTooltip>
+		<costList>
+			<AA_BlackInsectJelly>50</AA_BlackInsectJelly>
+		</costList>
+		<terrainAffordanceNeeded>VFEI2_Creep</terrainAffordanceNeeded>
+		<designationCategory>VFEI2_Insectoids</designationCategory>
+		<building>
+			<combatPower>5</combatPower>
+			<ai_combatDangerous>false</ai_combatDangerous>
+			<turretGunDef>AA_FoamBelcher_Gun</turretGunDef>
+			<turretTopDrawSize>1.8</turretTopDrawSize>
+			<turretBurstCooldownTime>0.1</turretBurstCooldownTime>
+			<playTargetAcquiredSound>false</playTargetAcquiredSound>
+			<turretBurstWarmupTime>0</turretBurstWarmupTime>
+		</building>
+		<researchPrerequisites>
+			<li>VFEI2_ExoticHivetech</li>
+		</researchPrerequisites>
+	</ThingDef>
+	<ThingDef ParentName="BaseWeaponTurret">
+		<defName>AA_FoamBelcher_Gun</defName>
+		<label>foam belcher</label>
+		<description>An organic, firefoam pod produced by giant insects. When it senses fire, the pod sprays a fire-retardant foam in a cone. Contrary to basic foam pods it won't be destroyed after some time, but needs to be built on the creep. Needs insect jelly to work.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Animal/AA_ArcticLion/AA_ArcticLion_Invisible</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>1</AccuracyTouch>
+			<AccuracyShort>1</AccuracyShort>
+			<AccuracyMedium>1</AccuracyMedium>
+			<AccuracyLong>1</AccuracyLong>
+			<RangedWeapon_Cooldown>0.1</RangedWeapon_Cooldown>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Mass>5</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_ArcSprayProjectile</verbClass>
+				<defaultProjectile>Proj_Foam</defaultProjectile>
+				<warmupTime>0</warmupTime>
+				<range>15.9</range>
+				<consumeFuelPerBurst>1</consumeFuelPerBurst>
+				<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+				<burstShotCount>41</burstShotCount>
+				<sprayWidth>5.5</sprayWidth>
+				<sprayArching>1.5</sprayArching>
+				<sprayThicknessCells>4</sprayThicknessCells>
+				<sprayNumExtraCells>40</sprayNumExtraCells>
+				<sprayEffecterDef>FoamSpray_Directional</sprayEffecterDef>
+			</li>
+		</verbs>
+	</ThingDef>
+	<ThingDef ParentName="VFEI2_BuildingInsectoidBase">
+		<defName>AA_BioMechDisruptor</defName>
+		<label>bio mech disruptor</label>
+		<description>Basically a biological version of a mech disruptor. Any mechanoids in its effect radius will have reduced agility, movement and targeting skill.</description>
+		<graphicData>
+			<texPath>Things/Building/AA_BioMechDisruptor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shadowData>
+				<volume>(1.3, 1.6, 1.3)</volume>
+				<offset>(0,0,-0.1)</offset>
+			</shadowData>
+			<drawSize>(2, 2)</drawSize>
+			<damageData>
+				<rect>(1.2,1.2,1.6,1.6)</rect>
+			</damageData>
+		</graphicData>
+		<thingClass>Building</thingClass>
+		<minifiedDef Inherit="False"/>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<selectable>true</selectable>
+		<fillPercent>0.30</fillPercent>
+		<rotatable>false</rotatable>
+		<tickerType>Normal</tickerType>
+		<size>(2, 2)</size>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Mass>50</Mass>
+			<Flammability>1.0</Flammability>
+			<MarketValue>1000</MarketValue>
+			<WorkToBuild>3800</WorkToBuild>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_SelfhealHitpoints">
+				<ticksPerHeal>6000</ticksPerHeal>
+			</li>
+			<li Class="CompProperties_CauseHediff_AoE">
+				<range>9.9</range>
+				<onlyTargetMechs>true</onlyTargetMechs>
+				<hediff>AA_MechDisruption</hediff>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowCauseHediffAoE</li>
+		</placeWorkers>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<costList>
+			<InsectJelly>25</InsectJelly>
+			<AA_BlackInsectJelly>20</AA_BlackInsectJelly>
+			<VFEI2_PherocoreBlack>1</VFEI2_PherocoreBlack>
+		</costList>
+		<designationCategory>VFEI2_Insectoids</designationCategory>
+		<researchPrerequisites>
+			<li>VFEI2_ExoticHivetech</li>
+		</researchPrerequisites>
+		<terrainAffordanceNeeded>VFEI2_Creep</terrainAffordanceNeeded>
+	</ThingDef>
+	<ThingDef ParentName="VFEI2_BuildingInsectoidBase">
+		<defName>AA_BlackCreeper</defName>
+		<label>black creeper</label>
+		<description>A hive-like structure created by giant insects. It converts already created creep into black creep, which is identical stat and mechanics wise. Use this merely for aesthetics. Contrary to normal creepers they won't even generate jelly once they are done, and they will work much faster.</description>
+		<graphicData>
+			<texPath>Things/Building/AA_BlackCreeper</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.5, 1.5)</drawSize>
+			<shadowData>
+				<volume>(0.3, 0.6, 0.3)</volume>
+				<offset>(0,0,-0.1)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+		<thingClass>Building</thingClass>
+		<minifiedDef Inherit="False"/>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<killedLeavings>
+			<AA_BlackInsectJelly>10</AA_BlackInsectJelly>
+		</killedLeavings>
+		<uiIconScale>0.65</uiIconScale>
+		<selectable>true</selectable>
+		<fillPercent>0.50</fillPercent>
+		<rotatable>false</rotatable>
+		<tickerType>Normal</tickerType>
+		<specialDisplayRadius>12.9</specialDisplayRadius>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>4</Mass>
+			<Flammability>1.0</Flammability>
+			<MarketValue>100</MarketValue>
+			<WorkToBuild>2000</WorkToBuild>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_SelfhealHitpoints">
+				<ticksPerHeal>6000</ticksPerHeal>
+			</li>
+			<li Class="AlphaBehavioursAndEvents.CompProperties_Terraform">
+				<radius>12.9</radius>
+				<terrainToLookFor>VFEI2_Creep</terrainToLookFor>
+				<terrainToSet>AA_BlackCreep</terrainToSet>
+				<spawnTickRate>4500</spawnTickRate>
+			</li>
+		</comps>
+		<costList>
+			<AA_BlackInsectJelly>20</AA_BlackInsectJelly>
+		</costList>
+		<designationCategory>VFEI2_Insectoids</designationCategory>
+		<researchPrerequisites>
+			<li>VFEI2_ExoticHivetech</li>
+		</researchPrerequisites>
+		<terrainAffordanceNeeded>VFEI2_Creep</terrainAffordanceNeeded>
+	</ThingDef>
 </Defs>

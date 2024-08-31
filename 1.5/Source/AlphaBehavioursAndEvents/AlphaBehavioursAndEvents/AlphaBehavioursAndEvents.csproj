@@ -318,9 +318,11 @@
     <Compile Include="Comps\CompProperties\CompProperties_Cocoon.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_LarvaeToCocoon.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_SpawnLarvae.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_Terraform.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_UpdateRoomStats.cs" />
     <Compile Include="Comps\CompSpawnLarvae.cs" />
     <Compile Include="Comps\CompTargetable_Ground.cs" />
+    <Compile Include="Comps\CompTerraform.cs" />
     <Compile Include="Comps\CompUpdateRoomStats.cs" />
     <Compile Include="DeathActionWorkers\DeathActionWorker_FrostbiteExplosion.cs" />
     <Compile Include="DeathActionWorkers\DeathActionWorker_SummonEclipse.cs" />
