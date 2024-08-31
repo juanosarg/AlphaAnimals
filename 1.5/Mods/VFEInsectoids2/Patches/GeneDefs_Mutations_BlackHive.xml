@@ -40,7 +40,7 @@
 							</statFactors>
 						</li>
 					</conditionalStatAffecters>
-					<mentalBreakMtbDays>0.5</mentalBreakMtbDays>
+					<mentalBreakMtbDays>0.35</mentalBreakMtbDays>
 					<mentalBreakDef>AA_PhotosensitiveExoskeleton</mentalBreakDef>
 					<customEffectDescriptions>
 						<li>Will periodically be dissoriented under direct sunlight</li>
