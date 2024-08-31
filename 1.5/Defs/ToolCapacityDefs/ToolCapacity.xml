@@ -97,6 +97,10 @@
 		<label>EMP blunt</label>
 	</ToolCapacityDef>
 	<ToolCapacityDef>
+		<defName>AA_EMPSlash</defName>
+		<label>EMP slash</label>
+	</ToolCapacityDef>
+	<ToolCapacityDef>
 		<defName>FO_PlaguedBite</defName>
 		<label>plagued bite</label>
 	</ToolCapacityDef>

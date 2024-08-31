@@ -100,6 +100,11 @@
 		<label>EMP pulse</label>
 		<workerClass>AlphaBehavioursAndEvents.DamageWorker_ExtraDamageMechanoids</workerClass>
 	</DamageDef>
+	<DamageDef ParentName="CutBase">
+		<defName>AA_EMPSlash</defName>
+		<label>EMP slash</label>
+		<workerClass>AlphaBehavioursAndEvents.DamageWorker_ExtraDamageMechanoids</workerClass>
+	</DamageDef>
 	<DamageDef>
 		<defName>AA_ToxicBolt</defName>
 		<label>toxic sting</label>

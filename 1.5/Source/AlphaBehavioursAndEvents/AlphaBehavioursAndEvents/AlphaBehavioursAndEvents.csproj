@@ -378,7 +378,9 @@
     <Compile Include="Jobs\JobGiver_Mine.cs" />
     <Compile Include="Jobs\JobGiver_TryQuarryJob.cs" />
     <Compile Include="MapComponents\MapRoomUpdater.cs" />
+    <Compile Include="MentalStates\MentalBreakWorker_PhotosensitiveExoskeleton.cs" />
     <Compile Include="MentalStates\MentalState_FriendlyManhunter.cs" />
+    <Compile Include="MentalStates\MentalState_PhotosensitiveExoskeleton.cs" />
     <Compile Include="Options and Utility\AlphaAnimals_SettingsController.cs" />
     <Compile Include="Options and Utility\AlphaAnimals_Settings.cs" />
     <Compile Include="Buildings\Building_BlackHiveMound.cs" />
@@ -425,6 +427,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Incidents\ThingSetMaker_SpecialMeteorite.cs" />
     <Compile Include="Recipes\Recipe_ShutDown.cs" />
+    <Compile Include="ThoughtWorkers\ThoughtWorker_PhotosensitiveExoskeleton.cs" />
     <Compile Include="Utils\Utils.cs" />
   </ItemGroup>
   <ItemGroup>

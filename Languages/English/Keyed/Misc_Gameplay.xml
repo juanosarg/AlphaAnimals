@@ -38,6 +38,8 @@
 	<AA_AnimalDoingWeirdJob>Animal is busy doing a job.</AA_AnimalDoingWeirdJob>
 	
 	<AA_VFEI_CreatingCocoon>{0} to create cocoon</AA_VFEI_CreatingCocoon>
+	
+	<AA_EcholocativeFeedbackReason>The catatonic state was caused by an echolocative feedback. The sudden overwhelming sound proved too much to endure.</AA_EcholocativeFeedbackReason>
 
 
 	<!-- Incidents -->
