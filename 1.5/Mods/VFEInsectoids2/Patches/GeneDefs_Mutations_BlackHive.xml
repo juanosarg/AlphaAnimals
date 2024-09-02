@@ -21,8 +21,8 @@
 					<modExtensions>
 						<li Class="VanillaGenesExpanded.GeneExtension">
 							<hediffToWholeBody>AA_EcholocativeFeedbackLoop</hediffToWholeBody>
-							<backgroundPathEndogenes>UI/Icons/Genes/VRE_EvolutionBG</backgroundPathEndogenes>
-							<backgroundPathXenogenes>UI/Icons/Genes/VRE_EvolutionBG</backgroundPathXenogenes>
+							<backgroundPathEndogenes>UI/Icons/Genes/VRE_MutationBG</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/VRE_MutationBG</backgroundPathXenogenes>
 						</li>
 					</modExtensions>
 				</VanillaRacesExpandedInsector.GenelineGeneDef>
@@ -47,8 +47,8 @@
 					</customEffectDescriptions>
 					<modExtensions>
 						<li Class="VanillaGenesExpanded.GeneExtension">
-							<backgroundPathEndogenes>UI/Icons/Genes/VRE_EvolutionBG</backgroundPathEndogenes>
-							<backgroundPathXenogenes>UI/Icons/Genes/VRE_EvolutionBG</backgroundPathXenogenes>
+							<backgroundPathEndogenes>UI/Icons/Genes/VRE_MutationBG</backgroundPathEndogenes>
+				<backgroundPathXenogenes>UI/Icons/Genes/VRE_MutationBG</backgroundPathXenogenes>
 						</li>
 					</modExtensions>
 				</VanillaRacesExpandedInsector.GenelineGeneDef>
