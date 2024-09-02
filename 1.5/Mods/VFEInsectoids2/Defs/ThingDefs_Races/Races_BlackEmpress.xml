@@ -4,7 +4,7 @@
 	<ThingDef ParentName="VFEI2_BaseInsect">
 		<defName>VFEI2_BlackEmpress</defName>
 		<label>black empress</label>
-		<description>An incredibly rare and monstrously large insectoid of the Black Hive geneline. Unlike its Sorne counterpart, the black empress is not much worried about creating offspring, being more worried about being an absolute nightmare in close quarters combat. She can tore through heavy armor as if it wasn't there, but what makes it particularly dangerous is its ability to absolutely melt any mechanoids it encounters with a ranged spit attack. Upon death, it’s possible to extract a Black Hive pherocore from her body.</description>
+		<description>An incredibly rare and monstrously large insectoid of the Black Hive geneline. Unlike its Sorne counterpart, the black empress is not worried about creating offspring, feeling more concerned about acting as an absolute nightmare in close quarters combat. She can tore through heavy armor as if it wasn't there, but what makes her particularly dangerous is her ability to absolutely melt any mechanoids it encounters with a ranged spit attack. Upon death, it’s possible to extract a Black Hive pherocore from her body.</description>
 		<statBases>
 			<MoveSpeed>5.6</MoveSpeed>
 			<Flammability>0.2</Flammability>
@@ -22,7 +22,7 @@
 				</capacities>
 				<armorPenetration>0.06</armorPenetration>
 				<power>18</power>
-				<cooldownTime>1.5</cooldownTime>
+				<cooldownTime>1.25</cooldownTime>
 				<linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
 			</li>
 			<li>
@@ -32,7 +32,7 @@
 				</capacities>
 				<armorPenetration>0.18</armorPenetration>
 				<power>20</power>
-				<cooldownTime>1.5</cooldownTime>
+				<cooldownTime>1.25</cooldownTime>
 				<linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
 			</li>
 			<li>
