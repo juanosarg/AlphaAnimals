@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using Verse;
-using VFEInsectoids;
+
 
 namespace AlphaBehavioursAndEvents
 {
@@ -15,8 +15,7 @@ namespace AlphaBehavioursAndEvents
         public int nextTickEffect;
         protected virtual bool Active => parent.Spawned;
         public int NextTickEffect => Find.TickManager.TicksGame + Props.spawnTickRate.RandomInRange;
-        public CompSpawnerDisableable compSpawner;
-
+     
        
 
         public override void PostExposeData()
@@ -29,7 +28,7 @@ namespace AlphaBehavioursAndEvents
         public override void PostSpawnSetup(bool respawningAfterLoad)
         {
             base.PostSpawnSetup(respawningAfterLoad);
-            compSpawner = parent.GetComp<CompSpawnerDisableable>();
+           
             if (!respawningAfterLoad)
             {
                 parent.Map.terrainGrid.SetTerrain(parent.Position, Props.terrainToSet);
