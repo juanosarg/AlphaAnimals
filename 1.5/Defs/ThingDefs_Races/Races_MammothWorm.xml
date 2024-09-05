@@ -67,7 +67,7 @@
 			<fleshType>Insectoid</fleshType>
 			<bloodDef>Filth_BloodInsect</bloodDef>
 			<useMeatFrom>Megaspider</useMeatFrom>
-			<foodType>OmnivoreRoughAnimal</foodType>
+		
 			<leatherDef>Leather_BlackChitin</leatherDef>
 			<packAnimal>true</packAnimal>
 			<wildness>0.9</wildness>
