@@ -6,7 +6,7 @@
 		<hive>VFEI2_AA_BlackHive</hive>
 		<spawnWeight>0.05</spawnWeight>
 		<boss>VFEI2_BlackEmpress</boss>
-		
+		<waveIconPath>UI/WaveSurvivalUI/Wave_BlackHive</waveIconPath>
 		<insects>
 			<AA_MammothWorm>1</AA_MammothWorm>
 			<AA_MegaLouse>2</AA_MegaLouse>
