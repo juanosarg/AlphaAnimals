@@ -42,7 +42,7 @@ namespace AlphaBehavioursAndEvents
                    
                     this.CreateSustainer();
                 }
-                if (!this.sustainer.Ended)
+                else if (!this.sustainer.Ended)
                 {
                     this.sustainer.Maintain();
 
