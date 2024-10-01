@@ -72,8 +72,7 @@ namespace AlphaBehavioursAndEvents
 			{
 				if (ModLister.HasActiveModWithName("Alpha Biomes"))
 				{
-					Random rand = new Random();
-                    if (rand.NextDouble() < 0.3)
+                    if (Rand.Value < 0.3)
                     {
 						if (this.parent.Map.weatherManager.curWeather != WeatherDef.Named("AB_RedFog"))
 						{
@@ -165,7 +164,6 @@ namespace AlphaBehavioursAndEvents
 			}
 			if (plant.LeaflessNow)
 			{
-				Random rand = new Random();
 				if (plant.def.plant.IsTree && !listOfUnaffectedTrees.Contains(plant.def.defName))
 				{
 					Plant thing2 = (Plant)GenSpawn.Spawn(InternalDefOf.AA_AlienTree, plant.Position, plant.Map, WipeMode.Vanish);
@@ -174,21 +172,22 @@ namespace AlphaBehavioursAndEvents
 					plant.Kill();
 				}
 				else if (!plant.def.plant.IsTree && !listOfUnaffectedCrops.Contains(plant.def.defName)){
-					if (rand.NextDouble() < 0.4)
+					float value = Rand.Value;
+					if (value < 0.4)
 					{
 						Plant thing2 = (Plant)GenSpawn.Spawn(InternalDefOf.AA_AlienGrass, plant.Position, plant.Map, WipeMode.Vanish);
 						Plant thingToDestroy = plant;
 						thing2.Growth = thingToDestroy.Growth;
 						plant.Kill();
 					}
-					else if (rand.NextDouble() > 0.4 && rand.NextDouble() < 0.7)
+					else if (value < 0.7)
 					{
 						Plant thing2 = (Plant)GenSpawn.Spawn(InternalDefOf.AA_RedLeaves, plant.Position, plant.Map, WipeMode.Vanish);
 						Plant thingToDestroy = plant;
 						thing2.Growth = thingToDestroy.Growth;
 						plant.Kill();
 					}
-					else if (rand.NextDouble() > 0.7)
+					else
 					{
 						Plant thing2 = (Plant)GenSpawn.Spawn(InternalDefOf.AA_RedPlantsTall, plant.Position, plant.Map, WipeMode.Vanish);
 						Plant thingToDestroy = plant;

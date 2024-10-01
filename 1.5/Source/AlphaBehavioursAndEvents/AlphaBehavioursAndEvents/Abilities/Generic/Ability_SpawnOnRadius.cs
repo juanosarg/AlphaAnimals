@@ -22,11 +22,10 @@ namespace AlphaBehavioursAndEvents
         {
             base.Cast(targets);
             Ability_SpawnOnRadius_Extension extension = this.def.GetModExtension<Ability_SpawnOnRadius_Extension>();
-            Random rand = new Random();
             foreach (GlobalTargetInfo target in targets)
             {
                 
-                if (rand.NextDouble() < extension.probability)
+                if (Rand.Value < extension.probability)
                 {
                    
                     ThingDef newThing = extension.thingToSpawn;

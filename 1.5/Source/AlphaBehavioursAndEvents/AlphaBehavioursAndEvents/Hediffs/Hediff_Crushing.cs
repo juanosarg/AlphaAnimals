@@ -11,8 +11,6 @@ namespace AlphaBehavioursAndEvents
     public class Hediff_Crushing : HediffWithComps
     {
 
-        private System.Random random = new System.Random();
-
         private int tickCounter = 0;
        
         private int filthCounter = 0;
@@ -89,7 +87,7 @@ namespace AlphaBehavioursAndEvents
             int num =   GenRadial.NumCellsInRadius(3f);
             for (int i = 0; i < num; i++)
             {
-                if (random.NextDouble() > 0.8) {
+                if (Rand.Value > 0.8) {
                     IntVec3 intVec = this.pawn.Position + GenRadial.RadialPattern[i];
                     if (pawn.Map != null)
                     {
