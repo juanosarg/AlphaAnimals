@@ -123,8 +123,8 @@
 
 
 	<!-- Mod Settings -->
-	<alternatePokemonGraphics>Use alternate "Pokemon" graphics for select animals</alternatePokemonGraphics>
-	<alternatePokemonGraphics_Desc>If this is active, select animals will use the cool retexture by FurryVapemobile. The following animals have a retexture: Agaripawn, Agaripod, Arctic lion, Decay drake, Desert ave, Gallatross, Gigantelope, Ground runner, Mammoth worm, Megalouse, Mycoid colossus, Overgrown colossus, Radyak, Sand lion and Thermadon </alternatePokemonGraphics_Desc>
+	<alternatePokemonGraphics>Use alternate "cute" graphics for select animals, by Roidgy</alternatePokemonGraphics>
+	<alternatePokemonGraphics_Desc>If this is active, select animals will use the cool retexture by Roidgy. The following animals have a retexture: Agaripawn, Agaripod, Arctic lion, Decay drake, Desert ave, Gallatross, Gigantelope, Ground runner, Mammoth worm, Megalouse, Mycoid colossus, Overgrown colossus, Radyak, Sand lion and Thermadon </alternatePokemonGraphics_Desc>
 	<allowVanillaAnimals>Allow base game animals (affects only wild spawns)</allowVanillaAnimals>
 	<allowBlackHive>Allow Black Hive raids</allowBlackHive>
 	<allowStalkingLions>Allow Stalking Arctic Lion attacks</allowStalkingLions>
