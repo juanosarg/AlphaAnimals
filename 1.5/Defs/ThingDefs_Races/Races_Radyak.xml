@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
 	<!-- ============================================================ -->
-
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_Radyak</defName>
 		<label>radyak</label>
@@ -13,48 +11,47 @@
 			<MarketValue>2500</MarketValue>
 			<FilthRate>16</FilthRate>
 		</statBases>
-		 <tools>
-      <li>
-        <label>head</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>13</power>
-        <cooldownTime>2.6</cooldownTime>
-        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-      </li>
-      <li>
-        <label>left hoof</label>
-        <capacities>
-          <li>Blunt</li>
-          <li>Poke</li>
-        </capacities>
-        <power>10</power>
-        <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
-      </li>
-      <li>
-        <label>right hoof</label>
-        <capacities>
-          <li>Blunt</li>
-          <li>Poke</li>
-        </capacities>
-        <power>10</power>
-        <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
-      </li>
-      <li>
-        <capacities>
-          <li>Bite</li>
-        </capacities>
-        <power>10</power>
-        <cooldownTime>2</cooldownTime>
-        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-        <chanceFactor>0.5</chanceFactor>
-      </li>
-    </tools>
-
+		<tools>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>13</power>
+				<cooldownTime>2.6</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+			</li>
+			<li>
+				<label>left hoof</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>right hoof</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.5</chanceFactor>
+			</li>
+		</tools>
 		<comps>
 			<li Class="CompProperties_Milkable">
 				<milkDef>Milk</milkDef>
@@ -66,10 +63,11 @@
 				<gatheringIntervalDays>10</gatheringIntervalDays>
 				<resourceAmount>1</resourceAmount>
 				<customResourceString>AA_UraniumCrystalsDesc</customResourceString>
-
 			</li>
+			<li Class="AlphaBehavioursAndEvents.CompProperties_GraphicsRefresher"/>
 		</comps>
 		<race>
+			<renderTree>AA_Alternates</renderTree>
 			<wildBiomes>
 				<BorealForest>0.001</BorealForest>
 				<IceSheet>0.01</IceSheet>
@@ -81,7 +79,6 @@
 				<TemperateForest>0.001</TemperateForest>
 				<TropicalRainforest>0.001</TropicalRainforest>
 				<AridShrubland>0.001</AridShrubland>
-				
 			</wildBiomes>
 			<herdAnimal>true</herdAnimal>
 			<predator>false</predator>
@@ -99,7 +96,6 @@
 			<trainability>None</trainability>
 			<packAnimal>false</packAnimal>
 			<gestationPeriodDays>6.66</gestationPeriodDays>
-			
 			<lifeExpectancy>46</lifeExpectancy>
 			<lifeStageAges>
 				<li>
@@ -113,10 +109,10 @@
 				<li>
 					<def>AnimalAdult</def>
 					<minAge>0.50</minAge>
-					 <soundWounded>Pawn_Muffalo_Wounded</soundWounded>
-					  <soundDeath>Pawn_Muffalo_Death</soundDeath>
-					  <soundCall>Pawn_Muffalo_Call</soundCall>
-					  <soundAngry>Pawn_Muffalo_Angry</soundAngry>
+					<soundWounded>Pawn_Muffalo_Wounded</soundWounded>
+					<soundDeath>Pawn_Muffalo_Death</soundDeath>
+					<soundCall>Pawn_Muffalo_Call</soundCall>
+					<soundAngry>Pawn_Muffalo_Angry</soundAngry>
 				</li>
 			</lifeStageAges>
 			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
@@ -125,53 +121,50 @@
 		</race>
 		<tradeTags>
 			<li>AnimalUncommon</li>
-			<li>AnimalFarm</li>    </tradeTags>
-			<modExtensions>
+			<li>AnimalFarm</li>
+		</tradeTags>
+		<modExtensions>
 			<li Class="AnimalBehaviours.AnimalStatExtension">
-
-				<statToAdd>					
+				<statToAdd>
 					<li>AA_PrimaryRole</li>
-					<li>AA_RangedAttacks</li>					
+					<li>AA_RangedAttacks</li>
 				</statToAdd>
 				<statValues>
-					<li>AA_Farm</li>					
-					<li>AA_No</li>					
+					<li>AA_Farm</li>
+					<li>AA_No</li>
 				</statValues>
 				<statDescriptions>
 					<li>AA_FarmBuildingAndMilkDesc</li>
 					<li>AA_NoRanged</li>
 				</statDescriptions>
-
 			</li>
 		</modExtensions>
 	</ThingDef>
-
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AA_Radyak</defName>
 		<label>radyak</label>
 		<race>AA_Radyak</race>
 		<combatPower>100</combatPower>
- <ecoSystemWeight>1.1</ecoSystemWeight>
-    <wildGroupSize>
-      <min>2</min>
-      <max>5</max>
-    </wildGroupSize>
+		<ecoSystemWeight>1.1</ecoSystemWeight>
+		<wildGroupSize>
+			<min>2</min>
+			<max>5</max>
+		</wildGroupSize>
 		<lifeStages>
 			<li>
 				<label>radyak calf</label>
 				<labelPlural>radyak calves</labelPlural>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/AA_Radyak/AA_Radyak</texPath>
-          <drawSize>1.5</drawSize>
+					<drawSize>1.5</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.3, 0.3)</volume>
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
-
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/AA_Radyak/AA_Dessicated_Radyak</texPath>
-          <drawSize>1.5</drawSize>
+					<drawSize>1.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
@@ -183,7 +176,6 @@
 						<offset>(0,0,-0.25)</offset>
 					</shadowData>
 				</bodyGraphicData>
-
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/AA_Radyak/AA_Dessicated_Radyak</texPath>
 					<drawSize>2.25</drawSize>
@@ -198,7 +190,6 @@
 						<offset>(0,0,-0.3)</offset>
 					</shadowData>
 				</bodyGraphicData>
-
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/AA_Radyak/AA_Dessicated_Radyak</texPath>
 					<drawSize>3</drawSize>
@@ -206,5 +197,4 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
-
 </Defs>

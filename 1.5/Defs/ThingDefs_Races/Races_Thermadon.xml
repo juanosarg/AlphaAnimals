@@ -1,10 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-
-
-
-
 	<ThingDef ParentName="AA_AlphaBaseInsect">
 		<defName>AA_Thermadon</defName>
 		<label>thermadon</label>
@@ -17,7 +12,6 @@
 			<ArmorRating_Sharp>0.4</ArmorRating_Sharp>
 			<Flammability>0</Flammability>
 			<FilthRate>2</FilthRate>
-
 		</statBases>
 		<tools>
 			<li>
@@ -60,14 +54,15 @@
 				<label>thermal detonating spit</label>
 				<commonality>.9</commonality>
 			</li>
-
-
 		</verbs>
 		<comps>
-		<li Class="MVCF.Comps.CompProperties_RandomVerbs">
+			<li Class="MVCF.Comps.CompProperties_RandomVerbs">
 				<meleeChance>0.2</meleeChance>
-			</li></comps>
+			</li>
+			<li Class="AlphaBehavioursAndEvents.CompProperties_GraphicsRefresher"/>
+		</comps>
 		<race>
+			<renderTree>AA_Alternates</renderTree>
 			<wildBiomes>
 				<BorealForest>0.01</BorealForest>
 				<Tundra>0.05</Tundra>
@@ -78,7 +73,6 @@
 				<AridShrubland>0.01</AridShrubland>
 				<Desert>0.01</Desert>
 				<TropicalRainforest>0.01</TropicalRainforest>
-
 			</wildBiomes>
 			<body>BeetleLikeWithClaw</body>
 			<baseHungerRate>0.35</baseHungerRate>
@@ -117,24 +111,21 @@
 		</tradeTags>
 		<modExtensions>
 			<li Class="AnimalBehaviours.AnimalStatExtension">
-
 				<statToAdd>
 					<li>AA_PrimaryRole</li>
-					<li>AA_RangedAttacks</li>					
+					<li>AA_RangedAttacks</li>
 				</statToAdd>
 				<statValues>
 					<li>AA_DamageRangedFire</li>
-					<li>AA_Yes</li>					
+					<li>AA_Yes</li>
 				</statValues>
 				<statDescriptions>
 					<li>AA_DamageRangedFireDesc</li>
 					<li>AA_Ranged</li>
 				</statDescriptions>
-
 			</li>
 		</modExtensions>
 	</ThingDef>
-
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AA_Thermadon</defName>
 		<label>thermadon</label>
@@ -178,6 +169,4 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
-
-
 </Defs>

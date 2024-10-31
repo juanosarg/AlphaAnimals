@@ -92,8 +92,8 @@ namespace AlphaBehavioursAndEvents
 
     {
 
-        
-        public  bool flagBlackHiveRaids = true;
+        public bool alternatePokemonGraphics = false;
+        public bool flagBlackHiveRaids = true;
         public  bool flagStalkingLions = true;
         public  bool flagCactipineDroppods = true;
         public  bool flagSpiderClutchMothers = true;
@@ -107,6 +107,8 @@ namespace AlphaBehavioursAndEvents
         public  bool flagMime = true;
         public bool flagFungalHusk = true;
 
+        private bool refresh = true;
+
 
         public const float alphaAnimalSpawnMultiplierBase = 1;
         public float alphaAnimalSpawnMultiplier = alphaAnimalSpawnMultiplierBase;
@@ -116,7 +118,8 @@ namespace AlphaBehavioursAndEvents
         public override void ExposeData()
         {
             base.ExposeData();
-          
+
+            Scribe_Values.Look(ref alternatePokemonGraphics, "alternatePokemonGraphics", false, true);
             Scribe_Values.Look(ref flagBlackHiveRaids, "flagBlackHiveRaids", true, true);
             Scribe_Values.Look(ref flagStalkingLions, "flagStalkingLions", true, true);
             Scribe_Values.Look(ref flagCactipineDroppods, "flagCactipineDroppods", true, true);
@@ -147,8 +150,9 @@ namespace AlphaBehavioursAndEvents
 
             ls.Begin(inRect);
             ls.Gap(10f);
-           
-           
+
+            ls.CheckboxLabeled("alternatePokemonGraphics".Translate(), ref alternatePokemonGraphics, "alternatePokemonGraphics_Desc".Translate());   
+
             ls.CheckboxLabeled("allowBlackHive".Translate(), ref flagBlackHiveRaids, null);
            
             ls.CheckboxLabeled("allowStalkingLions".Translate(), ref flagStalkingLions, null);

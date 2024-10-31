@@ -312,10 +312,12 @@
     <Compile Include="Comps\CompBlackSwarmlingToCocoon.cs" />
     <Compile Include="Comps\CompCocoon.cs" />
     <Compile Include="Comps\CompCreateOcularPlants.cs" />
+    <Compile Include="Comps\CompGraphicsRefresher.cs" />
     <Compile Include="Comps\CompLarvaeToCocoon.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_BlackSwarmlingToCocoon.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_CreateOcularPlants.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_Cocoon.cs" />
+    <Compile Include="Comps\CompProperties\CompProperties_GraphicsRefresher.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_LarvaeToCocoon.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_SpawnLarvae.cs" />
     <Compile Include="Comps\CompProperties\CompProperties_Terraform.cs" />
@@ -420,9 +422,12 @@
     <Compile Include="PawnClasses\Pawn_SwallowWhole.cs" />
     <Compile Include="PawnRenderNodes\PawnRenderNodeProperties_SpasticScaled.cs" />
     <Compile Include="PawnRenderNodes\PawnRenderNodeWorker_SpasticScaled.cs" />
+    <Compile Include="PawnRenderNodes\PawnRenderNode_AlternatesWithVariations.cs" />
+    <Compile Include="PawnRenderNodes\PawnRenderNode_Alternates.cs" />
     <Compile Include="PawnRenderNodes\PawnRenderNode_ArcticLion.cs" />
     <Compile Include="PawnRenderNodes\PawnRenderNode_CrescendoAnole.cs" />
     <Compile Include="PawnRenderNodes\PawnRenderNode_SpasticScaled.cs" />
+    <Compile Include="PawnRenderNodes\Properties\PawnRenderNodeProperties_WithIndex.cs" />
     <Compile Include="Projectiles\Electric_Projectile.cs" />
     <Compile Include="Projectiles\Web_Projectile.cs" />
     <Compile Include="Projectiles\Siege_Projectile.cs" />

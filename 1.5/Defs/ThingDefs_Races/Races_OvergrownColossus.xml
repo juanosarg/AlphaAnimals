@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
 	<!-- ====================================================== -->
-
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_OvergrownColossus</defName>
 		<label>overgrown colossus</label>
@@ -14,10 +12,8 @@
 			<MeatAmount>30</MeatAmount>
 			<LeatherAmount>30</LeatherAmount>
 			<FilthRate>16</FilthRate>
-
 		</statBases>
 		<tools>
-
 			<li>
 				<capacities>
 					<li>Bite</li>
@@ -25,7 +21,6 @@
 				<power>20</power>
 				<cooldownTime>1.85</cooldownTime>
 				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-
 			</li>
 			<li>
 				<label>head</label>
@@ -38,19 +33,17 @@
 				<chanceFactor>0.2</chanceFactor>
 			</li>
 		</tools>
-
 		<comps>
-
 			<li Class="AnimalBehaviours.CompProperties_AnimalProduct">
 				<resourceDef>WoodLog</resourceDef>
 				<gatheringIntervalDays>15</gatheringIntervalDays>
 				<resourceAmount>50</resourceAmount>
 				<customResourceString>AA_Wood</customResourceString>
-
 			</li>
-
+			<li Class="AlphaBehavioursAndEvents.CompProperties_GraphicsRefresher"/>
 		</comps>
 		<race>
+			<renderTree>AA_AlternatesWithVariations</renderTree>
 			<wildBiomes>
 				<TemperateForest>0.01</TemperateForest>
 				<TropicalRainforest>0.02</TropicalRainforest>
@@ -96,27 +89,24 @@
 		</tradeTags>
 		<modExtensions>
 			<li Class="AnimalBehaviours.AnimalStatExtension">
-
 				<statToAdd>
 					<li>AA_SecondaryRole</li>
 					<li>AA_PrimaryRole</li>
-					<li>AA_RangedAttacks</li>					
+					<li>AA_RangedAttacks</li>
 				</statToAdd>
 				<statValues>
 					<li>AA_Farm</li>
 					<li>AA_Tank</li>
-					<li>AA_No</li>					
+					<li>AA_No</li>
 				</statValues>
 				<statDescriptions>
 					<li>AA_FarmBuildingDesc</li>
 					<li>AA_ArmouredTankDesc</li>
 					<li>AA_NoRanged</li>
 				</statDescriptions>
-
 			</li>
 		</modExtensions>
 	</ThingDef>
-
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AA_OvergrownColossus</defName>
 		<label>overgrown colossus</label>
@@ -124,7 +114,6 @@
 		<combatPower>500</combatPower>
 		<ecoSystemWeight>.75</ecoSystemWeight>
 		<canArriveManhunter>false</canArriveManhunter>
-
 		<alternateGraphicChance>1</alternateGraphicChance>
 		<alternateGraphics>
 			<li>
@@ -136,9 +125,7 @@
 			<li>
 				<texPath>Things/Pawn/Animal/AA_OvergrownColossus/AA_OvergrownColossus3</texPath>
 			</li>
-
 		</alternateGraphics>
-
 		<lifeStages>
 			<li>
 				<bodyGraphicData>

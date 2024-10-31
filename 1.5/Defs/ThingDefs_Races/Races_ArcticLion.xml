@@ -82,6 +82,7 @@
 				<shearIntervalDays>30</shearIntervalDays>
 				<woolAmount>20</woolAmount>
 			</li>
+			<li Class="AlphaBehavioursAndEvents.CompProperties_GraphicsRefresher" />
 		</comps>
 		<race>
 			<renderTree>AA_ArcticLion</renderTree>

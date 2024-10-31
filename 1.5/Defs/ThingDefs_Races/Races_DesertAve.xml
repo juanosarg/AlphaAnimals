@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_DesertAve</defName>
 		<label>desert ave</label>
-
 		<description>The Desert Ave is a large flightless bird adapted to living in very arid terrains. Large bony plates cover its neck, giving it a much-needed defense both from predators and from the scalding heat of the desert sun. Compared to their more common Meadow Ave relatives, Desert Aves are less temperamental, but their slightly smaller size makes them less useful as pack animals.\n\nDesert Aves are amazing mounts, much faster than horses, and if properly trained they can be ridden into battle at incredible speeds (this interaction needs the Giddy-Up, combat mounts mod, and it will make the Desert Aves move 50% faster when used as mounts).\n\nArt by Feroxiious (check her Instagram at https://www.instagram.com/feroxiious/).</description>
 		<statBases>
 			<MoveSpeed>7.0</MoveSpeed>
@@ -14,9 +12,8 @@
 			<CaravanRidingSpeedFactor>1.6</CaravanRidingSpeedFactor>
 			<FilthRate>8</FilthRate>
 		</statBases>
-
 		<race>
-
+			<renderTree>AA_Alternates</renderTree>
 			<wildBiomes>
 				<AridShrubland>0.4</AridShrubland>
 				<Desert>0.8</Desert>
@@ -36,7 +33,6 @@
 			<manhunterOnTameFailChance>0.04</manhunterOnTameFailChance>
 			<trainability>Advanced</trainability>
 			<leatherDef>Leather_Bird</leatherDef>
-			
 			<litterSizeCurve>
 				<points>
 					<li>(0.99, 0)</li>
@@ -70,10 +66,6 @@
 			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
 			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
-
-
-
-
 		</race>
 		<tradeTags>
 			<li>AnimalUncommon</li>
@@ -86,7 +78,7 @@
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
 				<eggCountRange>1</eggCountRange>
 			</li>
-
+			<li Class="AlphaBehavioursAndEvents.CompProperties_GraphicsRefresher"/>
 		</comps>
 		<tools>
 			<li>
@@ -135,19 +127,15 @@
 		</tools>
 		<modExtensions>
 			<li Class="AnimalBehaviours.AnimalStatExtension">
-
 				<statToAdd>
-
 					<li>AA_PrimaryRole</li>
-					<li>AA_RangedAttacks</li>					
+					<li>AA_RangedAttacks</li>
 				</statToAdd>
 				<statValues>
-
 					<li>AA_MountFast</li>
-					<li>AA_No</li>					
+					<li>AA_No</li>
 				</statValues>
 				<statDescriptions>
-
 					<li>AA_MountFastDesc</li>
 					<li>AA_NoRanged</li>
 				</statDescriptions>
@@ -156,7 +144,6 @@
 			</li>
 		</modExtensions>
 	</ThingDef>
-
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AA_DesertAve</defName>
 		<label>desert ave</label>
@@ -164,7 +151,6 @@
 		<race>AA_DesertAve</race>
 		<ecoSystemWeight>0.5</ecoSystemWeight>
 		<combatPower>70</combatPower>
-
 		<wildGroupSize>
 			<min>2</min>
 			<max>4</max>
@@ -204,14 +190,11 @@
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
-
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/AA_MeadowAve/AA_Dessicated_MeadowAve</texPath>
 					<drawSize>2.75</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
-
 	</PawnKindDef>
-
 </Defs>

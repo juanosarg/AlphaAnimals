@@ -89,8 +89,10 @@
 				<resourceAmount>1</resourceAmount>
 				<dropChance>0.5</dropChance>
 			</li>
+			<li Class="AlphaBehavioursAndEvents.CompProperties_GraphicsRefresher"/>
 		</comps>
 		<race>
+			<renderTree>AA_Alternates</renderTree>
 			<deathAction>
 				<workerClass>AnimalBehaviours.DeathActionWorker_DropOnDeath</workerClass>
 			</deathAction>

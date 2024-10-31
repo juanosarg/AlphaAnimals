@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
 	<!-- ============================================================ -->
-
 	<ThingDef ParentName="BaseInsect2">
 		<defName>AA_MegaLouse</defName>
 		<label>megalouse</label>
@@ -33,11 +31,8 @@
 				<cooldownTime>1.65</cooldownTime>
 				<chanceFactor>0.2</chanceFactor>
 			</li>
-
 		</tools>
 		<comps>
-
-
 			<li Class="CompProperties_EggLayer">
 				<eggUnfertilizedDef>AA_MegalouseEggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizedDef>AA_MegalouseEggFertilized</eggFertilizedDef>
@@ -48,8 +43,10 @@
 					<max>3</max>
 				</eggCountRange>
 			</li>
+			<li Class="AlphaBehavioursAndEvents.CompProperties_GraphicsRefresher"/>
 		</comps>
 		<race>
+			<renderTree>AA_Alternates</renderTree>
 			<wildBiomes>
 				<BorealForest>0.03</BorealForest>
 				<Tundra>0.03</Tundra>
@@ -114,27 +111,21 @@
 		</tradeTags>
 		<modExtensions>
 			<li Class="AnimalBehaviours.AnimalStatExtension">
-
 				<statToAdd>
-
 					<li>AA_PrimaryRole</li>
-					<li>AA_RangedAttacks</li>					
+					<li>AA_RangedAttacks</li>
 				</statToAdd>
 				<statValues>
-
 					<li>AA_ShockTroop</li>
-					<li>AA_No</li>					
+					<li>AA_No</li>
 				</statValues>
 				<statDescriptions>
-
 					<li>AA_ShockTroopDesc</li>
 					<li>AA_NoRanged</li>
 				</statDescriptions>
-
 			</li>
 		</modExtensions>
 	</ThingDef>
-
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AA_MegaLouse</defName>
 		<label>megalouse</label>
@@ -183,5 +174,4 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
-
 </Defs>

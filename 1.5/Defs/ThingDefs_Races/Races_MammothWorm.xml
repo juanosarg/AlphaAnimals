@@ -21,7 +21,6 @@
 				</capacities>
 				<power>30</power>
 				<cooldownTime>1.9</cooldownTime>
-
 				<surpriseAttack>
 					<extraMeleeDamages>
 						<li>
@@ -41,19 +40,17 @@
 				<linkedBodyPartsGroup>TuskAttackTool</linkedBodyPartsGroup>
 			</li>
 		</tools>
-
 		<comps>
-
-
 			<li Class="CompProperties_EggLayer">
 				<eggUnfertilizedDef>AA_MammothWormEggUnfertilized</eggUnfertilizedDef>
 				<eggFertilizedDef>AA_MammothWormEggFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
 				<eggLayIntervalDays>10</eggLayIntervalDays>
-
 			</li>
+			<li Class="AlphaBehavioursAndEvents.CompProperties_GraphicsRefresher"/>
 		</comps>
 		<race>
+			<renderTree>AA_Alternates</renderTree>
 			<wildBiomes>
 				<AridShrubland>0.03</AridShrubland>
 				<Desert>0.03</Desert>
@@ -67,7 +64,6 @@
 			<fleshType>Insectoid</fleshType>
 			<bloodDef>Filth_BloodInsect</bloodDef>
 			<useMeatFrom>Megaspider</useMeatFrom>
-		
 			<leatherDef>Leather_BlackChitin</leatherDef>
 			<packAnimal>true</packAnimal>
 			<wildness>0.9</wildness>
@@ -108,19 +104,15 @@
 		</tradeTags>
 		<modExtensions>
 			<li Class="AnimalBehaviours.AnimalStatExtension">
-
 				<statToAdd>
-
 					<li>AA_PrimaryRole</li>
-					<li>AA_RangedAttacks</li>					
+					<li>AA_RangedAttacks</li>
 				</statToAdd>
 				<statValues>
-
 					<li>AA_MountArmoured</li>
-					<li>AA_No</li>					
+					<li>AA_No</li>
 				</statValues>
 				<statDescriptions>
-
 					<li>AA_MountArmouredDesc</li>
 					<li>AA_NoRanged</li>
 				</statDescriptions>
@@ -129,14 +121,12 @@
 			</li>
 		</modExtensions>
 	</ThingDef>
-
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AA_MammothWorm</defName>
 		<race>AA_MammothWorm</race>
 		<label>mammoth worm</label>
 		<combatPower>200</combatPower>
 		<ecoSystemWeight>0.2</ecoSystemWeight>
-
 		<wildGroupSize>
 			<min>3</min>
 			<max>5</max>

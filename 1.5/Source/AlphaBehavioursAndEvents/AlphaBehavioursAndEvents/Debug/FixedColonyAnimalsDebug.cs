@@ -23,7 +23,7 @@ namespace AlphaBehavioursAndEvents
             {
                 return Find.CurrentMap;
             }
-        }
+        } 
 
         [DebugAction("Autotests", "Make colony (animals, fixed)",false,false, allowedGameStates = AllowedGameStates.PlayingOnMap)]
         private static void MakeColonyAnimals()

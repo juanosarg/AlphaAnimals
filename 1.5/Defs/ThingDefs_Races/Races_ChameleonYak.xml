@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_ChameleonYak</defName>
 		<thingClass>AlphaBehavioursAndEvents.ChameleonSkins</thingClass>
@@ -61,30 +60,25 @@
 				<milkAmount>12</milkAmount>
 			</li>
 			<li Class="AnimalBehaviours.CompProperties_AnimalProduct">
-
 				<gatheringIntervalDays>25</gatheringIntervalDays>
 				<resourceAmount>100</resourceAmount>
 				<customResourceString>AA_SeasonalWoolDesc</customResourceString>
-
 				<seasonalItems>
 					<li>AA_ChameleonYakWoolTemperate</li>
 					<li>AA_ChameleonYakWoolWinter</li>
 					<li>AA_ChameleonYakWoolJungle</li>
 					<li>AA_ChameleonYakWoolDesert</li>
 				</seasonalItems>
-
 			</li>
 			<li Class="AnimalBehaviours.CompProperties_GraphicByTerrain">
-				
 				<changeGraphicsInterval>240</changeGraphicsInterval>
-			
 				<terrains>
 					<li>Ice</li>
 					<li>MossyTerrain</li>
 					<li>MarshyTerrain</li>
 					<li>SoilRich</li>
 					<li>Sand</li>
-					<li>SoftSand</li>					
+					<li>SoftSand</li>
 				</terrains>
 				<suffix>
 					<li>_Winter</li>
@@ -92,7 +86,7 @@
 					<li>_Jungle</li>
 					<li>_Jungle</li>
 					<li>_Desert</li>
-					<li>_Desert</li>					
+					<li>_Desert</li>
 				</suffix>
 				<hediffToApply>
 					<li>AA_WinterPelt</li>
@@ -102,23 +96,19 @@
 					<li>AA_DesertPelt</li>
 					<li>AA_DesertPelt</li>
 				</hediffToApply>
-				
 				<waterOverride>true</waterOverride>
 				<waterSuffix>_Jungle</waterSuffix>
 				<waterHediffToApply>AA_JunglePelt</waterHediffToApply>
 				<waterSeasonalItemsIndex>2</waterSeasonalItemsIndex>
-				
 				<lowTemperatureOverride>true</lowTemperatureOverride>
 				<temperatureThreshold>-10</temperatureThreshold>
 				<lowTemperatureSuffix>_Winter</lowTemperatureSuffix>
 				<lowTemperatureHediffToApply>AA_WinterPelt</lowTemperatureHediffToApply>
 				<lowTemperatureSeasonalItemsIndex>1</lowTemperatureSeasonalItemsIndex>
-				
 				<snowOverride>true</snowOverride>
 				<snowySuffix>_Winter</snowySuffix>
 				<snowyHediffToApply>AA_WinterPelt</snowyHediffToApply>
 				<snowySeasonalItemsIndex>1</snowySeasonalItemsIndex>
-				
 				<provideSeasonalItems>true</provideSeasonalItems>
 				<seasonalItemsIndexes>
 					<li>1</li>
@@ -126,11 +116,9 @@
 					<li>2</li>
 					<li>2</li>
 					<li>3</li>
-					<li>3</li>					
+					<li>3</li>
 				</seasonalItemsIndexes>
-
 			</li>
-			
 		</comps>
 		<race>
 			<renderTree>VEF_GraphicByTerrainRenderTree</renderTree>
@@ -170,7 +158,7 @@
 			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 			<wildBiomes>
-				<BorealForest>0.15</BorealForest> 
+				<BorealForest>0.15</BorealForest>
 				<Tundra>0.3</Tundra>
 				<ColdBog>0.07</ColdBog>
 				<TemperateForest>0.1</TemperateForest>
@@ -189,23 +177,19 @@
 		</tradeTags>
 		<modExtensions>
 			<li Class="AnimalBehaviours.AnimalStatExtension">
-
 				<statToAdd>
-
 					<li>AA_PrimaryRole</li>
-					<li>AA_RangedAttacks</li>					
+					<li>AA_RangedAttacks</li>
 				</statToAdd>
 				<statValues>
-
 					<li>AA_Farm</li>
-					<li>AA_No</li>					
+					<li>AA_No</li>
 				</statValues>
 				<statDescriptions>
-
 					<li>AA_FarmWoolAndMilkDesc</li>
 					<li>AA_NoRanged</li>
 				</statDescriptions>
-<showImageInInfoCard>true</showImageInInfoCard>
+				<showImageInInfoCard>true</showImageInInfoCard>
 				<ImageToShowInInfoCard>Art/AA_YakArt</ImageToShowInInfoCard>
 			</li>
 		</modExtensions>
@@ -267,5 +251,4 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
-
 </Defs>

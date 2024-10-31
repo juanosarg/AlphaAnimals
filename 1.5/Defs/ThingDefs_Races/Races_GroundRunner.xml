@@ -3,8 +3,6 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_Groundrunner</defName>
 		<label>groundrunner</label>
-
-
 		<description>A strange chimera between a bear and mole, Groundrunners originally came from Cave Worlds. They were used as walking heavy tools by the locals when they hit parts that plasteel can’t break, and for hauling large boulders that their owners can’t lift.\n\nDue to their domesticated origins, they are surprisingly docile and easy to tame. Their incredible strength and sharp claws allows them to break rocks with relative ease. But out here in the Rim, those claws are usually reserved for ripping power armors apart along with their wearers.\n\nGroundrunners will happily help your colonists mine rocks and minerals. They are however quite lazy and get distracted easily (this interaction requires the Groundrunner to be trained in Haul). This interaction should also work with the Quarry mod.\n\nArt by Gon (check more at https://twitter.com/GON_again).</description>
 		<statBases>
 			<MoveSpeed>3.00</MoveSpeed>
@@ -75,18 +73,20 @@
 				<chanceFactor>0.2</chanceFactor>
 			</li>
 		</tools>
+		<comps>
+			<li Class="AlphaBehavioursAndEvents.CompProperties_GraphicsRefresher"/>
+		</comps>
 		<race>
+			<renderTree>AA_AlternatesWithVariations_Six</renderTree>
 			<wildBiomes>
 				<TemperateForest>0.2</TemperateForest>
 				<TemperateSwamp>0.07</TemperateSwamp>
 				<BorealForest>0.2</BorealForest>
 				<TropicalRainforest>0.07</TropicalRainforest>
 				<TropicalSwamp>0.07</TropicalSwamp>
-
 			</wildBiomes>
 			<thinkTreeMain>AA_AnimalDigger</thinkTreeMain>
 			<thinkTreeConstant>AA_AnimalDiggerConstant</thinkTreeConstant>
-
 			<herdAnimal>true</herdAnimal>
 			<predator>false</predator>
 			<body>QuadrupedAnimalWithPawsAndTail</body>
@@ -135,29 +135,23 @@
 		</tradeTags>
 		<modExtensions>
 			<li Class="AnimalBehaviours.AnimalStatExtension">
-
 				<statToAdd>
-
 					<li>AA_PrimaryRole</li>
-					<li>AA_RangedAttacks</li>					
+					<li>AA_RangedAttacks</li>
 				</statToAdd>
 				<statValues>
-
 					<li>AA_Utility</li>
-					<li>AA_No</li>					
+					<li>AA_No</li>
 				</statValues>
 				<statDescriptions>
-
 					<li>AA_UtilityWorkerDesc</li>
 					<li>AA_NoRanged</li>
 				</statDescriptions>
 				<showImageInInfoCard>true</showImageInInfoCard>
 				<ImageToShowInInfoCard>Art/AA_GroundrunnerArt</ImageToShowInInfoCard>
-
 			</li>
 		</modExtensions>
 	</ThingDef>
-
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AA_Groundrunner</defName>
 		<race>AA_Groundrunner</race>
@@ -178,16 +172,12 @@
 			<li>
 				<texPath>Things/Pawn/Animal/AA_GroundRunner/AA_GroundRunner3</texPath>
 			</li>
-
 			<li>
 				<texPath>Things/Pawn/Animal/AA_GroundRunner/AA_GroundRunner4</texPath>
 			</li>
-
 			<li>
 				<texPath>Things/Pawn/Animal/AA_GroundRunner/AA_GroundRunner5</texPath>
 			</li>
-
-
 		</alternateGraphics>
 		<wildGroupSize>
 			<min>2</min>
@@ -226,5 +216,4 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
-
 </Defs>

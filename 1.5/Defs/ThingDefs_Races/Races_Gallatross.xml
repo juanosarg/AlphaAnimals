@@ -1,10 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-
-
 	<!-- ============================================================ -->
-
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_Gallatross</defName>
 		<label>gallatross</label>
@@ -20,7 +16,7 @@
 			<MoveSpeed>5.7</MoveSpeed>
 			<ComfyTemperatureMin>-100</ComfyTemperatureMin>
 			<MarketValue>4000</MarketValue>
-			<PsychicSensitivity>0</PsychicSensitivity>			
+			<PsychicSensitivity>0</PsychicSensitivity>
 			<CaravanRidingSpeedFactor>1.6</CaravanRidingSpeedFactor>
 			<FilthRate>16</FilthRate>
 		</statBases>
@@ -43,7 +39,6 @@
 				<cooldownTime>1.7</cooldownTime>
 				<linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
 			</li>
-
 			<li>
 				<capacities>
 					<li>Bite</li>
@@ -62,7 +57,6 @@
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<chanceFactor>0.2</chanceFactor>
 			</li>
-
 		</tools>
 		<verbs>
 			<li>
@@ -76,7 +70,6 @@
 				<warmupTime>0.66</warmupTime>
 				<burstShotCount>1</burstShotCount>
 				<forcedMissRadius>2</forcedMissRadius>
-
 				<minRange>2</minRange>
 				<range>30</range>
 				<soundCast>AA_RockThrow</soundCast>
@@ -84,16 +77,15 @@
 				<!--Commanility determines how frequent this range verb is chosen.-->
 				<commonality>1</commonality>
 			</li>
-
-
 		</verbs>
 		<comps>
 			<li Class="MVCF.Comps.CompProperties_RandomVerbs">
 				<meleeChance>0.2</meleeChance>
 			</li>
+			<li Class="AlphaBehavioursAndEvents.CompProperties_GraphicsRefresher"/>
 		</comps>
 		<race>
-
+			<renderTree>AA_Alternates</renderTree>
 			<herdAnimal>false</herdAnimal>
 			<predator>false</predator>
 			<body>QuadrupedAnimalWithHoovesAndHorn</body>
@@ -148,36 +140,29 @@
 		</tradeTags>
 		<modExtensions>
 			<li Class="AnimalBehaviours.AnimalStatExtension">
-
 				<statToAdd>
-
 					<li>AA_PrimaryRole</li>
-					<li>AA_RangedAttacks</li>					
+					<li>AA_RangedAttacks</li>
 				</statToAdd>
 				<statValues>
-
 					<li>AA_Artillery</li>
-					<li>AA_Yes</li>					
+					<li>AA_Yes</li>
 				</statValues>
 				<statDescriptions>
-
 					<li>AA_ArtilleryDesc</li>
 					<li>AA_Ranged</li>
 				</statDescriptions>
 				<showImageInInfoCard>true</showImageInInfoCard>
 				<ImageToShowInInfoCard>Art/AA_GallatrossArt</ImageToShowInInfoCard>
-
 			</li>
 		</modExtensions>
 	</ThingDef>
-
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AA_Gallatross</defName>
 		<label>gallatross</label>
 		<race>AA_Gallatross</race>
 		<combatPower>1000</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
-
 		<lifeStages>
 			<li>
 				<label>gallatross</label>
@@ -229,9 +214,7 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
-	
 	<!-- ======================= Gallatross Graveyard ====================== -->
-
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_GallatrossMoribund</defName>
 		<label>moribund gallatross</label>
@@ -242,7 +225,6 @@
 			<MarketValue>1000</MarketValue>
 			<PsychicSensitivity>0</PsychicSensitivity>
 			<FilthRate>16</FilthRate>
-
 		</statBases>
 		<tools>
 			<li>
@@ -263,7 +245,6 @@
 				<cooldownTime>1.7</cooldownTime>
 				<linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
 			</li>
-
 			<li>
 				<capacities>
 					<li>Bite</li>
@@ -282,7 +263,6 @@
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<chanceFactor>0.2</chanceFactor>
 			</li>
-
 		</tools>
 		<verbs>
 			<li>
@@ -296,7 +276,6 @@
 				<warmupTime>0.66</warmupTime>
 				<burstShotCount>1</burstShotCount>
 				<forcedMissRadius>2</forcedMissRadius>
-
 				<minRange>2</minRange>
 				<range>30</range>
 				<soundCast>AA_RockThrow</soundCast>
@@ -304,20 +283,17 @@
 				<!--Commanility determines how frequent this range verb is chosen.-->
 				<commonality>1</commonality>
 			</li>
-
-
 		</verbs>
 		<comps>
-
 			<li Class="AnimalBehaviours.CompProperties_Untameable">
 				<message>AA_GallatrossNotTameable</message>
-				<sendMessage>true</sendMessage>				
+				<sendMessage>true</sendMessage>
 				<goesManhunter>false</goesManhunter>
 			</li>
-			
+			<li Class="AlphaBehavioursAndEvents.CompProperties_GraphicsRefresher"/>
 		</comps>
 		<race>
-
+			<renderTree>AA_Alternates</renderTree>
 			<herdAnimal>false</herdAnimal>
 			<predator>false</predator>
 			<body>QuadrupedAnimalWithHoovesAndHorn</body>
@@ -373,39 +349,31 @@
 		</tradeTags>
 		<modExtensions>
 			<li Class="AnimalBehaviours.AnimalStatExtension">
-
 				<statToAdd>
-
 					<li>AA_PrimaryRole</li>
-					<li>AA_RangedAttacks</li>					
+					<li>AA_RangedAttacks</li>
 				</statToAdd>
 				<statValues>
-
 					<li>AA_Artillery</li>
-					<li>AA_Yes</li>					
+					<li>AA_Yes</li>
 				</statValues>
 				<statDescriptions>
-
 					<li>AA_ArtilleryDesc</li>
 					<li>AA_Ranged</li>
 				</statDescriptions>
 				<showImageInInfoCard>true</showImageInInfoCard>
 				<ImageToShowInInfoCard>Art/AA_GallatrossArt</ImageToShowInInfoCard>
-
 			</li>
 		</modExtensions>
 	</ThingDef>
-
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AA_GallatrossMoribund</defName>
 		<label>moribund gallatross</label>
 		<race>AA_GallatrossMoribund</race>
 		<combatPower>1000</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
-
 		<lifeStages>
 			<li>
-				
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/AA_Gallatross/AA_Gallatross_Moribund</texPath>
 					<drawSize>2.0</drawSize>
@@ -420,7 +388,6 @@
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
-				
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/AA_Gallatross/AA_Gallatross_Moribund</texPath>
 					<drawSize>2.7</drawSize>
@@ -454,5 +421,4 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
-
 </Defs>
