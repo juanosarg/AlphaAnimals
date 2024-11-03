@@ -3,19 +3,23 @@
   "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3F1404A7-FC72-4BA6-94D3-80D242E76B2B}|AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\alphaanimals\\1.5\\source\\alphabehavioursandevents\\alphabehavioursandevents\\harmony\\pawnutility_isfighting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F1404A7-FC72-4BA6-94D3-80D242E76B2B}|AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj|solutionrelative:alphabehavioursandevents\\harmony\\pawnutility_isfighting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3F1404A7-FC72-4BA6-94D3-80D242E76B2B}|AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\alphaanimals\\1.5\\source\\alphabehavioursandevents\\alphabehavioursandevents\\debug\\fixedcolonyanimalsdebug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F1404A7-FC72-4BA6-94D3-80D242E76B2B}|AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj|solutionrelative:alphabehavioursandevents\\debug\\fixedcolonyanimalsdebug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F1404A7-FC72-4BA6-94D3-80D242E76B2B}|AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\alphaanimals\\1.5\\source\\alphabehavioursandevents\\alphabehavioursandevents\\pawnrendernodes\\pawnrendernode_alternateswithvariations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F1404A7-FC72-4BA6-94D3-80D242E76B2B}|AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\alphabehavioursandevents\\pawnrendernodes\\pawnrendernode_alternateswithvariations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F1404A7-FC72-4BA6-94D3-80D242E76B2B}|AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj|solutionrelative:alphabehavioursandevents\\pawnrendernodes\\pawnrendernode_alternateswithvariations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F1404A7-FC72-4BA6-94D3-80D242E76B2B}|AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\alphaanimals\\1.5\\source\\alphabehavioursandevents\\alphabehavioursandevents\\pawnrendernodes\\properties\\pawnrendernodeproperties_withindex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F1404A7-FC72-4BA6-94D3-80D242E76B2B}|AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\alphabehavioursandevents\\pawnrendernodes\\properties\\pawnrendernodeproperties_withindex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F1404A7-FC72-4BA6-94D3-80D242E76B2B}|AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj|solutionrelative:alphabehavioursandevents\\pawnrendernodes\\properties\\pawnrendernodeproperties_withindex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F1404A7-FC72-4BA6-94D3-80D242E76B2B}|AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\alphaanimals\\1.5\\source\\alphabehavioursandevents\\alphabehavioursandevents\\pawnrendernodes\\pawnrendernode_alternates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F1404A7-FC72-4BA6-94D3-80D242E76B2B}|AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\alphabehavioursandevents\\pawnrendernodes\\pawnrendernode_alternates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F1404A7-FC72-4BA6-94D3-80D242E76B2B}|AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj|solutionrelative:alphabehavioursandevents\\pawnrendernodes\\pawnrendernode_alternates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -23,15 +27,15 @@
       "RelativeMoniker": "D:0:0:{3F1404A7-FC72-4BA6-94D3-80D242E76B2B}|AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj|solutionrelative:alphabehavioursandevents\\pawnrendernodes\\pawnrendernode_arcticlion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F1404A7-FC72-4BA6-94D3-80D242E76B2B}|AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\alphaanimals\\1.5\\source\\alphabehavioursandevents\\alphabehavioursandevents\\comps\\compgraphicsrefresher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F1404A7-FC72-4BA6-94D3-80D242E76B2B}|AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\alphabehavioursandevents\\comps\\compgraphicsrefresher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F1404A7-FC72-4BA6-94D3-80D242E76B2B}|AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj|solutionrelative:alphabehavioursandevents\\comps\\compgraphicsrefresher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F1404A7-FC72-4BA6-94D3-80D242E76B2B}|AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\alphaanimals\\1.5\\source\\alphabehavioursandevents\\alphabehavioursandevents\\comps\\compproperties\\compproperties_graphicsrefresher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F1404A7-FC72-4BA6-94D3-80D242E76B2B}|AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\alphabehavioursandevents\\comps\\compproperties\\compproperties_graphicsrefresher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F1404A7-FC72-4BA6-94D3-80D242E76B2B}|AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj|solutionrelative:alphabehavioursandevents\\comps\\compproperties\\compproperties_graphicsrefresher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F1404A7-FC72-4BA6-94D3-80D242E76B2B}|AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\alphaanimals\\1.5\\source\\alphabehavioursandevents\\alphabehavioursandevents\\comps\\compproperties\\compproperties_larvaetococoon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F1404A7-FC72-4BA6-94D3-80D242E76B2B}|AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\alphabehavioursandevents\\comps\\compproperties\\compproperties_larvaetococoon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F1404A7-FC72-4BA6-94D3-80D242E76B2B}|AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj|solutionrelative:alphabehavioursandevents\\comps\\compproperties\\compproperties_larvaetococoon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -55,7 +59,7 @@
       "RelativeMoniker": "D:0:0:{3F1404A7-FC72-4BA6-94D3-80D242E76B2B}|AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj|solutionrelative:alphabehavioursandevents\\options and utility\\alphaanimals_settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F1404A7-FC72-4BA6-94D3-80D242E76B2B}|AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\alphaanimals\\1.5\\source\\alphabehavioursandevents\\alphabehavioursandevents\\options and utility\\alphaanimals_settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F1404A7-FC72-4BA6-94D3-80D242E76B2B}|AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\alphabehavioursandevents\\options and utility\\alphaanimals_settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F1404A7-FC72-4BA6-94D3-80D242E76B2B}|AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj|solutionrelative:alphabehavioursandevents\\options and utility\\alphaanimals_settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -63,7 +67,7 @@
       "RelativeMoniker": "D:0:0:{3F1404A7-FC72-4BA6-94D3-80D242E76B2B}|AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj|solutionrelative:alphabehavioursandevents\\pawnrendernodes\\pawnrendernode_crescendoanole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F1404A7-FC72-4BA6-94D3-80D242E76B2B}|AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\alphaanimals\\1.5\\source\\alphabehavioursandevents\\alphabehavioursandevents\\comps\\compterraform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F1404A7-FC72-4BA6-94D3-80D242E76B2B}|AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\alphabehavioursandevents\\comps\\compterraform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F1404A7-FC72-4BA6-94D3-80D242E76B2B}|AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj|solutionrelative:alphabehavioursandevents\\comps\\compterraform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -294,6 +298,23 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PawnUtility_IsFighting.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Harmony\\PawnUtility_IsFighting.cs",
+              "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Harmony\\PawnUtility_IsFighting.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Harmony\\PawnUtility_IsFighting.cs",
+              "RelativeToolTip": "AlphaBehavioursAndEvents\\Harmony\\PawnUtility_IsFighting.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T07:04:25.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "FixedColonyAnimalsDebug.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Debug\\FixedColonyAnimalsDebug.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Debug\\FixedColonyAnimalsDebug.cs",
@@ -306,7 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PawnRenderNodeProperties_WithIndex.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\PawnRenderNodes\\Properties\\PawnRenderNodeProperties_WithIndex.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\PawnRenderNodes\\Properties\\PawnRenderNodeProperties_WithIndex.cs",
@@ -314,12 +335,11 @@
               "RelativeToolTip": "AlphaBehavioursAndEvents\\PawnRenderNodes\\Properties\\PawnRenderNodeProperties_WithIndex.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T11:10:26.041Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T11:10:26.041Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PawnRenderNode_AlternatesWithVariations.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\PawnRenderNodes\\PawnRenderNode_AlternatesWithVariations.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\PawnRenderNodes\\PawnRenderNode_AlternatesWithVariations.cs",
@@ -327,12 +347,11 @@
               "RelativeToolTip": "AlphaBehavioursAndEvents\\PawnRenderNodes\\PawnRenderNode_AlternatesWithVariations.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAAABgAAACtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T11:03:34.115Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T11:03:34.115Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PawnRenderNode_Alternates.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\PawnRenderNodes\\PawnRenderNode_Alternates.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\PawnRenderNodes\\PawnRenderNode_Alternates.cs",
@@ -340,12 +359,11 @@
               "RelativeToolTip": "AlphaBehavioursAndEvents\\PawnRenderNodes\\PawnRenderNode_Alternates.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T10:40:06.499Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T10:40:06.499Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "CompProperties_LarvaeToCocoon.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Comps\\CompProperties\\CompProperties_LarvaeToCocoon.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Comps\\CompProperties\\CompProperties_LarvaeToCocoon.cs",
@@ -353,12 +371,11 @@
               "RelativeToolTip": "AlphaBehavioursAndEvents\\Comps\\CompProperties\\CompProperties_LarvaeToCocoon.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T09:57:56.155Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T09:57:56.155Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CompGraphicsRefresher.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Comps\\CompGraphicsRefresher.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Comps\\CompGraphicsRefresher.cs",
@@ -366,12 +383,11 @@
               "RelativeToolTip": "AlphaBehavioursAndEvents\\Comps\\CompGraphicsRefresher.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAAAAsAAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T09:57:41.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T09:57:41.094Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "CompProperties_GraphicsRefresher.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Comps\\CompProperties\\CompProperties_GraphicsRefresher.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Comps\\CompProperties\\CompProperties_GraphicsRefresher.cs",
@@ -379,12 +395,11 @@
               "RelativeToolTip": "AlphaBehavioursAndEvents\\Comps\\CompProperties\\CompProperties_GraphicsRefresher.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T09:57:15.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T09:57:15.384Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Hediff_OverpoweringAcidBuildup.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Hediffs\\Hediff_OverpoweringAcidBuildup.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Hediffs\\Hediff_OverpoweringAcidBuildup.cs",
@@ -392,12 +407,11 @@
               "RelativeToolTip": "AlphaBehavioursAndEvents\\Hediffs\\Hediff_OverpoweringAcidBuildup.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T09:22:11.577Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T09:22:11.577Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Hediff_Stalking.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Hediffs\\Hediff_Stalking.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Hediffs\\Hediff_Stalking.cs",
@@ -405,12 +419,11 @@
               "RelativeToolTip": "AlphaBehavioursAndEvents\\Hediffs\\Hediff_Stalking.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAAADAAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T09:22:11.643Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T09:22:11.643Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "PawnRenderNode_ArcticLion.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\PawnRenderNodes\\PawnRenderNode_ArcticLion.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\PawnRenderNodes\\PawnRenderNode_ArcticLion.cs",
@@ -418,12 +431,11 @@
               "RelativeToolTip": "AlphaBehavioursAndEvents\\PawnRenderNodes\\PawnRenderNode_ArcticLion.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAAADwAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T09:22:11.631Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T09:22:11.631Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "CompCreateOcularPlants.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Comps\\CompCreateOcularPlants.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Comps\\CompCreateOcularPlants.cs",
@@ -431,12 +443,11 @@
               "RelativeToolTip": "AlphaBehavioursAndEvents\\Comps\\CompCreateOcularPlants.cs",
               "ViewState": "AgIAALQAAAAAAAAAAADwv9IAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T09:22:11.617Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T09:22:11.617Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "AlphaAnimals_Settings.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Options and Utility\\AlphaAnimals_Settings.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Options and Utility\\AlphaAnimals_Settings.cs",
@@ -444,12 +455,11 @@
               "RelativeToolTip": "AlphaBehavioursAndEvents\\Options and Utility\\AlphaAnimals_Settings.cs",
               "ViewState": "AgIAAIoAAAAAAAAAAAAAAJkAAACSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T09:22:11.623Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T09:22:11.623Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "AlphaAnimals_SettingsController.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Options and Utility\\AlphaAnimals_SettingsController.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Options and Utility\\AlphaAnimals_SettingsController.cs",
@@ -457,12 +467,11 @@
               "RelativeToolTip": "AlphaBehavioursAndEvents\\Options and Utility\\AlphaAnimals_SettingsController.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T09:22:29.084Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T09:22:29.084Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "CompProperties_CreateOcularPlants.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Comps\\CompProperties\\CompProperties_CreateOcularPlants.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Comps\\CompProperties\\CompProperties_CreateOcularPlants.cs",
@@ -470,12 +479,11 @@
               "RelativeToolTip": "AlphaBehavioursAndEvents\\Comps\\CompProperties\\CompProperties_CreateOcularPlants.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T09:22:11.636Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T09:22:11.636Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "CompTerraform.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Comps\\CompTerraform.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Comps\\CompTerraform.cs",
@@ -483,12 +491,11 @@
               "RelativeToolTip": "AlphaBehavioursAndEvents\\Comps\\CompTerraform.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T09:22:11.289Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T09:22:11.289Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "PawnRenderNode_CrescendoAnole.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\PawnRenderNodes\\PawnRenderNode_CrescendoAnole.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\PawnRenderNodes\\PawnRenderNode_CrescendoAnole.cs",
@@ -496,12 +503,11 @@
               "RelativeToolTip": "AlphaBehavioursAndEvents\\PawnRenderNodes\\PawnRenderNode_CrescendoAnole.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAACrAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T09:22:11.642Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-31T09:22:11.642Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "BlackCocoon.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Buildings\\BlackCocoon.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Buildings\\BlackCocoon.cs",
@@ -513,7 +519,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "MentalBreakWorker_PhotosensitiveExoskeleton.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\MentalStates\\MentalBreakWorker_PhotosensitiveExoskeleton.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\MentalStates\\MentalBreakWorker_PhotosensitiveExoskeleton.cs",
@@ -525,7 +531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "MentalState_PhotosensitiveExoskeleton.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\MentalStates\\MentalState_PhotosensitiveExoskeleton.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\MentalStates\\MentalState_PhotosensitiveExoskeleton.cs",
@@ -536,12 +542,8 @@
               "WhenOpened": "2024-10-31T09:22:11.559Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "DamageWorker_ExtraDamageMechanoidsAcid.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\ExplosionsAndDamage\\DamageWorker_ExtraDamageMechanoidsAcid.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\ExplosionsAndDamage\\DamageWorker_ExtraDamageMechanoidsAcid.cs",
@@ -553,7 +555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "AlphaBehavioursAndEvents",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents.csproj",
@@ -564,7 +566,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "CompProperties_Terraform.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Comps\\CompProperties\\CompProperties_Terraform.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Comps\\CompProperties\\CompProperties_Terraform.cs",
@@ -576,7 +578,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "ThoughtWorker_PhotosensitiveExoskeleton.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\ThoughtWorkers\\ThoughtWorker_PhotosensitiveExoskeleton.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\ThoughtWorkers\\ThoughtWorker_PhotosensitiveExoskeleton.cs",
@@ -588,7 +590,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "DeathActionWorker_FrostbiteExplosion.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\DeathActionWorkers\\DeathActionWorker_FrostbiteExplosion.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\DeathActionWorkers\\DeathActionWorker_FrostbiteExplosion.cs",
@@ -600,7 +602,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "IncidentWorker_MimeWandererJoin.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Incidents\\IncidentWorker_MimeWandererJoin.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Incidents\\IncidentWorker_MimeWandererJoin.cs",
@@ -612,7 +614,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "InternalDefOf.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\DefOfs\\InternalDefOf.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\DefOfs\\InternalDefOf.cs",
@@ -624,7 +626,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "DamageWorker_ExtraDamageMechanoids.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\ExplosionsAndDamage\\DamageWorker_ExtraDamageMechanoids.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\ExplosionsAndDamage\\DamageWorker_ExtraDamageMechanoids.cs",
@@ -636,7 +638,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "DamageWorker_ExtraDamageMechanoidsPhysical.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\ExplosionsAndDamage\\DamageWorker_ExtraDamageMechanoidsPhysical.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\ExplosionsAndDamage\\DamageWorker_ExtraDamageMechanoidsPhysical.cs",
@@ -648,7 +650,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "CompProperties_BlackSwarmlingToCocoon.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Comps\\CompProperties\\CompProperties_BlackSwarmlingToCocoon.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Comps\\CompProperties\\CompProperties_BlackSwarmlingToCocoon.cs",
@@ -660,7 +662,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "CompBlackSwarmlingToCocoon.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Comps\\CompBlackSwarmlingToCocoon.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Comps\\CompBlackSwarmlingToCocoon.cs",
@@ -672,7 +674,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "IncidentWorker_StalkingArcticLion.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Incidents\\IncidentWorker_StalkingArcticLion.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Incidents\\IncidentWorker_StalkingArcticLion.cs",
@@ -684,7 +686,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "PawnRenderNodeProperties_SpasticScaled.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\PawnRenderNodes\\PawnRenderNodeProperties_SpasticScaled.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\PawnRenderNodes\\PawnRenderNodeProperties_SpasticScaled.cs",
@@ -696,7 +698,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "PawnRenderNode_SpasticScaled.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\PawnRenderNodes\\PawnRenderNode_SpasticScaled.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\PawnRenderNodes\\PawnRenderNode_SpasticScaled.cs",
@@ -708,7 +710,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "PawnRenderNodeWorker_SpasticScaled.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\PawnRenderNodes\\PawnRenderNodeWorker_SpasticScaled.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\PawnRenderNodes\\PawnRenderNodeWorker_SpasticScaled.cs",
@@ -720,7 +722,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "Gas_Frost.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Gases\\Gas_Frost.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Gases\\Gas_Frost.cs",
@@ -732,7 +734,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "IncidentWorker_Gallatross.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Incidents\\IncidentWorker_Gallatross.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Incidents\\IncidentWorker_Gallatross.cs",
@@ -744,7 +746,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "IncidentWorker_DunealiskClutchMother.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Incidents\\IncidentWorker_DunealiskClutchMother.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Incidents\\IncidentWorker_DunealiskClutchMother.cs",
@@ -756,7 +758,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "IncidentWorker_CactipineDropPod.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Incidents\\IncidentWorker_CactipineDropPod.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Incidents\\IncidentWorker_CactipineDropPod.cs",
@@ -768,7 +770,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "IncidentWorker_BlizzariskClutchMother.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Incidents\\IncidentWorker_BlizzariskClutchMother.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Incidents\\IncidentWorker_BlizzariskClutchMother.cs",
@@ -780,7 +782,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "IncidentWorker_SummitCrab.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Incidents\\IncidentWorker_SummitCrab.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Incidents\\IncidentWorker_SummitCrab.cs",
@@ -792,7 +794,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "IncidentWorker_AlphaResourcePodCrash.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Incidents\\IncidentWorker_AlphaResourcePodCrash.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Incidents\\IncidentWorker_AlphaResourcePodCrash.cs",
@@ -804,7 +806,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "IncidentWorker_FungalHusk.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Incidents\\IncidentWorker_FungalHusk.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Incidents\\IncidentWorker_FungalHusk.cs",
@@ -816,7 +818,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "IncidentWorker_Aerofleets.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Incidents\\IncidentWorker_Aerofleets.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Incidents\\IncidentWorker_Aerofleets.cs",
@@ -828,7 +830,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "IncidentWorker_Asteroid.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Incidents\\IncidentWorker_Asteroid.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Incidents\\IncidentWorker_Asteroid.cs",
@@ -840,7 +842,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "IncidentWorker_Bumbledrones.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Incidents\\IncidentWorker_Bumbledrones.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Incidents\\IncidentWorker_Bumbledrones.cs",
@@ -852,7 +854,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "IncidentWorker_BlackHive.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Incidents\\IncidentWorker_BlackHive.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Incidents\\IncidentWorker_BlackHive.cs",
@@ -864,7 +866,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "DeathActionWorker_MouseFission.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\DeathActionWorkers\\DeathActionWorker_MouseFission.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\DeathActionWorkers\\DeathActionWorker_MouseFission.cs",
@@ -876,7 +878,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "JobGiver_Mine.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Jobs\\JobGiver_Mine.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Jobs\\JobGiver_Mine.cs",
@@ -888,7 +890,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "DamageWorker_PlaguedBite.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\ExplosionsAndDamage\\DamageWorker_PlaguedBite.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\ExplosionsAndDamage\\DamageWorker_PlaguedBite.cs",
@@ -900,7 +902,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "DamageWorker_ExtraDamageInsectoids.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\ExplosionsAndDamage\\DamageWorker_ExtraDamageInsectoids.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\ExplosionsAndDamage\\DamageWorker_ExtraDamageInsectoids.cs",
@@ -912,7 +914,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "DamageWorker_FeedingFlame.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\ExplosionsAndDamage\\DamageWorker_FeedingFlame.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\ExplosionsAndDamage\\DamageWorker_FeedingFlame.cs",
@@ -924,7 +926,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "DamageWorker_Siege.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\ExplosionsAndDamage\\DamageWorker_Siege.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\ExplosionsAndDamage\\DamageWorker_Siege.cs",
@@ -936,7 +938,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "DamageWorker_Vampiric.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\ExplosionsAndDamage\\DamageWorker_Vampiric.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\ExplosionsAndDamage\\DamageWorker_Vampiric.cs",
@@ -948,7 +950,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "DamageWorker_Berserk.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\ExplosionsAndDamage\\DamageWorker_Berserk.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\ExplosionsAndDamage\\DamageWorker_Berserk.cs",
@@ -960,7 +962,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "JobGiver_MergeIntoGaumakerPodCorruptor.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Jobs\\JobGiver_MergeIntoGaumakerPodCorruptor.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Jobs\\JobGiver_MergeIntoGaumakerPodCorruptor.cs",
@@ -972,7 +974,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "JobGiver_PsionicNuzzle.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Jobs\\JobGiver_PsionicNuzzle.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Jobs\\JobGiver_PsionicNuzzle.cs",
@@ -984,7 +986,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "JobGiver_TryQuarryJob.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Jobs\\JobGiver_TryQuarryJob.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Jobs\\JobGiver_TryQuarryJob.cs",
@@ -996,7 +998,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 58,
               "Title": "JobGiver_MineOld.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Jobs\\JobGiver_MineOld.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Jobs\\JobGiver_MineOld.cs",
@@ -1008,7 +1010,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 60,
               "Title": "Ability_SpawnOnRadius_Extension.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\DefExtensions\\Ability_SpawnOnRadius_Extension.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\DefExtensions\\Ability_SpawnOnRadius_Extension.cs",
@@ -1020,7 +1022,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 62,
               "Title": "DeathActionWorker_RedAcidExplosion.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\DeathActionWorkers\\DeathActionWorker_RedAcidExplosion.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\DeathActionWorkers\\DeathActionWorker_RedAcidExplosion.cs",
@@ -1032,7 +1034,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 63,
               "Title": "JobDriver_Ingest_MakeNewToils.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Harmony\\JobDriver_Ingest_MakeNewToils.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Harmony\\JobDriver_Ingest_MakeNewToils.cs",
@@ -1044,7 +1046,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 59,
               "Title": "CompUpdateRoomStats.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Comps\\CompUpdateRoomStats.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Comps\\CompUpdateRoomStats.cs",
@@ -1056,7 +1058,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 64,
               "Title": "RoomStatWorker_Beauty_GetScore_Patch.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Harmony\\RoomStatWorker_Beauty_GetScore_Patch.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Harmony\\RoomStatWorker_Beauty_GetScore_Patch.cs",
@@ -1068,7 +1070,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 61,
               "Title": "Ability_Melee.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Abilities\\Ravager\\Ability_Melee.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Abilities\\Ravager\\Ability_Melee.cs",
@@ -1080,7 +1082,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 66,
               "Title": "HediffCompProperties_RemoveFromMechs.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Hediffs\\HediffCompProperties\\HediffCompProperties_RemoveFromMechs.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Hediffs\\HediffCompProperties\\HediffCompProperties_RemoveFromMechs.cs",
@@ -1092,7 +1094,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 67,
               "Title": "JumpinPawnFlyer.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Abilities\\Ravager\\JumpinPawnFlyer.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Abilities\\Ravager\\JumpinPawnFlyer.cs",
@@ -1104,7 +1106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 65,
               "Title": "HediffComp_RemoveFromMechs.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Hediffs\\HediffComp_RemoveFromMechs.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Hediffs\\HediffComp_RemoveFromMechs.cs",
@@ -1116,7 +1118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 68,
               "Title": "Building_BlackHiveMound.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Buildings\\Building_BlackHiveMound.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Buildings\\Building_BlackHiveMound.cs",
@@ -1128,7 +1130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 69,
               "Title": "Pawn_GrowOnCombat.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\PawnClasses\\Pawn_GrowOnCombat.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\PawnClasses\\Pawn_GrowOnCombat.cs",
@@ -1140,7 +1142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 70,
               "Title": "HediffComp_AnoleGrown.cs",
               "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaAnimals\\1.5\\Source\\AlphaBehavioursAndEvents\\AlphaBehavioursAndEvents\\Hediffs\\HediffComp_AnoleGrown.cs",
               "RelativeDocumentMoniker": "AlphaBehavioursAndEvents\\Hediffs\\HediffComp_AnoleGrown.cs",

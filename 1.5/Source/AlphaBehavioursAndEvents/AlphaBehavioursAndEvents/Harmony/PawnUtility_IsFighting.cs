@@ -17,11 +17,16 @@ namespace AlphaBehavioursAndEvents
    
     public static class AlphaAnimals_PawnUtility_IsFighting_Patch
     {
+
+        public static List<PawnKindDef> blachHive = new List<PawnKindDef>() { InternalDefOf.AA_BlackScarab,InternalDefOf.AA_BlackSpelopede,
+        InternalDefOf.AA_BlackSpider,InternalDefOf.AA_MegaLouse,InternalDefOf.AA_MammothWorm};
+
+
         [HarmonyPostfix]
         public static void DisableBlackHive(Pawn pawn, ref bool __result)
 
         {
-            if(pawn!=null && (pawn.def.defName.Contains("AA_Black")|| pawn.def.defName== "AA_MegaLouse" || pawn.def.defName == "AA_MammothWorm") && pawn.CurJob != null) { __result = true; }
+            if(pawn!=null && blachHive.Contains(pawn.kindDef) && pawn.CurJob != null) { __result = true; }
                 
 
 
