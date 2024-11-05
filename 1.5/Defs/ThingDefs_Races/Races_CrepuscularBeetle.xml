@@ -3,7 +3,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_CrepuscularBeetle</defName>
 		<label>Crepuscular Beetle</label>
-		<description>A very large arthropod reminiscent of an oversized Hercules Beetle, the Crepuscular Beetle is a peaceful herbivore that originated from a mysterious Rimworld orbiting a very faint star, perpetually covered in darkness. This was the home planet of an elusive race known as the Forsakens, and Crepuscular Beetles were often used as domesticated beasts of burden.\n\nCrepuscular Beetles are active during dusk. They also don't need a lot of rest, expending much less time than other creatures to replenish their energies.</description>
+		<description>A very large arthropod reminiscent of an oversized Hercules Beetle, the Crepuscular Beetle is a peaceful herbivore that originated from a mysterious Rimworld orbiting a very faint star, perpetually covered in darkness. This was the home planet of an elusive race known as the Forsaken, and Crepuscular Beetles were often used as domesticated beasts of burden.\n\nCrepuscular Beetles are active during dusk. They also don't need a lot of rest, expending much less time than other creatures to replenish their energies.</description>
 		<statBases>
 			<MoveSpeed>4.0</MoveSpeed>
 			<ComfyTemperatureMin>-10</ComfyTemperatureMin>

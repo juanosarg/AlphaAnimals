@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_Behemoth</defName>
 		<label>Behemoth</label>
-		<description>A Forsaken creature, which is believed to reside in the outer star belts. Legends speak of incredibly intelligent and fierce dragons, ruling over whole planets with their devastating fire breaths and incomprehensible power. The thunder is their voice and announces their coming. They were once hundreds, and are now but a few. On the last days of the Forsaken, they will rise again and darken the skies, when the day of judgement comes.\n\nSpecial abilities: Behemoths were used as powerful beasts of burden by the Forsakens, and they can defend themselves quite well. Their flame attacks are quite dangerous. They can regenerate their wounds quite fast.</description>
+		<description>A Forsaken creature, which is believed to reside in the outer star belts. Legends speak of incredibly intelligent and fierce dragons, ruling over whole planets with their devastating fire breaths and incomprehensible power. The thunder is their voice and announces their coming. They were once hundreds, and are now but a few. On the last days of the Forsaken, they will rise again and darken the skies, when the day of judgement comes.\n\nSpecial abilities: Behemoths were used as powerful beasts of burden by the Forsaken, and they can defend themselves quite well. Their flame attacks are quite dangerous. They can regenerate their wounds quite fast.</description>
 		<statBases>
 			<MoveSpeed>4</MoveSpeed>
 			<ComfyTemperatureMin>-50</ComfyTemperatureMin>

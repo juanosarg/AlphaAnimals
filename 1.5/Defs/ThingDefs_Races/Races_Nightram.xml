@@ -4,7 +4,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_NightRam</defName>
 		<label>nightram</label>
-		<description>The Nightram is a stubborn herbivore that shares much of its genome with the predatory Nightling, hinting at a common origin. They both originate from a RimWorld orbiting a very faint star -the native planet of an elusive race known as Forsakens- so they have adapted to environments with low sunlight. When found on other worlds, the Nightram are exclusively nocturnal, instinctively avoiding natural sunlight.\n\nNightrams are peaceful unless disturbed or threatened.</description>
+		<description>The Nightram is a stubborn herbivore that shares much of its genome with the predatory Nightling, hinting at a common origin. They both originate from a RimWorld orbiting a very faint star -the native planet of an elusive race known as the Forsaken- so they have adapted to environments with low sunlight. When found on other worlds, the Nightram are exclusively nocturnal, instinctively avoiding natural sunlight.\n\nNightrams are peaceful unless disturbed or threatened.</description>
 		<statBases>
 			<MoveSpeed>4.00</MoveSpeed>
 			<ComfyTemperatureMin>-35</ComfyTemperatureMin>
