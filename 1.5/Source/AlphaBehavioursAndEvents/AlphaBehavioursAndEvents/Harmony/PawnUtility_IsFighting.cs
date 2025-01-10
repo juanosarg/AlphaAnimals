@@ -37,7 +37,7 @@ namespace AlphaBehavioursAndEvents
     public static class AlphaAnimals_PawnUtility_IsFighting_Patch
     {
         [HarmonyTranspiler]
-        public static IEnumerable<CodeInstruction> DisableBlackHive_Transpiler(IEnumerable<CodeInstruction> codeInstructions)
+        public static IEnumerable<CodeInstruction> DisableBlackHive_Transpiler(IEnumerable<CodeInstruction> codeInstructions, ILGenerator generator)
         {
             MethodInfo getJobGetter = AccessTools.PropertyGetter(typeof(Verse.Pawn), nameof(Verse.Pawn.CurJob));
             FieldInfo turretField = AccessTools.Field(typeof(RimWorld.JobDefOf), nameof(RimWorld.JobDefOf.ManTurret));
@@ -68,7 +68,7 @@ namespace AlphaBehavioursAndEvents
                 else if (!readyToInsert && insideFirstIf && foundTurretManFieldLoad && instruction.opcode == OpCodes.Ceq) { readyToInsert = true; }
                 else if (readyToInsert && !insertionDone)
                 {
-                    Label myLabel = new Label();
+                    Label myLabel = generator.DefineLabel();
                     instruction.labels.Add(myLabel);
                     yield return new CodeInstruction(OpCodes.Dup); //Duplicate the result of the original method
                     yield return new CodeInstruction(OpCodes.Brtrue, myLabel); //Return true if original is true (jumps to the return statement and return orignial value) - This consumes the duplicated value
