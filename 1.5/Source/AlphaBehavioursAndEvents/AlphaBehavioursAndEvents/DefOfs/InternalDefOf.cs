@@ -90,6 +90,7 @@ namespace AlphaBehavioursAndEvents
         public static HediffDef AA_CrushingEverything;
         public static HediffDef AA_PsionicallyNuzzled;
         public static HediffDef AA_Kamikaze;
+        public static HediffDef AA_AcidBuildup_AgainstMechs;
 
         public static FleckDef PsycastPsychicEffect;
 
@@ -110,11 +111,11 @@ namespace AlphaBehavioursAndEvents
 
         public static BodyPartDef Body;
 
-        [MayRequire("OskarPotocki.VFE.Insectoid2")]
-        public static HediffDef AA_AcidBuildup_AgainstMechs;
+      
+       
         [MayRequire("OskarPotocki.VFE.Insectoid2")]
         public static ThingDef VFEI2_BlackInsectoidCocoon;
-        [MayRequire("OskarPotocki.VFE.Insectoid2")]
+       
         public static DamageDef AA_OverpoweringSecondaryAcidBurn;
 
 
