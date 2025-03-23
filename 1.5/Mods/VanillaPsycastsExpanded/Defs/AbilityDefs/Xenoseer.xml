@@ -15,6 +15,7 @@
 		<targetMode>Pawn</targetMode>
 		<castTime>15</castTime>
 		<range>25</range>
+		<chance>0</chance>
 		<fleckOnTarget>PsycastPsychicEffect</fleckOnTarget>
 		<showUndrafted>true</showUndrafted>
 		<castSound>AA_ChemfuelNodulesPsycast</castSound>
@@ -48,6 +49,7 @@
 		</targetingParameters>
 		<durationTime>7200</durationTime>
 		<targetMode>Pawn</targetMode>
+		<chance>0</chance>
 		<castTime>15</castTime>
 		<range>20</range>
 		<fleckOnTarget>PsycastPsychicEffect</fleckOnTarget>
@@ -84,6 +86,7 @@
 		</targetingParameters>
 		<durationTime>14400</durationTime>
 		<targetMode>Pawn</targetMode>
+		<chance>0</chance>
 		<castTime>15</castTime>
 		<range>20</range>
 		<fleckOnTarget>PsycastPsychicEffect</fleckOnTarget>
@@ -158,6 +161,7 @@
 		</targetingParameters>
 		<targetMode>Pawn</targetMode>
 		<castTime>15</castTime>
+		<chance>0</chance>
 		<range>25</range>
 		<fleckOnTarget>PsycastPsychicEffect</fleckOnTarget>
 		<showUndrafted>true</showUndrafted>
@@ -267,6 +271,7 @@
 		<targetMode>Pawn</targetMode>
 		<castTime>15</castTime>
 		<range>25</range>
+		<chance>0</chance>
 		<fleckOnTarget>PsycastPsychicEffect</fleckOnTarget>
 		<showUndrafted>true</showUndrafted>
 		<castSound>AA_ElectrifyPsycast</castSound>
@@ -304,6 +309,7 @@
 		<targetMode>Pawn</targetMode>
 		<castTime>15</castTime>
 		<range>10</range>
+		<chance>0</chance>
 		<fleckOnTarget>PsycastPsychicEffect</fleckOnTarget>
 		<showUndrafted>true</showUndrafted>
 		<castSound>AA_RegenerationPsycast</castSound>

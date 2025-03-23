@@ -200,7 +200,7 @@
 					</li>
 				</capMods>
 				<statOffsets>
-					<PainShockThreshold>-0.1</PainShockThreshold>
+					<PainShockThreshold>0.1</PainShockThreshold>
 
 				</statOffsets>
 			</li>

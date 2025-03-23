@@ -72,6 +72,8 @@
 			<willNeverEat>
 				<li MayRequire="Ludeon.RimWorld.Royalty">Plant_TreeAnima</li>
 				<li MayRequire="Ludeon.RimWorld.Ideology">Plant_TreeGauranlen</li>
+				<li MayRequire="Ludeon.RimWorld.Biotech">Plant_TreePolux</li>
+				<li MayRequire="Ludeon.RimWorld.Anomaly">Plant_TreeHarbinger</li>
 			</willNeverEat>
 			<useMeatFrom>Pig</useMeatFrom>
 			<wildness>0.6</wildness>

@@ -15,7 +15,11 @@
 
 				<statOffsets>
 					<CarryingCapacity>1</CarryingCapacity>
+					
 				</statOffsets>
+				<statFactors>
+					<VEF_MassCarryCapacity>0.5</VEF_MassCarryCapacity>
+				</statFactors>
 			</li>
 		</stages>
 	</HediffDef>
@@ -34,6 +38,9 @@
 				<statOffsets>
 					<CarryingCapacity>5</CarryingCapacity>
 				</statOffsets>
+				<statFactors>
+					<VEF_MassCarryCapacity>0.8</VEF_MassCarryCapacity>
+				</statFactors>
 			</li>
 		</stages>
 	</HediffDef>
@@ -52,6 +59,9 @@
 				<statOffsets>
 					<CarryingCapacity>7</CarryingCapacity>
 				</statOffsets>
+				<statFactors>
+					<VEF_MassCarryCapacity>1</VEF_MassCarryCapacity>
+				</statFactors>
 			</li>
 		</stages>
 	</HediffDef>
@@ -69,6 +79,9 @@
 				<statOffsets>
 					<CarryingCapacity>10</CarryingCapacity>
 				</statOffsets>
+				<statFactors>
+					<VEF_MassCarryCapacity>1.2</VEF_MassCarryCapacity>
+				</statFactors>
 			</li>
 		</stages>
 	</HediffDef>
@@ -86,6 +99,9 @@
 				<statOffsets>
 					<CarryingCapacity>15</CarryingCapacity>
 				</statOffsets>
+				<statFactors>
+					<VEF_MassCarryCapacity>1.5</VEF_MassCarryCapacity>
+				</statFactors>
 			</li>
 		</stages>
 	</HediffDef>
@@ -103,6 +119,9 @@
 				<statOffsets>
 					<CarryingCapacity>20</CarryingCapacity>
 				</statOffsets>
+				<statFactors>
+					<VEF_MassCarryCapacity>1.7</VEF_MassCarryCapacity>
+				</statFactors>
 			</li>
 		</stages>
 	</HediffDef>
@@ -120,6 +139,9 @@
 				<statOffsets>
 					<CarryingCapacity>30</CarryingCapacity>
 				</statOffsets>
+				<statFactors>
+					<VEF_MassCarryCapacity>2</VEF_MassCarryCapacity>
+				</statFactors>
 			</li>
 		</stages>
 	</HediffDef>
