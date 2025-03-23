@@ -2,12 +2,12 @@
 <Patch>
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>Giddy-Up 2</li>
+			<li>Giddy-Up 2 Forked</li>
 		</mods>
 		<match Class="PatchOperationSequence">
 			<operations>
 				<li Class="PatchOperationAddModExtension">
-					<xpath>/Defs/ThingDef[defName = "AA_MeadowAve"]</xpath> 
+					<xpath>/Defs/PawnKindDef[defName = "AA_MeadowAve"]</xpath> 
 					<value>
 						<li Class="GiddyUp.CustomStats">
 							<!--Speed factor. -->
@@ -18,65 +18,67 @@
 							<useMetalArmor>false</useMetalArmor>
 						</li>
 						<li Class="GiddyUp.DrawInFront" />
+						<li Class="GiddyUp.Mountable" />
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>/Defs/PawnKindDef[defName = "AA_DesertAve"]</xpath> 
+					<value>
+						<li Class="GiddyUp.CustomStats">
+							<!--Speed factor. -->
+							<speedModifier>1.5</speedModifier>
+							<!--Armor factor. -->
+							<armorModifier>1</armorModifier>
+							<!--Setting useMetalArmor to true, makes the animal's skin have the metal bounce of effect when hit when used as mount --> 
+							<useMetalArmor>false</useMetalArmor>
+						</li>
+						<li Class="GiddyUp.Mountable" />
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>/Defs/PawnKindDef[defName = "AA_FrostAve"]</xpath> 
+					<value>
+						<li Class="GiddyUp.CustomStats">
+							<!--Speed factor. -->
+							<speedModifier>1.5</speedModifier>
+							<!--Armor factor. -->
+							<armorModifier>1</armorModifier>
+							<!--Setting useMetalArmor to true, makes the animal's skin have the metal bounce of effect when hit when used as mount --> 
+							<useMetalArmor>false</useMetalArmor>
+						</li>
+						<li Class="GiddyUp.Mountable" />
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>/Defs/PawnKindDef[defName = "AA_NightAve"]</xpath> 
+					<value>
+						<li Class="GiddyUp.CustomStats">
+							<!--Speed factor. -->
+							<speedModifier>1.5</speedModifier>
+							<!--Armor factor. -->
+							<armorModifier>1</armorModifier>
+							<!--Setting useMetalArmor to true, makes the animal's skin have the metal bounce of effect when hit when used as mount --> 
+							<useMetalArmor>false</useMetalArmor>
+						</li>
+						<li Class="GiddyUp.Mountable" />
+					</value>
+				</li>		
+				<li Class="PatchOperationAddModExtension">
+					<xpath>/Defs/PawnKindDef[defName = "AA_RoyalAve"]</xpath> 
+					<value>
+						<li Class="GiddyUp.CustomStats">
+							<!--Speed factor. -->
+							<speedModifier>1.5</speedModifier>
+							<!--Armor factor. -->
+							<armorModifier>1</armorModifier>
+							<!--Setting useMetalArmor to true, makes the animal's skin have the metal bounce of effect when hit when used as mount --> 
+							<useMetalArmor>false</useMetalArmor>
+						</li>
 						<li Class="GiddyUp.Mountable"/>
 					</value>
 				</li>
 				<li Class="PatchOperationAddModExtension">
-					<xpath>/Defs/ThingDef[defName = "AA_DesertAve"]</xpath> 
-					<value>
-						<li Class="GiddyUp.CustomStats">
-							<!--Speed factor. -->
-							<speedModifier>1.5</speedModifier>
-							<!--Armor factor. -->
-							<armorModifier>1</armorModifier>
-							<!--Setting useMetalArmor to true, makes the animal's skin have the metal bounce of effect when hit when used as mount --> 
-							<useMetalArmor>false</useMetalArmor>
-						</li>
-					</value>
-				</li>
-				<li Class="PatchOperationAddModExtension">
-					<xpath>/Defs/ThingDef[defName = "AA_FrostAve"]</xpath> 
-					<value>
-						<li Class="GiddyUp.CustomStats">
-							<!--Speed factor. -->
-							<speedModifier>1.5</speedModifier>
-							<!--Armor factor. -->
-							<armorModifier>1</armorModifier>
-							<!--Setting useMetalArmor to true, makes the animal's skin have the metal bounce of effect when hit when used as mount --> 
-							<useMetalArmor>false</useMetalArmor>
-						</li>
-					</value>
-				</li>
-				<li Class="PatchOperationAddModExtension">
-					<xpath>/Defs/ThingDef[defName = "AA_NightAve"]</xpath> 
-					<value>
-						<li Class="GiddyUp.CustomStats">
-							<!--Speed factor. -->
-							<speedModifier>1.5</speedModifier>
-							<!--Armor factor. -->
-							<armorModifier>1</armorModifier>
-							<!--Setting useMetalArmor to true, makes the animal's skin have the metal bounce of effect when hit when used as mount --> 
-							<useMetalArmor>false</useMetalArmor>
-						</li>
-						<li Class="GiddyUp.Mountable"/>
-					</value>
-				</li>			
-				<li Class="PatchOperationAddModExtension">
-					<xpath>/Defs/ThingDef[defName = "AA_RoyalAve"]</xpath> 
-					<value>
-						<li Class="GiddyUp.CustomStats">
-							<!--Speed factor. -->
-							<speedModifier>1.5</speedModifier>
-							<!--Armor factor. -->
-							<armorModifier>1</armorModifier>
-							<!--Setting useMetalArmor to true, makes the animal's skin have the metal bounce of effect when hit when used as mount --> 
-							<useMetalArmor>false</useMetalArmor>
-						</li>
-						<li Class="GiddyUp.Mountable"/>
-					</value>
-				</li>
-				<li Class="PatchOperationAddModExtension">
-					<xpath>/Defs/ThingDef[defName = "AA_MammothWorm"]</xpath> 
+					<xpath>/Defs/PawnKindDef[defName = "AA_MammothWorm"]</xpath> 
 					<value>
 						<li Class="GiddyUp.CustomStats">
 							<!--Speed factor.  -->
@@ -885,64 +887,59 @@
 				</li>
 				
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName = "AA_Groundrunner"]</xpath> 
+					<xpath>/Defs/ThingDef[defName = "AA_Groundrunner"]/comps</xpath> 
 					<value>
-						<comps>
-							
-							<li Class="GiddyUp.CompProperties_Overlay">
-								<overlaySide> 
-									<graphicDataDefault>
-										<texPath>Things/Pawn/Animal/Saddles/AA_Saddle7_east</texPath>
-										<graphicClass>Graphic_Single</graphicClass>
-										<drawSize>2.5</drawSize>
-										<drawRotated>false</drawRotated>
-										
-									</graphicDataDefault>					
-									<offsetDefault>(0,0,0,0)</offsetDefault>
-								</overlaySide>
-								<overlayFront>
-									<graphicDataDefault>
-										<graphicClass>Graphic_Single</graphicClass>
-										<drawSize>2.5</drawSize>
-										<drawRotated>false</drawRotated>
-									</graphicDataDefault>
-									<allVariants>
-										<li>
-											<texPath>Things/Pawn/Animal/Saddles/AA_GroundRunner-_south</texPath>
-										</li>
-										<li>
-											<texPath>Things/Pawn/Animal/Saddles/AA_GroundRunner2-_south</texPath>
-										</li>							
-										<li>
-											<texPath>Things/Pawn/Animal/Saddles/AA_GroundRunner3-_south</texPath>
-										</li>							
-										<li>
-											<texPath>Things/Pawn/Animal/Saddles/AA_GroundRunner4-_south</texPath>
-										</li>							
-										<li>
-											<texPath>Things/Pawn/Animal/Saddles/AA_GroundRunner5-_south</texPath>
-										</li>							
-										<li>
-											<texPath>Things/Pawn/Animal/Saddles/AA_GroundRunnerW-_south</texPath>
-										</li>						
-										
-									</allVariants>
-									<stringDelimiter>-</stringDelimiter>
-									<offsetDefault>(0,0,0,0)</offsetDefault>
-								</overlayFront>
-								<overlayBack> 
-									<graphicDataDefault>
-										<texPath>Things/Pawn/Animal/Saddles/AA_Saddle7_north</texPath>
-										<graphicClass>Graphic_Single</graphicClass>
-										<drawSize>2.5</drawSize>
-										<drawRotated>false</drawRotated>
-										
-									</graphicDataDefault>					
-									<offsetDefault>(0,0,0,0)</offsetDefault>
-								</overlayBack>
-								
-							</li>
-						</comps>
+						<li Class="GiddyUp.CompProperties_Overlay">
+							<overlaySide> 
+								<graphicDataDefault>
+									<texPath>Things/Pawn/Animal/Saddles/AA_Saddle7_east</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>2.5</drawSize>
+									<drawRotated>false</drawRotated>
+								</graphicDataDefault>					
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlaySide>
+							<overlayFront>
+								<graphicDataDefault>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>2.5</drawSize>
+									<drawRotated>false</drawRotated>
+								</graphicDataDefault>
+								<allVariants>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/AA_GroundRunner-_south</texPath>
+									</li>
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/AA_GroundRunner2-_south</texPath>
+									</li>							
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/AA_GroundRunner3-_south</texPath>
+									</li>							
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/AA_GroundRunner4-_south</texPath>
+									</li>							
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/AA_GroundRunner5-_south</texPath>
+									</li>							
+									<li>
+										<texPath>Things/Pawn/Animal/Saddles/AA_GroundRunnerW-_south</texPath>
+									</li>						
+									
+								</allVariants>
+								<stringDelimiter>-</stringDelimiter>
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayFront>
+							<overlayBack> 
+								<graphicDataDefault>
+									<texPath>Things/Pawn/Animal/Saddles/AA_Saddle7_north</texPath>
+									<graphicClass>Graphic_Single</graphicClass>
+									<drawSize>2.5</drawSize>
+									<drawRotated>false</drawRotated>
+									
+								</graphicDataDefault>					
+								<offsetDefault>(0,0,0,0)</offsetDefault>
+							</overlayBack>
+						</li>
 					</value>
 				</li>
 				
