@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<PawnRenderTreeDef>
+		<defName>AA_ColossalAerofleet</defName>
+		<root Class="PawnRenderNodeProperties_Parent">
+			<debugLabel>Root</debugLabel>
+			<tagDef>Root</tagDef>
+			<children>
+				<li>
+					<debugLabel>Body</debugLabel>
+					<tagDef>Body</tagDef>
+					<nodeClass>PawnRenderNode_AnimalPart</nodeClass>
+					<useRottenColor>true</useRottenColor>
+					<children>
+						<li Class="AlphaBehavioursAndEvents.PawnRenderNodeProperties_SpasticScaled">
+							<linkedBodyPartsGroup>Arms</linkedBodyPartsGroup>
+							<texPath>Things/Pawn/Animal/AA_Aerofleet/AA_Aerofleet_Colossal_Tentacle1</texPath>
+							<rotDrawMode>Fresh, Rotting</rotDrawMode>
+							<rotateFacing>false</rotateFacing>
+							<rotationRange>-15~15</rotationRange>
+							<durationTicksRange>10~35</durationTicksRange>
+								<nextSpasmTicksRange>0~15</nextSpasmTicksRange>
+							<drawSize>1.4</drawSize>
+							<baseLayer>10</baseLayer>
+							<useRottenColor>true</useRottenColor>
+							<drawData>
+								<defaultData>
+									<offset>(0, 0, -0.15)</offset>
+								</defaultData>
+								<dataNorth>
+									<layer>-5</layer>
+								</dataNorth>
+								<dataSouth>
+									<layer>-5</layer>
+								</dataSouth>
+								<dataWest>
+									<flip>true</flip>
+								</dataWest>
+							</drawData>
+						</li>
+						<li Class="AlphaBehavioursAndEvents.PawnRenderNodeProperties_SpasticScaled">
+							<linkedBodyPartsGroup>Arms</linkedBodyPartsGroup>
+							<texPath>Things/Pawn/Animal/AA_Aerofleet/AA_Aerofleet_Colossal_Tentacle2</texPath>
+							<rotDrawMode>Fresh, Rotting</rotDrawMode>
+							<rotateFacing>false</rotateFacing>
+							<rotationRange>-15~15</rotationRange>
+							<durationTicksRange>10~35</durationTicksRange>
+							<nextSpasmTicksRange>0~15</nextSpasmTicksRange>
+							<drawSize>1.4</drawSize>
+							<baseLayer>10</baseLayer>
+							<useRottenColor>true</useRottenColor>
+							<drawData>
+								<dataNorth>
+									<layer>-5</layer>
+								</dataNorth>
+								<dataSouth>
+									<layer>-5</layer>
+								</dataSouth>
+								<defaultData>
+									<offset>(0, 0, -0.15)</offset>
+								</defaultData>
+								<dataWest>
+									<flip>true</flip>
+								</dataWest>
+							</drawData>
+						</li>
+						<li Class="AlphaBehavioursAndEvents.PawnRenderNodeProperties_SpasticScaled">
+							<linkedBodyPartsGroup>Arms</linkedBodyPartsGroup>
+							<texPath>Things/Pawn/Animal/AA_Aerofleet/AA_Aerofleet_Colossal_Tentacle3</texPath>
+							<rotDrawMode>Fresh, Rotting</rotDrawMode>
+							<rotateFacing>false</rotateFacing>
+							<rotationRange>-15~15</rotationRange>
+							<durationTicksRange>10~35</durationTicksRange>
+								<nextSpasmTicksRange>0~15</nextSpasmTicksRange>
+							<drawSize>1.4</drawSize>
+							<baseLayer>10</baseLayer>
+							<useRottenColor>true</useRottenColor>
+							<drawData>
+								<dataNorth>
+									<layer>-5</layer>
+								</dataNorth>
+								<dataSouth>
+									<layer>-5</layer>
+								</dataSouth>
+								<defaultData>
+									<offset>(0, 0, -0.15)</offset>
+								</defaultData>
+								<dataWest>
+									<flip>true</flip>
+								</dataWest>
+							</drawData>
+						</li>
+						<li Class="AlphaBehavioursAndEvents.PawnRenderNodeProperties_SpasticScaled">
+							<linkedBodyPartsGroup>Arms</linkedBodyPartsGroup>
+							<texPath>Things/Pawn/Animal/AA_Aerofleet/AA_Aerofleet_Colossal_Tentacle4</texPath>
+							<rotDrawMode>Fresh, Rotting</rotDrawMode>
+							<rotateFacing>false</rotateFacing>
+							<rotationRange>-15~15</rotationRange>
+							<durationTicksRange>10~35</durationTicksRange>
+							<nextSpasmTicksRange>0~15</nextSpasmTicksRange>
+							<drawSize>1.4</drawSize>
+							<baseLayer>10</baseLayer>
+							<useRottenColor>true</useRottenColor>
+							<drawData>
+								<dataNorth>
+									<layer>-5</layer>
+								</dataNorth>
+								<dataSouth>
+									<layer>-5</layer>
+								</dataSouth>
+								<defaultData>
+									<offset>(0, 0, -0.15)</offset>
+								</defaultData>
+								<dataWest>
+									<flip>true</flip>
+								</dataWest>
+							</drawData>
+						</li>
+						<li>
+							<debugLabel>Wounds</debugLabel>
+							<nodeClass>PawnRenderNode_AnimalPart</nodeClass>
+							<workerClass>PawnRenderNodeWorker_OverlayWounds</workerClass>
+							<overlayLayer>Body</overlayLayer>
+							<useGraphic>false</useGraphic>
+							<baseLayer>3</baseLayer>
+						</li>
+						<li>
+							<debugLabel>Pack</debugLabel>
+							<nodeClass>PawnRenderNode_AnimalPack</nodeClass>
+							<workerClass>PawnRenderNodeWorker_AnimalPack</workerClass>
+							<rotDrawMode>Fresh, Rotting</rotDrawMode>
+							<baseLayer>5</baseLayer>
+						</li>
+						<li>
+							<debugLabel>Firefoam</debugLabel>
+							<nodeClass>PawnRenderNode_AnimalPart</nodeClass>
+							<workerClass>PawnRenderNodeWorker_OverlayFirefoam</workerClass>
+							<overlayLayer>Body</overlayLayer>
+							<useGraphic>false</useGraphic>
+							<baseLayer>10</baseLayer>
+						</li>
+					</children>
+				</li>
+				<li Class="PawnRenderNodeProperties_Carried">
+					<debugLabel>Carried thing</debugLabel>
+					<workerClass>PawnRenderNodeWorker_Carried</workerClass>
+				</li>
+			</children>
+		</root>
+	</PawnRenderTreeDef>
+	
+	
+</Defs>

@@ -97,7 +97,7 @@
 			<Nutrition>0.1</Nutrition>
 		</statBases>
 		<graphicData>
-			<texPath>Things/Plants/GU_AlienTree</texPath>
+				<texPath>Things/Plants/AB_OcularTree</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<shadowData>
 				<volume>(0.24, 0.3, 0.15)</volume>

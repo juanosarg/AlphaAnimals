@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HediffDef>
+		<defName>AA_HorrifyingDread</defName>
+		<description>A primal sense of fear and terror caused by the presence of a grotesque fangsquid nearby.</description>
+		<label>horrifying dread</label>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<hediffClass>HediffWithComps</hediffClass>
+		<maxSeverity>1.0</maxSeverity>
+		<initialSeverity>1.0</initialSeverity>
+		<stages>
+			<li>
+				<statOffsets>
+					<MentalBreakThreshold>0.1</MentalBreakThreshold>
+				</statOffsets>
+			</li>
+		</stages>
+		<comps>
+			<li Class="VEF.Cooking.HediffCompProperties_WhileHavingThoughts">
+				<thoughtDefs>
+					<li>AA_HorrifyingDread</li>
+				</thoughtDefs>
+			</li>
+		</comps>
+	</HediffDef>
+	
+</Defs>

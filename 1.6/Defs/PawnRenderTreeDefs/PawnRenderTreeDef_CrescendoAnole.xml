@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<PawnRenderTreeDef>
+		<defName>AA_CrescendoAnole</defName>
+		<root Class="PawnRenderNodeProperties_Parent">
+			<debugLabel>Root</debugLabel>
+			<tagDef>Root</tagDef>
+			<children>
+				<li>
+					<debugLabel>Body</debugLabel>
+					<tagDef>Body</tagDef>
+					<useRottenColor>true</useRottenColor>
+					<nodeClass>AlphaBehavioursAndEvents.PawnRenderNode_CrescendoAnole</nodeClass>
+					<children>
+						<li>
+							<debugLabel>Wounds</debugLabel>
+							<nodeClass>PawnRenderNode_AnimalPart</nodeClass>
+							<workerClass>PawnRenderNodeWorker_OverlayWounds</workerClass>
+							<overlayLayer>Body</overlayLayer>
+							<useGraphic>false</useGraphic>
+							<baseLayer>3</baseLayer>
+						</li>
+						<li>
+							<debugLabel>Firefoam</debugLabel>
+							<nodeClass>PawnRenderNode_AnimalPart</nodeClass>
+							<workerClass>PawnRenderNodeWorker_OverlayFirefoam</workerClass>
+							<overlayLayer>Body</overlayLayer>
+							<useGraphic>false</useGraphic>
+							<baseLayer>10</baseLayer>
+						</li>
+						<li Class="PawnRenderNodeProperties_Carried">
+							<debugLabel>Carried thing</debugLabel>
+							<workerClass>PawnRenderNodeWorker_Carried</workerClass>
+						</li>
+					</children>
+				</li>
+			</children>
+		</root>
+	</PawnRenderTreeDef>
+	
+	
+</Defs>
