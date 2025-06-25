@@ -11,6 +11,7 @@
 			<ArmorRating_Sharp>0.8</ArmorRating_Sharp>
 			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
 			<MarketValue>150</MarketValue>
+			<Wildness>0.95</Wildness>
 		</statBases>
 		<comps>
 			
@@ -52,7 +53,7 @@
 			<baseHealthScale>0.45</baseHealthScale>
 			<useMeatFrom>Megaspider</useMeatFrom>
 			<leatherDef>Leather_BlackChitin</leatherDef>
-			<wildness>0.95</wildness>
+			
 			<lifeExpectancy>10</lifeExpectancy>
 			<lifeStageAges>
 				
@@ -157,6 +158,7 @@
 			<MarketValue>250</MarketValue>
 			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+			<Wildness>0.95</Wildness>
 		</statBases>
 		<comps>
 			
@@ -202,7 +204,7 @@
 			<gestationPeriodDays>12</gestationPeriodDays>
 			<useMeatFrom>Megaspider</useMeatFrom>
 			<leatherDef>Leather_BlackChitin</leatherDef>
-			<wildness>0.95</wildness>
+			
 			<lifeExpectancy>6</lifeExpectancy>
 						<trainability>Intermediate</trainability>
 
@@ -313,6 +315,7 @@
 			<MarketValue>550</MarketValue>
 			<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.4</ArmorRating_Sharp>
+			<Wildness>1</Wildness>
 		</statBases>
 		<comps>
 			
@@ -359,7 +362,7 @@
 			<gestationPeriodDays>12</gestationPeriodDays>
 			<useMeatFrom>Megaspider</useMeatFrom>
 			<leatherDef>Leather_BlackChitin</leatherDef>
-			<wildness>1</wildness>
+			
 			<lifeExpectancy>6</lifeExpectancy>
 			<trainability>Advanced</trainability>
 			<lifeStageAges>
@@ -471,6 +474,7 @@
 			<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
 			<CaravanRidingSpeedFactor>1.2</CaravanRidingSpeedFactor>
 			<FilthRate>12</FilthRate>
+			<Wildness>0.9</Wildness>
 		</statBases>
 		<tools>
 			<li>
@@ -524,7 +528,7 @@
 			<foodType>OmnivoreRoughAnimal</foodType>
 			<leatherDef>Leather_BlackChitin</leatherDef>
 			
-			<wildness>0.9</wildness>
+			
 			<trainability>Intermediate</trainability>
 			<litterSizeCurve>
 				<points>

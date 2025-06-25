@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-
-
 	<!-- Insectoid Queen -->
 	<ThingDef ParentName="BaseInsect2">
 		<defName>AAVPE_BlackQueen</defName>
@@ -14,6 +11,7 @@
 			<MarketValue>1500</MarketValue>
 			<ArmorRating_Blunt>0.75</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+			<Wildness>0.95</Wildness>
 		</statBases>
 		<tools>
 			<li>
@@ -38,40 +36,33 @@
 			</li>
 		</tools>
 		<comps>
-
 			<li Class="VEF.AnimalBehaviours.CompProperties_ThoughtEffecter">
 				<radius>7</radius>
 				<thoughtDef>AAVPE_SeenBlackQueen</thoughtDef>
 			</li>
 			<li Class="VEF.AnimalBehaviours.CompProperties_FixedGender">
 				<gender>Female</gender>
-
 			</li>
 			<li Class="VEF.AnimalBehaviours.CompProperties_DieAfterPeriod">
 				<timeToDieInTicks>60000</timeToDieInTicks>
 				<effect>false</effect>
 				<justVanish>true</justVanish>
-
 			</li>
 			<li Class="VEF.AnimalBehaviours.CompProperties_Infecter">
 				<infectionChance>95</infectionChance>
 				<worsenExistingInfection>true</worsenExistingInfection>
-				
 			</li>
 			<li Class="VEF.AnimalBehaviours.CompProperties_Regeneration">
 				<rateInTicks>60</rateInTicks>
-
 			</li>
 		</comps>
 		<race>
 			<body>BeetleLikeWithClaw</body>
-			
 			<baseHungerRate>0.70</baseHungerRate>
 			<baseBodySize>4</baseBodySize>
 			<baseHealthScale>8</baseHealthScale>
 			<gestationPeriodDays>12</gestationPeriodDays>
 			<useMeatFrom>Megaspider</useMeatFrom>
-			<wildness>0.95</wildness>
 			<lifeExpectancy>6</lifeExpectancy>
 			<lifeStageAges>
 				<li>
@@ -95,9 +86,7 @@
 			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
-		
 	</ThingDef>
-
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AAVPE_BlackQueen</defName>
 		<label>summoned black queen</label>
@@ -142,7 +131,4 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
-
-	
-
 </Defs>

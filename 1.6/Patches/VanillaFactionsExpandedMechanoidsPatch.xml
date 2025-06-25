@@ -9,7 +9,6 @@
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs</xpath>
 					<value>
-						
 						<ThingDef ParentName="AnimalThingBase">
 							<defName>VFE_Mech_Slurrymaster</defName>
 							<label>slurrymaster</label>
@@ -25,6 +24,7 @@
 								<MeatAmount>0</MeatAmount>
 								<ArmorRating_Blunt>0.60</ArmorRating_Blunt>
 								<ArmorRating_Sharp>0.80</ArmorRating_Sharp>
+								<Wildness>0.6</Wildness>
 							</statBases>
 							<tools>
 								<li>
@@ -71,13 +71,12 @@
 								<hasGenders>false</hasGenders>
 								<willNeverEat>
 									<li MayRequire="Ludeon.RimWorld.Royalty">Plant_TreeAnima</li>
-				<li MayRequire="Ludeon.RimWorld.Ideology">Plant_TreeGauranlen</li>
-				<li MayRequire="Ludeon.RimWorld.Biotech">Plant_TreePolux</li>
-				<li MayRequire="Ludeon.RimWorld.Anomaly">Plant_TreeHarbinger</li>
-				<li MayRequire="Ludeon.RimWorld.Odyssey">Plant_TreeArchean</li>
+									<li MayRequire="Ludeon.RimWorld.Ideology">Plant_TreeGauranlen</li>
+									<li MayRequire="Ludeon.RimWorld.Biotech">Plant_TreePolux</li>
+									<li MayRequire="Ludeon.RimWorld.Anomaly">Plant_TreeHarbinger</li>
+									<li MayRequire="Ludeon.RimWorld.Odyssey">Plant_TreeArchean</li>
 								</willNeverEat>
 								<useMeatFrom>Pig</useMeatFrom>
-								<wildness>0.6</wildness>
 								<manhunterOnDamageChance>0.0</manhunterOnDamageChance>
 								<manhunterOnTameFailChance>0.0</manhunterOnTameFailChance>
 								<trainability>Intermediate</trainability>
@@ -151,7 +150,6 @@
 						<li>VFE_Mech_Slurrymaster</li>
 					</value>
 				</li>
-				
 			</operations>
 		</match>
 	</Operation>

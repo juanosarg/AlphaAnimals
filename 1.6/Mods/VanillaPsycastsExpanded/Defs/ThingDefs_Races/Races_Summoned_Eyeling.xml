@@ -10,17 +10,14 @@
 			<ComfyTemperatureMin>0</ComfyTemperatureMin>
 			<ComfyTemperatureMax>60</ComfyTemperatureMax>
 			<MeatAmount>0</MeatAmount>
+			<Wildness>0.46</Wildness>
 		</statBases>
 		<comps>
-			
 			<li Class="VEF.AnimalBehaviours.CompProperties_DieAfterPeriod">
 				<timeToDieInTicks>60000</timeToDieInTicks>
 				<effect>false</effect>
 				<justVanish>true</justVanish>
-			
 			</li>
-			
-		
 		</comps>
 		<tools>
 			<li>
@@ -42,13 +39,11 @@
 			<baseHungerRate>0.1</baseHungerRate>
 			<foodType>OmnivoreRoughAnimal</foodType>
 			<leatherDef>Leather_Light</leatherDef>
-			<wildness>0.46</wildness>
 			<useMeatFrom>Pig</useMeatFrom>
 			<herdMigrationAllowed>false</herdMigrationAllowed>
 			<trainability>Intermediate</trainability>
 			<lifeExpectancy>12</lifeExpectancy>
 			<lifeStageAges>
-				
 				<li>
 					<def>AnimalAdult</def>
 					<minAge>0</minAge>
@@ -90,7 +85,6 @@
 		<ecoSystemWeight>0.30</ecoSystemWeight>
 		<canArriveManhunter>false</canArriveManhunter>
 		<lifeStages>
-			
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawn/Animal/AA_Eyeling/AA_Eyeling</texPath>

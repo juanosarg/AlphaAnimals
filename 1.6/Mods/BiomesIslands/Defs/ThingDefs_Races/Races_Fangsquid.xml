@@ -11,6 +11,7 @@
 			<ComfyTemperatureMax>55</ComfyTemperatureMax>
 			<MarketValue>1500</MarketValue>
 			<LeatherAmount>0</LeatherAmount>
+			<Wildness>0.7</Wildness>
 		</statBases>
 		<tools>
 			<li>
@@ -60,7 +61,7 @@
 			<baseBodySize>2</baseBodySize>
 			<baseHealthScale>3.0</baseHealthScale>
 			<foodType>OmnivoreRoughAnimal</foodType>
-			<wildness>0.7</wildness>
+			
 			<useMeatFrom>AA_SandSquid</useMeatFrom>
 			<trainability>None</trainability>
 			<gestationPeriodDays>12</gestationPeriodDays>

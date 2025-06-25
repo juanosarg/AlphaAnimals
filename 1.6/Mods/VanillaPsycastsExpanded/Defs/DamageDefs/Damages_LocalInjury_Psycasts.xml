@@ -11,7 +11,7 @@
 	<DamageDef ParentName="Bite">
 		<defName>AAVPE_InfectedMandibles</defName>
 		<label>infected mandibles</label>
-		<workerClass>AnimalBehaviours.DamageWorker_ExtraInfecter</workerClass>
+		<workerClass>VEF.AnimalBehaviours.DamageWorker_ExtraInfecter</workerClass>
 
 	</DamageDef>
 

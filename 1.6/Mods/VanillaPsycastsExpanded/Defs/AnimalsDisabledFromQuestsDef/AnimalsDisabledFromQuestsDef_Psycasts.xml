@@ -4,7 +4,7 @@
 
 
 
-	<AnimalBehaviours.AnimalsDisabledFromQuestsDef>
+	<VEF.AnimalBehaviours.AnimalsDisabledFromQuestsDef>
 		<defName>AA_DisabledAnimalToggles_psycasts</defName>
 		<disabledFromQuestsPawns>			
 			
@@ -19,7 +19,7 @@
 			
 			
 		</disabledFromQuestsPawns>							
-	</AnimalBehaviours.AnimalsDisabledFromQuestsDef>
+	</VEF.AnimalBehaviours.AnimalsDisabledFromQuestsDef>
 
 
 

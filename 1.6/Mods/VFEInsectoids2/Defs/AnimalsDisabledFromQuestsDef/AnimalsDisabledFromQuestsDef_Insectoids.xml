@@ -4,7 +4,7 @@
 
 
 
-	<AnimalBehaviours.AnimalsDisabledFromQuestsDef>
+	<VEF.AnimalBehaviours.AnimalsDisabledFromQuestsDef>
 		<defName>AA_DisabledAnimalToggles_Insectoids</defName>
 		<disabledFromQuestsPawns>			
 			
@@ -15,7 +15,7 @@
 			
 			
 		</disabledFromQuestsPawns>							
-	</AnimalBehaviours.AnimalsDisabledFromQuestsDef>
+	</VEF.AnimalBehaviours.AnimalsDisabledFromQuestsDef>
 
 
 
