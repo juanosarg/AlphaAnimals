@@ -19,7 +19,7 @@
 						<li>Any damage of type Bomb caused to the carrier will trigger a catatonic breakdown.</li>
 					</customEffectDescriptions>
 					<modExtensions>
-						<li Class="VanillaGenesExpanded.GeneExtension">
+						<li Class="VEF.Genes.GeneExtension">
 							<hediffToWholeBody>AA_EcholocativeFeedbackLoop</hediffToWholeBody>
 							<backgroundPathEndogenes>UI/Icons/Genes/VRE_MutationBG</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/VRE_MutationBG</backgroundPathXenogenes>
@@ -46,7 +46,7 @@
 						<li>Will periodically be dissoriented under direct sunlight</li>
 					</customEffectDescriptions>
 					<modExtensions>
-						<li Class="VanillaGenesExpanded.GeneExtension">
+						<li Class="VEF.Genes.GeneExtension">
 							<backgroundPathEndogenes>UI/Icons/Genes/VRE_MutationBG</backgroundPathEndogenes>
 				<backgroundPathXenogenes>UI/Icons/Genes/VRE_MutationBG</backgroundPathXenogenes>
 						</li>

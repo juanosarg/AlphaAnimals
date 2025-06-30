@@ -22,7 +22,7 @@
 						<li>InsectorGlands</li>
 					</exclusionTags>
 					<modExtensions>
-						<li Class="VanillaGenesExpanded.GeneExtension">
+						<li Class="VEF.Genes.GeneExtension">
 							<backgroundPathEndogenes>UI/Icons/Genes/VRE_EvolutionBG</backgroundPathEndogenes>
 							<backgroundPathXenogenes>UI/Icons/Genes/VRE_EvolutionBG</backgroundPathXenogenes>
 						</li>
@@ -42,7 +42,7 @@
 						<li>Hands</li>
 					</exclusionTags>
 					<modExtensions>
-						<li Class="VanillaGenesExpanded.GeneExtension">
+						<li Class="VEF.Genes.GeneExtension">
 							<backgroundPathEndogenes>UI/Icons/Genes/VRE_EvolutionBG</backgroundPathEndogenes>
 							<backgroundPathXenogenes>UI/Icons/Genes/VRE_EvolutionBG</backgroundPathXenogenes>
 							<hediffsToBodyParts>
