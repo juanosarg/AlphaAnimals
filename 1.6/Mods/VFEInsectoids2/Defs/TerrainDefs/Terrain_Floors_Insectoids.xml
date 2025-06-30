@@ -9,6 +9,7 @@
     <edgeType>FadeRough</edgeType>
     <renderPrecedence>70</renderPrecedence>
     <isPaintable>false</isPaintable>
+    <pathCost>46</pathCost>
     <statBases>
       <Beauty>-1</Beauty>
       <Cleanliness>-2</Cleanliness>
@@ -28,6 +29,9 @@
     <uiOrder>2020</uiOrder>
 	<designationCategory inherit ="False"/>
 	<burnedDef>VFEI2_BurnedCreep</burnedDef>
+    <tags>
+      <li>VFEI2_Creep</li>
+    </tags>
   </TerrainDef>
   
  
