@@ -27,7 +27,7 @@ namespace AlphaBehavioursAndEvents
                 float TotalMultiplier = AlphaAnimalsEvents_Mod.settings.alphaAnimalSpawnMultiplier * 0.5f;
                 __result *= TotalMultiplier;
 
-            }
+            } 
             
 
         }
