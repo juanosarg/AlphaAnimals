@@ -322,13 +322,13 @@
     <Compile Include="DeathActionWorkers\DeathActionWorker_FrostbiteExplosion.cs" />
     <Compile Include="DeathActionWorkers\DeathActionWorker_SummonEclipse.cs" />
     <Compile Include="DeathActionWorkers\DeathActionWorker_SummonTornado.cs" />
-    <Compile Include="Debug\FixedColonyAnimalsDebug.cs" />
     <Compile Include="DefExtensions\Ability_MultipleProjectile_Extension.cs" />
     <Compile Include="DefExtensions\Ability_SpawnOnRadius_Extension.cs" />
     <Compile Include="DefExtensions\Ability_Damage_Extension.cs" />
     <Compile Include="DefExtensions\Ability_Summon_Extension.cs" />
     <Compile Include="DefOfs\InternalDefOf.cs" />
     <Compile Include="Def\ToggleableSpawnDef.cs" />
+    <Compile Include="Dev Mode\FixedColonyAnimalsDebug.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_Berserk.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_ExtraDamageMechanoidsAcid.cs" />
     <Compile Include="ExplosionsAndDamage\DamageWorker_ExtraDamageMechanoidsPhysical.cs" />
@@ -371,7 +371,6 @@
     <Compile Include="Incidents\QuestNode_Root_MimeWandererJoin_WalkIn.cs" />
     <Compile Include="Incidents\ThingSetMaker_AlphaResourcePod.cs" />
     <Compile Include="Jobs\JobDriver_PlantAnimaTree.cs" />
-    <Compile Include="Jobs\JobGiver_MergeIntoGaumakerPodCorruptor.cs" />
     <Compile Include="Jobs\JobGiver_Mine.cs" />
     <Compile Include="Jobs\JobGiver_TryQuarryJob.cs" />
     <Compile Include="MapComponents\MapRoomUpdater.cs" />
