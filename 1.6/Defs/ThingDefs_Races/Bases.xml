@@ -4,6 +4,7 @@
 		<statBases>
 			<ToxicResistance>1</ToxicResistance>
 			<ComfyTemperatureMax>75</ComfyTemperatureMax>
+			 <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">1</VacuumResistance>
 			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>
 		</statBases>
 		<race>
@@ -15,6 +16,7 @@
 			<manhunterOnDamageChance>0.95</manhunterOnDamageChance>
 			<manhunterOnTameFailChance>0.20</manhunterOnTameFailChance>
 			<soundEating>Insectoid_Eat</soundEating>
+			  <canBeVacuumBurnt>false</canBeVacuumBurnt>
 		</race>
 		<ingredient>
 			<mergeCompatibilityTags>
@@ -26,6 +28,7 @@
 		<statBases>
 			<ToxicResistance>1</ToxicResistance>
 			<ComfyTemperatureMax>60</ComfyTemperatureMax>
+			 <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">1</VacuumResistance>
 			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>
 		</statBases>
 		<race>
@@ -35,6 +38,8 @@
 			<meatMarketValue>0.5</meatMarketValue>
 			<foodType>OmnivoreAnimal, AnimalProduct</foodType>
 			<manhunterOnDamageChance>0.50</manhunterOnDamageChance>
+			<soundEating>Insectoid_Eat</soundEating>
+			  <canBeVacuumBurnt>false</canBeVacuumBurnt>
 		</race>
 		<ingredient>
 			<mergeCompatibilityTags>

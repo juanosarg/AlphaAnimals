@@ -299,7 +299,7 @@
 			<warmupTime>1</warmupTime>
 			<defaultCooldownTime>4</defaultCooldownTime>
 			<soundCast>AA_RockThrow</soundCast>
-			<forcedMissRadius>2</forcedMissRadius>
+			
 			<commonality>1</commonality>
 			<minRange>2</minRange>
 			<targetParams>
