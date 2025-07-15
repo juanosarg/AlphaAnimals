@@ -13,6 +13,7 @@
 			<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.2</ArmorRating_Sharp>
 			<Wildness>0.75</Wildness>
+			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">1</VacuumResistance>
 		</statBases>
 		<tools>
 			<li>
@@ -44,6 +45,7 @@
 			</li>
 		</comps>
 		<race>
+		 <canBeVacuumBurnt>false</canBeVacuumBurnt>
 			<bloodDef>AA_Filth_BlueBlood</bloodDef>
 			<herdAnimal>false</herdAnimal>
 			<predator>false</predator>
