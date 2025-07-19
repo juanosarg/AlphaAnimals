@@ -17,6 +17,11 @@
 							<!--Setting useMetalArmor to true, makes the animal's skin have the metal bounce of effect when hit when used as mount --> 
 							<useMetalArmor>false</useMetalArmor>
 						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>/Defs/ThingDef[defName = "AA_MeadowAve"]</xpath> 
+					<value>
 						<li Class="GiddyUp.DrawInFront" />
 						<li Class="GiddyUp.Mountable" />
 					</value>
@@ -32,6 +37,11 @@
 							<!--Setting useMetalArmor to true, makes the animal's skin have the metal bounce of effect when hit when used as mount --> 
 							<useMetalArmor>false</useMetalArmor>
 						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>/Defs/ThingDef[defName = "AA_DesertAve"]</xpath> 
+					<value>
 						<li Class="GiddyUp.Mountable" />
 					</value>
 				</li>
@@ -46,6 +56,11 @@
 							<!--Setting useMetalArmor to true, makes the animal's skin have the metal bounce of effect when hit when used as mount --> 
 							<useMetalArmor>false</useMetalArmor>
 						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>/Defs/ThingDef[defName = "AA_FrostAve"]</xpath> 
+					<value>
 						<li Class="GiddyUp.Mountable" />
 					</value>
 				</li>
@@ -60,9 +75,14 @@
 							<!--Setting useMetalArmor to true, makes the animal's skin have the metal bounce of effect when hit when used as mount --> 
 							<useMetalArmor>false</useMetalArmor>
 						</li>
-						<li Class="GiddyUp.Mountable" />
 					</value>
 				</li>		
+				<li Class="PatchOperationAddModExtension">
+					<xpath>/Defs/ThingDef[defName = "AA_NightAve"]</xpath> 
+					<value>
+						<li Class="GiddyUp.Mountable" />
+					</value>
+				</li>
 				<li Class="PatchOperationAddModExtension">
 					<xpath>/Defs/PawnKindDef[defName = "AA_RoyalAve"]</xpath> 
 					<value>
@@ -74,7 +94,12 @@
 							<!--Setting useMetalArmor to true, makes the animal's skin have the metal bounce of effect when hit when used as mount --> 
 							<useMetalArmor>false</useMetalArmor>
 						</li>
-						<li Class="GiddyUp.Mountable"/>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>/Defs/ThingDef[defName = "AA_RoyalAve"]</xpath> 
+					<value>
+						<li Class="GiddyUp.Mountable" />
 					</value>
 				</li>
 				<li Class="PatchOperationAddModExtension">
