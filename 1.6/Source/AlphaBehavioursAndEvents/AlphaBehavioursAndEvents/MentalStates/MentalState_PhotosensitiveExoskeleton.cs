@@ -19,7 +19,7 @@ namespace AlphaBehavioursAndEvents
         public override void MentalStateTick(int delta)
         {
             base.MentalStateTick(delta);
-            if (pawn.IsHashIntervalTick(30))
+            if (pawn.IsHashIntervalTick(30, delta))
             {
                 if (lastSunlightSeenTick < 0 || ThoughtWorker_PhotosensitiveExoskeleton.InSunlight(pawn))
                 {
