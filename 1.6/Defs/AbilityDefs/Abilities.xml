@@ -658,7 +658,6 @@
 			<accuracyShort>0.85</accuracyShort>
 			<accuracyMedium>0.8</accuracyMedium>
 			<accuracyLong>0.75</accuracyLong>
-			<forcedMissRadius>2</forcedMissRadius>
 			<range>20</range>
 			<muzzleFlashScale>0</muzzleFlashScale>
 			<warmupTime>2.5</warmupTime>
