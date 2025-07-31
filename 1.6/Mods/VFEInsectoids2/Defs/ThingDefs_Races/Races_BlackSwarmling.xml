@@ -80,14 +80,14 @@
 			</li>
 		</comps>
 	</ThingDef>
-	<PawnKindDef ParentName="AnimalKindBase">
+	<PawnKindDef ParentName="InsectKindBase">
 			<defName>VFEI2_BlackSwarmling</defName>
 		<label>black swarmlings</label>
 		<race>VFEI2_BlackSwarmling</race>
 		<combatPower>10</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
 		<ecoSystemWeight>0.50</ecoSystemWeight>
-		<defaultFactionType>Insect</defaultFactionType>
+		<defaultFactionDef>Insect</defaultFactionDef>
 		<aiAvoidCover>false</aiAvoidCover>
 		<defendPointRadius>0</defendPointRadius>
 		<lifeStages>

@@ -126,13 +126,15 @@
 			</li>
 		</modExtensions>
 	</ThingDef>
-	<PawnKindDef ParentName="AnimalKindBase">
+	<PawnKindDef ParentName="InsectKindBase">
 		<defName>AA_MegaLouse</defName>
 		<label>megalouse</label>
 		<labelPlural>megalice</labelPlural>
 		<race>AA_MegaLouse</race>
 		<combatPower>150</combatPower>
+		<canArriveManhunter>true</canArriveManhunter>
 		<ecoSystemWeight>0.2</ecoSystemWeight>
+		<defaultFactionDef IsNull="True" />
 		<wildGroupSize>
 			<min>5</min>
 			<max>15</max>

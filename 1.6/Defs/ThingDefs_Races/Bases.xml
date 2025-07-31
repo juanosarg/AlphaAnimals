@@ -5,7 +5,7 @@
 			<ToxicResistance>1</ToxicResistance>
 			<ComfyTemperatureMax>75</ComfyTemperatureMax>
 			 <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">1</VacuumResistance>
-			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>
+			<ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
 		</statBases>
 		<race>
 			<fleshType>Insectoid</fleshType>
@@ -29,7 +29,7 @@
 			<ToxicResistance>1</ToxicResistance>
 			<ComfyTemperatureMax>60</ComfyTemperatureMax>
 			 <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">1</VacuumResistance>
-			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</ToxicEnvironmentResistance>
+			<ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
 		</statBases>
 		<race>
 			<fleshType>Insectoid</fleshType>

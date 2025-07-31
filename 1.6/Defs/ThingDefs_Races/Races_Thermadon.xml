@@ -107,12 +107,13 @@
 			</li>
 		</modExtensions>
 	</ThingDef>
-	<PawnKindDef ParentName="AnimalKindBase">
+	<PawnKindDef ParentName="InsectKindBase">
 		<defName>AA_Thermadon</defName>
 		<label>thermadon</label>
 		<race>AA_Thermadon</race>
 		<combatPower>175</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
+		<defaultFactionType>Insect</defaultFactionType>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
