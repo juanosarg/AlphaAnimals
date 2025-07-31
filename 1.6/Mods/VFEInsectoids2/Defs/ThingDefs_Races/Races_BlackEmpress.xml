@@ -4,7 +4,7 @@
 	<ThingDef ParentName="VFEI2_BaseInsect">
 		<defName>VFEI2_BlackEmpress</defName>
 		<label>black empress</label>
-		<description>An incredibly rare and monstrously large insectoid of the Black Hive geneline. Unlike its Sorne counterpart, the black empress is not worried about creating offspring, feeling more concerned about acting as an absolute nightmare in close quarters combat. She can tore through heavy armor as if it wasn't there, but what makes her particularly dangerous is her ability to absolutely melt any mechanoids it encounters with a ranged spit attack. Upon death, it’s possible to extract a Black Hive pherocore from her body.</description>
+		<description>An incredibly rare and monstrously large insectoid of the Black Hive geneline. Unlike its Sorne counterpart, the black empress is not worried about creating offspring, feeling more concerned about acting as an absolute nightmare in close quarters combat. She can tear through heavy armor as if it wasn't there, but what makes her particularly dangerous is her ability to absolutely melt any mechanoids it encounters with a ranged spit attack. Upon death, it’s possible to extract a Black Hive pherocore from her body.</description>
 		<statBases>
 			<MoveSpeed>5.6</MoveSpeed>
 			<Flammability>0.2</Flammability>
@@ -109,14 +109,14 @@
       
     </killedLeavings>
 	</ThingDef>
-	<PawnKindDef ParentName="AnimalKindBase">
+	<PawnKindDef ParentName="InsectKindBase">
 		<defName>VFEI2_BlackEmpress</defName>
 		<label>black empress</label>
 		<race>VFEI2_BlackEmpress</race>
 		<combatPower>800</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
 		<ecoSystemWeight>0.50</ecoSystemWeight>
-		<defaultFactionType>Insect</defaultFactionType>
+		<defaultFactionDef>Insect</defaultFactionDef>
 		<aiAvoidCover>false</aiAvoidCover>
 		<defendPointRadius>0</defendPointRadius>
 		<lifeStages>

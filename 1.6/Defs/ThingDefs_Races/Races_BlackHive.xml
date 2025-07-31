@@ -88,12 +88,13 @@
 			</li>
 		</modExtensions>
 	</ThingDef>
-	<PawnKindDef ParentName="AnimalKindBase">
+	<PawnKindDef ParentName="InsectKindBase">
 		<defName>AA_BlackScarab</defName>
 		<label>black scarab</label>
 		<race>AA_BlackScarab</race>
 		<combatPower>50</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
+		<defaultFactionDef IsNull="True" />
 		<alternateGraphicChance>1</alternateGraphicChance>
 		<alternateGraphics>
 			<li>
@@ -250,12 +251,13 @@
 			</li>
 		</modExtensions>
 	</ThingDef>
-	<PawnKindDef ParentName="AnimalKindBase">
+	<PawnKindDef ParentName="InsectKindBase">
 		<defName>AA_BlackSpelopede</defName>
 		<label>black spelopede</label>
 		<race>AA_BlackSpelopede</race>
 		<combatPower>85</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
+		<defaultFactionDef IsNull="False" />
 		<alternateGraphicChance>1</alternateGraphicChance>
 		<alternateGraphics>
 			<li>
@@ -412,12 +414,13 @@
 			</li>
 		</modExtensions>
 	</ThingDef>
-	<PawnKindDef ParentName="AnimalKindBase">
+	<PawnKindDef ParentName="InsectKindBase">
 		<defName>AA_BlackSpider</defName>
 		<label>blackspider</label>
 		<race>AA_BlackSpider</race>
 		<combatPower>175</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
+		<defaultFactionDef IsNull="False" />
 		<alternateGraphicChance>1</alternateGraphicChance>
 		<alternateGraphics>
 			<li>

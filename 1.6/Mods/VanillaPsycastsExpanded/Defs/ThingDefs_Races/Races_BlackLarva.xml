@@ -48,13 +48,14 @@
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
 	</ThingDef>
-	<PawnKindDef ParentName="AnimalKindBase">
+	<PawnKindDef ParentName="InsectKindBase">
 		<defName>AA_BlackLarvae</defName>
 		<label>black larvae</label>
 		<race>AA_BlackLarvae</race>
 		<combatPower>10</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
 		<ecoSystemWeight>0.50</ecoSystemWeight>
+		<defaultFactionDef IsNull="True" />
 		<lifeStages>
 			<li>
 				<bodyGraphicData>

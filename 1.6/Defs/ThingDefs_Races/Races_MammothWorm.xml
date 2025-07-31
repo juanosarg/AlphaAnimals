@@ -121,12 +121,14 @@
 			</li>
 		</modExtensions>
 	</ThingDef>
-	<PawnKindDef ParentName="AnimalKindBase">
+	<PawnKindDef ParentName="InsectKindBase">
 		<defName>AA_MammothWorm</defName>
 		<race>AA_MammothWorm</race>
 		<label>mammoth worm</label>
 		<combatPower>200</combatPower>
+		<canArriveManhunter>true</canArriveManhunter>
 		<ecoSystemWeight>0.2</ecoSystemWeight>
+		<defaultFactionDef IsNull="True" />
 		<wildGroupSize>
 			<min>3</min>
 			<max>5</max>

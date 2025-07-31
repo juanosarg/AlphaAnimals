@@ -106,13 +106,13 @@
 			</li>
 		</modExtensions>
 	</ThingDef>
-	<PawnKindDef ParentName="AnimalKindBase">
+	<PawnKindDef ParentName="InsectKindBase">
 		<defName>AA_Ravager</defName>
 		<label>ravager</label>
 		<race>AA_Ravager</race>
 		<combatPower>220</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
-		<defaultFactionType>Insect</defaultFactionType>
+		<defaultFactionDef>Insect</defaultFactionDef>
 		<ecoSystemWeight>0.25</ecoSystemWeight>
 		<lifeStages>
 			<li>

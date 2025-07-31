@@ -87,13 +87,14 @@
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
 	</ThingDef>
-	<PawnKindDef ParentName="AnimalKindBase">
+	<PawnKindDef ParentName="InsectKindBase">
 		<defName>AAVPE_BlackQueen</defName>
 		<label>summoned black queen</label>
 		<race>AAVPE_BlackQueen</race>
 		<combatPower>300</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
 		<ecoSystemWeight>0.50</ecoSystemWeight>
+		<defaultFactionDef IsNull="True" />
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
