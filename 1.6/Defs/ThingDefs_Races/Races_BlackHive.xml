@@ -88,7 +88,7 @@
 			</li>
 		</modExtensions>
 	</ThingDef>
-	<PawnKindDef ParentName="AnimalKindBase">
+	<PawnKindDef ParentName="AA_InsectKindBase">
 		<defName>AA_BlackScarab</defName>
 		<label>black scarab</label>
 		<race>AA_BlackScarab</race>
@@ -250,7 +250,7 @@
 			</li>
 		</modExtensions>
 	</ThingDef>
-	<PawnKindDef ParentName="AnimalKindBase">
+	<PawnKindDef ParentName="AA_InsectKindBase">
 		<defName>AA_BlackSpelopede</defName>
 		<label>black spelopede</label>
 		<race>AA_BlackSpelopede</race>
@@ -412,7 +412,7 @@
 			</li>
 		</modExtensions>
 	</ThingDef>
-	<PawnKindDef ParentName="AnimalKindBase">
+	<PawnKindDef ParentName="AA_InsectKindBase">
 		<defName>AA_BlackSpider</defName>
 		<label>blackspider</label>
 		<race>AA_BlackSpider</race>

@@ -93,7 +93,7 @@
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
 	</ThingDef>
-	<PawnKindDef ParentName="AnimalKindBase">
+	<PawnKindDef ParentName="AA_InsectKindBase">
 		<defName>VFEI2_BlackQueen</defName>
 		<label>black insectoid queen</label>
 		<race>VFEI2_BlackQueen</race>

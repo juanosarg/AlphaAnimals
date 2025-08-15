@@ -109,7 +109,7 @@
       
     </killedLeavings>
 	</ThingDef>
-	<PawnKindDef ParentName="AnimalKindBase">
+	<PawnKindDef ParentName="AA_InsectKindBase">
 		<defName>VFEI2_BlackEmpress</defName>
 		<label>black empress</label>
 		<race>VFEI2_BlackEmpress</race>

@@ -106,7 +106,7 @@
 			</li>
 		</modExtensions>
 	</ThingDef>
-	<PawnKindDef ParentName="AnimalKindBase">
+	<PawnKindDef ParentName="AA_InsectKindBase">
 		<defName>AA_Ravager</defName>
 		<label>ravager</label>
 		<race>AA_Ravager</race>

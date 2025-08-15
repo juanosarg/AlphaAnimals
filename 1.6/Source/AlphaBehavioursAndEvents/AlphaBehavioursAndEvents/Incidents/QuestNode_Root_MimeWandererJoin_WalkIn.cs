@@ -6,6 +6,7 @@ using RimWorld.Planet;
 
 using RimWorld.QuestGen;
 using RimWorld;
+using Verse.Noise;
 
 namespace AlphaBehavioursAndEvents
 {
@@ -68,7 +69,8 @@ namespace AlphaBehavioursAndEvents
 			choiceLetter_AcceptJoiner.signalAccept = this.signalAccept;
 			choiceLetter_AcceptJoiner.signalReject = this.signalReject;
 			choiceLetter_AcceptJoiner.quest = quest;
-			choiceLetter_AcceptJoiner.StartTimeout(60000);
+            choiceLetter_AcceptJoiner.overrideMap = Find.AnyPlayerHomeMap;
+            choiceLetter_AcceptJoiner.StartTimeout(60000);
 			Find.LetterStack.ReceiveLetter(choiceLetter_AcceptJoiner, null);
 		}
 

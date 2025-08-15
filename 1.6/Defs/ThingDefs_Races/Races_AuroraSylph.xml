@@ -11,6 +11,7 @@
 			<ComfyTemperatureMax>50000</ComfyTemperatureMax>
 			<MarketValue>250</MarketValue>
 			<Wildness>0.8</Wildness>
+			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">1</VacuumResistance>
 		</statBases>
 		<tools>
 			<li>

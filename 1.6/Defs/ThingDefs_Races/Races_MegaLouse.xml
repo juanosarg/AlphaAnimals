@@ -126,7 +126,7 @@
 			</li>
 		</modExtensions>
 	</ThingDef>
-	<PawnKindDef ParentName="AnimalKindBase">
+	<PawnKindDef ParentName="AA_InsectKindBase">
 		<defName>AA_MegaLouse</defName>
 		<label>megalouse</label>
 		<labelPlural>megalice</labelPlural>

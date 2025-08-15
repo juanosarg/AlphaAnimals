@@ -80,7 +80,7 @@
 			</li>
 		</comps>
 	</ThingDef>
-	<PawnKindDef ParentName="AnimalKindBase">
+	<PawnKindDef ParentName="AA_InsectKindBase">
 			<defName>VFEI2_BlackSwarmling</defName>
 		<label>black swarmlings</label>
 		<race>VFEI2_BlackSwarmling</race>
