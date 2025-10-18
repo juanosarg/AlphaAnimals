@@ -26,6 +26,9 @@
 				<TemperateForest>0.001</TemperateForest>
 				<TropicalRainforest>0.001</TropicalRainforest>
 				<AridShrubland>0.05</AridShrubland>
+				<Glowforest MayRequire="Ludeon.RimWorld.Odyssey">0.001</Glowforest>
+				<Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.001</Grasslands>
+				
 			</wildBiomes>
 			<herdAnimal>true</herdAnimal>
 			<predator>false</predator>

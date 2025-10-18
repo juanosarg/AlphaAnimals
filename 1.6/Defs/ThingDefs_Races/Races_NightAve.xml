@@ -24,6 +24,7 @@
 				<TropicalSwamp>0.04</TropicalSwamp>
 				<AridShrubland>0.04</AridShrubland>
 				<Desert>0.01</Desert>
+				<Glowforest MayRequire="Ludeon.RimWorld.Odyssey">0.07</Glowforest>
 			</wildBiomes>
 			<herdAnimal>true</herdAnimal>
 			<predator>true</predator>

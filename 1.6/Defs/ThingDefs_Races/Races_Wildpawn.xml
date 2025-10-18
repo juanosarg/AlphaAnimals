@@ -127,6 +127,9 @@
 				<Tundra>0.07</Tundra>
 				<TemperateForest>0.1</TemperateForest>
 				<AridShrubland>0.05</AridShrubland>
+				
+				<Glowforest MayRequire="Ludeon.RimWorld.Odyssey">0.1</Glowforest>
+				
 			</wildBiomes>
 		</race>
 		<tradeTags>

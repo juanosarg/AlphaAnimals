@@ -65,6 +65,10 @@
 				<ExtremeDesert>0.005</ExtremeDesert>
 				<IceSheet>0.005</IceSheet>
 				<SeaIce>0.005</SeaIce>
+				<Glowforest MayRequire="Ludeon.RimWorld.Odyssey">0.03</Glowforest>
+				<Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.05</Grasslands>
+				<LavaField MayRequire="Ludeon.RimWorld.Odyssey">0.01</LavaField>
+				<Scarlands MayRequire="Ludeon.RimWorld.Odyssey">0.01</Scarlands>
 			</wildBiomes>
 			<deathAction>
 				<workerClass>AlphaBehavioursAndEvents.DeathActionWorker_MouseFission</workerClass>

@@ -92,6 +92,7 @@
 				<ColdBog>0.01</ColdBog>
 				<TemperateSwamp>0.001</TemperateSwamp>
 				<TemperateForest>0.001</TemperateForest>
+				<GlacialPlain MayRequire="Ludeon.RimWorld.Odyssey">0.01</GlacialPlain>
 			</wildBiomes>
 			<predator>true</predator>
 			<useMeatFrom>Lynx</useMeatFrom>

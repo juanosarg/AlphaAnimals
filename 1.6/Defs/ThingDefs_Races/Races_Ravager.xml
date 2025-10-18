@@ -13,6 +13,7 @@
 			<ArmorRating_Blunt>0.4</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.4</ArmorRating_Sharp>
 			<Wildness>0.95</Wildness>
+			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">1</VacuumResistance>
 		</statBases>
 		<tools>
 			<li>
@@ -47,6 +48,10 @@
 				<TropicalSwamp>0.005</TropicalSwamp>
 				<AridShrubland>0.0025</AridShrubland>
 				<Desert>0.0025</Desert>
+				<Glowforest MayRequire="Ludeon.RimWorld.Odyssey">0.005</Glowforest>
+				<Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.005</Grasslands>
+				<LavaField MayRequire="Ludeon.RimWorld.Odyssey">0.005</LavaField>
+				<Scarlands MayRequire="Ludeon.RimWorld.Odyssey">0.1</Scarlands>
 			</wildBiomes>
 			<herdAnimal>false</herdAnimal>
 			<predator>true</predator>

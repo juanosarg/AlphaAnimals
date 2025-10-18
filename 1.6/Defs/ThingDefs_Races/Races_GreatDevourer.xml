@@ -59,6 +59,7 @@
 				<TemperateForest>0.01</TemperateForest>
 				<AridShrubland>0.01</AridShrubland>
 				<Desert>0.01</Desert>
+				<Scarlands MayRequire="Ludeon.RimWorld.Odyssey">0.03</Scarlands>
 			</wildBiomes>
 			<body>AA_WormWithArmor</body>
 			<predator>true</predator>

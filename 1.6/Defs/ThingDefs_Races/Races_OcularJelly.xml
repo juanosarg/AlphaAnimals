@@ -96,6 +96,8 @@
 				<TropicalSwamp>0.005</TropicalSwamp>
 				<TemperateForest>0.005</TemperateForest>
 				<TropicalRainforest>0.005</TropicalRainforest>
+				<Glowforest MayRequire="Ludeon.RimWorld.Odyssey">0.005</Glowforest>
+				<Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.005</Grasslands>
 			</wildBiomes>
 		</race>
 		<tradeTags>

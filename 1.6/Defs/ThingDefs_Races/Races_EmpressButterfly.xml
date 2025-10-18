@@ -37,6 +37,8 @@
 				<TemperateSwamp>0.01</TemperateSwamp>
 				<TropicalSwamp>0.01</TropicalSwamp>
 				<TropicalRainforest>0.02</TropicalRainforest>
+				<Glowforest MayRequire="Ludeon.RimWorld.Odyssey">0.01</Glowforest>
+				<Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.05</Grasslands>
 			</wildBiomes>
 			<herdAnimal>true</herdAnimal>
 			<predator>false</predator>
@@ -193,6 +195,8 @@
 				<TemperateSwamp>0.01</TemperateSwamp>
 				<TropicalSwamp>0.01</TropicalSwamp>
 				<TropicalRainforest>0.02</TropicalRainforest>
+				<Glowforest MayRequire="Ludeon.RimWorld.Odyssey">0.01</Glowforest>
+				<Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.05</Grasslands>
 			</wildBiomes>
 			<thinkTreeMain>VEF_AnimalWeirdEater</thinkTreeMain>
 			<herdAnimal>true</herdAnimal>

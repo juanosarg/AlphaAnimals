@@ -62,6 +62,9 @@
 				<TropicalRainforest>0.01</TropicalRainforest>
 				<TropicalSwamp>0.01</TropicalSwamp>
 				<AridShrubland>0.005</AridShrubland>
+				
+				<Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.01</Grasslands>
+			
 			</wildBiomes>
 			<body>QuadrupedAnimalWithHoovesAndHorn</body>
 			<baseBodySize>1.5</baseBodySize>

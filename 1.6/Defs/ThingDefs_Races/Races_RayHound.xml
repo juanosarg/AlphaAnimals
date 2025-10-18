@@ -63,6 +63,9 @@
 				<TropicalRainforest>0.07</TropicalRainforest>
 				<TropicalSwamp>0.07</TropicalSwamp>
 				<AridShrubland>0.05</AridShrubland>
+				<GlacialPlain MayRequire="Ludeon.RimWorld.Odyssey">0.01</GlacialPlain>
+				<Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.02</Grasslands>
+				<Scarlands MayRequire="Ludeon.RimWorld.Odyssey">0.01</Scarlands>
 			</wildBiomes>
 			<body>AA_DualTentacledQuadrupedWithJowl</body>
 			<predator>false</predator>

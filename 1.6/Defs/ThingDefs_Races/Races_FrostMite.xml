@@ -57,6 +57,7 @@
 				<SeaIce>0.5</SeaIce>
 				<ColdBog>0.03</ColdBog>
 				<BorealForest>0.02</BorealForest>
+				<GlacialPlain MayRequire="Ludeon.RimWorld.Odyssey">0.25</GlacialPlain>
 			</wildBiomes>
 			<herdAnimal>true</herdAnimal>
 			<predator>false</predator>

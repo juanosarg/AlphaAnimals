@@ -55,6 +55,9 @@
 				<AridShrubland>0.01</AridShrubland>
 				<Desert>0.01</Desert>
 				<TropicalRainforest>0.01</TropicalRainforest>
+				
+				<LavaField MayRequire="Ludeon.RimWorld.Odyssey">0.05</LavaField>
+				<Scarlands MayRequire="Ludeon.RimWorld.Odyssey">0.01</Scarlands>
 			</wildBiomes>
 			<body>BeetleLikeWithClaw</body>
 			<baseHungerRate>0.35</baseHungerRate>

@@ -20,6 +20,7 @@
 				<ColdBog>0.4</ColdBog>
 				<SeaIce>0.1</SeaIce>
 				<IceSheet>0.1</IceSheet>
+				<GlacialPlain MayRequire="Ludeon.RimWorld.Odyssey">0.1</GlacialPlain>
 			</wildBiomes>
 			<herdAnimal>true</herdAnimal>
 			<predator>false</predator>

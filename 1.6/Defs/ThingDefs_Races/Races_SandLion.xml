@@ -97,7 +97,7 @@
 			<baseBodySize>2</baseBodySize>
 			<specialTrainables>
 				
-				
+				<li MayRequire="Ludeon.RimWorld.Odyssey">AttackTarget</li>
 				<li MayRequire="Ludeon.RimWorld.Odyssey">VEF_FumeRegulation</li>
 		
 			</specialTrainables>

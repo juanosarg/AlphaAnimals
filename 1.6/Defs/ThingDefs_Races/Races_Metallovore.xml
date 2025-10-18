@@ -62,6 +62,9 @@
 			</li>
 		</comps>
 		<race>
+			<wildBiomes>
+				<LavaField MayRequire="Ludeon.RimWorld.Odyssey">0.5</LavaField>
+			</wildBiomes>
 			<thinkTreeMain>VEF_AnimalWeirdEater</thinkTreeMain>
 			<body>AA_TentacledSlug</body>
 			<baseBodySize>2</baseBodySize>

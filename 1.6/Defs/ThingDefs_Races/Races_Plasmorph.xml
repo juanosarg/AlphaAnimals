@@ -4,7 +4,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_Plasmorph</defName>
 		<label>plasmorph</label>
-		<description>This bizarre, mutant snail has a very strange way of defending itself against predators. Inside its armoured shell made of iron sulfide, specialized organs along the Plasmorph's body generate an electric discharge similar to those found in electric eels. This discharge is very low voltage, not powerful enough to damage most creatures. However, the Plasmorph uses it as a spark to ignite its own flammable spit, and lob it at its prey.\n\nSuch a strange mechanism is surely not natural, but what was its intended purpose is a mystery lost to the ages.</description>
+		<description>This bizarre, mutant snail has a very strange way of defending itself against predators. Inside its armoured shell made of iron sulphide, specialized organs along the Plasmorph's body generate an electric discharge similar to those found in electric eels. This discharge is very low voltage, not powerful enough to damage most creatures. However, the Plasmorph uses it as a spark to ignite its own flammable spit, and lob it at its prey.\n\nSuch a strange mechanism is surely not natural, but what was its intended purpose is a mystery lost to the ages.</description>
 		<statBases>
 			<MoveSpeed>1.00</MoveSpeed>
 			<ComfyTemperatureMin>-10</ComfyTemperatureMin>

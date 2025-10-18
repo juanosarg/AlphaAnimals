@@ -80,6 +80,9 @@
 				<TemperateForest>0.001</TemperateForest>
 				<TropicalRainforest>0.001</TropicalRainforest>
 				<AridShrubland>0.001</AridShrubland>
+				<GlacialPlain MayRequire="Ludeon.RimWorld.Odyssey">0.01</GlacialPlain>
+				<Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.001</Grasslands>
+				<LavaField MayRequire="Ludeon.RimWorld.Odyssey">0.001</LavaField>
 			</wildBiomes>
 			<herdAnimal>true</herdAnimal>
 			<predator>false</predator>

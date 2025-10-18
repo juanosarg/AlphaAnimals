@@ -3,7 +3,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_OcularNightling</defName>
 		<label>ocular nightling</label>
-		<description>A mutated nightling, created by infusing an animal with the strange energies from an extradimensional corruption. Sturdier, more docile than normal Nightlings.</description>
+		<description>A mutated nightling, created by infusing an animal with the strange energies from an extra-dimensional corruption. Sturdier, more docile than normal Nightlings.</description>
 		<statBases>
 			<MoveSpeed>5.00</MoveSpeed>
 			<ComfyTemperatureMin>-35</ComfyTemperatureMin>
@@ -87,6 +87,10 @@
 			<baseHealthScale>1.5</baseHealthScale>
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_Night</leatherDef>
+			<specialTrainables>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Comfort</li>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">AttackTarget</li>
+			</specialTrainables>
 			<maxPreyBodySize>2</maxPreyBodySize>
 			<trainability>Advanced</trainability>
 			<gestationPeriodDays>10</gestationPeriodDays>

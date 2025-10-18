@@ -96,6 +96,10 @@
 			<petness>0.5</petness>
 			<baseBodySize>1.0</baseBodySize>
 			<baseHungerRate>0.25</baseHungerRate>
+			<specialTrainables>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Comfort</li>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">AttackTarget</li>
+			</specialTrainables>
 			<baseHealthScale>1.15</baseHealthScale>
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_Night</leatherDef>
@@ -150,6 +154,7 @@
 				<AridShrubland>0.04</AridShrubland>
 				<Desert>0.03</Desert>
 				<ExtremeDesert>0.02</ExtremeDesert>
+				<Glowforest MayRequire="Ludeon.RimWorld.Odyssey">0.04</Glowforest>
 			</wildBiomes>
 		</race>
 		<tradeTags>

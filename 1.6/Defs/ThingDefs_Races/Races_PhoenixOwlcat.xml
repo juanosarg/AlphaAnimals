@@ -90,6 +90,9 @@
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_Light</leatherDef>
 			<petness>0.5</petness>
+			<specialTrainables>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Comfort</li>
+			</specialTrainables>
 			<trainability>None</trainability>
 			<useMeatFrom>Cat</useMeatFrom>
 			<nuzzleMtbHours>11</nuzzleMtbHours>
@@ -108,6 +111,11 @@
 				<ExtremeDesert>0.005</ExtremeDesert>
 				<IceSheet>0.005</IceSheet>
 				<SeaIce>0.005</SeaIce>
+				<GlacialPlain MayRequire="Ludeon.RimWorld.Odyssey">0.005</GlacialPlain>
+				<Glowforest MayRequire="Ludeon.RimWorld.Odyssey">0.005</Glowforest>
+				<Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.005</Grasslands>
+				<LavaField MayRequire="Ludeon.RimWorld.Odyssey">0.005</LavaField>
+			
 			</wildBiomes>
 			<litterSizeCurve>
 				<points>

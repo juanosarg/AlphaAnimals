@@ -56,6 +56,7 @@
 				<AridShrubland>0.03</AridShrubland>
 				<Desert>0.03</Desert>
 				<ExtremeDesert>0.03</ExtremeDesert>
+				<Scarlands MayRequire="Ludeon.RimWorld.Odyssey">0.01</Scarlands>
 			</wildBiomes>
 			<herdAnimal>false</herdAnimal>
 			<body>AA_WormWithArmorAndTusks</body>

@@ -89,6 +89,8 @@
 				<AridShrubland>0.015</AridShrubland>
 				<Desert>0.015</Desert>
 				<ExtremeDesert>0.015</ExtremeDesert>
+				
+				<Scarlands MayRequire="Ludeon.RimWorld.Odyssey">0.015</Scarlands>
 			</wildBiomes>
 			<body>QuadrupedAnimalWithClawsTailAndJowl</body>
 			<baseBodySize>1</baseBodySize>

@@ -587,11 +587,11 @@
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="AA_Metallovore"]/race</xpath>
+					<xpath>/Defs/ThingDef[defName="AA_Metallovore"]/race/wildBiomes</xpath>
 					<value>
-						<wildBiomes>
+						
 							<AB_PyroclasticConflagration>1</AB_PyroclasticConflagration>
-						</wildBiomes>
+						
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">

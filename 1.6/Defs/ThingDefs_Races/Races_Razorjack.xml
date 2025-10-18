@@ -92,7 +92,12 @@
 				<AridShrubland>0.01</AridShrubland>
 				<Desert>0.07</Desert>
 				<ExtremeDesert>0.07</ExtremeDesert>
+				<Scarlands MayRequire="Ludeon.RimWorld.Odyssey">0.025</Scarlands>
 			</wildBiomes>
+			<specialTrainables>
+			
+				<li MayRequire="Ludeon.RimWorld.Odyssey">AttackTarget</li>
+			</specialTrainables>
 			<body>AA_DualJawedQuadruped</body>
 			<baseBodySize>1</baseBodySize>
 			<baseHealthScale>2</baseHealthScale>

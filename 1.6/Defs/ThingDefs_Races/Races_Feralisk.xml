@@ -60,7 +60,6 @@
 				<chanceFactor>0.2</chanceFactor>
 			</li>
 		</tools>
-		
 		<comps>
 			<li Class="VEF.AnimalBehaviours.CompProperties_AnimalProduct">
 				<resourceDef>Synthread</resourceDef>
@@ -89,6 +88,9 @@
 				<TropicalSwamp>0.15</TropicalSwamp>
 				<TemperateForest>0.07</TemperateForest>
 				<TropicalRainforest>0.15</TropicalRainforest>
+				<Glowforest MayRequire="Ludeon.RimWorld.Odyssey">0.05</Glowforest>
+				<Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.05</Grasslands>
+				<Scarlands MayRequire="Ludeon.RimWorld.Odyssey">0.01</Scarlands>
 			</wildBiomes>
 			<canBePredatorPrey>false</canBePredatorPrey>
 			<predator>true</predator>
@@ -264,7 +266,6 @@
 				<chanceFactor>0.2</chanceFactor>
 			</li>
 		</tools>
-		
 		<comps>
 			<li Class="CompProperties_EggLayer">
 				<eggUnfertilizedDef>AA_FeraliskSuperEggFertilized</eggUnfertilizedDef>

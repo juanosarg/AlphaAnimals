@@ -104,6 +104,9 @@
 			<baseHealthScale>1.5</baseHealthScale>
 			<leatherDef>Leather_Panthera</leatherDef>
 			<useMeatFrom>Cougar</useMeatFrom>
+			<specialTrainables>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Comfort</li>
+			</specialTrainables>
 			<trainability>Advanced</trainability>
 			<manhunterOnTameFailChance>0.1</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>1</manhunterOnDamageChance>

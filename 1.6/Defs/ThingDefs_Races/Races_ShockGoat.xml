@@ -65,6 +65,7 @@
 				<TemperateSwamp>0.02</TemperateSwamp>
 				<ColdBog>0.02</ColdBog>
 				<TemperateForest>0.05</TemperateForest>
+				<Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.05</Grasslands>
 			</wildBiomes>
 			<herdAnimal>true</herdAnimal>
 			<predator>false</predator>

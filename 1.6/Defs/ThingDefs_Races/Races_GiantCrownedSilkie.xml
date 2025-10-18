@@ -16,6 +16,7 @@
 			<wildBiomes>
 				<BorealForest>0.005</BorealForest>
 				<TemperateForest>0.005</TemperateForest>
+				<Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.005</Grasslands>
 			</wildBiomes>
 			<herdAnimal>true</herdAnimal>
 			<predator>false</predator>

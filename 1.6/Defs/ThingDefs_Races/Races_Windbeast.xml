@@ -64,6 +64,7 @@
 				<TropicalSwamp>0.0025</TropicalSwamp>
 				<Desert>0.0025</Desert>
 				<AridShrubland>0.0025</AridShrubland>
+				<Glowforest MayRequire="Ludeon.RimWorld.Odyssey">0.0025</Glowforest>
 			</wildBiomes>
 			<body>QuadrupedAnimalWithHoovesAndHorn</body>
 			<baseBodySize>1.5</baseBodySize>

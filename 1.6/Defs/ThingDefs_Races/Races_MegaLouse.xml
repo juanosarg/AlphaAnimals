@@ -4,7 +4,7 @@
 	<ThingDef ParentName="BaseInsect2">
 		<defName>AA_MegaLouse</defName>
 		<label>megalouse</label>
-		<description>A large genetically engineered pillbug. These creatures once served as the frontline skirmishers of an insectoid hive; A collection of genetically modified insects made as a weapon against Mechanoid invasions. Their job consisted of reducing lone Mechanoid infantry to swiss cheese; And they were good at it. Even the mighty Centipede was no match against the swarm of spikes.\n\nNowadays, they can be found roaming in packs that are a joke compared to their former numbers and with killer instincts that yearn to be reawakened once more.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Causes additional damage when fighting against mechanoids.</description>
+		<description>A large genetically engineered pill-bug. These creatures once served as the frontline skirmishers of an insectoid hive; A collection of genetically modified insects made as a weapon against Mechanoid invasions. Their job consisted of reducing lone Mechanoid infantry to Swiss cheese; And they were good at it. Even the mighty Centipede was no match against the swarm of spikes.\n\nNowadays, they can be found roaming in packs that are a joke compared to their former numbers and with killer instincts that yearn to be reawakened once more.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; Causes additional damage when fighting against mechanoids.</description>
 		<statBases>
 			<MoveSpeed>3.00</MoveSpeed>
 			<ComfyTemperatureMin>-70</ComfyTemperatureMin>
@@ -58,6 +58,10 @@
 				<TropicalSwamp>0.03</TropicalSwamp>
 				<AridShrubland>0.03</AridShrubland>
 				<Desert>0.03</Desert>
+				<Glowforest MayRequire="Ludeon.RimWorld.Odyssey">0.01</Glowforest>
+				<Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.01</Grasslands>
+				<LavaField MayRequire="Ludeon.RimWorld.Odyssey">0.01</LavaField>
+				<Scarlands MayRequire="Ludeon.RimWorld.Odyssey">0.01</Scarlands>
 			</wildBiomes>
 			<herdAnimal>true</herdAnimal>
 			<predator>false</predator>

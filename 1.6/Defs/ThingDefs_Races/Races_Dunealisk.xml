@@ -88,7 +88,9 @@
 			<wildBiomes>
 				<Desert>0.1</Desert>
 				<ExtremeDesert>0.1</ExtremeDesert>
-				<AridShrubland>0.07</AridShrubland>
+				<AridShrubland>0.07</AridShrubland>	
+				<Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.025</Grasslands>				
+				<Scarlands MayRequire="Ludeon.RimWorld.Odyssey">0.01</Scarlands>
 			</wildBiomes>
 			<canBePredatorPrey>false</canBePredatorPrey>
 			<predator>true</predator>

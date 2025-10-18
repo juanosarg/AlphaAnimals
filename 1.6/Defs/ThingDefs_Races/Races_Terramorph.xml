@@ -72,6 +72,9 @@
 				<AridShrubland>0.05</AridShrubland>
 				<Desert>0.07</Desert>
 				<ExtremeDesert>0.05</ExtremeDesert>
+				
+				<LavaField MayRequire="Ludeon.RimWorld.Odyssey">0.01</LavaField>
+				<Scarlands MayRequire="Ludeon.RimWorld.Odyssey">0.01</Scarlands>
 			</wildBiomes>
 			<thinkTreeMain>VEF_AnimalWeirdEater</thinkTreeMain>
 			<herdAnimal>false</herdAnimal>

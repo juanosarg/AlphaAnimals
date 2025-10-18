@@ -52,6 +52,11 @@
 				<AridShrubland>0.01</AridShrubland>
 				<Desert>0.01</Desert>
 				<ExtremeDesert>0.01</ExtremeDesert>
+				<GlacialPlain MayRequire="Ludeon.RimWorld.Odyssey">0.01</GlacialPlain>
+				<Glowforest MayRequire="Ludeon.RimWorld.Odyssey">0.01</Glowforest>
+				<Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.01</Grasslands>
+				<LavaField MayRequire="Ludeon.RimWorld.Odyssey">0.01</LavaField>
+				<Scarlands MayRequire="Ludeon.RimWorld.Odyssey">0.01</Scarlands>
 			</wildBiomes>
 			<herdAnimal>false</herdAnimal>
 			<predator>false</predator>
