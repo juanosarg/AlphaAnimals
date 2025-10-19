@@ -4,7 +4,7 @@
 	<ThingDef ParentName="VFEI2_BaseInsect">
 		<defName>VFEI2_BlackQueen</defName>
 		<label>black insectoid queen</label>
-		<description>A giant, genetically-engineered insectoid responsible for creating new Black Hive spawn. A mother to the insects in her hive, a black queen doesn’t do heavy work, and tries to avoid combat if possible. As massive as an adult thrumbo, the queen instills fear in most opponents. Her thick chitinous armor makes her hard to kill, whilst long, deadly blades can tear through plasteel shielding in seconds. Despite being quite slow in open terrain, an insectoid black queen is capable of creating new black swarmlings at a rapid pace, and should never be allowed to settle down.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; The Black Queen regenerates health.</description>
+		<description>A giant, genetically-engineered insectoid responsible for creating new Black Hive spawn. A mother to the insects in her hive, a black queen doesn’t do heavy work, and tries to avoid combat if possible. As massive as an adult thrumbo, the queen instils fear in most opponents. Her thick chitinous armour makes her hard to kill, whilst long, deadly blades can tear through plasteel shielding in seconds. Despite being quite slow in open terrain, an insectoid black queen is capable of creating new black swarmlings at a rapid pace, and should never be allowed to settle down.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; The Black Queen regenerates health.</description>
 		<statBases>
 			<MoveSpeed>5</MoveSpeed>
 			<ComfyTemperatureMin>-40</ComfyTemperatureMin>

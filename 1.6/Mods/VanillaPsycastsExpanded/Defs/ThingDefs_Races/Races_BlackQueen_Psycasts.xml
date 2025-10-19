@@ -4,7 +4,7 @@
 	<ThingDef ParentName="BaseInsect2">
 		<defName>AAVPE_BlackQueen</defName>
 		<label>summoned black queen</label>
-		<description>A giant, genetically-engineered insectoid responsible for creating new spawn. A mother to the insects of the black hive, the black queen is incredibly aggressive and doesn't shy away from brutal combat. As massive as an adult thrumbo, the queen instills fear in most opponents. Her thick chitinous armor makes her hard to kill, whilst long, deadly blades can tear through plasteel shielding in seconds and cause grievous, infected wounds.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; The Black Queen regenerates health and her physical attacks have a 95% chance to cause infections.</description>
+		<description>A giant, genetically-engineered insectoid responsible for creating new spawn. A mother to the insects of the black hive, the black queen is incredibly aggressive and doesn't shy away from brutal combat. As massive as an adult thrumbo, the queen instils fear in most opponents. Her thick chitinous armour makes her hard to kill, whilst long, deadly blades can tear through plasteel shielding in seconds and cause grievous, infected wounds.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; The Black Queen regenerates health and her physical attacks have a 95% chance to cause infections.</description>
 		<statBases>
 			<MoveSpeed>5</MoveSpeed>
 			<ComfyTemperatureMin>-40</ComfyTemperatureMin>
