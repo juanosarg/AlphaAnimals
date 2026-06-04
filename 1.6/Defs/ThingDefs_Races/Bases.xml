@@ -53,6 +53,18 @@
 				<key>Insect</key>
 				<value>2.0</value>
 			</li>
+			<li MayRequire="OskarPotocki.VFE.Insectoid2">
+				<key>VFEI2_Creep</key>
+				<value>4.75</value>
+			</li>
+			<li MayRequire="OskarPotocki.VFE.Insectoid2">
+				<key>VFEI2_JellyFloor</key>
+				<value>5</value>
+			</li>
+			<li MayRequire="OskarPotocki.VFE.Insectoid2">
+				<key>VFEI2_RoyalJellyFloor</key>
+				<value>10</value>
+			</li>
 		</moveSpeedFactorByTerrainTag>
 	</PawnKindDef>
 </Defs>
