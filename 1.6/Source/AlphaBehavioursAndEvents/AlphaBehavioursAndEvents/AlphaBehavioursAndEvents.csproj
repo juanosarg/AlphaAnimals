@@ -320,6 +320,7 @@
     <Compile Include="Comps\CompTerraform.cs" />
     <Compile Include="Comps\CompUpdateRoomStats.cs" />
     <Compile Include="DeathActionWorkers\DeathActionWorker_FrostbiteExplosion.cs" />
+    <Compile Include="DeathActionWorkers\DeathActionWorker_PlantCacti.cs" />
     <Compile Include="DeathActionWorkers\DeathActionWorker_SummonEclipse.cs" />
     <Compile Include="DeathActionWorkers\DeathActionWorker_SummonTornado.cs" />
     <Compile Include="DefExtensions\Ability_MultipleProjectile_Extension.cs" />

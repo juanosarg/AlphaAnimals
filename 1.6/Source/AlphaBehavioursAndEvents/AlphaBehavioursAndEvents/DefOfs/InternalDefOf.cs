@@ -69,6 +69,8 @@ namespace AlphaBehavioursAndEvents
         public static ThingDef Gun_Autopistol;
         public static ThingDef Tornado;
         public static ThingDef BurnedTree;
+        [MayRequire("Ludeon.RimWorld.Odyssey,sarg.alphabiomes")]
+        public static ThingDef AB_Plant_OcularCactus_Small;
 
         public static SoundDef AA_Rumbling;
         public static SoundDef AA_GooPop;
