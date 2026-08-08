@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="AA_SpinedGow"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="AA_SpinedGow"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AA_SpinedGow"]/comps</xpath>
+		<value>
+			<li Class="VanillaRanchingExpanded.CompProperties_AnimalGenes">      
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AA_SpinedGow"]/race</xpath>
+		<value>
+			<canCrossBreedWith>
+				<li>VRE_CowAngus</li>
+				<li>VRE_CowDairy</li>
+				<li>VRE_CowJersey</li>
+				<li>VRE_CowWooly</li>
+				<li>VRE_CowZebu</li>
+				<li>Muffalo</li>
+				<li>Bison</li>
+				<li>Yak</li>
+				<li>Cow</li>
+				<li>AA_Radyak</li>
+				<li>AA_Thunderox</li>
+				<li>AA_Bobeene</li>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Muskox</li>
+			</canCrossBreedWith>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="AA_SpinedGow"]</xpath>
+		<value>
+			<li Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension">
+				<crossBreedKindDef>Random</crossBreedKindDef>
+				<weightForMother>0.6</weightForMother>
+			</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="AA_Radyak"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="AA_Radyak"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AA_Radyak"]/comps</xpath>
+		<value>
+			<li Class="VanillaRanchingExpanded.CompProperties_AnimalGenes">      
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AA_Radyak"]/race</xpath>
+		<value>
+			<canCrossBreedWith>
+				<li>VRE_CowAngus</li>
+				<li>VRE_CowDairy</li>
+				<li>VRE_CowJersey</li>
+				<li>VRE_CowWooly</li>
+				<li>VRE_CowZebu</li>
+				<li>Muffalo</li>
+				<li>Bison</li>
+				<li>Yak</li>
+				<li>Cow</li>
+				<li>AA_SpinedGow</li>
+				<li>AA_Thunderox</li>
+				<li>AA_Bobeene</li>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Muskox</li>
+			</canCrossBreedWith>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="AA_Radyak"]</xpath>
+		<value>
+			<li Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension">
+				<crossBreedKindDef>Random</crossBreedKindDef>
+				<weightForMother>0.6</weightForMother>
+			</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="AA_Thunderox"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="AA_Thunderox"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AA_Thunderox"]/comps</xpath>
+		<value>
+			<li Class="VanillaRanchingExpanded.CompProperties_AnimalGenes">      
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AA_Thunderox"]/race</xpath>
+		<value>
+			<canCrossBreedWith>
+				<li>VRE_CowAngus</li>
+				<li>VRE_CowDairy</li>
+				<li>VRE_CowJersey</li>
+				<li>VRE_CowWooly</li>
+				<li>VRE_CowZebu</li>
+				<li>Muffalo</li>
+				<li>Bison</li>
+				<li>Yak</li>
+				<li>Cow</li>
+				<li>AA_SpinedGow</li>
+				<li>AA_Radyak</li>
+				<li>AA_Bobeene</li>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Muskox</li>
+			</canCrossBreedWith>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="AA_Thunderox"]</xpath>
+		<value>
+			<li Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension">
+				<crossBreedKindDef>Random</crossBreedKindDef>
+				<weightForMother>0.6</weightForMother>
+			</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="AA_Bobeene"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="AA_Bobeene"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AA_Bobeene"]/comps</xpath>
+		<value>
+			<li Class="VanillaRanchingExpanded.CompProperties_AnimalGenes">      
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AA_Bobeene"]/race</xpath>
+		<value>
+			<canCrossBreedWith>
+				<li>VRE_CowAngus</li>
+				<li>VRE_CowDairy</li>
+				<li>VRE_CowJersey</li>
+				<li>VRE_CowWooly</li>
+				<li>VRE_CowZebu</li>
+				<li>Muffalo</li>
+				<li>Bison</li>
+				<li>Yak</li>
+				<li>Cow</li>
+				<li>AA_SpinedGow</li>
+				<li>AA_Radyak</li>
+				<li>AA_Thunderox</li>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Muskox</li>
+			</canCrossBreedWith>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="AA_Bobeene"]</xpath>
+		<value>
+			<li Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension">
+				<crossBreedKindDef>Random</crossBreedKindDef>
+				<weightForMother>0.6</weightForMother>
+			</li>
+		</value>
+	</Operation>
+	
+</Patch>
+

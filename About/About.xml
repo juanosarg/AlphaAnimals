@@ -35,6 +35,7 @@
 		<li>BiomesTeam.BiomesIslands</li>
 		<li>vanillaracesexpanded.insector</li>
 		<li>OskarPotocki.VFE.Insectoid2</li>
+		<li>vanillaexpanded.ranching</li>
 	</loadAfter>
 	<author>Sarg Bjornson, AFriend</author>
 	<packageId>sarg.alphaanimals</packageId>

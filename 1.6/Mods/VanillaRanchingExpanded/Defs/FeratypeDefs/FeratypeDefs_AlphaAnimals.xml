@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VanillaRanchingExpanded.FeratypeDef>
+		<defName>AA_SpinedGow</defName>
+		<description>Farm animals with cow and goat characteristics, bred to survive in extreme environments.</description>
+		<feratypeFamily>Bovines</feratypeFamily>
+		<label>spined gow</label>
+		<race>AA_SpinedGow</race>
+		<iconPath>UI/FeratypeIcons/Feratype_SpinedGow</iconPath>
+		<animalGenes>
+			<li>VRE_PoorVitality</li>
+			<li>VRE_Slow</li>
+			<li>VRE_Large</li>
+			<li>VRE_AverageCleanliness</li>
+			<li>VRE_AverageWildness</li>
+			<li>VRE_VerySlowMetabolism</li>
+			<li>VRE_AverageBuild</li>
+			<li>VRE_ObliviousIntelligence</li>
+			<li>VRE_AverageMilk</li>
+		</animalGenes>
+	</VanillaRanchingExpanded.FeratypeDef>
+	<VanillaRanchingExpanded.FeratypeDef>
+		<defName>AA_Radyak</defName>
+		<description>Peaceful herbivores bred to thrive in high radiation environments. Their ruminant digestive tract is composed of six bionic stomachs, reinforced with a lead-lined biolattice designed to extract residual radioactive material from grass cells.</description>
+		<feratypeFamily>Bovines</feratypeFamily>
+		<label>radyak</label>
+		<race>AA_Radyak</race>
+		<iconPath>UI/FeratypeIcons/Feratype_RadYak</iconPath>
+		<animalGenes>
+			<li>VRE_GoodVitality</li>
+			<li>VRE_Fast</li>
+			<li>VRE_Large</li>
+			<li>VRE_AverageCleanliness</li>
+			<li>VRE_Unruly</li>
+			<li>VRE_AverageMetabolism</li>
+			<li>VRE_Lean</li>
+			<li>VRE_ObliviousIntelligence</li>
+			<li>VRE_AverageMilk</li>
+			<li>VRE_AnimalProductsYield_Average</li>
+		</animalGenes>
+	</VanillaRanchingExpanded.FeratypeDef>
+	<VanillaRanchingExpanded.FeratypeDef>
+		<defName>AA_Thunderox</defName>
+		<description>Often seen in the colder reaches of the Rim, the Thunderox are recognized by their shaggy thick fur and stumpy but effective horn. They get their name from their tendency to bray out during the dawn of thunderstorms.</description>
+		<feratypeFamily>Bovines</feratypeFamily>
+		<label>thunderox</label>
+		<race>AA_Thunderox</race>
+		<iconPath>UI/FeratypeIcons/Feratype_Thunderox</iconPath>
+		<animalGenes>
+			<li>VRE_PerfectVitality</li>
+			<li>VRE_Fast</li>
+			<li>VRE_Large</li>
+			<li>VRE_AverageCleanliness</li>
+			<li>VRE_Unruly</li>
+			<li>VRE_FastMetabolism</li>
+			<li>VRE_AverageBuild</li>
+			<li>VRE_ObliviousIntelligence</li>
+			<li>VRE_DryMilk</li>
+			<li>VRE_ThickWool</li>
+		</animalGenes>
+	</VanillaRanchingExpanded.FeratypeDef>
+	<VanillaRanchingExpanded.FeratypeDef>
+		<defName>AA_Bobeene</defName>
+		<description>Huge insects created specifically to feed on the gigantic flowers of an utopìan Idyllic Meadow. Although based on an obviously insectoid geneline, they have been carefully designed to produce meat that is virtually indistinguishable from beef.</description>
+		<feratypeFamily>Bovines</feratypeFamily>
+		<label>bobeene</label>
+		<race>AA_Bobeene</race>
+		<iconPath>UI/FeratypeIcons/Feratype_Bobeene</iconPath>
+		<animalGenes>
+			<li>VRE_AverageVitality</li>
+			<li>VRE_AverageSpeed</li>
+			<li>VRE_AverageSize</li>
+			<li>VRE_AverageCleanliness</li>
+			<li>VRE_AverageWildness</li>
+			<li>VRE_VerySlowMetabolism</li>
+			<li>VRE_Lean</li>
+			<li>VRE_AverageIntelligence</li>
+			<li>VRE_MeagerMilk</li>
+		</animalGenes>
+	</VanillaRanchingExpanded.FeratypeDef>
+</Defs>

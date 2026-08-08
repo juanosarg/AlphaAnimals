@@ -142,7 +142,7 @@
 				<label>bobeene calf</label>
 				<labelPlural>bobeene calves</labelPlural>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AA_Bobeene/AA_Bobeene_female</texPath>
+					<texPath>Things/Pawn/Animal/AA_Bobeene/AA_Bobeene_baby</texPath>
 					<drawSize>1.5</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.3, 0.3)</volume>

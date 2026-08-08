@@ -136,7 +136,7 @@
 				<label>spined gow calf</label>
 				<labelPlural>spined gow calves</labelPlural>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AA_SpinedGow/AA_SpinedGowMale</texPath>
+					<texPath>Things/Pawn/Animal/AA_SpinedGow/AA_SpinedGowBaby</texPath>
 					<drawSize>1.5</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.3, 0.3)</volume>
@@ -144,7 +144,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/AA_SpinedGow/AA_SpinedGowFemale</texPath>
+					<texPath>Things/Pawn/Animal/AA_SpinedGow/AA_SpinedGowBaby</texPath>
 					<drawSize>1.4</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.3, 0.3)</volume>
@@ -152,7 +152,7 @@
 					</shadowData>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/AA_SpinedGow/AA_Dessicated_SpinedGowMale</texPath>
+					<texPath>Things/Pawn/Animal/AA_SpinedGow/AA_Dessicated_SpinedGowFemale</texPath>
 					<drawSize>1.5</drawSize>
 				</dessicatedBodyGraphicData>
 				<femaleDessicatedBodyGraphicData>
