@@ -7,6 +7,7 @@
 		<label>spined gow</label>
 		<race>AA_SpinedGow</race>
 		<iconPath>UI/FeratypeIcons/Feratype_SpinedGow</iconPath>
+		<canBeAlpha>true</canBeAlpha>
 		<animalGenes>
 			<li>VRE_PoorVitality</li>
 			<li>VRE_Slow</li>
@@ -26,6 +27,7 @@
 		<label>radyak</label>
 		<race>AA_Radyak</race>
 		<iconPath>UI/FeratypeIcons/Feratype_RadYak</iconPath>
+		<canBeAlpha>true</canBeAlpha>
 		<animalGenes>
 			<li>VRE_GoodVitality</li>
 			<li>VRE_Fast</li>
@@ -46,6 +48,7 @@
 		<label>thunderox</label>
 		<race>AA_Thunderox</race>
 		<iconPath>UI/FeratypeIcons/Feratype_Thunderox</iconPath>
+		<canBeAlpha>true</canBeAlpha>
 		<animalGenes>
 			<li>VRE_PerfectVitality</li>
 			<li>VRE_Fast</li>
@@ -66,6 +69,7 @@
 		<label>bobeene</label>
 		<race>AA_Bobeene</race>
 		<iconPath>UI/FeratypeIcons/Feratype_Bobeene</iconPath>
+		<canBeAlpha>true</canBeAlpha>
 		<animalGenes>
 			<li>VRE_AverageVitality</li>
 			<li>VRE_AverageSpeed</li>
