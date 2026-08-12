@@ -33,6 +33,7 @@
 				<li>AA_Thunderox</li>
 				<li>AA_Bobeene</li>
 				<li MayRequire="Ludeon.RimWorld.Odyssey">Muskox</li>
+				<li MayRequire="VanillaExpanded.VAEWaste">VAEWaste_Wasteffalo</li>
 			</canCrossBreedWith>
 		</value>
 	</Operation>
@@ -79,6 +80,7 @@
 				<li>AA_Thunderox</li>
 				<li>AA_Bobeene</li>
 				<li MayRequire="Ludeon.RimWorld.Odyssey">Muskox</li>
+				<li MayRequire="VanillaExpanded.VAEWaste">VAEWaste_Wasteffalo</li>
 			</canCrossBreedWith>
 		</value>
 	</Operation>
@@ -125,6 +127,7 @@
 				<li>AA_Radyak</li>
 				<li>AA_Bobeene</li>
 				<li MayRequire="Ludeon.RimWorld.Odyssey">Muskox</li>
+				<li MayRequire="VanillaExpanded.VAEWaste">VAEWaste_Wasteffalo</li>
 			</canCrossBreedWith>
 		</value>
 	</Operation>
@@ -171,6 +174,7 @@
 				<li>AA_Radyak</li>
 				<li>AA_Thunderox</li>
 				<li MayRequire="Ludeon.RimWorld.Odyssey">Muskox</li>
+				<li MayRequire="VanillaExpanded.VAEWaste">VAEWaste_Wasteffalo</li>
 			</canCrossBreedWith>
 		</value>
 	</Operation>
