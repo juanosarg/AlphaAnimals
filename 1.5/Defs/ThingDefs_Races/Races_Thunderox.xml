@@ -173,7 +173,7 @@
 				<label>thunderox calf</label>
 				<labelPlural>thunderox calves</labelPlural>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/FO_WoolyDuskling/FO_WoolyDuskling</texPath>
+					<texPath>Things/Pawn/Animal/AA_Thunderox/AA_Thunderox_baby</texPath>
 					<drawSize>1.5</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.3, 0.3)</volume>
@@ -181,37 +181,61 @@
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/FO_WoolyDuskling/FO_Dessicated_WoolyDuskling</texPath>
+					<texPath>Things/Pawn/Animal/AA_Thunderox/AA_Dessicated_Thunderox</texPath>
 					<drawSize>1.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/FO_WoolyDuskling/FO_WoolyDuskling</texPath>
+					<texPath>Things/Pawn/Animal/AA_Thunderox/AA_Thunderox_male</texPath>
 					<drawSize>2.25</drawSize>
 					<shadowData>
 						<volume>(0.6, 0.45, 0.45)</volume>
 						<offset>(0,0,-0.25)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<femaleGraphicData>
+					<texPath>Things/Pawn/Animal/AA_Thunderox/AA_Thunderox_female</texPath>
+					<drawSize>2</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/FO_WoolyDuskling/FO_Dessicated_WoolyDuskling</texPath>
+					<texPath>Things/Pawn/Animal/AA_Thunderox/AA_Dessicated_Thunderox</texPath>
 					<drawSize>2.25</drawSize>
 				</dessicatedBodyGraphicData>
+				<femaleDessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_Thunderox/AA_Dessicated_Thunderox</texPath>
+					<drawSize>2</drawSize>
+				</femaleDessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/FO_WoolyDuskling/FO_WoolyDuskling</texPath>
+					<texPath>Things/Pawn/Animal/AA_Thunderox/AA_Thunderox_male</texPath>
 					<drawSize>3</drawSize>
 					<shadowData>
 						<volume>(0.8, 0.6, 0.6)</volume>
 						<offset>(0,0,-0.3)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<femaleGraphicData>
+					<texPath>Things/Pawn/Animal/AA_Thunderox/AA_Thunderox_female</texPath>
+					<drawSize>2.75</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/FO_WoolyDuskling/FO_Dessicated_WoolyDuskling</texPath>
+					<texPath>Things/Pawn/Animal/AA_Thunderox/AA_Dessicated_Thunderox</texPath>
 					<drawSize>3</drawSize>
 				</dessicatedBodyGraphicData>
+				<femaleDessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_Thunderox/AA_Dessicated_Thunderox</texPath>
+					<drawSize>2.75</drawSize>
+				</femaleDessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
 	</PawnKindDef>
