@@ -3,7 +3,7 @@
 	<VanillaRanchingExpanded.FeratypeDef>
 		<defName>AA_SpinedGow</defName>
 		<description>Farm animals with cow and goat characteristics, bred to survive in extreme environments.</description>
-		<feratypeFamily>Bovines</feratypeFamily>
+		<feratypeFamily>VRE_Bovines</feratypeFamily>
 		<label>spined gow</label>
 		<race>AA_SpinedGow</race>
 		<iconPath>UI/FeratypeIcons/Feratype_SpinedGow</iconPath>
@@ -23,7 +23,7 @@
 	<VanillaRanchingExpanded.FeratypeDef>
 		<defName>AA_Radyak</defName>
 		<description>Peaceful herbivores bred to thrive in high radiation environments. Their ruminant digestive tract is composed of six bionic stomachs, reinforced with a lead-lined biolattice designed to extract residual radioactive material from grass cells.</description>
-		<feratypeFamily>Bovines</feratypeFamily>
+		<feratypeFamily>VRE_Bovines</feratypeFamily>
 		<label>radyak</label>
 		<race>AA_Radyak</race>
 		<iconPath>UI/FeratypeIcons/Feratype_RadYak</iconPath>
@@ -44,7 +44,7 @@
 	<VanillaRanchingExpanded.FeratypeDef>
 		<defName>AA_Thunderox</defName>
 		<description>Often seen in the colder reaches of the Rim, the Thunderox are recognized by their shaggy thick fur and stumpy but effective horn. They get their name from their tendency to bray out during the dawn of thunderstorms.</description>
-		<feratypeFamily>Bovines</feratypeFamily>
+		<feratypeFamily>VRE_Bovines</feratypeFamily>
 		<label>thunderox</label>
 		<race>AA_Thunderox</race>
 		<iconPath>UI/FeratypeIcons/Feratype_Thunderox</iconPath>
@@ -65,7 +65,7 @@
 	<VanillaRanchingExpanded.FeratypeDef>
 		<defName>AA_Bobeene</defName>
 		<description>Huge insects created specifically to feed on the gigantic flowers of an utopìan Idyllic Meadow. Although based on an obviously insectoid geneline, they have been carefully designed to produce meat that is virtually indistinguishable from beef.</description>
-		<feratypeFamily>Bovines</feratypeFamily>
+		<feratypeFamily>VRE_Bovines</feratypeFamily>
 		<label>bobeene</label>
 		<race>AA_Bobeene</race>
 		<iconPath>UI/FeratypeIcons/Feratype_Bobeene</iconPath>
@@ -85,7 +85,7 @@
 	<VanillaRanchingExpanded.FeratypeDef>
 		<defName>AA_ChameleonYak</defName>
 		<description>A long-haired domesticated bovid that has evolved a fascinating survival mechanism involving camouflage, similar to the way a chameleon changes its skin colour in response to different stimuli.</description>
-		<feratypeFamily>Bovines</feratypeFamily>
+		<feratypeFamily>VRE_Bovines</feratypeFamily>
 		<label>chameleon yak</label>
 		<race>AA_ChameleonYak</race>
 		<iconPath>UI/FeratypeIcons/Feratype_ChameleonYak</iconPath>
@@ -107,7 +107,7 @@
 	<VanillaRanchingExpanded.FeratypeDef>
 		<defName>AA_DevilSheep</defName>
 		<description>A genetically engineered sheep capable of producing extremely strong and valuable red wool.</description>
-		<feratypeFamily>Ovis</feratypeFamily>
+		<feratypeFamily>VRE_Ovines</feratypeFamily>
 		<label>devil sheep</label>
 		<race>AA_DevilSheep</race>
 		<iconPath>UI/FeratypeIcons/Feratype_Devilsheep</iconPath>
