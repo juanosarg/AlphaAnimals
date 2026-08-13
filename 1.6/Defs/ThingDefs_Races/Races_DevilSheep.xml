@@ -135,7 +135,7 @@
 			<li>
 				<label>devilsheep lamb</label>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AA_DevilSheep/AA_DevilSheepMale</texPath>
+					<texPath>Things/Pawn/Animal/AA_DevilSheep/AA_DevilSheepBaby</texPath>
 					<drawSize>0.9</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.3, 0.3)</volume>
@@ -143,7 +143,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>Things/Pawn/Animal/AA_DevilSheep/AA_DevilSheepFemale</texPath>
+					<texPath>Things/Pawn/Animal/AA_DevilSheep/AA_DevilSheepBaby</texPath>
 					<drawSize>0.8</drawSize>
 					<color>(200,200,200)</color>
 					<shadowData>
@@ -152,7 +152,7 @@
 					</shadowData>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/AA_DevilSheep/AA_Dessicated_DevilSheep</texPath>
+					<texPath>Things/Pawn/Animal/AA_DevilSheep/AA_Dessicated_DevilSheepFemale</texPath>
 					<drawSize>0.9</drawSize>
 				</dessicatedBodyGraphicData>
 				<femaleDessicatedBodyGraphicData>
