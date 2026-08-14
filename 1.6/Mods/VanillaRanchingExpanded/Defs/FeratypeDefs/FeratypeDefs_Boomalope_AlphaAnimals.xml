@@ -10,8 +10,8 @@
 		<animalGenes>
 			<li>VRE_GoodVitality</li>
 			<li>VRE_AverageSpeed</li>
-			<li>VRE_AverageSize</li>
-			<li>VRE_AverageCleanliness</li>
+			<li>VRE_Large</li>
+			<li>VRE_Filthy</li>
 			<li>VRE_AverageWildness</li>
 			<li>VRE_AverageMetabolism</li>
 			<li>VRE_Lean</li>

@@ -65,10 +65,8 @@
 				<addRandomHediffs>true</addRandomHediffs>
 				<numberOfHediffs>7</numberOfHediffs>
 			</li>
-			<li Class="AlphaBehavioursAndEvents.CompProperties_GraphicsRefresher"/>
 		</comps>
 		<race>
-			<renderTree>AA_Alternates</renderTree>
 			<wildBiomes>
 				<BorealForest>0.4</BorealForest>
 				<Tundra>0.05</Tundra>
@@ -80,9 +78,7 @@
 				<Desert>0.1</Desert>
 				<TropicalRainforest>0.2</TropicalRainforest>
 				<GlacialPlain MayRequire="Ludeon.RimWorld.Odyssey">0.05</GlacialPlain>
-				
 				<Grasslands MayRequire="Ludeon.RimWorld.Odyssey">0.05</Grasslands>
-				
 			</wildBiomes>
 			<herdAnimal>true</herdAnimal>
 			<predator>false</predator>
@@ -160,7 +156,7 @@
 				<label>gigantelope calf</label>
 				<labelPlural>gigantelope calves</labelPlural>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AA_Gigantelope/AA_Gigantelope</texPath>
+					<texPath>Things/Pawn/Animal/AA_Gigantelope/AA_Gigantelope_baby</texPath>
 					<drawSize>1.5</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.3, 0.3)</volume>
@@ -181,10 +177,23 @@
 						<offset>(0,0,-0.25)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<femaleGraphicData>
+					<texPath>Things/Pawn/Animal/AA_Gigantelope/AA_Gigantelope_female</texPath>
+					<drawSize>2.1</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.45, 0.45)</volume>
+						<offset>(0,0,-0.25)</offset>
+					</shadowData>
+				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/AA_Gigantelope/AA_Dessicated_Gigantelope</texPath>
 					<drawSize>2.25</drawSize>
 				</dessicatedBodyGraphicData>
+				<femaleDessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_Gigantelope/AA_Dessicated_Gigantelope</texPath>
+					<drawSize>2.1</drawSize>
+				</femaleDessicatedBodyGraphicData>
+				
 			</li>
 			<li>
 				<bodyGraphicData>
@@ -195,10 +204,22 @@
 						<offset>(0,0,-0.3)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<femaleGraphicData>
+					<texPath>Things/Pawn/Animal/AA_Gigantelope/AA_Gigantelope_female</texPath>
+					<drawSize>2.8</drawSize>
+					<shadowData>
+						<volume>(0.8, 0.6, 0.6)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/AA_Gigantelope/AA_Dessicated_Gigantelope</texPath>
 					<drawSize>3</drawSize>
 				</dessicatedBodyGraphicData>
+				<femaleDessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_Gigantelope/AA_Dessicated_Gigantelope</texPath>
+					<drawSize>2.8</drawSize>
+				</femaleDessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
 	</PawnKindDef>
