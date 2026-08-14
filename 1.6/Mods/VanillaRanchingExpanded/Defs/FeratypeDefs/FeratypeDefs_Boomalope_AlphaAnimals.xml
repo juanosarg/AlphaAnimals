@@ -9,14 +9,14 @@
 		<iconPath>UI/FeratypeIcons/Feratype_Gigantelope</iconPath>		
 		<animalGenes>
 			<li>VRE_GoodVitality</li>
-			<li>VRE_Fast</li>
+			<li>VRE_AverageSpeed</li>
 			<li>VRE_AverageSize</li>
 			<li>VRE_AverageCleanliness</li>
 			<li>VRE_AverageWildness</li>
 			<li>VRE_AverageMetabolism</li>
 			<li>VRE_Lean</li>
 			<li>VRE_AverageIntelligence</li>
-			<li>VRE_MeagerMilk</li>
+			<li>VRE_AverageMilk</li>
 			<li>VRE_NormalBulkCarry</li>
 		</animalGenes>
 	</VanillaRanchingExpanded.FeratypeDef>
