@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VanillaRanchingExpanded.FeratypeDef>
+		<defName>AA_DevilSheep</defName>
+		<description>A genetically engineered sheep capable of producing extremely strong and valuable red wool.</description>
+		<feratypeFamily>VRE_Ovines</feratypeFamily>
+		<label>devil sheep</label>
+		<race>AA_DevilSheep</race>
+		<iconPath>UI/FeratypeIcons/Feratype_Devilsheep</iconPath>
+		<animalGenes>
+			<li>VRE_PerfectVitality</li>
+			<li>VRE_Slow</li>
+			<li>VRE_Small</li>
+			<li>VRE_AverageCleanliness</li>
+			<li>VRE_Unruly</li>
+			<li>VRE_VerySlowMetabolism</li>
+			<li>VRE_Lean</li>
+			<li>VRE_AverageIntelligence</li>
+			<li>VRE_AnimalProductsYield_Average</li>
+		</animalGenes>
+	</VanillaRanchingExpanded.FeratypeDef>
+</Defs>

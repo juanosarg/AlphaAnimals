@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="AA_Gigantelope"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="AA_Gigantelope"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AA_Gigantelope"]/comps</xpath>
+		<value>
+			<li Class="VanillaRanchingExpanded.CompProperties_AnimalGenes">      
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="AA_Gigantelope"]/comps/li[@Class="VEF.AnimalBehaviours.CompProperties_InitialHediff"]</xpath>
+		
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AA_Gigantelope"]/race</xpath>
+		<value>
+			<canCrossBreedWith>
+				
+			</canCrossBreedWith>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="AA_Gigantelope"]</xpath>
+		<value>
+			<li Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension">
+				<crossBreedKindDef>Random</crossBreedKindDef>
+				<weightForMother>0.6</weightForMother>
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AA_Gigantelope"]/description</xpath>
+		<value>
+		<description>Gigantelopes were once designed as bigger, more powerful variants of the muffalo. An ideal pack beast that carries more weight than their body mass would usually allow. While they are mammals, Gigantelopes have pneumatized bones, meaning they have hollow spaces within them: pneumatized bones are strong, dense and sturdy without being heavy.\n\n&lt;color=#33d733&gt;With Vanilla Ranching Expanded:&lt;/color&gt; the Gigantelope will use the animal genes system, and Gigantelopes will no longer spawn with carrying capacity at random, you'll have to breed them until you improve their genetics!</description>
+		</value>
+	</Operation>
+	
+</Patch>
+

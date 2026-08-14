@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<VanillaRanchingExpanded.AnimalGeneFamilyTagDef>
+		<defName>VRE_BulkCarry</defName>
+		<label>bulk carry</label>
+		<order>14</order>
+	</VanillaRanchingExpanded.AnimalGeneFamilyTagDef>
+</Defs>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- Bulk carry -->
+	<VanillaRanchingExpanded.AnimalGeneDef>
+		<defName>VRE_LegendaryBulkCarry</defName>
+		<description>Carrier of this gene can carry an enormous amount of extra weight, both while hauling and on caravans, barely slowing under burdens that would overwhelm other creatures.</description>
+		<label>legendary bulk carry</label>
+		<stability>-2</stability>
+		<iconPath>UI/AnimalGenes/AnimalGene_BulkCarry</iconPath>
+		<marketValueFactor>1.2</marketValueFactor>
+		<isSpecialized>true</isSpecialized>
+		<statFactors>
+			<VEF_MassCarryCapacity>2</VEF_MassCarryCapacity>
+			<MarketValue>1.2</MarketValue>
+		</statFactors>
+		<statOffsets>
+			<CarryingCapacity>30</CarryingCapacity>
+		</statOffsets>
+		<familyTag>VRE_BulkCarry</familyTag>
+	</VanillaRanchingExpanded.AnimalGeneDef>
+	<VanillaRanchingExpanded.AnimalGeneDef>
+		<defName>VRE_ExcellentBulkCarry</defName>
+		<description>Carrier of this gene can carry a substantial amount of extra weight, making it an excellent hauler and caravan animal.</description>
+		<label>excellent bulk carry</label>
+		<stability>-1</stability>
+		<isSpecialized>true</isSpecialized>
+		<iconPath>UI/AnimalGenes/AnimalGene_BulkCarry</iconPath>
+		<statOffsets>
+			<CarryingCapacity>15</CarryingCapacity>
+		</statOffsets>
+		<statFactors>
+			<VEF_MassCarryCapacity>1.5</VEF_MassCarryCapacity>
+		</statFactors>
+		<familyTag>VRE_BulkCarry</familyTag>
+	</VanillaRanchingExpanded.AnimalGeneDef>
+	<VanillaRanchingExpanded.AnimalGeneDef>
+		<defName>VRE_NormalBulkCarry</defName>
+		<description>Carrier of this gene can carry a reasonable amount of extra weight both while hauling and on caravans.</description>
+		<label>normal bulk carry</label>
+		<stability>0</stability>
+		<isSpecialized>true</isSpecialized>
+		<iconPath>UI/AnimalGenes/AnimalGene_BulkCarry</iconPath>
+		<familyTag>VRE_BulkCarry</familyTag>
+		<statOffsets>
+			<CarryingCapacity>7</CarryingCapacity>
+		</statOffsets>
+		<statFactors>
+			<VEF_MassCarryCapacity>1</VEF_MassCarryCapacity>
+		</statFactors>
+	</VanillaRanchingExpanded.AnimalGeneDef>
+	<VanillaRanchingExpanded.AnimalGeneDef>
+		<defName>VRE_PoorBulkCarry</defName>
+		<description>Carrier of this gene can carry a modest amount of extra weight, but is easily burdened by heavy loads.</description>
+		<label>poor bulk carry</label>
+		<stability>1</stability>
+		<isSpecialized>true</isSpecialized>
+		<iconPath>UI/AnimalGenes/AnimalGene_BulkCarry</iconPath>
+		<statOffsets>
+			<CarryingCapacity>5</CarryingCapacity>
+		</statOffsets>
+		<statFactors>
+			<VEF_MassCarryCapacity>0.8</VEF_MassCarryCapacity>
+		</statFactors>
+		<familyTag>VRE_BulkCarry</familyTag>
+	</VanillaRanchingExpanded.AnimalGeneDef>
+	<VanillaRanchingExpanded.AnimalGeneDef>
+		<defName>VRE_AwfulBulkCarry</defName>
+		<description>Carrier of this gene can carry only a little extra weight, making it a poor hauler and caravan animal.</description>
+		<label>awful bulk carry</label>
+		<stability>2</stability>
+		<isSpecialized>true</isSpecialized>
+		<marketValueFactor>0.9</marketValueFactor>
+		<iconPath>UI/AnimalGenes/AnimalGene_BulkCarry</iconPath>
+		<statFactors>
+			<VEF_MassCarryCapacity>0.5</VEF_MassCarryCapacity>
+			<MarketValue>0.9</MarketValue>
+		</statFactors>
+		<statOffsets>
+			<CarryingCapacity>1</CarryingCapacity>
+		</statOffsets>
+		<familyTag>VRE_BulkCarry</familyTag>
+	</VanillaRanchingExpanded.AnimalGeneDef>
+</Defs>
