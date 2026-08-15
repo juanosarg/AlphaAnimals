@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="AA_GiantCrownedSilkie"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="AA_GiantCrownedSilkie"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AA_GiantCrownedSilkie"]/comps</xpath>
+		<value>
+			<li Class="VanillaRanchingExpanded.CompProperties_AnimalGenes">      
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="AA_EggGiantCrownedSilkieFertilized"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="AA_EggGiantCrownedSilkieFertilized"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AA_EggGiantCrownedSilkieFertilized"]/comps</xpath>
+		<value>
+			<li Class="VanillaRanchingExpanded.CompProperties_AnimalGenes">      
+			</li>
+			<li Class="VanillaRanchingExpanded.CompProperties_StackByGenes">      
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="AA_EggGiantCrownedSilkieFertilized"]/inspectorTabs</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="AA_EggGiantCrownedSilkieFertilized"]</xpath>
+			<value>
+				<inspectorTabs/>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AA_EggGiantCrownedSilkieFertilized"]/inspectorTabs</xpath>
+		<value>
+			<li>VanillaRanchingExpanded.ITab_AnimalGenes</li>
+		</value>
+	</Operation>
+</Patch>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VanillaRanchingExpanded.FeratypeDef>
+		<defName>AA_GiantCrownedSilkie</defName>
+		<description>A large flightless bird, genetically modified to produce both edible eggs and a valuable silk-like textile. The giant crowned silkie was designed from the ground up as a versatile farm animal, perfectly domesticated and -contrary to other ratites- showing very little aggression.</description>
+		<feratypeFamily>AA_GiantCrownedSilkie</feratypeFamily>
+		<label>giant crowned silkie</label>
+		<race>AA_GiantCrownedSilkie</race>
+		<iconPath>UI/FeratypeIcons/Feratype_Silkie</iconPath>
+		<animalGenes>
+			<li>VRE_AverageVitality</li>
+			<li>VRE_AverageSpeed</li>
+			<li>VRE_AverageSize</li>
+			<li>VRE_AverageCleanliness</li>
+			<li>VRE_AverageWildness</li>
+			<li>VRE_AverageMetabolism</li>
+			<li>VRE_AverageBuild</li>
+			<li>VRE_AverageIntelligence</li>
+			<li>VRE_AverageWool</li>
+			<li>VRE_AverageEggYield</li>
+		</animalGenes>
+	</VanillaRanchingExpanded.FeratypeDef>
+	
+</Defs>

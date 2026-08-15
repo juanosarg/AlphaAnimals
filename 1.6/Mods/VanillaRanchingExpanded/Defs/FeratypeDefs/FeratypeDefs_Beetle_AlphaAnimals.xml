@@ -38,6 +38,7 @@
 			<li>VRE_AverageIntelligence</li>
 			<li>VRE_AverageCarryingCapacity</li>
 			<li>VRE_AverageBeetleEggYield</li>
+			<li>VRE_ReducedRestRate</li>
 		</animalGenes>
 	</VanillaRanchingExpanded.FeratypeDef>
 </Defs>

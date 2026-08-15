@@ -3,7 +3,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_ShadowCharger</defName>
 		<label>shadow charger</label>
-		<description>A creature known for its mighty elongated horns, the Shadow Charger is actually rather passive, their horns only being used upon provocation or during mating. Their name is derived from their aggression against potential rivals during mating season, where the females are seen charging and locking horns with each other to secure a mate. While they were once used as battle mounts due to their speed and ability to ram, nowadays they are mostly reared across the rim for their creamy milk and abundant meat.\n\nSpecial abilities: Shadow chargers provide very good amounts of milk, and they can defend themselves much better than cows.</description>
+		<description>A creature known for its mighty elongated horns, the Shadow Charger is actually rather passive, their horns only being used upon provocation or during mating. Their name is derived from their aggression against potential rivals during mating season, where the females are seen charging and locking horns with each other to secure a mate. While they were once used as battle mounts due to their speed and ability to ram, nowadays they are mostly raised across the Rim for their creamy milk and abundant meat.\n\nSpecial abilities: Shadow chargers provide very good amounts of milk, and they can defend themselves much better than cows.</description>
 		<statBases>
 			<MoveSpeed>3.50</MoveSpeed>
 			<ComfyTemperatureMin>-35</ComfyTemperatureMin>
@@ -150,41 +150,66 @@
 				<label>shadow charger calf</label>
 				<labelPlural>shadow charger calves</labelPlural>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/FO_NightCow/FO_NightCow</texPath>
+					<texPath>Things/Pawn/Animal/AA_ShadowCharger/AA_ShadowCharger_baby</texPath>
 					<drawSize>1.4</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/FO_NightCow/FO_Dessicated_NightCow</texPath>
+					<texPath>Things/Pawn/Animal/AA_ShadowCharger/AA_Dessicated_ShadowCharger_baby</texPath>
 					<drawSize>1.4</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/FO_NightCow/FO_NightCow</texPath>
+					<texPath>Things/Pawn/Animal/AA_ShadowCharger/AA_ShadowCharger</texPath>
 					<drawSize>1.7</drawSize>
 					<shadowData>
 						<volume>(0.25, 0.3, 0.25)</volume>
 						<offset>(0,0,-0.15)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<femaleGraphicData>
+					<texPath>Things/Pawn/Animal/AA_ShadowCharger/AA_ShadowCharger_female</texPath>
+					<drawSize>1.6</drawSize>
+					<shadowData>
+						<volume>(0.25, 0.3, 0.25)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/FO_NightCow/FO_Dessicated_NightCow</texPath>
+					<texPath>Things/Pawn/Animal/AA_ShadowCharger/AA_Dessicated_ShadowCharger</texPath>
 					<drawSize>1.7</drawSize>
 				</dessicatedBodyGraphicData>
+				<femaleDessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_ShadowCharger/AA_Dessicated_ShadowCharger_female</texPath>
+					<drawSize>1.6</drawSize>
+				</femaleDessicatedBodyGraphicData>
+				
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/FO_NightCow/FO_NightCow</texPath>
+					<texPath>Things/Pawn/Animal/AA_ShadowCharger/AA_ShadowCharger</texPath>
 					<drawSize>2.5</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.4, 0.3)</volume>
 						<offset>(0,0,-0.15)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<femaleGraphicData>
+					<texPath>Things/Pawn/Animal/AA_ShadowCharger/AA_ShadowCharger_female</texPath>
+					<drawSize>2.35</drawSize>
+					<shadowData>
+						<volume>(0.25, 0.3, 0.25)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/FO_NightCow/FO_Dessicated_NightCow</texPath>
+					<texPath>Things/Pawn/Animal/AA_ShadowCharger/AA_Dessicated_ShadowCharger</texPath>
 					<drawSize>2.5</drawSize>
 				</dessicatedBodyGraphicData>
+				<femaleDessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_ShadowCharger/AA_Dessicated_ShadowCharger_female</texPath>
+					<drawSize>2.35</drawSize>
+				</femaleDessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
 	</PawnKindDef>

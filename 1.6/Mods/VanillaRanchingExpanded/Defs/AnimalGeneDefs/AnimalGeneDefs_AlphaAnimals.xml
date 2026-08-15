@@ -166,7 +166,7 @@
 		<label>prolific beetle egg yield</label>
 		<stability>-1</stability>
 		<isSpecialized>true</isSpecialized>
-		<iconPath>Things/Item/Resource/AA_EggBeetle/AA_EggBeetle_b</iconPath>		
+		<iconPath>Things/Item/Resource/AA_EggBeetle/AA_EggBeetle_b</iconPath>
 		<statFactors>
 			<VRE_EggIntervalFactor>0.8</VRE_EggIntervalFactor>
 		</statFactors>
@@ -174,13 +174,12 @@
 	</VanillaRanchingExpanded.AnimalGeneDef>
 	<VanillaRanchingExpanded.AnimalGeneDef>
 		<defName>VRE_AverageBeetleEggYield</defName>
-		<description>Carrier of this gene can carry a reasonable amount of extra weight both while hauling and on caravans.</description>
+		<description>This beetle lays an average number of eggs.</description>
 		<label>average beetle egg yield</label>
 		<stability>0</stability>
 		<isSpecialized>true</isSpecialized>
 		<iconPath>Things/Item/Resource/AA_EggBeetle/AA_EggBeetle_b</iconPath>
 		<familyTag>VRE_BeetleEggsYield</familyTag>
-		
 	</VanillaRanchingExpanded.AnimalGeneDef>
 	<VanillaRanchingExpanded.AnimalGeneDef>
 		<defName>VRE_SparseBeetleEggYield</defName>
@@ -210,5 +209,143 @@
 			<VRE_EggYieldOffset>-1</VRE_EggYieldOffset>
 		</statOffsets>
 		<familyTag>VRE_BeetleEggsYield</familyTag>
+	</VanillaRanchingExpanded.AnimalGeneDef>
+	<!-- Rest rate -->
+	<VanillaRanchingExpanded.AnimalGeneDef>
+		<defName>VRE_Tireless</defName>
+		<description>Carrier of this gene requires almost no sleep compared to other animals.</description>
+		<label>tireless</label>
+		<stability>-2</stability>
+		<iconPath>UI/AnimalGenes/AnimalGene_RestRate</iconPath>
+		<marketValueFactor>1.2</marketValueFactor>
+		<isSpecialized>true</isSpecialized>
+		<statFactors>
+			<RestRateMultiplier>0.1</RestRateMultiplier>
+			<MarketValue>1.2</MarketValue>
+		</statFactors>
+		<hediffToAdd>AA_LowRest_HighestRank</hediffToAdd>
+		<familyTag>VRE_RestRate</familyTag>
+	</VanillaRanchingExpanded.AnimalGeneDef>
+	<VanillaRanchingExpanded.AnimalGeneDef>
+		<defName>VRE_Sleepless</defName>
+		<description>Carrier of this gene requires considerably less sleep than other animals.</description>
+		<label>sleepless</label>
+		<stability>-1</stability>
+		<isSpecialized>true</isSpecialized>
+		<iconPath>UI/AnimalGenes/AnimalGene_RestRate</iconPath>
+		<statFactors>
+			<RestRateMultiplier>0.25</RestRateMultiplier>
+		</statFactors>
+		<familyTag>VRE_RestRate</familyTag>
+		<hediffToAdd>AA_LowRest_HighRank</hediffToAdd>
+	</VanillaRanchingExpanded.AnimalGeneDef>
+	<VanillaRanchingExpanded.AnimalGeneDef>
+		<defName>VRE_ReducedRestRate</defName>
+		<description>Carrier of this gene requires less sleep than most animals.</description>
+		<label>reduced sleep need</label>
+		<stability>0</stability>
+		<isSpecialized>true</isSpecialized>
+		<iconPath>UI/AnimalGenes/AnimalGene_RestRate</iconPath>
+		<familyTag>VRE_RestRate</familyTag>
+		<hediffToAdd>AA_LowRest</hediffToAdd>
+		<statFactors>
+			<RestRateMultiplier>0.4</RestRateMultiplier>
+		</statFactors>
+	</VanillaRanchingExpanded.AnimalGeneDef>
+	<VanillaRanchingExpanded.AnimalGeneDef>
+		<defName>VRE_MildlyEfficientSleeper</defName>
+		<description>Carrier of this gene requires somewhat less sleep than other animals.</description>
+		<label>mildly efficient sleeper</label>
+		<stability>1</stability>
+		<isSpecialized>true</isSpecialized>
+		<iconPath>UI/AnimalGenes/AnimalGene_RestRate</iconPath>
+		<statFactors>
+			<RestRateMultiplier>0.75</RestRateMultiplier>
+		</statFactors>
+		<familyTag>VRE_RestRate</familyTag>
+		<hediffToAdd>AA_LowRest_LowRank</hediffToAdd>
+	</VanillaRanchingExpanded.AnimalGeneDef>
+	<VanillaRanchingExpanded.AnimalGeneDef>
+		<defName>VRE_NormalSleeper</defName>
+		<description>Carrier of this gene has the normal need for sleep.</description>
+		<label>normal sleeper</label>
+		<stability>2</stability>
+		<isSpecialized>true</isSpecialized>
+		<marketValueFactor>0.9</marketValueFactor>
+		<iconPath>UI/AnimalGenes/AnimalGene_RestRate</iconPath>
+		<statFactors>
+			<RestRateMultiplier>1</RestRateMultiplier>
+			<MarketValue>0.9</MarketValue>
+		</statFactors>
+		<familyTag>VRE_RestRate</familyTag>
+		<hediffToAdd>AA_LowRest_LowestRank</hediffToAdd>
+	</VanillaRanchingExpanded.AnimalGeneDef>
+	<!-- Egg yield -->
+	<VanillaRanchingExpanded.AnimalGeneDef>
+		<defName>VRE_AbundantEggYield</defName>
+		<description>Carrier of this gene produces an exceptional number of eggs, rapidly expanding its population when allowed to breed.</description>
+		<label>abundant egg yield</label>
+		<stability>-2</stability>
+		<iconPath>UI/AnimalGenes/AnimalGene_LitterSize</iconPath>
+		<marketValueFactor>1.2</marketValueFactor>
+		<isSpecialized>true</isSpecialized>
+		<statFactors>
+			<VRE_EggIntervalFactor>0.65</VRE_EggIntervalFactor>
+			<MarketValue>1.2</MarketValue>
+		</statFactors>
+		<statOffsets>
+			<VRE_EggYieldOffset>1</VRE_EggYieldOffset>
+		</statOffsets>
+		<familyTag>VRE_EggYield</familyTag>
+	</VanillaRanchingExpanded.AnimalGeneDef>
+	<VanillaRanchingExpanded.AnimalGeneDef>
+		<defName>VRE_ProlificEggYield</defName>
+		<description>Carrier of this gene lays eggs more frequently than normal, producing clutches in shorter intervals.</description>
+		<label>prolific egg yield</label>
+		<stability>-1</stability>
+		<isSpecialized>true</isSpecialized>
+		<iconPath>UI/AnimalGenes/AnimalGene_LitterSize</iconPath>
+		<statFactors>
+			<VRE_EggIntervalFactor>0.8</VRE_EggIntervalFactor>
+		</statFactors>
+		<familyTag>VRE_EggYield</familyTag>
+	</VanillaRanchingExpanded.AnimalGeneDef>
+	<VanillaRanchingExpanded.AnimalGeneDef>
+		<defName>VRE_AverageEggYield</defName>
+		<description>Carrier of this gene lays an average amount of eggs.</description>
+		<label>average egg yield</label>
+		<stability>0</stability>
+		<isSpecialized>true</isSpecialized>
+		<iconPath>UI/AnimalGenes/AnimalGene_LitterSize</iconPath>
+		<familyTag>VRE_EggYield</familyTag>
+	</VanillaRanchingExpanded.AnimalGeneDef>
+	<VanillaRanchingExpanded.AnimalGeneDef>
+		<defName>VRE_SparseEggYield</defName>
+		<description>Carrier of this gene lays eggs less frequently than normal.</description>
+		<label>sparse egg yield</label>
+		<stability>1</stability>
+		<isSpecialized>true</isSpecialized>
+		<iconPath>UI/AnimalGenes/AnimalGene_LitterSize</iconPath>
+		<statFactors>
+			<VRE_EggIntervalFactor>1.25</VRE_EggIntervalFactor>
+		</statFactors>
+		<familyTag>VRE_EggYield</familyTag>
+	</VanillaRanchingExpanded.AnimalGeneDef>
+	<VanillaRanchingExpanded.AnimalGeneDef>
+		<defName>VRE_BarrenEggYield</defName>
+		<description>Carrier of this gene produces eggs only rarely, making it poorly suited for breeding.</description>
+		<label>barren egg yield</label>
+		<stability>2</stability>
+		<isSpecialized>true</isSpecialized>
+		<marketValueFactor>0.9</marketValueFactor>
+		<iconPath>UI/AnimalGenes/AnimalGene_LitterSize</iconPath>
+		<statFactors>
+			<VRE_EggIntervalFactor>2</VRE_EggIntervalFactor>
+			<MarketValue>0.9</MarketValue>
+		</statFactors>
+		<statOffsets>
+			<VRE_EggYieldOffset>-1</VRE_EggYieldOffset>
+		</statOffsets>
+		<familyTag>VRE_EggYield</familyTag>
 	</VanillaRanchingExpanded.AnimalGeneDef>
 </Defs>

@@ -16,6 +16,10 @@
 			</li>
 		</value>
 	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="AA_CrepuscularBeetle"]/comps/li[@Class="VEF.AnimalBehaviours.CompProperties_InitialHediff"]</xpath>
+		
+	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="AA_CrepuscularBeetle"]/race</xpath>
 		<value>

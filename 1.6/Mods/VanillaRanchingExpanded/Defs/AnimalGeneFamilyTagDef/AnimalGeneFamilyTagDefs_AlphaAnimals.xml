@@ -16,4 +16,14 @@
 		<label>beetle eggs yield</label>
 		<order>16</order>
 	</VanillaRanchingExpanded.AnimalGeneFamilyTagDef>
+	<VanillaRanchingExpanded.AnimalGeneFamilyTagDef>
+		<defName>VRE_RestRate</defName>
+		<label>rest rate</label>
+		<order>17</order>
+	</VanillaRanchingExpanded.AnimalGeneFamilyTagDef>
+	<VanillaRanchingExpanded.AnimalGeneFamilyTagDef>
+		<defName>VRE_EggYield</defName>
+		<label>egg yield</label>
+		<order>18</order>
+	</VanillaRanchingExpanded.AnimalGeneFamilyTagDef>
 </Defs>

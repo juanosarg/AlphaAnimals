@@ -33,6 +33,7 @@
 				<li>AA_Thunderox</li>
 				<li>AA_Bobeene</li>
 				<li>AA_ChameleonYak</li>
+				<li>AA_ShadowCharger</li>
 				<li MayRequire="Ludeon.RimWorld.Odyssey">Muskox</li>
 				<li MayRequire="VanillaExpanded.VAEWaste">VAEWaste_Wasteffalo</li>
 			</canCrossBreedWith>
@@ -97,6 +98,7 @@
 				<li>AA_Thunderox</li>
 				<li>AA_Bobeene</li>
 				<li>AA_ChameleonYak</li>
+				<li>AA_ShadowCharger</li>
 				<li MayRequire="Ludeon.RimWorld.Odyssey">Muskox</li>
 				<li MayRequire="VanillaExpanded.VAEWaste">VAEWaste_Wasteffalo</li>
 			</canCrossBreedWith>
@@ -161,6 +163,7 @@
 				<li>AA_Radyak</li>
 				<li>AA_Bobeene</li>
 				<li>AA_ChameleonYak</li>
+				<li>AA_ShadowCharger</li>
 				<li MayRequire="Ludeon.RimWorld.Odyssey">Muskox</li>
 				<li MayRequire="VanillaExpanded.VAEWaste">VAEWaste_Wasteffalo</li>
 			</canCrossBreedWith>
@@ -225,6 +228,7 @@
 				<li>AA_Radyak</li>
 				<li>AA_Thunderox</li>
 				<li>AA_ChameleonYak</li>
+				<li>AA_ShadowCharger</li>
 				<li MayRequire="Ludeon.RimWorld.Odyssey">Muskox</li>
 				<li MayRequire="VanillaExpanded.VAEWaste">VAEWaste_Wasteffalo</li>
 			</canCrossBreedWith>
@@ -289,6 +293,7 @@
 				<li>AA_Thunderox</li>
 				<li>AA_Bobeene</li>
 				<li>AA_SpinedGow</li>
+				<li>AA_ShadowCharger</li>
 				<li MayRequire="Ludeon.RimWorld.Odyssey">Muskox</li>
 				<li MayRequire="VanillaExpanded.VAEWaste">VAEWaste_Wasteffalo</li>
 			</canCrossBreedWith>
@@ -320,7 +325,69 @@
 		</value>
 	</Operation>
 	
-
+<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="AA_ShadowCharger"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="AA_ShadowCharger"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AA_ShadowCharger"]/comps</xpath>
+		<value>
+			<li Class="VanillaRanchingExpanded.CompProperties_AnimalGenes">      
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AA_ShadowCharger"]/race</xpath>
+		<value>
+			<canCrossBreedWith>
+				<li>VRE_CowAngus</li>
+				<li>VRE_CowDairy</li>
+				<li>VRE_CowJersey</li>
+				<li>VRE_CowWooly</li>
+				<li>VRE_CowZebu</li>
+				<li>Muffalo</li>
+				<li>Bison</li>
+				<li>Yak</li>
+				<li>Cow</li>
+				<li>AA_Radyak</li>
+				<li>AA_Thunderox</li>
+				<li>AA_Bobeene</li>
+				<li>AA_ChameleonYak</li>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">Muskox</li>
+				<li MayRequire="VanillaExpanded.VAEWaste">VAEWaste_Wasteffalo</li>
+			</canCrossBreedWith>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Vanilla Animals Expanded</li>
+        </mods>
+        <match Class="PatchOperationFindMod">
+            <mods>
+                <li>Odyssey</li>
+            </mods>
+            <nomatch Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="AA_ShadowCharger"]/race/canCrossBreedWith</xpath>
+                <value>
+                    <li>AEXP_Muskox</li>
+                </value>
+            </nomatch>
+        </match>
+    </Operation>
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="AA_ShadowCharger"]</xpath>
+		<value>
+			<li Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension">
+				<crossBreedKindDef>Random</crossBreedKindDef>
+				<weightForMother>0.6</weightForMother>
+			</li>
+		</value>
+	</Operation>
 	
 </Patch>
 

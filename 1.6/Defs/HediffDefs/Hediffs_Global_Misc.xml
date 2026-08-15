@@ -373,7 +373,46 @@
 		</stages>
 	</HediffDef>
 	<HediffDef>
+		<defName>AA_LowRest_LowestRank</defName>
+		<description>Due to their poor genetics, this creature has the same need to sleep as any other animal.</description>
+		<label>normal sleep needs</label>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<stages>
+			<li>
+				<restFallFactor>1</restFallFactor>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>AA_LowRest_LowRank</defName>
+		<description>This creature has less need for sleep than other animals, and can stay awake for a bit longer.</description>
+		<label>needs less sleep</label>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<stages>
+			<li>
+				<restFallFactor>0.75</restFallFactor>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
 		<defName>AA_LowRest</defName>
+		<description>This creature has little need for sleep, and can stay awake for a long time.</description>
+		<label>needs little sleep</label>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<stages>
+			<li>
+				<restFallFactor>0.4</restFallFactor>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>AA_LowRest_HighRank</defName>
 		<description>This creature has very little need for sleep, and can stay awake for a long time.</description>
 		<label>needs very little sleep</label>
 		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
@@ -381,7 +420,20 @@
 		<maxSeverity>1.0</maxSeverity>
 		<stages>
 			<li>
-				<restFallFactor>0.4</restFallFactor>
+				<restFallFactor>0.25</restFallFactor>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>AA_LowRest_HighestRank</defName>
+		<description>This creature has almost no need for sleep, and can stay awake for an incredibly long time.</description>
+		<label>needs almost no sleep</label>
+		<defaultLabelColor>(.8,0,0)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<stages>
+			<li>
+				<restFallFactor>0.1</restFallFactor>
 			</li>
 		</stages>
 	</HediffDef>

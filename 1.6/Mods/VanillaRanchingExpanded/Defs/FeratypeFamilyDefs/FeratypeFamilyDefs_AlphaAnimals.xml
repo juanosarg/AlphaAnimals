@@ -10,5 +10,19 @@
 		<label>beetle</label>	
 		<description>Hardy arthropods prized for their resilience and diverse adaptations, selectively bred into livestock suited to a variety of environments and purposes.</description>
 	</VanillaRanchingExpanded.FeratypeFamilyDef>
-	
+	<VanillaRanchingExpanded.FeratypeFamilyDef>
+		<defName>AA_FrostboundBehemoth</defName>
+		<label>behemoth</label>	
+		<description>Large arthropods adapted to extreme low temperatures.</description>
+	</VanillaRanchingExpanded.FeratypeFamilyDef>
+	<VanillaRanchingExpanded.FeratypeFamilyDef>
+		<defName>AA_LuciferBug</defName>
+		<label>lucifer bugs</label>	
+		<description>Small insectoids, genetically modified to produce small batches of Luciferium extract every few days.</description>
+	</VanillaRanchingExpanded.FeratypeFamilyDef>
+	<VanillaRanchingExpanded.FeratypeFamilyDef>
+		<defName>AA_GiantCrownedSilkie</defName>
+		<label>silkies</label>	
+		<description>Large flightless birds, genetically modified to produce both edible eggs and a valuable silk-like textile.</description>
+	</VanillaRanchingExpanded.FeratypeFamilyDef>
 </Defs>

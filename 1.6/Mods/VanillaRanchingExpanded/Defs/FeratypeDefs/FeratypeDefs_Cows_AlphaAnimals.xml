@@ -103,4 +103,25 @@
 			<li>VRE_AnimalProductsYield_Average</li>
 		</animalGenes>
 	</VanillaRanchingExpanded.FeratypeDef>
+	<VanillaRanchingExpanded.FeratypeDef>
+		<defName>AA_ShadowCharger</defName>
+		<description>A creature known for its mighty elongated horns, the Shadow Charger is actually rather passive, their horns only being used upon provocation or during mating. Mostly raised across the Rim for their creamy milk and abundant meat.</description>
+		<feratypeFamily>VRE_Bovines</feratypeFamily>
+		<label>shadow charger</label>
+		<race>AA_ShadowCharger</race>
+		<iconPath>UI/FeratypeIcons/Feratype_ShadowCharger</iconPath>
+		<canBeAlpha>true</canBeAlpha>
+		<animalGenes>
+			<li>VRE_PoorVitality</li>
+			<li>VRE_AverageSpeed</li>
+			<li>VRE_AverageSize</li>
+			<li>VRE_Filthy</li>
+			<li>VRE_AverageWildness</li>
+			<li>VRE_SlowMetabolism</li>
+			<li>VRE_AverageBuild</li>
+			<li>VRE_AverageIntelligence</li>
+			<li>VRE_AbundantMilk</li>
+			
+		</animalGenes>
+	</VanillaRanchingExpanded.FeratypeDef>
 </Defs>

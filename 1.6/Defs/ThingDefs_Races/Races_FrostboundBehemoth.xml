@@ -3,7 +3,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_FrostboundBehemoth</defName>
 		<label>frostbound behemoth</label>
-		<description>This large arthropod seems to be a distant relative of the smaller Frostmite, sharing many similarities in its body plan, though none of their carrion eating habits. It is a creature adapted to extreme low temperatures, feeding on half inorganic vegetation present in the unnatural propane lakes. Its low metabolism makes it a very efficient creature, which allows it to survive in such environments.\n\nIt is generally peaceful, and produces a blueish liquid that can be used as a milk substitute, so they are considered a nice farm animal for cold climates. Also, Jedi love this milk.</description>
+		<description>This large arthropod seems to be a distant relative of the smaller Frostmite, sharing many similarities in its body plan, though none of their carrion eating habits. It is a creature adapted to extreme low temperatures, feeding on half inorganic vegetation present in the unnatural propane lakes. Its slow metabolism makes it a very efficient creature, which allows it to survive in such environments.\n\nIt is generally peaceful, and produces a blueish liquid that can be used as a milk substitute, so they are considered a nice farm animal for cold climates. Also, Jedi love this milk.</description>
 		<statBases>
 			<MoveSpeed>2.0</MoveSpeed>
 			<ComfyTemperatureMin>-100</ComfyTemperatureMin>

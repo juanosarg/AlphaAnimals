@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VanillaRanchingExpanded.FeratypeDef>
+		<defName>AA_FrostboundBehemoth</defName>
+		<description>A large arthropod adapted to extreme low temperatures, feeding on half inorganic vegetation. Its slow metabolism makes it a very efficient creature, which allows it to survive in such environments.</description>
+		<feratypeFamily>AA_FrostboundBehemoth</feratypeFamily>
+		<label>frostbound behemoth</label>
+		<race>AA_FrostboundBehemoth</race>
+		<iconPath>UI/FeratypeIcons/Feratype_Behemoth</iconPath>
+		<animalGenes>
+			<li>VRE_AverageVitality</li>
+			<li>VRE_AverageSpeed</li>
+			<li>VRE_AverageSize</li>
+			<li>VRE_AverageCleanliness</li>
+			<li>VRE_AverageWildness</li>
+			<li>VRE_FastMetabolism</li>
+			<li>VRE_Lean</li>
+			<li>VRE_AverageIntelligence</li>
+			<li>VRE_AverageMilk</li>
+		</animalGenes>
+	</VanillaRanchingExpanded.FeratypeDef>
+</Defs>
