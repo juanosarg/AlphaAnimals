@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VanillaRanchingExpanded.FeratypeFamilyDef>
+		<defName>VRE_Myrmidon</defName>
+		<label>myrmidon</label>	
+		<description>Ant-derived creatures bred into diverse forms of livestock, retaining aspects of their ancestral biology beneath their oversized forms.</description>		
+	</VanillaRanchingExpanded.FeratypeFamilyDef>
+	<VanillaRanchingExpanded.FeratypeFamilyDef>
+		<defName>VRE_Beetle</defName>
+		<label>beetle</label>	
+		<description>Hardy arthropods prized for their resilience and diverse adaptations, selectively bred into livestock suited to a variety of environments and purposes.</description>
+	</VanillaRanchingExpanded.FeratypeFamilyDef>
+	
+</Defs>

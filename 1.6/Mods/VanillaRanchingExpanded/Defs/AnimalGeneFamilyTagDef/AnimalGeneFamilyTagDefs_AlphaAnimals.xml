@@ -6,4 +6,14 @@
 		<label>bulk carry</label>
 		<order>14</order>
 	</VanillaRanchingExpanded.AnimalGeneFamilyTagDef>
+	<VanillaRanchingExpanded.AnimalGeneFamilyTagDef>
+		<defName>VRE_CarryingCapacity</defName>
+		<label>carrying capacity</label>
+		<order>15</order>
+	</VanillaRanchingExpanded.AnimalGeneFamilyTagDef>
+	<VanillaRanchingExpanded.AnimalGeneFamilyTagDef>
+		<defName>VRE_BeetleEggsYield</defName>
+		<label>beetle eggs yield</label>
+		<order>16</order>
+	</VanillaRanchingExpanded.AnimalGeneFamilyTagDef>
 </Defs>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="AA_CrepuscularBeetle"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="AA_CrepuscularBeetle"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AA_CrepuscularBeetle"]/comps</xpath>
+		<value>
+			<li Class="VanillaRanchingExpanded.CompProperties_AnimalGenes">      
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AA_CrepuscularBeetle"]/race</xpath>
+		<value>
+			<canCrossBreedWith>
+				<li>AA_IronhuskBeetle</li>
+				
+			</canCrossBreedWith>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="AA_CrepuscularBeetle"]</xpath>
+		<value>
+			<li Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension">
+				<crossBreedKindDef>Random</crossBreedKindDef>
+				<weightForMother>0.6</weightForMother>
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="AA_CrepuscularBeetleEggFertilized"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="AA_CrepuscularBeetleEggFertilized"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AA_CrepuscularBeetleEggFertilized"]/comps</xpath>
+		<value>
+			<li Class="VanillaRanchingExpanded.CompProperties_AnimalGenes">      
+			</li>
+			<li Class="VanillaRanchingExpanded.CompProperties_StackByGenes">      
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="AA_CrepuscularBeetleEggFertilized"]/inspectorTabs</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="AA_CrepuscularBeetleEggFertilized"]</xpath>
+			<value>
+				<inspectorTabs/>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AA_CrepuscularBeetleEggFertilized"]/inspectorTabs</xpath>
+		<value>
+			<li>VanillaRanchingExpanded.ITab_AnimalGenes</li>
+		</value>
+	</Operation>
+	
+	
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="AA_IronhuskBeetle"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="AA_IronhuskBeetle"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AA_IronhuskBeetle"]/comps</xpath>
+		<value>
+			<li Class="VanillaRanchingExpanded.CompProperties_AnimalGenes">      
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AA_IronhuskBeetle"]/race</xpath>
+		<value>
+			<canCrossBreedWith>
+				<li>AA_CrepuscularBeetle</li>
+				
+			</canCrossBreedWith>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="AA_IronhuskBeetle"]</xpath>
+		<value>
+			<li Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension">
+				<crossBreedKindDef>Random</crossBreedKindDef>
+				<weightForMother>0.6</weightForMother>
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="AA_IronhuskEggFertilized"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="AA_IronhuskEggFertilized"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AA_IronhuskEggFertilized"]/comps</xpath>
+		<value>
+			<li Class="VanillaRanchingExpanded.CompProperties_AnimalGenes">      
+			</li>
+			<li Class="VanillaRanchingExpanded.CompProperties_StackByGenes">      
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="AA_IronhuskEggFertilized"]/inspectorTabs</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="AA_IronhuskEggFertilized"]</xpath>
+			<value>
+				<inspectorTabs/>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AA_IronhuskEggFertilized"]/inspectorTabs</xpath>
+		<value>
+			<li>VanillaRanchingExpanded.ITab_AnimalGenes</li>
+		</value>
+	</Operation>
+</Patch>
+
