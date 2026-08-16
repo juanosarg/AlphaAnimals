@@ -152,13 +152,21 @@
 			<li>
 				<label>giant crowned silkie chick</label>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AA_GiantCrownedSilkie/AA_GiantCrownedSilkie</texPath>
-					<drawSize>0.85</drawSize>
+					<texPath>Things/Pawn/Animal/AA_GiantCrownedSilkie/AA_GiantCrownedSilkie_baby</texPath>
+					<drawSize>1</drawSize>
 				</bodyGraphicData>
+				<femaleGraphicData>
+					<texPath>Things/Pawn/Animal/AA_GiantCrownedSilkie/AA_GiantCrownedSilkie_female_baby</texPath>
+					<drawSize>1</drawSize>
+				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/AA_GiantCrownedSilkie/AA_Dessicated_GiantCrownedSilkie</texPath>
-					<drawSize>0.85</drawSize>
+					<texPath>Things/Pawn/Animal/AA_GiantCrownedSilkie/AA_Dessicated_GiantCrownedSilkie_baby</texPath>
+					<drawSize>1</drawSize>
 				</dessicatedBodyGraphicData>
+				<femaleDessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_GiantCrownedSilkie/AA_Dessicated_GiantCrownedSilkie_baby</texPath>
+					<drawSize>1</drawSize>
+				</femaleDessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
@@ -169,10 +177,22 @@
 						<offset>(0,0,-0.3)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<femaleGraphicData>
+					<texPath>Things/Pawn/Animal/AA_GiantCrownedSilkie/AA_GiantCrownedSilkie_female</texPath>
+					<drawSize>2</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/AA_GiantCrownedSilkie/AA_Dessicated_GiantCrownedSilkie</texPath>
 					<drawSize>2.1</drawSize>
 				</dessicatedBodyGraphicData>
+				<femaleDessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_GiantCrownedSilkie/AA_Dessicated_GiantCrownedSilkie</texPath>
+					<drawSize>2</drawSize>
+				</femaleDessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
@@ -183,10 +203,22 @@
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<femaleGraphicData>
+					<texPath>Things/Pawn/Animal/AA_GiantCrownedSilkie/AA_GiantCrownedSilkie_female</texPath>
+					<drawSize>2.45</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.4, 0.4)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/AA_GiantCrownedSilkie/AA_Dessicated_GiantCrownedSilkie</texPath>
 					<drawSize>2.6</drawSize>
 				</dessicatedBodyGraphicData>
+				<femaleDessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_GiantCrownedSilkie/AA_Dessicated_GiantCrownedSilkie</texPath>
+					<drawSize>2.45</drawSize>
+				</femaleDessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
 	</PawnKindDef>

@@ -155,16 +155,16 @@
 			<li>
 				<label>grey-coated mouflon lamb</label>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AA_GreyCoatedMouflon/AA_GreyCoatedMouflonFemale</texPath>
-					<drawSize>1.5</drawSize>
+					<texPath>Things/Pawn/Animal/AA_GreyCoatedMouflon/AA_GreyCoatedMouflonBaby_east</texPath>
+					<drawSize>1.25</drawSize>
 					<shadowData>
 						<volume>(0.4, 0.3, 0.3)</volume>
 						<offset>(0,0,-0.2)</offset>
 					</shadowData>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/AA_GreyCoatedMouflon/AA_Dessicated_GreyCoatedMouflonFemale</texPath>
-					<drawSize>1.5</drawSize>
+					<texPath>Things/Pawn/Animal/AA_GreyCoatedMouflon/AA_Dessicated_GreyCoatedMouflonBaby_east</texPath>
+					<drawSize>1.25</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>

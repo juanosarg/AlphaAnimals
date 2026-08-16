@@ -25,4 +25,9 @@
 		<label>silkies</label>	
 		<description>Large flightless birds, genetically modified to produce both edible eggs and a valuable silk-like textile.</description>
 	</VanillaRanchingExpanded.FeratypeFamilyDef>
+	<VanillaRanchingExpanded.FeratypeFamilyDef>
+		<defName>AA_NightMule</defName>
+		<label>night mule</label>	
+		<description>A hardy pack beasts, used for transporting loads or doing other heavy work, they originate from a RimWorld orbiting a very faint star and thus they have adapted to environments with low sunlight.</description>
+	</VanillaRanchingExpanded.FeratypeFamilyDef>
 </Defs>
