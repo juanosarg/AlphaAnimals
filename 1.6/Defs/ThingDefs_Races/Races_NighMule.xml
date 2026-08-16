@@ -146,12 +146,12 @@
 				<label>nightmule calf</label>
 				<labelPlural>nightmule calves</labelPlural>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/AA_NightMule/AA_NightMule</texPath>
-					<drawSize>1.5</drawSize>
+					<texPath>Things/Pawn/Animal/AA_NightMule/AA_NightMule_baby</texPath>
+					<drawSize>1.75</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/AA_NightMule/AA_Dessicated_NightMule</texPath>
-					<drawSize>1.5</drawSize>
+					<texPath>Things/Pawn/Animal/AA_NightMule/AA_Dessicated_NightMule_baby</texPath>
+					<drawSize>1.75</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
@@ -163,10 +163,22 @@
 						<offset>(0,0,-0.15)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<femaleGraphicData>
+					<texPath>Things/Pawn/Animal/AA_NightMule/AA_NightMule_female</texPath>
+					<drawSize>2.15</drawSize>
+					<shadowData>
+						<volume>(0.25, 0.3, 0.25)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/AA_NightMule/AA_Dessicated_NightMule</texPath>
 					<drawSize>2.25</drawSize>
 				</dessicatedBodyGraphicData>
+				<femaleDessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_NightMule/AA_Dessicated_NightMule_female</texPath>
+					<drawSize>2.15</drawSize>
+				</femaleDessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
@@ -177,10 +189,22 @@
 						<offset>(0,0,-0.15)</offset>
 					</shadowData>
 				</bodyGraphicData>
+				<femaleGraphicData>
+					<texPath>Things/Pawn/Animal/AA_NightMule/AA_NightMule_female</texPath>
+					<drawSize>2.85</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.4, 0.3)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/AA_NightMule/AA_Dessicated_NightMule</texPath>
 					<drawSize>3</drawSize>
 				</dessicatedBodyGraphicData>
+				<femaleDessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_NightMule/AA_Dessicated_NightMule_female</texPath>
+					<drawSize>2.85</drawSize>
+				</femaleDessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
 	</PawnKindDef>
