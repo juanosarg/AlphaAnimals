@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<VanillaRanchingExpanded.FeratypeDef>
+	<VEF.AnimalGenes.FeratypeDef>
 		<defName>AA_ChemfuelMyrmidon</defName>
 		<description>An ant-like creature created as a replacement for the ubiquitous boomalope. Chemfuel Myrmidons consume both meat and vegetables and ferment them into a powerful chemfuel mixture, which can be periodically extracted from the animal.</description>
 		<feratypeFamily>VRE_Myrmidon</feratypeFamily>
@@ -18,5 +18,5 @@
 			<li>VRE_AverageIntelligence</li>
 			<li>VRE_AverageMilk</li>
 		</animalGenes>
-	</VanillaRanchingExpanded.FeratypeDef>
+	</VEF.AnimalGenes.FeratypeDef>
 </Defs>

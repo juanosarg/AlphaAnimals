@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<VanillaRanchingExpanded.FeratypeDef>
+	<VEF.AnimalGenes.FeratypeDef>
 		<defName>AA_LuciferBug</defName>
 		<description>A small insectoid, genetically modified to produce small batches of Luciferium extract every few days. Even though they are useful as a source of the dangerous drug, the fact that Luciferium is a mechanite-based drug makes luciferbugs extremely unstable, and prone to violent detonation if damaged.</description>
 		<feratypeFamily>AA_LuciferBug</feratypeFamily>
@@ -18,5 +18,5 @@
 			<li>VRE_AverageIntelligence</li>
 			<li>VRE_AnimalProductsYield_Average</li>
 		</animalGenes>
-	</VanillaRanchingExpanded.FeratypeDef>
+	</VEF.AnimalGenes.FeratypeDef>
 </Defs>

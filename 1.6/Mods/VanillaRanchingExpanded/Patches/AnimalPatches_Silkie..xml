@@ -12,7 +12,7 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="AA_GiantCrownedSilkie"]/comps</xpath>
 		<value>
-			<li Class="VanillaRanchingExpanded.CompProperties_AnimalGenes">      
+			<li Class="VEF.AnimalGenes.CompProperties_AnimalGenes">      
 			</li>
 		</value>
 	</Operation>
@@ -28,9 +28,9 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="AA_EggGiantCrownedSilkieFertilized"]/comps</xpath>
 		<value>
-			<li Class="VanillaRanchingExpanded.CompProperties_AnimalGenes">      
+			<li Class="VEF.AnimalGenes.CompProperties_AnimalGenes">      
 			</li>
-			<li Class="VanillaRanchingExpanded.CompProperties_StackByGenes">      
+			<li Class="VEF.AnimalGenes.CompProperties_StackByGenes">      
 			</li>
 		</value>
 	</Operation>
@@ -46,7 +46,7 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="AA_EggGiantCrownedSilkieFertilized"]/inspectorTabs</xpath>
 		<value>
-			<li>VanillaRanchingExpanded.ITab_AnimalGenes</li>
+			<li>VEF.AnimalGenes.ITab_AnimalGenes</li>
 		</value>
 	</Operation>
 </Patch>

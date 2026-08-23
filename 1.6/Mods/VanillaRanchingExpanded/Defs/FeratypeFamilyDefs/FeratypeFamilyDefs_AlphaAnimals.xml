@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<VanillaRanchingExpanded.FeratypeFamilyDef>
+	<VEF.AnimalGenes.FeratypeFamilyDef>
 		<defName>VRE_Myrmidon</defName>
 		<label>myrmidon</label>	
 		<description>Ant-derived creatures bred into diverse forms of livestock, retaining aspects of their ancestral biology beneath their oversized forms.</description>		
-	</VanillaRanchingExpanded.FeratypeFamilyDef>
-	<VanillaRanchingExpanded.FeratypeFamilyDef>
+	</VEF.AnimalGenes.FeratypeFamilyDef>
+	<VEF.AnimalGenes.FeratypeFamilyDef>
 		<defName>VRE_Beetle</defName>
 		<label>beetle</label>	
 		<description>Hardy arthropods prized for their resilience and diverse adaptations, selectively bred into livestock suited to a variety of environments and purposes.</description>
-	</VanillaRanchingExpanded.FeratypeFamilyDef>
-	<VanillaRanchingExpanded.FeratypeFamilyDef>
+	</VEF.AnimalGenes.FeratypeFamilyDef>
+	<VEF.AnimalGenes.FeratypeFamilyDef>
 		<defName>AA_FrostboundBehemoth</defName>
 		<label>behemoth</label>	
 		<description>Large arthropods adapted to extreme low temperatures.</description>
-	</VanillaRanchingExpanded.FeratypeFamilyDef>
-	<VanillaRanchingExpanded.FeratypeFamilyDef>
+	</VEF.AnimalGenes.FeratypeFamilyDef>
+	<VEF.AnimalGenes.FeratypeFamilyDef>
 		<defName>AA_LuciferBug</defName>
 		<label>lucifer bugs</label>	
 		<description>Small insectoids, genetically modified to produce small batches of Luciferium extract every few days.</description>
-	</VanillaRanchingExpanded.FeratypeFamilyDef>
-	<VanillaRanchingExpanded.FeratypeFamilyDef>
+	</VEF.AnimalGenes.FeratypeFamilyDef>
+	<VEF.AnimalGenes.FeratypeFamilyDef>
 		<defName>AA_GiantCrownedSilkie</defName>
 		<label>silkies</label>	
 		<description>Large flightless birds, genetically modified to produce both edible eggs and a valuable silk-like textile.</description>
-	</VanillaRanchingExpanded.FeratypeFamilyDef>
-	<VanillaRanchingExpanded.FeratypeFamilyDef>
+	</VEF.AnimalGenes.FeratypeFamilyDef>
+	<VEF.AnimalGenes.FeratypeFamilyDef>
 		<defName>AA_NightMule</defName>
 		<label>night mule</label>	
 		<description>A hardy pack beasts, used for transporting loads or doing other heavy work, they originate from a RimWorld orbiting a very faint star and thus they have adapted to environments with low sunlight.</description>
-	</VanillaRanchingExpanded.FeratypeFamilyDef>
+	</VEF.AnimalGenes.FeratypeFamilyDef>
 </Defs>

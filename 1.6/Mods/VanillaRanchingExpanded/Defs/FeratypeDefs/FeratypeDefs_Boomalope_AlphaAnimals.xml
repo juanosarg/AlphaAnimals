@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<VanillaRanchingExpanded.FeratypeDef>
+	<VEF.AnimalGenes.FeratypeDef>
 		<defName>AA_Gigantelope</defName>
 		<description>Ideal pack beasts that carry more weight than their body mass would usually allow. While they are mammals, Gigantelopes have pneumatized bones: strong, dense and sturdy without being heavy.</description>
 		<feratypeFamily>VRE_Boomalope</feratypeFamily>
@@ -19,6 +19,6 @@
 			<li>VRE_AverageMilk</li>
 			<li>VRE_NormalBulkCarry</li>
 		</animalGenes>
-	</VanillaRanchingExpanded.FeratypeDef>
+	</VEF.AnimalGenes.FeratypeDef>
 	
 </Defs>

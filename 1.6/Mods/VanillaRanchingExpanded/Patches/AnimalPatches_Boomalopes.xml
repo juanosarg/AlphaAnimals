@@ -12,7 +12,7 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="AA_Gigantelope"]/comps</xpath>
 		<value>
-			<li Class="VanillaRanchingExpanded.CompProperties_AnimalGenes">      
+			<li Class="VEF.AnimalGenes.CompProperties_AnimalGenes">      
 			</li>
 		</value>
 	</Operation>

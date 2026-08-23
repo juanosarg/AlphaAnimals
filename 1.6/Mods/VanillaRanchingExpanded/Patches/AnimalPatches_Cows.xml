@@ -12,7 +12,7 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="AA_SpinedGow"]/comps</xpath>
 		<value>
-			<li Class="VanillaRanchingExpanded.CompProperties_AnimalGenes">      
+			<li Class="VEF.AnimalGenes.CompProperties_AnimalGenes">      
 			</li>
 		</value>
 	</Operation>
@@ -77,7 +77,7 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="AA_Radyak"]/comps</xpath>
 		<value>
-			<li Class="VanillaRanchingExpanded.CompProperties_AnimalGenes">      
+			<li Class="VEF.AnimalGenes.CompProperties_AnimalGenes">      
 			</li>
 		</value>
 	</Operation>
@@ -142,7 +142,7 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="AA_Thunderox"]/comps</xpath>
 		<value>
-			<li Class="VanillaRanchingExpanded.CompProperties_AnimalGenes">      
+			<li Class="VEF.AnimalGenes.CompProperties_AnimalGenes">      
 			</li>
 		</value>
 	</Operation>
@@ -207,7 +207,7 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="AA_Bobeene"]/comps</xpath>
 		<value>
-			<li Class="VanillaRanchingExpanded.CompProperties_AnimalGenes">      
+			<li Class="VEF.AnimalGenes.CompProperties_AnimalGenes">      
 			</li>
 		</value>
 	</Operation>
@@ -272,7 +272,7 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="AA_ChameleonYak"]/comps</xpath>
 		<value>
-			<li Class="VanillaRanchingExpanded.CompProperties_AnimalGenes">      
+			<li Class="VEF.AnimalGenes.CompProperties_AnimalGenes">      
 			</li>
 		</value>
 	</Operation>
@@ -337,7 +337,7 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="AA_ShadowCharger"]/comps</xpath>
 		<value>
-			<li Class="VanillaRanchingExpanded.CompProperties_AnimalGenes">      
+			<li Class="VEF.AnimalGenes.CompProperties_AnimalGenes">      
 			</li>
 		</value>
 	</Operation>

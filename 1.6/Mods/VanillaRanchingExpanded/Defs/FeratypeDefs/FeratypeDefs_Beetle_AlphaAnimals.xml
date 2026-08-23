@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<VanillaRanchingExpanded.FeratypeDef>
+	<VEF.AnimalGenes.FeratypeDef>
 		<defName>AA_IronhuskBeetle</defName>
 		<description>Peaceful farm animals that occasionally shed metallic husks that can be used as steel, thus negating the need for heavy machinery in mining operations.</description>
 		<feratypeFamily>VRE_Beetle</feratypeFamily>
@@ -19,8 +19,8 @@
 			<li>VRE_AnimalProductsYield_Average</li>
 			<li>VRE_AverageBeetleEggYield</li>
 		</animalGenes>
-	</VanillaRanchingExpanded.FeratypeDef>
-	<VanillaRanchingExpanded.FeratypeDef>
+	</VEF.AnimalGenes.FeratypeDef>
+	<VEF.AnimalGenes.FeratypeDef>
 		<defName>AA_CrepuscularBeetle</defName>
 		<description>Very large arthropods reminiscent of oversized Hercules beetles, they are peaceful herbivores that originate from a mysterious Rimworld orbiting a very faint star, perpetually covered in darkness.</description>
 		<feratypeFamily>VRE_Beetle</feratypeFamily>
@@ -40,5 +40,5 @@
 			<li>VRE_AverageBeetleEggYield</li>
 			<li>VRE_ReducedRestRate</li>
 		</animalGenes>
-	</VanillaRanchingExpanded.FeratypeDef>
+	</VEF.AnimalGenes.FeratypeDef>
 </Defs>

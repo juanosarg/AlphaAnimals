@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<VanillaRanchingExpanded.FeratypeDef>
+	<VEF.AnimalGenes.FeratypeDef>
 		<defName>AA_DevilSheep</defName>
 		<description>A genetically engineered sheep capable of producing extremely strong and valuable red wool.</description>
 		<feratypeFamily>VRE_Ovines</feratypeFamily>
@@ -18,5 +18,5 @@
 			<li>VRE_AverageIntelligence</li>
 			<li>VRE_AnimalProductsYield_Average</li>
 		</animalGenes>
-	</VanillaRanchingExpanded.FeratypeDef>
+	</VEF.AnimalGenes.FeratypeDef>
 </Defs>

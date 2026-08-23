@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<VanillaRanchingExpanded.FeratypeDef>
+	<VEF.AnimalGenes.FeratypeDef>
 		<defName>AA_NightMule</defName>
 		<description>A hardy pack beast, used for transporting loads or doing other heavy work. Nightmules originate from a RimWorld orbiting a very faint star -the native planet of an elusive race know as the Forsaken- so they have adapted to environments with low sunlight.</description>
 		<feratypeFamily>AA_NightMule</feratypeFamily>
@@ -19,5 +19,5 @@
 			<li>VRE_AverageMilk</li>
 			<li>VRE_AverageCarryingCapacity</li>
 		</animalGenes>
-	</VanillaRanchingExpanded.FeratypeDef>
+	</VEF.AnimalGenes.FeratypeDef>
 </Defs>

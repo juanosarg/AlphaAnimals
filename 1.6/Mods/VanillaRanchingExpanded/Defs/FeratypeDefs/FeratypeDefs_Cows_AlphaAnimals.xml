@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<VanillaRanchingExpanded.FeratypeDef>
+	<VEF.AnimalGenes.FeratypeDef>
 		<defName>AA_SpinedGow</defName>
 		<description>Farm animals with cow and goat characteristics, bred to survive in extreme environments.</description>
 		<feratypeFamily>VRE_Bovines</feratypeFamily>
@@ -19,8 +19,8 @@
 			<li>VRE_ObliviousIntelligence</li>
 			<li>VRE_AverageMilk</li>
 		</animalGenes>
-	</VanillaRanchingExpanded.FeratypeDef>
-	<VanillaRanchingExpanded.FeratypeDef>
+	</VEF.AnimalGenes.FeratypeDef>
+	<VEF.AnimalGenes.FeratypeDef>
 		<defName>AA_Radyak</defName>
 		<description>Peaceful herbivores bred to thrive in high radiation environments. Their ruminant digestive tract is composed of six bionic stomachs, reinforced with a lead-lined biolattice designed to extract residual radioactive material from grass cells.</description>
 		<feratypeFamily>VRE_Bovines</feratypeFamily>
@@ -40,8 +40,8 @@
 			<li>VRE_AverageMilk</li>
 			<li>VRE_AnimalProductsYield_Average</li>
 		</animalGenes>
-	</VanillaRanchingExpanded.FeratypeDef>
-	<VanillaRanchingExpanded.FeratypeDef>
+	</VEF.AnimalGenes.FeratypeDef>
+	<VEF.AnimalGenes.FeratypeDef>
 		<defName>AA_Thunderox</defName>
 		<description>Often seen in the colder reaches of the Rim, the Thunderox are recognized by their shaggy thick fur and stumpy but effective horn. They get their name from their tendency to bray out during the dawn of thunderstorms.</description>
 		<feratypeFamily>VRE_Bovines</feratypeFamily>
@@ -61,8 +61,8 @@
 			<li>VRE_DryMilk</li>
 			<li>VRE_ThickWool</li>
 		</animalGenes>
-	</VanillaRanchingExpanded.FeratypeDef>
-	<VanillaRanchingExpanded.FeratypeDef>
+	</VEF.AnimalGenes.FeratypeDef>
+	<VEF.AnimalGenes.FeratypeDef>
 		<defName>AA_Bobeene</defName>
 		<description>Huge insects created specifically to feed on the gigantic flowers of an utopìan Idyllic Meadow. Although based on an obviously insectoid geneline, they have been carefully designed to produce meat that is virtually indistinguishable from beef.</description>
 		<feratypeFamily>VRE_Bovines</feratypeFamily>
@@ -81,8 +81,8 @@
 			<li>VRE_AverageIntelligence</li>
 			<li>VRE_MeagerMilk</li>
 		</animalGenes>
-	</VanillaRanchingExpanded.FeratypeDef>
-	<VanillaRanchingExpanded.FeratypeDef>
+	</VEF.AnimalGenes.FeratypeDef>
+	<VEF.AnimalGenes.FeratypeDef>
 		<defName>AA_ChameleonYak</defName>
 		<description>A long-haired domesticated bovid that has evolved a fascinating survival mechanism involving camouflage, similar to the way a chameleon changes its skin colour in response to different stimuli.</description>
 		<feratypeFamily>VRE_Bovines</feratypeFamily>
@@ -102,8 +102,8 @@
 			<li>VRE_DryMilk</li>
 			<li>VRE_AnimalProductsYield_Average</li>
 		</animalGenes>
-	</VanillaRanchingExpanded.FeratypeDef>
-	<VanillaRanchingExpanded.FeratypeDef>
+	</VEF.AnimalGenes.FeratypeDef>
+	<VEF.AnimalGenes.FeratypeDef>
 		<defName>AA_ShadowCharger</defName>
 		<description>A creature known for its mighty elongated horns, the Shadow Charger is actually rather passive, their horns only being used upon provocation or during mating. Mostly raised across the Rim for their creamy milk and abundant meat.</description>
 		<feratypeFamily>VRE_Bovines</feratypeFamily>
@@ -123,5 +123,5 @@
 			<li>VRE_AbundantMilk</li>
 			
 		</animalGenes>
-	</VanillaRanchingExpanded.FeratypeDef>
+	</VEF.AnimalGenes.FeratypeDef>
 </Defs>
