@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="AA_GreyCoatedMouflon"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="AA_GreyCoatedMouflon"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AA_GreyCoatedMouflon"]/comps</xpath>
+		<value>
+			<li Class="VEF.AnimalGenes.CompProperties_AnimalGenes">      
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AA_GreyCoatedMouflon"]/race</xpath>
+		<value>
+			<canCrossBreedWith>
+				<li>AA_NightRam</li>
+			</canCrossBreedWith>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="AA_GreyCoatedMouflon"]</xpath>
+		<value>
+			<li Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension">
+				<crossBreedKindDef>Random</crossBreedKindDef>
+				<weightForMother>0.6</weightForMother>
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="AA_NightRam"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="AA_NightRam"]</xpath>
+			<value>
+				<comps/>
+			</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AA_NightRam"]/comps</xpath>
+		<value>
+			<li Class="VEF.AnimalGenes.CompProperties_AnimalGenes">      
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AA_NightRam"]/race</xpath>
+		<value>
+			<canCrossBreedWith>
+				<li>AA_GreyCoatedMouflon</li>
+			</canCrossBreedWith>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/ThingDef[defName="AA_NightRam"]</xpath>
+		<value>
+			<li Class="VEF.AnimalBehaviours.AnimalCrossbreedExtension">
+				<crossBreedKindDef>Random</crossBreedKindDef>
+				<weightForMother>0.6</weightForMother>
+			</li>
+		</value>
+	</Operation>
+</Patch>
+
