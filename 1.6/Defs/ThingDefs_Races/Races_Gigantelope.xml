@@ -65,8 +65,10 @@
 				<addRandomHediffs>true</addRandomHediffs>
 				<numberOfHediffs>7</numberOfHediffs>
 			</li>
+			<li Class="AlphaBehavioursAndEvents.CompProperties_GraphicsRefresher"/>
 		</comps>
 		<race>
+			<renderTree>AA_Alternates</renderTree>
 			<wildBiomes>
 				<BorealForest>0.4</BorealForest>
 				<Tundra>0.05</Tundra>
