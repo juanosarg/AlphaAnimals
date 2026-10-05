@@ -4,7 +4,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AA_OcularCactus</defName>
 		<label>ocular cactus</label>
-		<description>The ocular cactus seems to be a Needleroll that has been corruptd by a strange extradimensional energy.\n\nOcular cacti need almost no sustenance, absorbing all the energy they need from sunlight and minute amounts of water that they extract from morning dew. Like needleposts and needlerolls, they need a huge amount of sunlight (or equivalent). Nights won't affect them, but a solar eclipse could be fatal to them.\n\nIf you have Alpha Biomes, a dying ocular cacti will produce several sessile sprouts when killed.</description>
+		<description>The ocular cactus seems to be a Needleroll that has been corrupted by a strange extradimensional energy.\n\nOcular cacti need almost no sustenance, absorbing all the energy they need from sunlight and minute amounts of water that they extract from morning dew. Like needleposts and needlerolls, they need a huge amount of sunlight (or equivalent). Nights won't affect them, but a solar eclipse could be fatal to them.\n\nIf you have Alpha Biomes, a dying ocular cacti will produce several sessile sprouts when killed.</description>
 		<statBases>
 			<MoveSpeed>2.50</MoveSpeed>
 			<ComfyTemperatureMin>0</ComfyTemperatureMin>
