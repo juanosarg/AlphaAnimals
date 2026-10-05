@@ -21,6 +21,7 @@
 		<value>
 			<canCrossBreedWith>
 				<li>AA_NightRam</li>
+				<li>Goat</li>
 			</canCrossBreedWith>
 		</value>
 	</Operation>
@@ -54,6 +55,7 @@
 		<value>
 			<canCrossBreedWith>
 				<li>AA_GreyCoatedMouflon</li>
+				<li>Goat</li>
 			</canCrossBreedWith>
 		</value>
 	</Operation>
