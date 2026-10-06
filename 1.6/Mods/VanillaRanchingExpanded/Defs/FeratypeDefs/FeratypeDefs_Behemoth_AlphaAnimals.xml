@@ -13,7 +13,7 @@
 			<li>VRE_AverageSize</li>
 			<li>VRE_AverageCleanliness</li>
 			<li>VRE_AverageWildness</li>
-			<li>VRE_FastMetabolism</li>
+			<li>VRE_SlowMetabolism</li>
 			<li>VRE_Lean</li>
 			<li>VRE_AverageIntelligence</li>
 			<li>VRE_AverageMilk</li>
