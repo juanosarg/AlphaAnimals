@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<VEF.AnimalGenes.AnimalGeneFamilyTagDef>
+		<defName>VRE_BulkCarry</defName>
+		<label>bulk carry</label>
+		<order>14</order>
+	</VEF.AnimalGenes.AnimalGeneFamilyTagDef>
+	<VEF.AnimalGenes.AnimalGeneFamilyTagDef>
+		<defName>VRE_CarryingCapacity</defName>
+		<label>carrying capacity</label>
+		<order>15</order>
+	</VEF.AnimalGenes.AnimalGeneFamilyTagDef>
+	<VEF.AnimalGenes.AnimalGeneFamilyTagDef>
+		<defName>VRE_BeetleEggsYield</defName>
+		<label>beetle eggs yield</label>
+		<order>16</order>
+	</VEF.AnimalGenes.AnimalGeneFamilyTagDef>
+	<VEF.AnimalGenes.AnimalGeneFamilyTagDef>
+		<defName>VRE_RestRate</defName>
+		<label>rest rate</label>
+		<order>17</order>
+	</VEF.AnimalGenes.AnimalGeneFamilyTagDef>
+	
+</Defs>

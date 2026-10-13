@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/PawnKindDef[@Name="InsectKindBase"]/moveSpeedFactorByTerrainTag</xpath>
+		<value>
+			<li>
+				<key>AA_BlackCreep</key>
+				<value>4.75</value>
+			</li>
+			
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/PawnKindDef[@Name="AA_InsectKindBase"]/moveSpeedFactorByTerrainTag</xpath>
+		<value>
+			<li>
+				<key>AA_BlackCreep</key>
+				<value>4.75</value>
+			</li>
+			
+		</value>
+	</Operation>
+</Patch>

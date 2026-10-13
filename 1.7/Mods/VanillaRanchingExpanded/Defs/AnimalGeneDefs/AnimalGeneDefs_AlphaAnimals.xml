@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- Carrying capacity -->
+	<VEF.AnimalGenes.AnimalGeneDef>
+		<defName>VRE_Packbeast</defName>
+		<description>This creature possesses an exceptional carrying capacity, allowing it to haul enormous loads on caravans.</description>
+		<label>packbeast</label>
+		<stability>-2</stability>
+		<iconPath>UI/AnimalGenes/AnimalGene_Carry</iconPath>
+		<marketValueFactor>1.2</marketValueFactor>
+		<isSpecialized>true</isSpecialized>
+		<statFactors>
+			<VEF_MassCarryCapacity>1.4</VEF_MassCarryCapacity>
+			<MarketValue>1.2</MarketValue>
+		</statFactors>
+		<familyTag>VRE_CarryingCapacity</familyTag>
+	</VEF.AnimalGenes.AnimalGeneDef>
+	<VEF.AnimalGenes.AnimalGeneDef>
+		<defName>VRE_Strongbacked</defName>
+		<description>This creature can carry a substantial amount of weight, making it highly useful for transporting supplies on caravans.</description>
+		<label>strongbacked</label>
+		<stability>-1</stability>
+		<isSpecialized>true</isSpecialized>
+		<iconPath>UI/AnimalGenes/AnimalGene_Carry</iconPath>
+		<statFactors>
+			<VEF_MassCarryCapacity>1.15</VEF_MassCarryCapacity>
+		</statFactors>
+		<familyTag>VRE_CarryingCapacity</familyTag>
+	</VEF.AnimalGenes.AnimalGeneDef>
+	<VEF.AnimalGenes.AnimalGeneDef>
+		<defName>VRE_AverageCarryingCapacity</defName>
+		<description>This creature has an ordinary carrying capacity, suitable for routine caravan travel.</description>
+		<label>normal carrying capacity</label>
+		<stability>0</stability>
+		<isSpecialized>true</isSpecialized>
+		<iconPath>UI/AnimalGenes/AnimalGene_Carry</iconPath>
+		<familyTag>VRE_CarryingCapacity</familyTag>
+	</VEF.AnimalGenes.AnimalGeneDef>
+	<VEF.AnimalGenes.AnimalGeneDef>
+		<defName>VRE_Lightbacked</defName>
+		<description>This creature has a limited carrying capacity, restricting how much it can transport.</description>
+		<label>lightbacked</label>
+		<stability>1</stability>
+		<isSpecialized>true</isSpecialized>
+		<iconPath>UI/AnimalGenes/AnimalGene_Carry</iconPath>
+		<statFactors>
+			<VEF_MassCarryCapacity>0.85</VEF_MassCarryCapacity>
+		</statFactors>
+		<familyTag>VRE_CarryingCapacity</familyTag>
+	</VEF.AnimalGenes.AnimalGeneDef>
+	<VEF.AnimalGenes.AnimalGeneDef>
+		<defName>VRE_Weakbacked</defName>
+		<description>This creature can carry very little weight, making it poorly suited for carrying supplies on caravans.</description>
+		<label>weakbacked</label>
+		<stability>2</stability>
+		<isSpecialized>true</isSpecialized>
+		<marketValueFactor>0.9</marketValueFactor>
+		<iconPath>UI/AnimalGenes/AnimalGene_Carry</iconPath>
+		<statFactors>
+			<VEF_MassCarryCapacity>0.6</VEF_MassCarryCapacity>
+			<MarketValue>0.9</MarketValue>
+		</statFactors>
+		<familyTag>VRE_CarryingCapacity</familyTag>
+	</VEF.AnimalGenes.AnimalGeneDef>
+	<!-- Bulk carry -->
+	<VEF.AnimalGenes.AnimalGeneDef>
+		<defName>VRE_LegendaryBulkCarry</defName>
+		<description>Carrier of this gene can carry an enormous amount of extra weight, both while hauling and on caravans, barely slowing under burdens that would overwhelm other creatures.</description>
+		<label>legendary bulk carry</label>
+		<stability>-2</stability>
+		<iconPath>UI/AnimalGenes/AnimalGene_BulkCarry</iconPath>
+		<marketValueFactor>1.2</marketValueFactor>
+		<isSpecialized>true</isSpecialized>
+		<statFactors>
+			<VEF_MassCarryCapacity>2</VEF_MassCarryCapacity>
+			<MarketValue>1.2</MarketValue>
+		</statFactors>
+		<statOffsets>
+			<CarryingCapacity>30</CarryingCapacity>
+		</statOffsets>
+		<familyTag>VRE_BulkCarry</familyTag>
+	</VEF.AnimalGenes.AnimalGeneDef>
+	<VEF.AnimalGenes.AnimalGeneDef>
+		<defName>VRE_ExcellentBulkCarry</defName>
+		<description>Carrier of this gene can carry a substantial amount of extra weight, making it an excellent hauler and caravan animal.</description>
+		<label>excellent bulk carry</label>
+		<stability>-1</stability>
+		<isSpecialized>true</isSpecialized>
+		<iconPath>UI/AnimalGenes/AnimalGene_BulkCarry</iconPath>
+		<statOffsets>
+			<CarryingCapacity>15</CarryingCapacity>
+		</statOffsets>
+		<statFactors>
+			<VEF_MassCarryCapacity>1.5</VEF_MassCarryCapacity>
+		</statFactors>
+		<familyTag>VRE_BulkCarry</familyTag>
+	</VEF.AnimalGenes.AnimalGeneDef>
+	<VEF.AnimalGenes.AnimalGeneDef>
+		<defName>VRE_NormalBulkCarry</defName>
+		<description>Carrier of this gene can carry a reasonable amount of extra weight both while hauling and on caravans.</description>
+		<label>normal bulk carry</label>
+		<stability>0</stability>
+		<isSpecialized>true</isSpecialized>
+		<iconPath>UI/AnimalGenes/AnimalGene_BulkCarry</iconPath>
+		<familyTag>VRE_BulkCarry</familyTag>
+		<statOffsets>
+			<CarryingCapacity>7</CarryingCapacity>
+		</statOffsets>
+		<statFactors>
+			<VEF_MassCarryCapacity>1</VEF_MassCarryCapacity>
+		</statFactors>
+	</VEF.AnimalGenes.AnimalGeneDef>
+	<VEF.AnimalGenes.AnimalGeneDef>
+		<defName>VRE_PoorBulkCarry</defName>
+		<description>Carrier of this gene can carry a modest amount of extra weight, but is easily burdened by heavy loads.</description>
+		<label>poor bulk carry</label>
+		<stability>1</stability>
+		<isSpecialized>true</isSpecialized>
+		<iconPath>UI/AnimalGenes/AnimalGene_BulkCarry</iconPath>
+		<statOffsets>
+			<CarryingCapacity>5</CarryingCapacity>
+		</statOffsets>
+		<statFactors>
+			<VEF_MassCarryCapacity>0.8</VEF_MassCarryCapacity>
+		</statFactors>
+		<familyTag>VRE_BulkCarry</familyTag>
+	</VEF.AnimalGenes.AnimalGeneDef>
+	<VEF.AnimalGenes.AnimalGeneDef>
+		<defName>VRE_AwfulBulkCarry</defName>
+		<description>Carrier of this gene can carry only a little extra weight, making it a poor hauler and caravan animal.</description>
+		<label>awful bulk carry</label>
+		<stability>2</stability>
+		<isSpecialized>true</isSpecialized>
+		<marketValueFactor>0.9</marketValueFactor>
+		<iconPath>UI/AnimalGenes/AnimalGene_BulkCarry</iconPath>
+		<statFactors>
+			<VEF_MassCarryCapacity>0.5</VEF_MassCarryCapacity>
+			<MarketValue>0.9</MarketValue>
+		</statFactors>
+		<statOffsets>
+			<CarryingCapacity>1</CarryingCapacity>
+		</statOffsets>
+		<familyTag>VRE_BulkCarry</familyTag>
+	</VEF.AnimalGenes.AnimalGeneDef>
+	<!-- Beetle eggs yield -->
+	<VEF.AnimalGenes.AnimalGeneDef>
+		<defName>VRE_AbundantBeetleEggYield</defName>
+		<description>This beetle produces an exceptional number of eggs, rapidly expanding its population when allowed to breed.</description>
+		<label>abundant beetle egg yield</label>
+		<stability>-2</stability>
+		<iconPath>Things/Item/Resource/AA_EggBeetle/AA_EggBeetle_b</iconPath>
+		<marketValueFactor>1.2</marketValueFactor>
+		<isSpecialized>true</isSpecialized>
+		<statFactors>
+			<VRE_EggIntervalFactor>0.65</VRE_EggIntervalFactor>
+			<MarketValue>1.2</MarketValue>
+		</statFactors>
+		<statOffsets>
+			<VRE_EggYieldOffset>1</VRE_EggYieldOffset>
+		</statOffsets>
+		<familyTag>VRE_BeetleEggsYield</familyTag>
+	</VEF.AnimalGenes.AnimalGeneDef>
+	<VEF.AnimalGenes.AnimalGeneDef>
+		<defName>VRE_ProlificBeetleEggYield</defName>
+		<description>This beetle lays eggs more frequently than normal, producing clutches in shorter intervals.</description>
+		<label>prolific beetle egg yield</label>
+		<stability>-1</stability>
+		<isSpecialized>true</isSpecialized>
+		<iconPath>Things/Item/Resource/AA_EggBeetle/AA_EggBeetle_b</iconPath>
+		<statFactors>
+			<VRE_EggIntervalFactor>0.8</VRE_EggIntervalFactor>
+		</statFactors>
+		<familyTag>VRE_BeetleEggsYield</familyTag>
+	</VEF.AnimalGenes.AnimalGeneDef>
+	<VEF.AnimalGenes.AnimalGeneDef>
+		<defName>VRE_AverageBeetleEggYield</defName>
+		<description>This beetle lays an average number of eggs.</description>
+		<label>average beetle egg yield</label>
+		<stability>0</stability>
+		<isSpecialized>true</isSpecialized>
+		<iconPath>Things/Item/Resource/AA_EggBeetle/AA_EggBeetle_b</iconPath>
+		<familyTag>VRE_BeetleEggsYield</familyTag>
+	</VEF.AnimalGenes.AnimalGeneDef>
+	<VEF.AnimalGenes.AnimalGeneDef>
+		<defName>VRE_SparseBeetleEggYield</defName>
+		<description>This beetle lays eggs less frequently than normal.</description>
+		<label>sparse beetle egg yield</label>
+		<stability>1</stability>
+		<isSpecialized>true</isSpecialized>
+		<iconPath>Things/Item/Resource/AA_EggBeetle/AA_EggBeetle_b</iconPath>
+		<statFactors>
+			<VRE_EggIntervalFactor>1.25</VRE_EggIntervalFactor>
+		</statFactors>
+		<familyTag>VRE_BeetleEggsYield</familyTag>
+	</VEF.AnimalGenes.AnimalGeneDef>
+	<VEF.AnimalGenes.AnimalGeneDef>
+		<defName>VRE_BarrenBeetleEggYield</defName>
+		<description>This beetle produces eggs only rarely, making it poorly suited for breeding.</description>
+		<label>barren beetle egg yield</label>
+		<stability>2</stability>
+		<isSpecialized>true</isSpecialized>
+		<marketValueFactor>0.9</marketValueFactor>
+		<iconPath>Things/Item/Resource/AA_EggBeetle/AA_EggBeetle_b</iconPath>
+		<statFactors>
+			<VRE_EggIntervalFactor>2</VRE_EggIntervalFactor>
+			<MarketValue>0.9</MarketValue>
+		</statFactors>
+		<statOffsets>
+			<VRE_EggYieldOffset>-1</VRE_EggYieldOffset>
+		</statOffsets>
+		<familyTag>VRE_BeetleEggsYield</familyTag>
+	</VEF.AnimalGenes.AnimalGeneDef>
+	<!-- Rest rate -->
+	<VEF.AnimalGenes.AnimalGeneDef>
+		<defName>VRE_Tireless</defName>
+		<description>Carrier of this gene requires almost no sleep compared to other animals.</description>
+		<label>tireless</label>
+		<stability>-2</stability>
+		<iconPath>UI/AnimalGenes/AnimalGene_RestRate</iconPath>
+		<marketValueFactor>1.2</marketValueFactor>
+		<isSpecialized>true</isSpecialized>
+		<statFactors>
+			<RestRateMultiplier>0.1</RestRateMultiplier>
+			<MarketValue>1.2</MarketValue>
+		</statFactors>
+		<hediffToAdd>AA_LowRest_HighestRank</hediffToAdd>
+		<familyTag>VRE_RestRate</familyTag>
+	</VEF.AnimalGenes.AnimalGeneDef>
+	<VEF.AnimalGenes.AnimalGeneDef>
+		<defName>VRE_Sleepless</defName>
+		<description>Carrier of this gene requires considerably less sleep than other animals.</description>
+		<label>sleepless</label>
+		<stability>-1</stability>
+		<isSpecialized>true</isSpecialized>
+		<iconPath>UI/AnimalGenes/AnimalGene_RestRate</iconPath>
+		<statFactors>
+			<RestRateMultiplier>0.25</RestRateMultiplier>
+		</statFactors>
+		<familyTag>VRE_RestRate</familyTag>
+		<hediffToAdd>AA_LowRest_HighRank</hediffToAdd>
+	</VEF.AnimalGenes.AnimalGeneDef>
+	<VEF.AnimalGenes.AnimalGeneDef>
+		<defName>VRE_ReducedRestRate</defName>
+		<description>Carrier of this gene requires less sleep than most animals.</description>
+		<label>reduced sleep need</label>
+		<stability>0</stability>
+		<isSpecialized>true</isSpecialized>
+		<iconPath>UI/AnimalGenes/AnimalGene_RestRate</iconPath>
+		<familyTag>VRE_RestRate</familyTag>
+		<hediffToAdd>AA_LowRest</hediffToAdd>
+		<statFactors>
+			<RestRateMultiplier>0.4</RestRateMultiplier>
+		</statFactors>
+	</VEF.AnimalGenes.AnimalGeneDef>
+	<VEF.AnimalGenes.AnimalGeneDef>
+		<defName>VRE_MildlyEfficientSleeper</defName>
+		<description>Carrier of this gene requires somewhat less sleep than other animals.</description>
+		<label>mildly efficient sleeper</label>
+		<stability>1</stability>
+		<isSpecialized>true</isSpecialized>
+		<iconPath>UI/AnimalGenes/AnimalGene_RestRate</iconPath>
+		<statFactors>
+			<RestRateMultiplier>0.75</RestRateMultiplier>
+		</statFactors>
+		<familyTag>VRE_RestRate</familyTag>
+		<hediffToAdd>AA_LowRest_LowRank</hediffToAdd>
+	</VEF.AnimalGenes.AnimalGeneDef>
+	<VEF.AnimalGenes.AnimalGeneDef>
+		<defName>VRE_NormalSleeper</defName>
+		<description>Carrier of this gene has the normal need for sleep.</description>
+		<label>normal sleeper</label>
+		<stability>2</stability>
+		<isSpecialized>true</isSpecialized>
+		<marketValueFactor>0.9</marketValueFactor>
+		<iconPath>UI/AnimalGenes/AnimalGene_RestRate</iconPath>
+		<statFactors>
+			<RestRateMultiplier>1</RestRateMultiplier>
+			<MarketValue>0.9</MarketValue>
+		</statFactors>
+		<familyTag>VRE_RestRate</familyTag>
+		<hediffToAdd>AA_LowRest_LowestRank</hediffToAdd>
+	</VEF.AnimalGenes.AnimalGeneDef>
+
+</Defs>

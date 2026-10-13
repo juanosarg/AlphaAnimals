@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VEF.AnimalGenes.FeratypeDef>
+		<defName>AA_GreyCoatedMouflon</defName>
+		<description>A genetically modified variant of wild sheep that produces a thick grey wool that acts as a great insulator.</description>
+		<feratypeFamily>VRE_Goats</feratypeFamily>
+		<label>grey-coated mouflon</label>
+		<race>AA_GreyCoatedMouflon</race>
+		<iconPath>UI/FeratypeIcons/Feratype_Moufflon</iconPath>
+		<animalGenes>
+			<li>VRE_AverageVitality</li>
+			<li>VRE_AverageSpeed</li>
+			<li>VRE_AverageSize</li>
+			<li>VRE_Filthy</li>
+			<li>VRE_AverageWildness</li>
+			<li>VRE_AverageMetabolism</li>
+			<li>VRE_AverageBuild</li>
+			<li>VRE_IntermediateIntelligence</li>
+			<li>VRE_AverageWool</li>
+		</animalGenes>
+	</VEF.AnimalGenes.FeratypeDef>
+	
+	<VEF.AnimalGenes.FeratypeDef>
+		<defName>AA_NightRam</defName>
+		<description>A stubborn herbivore that shares much of its genome with the predatory Nightling, hinting at a common origin.</description>
+		<feratypeFamily>VRE_Goats</feratypeFamily>
+		<label>nightram</label>
+		<race>AA_NightRam</race>
+		<iconPath>UI/FeratypeIcons/Feratype_NightRam</iconPath>
+		<animalGenes>
+			<li>VRE_GoodVitality</li>
+			<li>VRE_AverageSpeed</li>
+			<li>VRE_AverageSize</li>
+			<li>VRE_AverageCleanliness</li>
+			<li>VRE_AverageWildness</li>
+			<li>VRE_AverageMetabolism</li>
+			<li>VRE_Lean</li>
+			<li>VRE_AverageIntelligence</li>
+			<li>VRE_AverageMilk</li>
+		</animalGenes>
+	</VEF.AnimalGenes.FeratypeDef>
+</Defs>

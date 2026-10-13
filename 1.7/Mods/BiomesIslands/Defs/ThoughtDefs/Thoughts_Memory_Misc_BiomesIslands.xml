@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThoughtDef>
+		<defName>AA_HorrifyingDread</defName>
+		<durationDays>0.5</durationDays>
+		<thoughtClass>VEF.Cooking.Thought_Hediff</thoughtClass>
+		<hediff>AA_HorrifyingDread</hediff>
+		<stackLimit>1</stackLimit>
+	
+		<nullifyingTraits>
+			<li>Psychopath</li>
+		</nullifyingTraits>
+		<nullifyingGenes>
+			<li MayRequire="Ludeon.RimWorld.Biotech">Hemogenic</li>
+		</nullifyingGenes>
+		<stages>
+			<li>
+				<label>horrifying dread</label>
+				<description>I can't get its visage out of my head...</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+</Defs>

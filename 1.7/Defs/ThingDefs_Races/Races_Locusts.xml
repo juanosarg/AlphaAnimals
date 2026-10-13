@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>AA_Locusts</defName>
+		<label>locusts</label>
+		<description>A locust swarm. If left unchecked they will devour all yellow grass in the area.</description>
+		<statBases>
+			<MoveSpeed>2.0</MoveSpeed>
+			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
+			<MarketValue>5</MarketValue>
+			<LeatherAmount>0</LeatherAmount>
+			<MeatAmount>0</MeatAmount>
+			<MaxFlightTime>1000000</MaxFlightTime>
+			<FlightCooldown>0</FlightCooldown>
+			<Wildness>1</Wildness>
+			<Flammability>1</Flammability>
+		</statBases>
+		<uiIconScale>1.5</uiIconScale>
+		<tools>
+			<li>
+				<label>mandibles</label>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>1</power>
+				<cooldownTime>40</cooldownTime>
+				<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+			</li>
+		</tools>
+		<comps>
+			<li Class="VEF.AnimalBehaviours.CompProperties_EatWeirdFood">
+				<customThingToEat>
+					<li>Plant_YellowGrass</li>
+					<li>Plant_YellowTallGrass</li>
+					<li>VCE_Grass</li>
+					<li>VCE_TallGrass</li>
+					<li>Plant_Grass</li>
+					<li>Plant_TallGrass</li>
+				</customThingToEat>
+				<digThingIfMapEmpty>false</digThingIfMapEmpty>
+				<fullyDestroyThing>true</fullyDestroyThing>
+				
+				<needsWater>false</needsWater>
+			</li>
+		</comps>
+		<race>
+			<renderTree>AA_Locusts</renderTree>
+			<deathAction Class="DeathActionProperties_Vanish">
+				
+			</deathAction>
+			<thinkTreeMain>VEF_AnimalWeirdEater</thinkTreeMain>
+			<body>AA_Locusts</body>
+			<baseBodySize>0.01</baseBodySize>
+			<canBePredatorPrey>false</canBePredatorPrey>
+			<baseHungerRate>4</baseHungerRate>
+			<foodType>VegetarianRoughAnimal</foodType>
+			<baseHealthScale>0.01</baseHealthScale>
+			<useMeatFrom>Megaspider</useMeatFrom>
+			<lifeExpectancy>1</lifeExpectancy>
+			<trainability>None</trainability>
+			<flightStartChanceOnJobStart>1</flightStartChanceOnJobStart>
+			<flightSpeedFactor>1</flightSpeedFactor>
+			<canFlyIntoMap>true</canFlyIntoMap>
+			<lifeStageAges>
+				<li>
+					<def>EusocialInsectAdult</def>
+					<minAge>0</minAge>
+					<soundWounded>Pawn_Megascarab_Wounded</soundWounded>
+					<soundDeath>Pawn_Megascarab_Death</soundDeath>
+					<soundCall>Pawn_Megascarab_Call</soundCall>
+					<soundAngry>Pawn_Megascarab_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<tradeTags>
+			<li>AnimalAlpha</li>
+		</tradeTags>
+	</ThingDef>
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>AA_Locusts</defName>
+		<label>locusts</label>
+		<race>AA_Locusts</race>
+		<wildGroupSize>
+			<min>2</min>
+			<max>5</max>
+		</wildGroupSize>
+		<combatPower>1</combatPower>
+		<ecoSystemWeight>0.01</ecoSystemWeight>
+		<canArriveManhunter>false</canArriveManhunter>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/AA_Locusts/AA_LocustsThree</texPath>
+					<drawSize>1.4</drawSize>
+				</bodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+</Defs>

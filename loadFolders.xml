@@ -1,12 +1,5 @@
 <loadFolders>
-	<v1.5>
-		<li>/</li>
-		<li>1.5</li>
-		<li IfModActive="VanillaExpanded.VPsycastsE">1.5/Mods/VanillaPsycastsExpanded</li>
-		<li IfModActive="VanillaExpanded.VPsycastsE_steam">1.5/Mods/VanillaPsycastsExpanded</li>
-		<li IfModActive="BiomesTeam.BiomesIslands">1.5/Mods/BiomesIslands</li>
-		<li IfModActive="OskarPotocki.VFE.Insectoid2">1.5/Mods/VFEInsectoids2</li>
-	</v1.5>
+	
 	<v1.6>
 		<li>/</li>
 		<li>1.6</li>
@@ -18,6 +11,17 @@
 		<li IfModActive="VanillaStorytellersExpanded.WinstonWave">1.6/Mods/Winston</li>
 		<li IfModActive="vanillaexpanded.ranching">1.6/Mods/VanillaRanchingExpanded</li>
 	</v1.6>
+	<v1.7>
+		<li>/</li>
+		<li>1.7</li>
+		<li IfModActive="VanillaExpanded.VPsycastsE">1.7/Mods/VanillaPsycastsExpanded</li>
+		<li IfModActive="VanillaExpanded.VPsycastsE_steam">1.7/Mods/VanillaPsycastsExpanded</li>
+		<li IfModActive="BiomesTeam.BiomesIslands">1.7/Mods/BiomesIslands</li>
+		<li IfModActive="OskarPotocki.VFE.Insectoid2">1.7/Mods/VFEInsectoids2</li>
+		<li IfModActive="vanillaexpanded.achievements">1.7/Mods/Achievements</li>
+		<li IfModActive="VanillaStorytellersExpanded.WinstonWave">1.7/Mods/Winston</li>
+		<li IfModActive="vanillaexpanded.ranching">1.7/Mods/VanillaRanchingExpanded</li>
+	</v1.7>
 </loadFolders>
 
 
