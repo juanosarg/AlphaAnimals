@@ -17,22 +17,25 @@ namespace AlphaBehavioursAndEvents
             foreach (GlobalTargetInfo target in targets)
             {
                 Pawn pawn = target.Thing as Pawn;
-                List<BodyPartRecord> eyes = (from c in pawn.health.hediffSet.GetNotMissingParts(BodyPartHeight.Undefined, BodyPartDepth.Undefined, null, null)
-                                             where c.def == BodyPartDefOf.Eye
-                                             select c).ToList();
+                if (pawn != null) {
+                    List<BodyPartRecord> eyes = (from c in pawn.health.hediffSet.GetNotMissingParts(BodyPartHeight.Undefined, BodyPartDepth.Undefined, null, null)
+                                                 where c.def == BodyPartDefOf.Eye
+                                                 select c).ToList();
 
-                              
-                if (eyes != null && eyes.Count>0)
-                {
-                    foreach(BodyPartRecord eye in eyes)
+
+                    if (eyes != null && eyes.Count > 0)
                     {
-                        DamageInfo damageInfo = new DamageInfo(DamageDefOf.Burn, 1000, 999f, -1f, this.pawn, eye, null, DamageInfo.SourceCategory.ThingOrUnknown, null, true, true);
-                        damageInfo.SetAllowDamagePropagation(false);
-                        pawn.TakeDamage(damageInfo);
-                    } 
+                        foreach (BodyPartRecord eye in eyes)
+                        {
+                            DamageInfo damageInfo = new DamageInfo(DamageDefOf.Burn, 1000, 999f, -1f, this.pawn, eye, null, DamageInfo.SourceCategory.ThingOrUnknown, null, true, true);
+                            damageInfo.SetAllowDamagePropagation(false);
+                            pawn.TakeDamage(damageInfo);
+                        }
 
-                    
+
+                    }
                 }
+                
 
 
             }

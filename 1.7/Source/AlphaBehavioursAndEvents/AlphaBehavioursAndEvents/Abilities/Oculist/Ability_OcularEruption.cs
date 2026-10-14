@@ -17,22 +17,24 @@ namespace AlphaBehavioursAndEvents
             foreach (GlobalTargetInfo target in targets)
             {
                 Pawn pawn = target.Thing as Pawn;
-                IntRange numberOfEyes = new IntRange(4,7);
+                if (pawn != null)
+                {
+                    IntRange numberOfEyes = new IntRange(4, 7);
 
-                List<BodyPartRecord> pieces = pawn.health.hediffSet.GetNotMissingParts(BodyPartHeight.Undefined, BodyPartDepth.Undefined, null, null).ToList();
+                    List<BodyPartRecord> pieces = pawn.health.hediffSet.GetNotMissingParts(BodyPartHeight.Undefined, BodyPartDepth.Undefined, null, null).ToList();
 
-                if (pieces!=null && pieces.Count > 0) {
-                    for (int i = 0; i < numberOfEyes.RandomInRange; i++)
+                    if (pieces != null && pieces.Count > 0)
                     {
-                        BodyPartRecord part = pieces.RandomElement();
-                        var hediff = HediffMaker.MakeHediff(HediffDef.Named("AA_MalevolentEye"), pawn, part);
-                        pawn.health.AddHediff(hediff,part);
+                        for (int i = 0; i < numberOfEyes.RandomInRange; i++)
+                        {
+                            BodyPartRecord part = pieces.RandomElement();
+                            var hediff = HediffMaker.MakeHediff(HediffDef.Named("AA_MalevolentEye"), pawn, part);
+                            pawn.health.AddHediff(hediff, part);
+                        }
+
                     }
-
                 }
-                
-                
-
+  
 
             }
         }
