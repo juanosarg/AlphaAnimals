@@ -24,7 +24,8 @@
 		<xpath>Defs/ThingDef[defName="AA_Gigantelope"]/race</xpath>
 		<value>
 			<canCrossBreedWith>
-				
+				<li>Boomalope</li>
+				<li MayRequire="Ludeon.RimWorld.Biotech">Toxalope</li>
 			</canCrossBreedWith>
 		</value>
 	</Operation>

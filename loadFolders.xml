@@ -9,7 +9,7 @@
 		<li IfModActive="OskarPotocki.VFE.Insectoid2">1.6/Mods/VFEInsectoids2</li>
 		<li IfModActive="vanillaexpanded.achievements">1.6/Mods/Achievements</li>
 		<li IfModActive="VanillaStorytellersExpanded.WinstonWave">1.6/Mods/Winston</li>
-		<li IfModActive="vanillaexpanded.ranching">1.6/Mods/VanillaRanchingExpanded</li>
+		
 	</v1.6>
 	<v1.7>
 		<li>/</li>
